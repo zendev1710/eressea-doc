@@ -22,3 +22,7 @@ In der Vergangenheit hieß die Meldung "Deine Partei ist noch x Wochen immun geg
 Weiterlesen: [Befehle einschicken][befehle-einschicken].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welpenschutz&oldid=7255] -->
+
+[bef-attackiere]: [[bef-attackiere]]
+[bef-beklaue]: [[bef-beklaue]]
+[bef-bewache]: [[bef-bewache]]

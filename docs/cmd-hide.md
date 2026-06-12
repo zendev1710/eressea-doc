@@ -55,3 +55,5 @@ With `HIDE race` [demons][demons-id] can disguise themselves as another race.
 - [[stealth]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=HIDE&oldid=15791] -->
+
+[cmd-help]: [[cmd-help]]

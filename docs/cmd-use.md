@@ -20,3 +20,5 @@ These include [Antimagic Crystal][t-create-an-antimagic-crystal-id] and some fac
 These can have additional parameters, which are specified in the item [description][cmd-show].
 
 <!-- From [https://wiki.eressea.de/index.php?title=USE&oldid=16350] -->
+
+[cmd-show]: [[cmd-show]]

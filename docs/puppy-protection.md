@@ -23,3 +23,7 @@ This system aims to improve game balance for new factions.
 Continue reading: [[sending-orders]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welpenschutz&oldid=7255] -->
+
+[cmd-attack]: [[cmd-attack]]
+[cmd-guard]: [[cmd-guard]]
+[cmd-steal]: [[cmd-steal]]

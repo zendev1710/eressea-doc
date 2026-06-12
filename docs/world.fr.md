@@ -3,7 +3,10 @@
 alias: le-monde-d-eressea
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+
+[](){ #le-monde-d-eressea-id }
+
 # Le Monde d'Eressea
 
 ## Géographie
@@ -38,7 +41,7 @@ Rahel reconnut des forêts et des montagnes, de nombreux marais et quelques plai
 </div>
 
 Dans cet exemple, à l'emplacement (0,0) se trouve un marais, au nord-est à l'emplacement (0,1) une montagne.  
-Chaque faction d'Eressea a son propre système de coordonnées, qui peut être modifié avec l'ordre [[cmd-origin]], par exemple pour l'aligner sur celui d'une autre faction.  
+Chaque faction d'Eressea a son propre système de coordonnées, qui peut être modifié avec l'ordre [[cmd-origin-fr]], par exemple pour l'aligner sur celui d'une autre faction.  
 
 <div class="lore-dialogue">
 "Bien, mon enfant", confirma Selen au chat, bien plus jeune qu'elle.
@@ -89,13 +92,13 @@ Le type de terrain détermine également quelles [[plantes]] peuvent pousser dan
 Un alchimiste pourra concocter des [potions][potions-fr-id] utiles à partir de différents ingrédients.  
 Certaines herbes ne poussent que dans les déserts, d'autres ont besoin du climat humide d'un marais, il y a donc pour chaque terrain des herbes qui ne peuvent pousser que là.  
 Les herbes qui y poussent ne peuvent toutefois pas être modifiées.  
-Même si toutes les herbes de la région ont été arrachées, seule l'herbe qui y poussait à l'origine peut être replantée [[cmd-plant]].  
+Même si toutes les herbes de la région ont été arrachées, seule l'herbe qui y poussait à l'origine peut être replantée [[cmd-plant-fr]].  
 En cas de doute, il faut essayer de voir quelle herbe a déjà poussé ici.  
 En général, les herbes ne poussent pas dans les volcans.  
 
 Dans chaque région, il est possible de construire des [[routes]].  
 Les coûts varient en fonction du terrain.  
-De plus, la construction de routes dans les glaciers, les marais et les déserts n'est possible que si des [[batiments-speciaux]] s'y trouvent.  
+De plus, la construction de routes dans les glaciers, les marais et les déserts n'est possible que si des [bâtiments spéciaux][batiments-speciaux] s'y trouvent.  
 
 De plus, le type de terrain détermine quelles [[ressources]] peuvent être trouvées dans la région et avec quelle chance.  
 Ainsi, dans les montagnes et les glaciers où aucune ressource n'a encore été extraite, on trouve toujours du fer et des pierres dès le niveau d'extraction 1.  
@@ -134,7 +137,7 @@ Pour la région suivante, les informations sont expliquées en détail :
 
 `Vîpot (3,-4), Desert, 0/1 Trees, 22 Stones/3, 190 Peasants, 5765 Silvers, 36 Horses.`
 
-La région porte le nom de "Vîpot" et a les coordonnées (3,-4) vues depuis les coordonnées d'[origine][cmd-origin] de la faction.  
+La région porte le nom de "Vîpot" et a les coordonnées (3,-4) vues depuis les coordonnées d'[origine][cmd-origin-fr] de la faction.  
 Un autre joueur - avec une autre ORIGINE - connaît la même région sous le même nom mais avec des coordonnées différentes.  
 La région est un désert.  
 Dans un désert, il y a au maximum 500 emplois libres.  
@@ -183,7 +186,7 @@ Le nombre d'arbres et de montures trouvés dans la région est également indiqu
 Les pierres et le fer n'y ont pas encore été découverts."
 </div>
 
-Les paysans vivant dans la région peuvent être recrutés dans sa faction avec l'ordre [[cmd-recruit]], les arbres peuvent être abattus et les chevaux domestiqués avec l'ordre [[cmd-make]].  
+Les paysans vivant dans la région peuvent être recrutés dans sa faction avec l'ordre [[cmd-recruit-fr]], les arbres peuvent être abattus et les chevaux domestiqués avec l'ordre [[cmd-make-fr]].  
 
 <div class="lore-dialogue">
 — "Très bien, Rahel. Et que disent les lignes en dessous ?"
@@ -364,11 +367,13 @@ Second mois d'été.
 ## Voir aussi
 
 - [L'argent][argent]
-- [[cmd-recruit]]
-- [[cmd-entertain]]
+- [[cmd-recruit-fr]]
+- [[cmd-entertain-fr]]
 
-Poursuivre la lecture : [faction].
+Poursuivre la lecture : [faction][faction].
 
 [^1]: quelque soit le nombre d'arbres.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welt/fr&oldid=16558] -->
+
+[cmd-origin-fr]: [[cmd-origin-fr]]

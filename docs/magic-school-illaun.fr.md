@@ -8,7 +8,7 @@ alias: sorts-illaun
 
 Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de niveau croissant.  
 
-*Note : Dans les descriptions ci-dessous N représente le niveau spécifié sur les ordres [[cmd-cast]] ou [[cmd-combatspell]] lancés.*
+*Note : Dans les descriptions ci-dessous N représente le niveau spécifié sur les ordres [[cmd-cast-fr]] ou [[cmd-combatspell-fr]] lancés.*
 
 ## Niveau 1
 
@@ -99,13 +99,13 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 <!-- cspell:enable -->
 
 :   Avec l’aide de ce rituel mystérieux, le tisserand de rêves est capable de dissimuler la véritable forme d’un groupe.  
-    Pour les observateurs inexpérimentés, elle semble alors appartenir à une race différente.
+    Pour les observateurs inexpérimentés, elle semble alors appartenir à un peuple différent.
 
 | Composants | Niv. |  Type  | Rang | B | D |
 |:----------:|:----:|:------:|:----:|:-:|:-:|
 |   N aura   |  3   | Normal |  5   |   |   |
 
-`CAST [LEVEL n] Shapeshift <unit-id> <race>`  
+`CAST [LEVEL n] Shapeshift <unit-id> <peuple>`  
 
 ### Château d'Illusion
 

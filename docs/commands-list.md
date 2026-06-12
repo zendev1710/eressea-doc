@@ -1,6 +1,6 @@
 ---
 # cSpell:locale en
-alias: orders-list
+alias: list-of-orders
 ---
 <!-- disable some rules due to autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->
@@ -170,7 +170,7 @@ Continue reading: [[first-round]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kurzbeschreibung&oldid=16741] -->
 
-[//]: [[comment-with-slashes]]
+[//]: [[cmd-comment-with-slashes]]
 
 [ATTACK &lt;unit id&gt;]: [[cmd-attack]]
 [BANNER "&lt;text&gt;"]: [[cmd-banner]]

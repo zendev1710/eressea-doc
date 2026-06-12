@@ -78,7 +78,7 @@ Le plus simple est d’utiliser le modèle d'ordres à la fin de l’évaluation
 Toutes les unités y sont répertoriées pour que vous n'oubliiez personne.  
 Si vous n'envoyez aucun ordre, les ordres du modèle d'ordres seront quand même exécutés automatiquement.  
 Même si vous n'envoyez des ordres que pour certaines de vos unités, les ordres du modèle d'ordres seront exécutés pour les unités restantes.  
-Si votre évaluation ne contient pas de modèle d'ordres (d'extension `.txt`), vous pouvez le réactiver avec l'ordre [`OPTION ZUGVORLAGE`][cmd-option].  
+Si votre évaluation ne contient pas de modèle d'ordres (d'extension `.txt`), vous pouvez le réactiver avec l'ordre [`OPTION ZUGVORLAGE`][cmd-option-fr].  
 
 ## Ordres courts et longs
 
@@ -86,27 +86,27 @@ Il existe des ordres courts et des ordres longs dans Eressea.
 
 Les ordres **longs** sont les suivants :
 
-- [[cmd-work]],
-- [[cmd-attack]],
-- [[cmd-steal]],
-- [[cmd-ride]],
-- [[cmd-follow]],
-- [[cmd-research]],
-- [[cmd-buy]],
-- [[cmd-teach]],
-- [[cmd-learn]],
-- [[cmd-make]] (exception: `MAKE TEMP`),
-- [[cmd-move]],
-- [[cmd-plant]],
-- [[cmd-piracy]],
-- [[cmd-route]],
-- [[cmd-spy]],
-- [[cmd-tax]],
-- [[cmd-entertain]],
-- [[cmd-sell]],
-- [[cmd-cast]],
-- [[cmd-destroy]],
-- [[cmd-grow]].
+- [[cmd-work-fr]],
+- [[cmd-attack-fr]],
+- [[cmd-steal-fr]],
+- [[cmd-ride-fr]],
+- [[cmd-follow-fr]],
+- [[cmd-research-fr]],
+- [[cmd-buy-fr]],
+- [[cmd-teach-fr]],
+- [[cmd-learn-fr]],
+- [[cmd-make-fr]] (exception: `MAKE TEMP`),
+- [[cmd-move-fr]],
+- [[cmd-plant-fr]],
+- [[cmd-piracy-fr]],
+- [[cmd-route-fr]],
+- [[cmd-spy-fr]],
+- [[cmd-tax-fr]],
+- [[cmd-entertain-fr]],
+- [[cmd-sell-fr]],
+- [[cmd-cast-fr]],
+- [[cmd-destroy-fr]],
+- [[cmd-grow-fr]].
 
 Tous les autres ordres sont des ordres courts ([brève description] de tous les ordres).  
 
@@ -121,7 +121,7 @@ L'ordre par défaut est toujours dans le [modèle d'ordres] comme suggestion pou
 Il vous suffit donc de donner à un éleveur de chevaux l'ordre `MAKE Horse` une seule fois, et cet ordre apparaîtra dans le modèle d'ordres jusqu'à ce qu'il reçoive un autre ordre long (par exemple `LEARN Tazming`).  
 Il est logique que tous les ordres longs ne soient pas adoptés comme ordres par défaut.  
 Par exemple, les ordres longs `MOVE`, `ATTACK` et `FOLLOW` ne sont pas exécutés comme ordres par défaut.  
-Pour plus d'informations sur les ordres par défaut : [[cmd-default]].  
+Pour plus d'informations sur les ordres par défaut : [[cmd-default-fr]].  
 
 Une unité qui a travaillé un tour, s'est déplacée vers le nord le tour suivant, et qui n'a ensuite plus reçu d'ordres, se stabilisera et travaillera à nouveau le tour suivant (à moins, bien sûr, qu'elle reçoive un autre ordre long ce tour-là).  
 
@@ -170,9 +170,11 @@ Bien entendu, cela comporte le risque que vous manquiez des erreurs auxquelles v
 ## Voir aussi
 
 - [[sequence-des-ordres]]
-- [[orders-list]]
-- [[cmd-default]]
+- [[tableau-recapitulatif-des-ordres]]
+- [[cmd-default-fr]]
 
 Poursuivre la lecture : [[sequence-des-ordres]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehl&oldid=16787] -->
+
+[cmd-option-fr]: [[cmd-option-fr]]

@@ -395,10 +395,13 @@ Weiterlesen: [allianz][allianz].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg&oldid=16610] -->
 
-[bef-attackiere]: ./cmd-attack.md
 [`KÄMPFE`]: ./cmd-combat.md
 [bef-gruppe]: ./cmd-group.md
 [Helden]: ./cmd-promote.md
 [MACHE Katapultmunition]: ./cmd-make.md
-[bef-bewache]: ./cmd-guard.md
 [`PIRATERIE <parteinummer> ...`]: ./cmd-piracy.md
+
+[bef-attackiere]: [[bef-attackiere]]
+[bef-bewache]: [[bef-bewache]]
+[bef-folge]: [[bef-folge]]
+[bef-helfe]: [[bef-helfe]]

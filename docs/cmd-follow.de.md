@@ -64,3 +64,6 @@ Es wird immer nur der erste ausgeführt.
 [bef-route]: ./cmd-route.md
 [bef-transportiere]: ./cmd-carry.md
 [bef-piraterie]: ./cmd-piracy.md
+
+[bef-fahre]: [[bef-fahre]]
+[bef-nach]: [[bef-nach]]

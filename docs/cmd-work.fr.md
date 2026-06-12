@@ -39,6 +39,6 @@ Le nombre d’arbres pouvant se trouver dans une région n'a pas de limite.
 | [Plaine][plaine]{title="Plain"}                |                   10 000 |       1 250 |                      200 |
 | [Volcan][volcan]{title="Volcano"}              |                      500 |          63 |                       50 |
 
-Les unités à bord des bateaux dans les régions gardées par des unités étrangères ne peuvent pas travailler ou s'entretenir elles-mêmes (voir [[cmd-guard]], [[cmd-help]] et [[cmd-entertain]]).  
+Les unités à bord des bateaux dans les régions gardées par des unités étrangères ne peuvent pas travailler ou s'entretenir elles-mêmes (voir [[cmd-guard-fr]], [[cmd-help-fr]] et [[cmd-entertain-fr]]).  
 
 <!-- From [https://wiki.eressea.de/index.php?title=WORK/en&oldid=11713] -->

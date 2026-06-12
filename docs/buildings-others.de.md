@@ -292,3 +292,6 @@ Weiterlesen: [Parteipool][parteipool].
 [ZÜCHTE]: ./cmd-grow.md
 [ZERSTÖRE]: ./cmd-destroy.md
 [MACHE gebäudetyp]: ./cmd-make.md
+
+[bef-helfe]: [[bef-helfe]]
+[bef-mache]: [[bef-mache]]

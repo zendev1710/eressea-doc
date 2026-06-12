@@ -1,6 +1,6 @@
 ---
 # cSpell:locale en
-alias: skills-list
+alias: list-of-skills
 ---
 <!-- disable some rules due to autorefs plugin usage -->
 <!-- markdownlint-disable MD042 MD052 -->
@@ -207,3 +207,9 @@ Produce weapons from wood and metals (see [[items]]).
 Continue reading: [stealth][stealth-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente/en&oldid=15207] -->
+
+[cmd-grow]: [[cmd-grow]]
+[cmd-guard]: [[cmd-guard]]
+[cmd-make]: [[cmd-make]]
+[cmd-research]: [[cmd-research]]
+[cmd-steal]: [[cmd-steal]]

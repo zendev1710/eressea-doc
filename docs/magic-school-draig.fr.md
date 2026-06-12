@@ -8,7 +8,7 @@ alias: sorts-draig
 
 Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de niveau croissant.  
 
-*Note : Dans les descriptions ci-dessous N représente le niveau spécifié sur les ordres [[cmd-cast]] ou [[cmd-combatspell]] lancés.*
+*Note : Dans les descriptions ci-dessous N représente le niveau spécifié sur les ordres [[cmd-cast-fr]] ou [[cmd-combatspell-fr]] lancés.*
 
 ## Niveau 1
 

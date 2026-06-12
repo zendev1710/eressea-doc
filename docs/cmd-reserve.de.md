@@ -53,3 +53,5 @@ wird die Einheit ein Schwert und 50 Silber reservieren.
 <!-- From [https://wiki.eressea.de/index.php?title=RESERVIERE&oldid=14809] -->
 
 [bef-rekrutiere]: ./cmd-recruit.md
+
+[bef-gib]: [[bef-gib]]

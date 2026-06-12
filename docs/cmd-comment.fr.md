@@ -24,7 +24,7 @@ UNIT ub2;    Handyman [3,30$]
     // LEARN Shipbuilding AT T2 or T3
 ```
 
-Si vous utilisez le programme [[vorlage]] pour créer un modèle d'ordres, diverses informations sont transmises au joueur via ces commentaires :
+Si vous utilisez le programme [Vorlage][vorlage-fr-id] pour créer un modèle d'ordres, diverses informations sont transmises au joueur via ces commentaires :
 
 ```text
 REGION 85,-48 ; Darkland (Plain, 290 people, $4270 Silver)
@@ -51,10 +51,10 @@ UNIT ub2;  Handyman [3,0$] flieht
 ```
 
 Le joueur lui-même peut également insérer des commentaires après un point-virgule.
-Cependant, comme ces commentaires ne sont pas inclus dans le modèle de la semaine suivante, les commentaires permanents après [`//`][comment-with-slashes] ont généralement plus de sens.
+Cependant, comme ces commentaires ne sont pas inclus dans le modèle de la semaine suivante, les commentaires permanents après [`//`][cmd-comment-with-slashes-fr] ont généralement plus de sens.
 
 Pour économiser la capacité de transmission, les commentaires temporaires peuvent être supprimés avant l'envoi des ordres.
-Certains outils font cela, comme [[magellan]] ou VPP.
+Certains outils font cela, comme [Magellan][magellan-fr-id] ou VPP.
 
 ## Liens externes
 
@@ -63,3 +63,5 @@ Certains outils font cela, comme [[magellan]] ou VPP.
 <!-- From [https://wiki.eressea.de/index.php?title=;&oldid=16702] -->
 
 [Vorlage et VPP sur Gulrak.de]: http://www.gulrak.de/eressea/tools.html
+
+[cmd-comment-with-slashes-fr]: [[cmd-comment-with-slashes-fr]]

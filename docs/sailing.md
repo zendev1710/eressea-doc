@@ -131,9 +131,12 @@ Ships travel over coasts (ocean hexes with at least one adjacent land hex) or ov
 
 ## See also
 
-- [movement][travel]
+- [movement][movement]
 - [Ships][ships-id]
 
 Continue reading: [Production][production-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schiffsreise/en&oldid=15812] -->
+
+[cmd-carry]: [[cmd-carry]]
+[cmd-make]: [[cmd-make]]

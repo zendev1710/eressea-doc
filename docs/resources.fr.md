@@ -6,7 +6,7 @@ alias: ressources
 <!-- markdownlint-disable MD042 MD052 -->
 # Ressources
 
-Les matières premières peuvent être obtenues directement à partir des réserves des [régions][le-monde-d-eressea] sans aucun autre ingrédient.  
+Les matières premières peuvent être obtenues directement à partir des réserves des [régions][le-monde-d-eressea-id] sans aucun autre ingrédient.  
 Les ressources sont toutefois limitées et ne se régénèrent que lentement, voire pas du tout.  
 La compétence requise est indiquée dans le tableau de la section [objets].
 
@@ -104,7 +104,7 @@ Un cheval augmente également la vitesse de déplacement (d'une région supplém
 
 ## Exploitation des ressources
 
-Lors de l'exploitation des ressources, il est important de considérer que les unités en [garde][cmd-guard] empêchent l'exploitation, si les factions en garde n'ont ni [`HELP GUARD`][cmd-help] ni [`HELP ALL`][cmd-help] avec ta faction, ou donné l'ordre [`CONTACT`][cmd-contact] avec l'unité ou la faction qui exploite.  
+Lors de l'exploitation des ressources, il est important de considérer que les unités en [garde][cmd-guard-fr] empêchent l'exploitation, si les factions en garde n'ont ni [`HELP GUARD`][cmd-help-fr] ni [`HELP ALL`][cmd-help-fr] avec ta faction, ou donné l'ordre [`CONTACT`][cmd-contact-fr] avec l'unité ou la faction qui exploite.  
 Ceci ne s'applique pas si la faction en garde ne voit pas le producteur, par exemple parce qu'il est [dissimulé][discretion].  
 
 ### Ressources minières
@@ -126,7 +126,7 @@ Le développement de la végétation d'Eressea est déterminé par les saisons.
 Dès que les premiers rayons du soleil frappent le sol au printemps, les graines cachées dans le sol germent et les pousses d'arbres de l'année passée se transforment en arbres adultes.  
 S'il n'y a pas assez de soleil (pas d'espace de travail libre), les graines restent dormantes dans le sol.  
 
-Pendant les mois d'été et d'automne, les arbres matures jettent leurs graines, qui peuvent être ramassées avec l'ordre [`MAKE seed` ou `MAKE mallorn seed`][cmd-make] et la compétence [Herbalism] de niveau minimun 3 ou 4, puis replantées ailleurs avec l'ordre [`PLANT seed` ou `PLANT mallorn seed`][cmd-plant] (niveau minimum de 6 ou 7).
+Pendant les mois d'été et d'automne, les arbres matures jettent leurs graines, qui peuvent être ramassées avec l'ordre [`MAKE seed` ou `MAKE mallorn seed`][cmd-make-fr] et la compétence [Herbalism] de niveau minimun 3 ou 4, puis replantées ailleurs avec l'ordre [`PLANT seed` ou `PLANT mallorn seed`][cmd-plant-fr] (niveau minimum de 6 ou 7).
 
 Si du bois ou du mallorn est abattu, la forêt se rétrécit et ne se reconstitue que très lentement.
 Tant qu'il y a suffisamment de bois, il peut être abattu en n'importe quelle quantité.  
@@ -180,7 +180,7 @@ Compétences concernées : [sylviculture][sylviculture]{title="Forestry"}, [her
 *Horses (EN),  (DE)*.
 <!-- cspell:enable -->
 
-Les chevaux peuvent également être capturés à volonté avec l'ordre [`MAKE horse`][cmd-make].
+Les chevaux peuvent également être capturés à volonté avec l'ordre [`MAKE horse`][cmd-make-fr].
 Sans aide, seuls les chevaux sauvages se reproduisent.
 Il est toutefois possible de faire naître d'autres chevaux dans un [haras][haras].  
 
@@ -188,7 +188,7 @@ Les chevaux sauvages aiment l'espace et la liberté, c'est pourquoi certains d'e
 
 Expérience de jeu (Solthar):
 
-Le nombre maximal de chevaux dans une région est égal au **nombre d'[emplois][le-monde-d-eressea] / 10**.
+Le nombre maximal de chevaux dans une région est égal au **nombre d'[emplois][le-monde-d-eressea-id] / 10**.
 
 Dans une plaine relativement vide, leur croissance est de 4 %.
 À mesure qu’ils approchent de la limite supérieure, la croissance ralentit.  
@@ -221,3 +221,9 @@ Poursuivre la lecture : [[objets]].
 <!-- From [https://wiki.eressea.de/index.php?title=Rohstoffe/fr&oldid=16659] -->
 
 [Adamantium sur Wikipedia]: http://fr.wikipedia.org/wiki/Adamantium
+
+[cmd-contact-fr]: [[cmd-contact-fr]]
+[cmd-guard-fr]: [[cmd-guard-fr]]
+[cmd-help-fr]: [[cmd-help-fr]]
+[cmd-plant-fr]: [[cmd-plant-fr]]
+[cmd-make-fr]: [[cmd-make-fr]]

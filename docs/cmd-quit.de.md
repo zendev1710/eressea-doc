@@ -58,3 +58,5 @@ STIRB "geheim" PARTEI enno
 ```
 
 <!-- From [https://wiki.eressea.de/index.php?title=STIRB&oldid=16825] -->
+
+[bef-helfe]: [[bef-helfe]]

@@ -28,3 +28,5 @@ it is long because it precludes further long orders if a "long" fight actually o
 When a “long” fight occurs is explained under [end of battle][the-end].
 
 <!-- From [https://wiki.eressea.de/index.php?title=ATTACK&oldid=16719] -->
+
+[cmd-combat]: [[cmd-combat]]

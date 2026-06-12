@@ -1,6 +1,6 @@
 ---
 # cSpell:locale en
-alias: optimize-transport
+alias: optimizing-transport
 ---
 # Optimizing transport
 

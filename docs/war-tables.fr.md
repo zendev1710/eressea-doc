@@ -6,7 +6,7 @@ alias: tableaux-relatifs-a-la-guerre
 <!-- markdownlint-disable MD042 MD022 MD051 MD052 -->
 # Tableaux relatifs à la guerre
 
-Cette page répertorie les propriétés des armes, des armures et des races pour le combat.
+Cette page répertorie les propriétés des armes, des armures et des peuples pour le combat.
 
 ## Armes de combat en corps à corps
 
@@ -186,13 +186,13 @@ Elles atteignent **6** cibles.
 [^1]: les arbalètes ne tirent qu'aux 1er et 4e tours de combat. Un tir d'arbalète réduit de moitié la protection de l'armure de l'adversaire.
 [^2]: les catapultes ne tirent que lors du premier tour de combat, mais **atteignent 6 cibles**.
 [^3]: [arme d'hast][armes-dhast]
-[^4]: particularités selon la race :
+[^4]: particularités selon le peuple :
 
 - Les [Gobelins][gobelins]{title="Goblins"} ne subissent pas le malus de -2 en Défense lorsqu'ils combattent à mains nues;
 - Les [Trolls][trolls-fr-id]{title="Trolls"} infligent plus de dégâts à mains nues, mais ne peuvent pas combattre à cheval;
 - Les [Orcs][orcs-fr-id]{title="Orcs"} combattent avec leur meilleure compétence de mêlée à -3;
 - Les [Chats][chats]{title="Cats"} bénéficient de leur bonus habituel et subissent donc un malus de -1 en Défense lorsqu'ils combattent à mains nues
-- Certaines races (généralement les monstres et les familiers) peuvent apprendre la compétence *Combat à mains nues* et ne subissent alors aucun malus lorsqu'elles combattent sans arme
+- Certains peuples (généralement les monstres et les familiers) peuvent apprendre la compétence **Combat à mains nues** et ne subissent alors aucun malus lorsqu'ils combattent sans arme
 
 !!! info
     Le « d » signifie « dé ».  
@@ -350,11 +350,11 @@ Cette armure offre la **meilleure** [protection][armures]{title="Armours"}.
 | [cotte de mailles en laen][cotte-de-mailles-en-laen]{title="Laen chainmail"}    |     6      |                 - |
 | [Armure en adamantium][armure-en-adamantium]{title="Adamantium plate"}          |     7      |             110 % |
 
-## Races et leurs caractéristiques
+## Peuples et leurs caractéristiques
 
 Points de vie (PV), résistance à la magie (RM) et armure naturelle (AN).
 
-| Race      | PV | RM | AN |
+| Peuple    | PV | RM | AN |
 |-----------|---:|---:|---:|
 | Aquariens | 20 |  0 |  0 |
 | Chats     | 20 |  0 |  0 |
@@ -369,7 +369,7 @@ Points de vie (PV), résistance à la magie (RM) et armure naturelle (AN).
 | Trolls    | 30 | 10 |  1 |
 
 L'armure naturelle réduit les dégâts des coups, tout comme la protection offerte par les armures ou les boucliers décrits précédemment.  
-L'armure naturelle de certaines races est semi-cumulative : la moitié de sa valeur (arrondie à l'inférieur) est ajoutée aux dégâts.  
+L'armure naturelle de certains peuples est semi-cumulative : la moitié de sa valeur (arrondie à l'inférieur) est ajoutée aux dégâts.  
 
 Les trolls ont une armure naturelle de 1.  
 Cela signifie que sans autre armure, un troll possède cette valeur d'armure de 1 et les dégâts qu'il subit sont réduits de 1.  
@@ -386,7 +386,7 @@ Une unité aussi bien protégée est difficile à blesser avec des armes simples
 
 ## Résistance à la magie
 
-La résistance à la magie est un attribut spécial dépendant de la race, de l'équipement et de certains sorts.  
+La résistance à la magie est un attribut spécial dépendant du peuple, de l'équipement et de certains sorts.  
 Elle indique le pourcentage de dégâts magiques réduits par les sorts de combat.
 
 !!! note

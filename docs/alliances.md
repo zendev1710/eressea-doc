@@ -57,6 +57,11 @@ this covers all the above areas in one order.
 - [[cmd-guard]]
 - [[cmd-contact]]
 
-Continue reading: [[magic]].
+Continue reading: [Magic][magic].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Allianz/en&oldid=16781] -->
+
+[cmd-enter]: [[cmd-enter]]
+[cmd-give]: [[cmd-give]]
+[cmd-guard]: [[cmd-guard]]
+[cmd-hide]: [[cmd-hide]]

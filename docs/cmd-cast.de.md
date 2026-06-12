@@ -28,3 +28,6 @@ Dies kann allerdings zu größeren Schlachten führen!
 [^1]: ZAUBERE ist zwar kein langer Befehl, er schließt aber weitere lange Befehle aus. Man kann aber weitere Zauber sprechen.
 
 <!-- From [https://wiki.eressea.de/index.php?title=ZAUBERE&oldid=16737] -->
+
+[bef-attackiere]: [[bef-attackiere]]
+[bef-zeige]: [[bef-zeige]]

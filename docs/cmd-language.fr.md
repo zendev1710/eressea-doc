@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: cmd-language-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # LANGUAGE
 
 **`LANGUAGE`**`de`  
@@ -14,10 +16,10 @@ La langue spécifiée ne devient active qu'avec l'évaluation suivante.
 Les ordres dans lesquels vous envoyez l'ordre `LANGUAGE` doit être dans la langue précédente.
 L'évaluation et le modèle d'ordres sont ensuite reçus dans la nouvelle langue.  
 
-Le serveur essaie de traduire les [[ordres]] dans la nouvelle langue, mais il n'est pas garanti que cela fonctionne parfaitement dans tous les cas.
+Le serveur essaie de traduire les [ordres][ordres] dans la nouvelle langue, mais il n'est pas garanti que cela fonctionne parfaitement dans tous les cas.
 
 ## Voir aussi
 
-- [[cmd-locale]]
+- [[cmd-locale-fr]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=LANGUAGE&oldid=16697] -->

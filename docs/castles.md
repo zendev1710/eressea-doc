@@ -96,3 +96,5 @@ Building castles - building material, minimum Masonry skill level, wage bonus (i
 Continue reading: [[other-buildings]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Burg/en&oldid=14408] -->
+
+[cmd-make]: [[cmd-make]]

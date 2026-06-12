@@ -204,3 +204,6 @@ Weiterlesen: [Materialpool][materialpool].
 [verkaufen]: ./cmd-sell.md
 [bef-kontaktiere]: ./cmd-contact.md
 [bef-bewache]: ./cmd-guard.md
+
+[bef-gib]: [[bef-gib]]
+[bef-helfe]: [[bef-helfe]]

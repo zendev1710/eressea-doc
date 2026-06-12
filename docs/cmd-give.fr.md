@@ -26,8 +26,8 @@ L'unité transfère des objets, le commandement de bateaux ou de bâtiments, des
 
 Avec `GIVE` les unités peuvent donner toutes les marchandises qu'elles possèdent à d'autres unités.
 La condition est que l'unité indiquée accepte des choses.  
-C'est le cas si elle appartient à la même faction ou à une faction alliée (`HELP GIVE`), ou si elle a donné ce tour-ci l'ordre [[cmd-contact]] pour l'unité donatrice.  
-Les unités de monstres et certaines unités de joueurs avec des races de monstres n'acceptent rien non plus.  
+C'est le cas si elle appartient à la même faction ou à une faction alliée (`HELP GIVE`), ou si elle a donné ce tour-ci l'ordre [[cmd-contact-fr]] pour l'unité donatrice.  
+Les unités de monstres et certaines unités de joueurs avec des peuples de monstres n'acceptent rien non plus.  
 Ceux qui veulent simplement se débarrasser d'objets peuvent aussi les donner aux paysans ou les jeter dans l'océan (`GIVE 0`*`quantité" "objet`*).  
 Les personnes, les silver et les chevaux augmentent respectivement la réserve de paysans, de silver et de chevaux d'une région (terrestre).  
 Tous les autres objets disparaissent.  
@@ -93,15 +93,15 @@ END
 ## Transfert d'unités
 
 Pour réunir des personnes de différentes unités, il faut utiliser l'ordre `GIVE`*`unit-id`*`<quantité> MEN`.  
-Les [[competences]] sont alors **mélangées**.
+Les [compétences][competences] sont alors **mélangées**.
 
 !!! warning "Attention"
     **Pensez à gérer le transfert des objets**, qui pourraient aller vers les agriculteurs (donc être perdus) si l'unité cible manque de personnes.
 
 Expérience de jeu (Solthar) :
 
-Si vous souhaitez confier des personnes à une unité **d’une autre faction**, un simple [`HELP GIVE`][cmd-help] ne suffit pas !  
-**L'unité réceptrice doit également passer l'ordre [[cmd-contact]]** sur l'unité transférante.  
+Si vous souhaitez confier des personnes à une unité **d’une autre faction**, un simple [`HELP GIVE`][cmd-help-fr] ne suffit pas !  
+**L'unité réceptrice doit également passer l'ordre [[cmd-contact-fr]]** sur l'unité transférante.  
 
 De plus, si l’unité d’accueil est une [unité de migrants][humains], elle ne doit contenir personne au moment du transfert.  
 Idéalement, il devrait s'agir d'une unité `TEMP` vide, par exemple :
@@ -141,9 +141,11 @@ Les barques ne peuvent pas former de convois et les bateaux doivent se trouver s
 
 ## Voir aussi
 
-- [[cmd-reserve]]
-- [[items-pool]]
-- [[ships]]
-- [[buildings]]
+- [[cmd-reserve-fr]]
+- [La réserve d'objets][items-pool]
+- [Les bateaux][bateaux-id]
+- [Les bâtiments][batiments]
 
 <!-- From [https://wiki.eressea.de/index.php?title=GIVE/fr&oldid=15993] -->
+
+[cmd-help-fr]: [[cmd-help-fr]]

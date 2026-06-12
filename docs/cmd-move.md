@@ -51,7 +51,7 @@ LEARN Ride
 
 ## See also
 
-- [[travel]]
+- [[movement]]
 - [[cmd-route]]
 - [[cmd-follow]]
 - [[cmd-default]]

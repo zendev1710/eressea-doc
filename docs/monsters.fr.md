@@ -10,7 +10,7 @@ La Faction des Monstres est actuellement la seule faction de PNJ dans Eressea.
 
 Elle avait l'ID 0, mais a l'ID (ii) depuis le tour 572. Pourquoi (ii) ? Si l'on convertit ii de la base 36 au système décimal, on obtient 666.  
 
-Il existe de nombreuses races de monstres avec des caractéristiques et des capacités différentes.  
+Il existe de nombreux peuples de monstres avec des caractéristiques et des capacités différentes.  
 Les plus répandues sont les différents types de [Morts-Vivants][morts-vivants-connus], les [Dragons][dragons-connus] et leur cortège.  
 
 Certains types de monstres sont plutôt rares, voire uniques.  

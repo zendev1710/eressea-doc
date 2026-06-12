@@ -24,7 +24,7 @@ Seules des dizaines peuvent être spécifiées; dans le cas contraire, le montan
     Les agriculteurs donnent même l’argent dont ils ont réellement besoin pour survivre, **ce qui peut conduire à la [famine][famine]**.  
 
 Si plusieurs factions passent l'ordre de collecte des impôts, l’argent résultant de la collecte sera réparti entre les différentes factions.  
-Si vous souhaitez empêcher les factions non alliées de collecter l'impôt, vous devrez donner l'ordre [[cmd-guard]].  
+Si vous souhaitez empêcher les factions non alliées de collecter l'impôt, vous devrez donner l'ordre [[cmd-guard-fr]].  
 
 !!! note
     La compétence de collecte des impôts n’augmente pas avec son utilisation.

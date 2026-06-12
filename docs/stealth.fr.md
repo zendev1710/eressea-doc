@@ -9,7 +9,7 @@ alias: discretion
 # Discrétion
 
 La compétence de [discrétion][skill-discretion-id]{title="Stealth"} permet de se camoufler aux yeux des autres unités.  
-Une unité est toujours visible lorsqu'elle [garde][cmd-guard] une région, se trouve sur un bateau ou dans un bâtiment.  
+Une unité est toujours visible lorsqu'elle [garde][cmd-guard-fr] une région, se trouve sur un bateau ou dans un bâtiment.  
 
 ## Contre-mesures
 
@@ -20,7 +20,7 @@ C'est la situation de départ lorsque l'on commence la partie, car toutes les no
 
 ## Contrecarrer la garde
 
-Les unités camouflées avec succès ne sont pas soumises aux conséquences de [[cmd-guard]].  
+Les unités camouflées avec succès ne sont pas soumises aux conséquences de [[cmd-guard-fr]].  
 Elles peuvent faire de l'entertain, collecter des impôts, extraire des ressources ou recruter des paysans.  
 
 ## Augmenter les chances de fuite
@@ -33,7 +33,7 @@ Les chances de fuite maximales sont de 75 % (90 % pour les Halfelins).
 
 ## Vol de Silver
 
-Les unités dissimulées peuvent voler des Silver à d'autres unités en utilisant l'ordre [[cmd-steal]].  
+Les unités dissimulées peuvent voler des Silver à d'autres unités en utilisant l'ordre [[cmd-steal-fr]].  
 Ici aussi, la perception la plus élevée de la faction volée dans la région compte.  
 Par niveau de différence de compétence, chaque personne qui vole vole 50 Silver.  
 Dans ce cas, le vol se fait **toujours** dans la totalité de la réserve d'argent de la faction dans la région.  
@@ -53,7 +53,7 @@ Le vol constitue de temps en temps un moyen efficace de faire tomber des espions
 
 ## Espionnage
 
-Si une unité dotée de la compétence [Espionnage][skill-espionnage-id] donne l'ordre [`SPY`*`ID unité`*][cmd-spy], sa compétence d'espionnage est comparée à la compétence de Discrétion de l'unité cible.  
+Si une unité dotée de la compétence [Espionnage][skill-espionnage-id] donne l'ordre [`SPY`*`ID unité`*][cmd-spy-fr], sa compétence d'espionnage est comparée à la compétence de Discrétion de l'unité cible.  
 La chance de base de réussir une tentative d'espionnage est de 10%.  
 Pour chaque niveau d'Espionnage dépassant le niveau de Discrétion de la victime, le vol augmente de 5 %.  
 Un niveau élevé en Discrétion permet donc à l'unité de rendre les tentatives d'espionnage plus difficiles.  
@@ -72,16 +72,20 @@ probabilité (en %) = 100 − E x 5 + P x 2
 
 ## Remarques
 
-De nombreuses factions stockent leurs marchandises sur une unité très bien camouflée dans chaque région ([position de combat][cmd-combat]: `COMBAT NOT` ou `COMBAT FLEE`).  
+De nombreuses factions stockent leurs marchandises sur une unité très bien camouflée dans chaque région ([position de combat][cmd-combat-fr]: `COMBAT NOT` ou `COMBAT FLEE`).  
 Les objets sont ainsi protégés de nombreux dangers, tant qu'aucun observateur adverse ne les découvre.  
 
 Outre ces utilisations passives de la dissimulation, il est bien sûr possible de partir à la recherche d'informations avec des unités furtives bien entraînées ou d'utiliser la capacité de voler.  
 
 ## Voir aussi
 
-- [[cmd-guard]]
+- [[cmd-guard-fr]]
 - [revenus][le-vol-la-methode-malhonnete]
 
 Poursuivre la lecture : [[deplacements]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tarnung/fr&oldid=16974] -->
+
+[cmd-combat-fr]: [[cmd-combat-fr]]
+[cmd-guard-fr]: [[cmd-guard-fr]]
+[cmd-spy-fr]: [[cmd-spy-fr]]

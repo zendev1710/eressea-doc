@@ -126,3 +126,9 @@ Continue reading: [Goods][items].
 <!-- From [https://wiki.eressea.de/index.php?title=Rohstoffe/en&oldid=16867] -->
 
 [Adamantium on Wikipedia]: http://en.wikipedia.org/wiki/Adamantium
+
+[cmd-contact]: [[cmd-contact]]
+[cmd-grow]: [[cmd-grow]]
+[cmd-guard]: [[cmd-guard]]
+[cmd-help]: [[cmd-help]]
+[cmd-make]: [[cmd-make]]

@@ -16,7 +16,7 @@ Une fois que vous avez envoyé vos ordres et que le serveur a créé l'évaluati
 Ce sont les ordres par défaut.
 Ils seront exécutés la semaine suivantes si vous n'envoyez pas d'ordre **pour une unité donnée**.  
 <!-- TODO: clarify (bad from german translation) -->
-Vous recevrez les ordres par défaut avec le rapport sous forme de fichier texte (également appelé modèle d'ordres), si vous ne les utilisez pas avec l'ordre [`OPTION ZUGVORLAGE NOT`][cmd-option] désactivé.  
+Vous recevrez les ordres par défaut avec le rapport sous forme de fichier texte (également appelé modèle d'ordres), si vous ne les utilisez pas avec l'ordre [`OPTION ZUGVORLAGE NOT`][cmd-option-fr] désactivé.  
 Ils sont également inclus dans le rapport informatique (CR).
 Le rapport normal (NR) ne contient toujours que le premier ordre long par défaut.  
 Vous ne pouvez donc pas y voir tous les ordres par défaut.
@@ -24,7 +24,7 @@ Vous ne pouvez donc pas y voir tous les ordres par défaut.
 Tous les [ordres longs][ordres-courts-et-longs] sont normalement inclus dans les ordres par défaut d'une unité.
 Les exceptions sont `ATTACK`, `FOLLOW` et `MOVE`.  
 
-De plus, tous les [`//`][comment-with-slashes] et tous les ordres commençant par `@` sont adoptés.
+De plus, tous les [`//`][cmd-comment-with-slashes-fr] et tous les ordres commençant par `@` sont adoptés.
 L'orthographe peut être standardisée.  
 
 Ordres envoyés :
@@ -193,11 +193,14 @@ Est-il possible d'imbriquer des ordres `DEFAULT` pour passer des ordres plusieur
 
 Eh bien, quelque chose comme `DEFAULT "DEFAULT 'LEARN Endurance'"` fonctionne apparemment comme prévu, mais la Direction du Jeu préfère ne donner aucune garantie à ce sujet.  
 Veuillez ne pas soumettre de rapports de bogues si quelque chose comme ceci ne fonctionne pas comme prévu.
-Les langages de script tels que [[vorlage]], [[extended-commands]] ou [[fftools]] sont plus adaptés à de tels projets.
+Les langages de script tels que [Vorlage][vorlage-fr-id], [ExtendedCommands][extended-commands] ou [fftools][fftools-fr-id] sont plus adaptés à de tels projets.
 
 ## Voir aussi
 
-- [[orders]]
+- [Ordres][ordres]
 - [[sending-orders]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=DEFAULT&oldid=16788] -->
+
+[cmd-option-fr]: [[cmd-option-fr]]
+[cmd-comment-with-slashes-fr]: [[cmd-comment-with-slashes-fr]]

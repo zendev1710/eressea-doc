@@ -8,7 +8,7 @@ alias: cmd-learn-auto-fr
 
 **`LEARN AUTO`**` `*`compétence`*  
 
-Grâce à l'ordre, le serveur tente d'automatiser [l'apprentissage][cmd-learn] et [l'enseignement][cmd-teach] dans une région pour toutes les unités d'une faction utilisant cet ordre pour la compétence spécifiée.  
+Grâce à l'ordre, le serveur tente d'automatiser [l'apprentissage][cmd-learn-fr] et [l'enseignement][cmd-teach-fr] dans une région pour toutes les unités d'une faction utilisant cet ordre pour la compétence spécifiée.  
 Cependant, l'utilisation simultanée sur une même compétence de `TEACH` et `LEARN AUTO` n'est pas autorisée.  
 
 Si plusieurs unités dans une région donnent l'ordre `LEARN AUTO <compétence>`, par exemple `LEARN AUTO sailing`, le serveur sélectionne les unités parmi les unités qui doivent enseigner afin que les autres obtiennent le maximum de résultats d'apprentissage.  
@@ -46,3 +46,6 @@ Un ordre `LEARN AUTO` s'applique à un ensemble de 128 unités au maximum par r�
 Si plusieurs unités d'une faction dans une région donnent l'ordre, un deuxième ensemble est formé qui met en place une chaîne d'enseignement/apprentissage indépendamment du premier.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=LEARN\_AUTO&oldid=15393] -->
+
+[cmd-learn-fr]: [[cmd-learn-fr]]
+[cmd-teach-fr]: [[cmd-teach-fr]]

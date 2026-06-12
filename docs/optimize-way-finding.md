@@ -1,6 +1,6 @@
 ---
 # cSpell:locale en
-alias: optimize-wayfinding
+alias: optimizing-way-finding
 ---
 # Optimizing way finding
 

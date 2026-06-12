@@ -8,7 +8,7 @@ alias: bases
 
 Ce n’est pas parce qu’il n’y a pas de gagnant à Eressea que vous ne pouvez pas perdre.  
 
-Nous voyons souvent des erreurs évitables chez les débutants, qui conduisent à l'élimination précoce d'une [[faction-fr]] du jeu parce qu'une règle n'a pas été entièrement comprise, ou que le joueur rencontre des problèmes sans être préparé.  
+Nous voyons souvent des erreurs évitables chez les débutants, qui conduisent à l'élimination précoce d'une [faction][faction] du jeu parce qu'une règle n'a pas été entièrement comprise, ou que le joueur rencontre des problèmes sans être préparé.  
 
 Pour bien débuter, chaque joueur devrait prendre connaissance des éléments de base qui suivent.  
 
@@ -16,7 +16,7 @@ Pour bien débuter, chaque joueur devrait prendre connaissance des éléments de
 
 Chaque semaine deux rapports contenant les mêmes données sont envoyés.  
 Le rapport normal (NR) est un fichier texte lisible avec n'importe quel éditeur.  
-Le rapport informatique (CR) est un fichier compris par des outils tels que [[magellan]] et [CSMap][csmap-fr-id].  
+Le rapport informatique (CR) est un fichier compris par des outils tels que [Magellan][magellan-fr-id] et [CSMap][csmap-fr-id].  
 
 Nous recommandons aux débutants de faire leurs premiers pas avec le rapport normal et un éditeur de texte.  
 Les premières commandes font rarement plus d'une douzaine de lignes et vous n'avez pas besoin d'un outil comme Magellan pour les créer.  
@@ -33,7 +33,7 @@ Chaque unité ne peut effectuer qu'un seul [ordre long][ordres-courts-et-longs] 
 
 ## La bataille
 
-Les combats dans des régions que vous ne [gardez pas][cmd-guard]{title="GUARD"} sont toujours longs, même si toute votre faction est attaquée par un seul éclaireur, il empêche **TOUTES** les unités qu'il [attaque][cmd-attack]{title="ATTACK"} d'exécuter leur ordre long.  
+Les combats dans des régions que vous ne [gardez pas][cmd-guard-fr]{title="GUARD"} sont toujours longs, même si toute votre faction est attaquée par un seul éclaireur, il empêche **TOUTES** les unités qu'il [attaque][cmd-attack-fr]{title="ATTACK"} d'exécuter leur ordre long.  
 Vous devez donc vous assurer que vous gardez vos régions au plus tôt, dès que votre faction est susceptible d'être attaquée.  
 
 ## La famine
@@ -43,12 +43,12 @@ Chaque personne a besoin de 10 silver par semaine pour ne pas avoir faim.
 
 ## Les finances
 
-Le [divertissement][skill-divertissement-id]{title="Entertainment"} et la [collecte d'impôts][skill-taxation-fr-id]{title="Taxation"} s'apprennent plus rapidement que le commerce, ne [travaillez][cmd-work]{title="WORK"} **qu'en cas d'urgence** pour éviter la famine.  
+Le [divertissement][skill-divertissement-id]{title="Entertainment"} et la [collecte d'impôts][skill-taxation-fr-id]{title="Taxation"} s'apprennent plus rapidement que le commerce, ne [travaillez][cmd-work-fr]{title="WORK"} **qu'en cas d'urgence** pour éviter la famine.  
 
 ## Mage
 
 Chaque [École de Magie][ecoles-de-magie] possède un sort de niveau 1 qui produit 50 silver par niveau de lanceur de sorts.  
-Si votre race n'a pas de pénalité en magie, former des mages tôt peut être intéressant comme source alternative de revenus.  
+Si votre peuple n'a pas de pénalité en magie, former des mages tôt peut être intéressant comme source alternative de revenus.  
 Mais attention, parfois les sorts échouent.  
 
 <!-- TODO:
@@ -68,11 +68,11 @@ Par exemple, l'ordre `ENTERTAIN` s'exécute avant; avec l'argent potentiellement
 
 ## Nouvelles unités
 
-Les unités qui ont de l'argent ou qui reçoivent de l'argent utilisent toujours cet argent en premier avant d'accéder à la [[reserve-d-objets]].  
+Les unités qui ont de l'argent ou qui reçoivent de l'argent utilisent toujours cet argent en premier avant d'accéder à la [réserve d'objets][reserve-d-objets-id].  
 
 <!-- TODO: add orders example otherwise it"s unclear  -->
 Par exemple, vous créez une nouvelle unité, recrutez un [Chat][chats]{"title=Cat"} (coûte 90 silver).  
-Vous le laissez courir dans la région voisine (10 silver d'entretien) afin de lui permettre d'y [apprendre][cmd-learn]{title="LEARN"} le [divertissement][skill-divertissement-id]{title="Entertainment"} la semaine suivante (coûtera 10 silver de plus d'entretien).  
+Vous le laissez courir dans la région voisine (10 silver d'entretien) afin de lui permettre d'y [apprendre][cmd-learn-fr]{title="LEARN"} le [divertissement][skill-divertissement-id]{title="Entertainment"} la semaine suivante (coûtera 10 silver de plus d'entretien).  
 
 Dans cette situation, il ne suffit pas de lui donner 20 silver pour le temps de trajet et la semaine d'apprentissage.  
 Il faudra en fait lui donner en plus 90 silver pour votre propre recrutement, sinon, l'unité arrivera [affamée][famine] dans la région voisine.  
@@ -84,3 +84,8 @@ Sécurisez les régions voisines importantes, mais seulement si vous en avez les
 En règle générale, il ne suffit pas de placer un artiste (unité de divertissement) dans la montagne voisine si elle ne peut pas la garder.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Grundlagen&oldid=17000] -->
+
+[cmd-attack-fr]: [[cmd-attack-fr]]
+[cmd-guard-fr]: [[cmd-guard-fr]]
+[cmd-learn-fr]: [[cmd-learn-fr]]
+[cmd-work-fr]: [[cmd-work-fr]]

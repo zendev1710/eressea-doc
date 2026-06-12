@@ -19,3 +19,7 @@ Mit diesem Befehl ändert man die Reihenfolge, in der eigene Einheiten im Report
 Die Sortierung erfolgt ganz am Ende der Runde, nach der Bewegung. Man kann also Einheiten, die mittels [NACH][bef-nach] oder [`FAHRE`][bef-fahre] in die Region gelangt sind, gleich passend einsortieren.
 
 <!-- From [https://wiki.eressea.de/index.php?title=SORTIERE&oldid=16704] -->
+
+[bef-fahre]: [[bef-fahre]]
+[bef-gib]: [[bef-fahre]]
+[bef-nach]: [[bef-nach]]

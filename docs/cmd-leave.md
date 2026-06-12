@@ -27,3 +27,5 @@ One way to still let people jump overboard is `GIVE 0 [number] MEN`.
 Another **Aquarian-only** solution that doesn't kill people is [swimming][swimming].
 
 <!-- From [https://wiki.eressea.de/index.php?title=LEAVE&oldid=15184] -->
+
+[cmd-give]: [[cmd-give]]

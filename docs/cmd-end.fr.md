@@ -6,7 +6,7 @@ alias: cmd-end-fr
 
 **`END`**
 
-Cette instruction clôt les ordres d'une unité temporaire créée par [`MAKE TEMP`][cmd-make].
+Cette instruction clôt les ordres d'une unité temporaire créée par [`MAKE TEMP`][cmd-make-fr].
 
 ```text
 MAKE TEMP 1
@@ -17,3 +17,5 @@ END
  ```
 
 <!-- From [https://wiki.eressea.de/index.php?title=END&oldid=3999] -->
+
+[cmd-make-fr]: [[cmd-make-fr]]

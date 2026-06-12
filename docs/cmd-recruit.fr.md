@@ -10,15 +10,15 @@ alias: cmd-recruit-fr
 
 Cela implique l'embauche de nouvelles personnes parmi les agriculteurs de la région.  
 
-Selon la [race][races], vous devez dépenser entre 40 et 150 Silver en [coût de recrutement][skills-modifiers] par personne embauchée.  
+Selon le [peuple][peuples] auquel appartient votre faction, vous devez dépenser entre 40 et 150 Silver en [coût de recrutement][modificateurs-de-competences-id] par personne embauchée.  
 L'unité qui recrute de nouveaux membres doit posséder cet argent.  
 Lorsqu'une nouvelle unité est créée, vous devez lui donner l'argent nécessaire pour qu'elle puisse recruter.  
 Si l'unité qui recrute n'a pas assez d'argent, elle l'obtient de la [réserve d'argent][reserve-dargent].  
 
-Vous ne pouvez recruter que des personnes de la race de votre faction.  
+Vous ne pouvez recruter que des personnes du peuple de votre faction.  
 Les unités de [migrants][humains] ne recrutent donc plus de migrants.  
-Les agriculteurs d'une région n'ont pas de race.  
-Ils ne « décident » à quelle race ils appartiennent qu’au moment de leur recrutement.  
+Les agriculteurs d'une région n'ont pas de peuple.  
+Ils ne « décident » à quel peuple ils appartiennent qu’au moment de leur recrutement.  
 
 Seuls 2,5 % des agriculteurs d'une région peuvent être recrutés par tour.  
 Le nombre exact apparaît dans le rapport, dans les informations relatives à la région.  

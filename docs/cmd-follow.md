@@ -50,7 +50,7 @@ Only the first one is always executed.
 
 ## See also
 
-- [[travel]]
+- [[movement]]
 - [[cmd-move]]
 - [[cmd-route]]
 - [[cmd-ride]]

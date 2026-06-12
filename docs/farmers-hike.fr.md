@@ -22,10 +22,12 @@ Les monstres invoqués par les joueurs peuvent également chasser les agriculteu
 ## Surpopulation
 
 Les agriculteurs émigrent à cause de la surpopulation.  
-S'il y a plus d'agriculteurs que d'emplois dans une région (voir [ici][cmd-work]), une partie des chômeurs émigre vers les régions voisines.
+S'il y a plus d'agriculteurs que d'emplois dans une région (voir [ici][cmd-work-fr]), une partie des chômeurs émigre vers les régions voisines.
 
 ## Pauvreté
 
 Les agriculteurs émigrent également à cause de la pauvreté.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Bauernwanderung&oldid=2447] -->
+
+[cmd-work-fr]: [[cmd-work-fr]]

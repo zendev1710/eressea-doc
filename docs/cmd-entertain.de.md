@@ -26,3 +26,5 @@ Das Steuereintreibenlimit einer Region gibt jeweils an, wie viel Silber den Baue
 
 [bef-arbeite]: ./cmd-work.md
 [bef-bewache]: ./cmd-guard.md
+
+[bef-helfe]: [[bef-helfe]]

@@ -83,3 +83,7 @@ Your own faction is always involved when it attacks, or when it or a faction it 
 You'll find further details at [[cmd-help]] and in the chapters [[war]] and [Alliance][alliances].  
 
 <!-- From [https://wiki.eressea.de/index.php?title=COMBAT&oldid=7216] -->
+
+[cmd-attack]: [[cmd-attack]]
+[cmd-combatspell]: [[cmd-combatspell]]
+[cmd-guard]: [[cmd-guard]]

@@ -14,7 +14,7 @@ Kräuter wachsen ähnlich wie Bäume nach; wenn man nicht aufpasst, kann man dur
 Selbst dann kann nur das ursprünglich dort wachsende Kraut wieder angepflanzt werden.
 Im Zweifelsfall muss man ausprobieren, welches Kraut jemals hier gewachsen ist.
 
-Kräuter werden vor allem für [Alchemie][alchemie] gebraucht.
+Kräuter werden vor allem für [Alchemie][alchemie-id] gebraucht.
 Auch manche [Zauber][magie-de-id] brauchen Kräuter als Komponenten.
 
 Mit [FORSCHE KRÄUTER] kann man ungefähr feststellen, wie viele Kräuter in der Region wachsen; dazu benötigt man Kräuterkunde der Stufe 7 oder höher.

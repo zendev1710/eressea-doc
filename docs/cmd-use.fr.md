@@ -23,6 +23,8 @@ Avec cet ordre, d'autres objets que les potions peuvent être utilisés, par exe
 - un [[cristal-dantimagie]]
 - certains objets de la réserve de faction ([[noel]]).
 
-Ceux-ci peuvent avoir des paramètres supplémentaires, qui sont spécifiés dans la [description][cmd-show] de l'item à utiliser.  
+Ceux-ci peuvent avoir des paramètres supplémentaires, qui sont spécifiés dans la [description][cmd-show-fr] de l'item à utiliser.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=USE&oldid=16350] -->
+
+[cmd-show-fr]: [[cmd-show-fr]]

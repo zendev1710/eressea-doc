@@ -9,9 +9,9 @@ alias: introduction-fr
 <!-- TODO: logo 180X180 - should be to the left or right part of the page -->
 ![Eressea logo](assets/images/logo.png "Eressea map view")
 
-Dans Eressea, chaque joueur prend en charge une [faction][factions] de personnes d'une certaine [race][races], qu'il devra choisir lors de l'[inscription][inscription].  
+Dans Eressea, chaque joueur prend en charge une [faction][faction] de personnes d'un [peuple][peuples] donné, qu'il devra choisir lors de l'[inscription][inscription].  
 
-Les joueurs sont ensuite plongés avec quelques autres dans [le monde d'Eressea][le-monde-d-eressea] et peuvent alors commencer à explorer les alentours.
+Les joueurs sont ensuite plongés avec quelques autres dans [le monde d'Eressea][le-monde-d-eressea-id] et peuvent alors commencer à explorer les alentours.
 
 <!-- TODO: icons 160X160 - should be to the left or right part of the page -->
 ![Eressea icons](assets/images/fantasy-symbols.png "Fantasy symbols")
@@ -61,7 +61,7 @@ Le rapport complet (fichier d'extension `.zip`) se compose de plusieurs élémen
 
 - un [rapport standard][nr-fr-id] (fichier d'extension `.nr`, pour « normal report »), qui présente un rapport textuel, lisible par un humain
 - un [rapport informatique][cr-fr-id] (fichier d'extension `.cr`, pour « computer report »), qui présente les mêmes informations, mais sous une forme utilisable par des [programmes][ce-que-vous-devez-considerer-lors-de-la-saisie-des-ordres] adaptés
-- un [modèle d'ordres][modele-d-ordres] (fichier d'extension `.txt`) pouvant servir de modèle pour votre prochain tour de jeu
+- un [modèle d'ordres][modele-d-ordres-id] (fichier d'extension `.txt`) pouvant servir de modèle pour votre prochain tour de jeu
 
 Le rapport peut aussi contenir un [point hebdomadaire][rapport-hebdomadaire], qui présente différentes statistiques sur l'état général du monde d'Eressea, et enfin, parfois, le [Xontormia Express], la gazette alimentée par les écrits des joueurs.  
 
@@ -70,7 +70,7 @@ Si, après la date limite, aucun lot d'ordres n'est parvenu au maître de jeu po
 !!! warning "Bon à savoir"
     En cas de 4 **NMR** consécutifs, la faction est automatiquement retirée du jeu, et supprimée au 5ème NMR.
 
-Poursuivre la lecture : [le monde d'Eressea][le-monde-d-eressea].
+Poursuivre la lecture : [le monde d'Eressea][le-monde-d-eressea-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Einleitung/fr&oldid=16807] -->
 

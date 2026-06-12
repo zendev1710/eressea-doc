@@ -138,7 +138,7 @@ plugins:
             # Gameplay submenu
             The World: Le Monde d'Eressea
             Factions and units: Factions et unités
-            Races: Races
+            Races: Peuples
             Skills: Compétences
             Overview: Vue d'ensemble
             Modifiers: Modificateurs
@@ -166,8 +166,6 @@ plugins:
             Tactic: Tactique
             Armed unit: Unité arméz
             # Magic submenu
-            #Overview: Vue d'ensemble
-            #Magic: Magie
             Schools: Écoles de magie
             Familiars: Familiers
             Spells: Sorts
@@ -175,7 +173,7 @@ plugins:
             Description: Description
             # Alchemy submenu
             Herbs: Plantess
-            # orders submenu
+            # Orders submenu
             Sequence: Séquence
             Detailed orders: Ordres détaillés
             Development: Développement
@@ -187,8 +185,8 @@ plugins:
         - locale: de
           name: Deutsch
           build: true
+          # GERMAN menus translations
           nav_translations:
-            # GERMAN main menu item translations
             Home: Hauptseite
             Getting-started: Erste Schritte
             Rules: Regeln

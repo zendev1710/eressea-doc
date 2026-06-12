@@ -30,7 +30,7 @@ Liste der alchemistischen Tränke
 
 Um einen Trank herstellen zu können, braucht man das Alchemie-Talent in Höhe der doppelten Trank-Stufe. Tränke, die auf die Gegenstände einer Einheit wirken, verfallen, wenn sie nicht benutzt werden können, weil die Einheit diese Gegenstände nicht (mehr) hat.
 
-siehe [Alchemie][alchemie].
+siehe [Alchemie][alchemie-id].
 
 Liste der Kräuter und deren Verbreitung.
 
@@ -43,6 +43,6 @@ Liste der Kräuter und deren Verbreitung.
 | Steinbeißer, Spaltwachs, Höhlenglimm                                                    | Gebirge     |
 | Eisblume, Weißer Wüterich, Schneekristall                                               | Gletscher   |
 
-siehe [Alchemie][alchemie].
+siehe [Alchemie][alchemie-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tabellen:\_Tränke\_und\_Kräuter&oldid=16926] -->

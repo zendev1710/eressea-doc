@@ -161,7 +161,7 @@ Elles ont leur propre chapitre.
 
 ### For travel
 
-Sailing et riding sont expliquées dans le chapitre sur les [déplacements][travel].
+Sailing et riding sont expliquées dans le chapitre sur les [déplacements][movement].
 riding est également abordé dans le chapitre des [combats][war-tables].
 
 [](){ #skills-skill-magic-id }
@@ -189,6 +189,10 @@ Les autres compétences essentielles au combat sont :
 
 Toutes ces compétences sont particulièrement importantes dans les [batailles][war], que ce soit contre d'autres factions ou des monstres.
 
-Continue reading: [[skills-list]].
+Continue reading: [[list-of-skills]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Talente/fr&oldid=16177] -->
+
+[cmd-learn]: [[cmd-learn]]
+[cmd-teach]: [[cmd-teach]]
+[cmd-unit]: [[cmd-unit]]

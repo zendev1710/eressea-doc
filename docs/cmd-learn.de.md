@@ -26,3 +26,6 @@ Mit `LERNE`*`Taktik`*`200` kann man Tools wie [ECheck][echeck-de-id] mitteilen, 
 - Durch den Befehl [LERNE AUTO][bef-lerne-auto] versucht der Server das Lernen und Lehren in einer Region innerhalb einer Partei zu automatisieren. Eine Mischung von `LEHRE` und `LERNE AUTO` ist allerdings nicht möglich.
 
 <!-- From [https://wiki.eressea.de/index.php?title=LERNE&oldid=16727] -->
+
+[bef-lehre]: [[bef-lehre]]
+[bef-lerne-auto]: [[bef-lerne-auto]]

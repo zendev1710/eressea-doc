@@ -48,3 +48,6 @@ A unit can build ( skill level x persons / minimum skill) size points per round,
 Continue reading: [[castles]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Gebäude/en&oldid=16677] -->
+
+[cmd-make]: [[cmd-make]]
+[cmd-pay-not]: [[cmd-pay-not]]

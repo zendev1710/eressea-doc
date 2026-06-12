@@ -161,6 +161,6 @@ alias: zauberliste
 |    |    | 16 |    |    | [Wurzeln der Magie][wurzeln-der-magie]                                                         | Mit Hilfe dieses aufwändigen Rituals läßt der Druide einen Teil seiner Kraft dauerhaft in den Boden und die Wälder der Region fliessen.                                                                                | Normaler Zauber | 5    | 250 aura, 10 permanente aura, 1 Tiegel mit Krötenschleim                            | Fernzauber                |
 |    |    |    |    | 11 | [Zeitdehnung][zeitdehnung]                                                                     | Diese praktische Anwendung des theoretischen Wissens um Raum und Zeit ermöglicht es, den Zeitfluß für einige Personen zu verändern.                                                                                    | Normaler Zauber | 5    | 5 aura x T                                                                          | Schiffszauber             |
 
-Weiterlesen: [Tränke][alchemie].
+Weiterlesen: [Tränke][tranke-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Zauberliste\_E2&oldid=15782] -->

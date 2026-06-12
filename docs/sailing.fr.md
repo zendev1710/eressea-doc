@@ -17,10 +17,10 @@ Les bateaux peuvent cependant appareiller n'importe où, on peut donc construire
 Les bateaux ne peuvent pas passer directement d'une côte à une région côtière voisine sans naviguer d'abord sur une région océanique.  
 De même, ils ne peuvent pas partir dans toutes les directions, mais seulement dans la direction d'où ils sont venus et dans les directions voisines.  
 Un bateau venant de l'est (le rapport indique alors "côte est") peut donc partir vers l'est, le nord-est et le sud-est.  
-Cependant, si une région dispose d'un port, les bateaux du propriétaire du port et des factions amies (voir [[cmd-help]]) peuvent aller dans d'autres directions à condition qu'il s'agisse de régions océaniques.  
+Cependant, si une région dispose d'un port, les bateaux du propriétaire du port et des factions amies (voir [[cmd-help-fr]]) peuvent aller dans d'autres directions à condition qu'il s'agisse de régions océaniques.  
 
 En haute mer - cad des régions océaniques qui ne sont pas bordées par une région terrestre - les bateaux peuvent dériver vers une région voisine et subir des dommages à cause de tempêtes.  
-Cela ne s'applique pas aux bateaux qui ordonnent des [[cmd-follow]] ou [piraterie][piraterie-fr-id].  
+Cela ne s'applique pas aux bateaux qui ordonnent des [[cmd-follow-fr]] ou [piraterie][piraterie-fr-id].  
 
 Pour pouvoir naviguer sur un bateau, il faut un équipage formé, c'est-à-dire des unités qui ont appris la compétence sailing.  
 Dans le tableau suivant, le niveau de compétence en sailing du capitaine (la première unité sur le bateau dans le rapport) est indiqué sous "Capitaine".  
@@ -65,32 +65,32 @@ Le poids total de toutes les unités d'un bateau, y compris le poids des chevaux
 Si ce n'est pas ou plus le cas, le bateau ne peut pas naviguer.  
 En mer, il ne coulera pas immédiatement, mais dérivera.  
 Les capacités des bateaux sont indiquées dans le tableau ci-dessus et sont toujours affichées dans le rapport.  
-Les poids des objets se trouvent dans la section sur [[objets]] et ceux des personnes des différentes races, dans le tableau [Poids et Capacités][deplacements].  
+Les poids des objets se trouvent dans la section sur [[objets]] et ceux des personnes des différents peuples, dans le tableau [Poids et Capacités][deplacements].  
 
 Il est possible de regrouper plusieurs bateaux en [convoi][convoi].  
 Les détails à ce sujet sont décrits dans le chapitre sur les [bateaux][bateaux-id].  
 
 Les unités qui se trouvent à bord d'un bateau ne sont peuvent exécuter d'ordres longs (à l'exception des aquariens).  
-Seul le capitaine d'un bateau peut donner des ordres de [[cmd-move]] ou [[cmd-route]] pour faire naviguer le bateau.  
-Sur une case d'océan (type de région océan) jusqu'à 100 aquariens embarqués peuvent gagner 10 Silver chacun avec l'ordre [[cmd-work]].  
+Seul le capitaine d'un bateau peut donner des ordres de [[cmd-move-fr]] ou [[cmd-route-fr]] pour faire naviguer le bateau.  
+Sur une case d'océan (type de région océan) jusqu'à 100 aquariens embarqués peuvent gagner 10 Silver chacun avec l'ordre [[cmd-work-fr]].  
 Néanmoins, toutes les unités à bord du bateau consomment l'entretien hebdomadaire, il faut donc toujours embarquer suffisamment de Silver.  
 
 Lorsque le bateau est à terre, toutes les unités à bord peuvent faire quelque chose ; elles vont pour ainsi dire à terre pour travailler.  
 Elles peuvent le faire même si le bateau part au cours du même tour.  
 Mais si la région est gardée par une faction non alliée, en addition aux conséquences habituelles de l'ordre GUARD, elles ne peuvent pas non plus [gagner d'argent][argent] avec `WORK`, `ENTERTAIN` ou `SELL`, comme elles pourraient le faire autrement.  
 
-Si des unités veulent quitter un bateau, elles doivent d'abord le faire avec [[cmd-leave]].  
+Si des unités veulent quitter un bateau, elles doivent d'abord le faire avec [[cmd-leave-fr]].  
 Si la région n'est pas gardée par une faction non alliée, les unités peuvent se déplacer immédiatement avec MOVE, sinon elles ne pourront le faire qu'au tour suivant l'ordre LEAVE.  
-Cela s'applique bien sûr aussi à [[cmd-ride]] et [[cmd-carry]].  
+Cela s'applique bien sûr aussi à [[cmd-ride-fr]] et [[cmd-carry-fr]].  
 
 ## Nager
 
 Les [aquariens][aquariens] peuvent nager jusqu'à terre à partir d'un bateau qui se trouve dans une région océanique à côté de régions terrestres, mais pas l'inverse.  
-Cela fonctionne comme un mouvement normal avec [[cmd-move]] et seulement si l'unité n'est pas surchargée.  
+Cela fonctionne comme un mouvement normal avec [[cmd-move-fr]] et seulement si l'unité n'est pas surchargée.  
 Ils peuvent emporter des objets, mais pas de chevaux, même si l'unité qui nage peut les porter.  
-De même [transporter][cmd-carry] des personnes d'autres races n'est pas possible de cette manière, mais les aquariens peuvent se transporter mutuellement.  
+De même [transporter][cmd-carry-fr] des personnes d'autres peuples n'est pas possible de cette manière, mais les aquariens peuvent se transporter mutuellement.  
 Ce mouvement a lieu avant celui des bateaux, de sorte qu'un bateau peut déposer des unités puis poursuivre sa route.  
-[[cmd-leave]] n'est pas nécessaire lorsque l'on nage à partir d'un bateau, mais ce n'est même pas une erreur.  
+[[cmd-leave-fr]] n'est pas nécessaire lorsque l'on nage à partir d'un bateau, mais ce n'est même pas une erreur.  
 
 ## Dommages aux bateaux
 
@@ -116,7 +116,7 @@ Lors des événements suivants, un bateau subit des dommages :
 - si le bateau est sans propriétaire, il subit 5% de dommages
 - Si le bateau dérive (comme suite à une tempête), il subit 2 % de dommages
 
-Un bateau peut être réparé avec l'ordre [`MAKE`&nbsp;&#91;`level`&#93;&nbsp;`SHIP`&nbsp;&#91;`ship id`&#93;][cmd-make], exactement comme lorsque sa construction n'était pas encore achevée.  
+Un bateau peut être réparé avec l'ordre [`MAKE`&nbsp;&#91;`level`&#93;&nbsp;`SHIP`&nbsp;&#91;`ship id`&#93;][cmd-make-fr], exactement comme lorsque sa construction n'était pas encore achevée.  
 
 Expérience de jeu :
 
@@ -137,3 +137,6 @@ Les bateaux voyagent le long des côtes ou en pleine mer.
 Poursuivre la lecture : [production][production-fr-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schiffsreise/fr&oldid=15810] -->
+
+[cmd-carry-fr]: [[cmd-carry-fr]]
+[cmd-make-fr]: [[cmd-make-fr]]

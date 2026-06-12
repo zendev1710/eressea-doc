@@ -48,3 +48,5 @@ Weiterlesen: [Burgen][burgen].
 [ZERSTÖRE]: ./cmd-destroy.md
 [4]: ./cmd-destroy.md
 [`BEZAHLE NICHT`]: ./cmd-pay-not.md
+
+[bef-gib]: [[bef-gib]]

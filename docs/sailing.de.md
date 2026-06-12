@@ -103,3 +103,7 @@ Weiterlesen: [Produktion][produktion].
 [bef-verlasse]: ./cmd-leave.md
 [bef-transportiere]: ./cmd-carry.md
 [1]: ./cmd-make.md
+
+[bef-fahre]: [[bef-fahre]]
+[bef-helfe]: [[bef-helfe]]
+[bef-nach]: [[bef-nach]]

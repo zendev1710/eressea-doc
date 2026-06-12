@@ -26,3 +26,5 @@ The item can be passed on directly in the same round, but it cannot be [used][cm
     Do not confuse this with the [[items-pool]], which you have to access with [[cmd-reserve]]!
 
 <!-- From [https://wiki.eressea.de/index.php?title=CLAIM&oldid=3992] -->
+
+[cmd-use]: [[cmd-use]]

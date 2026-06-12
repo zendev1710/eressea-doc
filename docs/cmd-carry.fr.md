@@ -36,13 +36,13 @@ PARTEI 300:
 
 Règles restrictives :
 
-- **lorsqu'ils [nagent][nager]**, les [Aquariens][aquariens]{title="Aquarians"} ne peuvent pas transporter d'autres races, ni emmener de chevaux ni des chars avec eux
+- **lorsqu'ils [nagent][nager]**, les [Aquariens][aquariens]{title="Aquarians"} ne peuvent pas transporter d'autres peuples, ni emmener de chevaux ni des chars avec eux
 - les [Insectes][insectes]{title="Insects"} peuvent être transportés grâce à l'ordre `CARRY`, mais ne peuvent pas être emmenés dans ou à travers un glacier
 
 ## Voir aussi
 
-- [[travel]]
-- [[cmd-move]]
-- [[cmd-route]]
+- [[deplacements]]
+- [[cmd-move-fr]]
+- [[cmd-route-fr]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=RIDE&oldid=16721] -->

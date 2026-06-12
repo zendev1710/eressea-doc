@@ -73,3 +73,6 @@ Weiterlesen: [Rassen][rassen].
 [bef-bewache]: ./cmd-guard.md
 [parteigetarnt]: ./cmd-hide.md
 [bef-botschaft]: ./cmd-message.md
+
+[bef-gib]: [[bef-gib]]
+[bef-helfe]: [[bef-helfe]]

@@ -11,7 +11,7 @@ alias: cmd-password-fr
 Cette instruction réinitialise le mot de passe de votre faction.  
 
 !!! info "Rappel"
-    L'ordre [[cmd-eressea]] doit être défini dans le lot d'ordres pour que l'instruction soit prise en compte.  
+    L'ordre [[cmd-eressea-fr]] doit être défini dans le lot d'ordres pour que l'instruction soit prise en compte.  
 
 **Seuls des lettres et des chiffres sont autorisés dans le mot de passe**.  
 

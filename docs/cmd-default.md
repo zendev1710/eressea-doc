@@ -24,7 +24,7 @@ So you can't see all the default orders there.
 All [long orders][short-and-long-orders] are normally included in a unit's default orders.
 Exceptions are `ATTACK`, `FOLLOW` and `MOVE`.  
 
-In addition, all [`//`][comment-with-slashes] and all orders beginning with `@` are adopted.
+In addition, all [`//`][cmd-comment-with-slashes] and all orders beginning with `@` are adopted.
 The spelling may be standardized.  
 
 Orders sent in:
@@ -202,3 +202,6 @@ Scripting languages ​​such as [[vorlage]], [[extended-commands]] or [[fftool
 - [[sending-orders]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=DEFAULT&oldid=16788] -->
+
+[cmd-comment-with-slashes]: [[cmd-comment-with-slashes]]
+[cmd-option]: [[cmd-option]]

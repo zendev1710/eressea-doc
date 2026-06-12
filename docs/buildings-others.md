@@ -290,8 +290,13 @@ You can then immediately cut them with a sawmill, producing 20 wood.
 
 ## See also
 
-- [[buildings]]
-- [[castles]]
+- [Buildings][buildings]
+- [Castles][castles]
 - [Production][production-id]
 
-Continue reading: [[faction-pool]].
+Continue reading: [Faction pool][faction-pool].
+
+[cmd-grow]: [[cmd-grow]]
+[cmd-help]: [[cmd-help]]
+[cmd-make]: [[cmd-make]]
+[cmd-use]: [[cmd-use]]

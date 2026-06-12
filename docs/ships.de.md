@@ -145,3 +145,5 @@ Weiterlesen: [Gebäude][gebaude-id].
 [1]: ./cmd-make.md
 [umbenennen]: ./cmd-name.md
 [beschreiben]: ./cmd-describe.md
+
+[bef-gib]: [[bef-gib]]

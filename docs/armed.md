@@ -10,7 +10,6 @@ A unit is considered armed and ready for fight if it possesses a [combat skill][
 
 !!! note "Important"
     A unit **must be armed and ready for fight** to be able to:
-
     - [guard][cmd-guard] a region
     - [collect taxes][skill-taxation-id]
 
@@ -18,3 +17,5 @@ A unit is considered armed and ready for fight if it possesses a [combat skill][
 They are, in fact, armed with teeth and claws (or tentacles...).
 
 <!-- From [https://wiki.eressea.de/index.php?title=Bewaffnet&oldid=6339] -->
+
+[cmd-guard]: [[cmd-guard]]

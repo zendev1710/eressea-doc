@@ -59,3 +59,5 @@ It is therefore better to ensure in advance that the merged faction complies wit
     ```
 
 <!-- From [https://wiki.eressea.de/index.php?title=QUIT&oldid=16825] -->
+
+[cmd-help]: [[cmd-help]]

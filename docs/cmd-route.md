@@ -47,7 +47,7 @@ And finally again like at the beginning.
 
 ## See also
 
-- [[travel]]
+- [[movement]]
 - [[cmd-move]]
 - [[cmd-follow]]
 

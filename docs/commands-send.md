@@ -183,7 +183,7 @@ Between the quotation marks, multiple spaces, line breaks and tabs are always co
 
 Any text that follows a semicolon (`;`) is considered a [comment][cmd-comment].  
 Comments can make it much easier to understand the moves you made next time.  
-If you write comments using the [comment order `//`][comment-with-slashes], the comment is automatically included in the [move template][orders] of the next round.  
+If you write comments using the [comment order `//`][cmd-comment-with-slashes], the comment is automatically included in the [move template][orders] of the next round.  
 
 Multiple trains can be sent in.  
 You can certainly send in orders for only a few units and thus save yourself and the server transfer volume.  
@@ -200,7 +200,13 @@ Continue reading: [[hints]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehle\_einschicken&oldid=16786] -->
 
+[eressea-server@kn-bremen.de]: mailto:eressea-server@kn-bremen.de
+
 [Notepad++]: http://notepad-plus.sourceforge.net/
 [Magellan]: http://magellan-client.sf.net
 
-[eressea-server@kn-bremen.de]: mailto:eressea-server@kn-bremen.de
+[cmd-comment]: [[cmd-comment]]
+[cmd-comment-with-slashes]: [[cmd-comment-with-slashes]]
+[cmd-eressea]: [[cmd-eressea]]
+[cmd-learn]: [[cmd-learn]]
+[cmd-tax]: [[cmd-tax]]

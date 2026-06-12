@@ -21,7 +21,7 @@ Der Normalreport (NR) enthält immer nur den ersten langen Defaultbefehl. Man ka
 
 In die Defaultbefehle einer Einheit werden normalerweise alle [langen Befehle][kurze-und-lange-befehle] übernommen.
 Ausgenommen davon sind `ATTACKIERE`, `FOLGE` und `NACH`.
-Außerdem werden alle [kommentar-mit-schraegstrichen|`//`]-Kommentare und alle Befehle, die mit @ beginnen übernommen.
+Außerdem werden alle [`//`][bef-kommentar-mit-schraegstrichen]-Kommentare und alle Befehle, die mit @ beginnen übernommen.
 Die Schreibweise wird dabei möglicherweise standardisiert.
 
 Eingeschickte Befehle:
@@ -54,7 +54,7 @@ Das Gleiche gilt für sonstige ungültige Befehle.
 
 Der Befehl DEFAULT ändert dieses Verhalten, indem die Defaultbefehle, die vom Server zurückkommen, verändert werden.
 Wenn die Einheit einen `DEFAULT`-Befehl bekommen hat, werden ihre **langen** Befehle nicht in die Vorlage übernommen.
-[Lange Kommentare][kommentar-mit-schraegstrichen] (mit `//`) und kurze `@`-Befehle werden dagegen übernommen.
+[Lange Kommentare][bef-kommentar-mit-schraegstrichen] (mit `//`) und kurze `@`-Befehle werden dagegen übernommen.
 Die gegebenen Befehle werden dabei bis zu einem gewissen Grade validiert.
 Ungültige Befehle werden also nicht übernommen.
 Diese Prüfung hat jedoch Grenzen, es ist besser, sich nicht darauf zu verlassen.
@@ -198,3 +198,6 @@ Für solche Vorhaben sind Scriptsprachen wie [[vorlage]], [[extendedcommands]] o
 - [[befehle-einschicken]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=DEFAULT&oldid=16788] -->
+
+[bef-option]: [[bef-option]]
+[bef-kommentar-mit-schraegstrichen]: [[bef-kommentar-mit-schraegstrichen]]

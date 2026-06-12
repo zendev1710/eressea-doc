@@ -221,3 +221,5 @@ Continue reading: [Material pool][items-pool].
 [recruit]: ./cmd-recruit.md
 [reserved]: ./cmd-reserve.md
 [`WORK`]: ./cmd-work.md
+
+[cmd-help]: [[cmd-help]]

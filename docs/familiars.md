@@ -49,7 +49,7 @@ Features of an Eagle.
 [Demons][demons-id] are cruel and unpredictable.
 They eat the farmers in the area and always surprise people with new abilities or their loss.  
 
-Features of a Demon: see [races skills modifiers][racial-skill-modifiers].
+Features of a Demon: see [skills modifiers][skill-modifiers].
 
 ### Dolphin
 
@@ -138,7 +138,7 @@ Features of a Ghost.
 
 [Goblins][goblins-id] are cowardly and devious, preferring to hide rather than take action.  
 
-Features of a Goblin: see [races skills modifiers][racial-skill-modifiers].
+Features of a Goblin: see [Skills modifiers][skill-modifiers].
 
 ### Hellcat
 

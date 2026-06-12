@@ -267,7 +267,7 @@ To prepare this potion, you will need the following herbs:
 To prepare this potion, you will need the following herbs:
 
 - [bubblemorel][bubblemorel]
-- [[dragonblood]]
+- [Dragonblood][dragonblood]
 - [elvendear][elvendear]
 - [spider ivy][spider-ivy]
 - [waterfinder][waterfinder]
@@ -362,4 +362,7 @@ In this case, you get an error message and the [duncebun] is not used up (thus i
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tränke/en&oldid=16929] -->
 
+[cmd-make]: [[cmd-make]]
+[cmd-research]: [[cmd-research]]
+[cmd-show]: [[cmd-show]]
 [cmd-use]: [[cmd-use]]

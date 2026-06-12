@@ -6,18 +6,18 @@ alias: plantes
 <!-- markdownlint-disable MD042 MD052 -->
 # Plantes
 
-**Les plantes** se ramassent avec l'ordre [`MAKE HERBS`][cmd-make].  
+**Les plantes** se ramassent avec l'ordre [`MAKE HERBS`][cmd-make-fr].  
 
 Selon le niveau dans la compétence [Herboristerie], on ramasse plus ou moins de plantes dans une région.  
 Chaque région n'a qu'un seul type de plantes.  
 Les plantes repoussent comme les arbres;  
-si l'on ne fait pas attention, on peut très bien cueillir toutes les plantes d'une région et devoir alors en replanter grâce à l'ordre [`GROW HERBS`][cmd-grow].  
+si l'on ne fait pas attention, on peut très bien cueillir toutes les plantes d'une région et devoir alors en replanter grâce à l'ordre [`GROW HERBS`][cmd-grow-fr].  
 Dans ce cas, seule la plante qui y poussait à l'origine pourra être replantée. En cas de doute, il faut essayer de savoir quelle plante a déjà poussé dans la région.
 
 Les plantes sont surtout utilisées en [alchimie][alchimie].  
 Certains [sorts][magie] ont également besoin de plantes comme composants.  
 
-Avec [`RESEARCH HERBS`][cmd-research] vous pouvez savoir approximativement combien de plantes poussent dans la région;  
+Avec [`RESEARCH HERBS`][cmd-research-fr] vous pouvez savoir approximativement combien de plantes poussent dans la région;  
 cela nécessite un niveau d'herboristerie de 7 ou plus.  
 
 Le résultat en retour de l'ordre sera un message indiquant la quantité de plantes trouvée.
@@ -225,3 +225,7 @@ Cette plante pousse uniquement sur les [glaciers][glacier-fr-id]{title="Glacier"
 Poursuivre la lecture : [[ordres]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kräuter/fr&oldid=13444] -->
+
+[cmd-grow-fr]: [[cmd-grow-fr]]
+[cmd-make-fr]: [[cmd-make-fr]]
+[cmd-research-fr]: [[cmd-research-fr]]

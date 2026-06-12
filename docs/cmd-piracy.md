@@ -21,3 +21,5 @@ If no faction number is provided, it responds to all ships from factions to whic
 - [Piracy][piracy-id]
 
 <!-- From [https://wiki.eressea.de/index.php?title=PIRACY&oldid=16789] -->
+
+[cmd-help]: [[cmd-help]]

@@ -14,7 +14,7 @@ Cet ordre doit également être donné à une unité.
 
 Tous les objets, y compris l'argent, de la faction mourante sont donnés aux unités amies qui se trouvent dans la même région.  
 La répartition sera effectuée en fonction du nombre de personnes dans la région.  
-Seuls ceux qui ont reçu un [`HELP SILVER`][cmd-help] sont considérés comme des amis ici, c'est-à-dire là où il y avait déjà une confiance de la part de la faction partante.  
+Seuls ceux qui ont reçu un [`HELP SILVER`][cmd-help-fr] sont considérés comme des amis ici, c'est-à-dire là où il y avait déjà une confiance de la part de la faction partante.  
 La faction qui reçoit doit avoir passé l'ordre `HELP GIVE` sur la faction mourante.  
 Les objets vont à la première unité de la faction dans la région.  
 S'il n'y a pas d'unité amie dans une région, tous les objets vont aux agriculteurs.  
@@ -22,27 +22,27 @@ Les membres de la faction sont toujours remis aux agriculteurs (des exceptions s
 
 **`QUIT`**` "<mot de passe>" FACTION `*`faction-id`*  
 
-Il est également possible de fusionner deux factions d'une même race en utilisant l'ordre `QUIT`.  
+Il est également possible de fusionner deux factions d'un même peuple en utilisant l'ordre `QUIT`.  
 La deuxième variante est utilisée à cet effet : `QUIT "<mot de passe>" FACTION`` `*`faction-id`*, où l'identifiant de faction de l'autre faction doit être précisé.  
 
 Les conditions requises pour la fusion des factions sont les suivantes :
 
-1. La faction dissoute et la faction cible doivent être de la même race
+1. La faction dissoute et la faction cible doivent être du même peuple
 2. La faction réceptrice doit contacter l'entité émettant l'ordre `QUIT`
 3. La faction réceptrice doit bien sûr être dans la même région que l'unité émettant l'ordre `QUIT`
 4. Les deux factions doivent exister depuis au moins 50 tours
 
 Si l'une des conditions n'est pas remplie, l'ordre `QUIT` échoue et un message d'erreur apparaît.  
 
-Grâce à la fusion, toutes les unités possédant la race de la faction sont transférées vers la faction spécifiée, et la faction est ensuite supprimée.  
-Les unités n'appartenant pas à la race de faction, comme les migrants, les créatures magiques ou les familiers, sont supprimées.  
+Grâce à la fusion, toutes les unités du peuple de la faction à supprimer sont transférées vers la faction spécifiée, et la faction source est ensuite supprimée.  
+Les unités n'appartenant pas au peuple de la faction, comme les migrants, les créatures magiques ou les familiers, sont supprimées.  
 
 Si la faction cible possède moins que le nombre maximum autorisé d'unités dotées de compétences limitées (telles que l'alchimie et la magie), celles-ci sont distribuées au hasard.  
 Les unités aux compétences limitées qui ne peuvent plus être transférées seront supprimées.  
 Si vous souhaitez contrôler cela avec précision, vous devez laisser les unités indésirables oublier la compétence correspondante, au plus tard au cours de la semaine d'abandon du jeu.
 
 Les mages ne sont remis que si les deux factions possèdent la même École de Magie.  
-Les familiers sont perdus car ils n'appartiennent pas à la race de faction.  
+Les familiers sont perdus car ils n'appartiennent pas au peuple de la faction.  
 Les héros sont rétrogradés par capitulation.  
 
 La limite d'unités peut être dépassée lors de la fusion de factions.  
@@ -59,3 +59,5 @@ Il est donc préférable de s'assurer à l'avance que la faction fusionnée resp
     ```
 
 <!-- From [https://wiki.eressea.de/index.php?title=QUIT&oldid=16825] -->
+
+[cmd-help-fr]: [[cmd-help-fr]]

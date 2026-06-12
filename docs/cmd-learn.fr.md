@@ -11,9 +11,9 @@ alias: cmd-learn-fr
 **`LEARN`**` `*`<compétence>`*  
 **`LEARN`**`Magic "`*`<École de Magie>`*`"`  
 
-Avec cet ordre, l'unité passe un tour à [apprendre][apprendre-des-competences] une [compétence][competences] donnée (voir aussi : [[liste-des-competences]]).  
+Avec cet ordre, l'unité passe un tour à [apprendre][apprendre-des-competences] une [compétence][competences] donnée parmi cette [liste de compétences][liste-des-competences]).  
 
-En moyenne, accéder à un nouveau niveau de compétence par apprentissage pur prend environ un nombre de semaines correspondant au niveau de compétence visé, sans tenir compte des modifications dues à la race ou au terrain.  
+En moyenne, accéder à un nouveau niveau de compétence par apprentissage pur prend environ un nombre de semaines correspondant au niveau de compétence visé, sans tenir compte des modifications dues au peuple ou au terrain.  
 
 Par exemple, passer du niveau 2 au niveau 3 prend environ 3 semaines.  
 
@@ -25,11 +25,11 @@ Ce type d'ordre ne sera pas pris en compte par le serveur lors de la phase d'év
 
 ## Apprentissage accéléré
 
-Une unité peut bénéficier de [l'enseignement d'un Maître][cmd-teach] pour **réduire de moitié** les temps d'apprentissage habituellement nécessaires.
+Une unité peut bénéficier de [l'enseignement d'un Maître][cmd-teach-fr] pour **réduire de moitié** les temps d'apprentissage habituellement nécessaires.
 
 ## Apprentissage automatique
 
-Avec l'ordre [[cmd-learn-auto]], le serveur **tentera d'automatiser** l'apprentissage et l'enseignement dans une région au sein d'une faction.
+Avec l'ordre [[cmd-learn-auto-fr]], le serveur **tentera d'automatiser** l'apprentissage et l'enseignement dans une région au sein d'une faction.
 
 !!! warning "Attention"
     L'utilisation simultanée d'ordres `TEACH` et `LEARN AUTO` par les unités d'une même faction dans une région n'est pas autorisée.
@@ -40,8 +40,11 @@ L'ordre `LEARN Magic "<Magic School>"` détermine [l'École de Magie][magie] pou
 
 ## Voir aussi
 
-- [apprendre][apprendre-des-competences]
-- [enseigner][cmd-teach]
-- [apprentissage automatisé][cmd-learn-auto]
+- [Apprendre][apprendre-des-competences]
+- [Enseigner][cmd-teach-fr]
+- [L'apprentissage automatisé][cmd-learn-auto-fr]
 
 <!-- From [https://wiki.eressea.de/index.php?title=LEARN&oldid=16727] -->
+
+[cmd-learn-auto-fr]: [[cmd-learn-auto-fr]]
+[cmd-teach-fr]: [[cmd-teach-fr]]

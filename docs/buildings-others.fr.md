@@ -8,7 +8,7 @@ alias: batiments-speciaux
 
 Les bâtiments construits dans une région **procurent des avantages** importants aux unités qui les occupent.
 
-Ils sont construits avec l'ordre [MAKE "type de bâtiment"][cmd-make] et peuvent être agrandis avec l'ordre [MAKE "type de bâtiment" ID-bâtiment][cmd-make].
+Ils sont construits avec l'ordre [MAKE "type de bâtiment"][cmd-make-fr] et peuvent être agrandis avec l'ordre [MAKE "type de bâtiment" ID-bâtiment][cmd-make-fr].
 
 Exemple : `MAKE`&nbsp;[Lighthouse] (création) ou `MAKE`&nbsp;[Harbour]&nbsp;`xyz` (agrandissement).
 
@@ -147,7 +147,7 @@ S'il ne reste que 7 pierres dans la région, les trolls ne peuvent produire que 
 **Exemple :**
 
 Avec une potion d'[eau de vie][eau-de-vie]{title="Water of life"} et 10 bois vous pouvez créer du bois dans une scierie.  
-Avec l'ordre [`USE 1 water~of~life`][cmd-use] vous créez 10 [pousses][jeunes-arbres-ou-pousses]{title="Saplings"} en utilisant 10 bois.  
+Avec l'ordre [`USE 1 water~of~life`][cmd-use-fr] vous créez 10 [pousses][jeunes-arbres-ou-pousses]{title="Saplings"} en utilisant 10 bois.  
 Vous les coupez instantanément dans la scierie, produisant ainsi 20 bois.
 
 ## Forge
@@ -174,7 +174,7 @@ Vous les coupez instantanément dans la scierie, produisant ainsi 20 bois.
 |--------------------------------------|:-------------:|:--------------------:|:-----------:|--------------------------|
 | 2 pierres, 4 bois, 1 fer, 100 silver |       2       |      150 silver      |     --      | *taille du bâtiment*     |
 
-- Les unités à l'intérieur d'un haras peuvent reproduire des chevaux en utilisant l'ordre [`GROW HORSES`][cmd-grow].
+- Les unités à l'intérieur d'un haras peuvent reproduire des chevaux en utilisant l'ordre [`GROW HORSES`][cmd-grow-fr].
   Pour cela l'unité doit maîtriser l'[apprivoisement][apprivoisement]{title="Taming"} et d'au moins 2 chevaux (en sa possession).
 - La chance d'élever des chevaux correspond à la compétence de l'unité.
   De plus, l'unité dispose d'un nombre de tentatives égal à son niveau.
@@ -197,14 +197,14 @@ Le coût **total** d'un port (de taille 25) est de : 125 pierres, 125 bois, 6250
 
 - Permet aux bateaux plus gros qu'une [barque][barque]{title="Boat"} d'accoster dans des régions qui ne sont ni des plaines ni des forêts.
 - Une région avec un port peut être utilisée comme une « région canal », c'est-à-dire qu'un bateau dans le port peut naviguer dans n'importe quelle autre direction maritime.
-- Dans les deux cas, la condition préalable est que le propriétaire du port soit membre de la même faction ou qu'il ait paramétré un ordre [`HELP GUARD`][cmd-help] avec la faction du Capitaine.
+- Dans les deux cas, la condition préalable est que le propriétaire du port soit membre de la même faction ou qu'il ait paramétré un ordre [`HELP GUARD`][cmd-help-fr] avec la faction du Capitaine.
 - Le propriétaire du port reçoit 10 % de tout l'argent gagné grâce au commerce, en plus des éventuels revenus provenant des châteaux.
 - Le propriétaire reçoit également (2 x Trade)% de tous les biens de luxe qui se trouvent à bord des bateaux entrants.
   Sauf si l'unité qui transporte les marchandises a un niveau de dissimulation supérieur au niveau de perception du propriétaire du port, ou si le capitaine du bateau est allié avec le propriétaire du port.
 - Dans une région dotée d'un port, les prix des biens de luxe augmenteront avec une probabilité de 20 % au lieu des 10 % normaux.
 - Un port ne fonctionnera que s’il est entièrement construit.
   Il ne peut y avoir qu'un seul port par région. Celui qui termine un port en premier en est le propriétaire.
-  Un port à moitié terminé peut être détruit avec l'ordre [[cmd-destroy]].
+  Un port à moitié terminé peut être détruit avec l'ordre [[cmd-destroy-fr]].
 
 Le nombre de bateaux dans un port est illimité.  
 
@@ -358,4 +358,7 @@ Poursuivre la lecture : [réserve de faction][reserve-de-faction].
 
 [^1]: nécessite également 2 mallorns et 2 laens par point de taille.
 
-[cmd-make]: [[cmd-make]]
+[cmd-grow-fr]: [[cmd-grow-fr]]
+[cmd-help-fr]: [[cmd-help-fr]]
+[cmd-make-fr]: [[cmd-make-fr]]
+[cmd-use-fr]: [[cmd-use-fr]]

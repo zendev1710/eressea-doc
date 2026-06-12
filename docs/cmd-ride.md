@@ -39,7 +39,7 @@ Partei 300:
 
 ## See also
 
-- [[travel]]
+- [[movement]]
 - [[cmd-move]]
 - [[cmd-route]]
 

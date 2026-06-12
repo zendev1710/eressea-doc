@@ -94,3 +94,7 @@ Weiterlesen: [Kurzbeschreibung][kurzbeschreibung].
 [ZERSTÖRE]: ./cmd-destroy.md
 [BEZAHLE NICHT]: ./cmd-pay-not.md
 [ZÜCHTE]: ./cmd-grow.md
+
+[bef-bewache]: [[bef-bewache]]
+[bef-gib]: [[bef-gib]]
+[bef-mache]: [[bef-mache]]

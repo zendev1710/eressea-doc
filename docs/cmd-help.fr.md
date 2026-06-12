@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: cmd-help-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # HELP
 
 <!-- TODO: replace PARTEITARNUNG -->
@@ -15,7 +17,7 @@ alias: cmd-help-fr
 Cet ordre permet à une faction d'attribuer différents niveaux de soutien à une autre faction.
 Cette dernière ne sera pas informée de ce changement de statut et n'est pas tenue d'avoir le même statut.
 
-Les différents modes sont expliqués dans la section [[alliances]].
+Plus d'information sur les différents modes : [les alliances][alliances].
 
 Exemple :
 

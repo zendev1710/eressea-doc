@@ -45,7 +45,9 @@ Mais ce n’est pas recommandé.
 
 ## Voir aussi
 
-- [`GROW HORSES`][cmd-grow]
+- [`GROW HORSES`][cmd-grow-fr]
 - [Ressources][ressources]
 
 <!-- From [https://wiki.eressea.de/index.php?title=PLANT&oldid=16730] -->
+
+[cmd-grow-fr]: [[cmd-grow-fr]]

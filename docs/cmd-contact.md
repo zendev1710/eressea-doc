@@ -49,3 +49,6 @@ In order for unit a to recruit, x and y must both `CONTACT UNIT a` or `CONTACT P
 - `HELP`is permanent and applies to all units of my faction or group (and all units of the other targeted faction)
 
 <!-- From [https://wiki.eressea.de/index.php?title=CONTACT&oldid=13303] -->
+
+[cmd-give]: [[cmd-give]]
+[cmd-help]: [[cmd-help]]

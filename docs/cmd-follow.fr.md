@@ -50,11 +50,11 @@ Seul le premier est toujours exécuté.
 
 ## Voir aussi
 
-- [[travel]]
-- [[cmd-move]]
-- [[cmd-route]]
-- [[cmd-ride]]
-- [[cmd-carry]]
-- [[cmd-piracy]]
+- [[deplacements]]
+- [[cmd-move-fr]]
+- [[cmd-route-fr]]
+- [[cmd-ride-fr]]
+- [[cmd-carry-fr]]
+- [[cmd-piracy-fr]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=FOLLOW/fr&oldid=8283] -->

@@ -67,3 +67,6 @@ In the [first few weeks][puppy-protection] a faction cannot guard yet.
 - [[cmd-contact]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=GUARD&oldid=16839] -->
+
+[cmd-combat]: [[cmd-combat]]
+[cmd-help]: [[cmd-help]]

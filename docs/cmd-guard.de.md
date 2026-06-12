@@ -37,10 +37,12 @@ In den [ersten Wochen][welpenschutz] kann deine Partei noch nicht bewachen.
 ## Siehe auch
 
 - [`HELFE BEWACHE`][bef-helfe]
-- [Allianz][alliiert]
+- [Allianz][allianz]
 - [[bef-kontaktiere]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=BEWACHE&oldid=16839] -->
 
 [bef-kontaktiere]: ./cmd-contact.md
 [KÄMPFE FLIEHE]: ./cmd-combat.md
+
+[bef-helfe]: [[bef-helfe]]

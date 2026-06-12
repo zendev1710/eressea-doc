@@ -33,7 +33,7 @@ Note : afin de ne pas compliquer inutilement les choses, on parle de personnes m
 ## Factions impliquées
 
 Selon le rapport de bataille, les factions suivantes étaient impliquées.  
-Il ne peut être exclu que certains participants aient pris part à cette bataille sous [fausse bannière][cmd-hide].  
+Il ne peut être exclu que certains participants aient pris part à cette bataille sous [fausse bannière][cmd-hide-fr].  
 Le candidat le plus probable est le Mist Sea Man Gornt (mwq4), qui se faisait passer pour un danseur dans la tempête, mais qui était très probablement un Aquazone.  
 
 Du côté de **Tirawon**, 15 peuples se sont battus :
@@ -98,3 +98,5 @@ Et :
 <!-- From [https://wiki.eressea.de/index.php?title=Pentagramm\_und\_Tirawon&oldid=3551] -->
 
 [Rapport détaillé du point de vue de Tirawon]: http://members.chello.at/r.lang/eressea/pentagramm/index.html
+
+[cmd-hide-fr]: [[cmd-hide-fr]]

@@ -81,3 +81,5 @@ To simplify this, there is an [[items-pool]].
 Continue reading: [resources][resources].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Produktion&oldid=16875] -->
+
+[cmd-make]: [[cmd-make]]

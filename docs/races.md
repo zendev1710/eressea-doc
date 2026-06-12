@@ -24,7 +24,7 @@ Demons are cruel and unpredictable. They devour the local peasants and always su
 - Infernal Hunger: Demons eat peasants every turn. Demons that do not receive food (not enough peasants) lose hit points and are subject to skill reduction according to the normal [starvation rule][starvation].
 - Ethereal Creature: Demons are not [recruited][recruiting] from the peasant population (they aren't deducted from the peasant pool). However, the normal recruitment limits still apply for balance reasons.
 - Ethereal Creature: When a demon unit gives away men with [`GIVE 0`][cmd-give], these people are not added to the peasant population in the region.
-- Intrinsic Disguise: Demons can [change their appearance] to become that of any other player race.
+- Intrinsic Disguise: Demons can [change their appearance][cmd-hide] to become that of any other player race.
 - Panic: In close combat, taking a hit from a demon causes panic in the victim. The person receives a modifier of −1 to all combat skills (not the unit).
 - Regeneration: Wounded demons regenerate 7,5% of their hit points per turn.
 
@@ -157,8 +157,11 @@ Continue reading: [skills-modifiers].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rassen/en&oldid=16644] -->
 
-[change their appearance]: ./cmd-hide.md
 [groups]: ./cmd-group.md
 [heroes]: ./cmd-promote.md
 
 [skills-modifiers]: [[skills-modifiers]]
+
+[cmd-combat]: [[cmd-combat]]
+[cmd-give]: [[cmd-give]]
+[cmd-hide]: [[cmd-hide]]

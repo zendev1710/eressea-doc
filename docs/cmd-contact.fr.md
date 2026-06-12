@@ -11,7 +11,7 @@ alias: cmd-contact-fr
 Vous n'êtes normalement pas autorisé à donner quoi que ce soit aux unités de factions étrangères, à moins que vous ne soyez un allié de cette faction.  
 
 Pour permettre cela ponctuellement, il existe l'ordre `CONTACT`.  
-Dans ce tour -et seulement dans ce tour- l'unité donnant l'ordre se comporte envers l'unité spécifiée comme si elle était alliée avec elle (voir aussi sous [[cmd-help]]), c'est-à-dire qu'elle accepte des objets, de l'argent et des personnes.  
+Dans ce tour -et seulement dans ce tour- l'unité donnant l'ordre se comporte envers l'unité spécifiée comme si elle était alliée avec elle (voir aussi sous [[cmd-help-fr]]), c'est-à-dire qu'elle accepte des objets, de l'argent et des personnes.  
 Les factions non alliées peuvent également pénétrer dans les châteaux et les navires, recruter des personnes et extraire des ressources de cette manière.  
 
 `CONTACT UNIT`donne les droits à une seule unité, tandis que `CONTACT FACTION` autorise toutes les unités de la faction en question dans une région.  
@@ -41,11 +41,14 @@ Pour que l'unité *a* recrute, *x* et *y* doivent tous deux passer un ordre `CON
 
 ## Differences avec `HELP`
 
-`CONTACT` a une fonction similaire à [`HELP GIVE + HELP GUARD`][cmd-help], mais n'est pas tout à fait identique :
+`CONTACT` a une fonction similaire à [`HELP GIVE + HELP GUARD`][cmd-help-fr], mais n'est pas tout à fait identique :
 <!-- TODO: compare second item in enumeration with original wiki documentation -->
-- `CONTACT` est requis pour certaines actions spécifiques non prises en charge par `HELP GIVE` et `HELP GUARD`, comme [`GIVE MEN`][cmd-give] et certains sorts
+- `CONTACT` est requis pour certaines actions spécifiques non prises en charge par `HELP GIVE` et `HELP GUARD`, comme [`GIVE MEN`][cmd-give-fr] et certains sorts
 - `HELP` ferme `HELP SILVER, HELP COMBAT` et `HELP PARTEITARNUNG`
 - `CONTACT` s'applique uniquement au tour en cours et uniquement à l'unité émettant l'ordre
 - `HELP` est permanent et s'applique à toutes les unités de la faction ou du groupe (et à toutes les unités de la faction ciblée par l'ordre)
 
 <!-- From [https://wiki.eressea.de/index.php?title=CONTACT&oldid=13303] -->
+
+[cmd-give-fr]: [[cmd-give-fr]]
+[cmd-help-fr]: [[cmd-help-fr]]

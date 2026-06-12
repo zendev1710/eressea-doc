@@ -16,8 +16,8 @@ La magie est un moyen mystique et puissant de changer et de créer des choses et
 Chaque faction doit choisir l'une des cinq [[ecoles-de-magie]] parmi [Illaun][sorts-illaun], [Tybied][sorts-tybied], [Gwyrrd][sorts-gwyrrd], [Cerddor][sorts-cerddor] ou [Draig][sorts-draig].  
 
 L'École de Magie de la faction est déterminée par la toute première unité qui apprend la magie dans la faction.
-Cela se fait à l'aide de l'ordre [`LEARN MAGIC "<école de magie>"`][cmd-learn].  
-En conséquence, l'ordre est maintenant simplement appelé `LEARN MAGIC <école de magie>"` et tous les mages d'une [faction][factions] apprennent alors automatiquement l'École de Magie choisie par la faction.  
+Cela se fait à l'aide de l'ordre [`LEARN MAGIC "<école de magie>"`][cmd-learn-fr].  
+En conséquence, l'ordre est maintenant simplement appelé `LEARN MAGIC <école de magie>"` et tous les mages d'une [faction][faction] apprennent alors automatiquement l'École de Magie choisie par la faction.  
 Il est cependant possible de passer l'ordre `LEARN MAGIC "<école de magie>"` pour plusieurs unités si vous ne savez pas quelle unité viendra en premier.  
 
 !!! note
@@ -68,7 +68,7 @@ Bien entendu, l’apprentissage par l’application ne coûte pas d’argent.
 À chaque niveau que l'unité gagne en magie, elle peut acquérir de nouveaux sorts.  
 Il y a actuellement un sort dans chaque niveau, dans des cas exceptionnels plusieurs voire aucun.  
 Une fois que vous avez atteint un nouveau niveau, les paroles sont décrites dans l'évaluation.  
-Si vous avez oublié la description, vous pouvez la faire afficher à nouveau à l'aide de l'ordre [[cmd-show]].
+Si vous avez oublié la description, vous pouvez la faire afficher à nouveau à l'aide de l'ordre [[cmd-show-fr]].
 
 ```text
                                      Wunderdoktor
@@ -118,13 +118,13 @@ ou alors
 
 Il existe des sorts normaux, des sorts de pré-combat, des sorts de combat et des sorts d'après-combat.
 
-Les sorts normaux sont lancés à l'aide de la commande [[cmd-cast]].  
+Les sorts normaux sont lancés à l'aide de la commande [[cmd-cast-fr]].  
 Leur effet se produit soit immédiatement (voir [[sequence-des-ordres]]) soit parfois plus tard, par exemple au début du tour suivant.  
 
 Les trois types de sorts de combat ne peuvent jamais être lancés en utilisant `CAST`.  
 Au lieu de cela, ils sont lancés lorsque l’unité est activement engagée dans un combat.  
-Les trois types peuvent être définis avec l'ordre [`COMBATSPELL LEVEL n "<sort>"`][cmd-combatspell].  
-Vous pouvez supprimer un sort de combat spécifique avec l'ordre `COMBATSPELL "<sort>" NOT`, ou supprimer tous les sorts de combat définis, avec [`COMBATSPELL NOT`][cmd-combatspell].  
+Les trois types peuvent être définis avec l'ordre [`COMBATSPELL LEVEL n "<sort>"`][cmd-combatspell-fr].  
+Vous pouvez supprimer un sort de combat spécifique avec l'ordre `COMBATSPELL "<sort>" NOT`, ou supprimer tous les sorts de combat définis, avec [`COMBATSPELL NOT`][cmd-combatspell-fr].  
 Les sorts de combat fonctionnent un peu comme les ordres [`COMBAT`][lignes-de-combat], c'est-à-dire qu'une fois définis, ils restent enregistrés.  
 Une unité peut avoir au maximum un sort de pré-combat, un sort de combat et un sort de post-combat.  
 Par exemple, si l'unité possède déjà un sort de pré-combat et qu'elle lance un nouveau sort de pré-combat, l'ancien est remplacé par le nouveau.
@@ -148,7 +148,7 @@ Syntax:
 ```
 <!-- TODO check if below is what german text meant -->
 Si un mage active des sorts de combat, ceux-ci sont automatiquement lancés dès qu'il participe au combat : soit en donnant l'ordre `ATTACK` lui-même, soit en étant entraîné dans la bataille par une attaque ciblant son camp (voir [Les camps dans une bataille][les-camps-dans-une-bataille]).  
-Cela peut également se produire même s'il est au statut de combat `COMBAT NOT` ou `FLEE`, dès lors qu'il est explicitement attaqué avec l'ordre [[cmd-attack]] !
+Cela peut également se produire même s'il est au statut de combat `COMBAT NOT` ou `FLEE`, dès lors qu'il est explicitement attaqué avec l'ordre [[cmd-attack-fr]] !
 
 Un sort de pré-combat ou de post-combat est lancé une fois avant ou après le début du combat.  
 Un sort de combat normal une fois par round de combat, à condition que l'unité ait encore suffisamment d'aura (voir [aura][aura-fr-id]) et qu'elle soit encore en vie.
@@ -163,7 +163,7 @@ Un mage peut absorber une quantité maximale d’aura, déterminée par son nive
 
 Les déttails pour chaque unité de mage sont présents dans le rapport, mais, en règle générale, le maximum d'aura absorbée est d'au maximum *niveau magie* puissance 2, et en moyenne environ *niveau de magie* de l'aura est régénérée par semaine.  
 Mais cela peut varier entre presque rien et le niveau en magie.  
-Les races magiques régénèrent l'aura plus rapidement, les races non magiques beaucoup plus lentement.  
+Les peuples magiques régénèrent l'aura plus rapidement, les peuples non magiques beaucoup plus lentement.  
 
 L'aura maximale n'est pas immuable.
 
@@ -176,7 +176,7 @@ D'autre part, il existe des sorts (et éventuellement d'autres choses) qui coût
 Cela signifie que l'unité peut alors stocker moins d'aura maximale.  
 Il s’agit généralement de sorts ou d’artefacts magiques très puissants qui provoquent des effets permanents.
 
-[[cmd-cast]] est un ordre pseudo-long comparable à [[cmd-attack]].  
+[[cmd-cast-fr]] est un ordre pseudo-long comparable à [[cmd-attack-fr]].  
 Une unité peut donc lancer des sorts plusieurs fois par tour, mais ne peut exécuter aucun autre ordre long.  
 Mais il y a un hic : les coûts d’aura des sorts augmentent.  
 Le premier sort lancé par l'unité au cours d'un round coûte l'aura normale spécifiée dans le sort.  
@@ -245,7 +245,7 @@ CAST REGION <x> <y> "<Sort>"
 ```
 
 Le sort est ensuite lancé dans la région spécifiée.  
-Les coordonnées X et Y font référence au [[cmd-origin]].  
+Les coordonnées X et Y font référence au [[cmd-origin-fr]].  
 Cependant, cette modification augmente le coût de tous les composants du sort de façon exponentielle.  
 Le **coût** des composants matériels et de l'aura **est doublé par région de distance** entre l'emplacement de l'unité et la cible.  
 
@@ -301,8 +301,8 @@ D'autres sorts, désignés spécifiquement comme sorts de **Magie en mer** marqu
 ### Magie sur les gens et les objets
 
 Certains sorts peuvent être utilisés pour influencer avec la magie des personnes et des objets.  
-Il est à noter que la grande majorité des sorts à lancer sur des unités amies nécessitent que l'unité cible contacte le mage avec [[cmd-contact]].  
-Les téléportations et autres enchantements peuvent être bien intentionnés, mais peuvent souvent être utilisés pour des méfaits, et avec [[cmd-contact]], la cible signale qu'elle accepte l'enchantement.  
+Il est à noter que la grande majorité des sorts à lancer sur des unités amies nécessitent que l'unité cible contacte le mage avec [[cmd-contact-fr]].  
+Les téléportations et autres enchantements peuvent être bien intentionnés, mais peuvent souvent être utilisés pour des méfaits, et avec [[cmd-contact-fr]], la cible signale qu'elle accepte l'enchantement.  
 
 ### Rang
 
@@ -371,7 +371,7 @@ Les effets spéciaux affectent principalement Gwyrrd (des Ents enragés sont cr�
 La résistance à la magie d'une unité est la capacité inhérente de chaque personne à résister à un sort lancé contre elle et la gravité avec laquelle une personne est affectée par les dégâts de magie au combat.  
 La résistance à la magie d'une unité s'obtient par l'addition de :
 
-- la résistance naturelle à la magie des [[races]]
+- la résistance naturelle à la magie des [peuples]
 - +5 % par niveau de compétence en magie
 - *+10 % x Nombre de licornes* par personne
 - Éventuellement un bonus ou un malus dû au [sort][liste-des-sorts] sur l'unité ou la région
@@ -393,7 +393,7 @@ Il peut également être renforcé par certains sorts.
 
 **Exemples:**
 
-La chance de base est de 0 % pour les humains, de 10 % pour les [elfes][skills-modifiers], et de -5 % pour les [gobelins][skills-modifiers].  
+La chance de base est de 0 % pour les humains, de 10 % pour les [elfes][modificateurs-de-competences-id], et de -5 % pour les [gobelins][modificateurs-de-competences-id].  
 
 Une unité Mining 10 a 50 % de chances de résister à un sort comme [Malédiction du Chaos][malediction-du-chaos] lancé par une unité de T10 en magie.  
 Si le niveau en magie est T12, les chances tombent à 40 %.  
@@ -409,7 +409,7 @@ De plus, la probabilité d’un échec du sort est considérablement réduite.
 ## Familiers
 
 Les mages expérimentés rencontreront à un moment donné au cours de leurs pérégrinations un spécimen inhabituel d’une espèce qui les rejoindra.  
-Le genre auquel appartient cette créature dépend principalement de l' École de Magie et de la race.  
+Le genre auquel appartient cette créature dépend principalement de l' École de Magie et du peuple.  
 
 Plus d'information sur ces créatures : les [[familiers]].  
 
@@ -425,7 +425,7 @@ Ce fait est peut-être la seule raison pour laquelle l'Astral est resté une app
 Quiconque pénètre dans l'Astral - cela n'est possible que grâce à certains [sorts][liste-des-sorts] - disparaît complètement du monde réel.  
 Comme le monde réel, l’Astral est divisé en régions dont les points cardinaux sont connus.  
 Les unités situées en un point de l'Astral apparaissent dans le rapport et sont jouées comme les autres unités.  
-Vous pouvez ainsi recevoir des ordres comme [[cmd-move]] et [[cmd-attack]] et interagir avec d'autres entités de l'Astral.  
+Vous pouvez ainsi recevoir des ordres comme [[cmd-move-fr]] et [[cmd-attack-fr]] et interagir avec d'autres entités de l'Astral.  
 Ils ne peuvent communiquer avec le monde normal que par magie.  
 
 Les sens des créatures du monde sont incapables de percevoir concrètement l'environnement de l'Astral.  
@@ -468,3 +468,6 @@ C'est pourquoi il existe désormais une [[liste-des-sorts]] et une [[description
 Poursuivre la lecture : [[ecoles-de-magie]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
+
+[cmd-combatspell-fr]: [[cmd-combatspell-fr]]
+[cmd-learn-fr]: [[cmd-learn-fr]]

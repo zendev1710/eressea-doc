@@ -85,3 +85,6 @@ Weiterlesen: [Schiffsreise][schiffsreise].
 [bef-transportiere]: ./cmd-carry.md
 [bef-folge]: ./cmd-follow.md
 [bef-bewache]: ./cmd-guard.md
+
+[bef-fahre]: [[bef-fahre]]
+[bef-nach]: [[bef-nach]]

@@ -21,7 +21,7 @@ Ce site reprend les règles du jeu décrites dans le wiki, **entièrement tradui
 - [E-Announce] : la mailing list pour les modifications de règles — **IMPORTANT** !
 - [Les outils indispensables pour jouer][ce-que-vous-devez-considerer-lors-de-la-saisie-des-ordres]
 - [Conseils pour les nouveaux joueurs][conseils-pour-debutants]
-- [L'histoire d'Eressea][histoire-d-eressea] : Eressea provient d'[[atlantis]]
+- [L'histoire d'Eressea][histoire-d-eressea-id] : Eressea provient d'[[atlantis]]
 - [Questions fréquentes (FAQ)][questions-frequentes]
 
 ## Liens utiles
@@ -47,12 +47,12 @@ Depuis quelques changements de règles en 2000, il est nommé « Le Deuxième �
 
 Le 24 juin 2009 a marqué le début du Troisième Âge d'Eressea.  
 Il représente un monde nouveau, avec des règles du jeu qui ont évolué sur plusieurs aspects.  
-La simplification de la gestion et une séparation plus nette des races constituaient les deux principaux objectifs de conception d'E3.  
+La simplification de la gestion et une séparation plus nette des peuples constituaient les deux principaux objectifs de conception d'E3.  
 
 La campagne de jeu s'est achevée le 11 août 2019, après 517 tours d'évaluation.  
 Sur E3, tu peux consulter la documentation suivante :
 
-- [Aperçu de nos réflexions concernant les races]
+- [Aperçu de nos réflexions concernant les peuples]
 - [Ensemble des modifications des règles par rapport au jeu Eressea original][le-troisieme-age]
 - [Annonces de la liste de diffusion e3-announce]
 
@@ -95,7 +95,7 @@ Poursuivre la lecture : [les règles][regles].
 [Xontormia Express]: https://wiki.eressea.de/xontormia_express "Xontormia Express"
 [numéros archivés]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express (wiki)"
 [annonces]: https://wiki.eressea.de/Ankündigungen "Ankündigungen (wiki)"
-[Aperçu de nos réflexions concernant les races]: https://wiki.eressea.de/Rassen_im_dritten_Zeitalter "Les races au Troisième Âge (wiki)"
+[Aperçu de nos réflexions concernant les peuples]: https://wiki.eressea.de/Rassen_im_dritten_Zeitalter "Les peuples au Troisième Âge (wiki)"
 [Annonces de la liste de diffusion e3-announce]: https://wiki.eressea.de/Ankündigungen_(E3) "Annonces E3 (wiki)"
 [Patreon-Förderer]: https://www.patreon.com/enno
 [Discussion sur le forum]: https://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4170

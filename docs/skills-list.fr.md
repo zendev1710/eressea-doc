@@ -6,9 +6,9 @@ alias: liste-des-competences
 <!-- markdownlint-disable MD042 MD051 MD052 -->
 # Liste des compétences
 
-Les compétence s'acquièrent progressivement avec l'ordre [[cmd-learn]].  
+Les compétence s'acquièrent progressivement avec l'ordre [[cmd-learn-fr]].  
 
-Elles peuvent être acquises plus rapidement à l'aide d'un [maître enseignant][cmd-teach]{title="TEACH"}.  
+Elles peuvent être acquises plus rapidement à l'aide d'un [maître enseignant][cmd-teach-fr]{title="TEACH"}.  
 
 Une unité peut apprendre une ou plusieurs des compétences décrites ci-dessous, à l'exception du [combat à mains nues][skill-combat-a-mains-nues-id]{title="Unarmed combat"}.
 
@@ -23,13 +23,13 @@ Cette compétence permet de concocter des [potions][potions-fr-id] à partir de 
 L'apprentissage de l'alchimie coûte 200 silver par tour et par personne.  
 
 !!! note "Important"
-    Une [faction][factions] ne peut compter que **3 alchimistes** au plus.
+    Une [faction][faction] ne peut compter que **3 alchimistes** au plus.
 
 Plus d'information :
 
 - Chapitre dédié : [l'alchimie][alchimie]
-- Ordre [[cmd-make]]
-- Ordre [[cmd-use]]
+- Ordre [[cmd-make-fr]]
+- Ordre [[cmd-use-fr]]
 
 ## Apprivoisement
 
@@ -41,10 +41,10 @@ Cette compétence permet d'obtenir des [chevaux][chevaux]{title="Horses"}.
 
 On peut l'utiliser de deux façons.  
 
-L'ordre [`MAKE HORSE`][cmd-make] permet de capturer des chevaux présents dans la région, à raison d'un cheval par personne et par niveau.  
+L'ordre [`MAKE HORSE`][cmd-make-fr] permet de capturer des chevaux présents dans la région, à raison d'un cheval par personne et par niveau.  
 Bien sûr, il n'est possible de capturer qu'au maximum le nombre de chevaux présents dans la région.  
 
-L'ordre [`GROW HORSES`][cmd-grow], donné par une unité se trouvant dans un [haras][haras]{title="Stable"}, permet la reproduction de chevaux.  
+L'ordre [`GROW HORSES`][cmd-grow-fr], donné par une unité se trouvant dans un [haras][haras]{title="Stable"}, permet la reproduction de chevaux.  
 
 ## Combat à l'arme d'hast
 
@@ -54,7 +54,7 @@ L'ordre [`GROW HORSES`][cmd-grow], donné par une unité se trouvant dans un [ha
 
 Cette compétence permet de se battre avec une [arme d'hast][armes-dhast].  
 
-Une unité ayant acquis cette compétence et équipée d'arme(s) d'hast peut [collecter les impôts][cmd-tax], à condition d'avoir également acquis la compétence de [taxation][skill-taxation-fr-id].  
+Une unité ayant acquis cette compétence et équipée d'arme(s) d'hast peut [collecter les impôts][cmd-tax-fr], à condition d'avoir également acquis la compétence de [taxation][skill-taxation-fr-id].  
 
 [](){ #skill-combat-a-mains-nues-id }
 
@@ -66,7 +66,7 @@ Une unité ayant acquis cette compétence et équipée d'arme(s) d'hast peut [co
 
 Cette compétence **ne peut être acquise par aucune unité jouée**.  
 
-Seuls les monstres et autres races spéciales ont cette compétence de combat à main nue (sans armes).
+Seuls les monstres et autres peuples spéciaux ont cette compétence de combat à main nue (sans armes).
 
 ## Commerce
 
@@ -81,8 +81,8 @@ Cette compétence permet d'acheter et de vendre des [biens de luxe][biens-de-lux
 Plus d'information :
 
 - Chapitre dédié : [le commerce][le-commerce]
-- Ordre [[cmd-buy]]
-- Ordre [[cmd-sell]]
+- Ordre [[cmd-buy-fr]]
+- Ordre [[cmd-sell-fr]]
 
 ## Construction de routes
 
@@ -115,7 +115,7 @@ Cette compétence augmente la furtivité d'une unité.
 Une unité ayant acquis cette compétence est visible uniquement pour celles ayant un niveau de [perception][skill-perception-fr-id]{title="Perception"} supérieur ou égal à son niveau de discrétion.  
 Elle n'est pas visible des autres unités.  
 
-Une unité dissimulée grâce à sa discrétion peut aussi [voler][vol-de-silver] ou déjouer la [vigilance][cmd-guard] des gardes de région.  
+Une unité dissimulée grâce à sa discrétion peut aussi [voler][vol-de-silver] ou déjouer la [vigilance][cmd-guard-fr] des gardes de région.  
 
 Plus d'information :  [compétence de discrétion en détail][discretion-id].  
 
@@ -141,7 +141,7 @@ Si les paysans ont suffisamment d'argent, il est possible de gagner 20 Silver pa
 
 Cette capacité permet à une unité d'encaisser plus de points de dégâts au combat et de mieux résister à la [famine][famine]{title="Starvation"}.  
 
-En pratique, une unité [bénéficie d'un bonus de PV][table-endurance-fr-id], dont la valeur est fonction de son **niveau en endurance** et de **sa race**.  
+En pratique, une unité [bénéficie d'un bonus de PV][table-endurance-fr-id], dont la valeur est fonction de son **niveau en endurance** et de **son peuple**.  
 
 ## Équitation
 
@@ -169,7 +169,7 @@ Par personne et par niveau de compétence, il est possible :
 *Espionage (EN), Spionage (DE)*.
 <!-- cspell:enable -->
 
-Nécessaire pour utiliser l'ordre [[cmd-spy]] et ainsi obtenir des informations secrètes sur les unités des autres factions (compétences, véritable appartenance à une faction...). Apprendre "Espionage" coûte 100 Silver par personne et par semaine.
+Nécessaire pour utiliser l'ordre [[cmd-spy-fr]] et ainsi obtenir des informations secrètes sur les unités des autres factions (compétences, véritable appartenance à une faction...). Apprendre "Espionage" coûte 100 Silver par personne et par semaine.
 
 ## Extraction de pierres
 
@@ -242,7 +242,7 @@ Permet de récolter des [[plantes]] pour concocter des [potions][alchimie].
 
 Le coût d'apprentissage est de **200 silver par semaine et par personne**.
 
-À un niveau élevé on peut aussi utiliser les ordres [`RESEARCH HERBS`][cmd-research] et [`MAKE SEEDS`][cmd-make] (voir [Production][production-fr-id]) et [[cmd-plant]].  
+À un niveau élevé on peut aussi utiliser les ordres [`RESEARCH HERBS`][cmd-research-fr] et [`MAKE SEEDS`][cmd-make-fr] (voir [Production][production-fr-id]) et [[cmd-plant-fr]].  
 Même avec un niveau élevé on peut ne trouver que peu ou pas de plantes.
 
 ## Maçonnerie
@@ -251,7 +251,7 @@ Même avec un niveau élevé on peut ne trouver que peu ou pas de plantes.
 *Masonry (EN), Burgenbau (DE)*.
 <!-- cspell:enable -->
 
-Permet de construire des [[batiments-speciaux]] et des [châteaux][chateaux]{title="Castle"}.
+Permet de construire des [bâtiments spéciaux][batiments-speciaux] et des [châteaux][chateaux]{title="Castle"}.
 
 ## [[magie]]
 
@@ -273,7 +273,7 @@ L'apprentissage de la magie [coûte de l'argent][magie] par personne et par tour
 
 Capacité à se battre avec une arme de mêlée (sword, claymore, axe, laensword).  
 
-Une unité ayant acquis cette compétence et équipée d'arme(s) de mêlée peut [collecter les impôts][cmd-tax], à condition d'avoir également acquis la compétence de [taxation][skill-taxation-fr-id].  
+Une unité ayant acquis cette compétence et équipée d'arme(s) de mêlée peut [collecter les impôts][cmd-tax-fr], à condition d'avoir également acquis la compétence de [taxation][skill-taxation-fr-id].  
 
 [](){ #skill-perception-fr-id }
 
@@ -296,7 +296,7 @@ Cette compétence permet également d'éviter le [vol][vol-de-silver].
 Capacité à abattre des arbres et des mallorns pour faire du [bois][bois]{title="Wood"}.  
 
 !!! note "Note"
-    Veillez à bien gérer les [ressources forestières][ressources-forestieres] des régions que vous [gardez][cmd-guard].
+    Veillez à bien gérer les [ressources forestières][ressources-forestieres] des régions que vous [gardez][cmd-guard-fr].
 
 ## [[tactique]]
 
@@ -365,3 +365,10 @@ Avec un bateau : permet de naviguer.
 Toutes les unités sur le bateau ayant acquis cette compétence comptent dans l'équipage.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente/fr&oldid=15211] -->
+
+[cmd-grow-fr]: [[cmd-grow-fr]]
+[cmd-guard-fr]: [[cmd-guard-fr]]
+[cmd-make-fr]: [[cmd-make-fr]]
+[cmd-research-fr]: [[cmd-research-fr]]
+[cmd-tax-fr]: [[cmd-tax-fr]]
+[cmd-teach-fr]: [[cmd-teach-fr]]

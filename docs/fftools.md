@@ -2,6 +2,10 @@
 # cSpell:locale en
 alias: fftools
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD041 MD042 -->
+[](){ #fftools-id }
+
 # FFTools
 
 FFTools2 are a plugin for [Magellan] for automatically creating orders for units.

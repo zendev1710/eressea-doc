@@ -1,6 +1,6 @@
 ---
 # cSpell:locale fr
-alias: comment-with-slashes-fr
+alias: cmd-comment-with-slashes-fr
 ---
 <!-- disable some rules due to autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->
@@ -8,7 +8,7 @@ alias: comment-with-slashes-fr
 
 **`//`**` `*`Comment`*  
 
-Contrairement à un commentaire qui suit un [;][cmd-comment] (point-virgule), ce commentaire est inclus dans le modèle **d'évaluation du prochain tour**.  
+Contrairement à un commentaire qui suit un [;][cmd-comment-fr] (point-virgule), ce commentaire est inclus dans le modèle **d'évaluation du prochain tour**.  
 
 ```text
 UNIT 123; Cent vingt-trois [20,450$]
@@ -28,3 +28,5 @@ TAX
     Il doit également y avoir un espace après `//`.
 
 <!-- From  [https://wiki.eressea.de/index.php?title=KOMMENTAR&oldid=3993] -->
+
+[cmd-comment-fr]: [[cmd-comment-fr]]

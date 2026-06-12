@@ -146,9 +146,13 @@ GIVE 123 ALL MEN
 
 ## Voir aussi
 
-- [[travel]]
+- [[movement]]
 - [[cmd-give]]
 
 Continue reading: [[buildings]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schiff/fr&oldid=16676] -->
+
+[cmd-describe]: [[cmd-describe]]
+[cmd-make]: [[cmd-make]]
+[cmd-name]: [[cmd-name]]

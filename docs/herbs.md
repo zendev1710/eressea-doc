@@ -97,3 +97,7 @@ Herbs will rot with time.
 Continue reading: [[orders]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kräuter/en&oldid=13449] -->
+
+[cmd-grow]: [[cmd-grow]]
+[cmd-make]: [[cmd-make]]
+[cmd-research]: [[cmd-research]]

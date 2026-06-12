@@ -41,7 +41,7 @@ Restrictive rules:
 
 ## See also
 
-- [[travel]]
+- [[movement]]
 - [[cmd-move]]
 - [[cmd-route]]
 

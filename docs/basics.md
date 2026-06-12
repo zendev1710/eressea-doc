@@ -8,7 +8,7 @@ alias: basics
 
 Just because there is no winner in Eressea doesn't mean you can't lose.  
 
-We often see avoidable mistakes among beginners that lead to one [faction] being eliminated from the game early because a rule was not fully understood, or the player encountering problems unprepared.  
+We often see avoidable mistakes among beginners that lead to one [faction][factions] being eliminated from the game early because a rule was not fully understood, or the player encountering problems unprepared.  
 
 The following basic things every player should understand.  
 
@@ -81,3 +81,6 @@ Secure important neighboring regions, but only if you can afford it.
 As a rule, it is not enough to place an entertainer unit in the neighboring mountain if it cannot guard it.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Grundlagen&oldid=17000] -->
+
+[cmd-attack]: [[cmd-attack]]
+[cmd-guard]: [[cmd-guard]]

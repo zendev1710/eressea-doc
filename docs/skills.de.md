@@ -157,3 +157,7 @@ Weiterlesen: [Liste der Talente][liste-der-talente].
 
 [Einheiten]: ./cmd-unit.md
 [bef-vergiss]: ./cmd-forget.md
+
+[bef-lehre]: [[bef-lehre]]
+[bef-lerne]: [[bef-lerne]]
+[bef-lerne-auto]: [[bef-lerne-auto]]

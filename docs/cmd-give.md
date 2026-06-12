@@ -139,3 +139,5 @@ Boats cannot form convoys and the ships must be on the same coast.
 - [[buildings]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=GIVE/en&oldid=15995] -->
+
+[cmd-help]: [[cmd-help]]

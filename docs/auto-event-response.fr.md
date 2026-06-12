@@ -16,7 +16,7 @@ Dans la plupart des cas, il suffit de rechercher le type de message et d'utilise
 ## Comparaison
 
 Malheureusement, tout le reste ne peut généralement être vérifié qu'en comparant l'état actuel aux conditions de l'événement.  
-Cela inclut la présence de certaines unités ou races, le passage d'unités ou de vaisseaux inconnus, etc.  
+Cela inclut la présence de certaines unités ou peuples, le passage d'unités ou de vaisseaux inconnus, etc.  
 
 ## Priorité
 

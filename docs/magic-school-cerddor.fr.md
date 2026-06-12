@@ -8,7 +8,7 @@ alias: sorts-cerddor
 
 Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de niveau croissant.  
 
-*Note : Dans les descriptions ci-dessous N représente le niveau spécifié sur les ordres [[cmd-cast]] ou [[cmd-combatspell]] lancés.*
+*Note : Dans les descriptions ci-dessous N représente le niveau spécifié sur les ordres [[cmd-cast-fr]] ou [[cmd-combatspell-fr]] lancés.*
 
 ## Niveau 1
 
@@ -404,7 +404,7 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 <!-- cspell:enable -->
 
 :   Ce rituel permet d'incorporer n'importe quelle entité, quel que soit son type, dans sa propre faction.  
-    Il le prouve en [**`CONTACTANT`**][cmd-contact] le mage.  
+    Il le prouve en [**contactant**][cmd-contact-fr] le mage.  
     Il sera également exclusivement occupé aux préparatifs du rituel tout au long de la semaine.  
     Le rituel échouera s’il est trop fortement lié à son ancienne faction, par exemple s’il leur doit des services en échange de son éducation coûteuse.  
     Le mage menant le rituel doit naturellement dépenser de l'aura en permanence pour assurer la liaison permanente de l'initié à son groupe.  
@@ -600,3 +600,5 @@ Extrait de « Errants » de Firudin le Sage.
 
 [amulette de vision décuplée]: [[amulette-de-vision-decuplee]]{title="Amulet of True Sight"}
 [anneau d'Invisibilité]: [[anneau-dinvisibilite]]{title="Ring of Invisibility"}
+
+[cmd-contact-fr]: [[cmd-contact-fr]]

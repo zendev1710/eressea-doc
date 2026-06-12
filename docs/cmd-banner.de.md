@@ -19,3 +19,5 @@ BANNER "Henning Peters, Bremen. eMail auch faroul@gmx.de"
 ```
 
 <!-- From [https://wiki.eressea.de/index.php?title=BANNER&oldid=6357] -->
+
+[bef-option]: [[bef-option]]

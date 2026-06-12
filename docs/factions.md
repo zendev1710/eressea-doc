@@ -76,3 +76,10 @@ There have been cases where special magic items produced an unholy energy which 
 Continue reading: [[races]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteien/en&oldid=16635] -->
+
+[cmd-give]: [[cmd-give]]
+[cmd-help]: [[cmd-help]]
+[cmd-hide]: [[cmd-hide]]
+[cmd-make]: [[cmd-make]]
+[cmd-show]: [[cmd-show]]
+[cmd-tax]: [[cmd-tax]]

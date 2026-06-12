@@ -18,12 +18,12 @@ Le tour de tactique permet également une tentative de fuite supplémentaire.
 
 ## Bonus de tactique en fonction de la situation
 
-Un tacticien qui [combat][cmd-combat] au premier rang reçoit un bonus de +1 à son niveau de compétence en [Tactique][tactique].  
+Un tacticien qui [combat][cmd-combat-fr] au premier rang reçoit un bonus de +1 à son niveau de compétence en [Tactique][tactique].  
 S'il se trouve en 3e ou 4e ligne, sa compétence est réduite de 1.
 
 La compétence en [Tactique][tactique] bénéficie également de quelques bonus raciaux qui dépendent du terrain :
 
-| Race    | Terrain           | Bonus/Malus |
+| Peuple  | Terrain           | Bonus/Malus |
 |---------|-------------------|:-----------:|
 | Elfe    | Forêt             |     +2      |
 | Nain    | Montagne, Glacier |     +1      |
@@ -58,7 +58,7 @@ Si une unité de tacticiens est composée de plusieurs personnes, le dé est lan
 
 Il en résulte, selon le nombre de tacticiens, les bonus d'inspiration moyens suivants :
 
-| Nombre de tacticiens |  1   |  3   |  12  |  44  | 129  | 410  | 1480 |
+| Nombre de tacticiens | 1    | 3    | 12   | 44   | 129  | 410  | 1480 |
 |----------------------|------|------|------|------|------|------|------|
 | Bonus  moyen         | 1,03 | 1,96 | 3,05 | 4,03 | 5,03 | 6,03 | 7,03 |
 
@@ -70,3 +70,5 @@ On peut donc (aussi) remplacer le manque de niveau des tacticiens par la masse, 
 - [la guerre][tour-du-tacticien]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Taktik/fr&oldid=13466] -->
+
+[cmd-combat-fr]: [[cmd-combat-fr]]

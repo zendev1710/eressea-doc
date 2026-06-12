@@ -3,7 +3,10 @@
 alias: histoire-d-eressea
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+
+[](){ #histoire-d-eressea-id }
+
 # Eressea depuis ses débuts
 
 Selon [Wikipedia], Eressea a été lancé le 27 août 1996.
@@ -43,9 +46,9 @@ En voici une liste, loin d'être complète.
 
 Un jour
 
-- Les races sont introduites dans le jeu
-- Seuls les humains peuvent désormais recevoir des migrants, les migrants des autres races sont convertis dans la race du propriétaire, tout en conservant leur niveau de compétence
-- Elves lose their +1 bonuses in entertainment and lumbering
+- Les [peuples][peuples] sont introduits dans le jeu
+- Seuls les humains peuvent désormais recevoir des migrants, les migrants des autres peuples sont convertis dans le peuple du propriétaire, tout en conservant leur niveau de compétence
+- Elves lose their +1 bonuses in entertainment and lumbering <!-- TODO : translate -->
 
 27.08.1996
 
@@ -177,7 +180,7 @@ Un jour
 Avec ces mots commence le 8 avril. 2000 le Deuxième Âge.  
 Cela s’accompagne d’un grand nombre de changements de règles révolutionnaires, résumés sous le terme générique de réforme magique.  
 Cependant, ce ne sont pas seulement des changements qui affectent la magie.  
-La grande majorité de ces changements concerne les races et les règles de combat.  
+La grande majorité de ces changements concerne les peuples et les règles de combat.  
 
 ### Début du 6ème Monde
 
@@ -328,11 +331,11 @@ Peu de temps après, les inscriptions seront à nouveau possibles contre un don 
 - Les effets des différences de compétences sont divisés par deux (chance de toucher +-5 % au lieu de +-10 %, +1 point de dégâts au lieu de +2)
 - Le coût de certaines armes puissantes sera augmenté.
   Les arcs elfiques coûtent désormais 2 mallorn au lieu de 1, les hallebardes 2 bois et 1 fer au lieu de 1 bois et 1 fer
-- Les démons meurent désormais de faim comme les autres races (réduction des compétences et points de vie)
+- Les démons meurent désormais de faim comme les autres peuples (réduction des compétences et points de vie)
 - La première ligne devient plus facile à déborder en combat.
   Cela se produit désormais selon un rapport de 3/1 (au lieu de 10/1 auparavant).
 - La régénération des points de vie est ralentie
-- Les Aquariens nageurs ne peuvent plus transporter d'autres races
+- Les Aquariens nageurs ne peuvent plus transporter d'autres peuples
 - Les héros sont introduits dans le jeu.
   Une unité peut utiliser l'ordre `TRANSPORTATION` pour devenir une unité de héros.
   Les Héros infligent 10 fois plus de coups au combat, mais se comportent autrement normalement et ne se distinguent pas des unités normales du point de vue de l'ennemi.

@@ -39,3 +39,6 @@ Einheit a darf Einheit x also die 1000 Silber übergeben. Falls x die einzige be
 - `HELFE` ist dauerhaft und für alle Einheiten meiner Partei oder Gruppe (und alle Einheiten der anderen Partei).
 
 <!-- From [https://wiki.eressea.de/index.php?title=KONTAKTIERE&oldid=13303] -->
+
+[bef-gib]: [[bef-gib]]
+[bef-helfe]: [[bef-helfe]]

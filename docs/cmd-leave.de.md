@@ -20,3 +20,5 @@ Verläßt eine Einheit ein Gebäude oder ein Schiff, über das sie das Kommando 
 Befindet sich die Einheit auf einem Schiff und wird die Region von einer nicht-alliierten Partei bewacht, muss sie das Schiff erst verlassen, wenn sie bestimmte Aktionen durchführen will. Siehe hierzu Näheres unter [[bef-bewache]]. Auf offener See funktioniert der Verlasse-Befehl nicht. Eine Möglichkeit um Personen trotzdem über Bord springen zu lassen ist "Gib 0 \[Anzahl\] Personen". Eine andere, nur für Meermenschen bereitstehende Lösung, bei der die Personen nicht umkommen, ist das [Anschwimmen][anschwimmen].
 
 <!-- From [https://wiki.eressea.de/index.php?title=VERLASSE&oldid=15184] -->
+
+[bef-gib]: [[bef-gib]]

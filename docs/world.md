@@ -278,7 +278,7 @@ Although the influence of the seasons is generally not particularly pronounced, 
 Here is a brief overview:
 
 - Peoples of the [insect][insects] race can hardly recruit in winter
-- Storms at [sea][travel] are much more common in autumn
+- Storms at [sea][movement] are much more common in autumn
 - The individual phases of [forest growth][deep-in-the-forest] are linked to seasonal cycle
 - In winter the growth of the [[herbs]] comes to a standstill
 
@@ -349,3 +349,5 @@ Continue reading: [[factions]].
 [^1]: despite many trees
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welt/en&oldid=16559] -->
+
+[cmd-plant]: [[cmd-plant]]

@@ -208,3 +208,6 @@ Weiterlesen: [Hinweise][hinweise].
 [bef-unterhalte]: ./cmd-entertain.md
 [;]: ./cmd-comment.md
 [Kommentar-Befehl //]: ./cmd-comment-slash.md
+
+[bef-lerne]: [[bef-lerne]]
+[bef-nach]: [[bef-nach]]

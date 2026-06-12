@@ -64,7 +64,7 @@ Sie sind gute Händler und verstehen es, die Bauern zu unterhalten.
 Sie sind gute Baumeister, Pferde und [Schiffe][schiff] überlassen sie aber lieber anderen.
 Der Umgang mit Waffen zählt nicht gerade zu ihren Stärken.
 
-- Halblinge, die in einem Kampf versuchen zu [fliehen][die-flucht], haben dabei eine Grundchance von 50% (alle anderen Rassen 25%). Die maximale Chance ist bei ihnen 90% (sonst 75%, siehe [`KÄMPFE FLIEHE`][bef-kaempfe]).
+- Halblinge, die in einem Kampf versuchen zu [fliehen][die-flucht], haben dabei eine Grundchance von 50% (alle anderen Rassen 25%). Die maximale Chance ist bei ihnen 90% (sonst 75%, siehe [`KÄMPFE FLIEHE`][bef-kampfe-id]).
 - Halblinge haben einen Angriffs- und Schadens-Bonus von je +5 im Kampf gegen [Drachen][drachen].
 - Halblinge nehmen durch Hungern mehr Schaden als andere Rassen. (Zwischen 8 und 17 Punkten (1d10+7) Schaden.)
 
@@ -76,7 +76,7 @@ Insekten sind nicht sehr geeignet für unerfahrene Eressea-Spieler!
 
 - Insekten mögen Wärme und Feuchtigkeit und hassen die Kälte: In Wüsten und Sümpfen haben sie +1 auf alle Talente, in denen sie wenigstens Talent 1 haben, in Gebirgen und Gletschern -1.
 - Insekten können Gletscher nicht betreten und dort auch nicht rekrutiert werden, es ist ihnen zu kalt. Insekten, welche trotzdem in einen Gletscher gelangen, verlieren Trefferpunkte und unterliegen der Talenthalbierung nach der normalen [Hungerregel][hunger-de-id].
-- Insekten können in den Wintermonaten Herdfeuer, Eiswind und Schneebann nur in Wüsten rekrutieren. Es kann allerdings durch [Alchemie][alchemie-id] ein [Trank][trank-id] (Nestwärme) hergestellt werden, der die Rekrutierung in anderem Terrain möglich macht.
+- Insekten können in den Wintermonaten Herdfeuer, Eiswind und Schneebann nur in Wüsten rekrutieren. Es kann allerdings durch [Alchemie][alchemie-id] ein [Trank][tranke-id] (Nestwärme) hergestellt werden, der die Rekrutierung in anderem Terrain möglich macht.
 - Insekten sind automatisch durch ihren Chitinpanzer geschützt. Diese Rüstung wirkt zur Hälfte additiv zu einer Rüstung, die Insekten tragen (siehe [hier][rasseneigenschaften]).
 - Insekten bekommen einen [Taktik][taktik]-Bonus, wenn sie in Massen auftreten. Ein Insektentaktiker bekommt einen Bonus von (log<sub>10</sub> (Anzahl der Kämpfer in seinem Heer)) - 1 auf Taktik. Das kann bei sehr wenigen Kämpfern auch einen Malus ergeben! Außerdem sind Einheiten aus verschiedenen [Gruppen][bef-gruppe] in der Regel in verschiedenen Heeren!
 - Insekten können in Wüsten und Sümpfen auch ohne Burgen [handeln][handel].
@@ -168,3 +168,7 @@ Weiterlesen: [Talentmodifikatoren][talentmodifikatoren].
 
 [klauen]: ./cmd-steal.md
 [Helden]: ./cmd-promote.md
+
+[bef-gib]: [[bef-gib]]
+[bef-gruppe]: [[bef-gruppe]]
+[bef-tarne]: [[bef-tarne]]

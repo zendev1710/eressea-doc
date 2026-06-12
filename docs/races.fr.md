@@ -1,22 +1,22 @@
 ---
 # cSpell:locale fr
-alias: races-fr
+alias: peuples-fr
 ---
 <!-- disable some rules due to autorefs plugin usage -->
 <!-- markdownlint-disable MD042 MD052 -->
-# Races
+# Peuples
 
-En plus des [Humains][humains]title={"Humans"}, il existe beaucoup d'autres races (types de faction, ou peuples) dans Eressea.  
-Vous devrez en choisir une pour votre [faction].  
+En plus des [Humains][humains]title={"Humans"}, il existe beaucoup d'autres peuples (types de faction, ou peuples) dans Eressea.  
+Vous devrez en choisir une pour votre [faction][faction].  
 
-Chaque race a des avantages et des inconvénients qui se traduisent par des [bonus et malus][modificateurs-de-competences-id] dans certaines compétences, et parfois des capacités spéciales.  
+Chaque peuple a des avantages et des inconvénients qui se traduisent par des [bonus et malus][modificateurs-de-competences-id] dans certaines compétences, et parfois des capacités spéciales.  
 
-Chaque race a des [coûts de recrutement][modificateurs-de-competences-id] différents.  
+Chaque peuple a des [coûts de recrutement][modificateurs-de-competences-id] différents.  
 
 En règle générale, une personne (un membre d'unité) **pèse 10** unités de poids (lbs) et **peut porter jusqu'à 5,4 lbs**.  
 Les [Trolls][trolls-fr-id]{title="Trolls"}, les [Gobelins][gobelins]title={"Goblins"} et divers monstres constituent des exceptions.
 
-Au début du jeu, lors de l'inscription, tu dois choisir la race que tu veux jouer.  
+Au début du jeu, lors de l'inscription, tu dois choisir le peuple que tu veux jouer.  
 **Elle ne pourra plus être modifiée par la suite**.  
 Il convient donc de bien réfléchir avant de faire son choix.
 
@@ -52,8 +52,8 @@ Ils dévorent les paysans des environs et surprennent toujours par l'acquisition
   Les unités se nourrissent des paysans dans l'ordre où ils apparaissent dans le [rapport][cr-fr-id].
 - Les démons [recrutés][recruter] ne sont pas déduits de la réserve de paysans.
   Cependant, pour des raisons techniques de jeu, la limite de recrutement par région s'applique quand même.
-- Si on rend des démons aux paysans avec l'ordre [`GIVE 0`][cmd-give], ils retournent dans leur sphère d'origine et ne s'ajoutent pas à la quantité de paysans de la région.
-- Les démons peuvent [se camoufler][cmd-hide-fr-id] en une autre race.
+- Si on rend des démons aux paysans avec l'ordre [`GIVE 0`][cmd-give-fr], ils retournent dans leur sphère d'origine et ne s'ajoutent pas à la quantité de paysans de la région.
+- Les démons peuvent [se camoufler][cmd-hide-fr] en un autre peuple.
 - Au corps à corps, chaque coup porté par un démon à un adversaire provoque une "panique sur 1 personne" : la personne touchée uniquement (pas l'unité) a -1 à ses compétences de combat.
 - Les démons blessés se régénèrent à hauteur de 7,5 % de leurs points de vie (PV).
 
@@ -137,7 +137,7 @@ Les gobelins sont petits et faibles lorsqu'ils sont seuls ; ils préfèrent com
 
 Les halfelins sont de petits compagnons aux pieds poilus. Ils sont de bons commerçants et savent divertir les paysans. Ce sont de bons bâtisseurs, mais ils préfèrent laisser les chevaux et les [bateaux][bateaux-id] aux autres. Le maniement des armes n'est pas leur point fort.
 
-- Les halfelins qui essaient de [fuir][la-fuite] un combat, ont une chance de base de 50% (25% pour les autres races). Leur chance maximale est de 90% (75% pour les autres, voir [`COMBAT FLEE`][cmd-combat]).
+- Les halfelins qui essaient de [fuir][la-fuite] un combat, ont une chance de base de 50% (25% pour les autres peuples). Leur chance maximale est de 90% (75% pour les autres, voir [`COMBAT FLEE`][cmd-combat-fr]).
 - Les halfelins ont un bonus de +5 en attaque et dégâts lorsqu'ils affrontent des [dragons][dragons-connus].
 - Les halfelins sont bien plus sensibles que les autres à la famine. Ils perdent entre 8 and 17 points de vie (1d10+7).
 
@@ -174,7 +174,7 @@ Durant les **mois d'hiver** ([Feu du Foyer][feu-du-foyer]{title="Hearth Fire"}, 
 Il est cependant possible grâce à l'[alchimie][alchimie]{title="Alchemy"} de [créer][make-potions-fr-id] une [potion de chaleur du nid][chaleur-du-nid]{title="Potion of nest warmth"} qui permet de recruter dans d'autres types de région.
 
 Les insectes sont automatiquement protégés par leur armure naturelle de chitine.  
-Cette armure naturelle sera réduite de moitié si les insectes portent une armure additionnelle (voir [ici][races-et-leurs-caracteristiques]).  
+Cette armure naturelle sera réduite de moitié si les insectes portent une armure additionnelle (voir [ici][peuples-et-leurs-caracteristiques]).  
 
 Les insectes obtiennent un bonus de [[tactique]] lorsqu'ils sont en nombre.  
 Un tacticien insecte obtient (log<sub>10</sub> (nombre de combattants dans son groupe))-1 en tactique.  
@@ -220,7 +220,7 @@ Les Aquariens sont chez eux dans l’eau, mais sont plutôt mal à l’aise en m
 
 - Tous les bateaux commandés par un capitaine Aquarien appartenant à une faction d'aquariens se [déplacent][deplacements] d'une région supplémentaire chaque semaine.
 - Les aquariens peuvent exécuter des [ordres longs][ordres-courts-et-longs] sur les bateaux. Attention, cela a quelques conséquences implicites : Les aquariens peuvent par exemple se déplacer d'une région océanique adjacente à une région terrestre vers la région terrestre, voir [nager][nager].
-- Sur une case d'océan (type de région océan) jusqu'à 100 aquariens embarqués peuvent gagner 10 Silver chacun avec l'ordre [[cmd-work]].
+- Sur une case d'océan (type de région océan) jusqu'à 100 aquariens embarqués peuvent gagner 10 Silver chacun avec l'ordre [[cmd-work-fr]].
 
 ## Humains
 
@@ -236,9 +236,9 @@ Les Aquariens sont chez eux dans l’eau, mais sont plutôt mal à l’aise en m
 |:------:|:--------:|
 | 10 lbs | 5,4 lbs  |
 
-Les humains peuvent tout faire un peu. Ils n'ont aucune compétence vraiment mauvaise mais aucune de vraiment bonne non plus. Ils peuvent donc assez facilement combler les faiblesses d'autres races alliées, bien qu'ils n'aient aucune spécialisation.
+Les humains peuvent tout faire un peu. Ils n'ont aucune compétence vraiment mauvaise mais aucune de vraiment bonne non plus. Ils peuvent donc assez facilement combler les faiblesses d'autres peuples alliés, bien qu'ils n'aient aucune spécialisation.
 
-- Immigrants : les factions d'humains sont les seules à être autorisées à avoir des personnes d'une autre race dans leurs rangs, bien que mélanger différentes races dans une même unité ne soit pas possible. Cependant, ils ne peuvent pas les recruter eux-mêmes, mais doivent les [récupérer][cmd-give] depuis d'autres factions. Il n'y a pas d'immigrants avec des [compétences payantes][competences], c'est-à-dire magie, alchimie, herboristerie, espionnage et tactique.
+- Immigrants : les factions d'humains sont les seules à être autorisées à avoir des personnes d'un autre peuple dans leurs rangs, bien que mélanger différents peuples dans une même unité ne soit pas possible. Cependant, ils ne peuvent pas les recruter eux-mêmes, mais doivent les [récupérer][cmd-give-fr] depuis d'autres factions. Il n'y a pas d'immigrants avec des [compétences payantes][competences], c'est-à-dire magie, alchimie, herboristerie, espionnage et tactique.
 
 Le nombre d'immigrants se calcule ainsi :
 
@@ -284,11 +284,11 @@ Le nombre maximum d'immigrants est indiqué dans le rapport et, pour les grandes
 Les Orcs commencent leur vie en tant que combattants et la terminent généralement en tant que combattants. Leur force réside dans le nombre, mais ils manquent de jugeote.
 
 - Combattants nés : Toutes les nouvelles recrues orcs commencent au niveau 1 en [mêlée][skill-melee-fr-id]{title="Melee"} et [combat à l'arme d'hast][combat-a-larme-dhast]{title="Polearm"}.
-- Paresse : les orcs gagnent moins de silver que les autres races avec l'ordre [[cmd-work]].
+- Paresse : les orcs gagnent moins de silver que les autres peuples avec l'ordre [[cmd-work-fr]].
 - Recrues faciles : Pour deux orcs recrutés, un seul paysan est soustrait du pool de paysans de la région. Ainsi vous pouvez recruter deux fois la limite de recrutement d'une région. La soustraction est arrondie au supérieur.
-- De même : si vous donnez des orcs aux paysans avec l'ordre [`GIVE 0`][cmd-give], seule la moitié d'entre eux est ajoutée aux paysans. Cela est arrondi à l'inférieur.
-- Les orcs non armés ne combattent pas au corps à corps avec malus de -2 comme les autres races, mais avec ("meilleure compétence de combat corps à corps" -3). Ils ont toutefois besoin d’armes pour collecter les impôts.
-- Les orcs ont le cerveau lent et apprennent généralement toutes les compétences un peu plus lentement que les autres races, hors celles de combat (cad celles pour maîtriser une arme).
+- De même : si vous donnez des orcs aux paysans avec l'ordre [`GIVE 0`][cmd-give-fr], seule la moitié d'entre eux est ajoutée aux paysans. Cela est arrondi à l'inférieur.
+- Les orcs non armés ne combattent pas au corps à corps avec malus de -2 comme les autres peuples, mais avec ("meilleure compétence de combat corps à corps" -3). Ils ont toutefois besoin d’armes pour collecter les impôts.
+- Les orcs ont le cerveau lent et apprennent généralement toutes les compétences un peu plus lentement que les autres peuples, hors celles de combat (cad celles pour maîtriser une arme).
 
 [](){ #trolls-fr-id }
 
@@ -312,7 +312,7 @@ Ces rochers ambulants font partie des créatures les plus puissantes d'Eressea. 
 - Il n'y a pas de cavalerie troll, ce qui signifie que les trolls ne reçoivent pas de bonus de cheval. Cela n'a aucun effet sur le transport de marchandises et la vitesse de déplacement des trolls montés.
 - Les pierres extraites par les trolls ne sont déduites qu'à 75% de la "réserve de la région". Cet effet est cumulatif avec une carrière (voir [ici][cercle-de-pierres] et [ici][ressources-minieres]).
 - Contre les trolls, la cavalerie ennemie n'a qu'un bonus de +1 au lieu du +2 habituel.
-- Les trolls sont la seule race capable d'utiliser des chariots sans chevaux. Les trolls peuvent tirer un chariot par quatre, mais ils ne peuvent se déplacer que d'une seule région (sauf route). Cela est expliqué plus en détail dans l'ordre [[cmd-ride]].
+- Les trolls sont le seul peuple capable d'utiliser des chariots sans chevaux. Les trolls peuvent tirer un chariot par quatre, mais ils ne peuvent se déplacer que d'une seule région (sauf route). Cela est expliqué plus en détail dans l'ordre [[cmd-ride-fr]].
 - Les trolls non armés infligent de 2 à 6 points de dégâts.
 - Les trolls blessés se régénèrent à hauteur de 7,5% de leurs points de vie.
 
@@ -339,3 +339,7 @@ Les Nains vivent dans les montagnes, leurs armes sont réputées et leurs forter
 Poursuivre la lecture : [Modificateurs de compétences][modificateurs-de-competences-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rassen/fr&oldid=16646] -->
+
+[cmd-combat-fr]: [[cmd-combat-fr]]
+[cmd-give-fr]: [[cmd-give-fr]]
+[cmd-hide-fr]: [[cmd-hide-fr]]

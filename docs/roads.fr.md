@@ -25,7 +25,7 @@ Pour construire des routes, il faut un niveau minimum de 1 en [construction de r
 et on peut augmenter la route d'une pierre par niveau en construction de routes (et par personne dans l'unité).  
 
 Le tableau suivant indique combien de pierres sont nécessaires par direction.  
-De plus, certaines régions sont tellement inhospitalières qu'il faut au préalable construire un [bâtiment][bâtiments].  
+De plus, certaines régions sont tellement inhospitalières qu'il faut au préalable construire un [bâtiment][batiments-speciaux].  
 Celui-ci doit fonctionner au moment de la construction, c'est-à-dire qu'il doit être terminé et que son entretien doit être payé.  
 La route terminée fonctionne même sans que l'entretien soit payé.  
 
@@ -57,5 +57,3 @@ Ensuite, une unité peut voyager à pied de (0,0) à (1,1) en un tour avec `MOVE
 Poursuivre la lecture : [bateaux][bateaux-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Straße/fr&oldid=15940] -->
-
-[bâtiments]: [[batiments-speciaux]]

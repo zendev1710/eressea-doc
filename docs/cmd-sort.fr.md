@@ -19,8 +19,10 @@ Les limitations suivantes s'appliquent :
 
 - *`unit-id`* doit être une unité distincte de celle qui exécute l'ordre
 - Les deux unités concernées par l'ordre doivent se trouver soit dans le même bâtiment ou bateau, soit toutes deux à l'extérieur
-- Il est impossible de placer une unité devant le propriétaire d'un bâtiment ou le capitaine d'un bateau. Utilisez l'ordre [`GIVE`*`unit-id`*`COMMAND`][cmd-give] à cet effet
+- Il est impossible de placer une unité devant le propriétaire d'un bâtiment ou le capitaine d'un bateau. Utilisez l'ordre [`GIVE`*`unit-id`*`COMMAND`][cmd-give-fr] à cet effet
 - Le propriétaire d'un bâtiment ou le capitaine d'un bateau ne peut pas utiliser cet ordre
 
 Le tri s'effectue en toute fin du tour, après les déplacements.  
-Ainsi, les unités entrées dans une région par [[cmd-move]] ou [[cmd-ride]] peuvent être triées immédiatement.  
+Ainsi, les unités entrées dans une région par [[cmd-move-fr]] ou [[cmd-ride-fr]] peuvent être triées immédiatement.  
+
+[cmd-give-fr]: [[cmd-give-fr]]

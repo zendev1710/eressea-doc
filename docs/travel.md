@@ -1,6 +1,6 @@
 ---
 # cSpell:locale en
-alias: travel
+alias: movement
 ---
 <!-- disable some rules due to autorefs plugin usage -->
 <!-- markdownlint-disable MD042 MD052 -->
@@ -153,3 +153,7 @@ If a unit has several horses and carts, their transport capacity is simply added
 Continue reading: [Sailing][sailing-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Reisen/en&oldid=16637] -->
+
+[cmd-carry]: [[cmd-carry]]
+[cmd-follow]: [[cmd-follow]]
+[cmd-ride]: [[cmd-ride]]

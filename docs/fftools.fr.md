@@ -2,6 +2,10 @@
 # cSpell:locale fr
 alias: fftools2-fr
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD041 MD042 -->
+[](){ #fftools-fr-id }
+
 # FFTools2
 
 FFTools2 est un plugin pour [Magellan] permettant de créer automatiquement des ordres d'unités.  

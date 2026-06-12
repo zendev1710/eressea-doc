@@ -33,8 +33,8 @@ This site reproduces the rules of the game described in the wiki, **fully transl
 - [Development][development] of tools or tool-based scripts
 - [Xontormia Express] - a gazette and its [archived issues]
 - Archive of [announcements] of rules changes
-- [Player pages][player-pages]
-- [You play too much Eressea if ...][play-too-much-if]
+- [Players pages][players]
+- [You play too much Eressea if ...][you-play-too-much-if]
 
 ## List of games
 

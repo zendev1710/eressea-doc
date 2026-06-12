@@ -2,13 +2,18 @@
 # cSpell:locale fr
 alias: reserve-d-objets
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+
+[](){ #reserve-d-objets-id }
+
 # Réserve d'objets
 
 En particulier avec les factions volumineuses, les joueurs peuvent perdre le fil dans certaines régions, d'autant plus que "distribuer de l'argent" est plutôt ennuyeux, compliqué et n'ajoute pas grand-chose au plaisir du jeu.
 
 ## Réserve d'argent
 
-La réserve d'argent prend en charge la distribution de l'argent lorsque vous jouez, de sorte que par exemple avec [[cmd-recruit]] l'unité obtienne automatiquement suffisamment d'argent (si disponible dans la région) ou permette l'apprentissage de compétences coûteuses.  
+La réserve d'argent prend en charge la distribution de l'argent lorsque vous jouez, de sorte que par exemple avec [[cmd-recruit-fr]] l'unité obtienne automatiquement suffisamment d'argent (si disponible dans la région) ou permette l'apprentissage de compétences coûteuses.  
 Néanmoins, il est précisé tout au long des instructions que les unités doivent avoir suffisamment d'argent sur elles.  
 C'est juste pour éviter de l'oublier.
 
@@ -17,7 +22,7 @@ Si l’entité propriétaire du bâtiment ne peut pas le payer de sa poche ou de
 À la fin du tour, l'unité tentera à nouveau de payer le bâtiment à partir de ses propres réserves d'argent ou de la cagnotte de son propre groupe.  
 
 **Les unités `TEMP` ne peuvent pas réserver**.
-Ils couvrent les frais de recrutement à partir de la réserve d'argent, si nécessaire, mais devraient recevoir de l'argent et des objets qu'ils devraient emporter avec eux dans une autre région ou traiter immédiatement avec [[cmd-give]].
+Ils couvrent les frais de recrutement à partir de la réserve d'argent, si nécessaire, mais devraient recevoir de l'argent et des objets qu'ils devraient emporter avec eux dans une autre région ou traiter immédiatement avec [[cmd-give-fr]].
 
 !!! warning "Attention"
     Lorsque les unités `TEMP` obtiennent de l'argent, elles l'utilisent également pour recruter !  
@@ -33,7 +38,7 @@ La réserve de matériaux est la suite logique de la réserve d'argent : chaque 
 Les réserves ne sont valables que pour votre propre faction.  
 Les objets doivent être explicitement remis à des unités étrangères.  
 
-Les réserves ne fonctionnent pas seulement en production (essentiellement avec l'ordre [[cmd-make]]), mais globalement pour tout, notamment pour les ordres [[cmd-reserve]], [[cmd-give]], [[cmd-use]], [[cmd-cast]] et [[cmd-recruit]].  
+Les réserves ne fonctionnent pas seulement en production (essentiellement avec l'ordre [[cmd-make-fr]]), mais globalement pour tout, notamment pour les ordres [[cmd-reserve-fr]], [[cmd-give-fr]], [[cmd-use-fr]], [[cmd-cast-fr]] et [[cmd-recruit-fr]].  
 Si l'unité ne dispose pas d'un item, elle le prélève dans la réseerve de matériaux pour le traiter, le remettre ou le réserver.  
 Cependant, si une unité a besoin d'armes pour une attaque ou pour collecter des impôts, celles-ci doivent être explicitement remises ou réservées, car la réserve de matériel ne s'applique pas pour cet usage.  
 
@@ -67,7 +72,7 @@ UNIT c; pour stockage, n'a pas de fer
 
 ## RESERVE et GIVE
 
-Il y a quelques particularités à noter à propos de [[cmd-reserve]] et [[cmd-give]], qui précèdent la plupart des autres ordres de la [[orders-sequence]].  
+Il y a quelques particularités à noter à propos de [[cmd-reserve-fr]] et [[cmd-give-fr]], qui précèdent la plupart des autres ordres de la [[orders-sequence]].  
 Celles-ci s'appliquent autant à la réserve d'argent qu'à la réserve de matériaux.
 
 Premièrement, les items remis ou réservés ne sont plus disponibles dans la réserve.  
@@ -195,8 +200,8 @@ Il y avait des réglages séparés pour l'argent et les autres objets.
 
 ## Voir aussi
 
-- [[cmd-give]]
-- [[cmd-reserve]]
+- [[cmd-give-fr]]
+- [[cmd-reserve-fr]]
 - [[orders-sequence]]
 
 Poursuivre la lecture : la [[guerre]].

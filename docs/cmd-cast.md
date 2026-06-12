@@ -28,3 +28,6 @@ However, this can lead to bigger battles!
 [^1]: although `CAST` is not a long order, it excludes other long orders. But you can cast other spells.
 
 <!-- From [https://wiki.eressea.de/index.php?title=CAST&oldid=16737] -->
+
+[cmd-attack]: [[cmd-attack]]
+[cmd-show]: [[cmd-show]]

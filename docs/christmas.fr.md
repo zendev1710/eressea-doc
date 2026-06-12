@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: noel
 ---
+<!-- disable some rules due to of autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Noël
 
 ## Le Gnome de Noël
@@ -21,10 +23,10 @@ Parfois, il apporte même des cadeaux, laissant planer le doute sur ce qu'il con
 Voici un petit aperçu des cadeaux de Noël de ces dernières années :
 
 - 1999 -- Pomme, biscuit, noix ou noyau d'amande
-- 2001 -- Un [[gui]]
-- 2002 -- Tour 314 -- une boule de neige ou un [[bonhomme-de-neige]]
-- 2004 -- Tour 407 -- une [[voile-solaire]]
+- 2001 -- Un [gui][gui]
+- 2002 -- Tour 314 -- une boule de neige ou un [bonhomme de neige][bonhomme-de-neige]
+- 2004 -- Tour 407 -- une [Voile Solaire][voile-solaire]
 - 2005 -- Tour 454 -- un flacon de [[poussiere-d-etoile]]
-- 2006 -- Tour 504 -- un [[sapin-de-noel]] merveilleusement décoré
+- 2006 -- Tour 504 -- un [sapin de Noël][sapin-de-noel] merveilleusement décoré
 
 <!-- From [https://wiki.eressea.de/index.php?title=Weihnachten&oldid=4853] -->

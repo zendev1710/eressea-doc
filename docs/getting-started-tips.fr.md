@@ -8,7 +8,7 @@ alias: conseils-pour-debutants
 
 Lorsque vous renseignez les ordres, assurez-vous d'avoir utilisé l'identifiant de faction et les identifiants d'unité corrects.  
 
-[Définissez un mot de passe][cmd-password] et n'oubliez pas de le mémoriser.  
+[Définissez un mot de passe][cmd-password-fr] et n'oubliez pas de le mémoriser.  
 
 C'est plus intéressant pour tout le monde si vous donnes des noms originaux à votre faction et à toutes vos unités.  
 N'oubliez pas qu'Eressea est un jeu de rôle fantastique : des noms comme « Les tortionnaires télécommandés de Barney » (oui, ça a vraiment existé !) ne correspondent pas à l'ambiance d'Eressea.  
@@ -37,14 +37,14 @@ Envoiez donc quelques unités composées d'un seul soldat et donnez-leur suffisa
 
 Créez davantage d'unités et apprenez certaines compétences dont vous pensez avoir besoin lors des trois ou quatre prochains tours.  
 
-Le [divertissement][cmd-entertain] est essentiel pour gagner de l'argent.  
+Le [divertissement][cmd-entertain-fr] est essentiel pour gagner de l'argent.  
 Sans suffisamment d'argent, ta faction ne pourra pas se développer.  
-Les [collecteurs d'impôts][cmd-tax] constituent également une bonne source de revenus;  
+Les [collecteurs d'impôts][cmd-tax-fr] constituent également une bonne source de revenus;  
 pour cela, il te faut, par exemple, des métaux ([exploitation minière][ressources-minieres]) ou du bois ([exploitation forestière][ressources-forestieres]) pour fabriquer des armes comme des épées ou des lances;  
 et bien sûr, les collecteurs d'impôts doivent posséder les compétences d'armes appropriées ([collecte d'impôts][collecter-les-impots], [compétences d'armes][competences-de-combat]).  
 
 La [perception][skill-perception-fr-id]{title="Perception"} est une compétence essentielle, souvent sous-estimée par les débutants.  
-Seuls les [percepteurs][cmd-tax] peuvent repérer les unités camouflées et les empêcher de [piller][le-vol-la-methode-malhonnete] !  
+Seuls les [percepteurs][cmd-tax-fr] peuvent repérer les unités camouflées et les empêcher de [piller][le-vol-la-methode-malhonnete] !  
 Il est donc judicieux de recruter et d'entraîner au moins un percepteur par région dès le début.  
 Il est également conseillé de construire des [châteaux][chateaux]{title="Castle"} rapidement, au moins au niveau 2, ainsi que des comptoirs commerciaux (compétences requises : [maconnerie][maconnerie]{title="Masonry"} et [extraction minière][extraction-miniere]{title="Mining"} pour la pierre et [la construction des châteaux][batiments]) afin de pouvoir [commercer][le-commerce].  
 Bien sûr, il est également indispensable de former les marchands et les transports nécessaires (généralement de la cavalerie) et de les équiper [de chevaux et de chariots][chevaux-et-chariots].  
@@ -52,7 +52,7 @@ Comprendre le commerce n'est pas chose aisée pour les débutants, mais l'effort
 
 Les unités aux compétences coûteuses, comme [les Tacticiens][tactique], [les Alchimistes][liste-des-competences], etc., ne devraient être entraînées que plus tard, car leur entraînement consomme beaucoup d'argent (200 silver par tour).  
 Entraîner des [Mages][magie] coûte encore plus cher, mais un mage maîtrisant des sorts de combat peut apporter un avantage considérable en combat.  
-De plus, les mages de toutes les écoles de magie peuvent lancer un sort pour gagner de l'argent très tôt dans le jeu, ce qui rend un investissement initial rentable (surtout pour les races bénéficiant d'un bonus de +1 en Magie).  
+De plus, les mages de toutes les écoles de magie peuvent lancer un sort pour gagner de l'argent très tôt dans le jeu, ce qui rend un investissement initial rentable (surtout pour les peuples bénéficiant d'un bonus de +1 en Magie).  
 
 Il serait également conseillé de prendre certaines précautions au cas où les voisins ne seraient pas très paisibles.  
 En d'autres termes, un plan pour protéger ta faction contre les attaques une fois la période d'immunité initiale terminée.  
@@ -80,7 +80,7 @@ UNIT sjur;          Fuhrmann Sjur [2;243$]
     ROUTE SW W PAUSE E NE PAUSE
 ```
 
-Le commentaire suivant l'ordre [[cmd-unit]] est inséré dans le modèle d'évaluation par le programme ;  
+Le commentaire suivant l'ordre [[cmd-unit-fr]] est inséré dans le modèle d'évaluation par le programme ;  
 après le nom de l'unité, entre crochets, figurent le nombre de personnes qui la composent et la somme d'argent dont elle dispose (ici, 4 personnes avec 100 pièces d'argent et 2 personnes avec 243 pièces d'argent).  
 
 Attention aux coûts d'entretien.  
@@ -102,8 +102,8 @@ En cas de conflit, sachez que vous n'êtes pas seul.
 Les contacts vous permettent d'échanger des informations, comme des données cartographiques;  
 ils vous permettent de partager vos expériences et vos astuces, et l'apprentissage mutuel est particulièrement précieux.  
 
-Pour contacter d'autres factions, obtenez la liste de celles de votre région à l'aide de l'ordre [`OPTION ADDRESSES`][cmd-option] et contactez-les directement.  
-Utilisez l'ordre [`MESSAGE REGION`][cmd-message] pour signaler votre présence aux autres factions.  
+Pour contacter d'autres factions, obtenez la liste de celles de votre région à l'aide de l'ordre [`OPTION ADDRESSES`][cmd-option-fr] et contactez-les directement.  
+Utilisez l'ordre [`MESSAGE REGION`][cmd-message-fr] pour signaler votre présence aux autres factions.  
 
 Pour atteindre vos objectifs, ne lésinez pas sur les dépenses.  
 Le capital de départ est destiné à l'investissement.  
@@ -120,10 +120,10 @@ Pour cela, vous aurez besoin de marchands et de chariots.
 Achetez un chariot et 2 chevaux au seigneur du château, ou construisez-en un vous-même.  
 
 Il n'est pas nécessaire d'être allié à des partenaires commerciaux.  
-Utilisez l'ordre [[cmd-contact]] pour échanger des marchandises et de l'argent avec d'autres factions sans être allié.  
+Utilisez l'ordre [[cmd-contact-fr]] pour échanger des marchandises et de l'argent avec d'autres factions sans être allié.  
 
 L'un des tableaux les plus importants de ce guide est la [[sequence-des-ordres]], qui indique l'ordre de traitement des ordres par le serveur.  
-Il illustre, par exemple, que vous pouvez tout à fait donner des matières premières à un forgeron la semaine précédant le début de sa production ([[cmd-give]] est en position 14, [[cmd-make]] en position 22), mais vous ne pouvez pas lui donner de potions ni les utiliser immédiatement ([[cmd-use]] est en position 7).
+Il illustre, par exemple, que vous pouvez tout à fait donner des matières premières à un forgeron la semaine précédant le début de sa production ([[cmd-give-fr]] est en position 14, [[cmd-make-fr]] en position 22), mais vous ne pouvez pas lui donner de potions ni les utiliser immédiatement ([[cmd-use-fr]] est en position 7).
 
 Il n'y a pas de gagnants dans ce jeu.  
 La partie dure jusqu'à ce que vous perdiez espoir ou que vos ennemis vous aient anéantis.  
@@ -145,3 +145,9 @@ Poursuivre la lecture : [[xontormia-express]].
 
 [serveur Discord d'Eressea]: https://discord.gg/JyAeYJw%7CDiscord
 [forum des Jeux PbEm]: http://www.pbem-spiele.de/
+
+[cmd-entertain-fr]: [[cmd-entertain-fr]]
+[cmd-message-fr]: [[cmd-message-fr]]
+[cmd-option-fr]: [[cmd-option-fr]]
+[cmd-password-fr]: [[cmd-password-fr]]
+[cmd-tax-fr]: [[cmd-tax-fr]]

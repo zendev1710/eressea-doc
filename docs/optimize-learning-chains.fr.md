@@ -257,7 +257,7 @@ Ils ont chacun un effet d'un tiers lors de l'apprentissage sans professeur, c'es
 
 D'autres facteurs d'influence qui augmentent la vitesse d'apprentissage maximale sont les courses, le terrain et les familiers.
 Cela profite du fait que la compétence fluctue en fonction de la « condition » et qu'en changeant la condition, une unité peut passer d'un enseignant à un élève.
-Le meilleur exemple en est les insectes, qui peuvent développer toutes les compétences en combinaison avec d'autres races.
+Le meilleur exemple en est les insectes, qui peuvent développer toutes les compétences en combinaison avec d'autres peuples.
 
 Sans trop entrer dans les détails, notons que la vitesse d’apprentissage maximale des meilleures unités peut dépasser 100 %.
 Les considérations ci-dessus doivent donc être développées.

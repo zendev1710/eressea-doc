@@ -18,3 +18,5 @@ Otherwise access will be denied.
 An ENTER implies [[cmd-leave]] if the unit is on a ship or in a building.
 
 <!-- From [https://wiki.eressea.de/index.php?title=ENTER&oldid=7174] -->
+
+[cmd-help]: [[cmd-help]]

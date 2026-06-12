@@ -171,9 +171,11 @@ Of course, this carries the risk that you will miss errors that you did not expe
 ## See also
 
 - [[orders-sequence]]
-- [[orders-list]]
+- [[list-of-orders]]
 - [[cmd-default]]
 
 Continue reading: [[orders-sequence]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehl&oldid=16787] -->
+
+[cmd-option]: [[cmd-option]]

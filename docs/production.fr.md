@@ -13,7 +13,7 @@ Diverses choses peuvent être produites à Eressea.
 Il existe des [[ressources]] (par exemple le fer, les pierres, le bois, les chevaux) et des [produits finis][objets] : diverses armes et armures, des [bateaux][bateaux-id], des chariots, des [bâtiments][batiments-id], des [[routes]] et des [potions][alchimie].  
 Pour pouvoir produire, il faut posséder les compétences appropriées.  
 
-La plupart des productions s"effectuent avec l'ordre [`MAKE`*`<number>`*` `*`item`*][cmd-make], par exemple `MAKE Iron`, `MAKE Sword` ou `MAKE 15 Elvenbow`.  
+La plupart des productions s"effectuent avec l'ordre [`MAKE`*`<number>`*` `*`item`*][cmd-make-fr], par exemple `MAKE Iron`, `MAKE Sword` ou `MAKE 15 Elvenbow`.  
 
 Selon l'objet, un niveau de compétence différent est requis pour pouvoir le produire.  
 La majorité des [[ressources]] ne nécessitent qu'une connaissance de base des compétences correspondantes (niveau 1), tandis que la plupart des [[objets]] nécessitent des niveaux de compétence plus élevés.  
@@ -67,17 +67,19 @@ Les forgerons bénéficient également d'un **bonus de compétence de +1** en [f
     Cependant, l'unité doit toujours avoir la valeur de compétence minimale
 
 En particulier pour les grandes factions, « collecter » tous les objets nécessaires à la production (par exemple de bâtiments) peut s'avérer fastidieux.  
-Pour faciliter la collecte, il existe une [[reserve-d-objets]].
+Pour faciliter la collecte, il existe une [réserve d'objets][reserve-d-objets-id].
 
 ## Voir aussi
 
 - [Ressources][ressources]
 - [Goods][items]
 - [Routes][routes-id]
-- [[ships]]
+- [Bateaux][bateaux-id]
 - [[buildings]]
 - [[faction-pool]]
 
 Poursuivre la lecture : [ressources][ressources].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Produktion&oldid=16875] -->
+
+[cmd-make-fr]: [[cmd-make-fr]]

@@ -79,6 +79,10 @@ In addition to these passive applications of camouflage, one can of course use w
 - [[cmd-guard]]
 - [revenue][stealing-the-dishonest-way]
 
-Continue reading: [[travel]].
+Continue reading: [[movement]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tarnung&oldid=17029] -->
+
+[cmd-combat]: [[cmd-combat]]
+[cmd-guard]: [[cmd-guard]]
+[cmd-spy]: [[cmd-spy]]

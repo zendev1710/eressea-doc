@@ -30,7 +30,7 @@ On peut également équiper 100 hommes de 70 armure de plaques et de 30 [cotte d
 ## Que doivent apprendre mes troupes ?
 
 Les troupes apprennent l'[endurance][skill-endurance-fr-id]{title="Endurance"} et la [maîtrise des armes].  
-Selon la race, il arrive un moment où il est plus avantageux d'apprendre l'endurance que la maîtrise des armes.  
+Selon le peuple, il arrive un moment où il est plus avantageux d'apprendre l'endurance que la maîtrise des armes.  
 Finalement, chaque nouveau niveau de maîtrise des armes coûte autant de temps d'apprentissage que plusieurs niveaux d'endurance.  
 Tu peux calculer quand ce point est atteint, ou te baser sur la maîtrise des armes de tes ennemis – car il est absolument crucial de ne pas prendre beaucoup de retard sur eux.  
 
@@ -38,7 +38,7 @@ L'avantage de maîtriser deux compétences réside aussi dans le fait qu'il est 
 
 ## De quoi ai-je absolument besoin au premier tour ?
 
-Peu importe la race et le besoin qui en découle en artistes ou collecteurs d'impôts par exemple, tu dois absolument former au moins une unité en [perception][skill-perception-fr-id]{title="Perception"} et peut-être une unité en [discrétion][skill-discretion-id]{title="Stealth"} dès le premier tour pour éviter d'être distancé, car les races particulièrement douées en camouflage exploitent souvent leur capacité à voler lorsqu'elles en ont l'occasion.  
+Peu importe le peuple et le besoin qui en découle en artistes ou collecteurs d'impôts par exemple, tu dois absolument former au moins une unité en [perception][skill-perception-fr-id]{title="Perception"} et peut-être une unité en [discrétion][skill-discretion-id]{title="Stealth"} dès le premier tour pour éviter d'être distancé, car les peuples particulièrement doués en camouflage exploitent souvent leur capacité à voler lorsqu'elles en ont l'occasion.  
 
 ## Acheter de la marchandise
 
@@ -70,8 +70,8 @@ Conclusion : Quiconque s'intéresse aux tendances démographiques jette égaleme
 ## Entrepôt
 
 Dans une région, un entrepôt est géré par une unité prioritaire (par exemple, le seigneur du plus ancien château) qui reçoit les marchandises excédentaires.  
-Si une autre unité a besoin de ces marchandises, elle peut les récupérer (avec la réserve de ressources activée) grâce à l'ordre [[cmd-reserve]].  
-Il est important que l'entrepôt soit prioritaire car [[cmd-reserve]] parcourt les unités de la région et prélève les objets nécessaires auprès de la première unité disponible qui les possède.  
+Si une autre unité a besoin de ces marchandises, elle peut les récupérer (avec la réserve de ressources activée) grâce à l'ordre [[cmd-reserve-fr]].  
+Il est important que l'entrepôt soit prioritaire car [[cmd-reserve-fr]] parcourt les unités de la région et prélève les objets nécessaires auprès de la première unité disponible qui les possède.  
 De plus, cela permet de visualiser en un coup d'œil les objets disponibles.  
 
 !!! tip
@@ -90,7 +90,7 @@ Si une région manque d'argent pour nourrir tout le monde, par négligence ou vo
 Si un seul membre d'une unité souffre de la faim, l'unité entière subit le désavantage de voir ses compétences réduites de moitié.  
 Par conséquent, placer une unité de 100 collecteurs d'impôts tout en bas d'une région n'est peut-être pas la meilleure stratégie.  
 
-Les unités peuvent être triées dans l'ordre souhaité à l'aide de l'ordre' [[cmd-sort]].
+Les unités peuvent être triées dans l'ordre souhaité à l'aide de l'ordre' [[cmd-sort-fr]].
 
 ## Routes maritimes sûres
 

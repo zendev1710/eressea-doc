@@ -34,3 +34,5 @@ Einheiten an Bord von Schiffen in fremd bewachten Regionen können weder arbeite
 
 [bef-bewache]: ./cmd-guard.md
 [bef-unterhalte]: ./cmd-entertain.md
+
+[bef-helfe]: [[bef-helfe]]

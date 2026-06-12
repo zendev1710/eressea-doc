@@ -7,7 +7,7 @@ alias: rapport-hebdomadaire
 Le rapport hebdomadaire est une synthèse statistique pour Eressea.
 
 Cela commence par la date du jeu, le tour d'évaluation et quelques chiffres sur le développement général du joueur.  
-Ceci est suivi d'une liste du nombre de factions triées par race, suivie du nombre de personnes par race.
+Ceci est suivi d'une liste du nombre de factions triées par peuple, suivie du nombre de personnes par peuple.
 
 Il se conclut par le nombre de factions et le nombre de nouveaux joueurs.
 

@@ -17,3 +17,5 @@ END
  ```
 
 <!-- From [https://wiki.eressea.de/index.php?title=END&oldid=3999] -->
+
+[cmd-make]: [[cmd-make]]

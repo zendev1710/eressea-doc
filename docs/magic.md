@@ -446,3 +446,6 @@ That's why there is now a [[list-of-spells]] and [[description-of-spells]].
 Continue reading: [[schools-of-magic]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
+
+[cmd-combatspell]: [[cmd-combatspell]]
+[cmd-learn]: [[cmd-learn]]

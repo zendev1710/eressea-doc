@@ -10,7 +10,7 @@ Hier die Liste aller Talente, die Einheiten in Eressea erlernen können. Dies is
 
 [](){ #skill-alchemie-id }
 
-## [Alchemie][alchemie]
+## [Alchemie][alchemie-id]
 
 Herstellen von [Tränken][tranke-id] aus [Kräutern][krauter-id]. Lernen kostet 200 Silber Person. Pro Partei darf es maximal drei Alchemisten geben.
 

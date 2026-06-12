@@ -46,7 +46,7 @@ It's also advisable to build [[castles]] early, at least at level 2, and "tradin
 Of course, training the necessary merchants and transports (usually cavalry) and equipping them with [horses and wagons][horse-and-carriage] is also essential.
 Understanding trade isn't easy for beginners, but it's worth the effort.
 
-Units with expensive skills like [Tacticians][tactics], [Alchemists][skills-list], etc., should only be trained later, as their training consumes a great deal of silver (200 silver per turn).
+Units with expensive skills like [Tacticians][tactics], [Alchemists][list-of-skills], etc., should only be trained later, as their training consumes a great deal of silver (200 silver per turn).
 Training [Mages][magic] costs even more silver, but a mage with combat spells can provide significant advantages in conflict.
 And mages of all schools of magic can cast a spell to earn silver very early on, making an early investment worthwhile (especially for races with +1 in Magic).
 
@@ -139,3 +139,8 @@ Continue reading: [[xontormia-express]].
 
 [Eressea's Discord channel]: https://discord.gg/JyAeYJw%7CDiscord
 [PbEm Games forum]: http://www.pbem-spiele.de/
+
+[cmd-entertain]: [[cmd-entertain]]
+[cmd-password]: [[cmd-password]]
+[cmd-tax]: [[cmd-tax]
+[cmd-unit]: [[cmd-unit]]

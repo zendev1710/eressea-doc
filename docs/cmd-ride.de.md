@@ -42,3 +42,5 @@ Mit dem Befehl `FAHRE` schließt sich eine Einheit einer transportierenden Einhe
 <!-- From [https://wiki.eressea.de/index.php?title=FAHRE&oldid=16721] -->
 
 [bef-route]: ./cmd-route.md
+
+[bef-nach]: [[bef-nach]]

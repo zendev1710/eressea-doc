@@ -33,3 +33,6 @@ Die Vorteile von LERNE AUTO sind:
 Spielererfahrung: XolgrimEin Block für LERNE AUTO besteht pro Region und Talent aus maximal 128 Einheiten. Setzen mehr Einheiten einer Partei in einer Region den Befehl, wird ein zweiter Block gebildet, der unabhängig vom ersten eine Lehre/Lern-Kette aufbaut.
 
 <!-- From [https://wiki.eressea.de/index.php?title=LERNE\_AUTO&oldid=15393] -->
+
+[bef-lehre]: [[bef-lehre]]
+[bef-lerne]: [[bef-lerne]]

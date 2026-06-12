@@ -14,7 +14,7 @@ alias: cmd-combat-fr
 **`COMBAT NOT`**  
 **`COMBAT REAR`**  
 
-Cet ordre détermine la réaction d'une unité en cas de bataille (voir aussi la section [Lignes de combat][lignes-de-combat] dans le chapitre [[guerre]]).  
+Cet ordre détermine la réaction d'une unité en cas de bataille (voir aussi la section [Lignes de combat][lignes-de-combat] dans le chapitre [Guerre][guerre]).  
 
 Ensemble des statuts de combat, de la plus forte exposition au combat à la plus faible.  
 
@@ -66,15 +66,15 @@ Ce statut de combat est mis à profit par presque tous les « civils » (sans ar
 Si même une personne d'une unité réussit à s'échapper d'un combat, elle quitte automatiquement les bâtiments ou les bateaux terrestres dans lesquels elle se trouve.  
 Il est donc important de se demander si ce statut a du sens pour les occupants d'un bâtiment ou d'un bateau.  
 
-Les unités avec ce statut de combat ne peuvent pas non plus [attaquer][cmd-attack] ni [garder][cmd-guard].  
+Les unités avec ce statut de combat ne peuvent pas non plus [attaquer][cmd-attack-fr] ni [garder][cmd-guard-fr].  
 Si une unité de garde se place en `COMBAT FLEE`, la garde est immédiatement annulée, avec les conséquences correspondantes.  
-Les unités avec ce statut de combat peuvent toujours se déplacer après le combat (avec [[cmd-move]], [[cmd-route]], [[cmd-follow]]).  
+Les unités avec ce statut de combat peuvent toujours se déplacer après le combat (avec [[cmd-move-fr]], [[cmd-route-fr]], [[cmd-follow-fr]]).  
 
 !!! warning "Attention"
     Les unités avec `COMBAT FLEE` ou `COMBAT NOT` se battront si elles sont attaquées et que les deux premières lignes sont débordées.  
     Cela signifie que les mage font aussi de la magie.  
     Les sorts pré-combat et post-combat sont lancés même si les lignes de front ne sont pas débordées.  
-    Si vous souhaitez éviter cela, vous pouvez désactiver le [statut des sorts de combat][cmd-combatspell].
+    Si vous souhaitez éviter cela, vous pouvez désactiver le [statut des sorts de combat][cmd-combatspell-fr].
 
 Faire fonctionner des catapultes est une tâche qui demande beaucoup de préparation, donc une unité ayant le statut de combat `COMBAT NOT` ou `COMBAT FLEE` ne tirera pas de munitions, mais utilisera toute autre arme si elle en possède une et sait s'en servir.
 
@@ -85,7 +85,7 @@ Faire fonctionner des catapultes est une tâche qui demande beaucoup de prépara
 
 ## `COMBAT NOT`
 
-Avec cet ordre, l'unité ne participe pas au combat, à moins qu'elle soit la cible d'un ordre [d'attaque][cmd-attack] ennemi.  
+Avec cet ordre, l'unité ne participe pas au combat, à moins qu'elle soit la cible d'un ordre [d'attaque][cmd-attack-fr] ennemi.  
 L'unité tentera de fuir dès qu'elle aura perdu 10 % de ses points de vie.  
 
 Ceci est utilisé avantageusement pour les unités qui restent hors du combat mais ne sont pas censées fuir, comme par exemple les occupants d'un bâtiment.  
@@ -106,8 +106,15 @@ Si une telle unité est spécifiquement attaquée, aucune autre unité ne sera e
 Bien entendu, cela ne s'applique que si d'autres unités ne possédant pas ce statut ne sont pas également attaquées.  
 
 Votre propre faction est toujours impliquée lorsqu'elle attaque, ou lorsqu'elle-même ou une faction qu'elle aide est attaquée.  
-Vous trouverez plus de détails sur [[cmd-help]] et dans les chapitres [[guerre]] et [Alliance][alliances].  
+Plus de détails sur [[cmd-help-fr]] :
+
+- [La guerre][guerre]
+- [Les alliance][alliances]
 
 L'ordre `COMBAT HELP` réactive le statut qui permet à l'unité d'être aidée en cas d'attaque.
 
 <!-- From [https://wiki.eressea.de/index.php?title=COMBAT&oldid=7216] -->
+
+[cmd-attack-fr]: [[cmd-attack-fr]]
+[cmd-combatspell-fr]: [[cmd-combatspell-fr]]
+[cmd-guard-fr]: [[cmd-guard-fr]]

@@ -139,7 +139,7 @@ Kurzliste der Befehle.
 | [TARNE PARTEI \[NICHT\]](./cmd-hide.md)                                    | Parteizugehörigkeit verbergen (als "anonym" getarnt)   | K      |
 | [TARNE PARTEI NUMMER nummer]                                               | Parteizugehörigkeit tarnen (als andere Partei getarnt) | K      |
 | [TRANSPORTIERE einheit-nr]                                                 | andere Einheiten mitnehmen                             | K      |
-| [TREIBE \[betrag\]](./cmd-tax.md)                                          | Steuern eintreiben                                     | L      |
+| [TREIBE \[betrag\]]                                                        | Steuern eintreiben                                     | L      |
 | [UNTERHALTE \[betrag\]](./cmd-entertain.md)                                | verdient 20 oder mehr Silber                           | L      |
 | [URSPRUNG x y]                                                             | setzt den Koordinaten-Ursprung                         | K      |
 | [VERGISS talent]                                                           | vergisst das Talent                                    | K      |
@@ -231,6 +231,7 @@ Weiterlesen: [[der-erste-zug]].
 [TARNE rasse]: ./cmd-hide.md
 [TARNE PARTEI NUMMER nummer]: ./cmd-hide.md
 [TRANSPORTIERE einheit-nr]: ./cmd-carry.md
+[TREIBE \[betrag\]]: ./cmd-tax.md
 [URSPRUNG x y]: ./cmd-origin.md
 [VERGISS talent]: ./cmd-forget.md
 [VERKAUFE anzahl luxusgut]: ./cmd-sell.md
@@ -245,3 +246,8 @@ Weiterlesen: [[der-erste-zug]].
 [ZÜCHTE PFERDE]: ./cmd-grow.md
 
 [BENUTZE &#91;anzahl&#93; trank]: ./cmd-use.md
+
+[bef-fahre]: [[bef-fahre]]
+[bef-gib]: [[bef-gib]]
+[bef-lerne]: [[bef-lerne]]
+[bef-lerne-auto]: [[bef-lerne-auto]]

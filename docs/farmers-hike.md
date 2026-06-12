@@ -29,3 +29,5 @@ If there are more farmers than jobs in a region (see [here][cmd-work]), some of 
 Farmers emigrate also because of poverty.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Bauernwanderung&oldid=2447] -->
+
+[cmd-work]: [[cmd-work]]

@@ -16,13 +16,13 @@ Pour cela, elles doivent être [armées et prêtes au combat][arme-et-pret-au-co
 
 ## Garde d'une région par une faction non alliée
 
-Lorsqu'une faction garde une région, les unités qui ne lui sont pas alliées sont soumises aux [alliances][alliances] ([`HELP GUARD`][cmd-help] ou [[cmd-contact]]).  
+Lorsqu'une faction garde une région, les unités qui ne lui sont pas alliées sont soumises aux [alliances][alliances] ([`HELP GUARD`][cmd-help-fr] ou [[cmd-contact-fr]]).  
 Ainsi, si tes unités sont dans cette situation (non alliées), les restrictions suivantes s'appliquent :
 
 1. Il n'est plus possible de collecter les taxes, d'extraire des matières premières, de [faire du commerce][le-commerce] ou de recruter des agriculteurs dans cette région
 2. Il y a une certaine probabilité que tes unités en mouvement soient stoppées
-3. Si ton unité est sur un navire, elle ne pourra pas [travailler][cmd-work], [divertir][cmd-entertain], ou [attaquer][cmd-attack], ni se déplacer immédiatement par voie terrestre.
-  Afin de pouvoir réaliser ces actions la semaine suivante, elle devra d'abord [quitter][cmd-leave] le bateau
+3. Si ton unité est sur un navire, elle ne pourra pas [travailler][cmd-work-fr], [divertir][cmd-entertain-fr], ou [attaquer][cmd-attack-fr], ni se déplacer immédiatement par voie terrestre.
+  Afin de pouvoir réaliser ces actions la semaine suivante, elle devra d'abord [quitter][cmd-leave-fr] le bateau
 
 Si l'unité n'est pas visible, parce qu'elle possède une compétence de [discrétion][skill-discretion-id]{title="Stealth"} de niveau supérieur à la meilleure compétence de perception de la faction de garde dans la région, les deux premières restrictions ne s'appliquent pas.
 
@@ -43,7 +43,7 @@ Les factions avec **au moins un** garde allié peuvent continuer à exécuter le
 
 Avec `GUARD NOT`, le statut de garde d'une unité est dissous.  
 Cela se produit également lorsque l'unité est en mouvement.  
-Les unités avec le statut de combat [`COMBAT FLEE`][cmd-combat] ne peuvent pas garder, et les unités dont tous les survivants fuient pendant le combat cessent également de garder.  
+Les unités avec le statut de combat [`COMBAT FLEE`][cmd-combat-fr] ne peuvent pas garder, et les unités dont tous les survivants fuient pendant le combat cessent également de garder.  
 
 ## Garde et mouvement
 
@@ -61,7 +61,7 @@ La probabilité d'être stoppée décroît avec :
 
 - le nombre de gardes alliés
 - la compétence de furtivité de l'unité en mouvement
-- l'utilisation d'un [[anneau-dinvisibilite]]
+- l'utilisation d'un [anneau d'Invisibilité][anneau-dinvisibilite]
 
 ## Particularités
 
@@ -73,8 +73,15 @@ Au cours des [premières semaines][puppy-protection], une faction ne peut pas en
 
 ## Voir aussi
 
-- [`HELP GUARD`][cmd-help]
-- [[alliances]]
-- [[cmd-contact]]
+- [`HELP GUARD`][cmd-help-fr]
+- [Les alliances][alliances]
+- [[cmd-contact-fr]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=GUARD&oldid=16839] -->
+
+[cmd-attack-fr]: [[cmd-attack-fr]]
+[cmd-combat-fr]: [[cmd-combat-fr]]
+[cmd-entertain-fr]: [[cmd-entertain-fr]]
+[cmd-help-fr]: [[cmd-help-fr]]
+[cmd-leave-fr]: [[cmd-leave-fr]]
+[cmd-work-fr]: [[cmd-work-fr]]

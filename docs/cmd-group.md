@@ -26,3 +26,5 @@ A unit that issues a `HELP` order changes the status of its group if it is assig
 In a battle, each group becomes a separate army, as happens when units are faction-camouflaged.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=GROUP&oldid=6657] -->
+
+[cmd-help]: [[cmd-help]]

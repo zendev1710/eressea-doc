@@ -45,3 +45,6 @@ Block for `LEARN AUTO` consists of a maximum of 128 units per region and skill.
 If more units of a faction in a region give the order, a second block is formed that sets up a teaching/learning chain independently of the first.
 
 <!-- From [https://wiki.eressea.de/index.php?title=LEARN\_AUTO&oldid=15393] -->
+
+[cmd-learn]: [[cmd-learn]]
+[cmd-teach]: [[cmd-teach]]

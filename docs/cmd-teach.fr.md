@@ -23,7 +23,7 @@ Plusieurs maîtres peuvent également enseigner à un grand groupe d'élèves.
 La compétence à enseigner ne doit **PAS** être spécifiée - la compétence acquise par l'élève est automatiquement enseignée.  
 Il peut également s'agir de compétences différentes, à condition que l'enseignant maîtrise ces compétences suffisamment mieux que les élèves.  
 
-Si vous souhaitez enseigner des unités d'autres factions, vous devez avoir reçu l'ordre [`HELP GUARD`][cmd-help] de cette faction, ou l'unité à enseigner doit [contacter][cmd-contact] l'enseignant.  
+Si vous souhaitez enseigner des unités d'autres factions, vous devez avoir reçu l'ordre [`HELP GUARD`][cmd-help-fr] de cette faction, ou l'unité à enseigner doit [contacter][cmd-contact-fr] l'enseignant.  
 
 **Exemple** :
 
@@ -31,9 +31,12 @@ Si vous souhaitez enseigner des unités d'autres factions, vous devez avoir reç
 TEACH xxxx yyyy TEMP 2 zzzz
 ```
 
-Avec l'ordre [[cmd-learn-auto]], le serveur **tente d'automatiser** l'apprentissage et l'enseignement dans une région au sein d'une faction.  
+Avec l'ordre [[cmd-learn-auto-fr]], le serveur **tente d'automatiser** l'apprentissage et l'enseignement dans une région au sein d'une faction.  
 
 !!! warning "Attention"
     L'utilisation simultanée d'ordres `TEACH` et `LEARN AUTO` par les unités d'une même faction dans une région n'est pas autorisée.
 
 <!-- From [https://wiki.eressea.de/index.php?title=TEACH&oldid=16726] -->
+
+[cmd-contact-fr]: [[cmd-contact-fr]]
+[cmd-help-fr]: [[cmd-help-fr]]

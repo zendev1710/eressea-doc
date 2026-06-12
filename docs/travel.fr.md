@@ -16,7 +16,7 @@ Un déplacement n'est possible que dans les six directions suivantes : nord-est
 !!! note "Note"
     Il n'est pas possible de se déplacer directement vers le nord ou le sud.  
 
-Pour se déplacer, il faudra renseigner la direction -ou les directions consécutives- à prendre, au moyen des ordres [[cmd-move]] ou [[cmd-route]] (déplacement planfié sur plusieurs tours).  
+Pour se déplacer, il faudra renseigner la direction -ou les directions consécutives- à prendre, au moyen des ordres [[cmd-move-fr]] ou [[cmd-route-fr]] (déplacement planfié sur plusieurs tours).  
 
 La vitesse de déplacement se caractérise par le nombre de régions terrestres (ou de régions océaniques pour un bateau) que peut parcourir une unité en une seule fois.  
 
@@ -29,9 +29,9 @@ De même, un bateau en mer ne pourra se déplacer que si son chargement ne dépa
 ## Capacité de transport
 
 <!-- TODO: check catapult capacity -->
-*Capacité de transport d'une personne selon la race.*
+*Capacité de transport d'une personne selon le peuple.*
 
-| Race                                      | Capacité de transport |
+| Peuple                                    | Capacité de transport |
 |-------------------------------------------|----------------------:|
 | [Gobelin][gobelins]{title="Goblins"}      |               **4,4** |
 | [Aquarien][aquariens]{title="Aquarians"}  |                   5,4 |
@@ -69,9 +69,9 @@ Une unité peut augmenter sa capacité de transport grâce aux [chevaux et chari
 
 ## Poids
 
-*Poids d'une personne selon la race.*
+*Poids d'une personne selon le peuple.*
 
-| Race                                     | Poids |
+| Peuple                                   | Poids |
 |------------------------------------------|------:|
 | [Gobelin][gobelins]{title="Goblins"}     |     6 |
 | [Aquarien][aquariens]{title="Aquarians"} |    10 |
@@ -151,7 +151,7 @@ Si une unité comprend plusieurs chevaux et chariots, leur capacité de transpor
 
 - Une unité de 4 personnes T1 en Équitation peut transporter au maximum 20 chevaux (4 chevaux de toute façon, plus 4 x 4 chevaux grâce à Équitation T1) à pied. Si elle n'a pas plus de 8 chevaux avec elle et qu'elle n'est pas trop lourde, elle peut se déplacer de deux cases.
 - Si la même unité n'emporte que 8 chevaux et 2 chariots, elle a une capacité à cheval de 320 lbs (2 x 100 lbs pour les chariots + 8 x 20 lbs pour les chevaux − 4 x 10 lbs pour les cavaliers).
-  Les exceptions à cette règle sont les races avec un poids différent, où le poids réel du cavalier est bien sûr déduit.
+  Les exceptions à cette règle sont les peuples avec un poids différent, où le poids réel du cavalier est bien sûr déduit.
 - Une unité de 5 nains sans maîtrise de l'Équitation peut mener 5 chevaux sur une région en transportant 127 lbs (5,4 lbs par nain et 20 lbs par cheval).
 - Si la même unité a en plus 3 chariots, elle peut transporter 287 lbs d'autres marchandises (5,4 lbs par nain, 20 lbs par cheval et 2 x 100 lbs pour les chariots tractés moins 40 lbs pour le chariot qui doit être transporté, car 5 chevaux ne suffisent que pour 2 chariots).
 - Une unité de 4 trolls sans maîtrise de l'Équitation et sans chevaux peut tirer un chariot sur une région (deux régions avec des routes) et transporter 143,2 lbs (10,8 lbs par troll et 100 lbs sur le chariot).
@@ -162,16 +162,16 @@ Si une unité comprend plusieurs chevaux et chariots, leur capacité de transpor
 
 ### Transport d'unités par d'autres
 
-Avec l'ordre [`CARRY <ID-du-passager>`][cmd-carry], les unités peuvent transporter d'autres unités pendant leur déplacement.  
-L'unité souhaitant être transportée doit donner l'ordre [`RIDE <ID-du-transporteur>`][cmd-ride] ([ordre long][ordres-courts-et-longs]).  
+Avec l'ordre [`CARRY <ID-du-passager>`][cmd-carry-fr], les unités peuvent transporter d'autres unités pendant leur déplacement.  
+L'unité souhaitant être transportée doit donner l'ordre [`RIDE <ID-du-transporteur>`][cmd-ride-fr] ([ordre long][ordres-courts-et-longs]).  
 
 Il est ainsi possible de transporter des unités (sans maîtrise de l'Équitation) sur des chevaux et dans des chariots.  
 L'unité de transport doit bien sûr avoir une capacité de transport suffisante pour les passagers et leurs possessions.  
 
-Par contre, avec [`FOLLOW UNIT <ID-unité-suivie>`][cmd-follow] ou `FOLLOW SHIP <ID-bateau-suivi>`, c'est comme si l'unité avait elle-même donné un ordre [[cmd-move]], si l'unité suivie (ou le bateau) a un ordre de déplacement.  
+Par contre, avec [`FOLLOW UNIT <ID-unité-suivie>`][cmd-follow-fr] ou `FOLLOW SHIP <ID-bateau-suivi>`, c'est comme si l'unité avait elle-même donné un ordre [[cmd-move-fr]], si l'unité suivie (ou le bateau) a un ordre de déplacement.  
 L'unité qui suit doit porter son propre poids.  
 
-Les unités en déplacement peuvent être stoppées par des unités en garde dans une région (voir [[cmd-guard]]).  
+Les unités en déplacement peuvent être stoppées par des unités en garde dans une région (voir [[cmd-guard-fr]]).  
 
 Si une unité ou un bateau est trop lourdement chargé, il ne peut pas se déplacer.  
 Pour cela, le poids total de l'unité à transporter, y compris les marchandises et les *silvers* qu'elle transporte, est comparé à sa capacité de transport.  
@@ -183,10 +183,10 @@ Le tableau dans le chapitre [[objets]] référence le poids des marchandises.
 
 L'unité de transport doit bien sûr avoir une capacité de transport suffisante pour les passagers et leurs possessions.  
 
-Par contre, avec [`FOLLOW UNIT <ID-unité-suivie>`][cmd-follow] ou `FOLLOW SHIP <ID-bateau-suivi>`, c'est comme si l'unité avait elle-même donné un ordre [[cmd-move]], si l'unité suivie (ou le bateau) a un ordre de déplacement.  
+Par contre, avec [`FOLLOW UNIT <ID-unité-suivie>`][cmd-follow-fr] ou `FOLLOW SHIP <ID-bateau-suivi>`, c'est comme si l'unité avait elle-même donné un ordre [[cmd-move-fr]], si l'unité suivie (ou le bateau) a un ordre de déplacement.  
 L'unité qui suit doit porter son propre poids.  
 
-Les unités en déplacement peuvent être stoppées par des unités en garde dans une région (voir [[cmd-guard]]).  
+Les unités en déplacement peuvent être stoppées par des unités en garde dans une région (voir [[cmd-guard-fr]]).  
 
 Si une unité ou un bateau est trop lourdement chargé, il ne peut pas se déplacer.  
 Pour cela, le poids total de l'unité à transporter, y compris les marchandises et les *silvers* qu'elle transporte, est comparé à sa capacité de transport.  
@@ -200,3 +200,7 @@ Le tableau dans le chapitre [[objets]] référence le poids des marchandises.
 Poursuivre la lecture : [[naviguer]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Reisen/fr&oldid=16636] -->
+
+[cmd-carry-fr]: [[cmd-carry-fr]]
+[cmd-follow-fr]: [[cmd-follow-fr]]
+[cmd-ride-fr]: [[cmd-ride-fr]]

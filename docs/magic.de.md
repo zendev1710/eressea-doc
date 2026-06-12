@@ -372,3 +372,6 @@ Weiterlesen: [[magiegebiete]].
 [bef-attackiere]: ./cmd-attack.md
 [bef-ursprung]: ./cmd-origin.md
 [bef-kontaktiere]: ./cmd-contact.md
+
+[bef-lerne]: [[bef-lerne]]
+[bef-nach]: [[bef-nach]]

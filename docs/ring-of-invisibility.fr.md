@@ -12,7 +12,7 @@ alias: anneau-dinvisibilite
 
 Cet artefact magique est utilisé par les elfes depuis des temps immémoriaux, pour la chasse ou pour se dissimuler à leurs ennemis.  
 
-Mais d'autres races, après avoir rencontré les peuples elfiques, ont rapidement compris la valeur de l'anneau.  
+Mais d'autres peuples, après avoir rencontré les peuples elfiques, ont rapidement compris la valeur de l'anneau.  
 Il rend en effet celui qui le porte invisible, même à l'œil le plus perçant.  
 
 Un Anneau d'Invisibilité peut être créé avec [ce sort de magie][creer-un-anneau-dinvisibilite].  

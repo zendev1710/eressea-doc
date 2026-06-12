@@ -27,3 +27,6 @@ Durch den Befehl [LERNE AUTO][bef-lerne-auto] versucht der Server das Lernen und
 <!-- From [https://wiki.eressea.de/index.php?title=LEHRE&oldid=16726] -->
 
 [bef-kontaktiere]: ./cmd-contact.md
+
+[bef-helfe]: [[bef-helfe]]
+[bef-lerne-auto]: [[bef-lerne-auto]]

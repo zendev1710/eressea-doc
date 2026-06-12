@@ -34,3 +34,6 @@ GIB u2 KOMMANDO
 
 [bef-kontaktiere]: ./cmd-contact.md
 [bef-verlasse]: ./cmd-leave.md
+
+[bef-gib]: [[bef-gib]]
+[bef-helfe]: [[bef-helfe]]

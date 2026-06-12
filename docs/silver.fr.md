@@ -11,7 +11,7 @@ alias: argent
 
 L'argent mène le monde - c'est aussi le cas dans Eressea.  
 
-Il y a plusieurs façons d'obtenir de l'argent : une unité peut [travailler][cmd-work], [divertir][cmd-entertain], [collecter les impôts][cmd-tax] ou [commercer][le-commerce].  
+Il y a plusieurs façons d'obtenir de l'argent : une unité peut [travailler][cmd-work-fr], [divertir][cmd-entertain-fr], [collecter les impôts][cmd-tax-fr] ou [commercer][le-commerce].  
 
 Le travail (`WORK`) est plus une sorte de palliatif, les unités qui travaillent gagnent à peine de quoi se nourrir.  
 Vous pouvez gagner beaucoup d'argent avec le divertissement (`ENTERTAIN`) et les impôts (`TAX`).  
@@ -20,7 +20,7 @@ Surtout au début de votre aventure, le commerce peut être la plus grande sourc
 L'argent a son propre poids : 100 silver équivalent à une unité de poids.  
 Lors du calcul du poids, il est courant d'arrondir à l'unité supérieure; un seul silver peut surcharger une unité.  
 
-Comme les personnes (de la plupart des [[races]]) peuvent porter 5,4 lbs, elles peuvent transporter jusqu'à 540 silvers;  
+Comme les personnes (de la plupart des [peuples][peuples]) peuvent porter 5,4 lbs, elles peuvent transporter jusqu'à 540 silvers;  
 lorsqu'elles en portent 541 une seule personne est surchargée.  
 Un bateau (capacité de 50 lbs) par exemple, peut transporter une personne (10 lbs dans la plupart des cas) avec 4000 silvers; 4001 pièces serait une surcharge.  
 
@@ -29,8 +29,8 @@ Un bateau (capacité de 50 lbs) par exemple, peut transporter une personne (10 l
 ### Recruter
 
 Si l'on veut recruter des personnes, il faut suffisamment d'argent, car les candidats au recrutement sont souvent particulièrement avides ...  
-Pour chaque personne recrutée, il faut dépenser, selon la race, entre 40 et 150 Silver en frais de recrutement.  
-Le coût du recrutement dépend de la race et est indiqué dans ce [tableau][races].  
+Pour chaque personne recrutée, il faut dépenser, selon le peuple, entre 40 et 150 Silver en frais de recrutement.  
+Le coût du recrutement dépend du peuple et est indiqué dans ce [tableau][peuples].  
 
 Garder empêche le recrutement (sauf en cas d'utilisation de `HELP`).  
 
@@ -38,9 +38,9 @@ Garder empêche le recrutement (sauf en cas d'utilisation de `HELP`).
 
 Chaque joueur et chaque paysan a besoin de 10 Silver à chaque tour pour pouvoir acheter sa nourriture.  
 Les unités d'une même faction dans la même région s'aident cependant mutuellement, c'est-à-dire qu'il suffit en principe qu'une unité ait assez de Silver pour toutes les personnes présentes (ce qui peut toutefois être fatal en cas d'erreur, si personne d'autre n'a de silvers !)  
-Si votre propre faction n'a pas assez d'argent, d'autres factions qui ont mis [`HELP SILVER`][cmd-help] avec votre faction aident aussi (voir [[alliances]]).  
+Si votre propre faction n'a pas assez d'argent, d'autres factions qui ont mis [`HELP SILVER`][cmd-help-fr] avec votre faction aident aussi (voir [[alliances]]).  
 Les unités qui se déplacent doivent être ravitaillées là où elles arrivent.  
-Pour l'entretien des unités, on utilise aussi des silver, qui a été préalablement [réservé][cmd-reserve].  
+Pour l'entretien des unités, on utilise aussi des silver, qui a été préalablement [réservé][cmd-reserve-fr].  
 Sans suffisamment de silvers, les gens souffrent de la faim (voir ci-dessous).  
 
 Certains bâtiments ont également besoin de frais d'entretien hebdomadaires pour fonctionner.  
@@ -54,7 +54,7 @@ En savoir plus : les [bâtiments][batiments-id].
 ### La Famine pour les unités des joueurs
 
 Les unités affamées subissent des dégâts, et donc perdent des points de vie.  
-Les [Halfelins][halfelins] affamés proportionnellement plus que les autres races.  
+Les [Halfelins][halfelins] affamés proportionnellement plus que les autres peuples.  
 La santé d'une unité apparaît dans le rapport.  
 L'unité sera exhausted, wounded ou badly wounded.  
 Cependant, une unité non déjà affaiblie ne mourra pas au cours de la première semaine.  
@@ -64,7 +64,7 @@ De plus, les unités affamées voient leur score de talent chuter de moitié, ne
 Cependant, les unités affamées ou blessées peuvent encore exécuter des ordres longs.  
 
 Au fil du temps, les unités blessées se rétablissent.  
-Les unités régénèrent normalement 5 % de leurs points de vie maximum par tour (certaines races davantage), avec un minimum d'un point par personne dans l'unité.  
+Les unités régénèrent normalement 5 % de leurs points de vie maximum par tour (certains peuples davantage), avec un minimum d'un point par personne dans l'unité.  
 Les unités de Morts-vivants ne se régénèrent pas  
 
 La compétence Sailing n'est réduite que d'un niveau lorsque les unités sont affamées.  
@@ -86,8 +86,8 @@ Cela peut avoir plusieurs causes :
 
 - La région est surpeuplée. Dans une plaine sans arbres, où chaque paysan gagne 12 silvers, seuls 12 000 paysans peuvent survivre à long terme, car seuls 10 000 paysans travaillent tout en gagnant 1 200 00$, ce qui ne suffit que pour 12 000 paysans.
   À court terme, le nombre de paysans peut être plus élevé tant qu'il reste suffisamment de Silver dans les réserves de la région.
-- La région n'est pas surpeuplée, mais les unités des joueurs [travaillent][cmd-work] et occupent donc une partie des emplois.
-- Les paysans gagnent suffisamment de silvers, mais les unités de joueurs [taxent][cmd-tax] avant que les paysans n'aient pu subvenir à leurs besoins.
+- La région n'est pas surpeuplée, mais les unités des joueurs [travaillent][cmd-work-fr] et occupent donc une partie des emplois.
+- Les paysans gagnent suffisamment de silvers, mais les unités de joueurs [taxent][cmd-tax-fr] avant que les paysans n'aient pu subvenir à leurs besoins.
 - De plus, des rumeurs circulent sur des événements particuliers qui peuvent temporairement ou définitivement dégrader la fertilité d'une région, empêchant les paysans de subvenir à leurs besoins.
 
 Les paysans affamés peuvent ressusciter plus tard sous la forme de [morts-vivants].  
@@ -96,22 +96,22 @@ Les paysans affamés peuvent ressusciter plus tard sous la forme de [morts-vivan
 
 ### Travail
 
-Une unité peut gagner de l'argent en travaillant dans l'agriculture (voir l'ordre [[cmd-work]]).  
+Une unité peut gagner de l'argent en travaillant dans l'agriculture (voir l'ordre [[cmd-work-fr]]).  
 Cependant, plus les forêts sont denses dans une région, moins il y a de surface cultivable, et moins les paysans (et aussi les unités de joueurs) peuvent travailler : par arbre, huit paysans ou joueurs ne peuvent plus travailler et chaque pousse d'arbre occupe 4 emplois.  
-Le nombre maximal de personnes pouvant travailler (et non pas habiter) dans une région dépend également du type terrain (voir le tableau de la commande [[cmd-work]]).  
+Le nombre maximal de personnes pouvant travailler (et non pas habiter) dans une région dépend également du type terrain (voir le tableau de la commande [[cmd-work-fr]]).  
 
 Un paysan gagne normalement 11 Silver par tour.  
 Ce salaire peut augmenter jusqu'à 16 Silver par paysan et par tour grâce au bonus d'une citadelle (voir aussi [ce tableau][apercu]).  
 Par exemple, si une citadelle est construite dans une plaine et que la forêt est coupée, 10000 paysans peuvent se nourrir en un tour et 60000 Silver supplémentaires sont ajoutés aux réserves de la région.  
 
 Les unités des joueurs travaillant gagnent cependant moins - après tout, ce ne sont que des ouvriers auxiliaires.  
-Le montant qu'elles peuvent gagner (1 silver de moins que les paysans) est indiqué d'une part dans le rapport, d'autre part dans le tableau de l'ordre [[cmd-work]].  
+Le montant qu'elles peuvent gagner (1 silver de moins que les paysans) est indiqué d'une part dans le rapport, d'autre part dans le tableau de l'ordre [[cmd-work-fr]].  
 
 Garder empêche de travailler uniquement les unités se trouvant à l'intérieur d'un bateau (sauf en cas d'utilisation de `HELP`).  
 
 ### Collecter les impôts
 
-Les unités armés et entraînés peuvent extorquer 20 Silver aux paysans avec l'ordre [[cmd-tax]] par personne et par niveau de compétence.  
+Les unités armés et entraînés peuvent extorquer 20 Silver aux paysans avec l'ordre [[cmd-tax-fr]] par personne et par niveau de compétence.  
 Pour cela, il faut bien sûr la compétence Taxation, mais aussi une arme par personne (les catapultes ne comptent pas) et la compétence correspondante pour la maîtriser.  
 
 Si le nombre de paysans est près du maximum de population, presque toutes les réserves de silver de la région seront utilisées par les paysans, de sorte qu'ils n'auront plus de Silver "à disposition" pour les impôts.  
@@ -127,7 +127,7 @@ Garder empêche la collecte des taxes (sauf en cas d'utilisation de `HELP`).
 L'argent qui reste aux paysans après les impôts est ajouté aux réserves de la région (la réserve de silver des paysans).  
 Sur cette réserve, 5% peuvent être gagnés par le divertissement (Entertainment).  
 Les statistiques de la région indiquent également ce montant.  
-Chaque personne peut gagner jusqu'à 20 Silver par tour et niveau de compétence "entertainment" avec l'ordre [divertir][cmd-entertain], si les paysans ont suffisamment d'argent à disposition.  
+Chaque personne peut gagner jusqu'à 20 Silver par tour et niveau de compétence "entertainment" avec l'ordre [divertir][cmd-entertain-fr], si les paysans ont suffisamment d'argent à disposition.  
 
 ### Exemples de possibilités de rémunération
 
@@ -155,7 +155,7 @@ Garder empêche le divertissement uniquement pour les unités se trouvant à l'i
 ### Le vol : la méthode malhonnête
 
 Outre les moyens honnêtes de gagner de l'argent, il existe une variante malhonnête : le vol.  
-Les unités qui se sont dissimulées peuvent essayer de voler des Silver à d'autres unités avec l'ordre [[cmd-steal]].  
+Les unités qui se sont dissimulées peuvent essayer de voler des Silver à d'autres unités avec l'ordre [[cmd-steal-fr]].  
 
 Si la compétence de [discrétion][skill-discretion-id]{title="Stealth"} du voleur est supérieure à la [perception][skill-perception-fr-id]{title="Perception"}de la meilleure unité de la faction volée dans la région, il vole 50 silver par point de différence de compétences.  
 
@@ -169,7 +169,7 @@ Dans toutes les régions qui ne produisent pas ce bien, il existe une demande to
 Ceux qui n'ont pas peur des risques liés aux voyages peuvent gagner beaucoup d'argent grâce au commerce.  
 
 Pour faire du commerce, il faut être compétent en [commerce][commerce]{title="Trade"}.  
-Une personne (ou une unité) peut acheter et/ou vendre au maximum 10 produits de luxe par niveau de compétence, voir [[cmd-buy]] et [[cmd-sell]].  
+Une personne (ou une unité) peut acheter et/ou vendre au maximum 10 produits de luxe par niveau de compétence, voir [[cmd-buy-fr]] et [[cmd-sell-fr]].  
 Les quantités respectives de biens échangés sont totalement arbitraires.  
 Par exemple, une unité composée d'une personne avec une compétence de niveau 4 en commerce peut acheter 20 Gems et vendre 12 Soies et 8 Baumes par tour.  
 
@@ -294,19 +294,25 @@ Il est préférable de bien s'entendre avec tes colocataires s'ils sont amicaux.
 Si la région est gardée par une faction étrangère, aucune de nos propres unités ne peut collecter d'impôts ni recruter.
 Le travail, le divertissement et le commerce sont toutefois possibles, à moins que l'unité ne se trouve sur un bateau.
 
-Si toutes les factions qui gardent ont paramétré [`HELP GUARD`][cmd-help] ou [`HELP ALL`][cmd-help] avec notre faction ou un ordre [[cmd-contact]] avec notre unité ou notre faction, alors la garde n'a pas d'effet.
+Si toutes les factions qui gardent ont paramétré [`HELP GUARD`][cmd-help-fr] ou [`HELP ALL`][cmd-help-fr] avec notre faction ou un ordre [[cmd-contact-fr]] avec notre unité ou notre faction, alors la garde n'a pas d'effet.
 Cela s'applique également si notre unité n'est pas vue en raison d'un niveau de stealth suffisamment bon.
 Pour une unité `TEMP` (particulièrement pertinente lors du recrutement), l'unité "mère" compte, c'est à dire l'unité qui donne l'ordre `MAKE TEMP`.
 
 ## Voir aussi
 
-- [[cmd-give]]
-- [[cmd-reserve]]
-- [[cmd-recruit]]
-- [[reserve-d-objets]]
+- [[cmd-give-fr]]
+- [[cmd-reserve-fr]]
+- [[cmd-recruit-fr]]
+- [La réserve d'objets][reserve-d-objets-id]
 - [stealth]
-- [[cmd-guard]]
+- [[cmd-guard-fr]]
 
-Poursuivre la lecture : [[reserve-d-objets]].
+Poursuivre la lecture : [la réserve d'objets][reserve-d-objets-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Geld/fr&oldid=16925] -->
+
+[cmd-entertain-fr]: [[cmd-entertain-fr]]
+[cmd-help-fr]: [[cmd-help-fr]]
+[cmd-reserve-fr]: [[cmd-reserve-fr]]
+[cmd-tax-fr]: [[cmd-tax-fr]]
+[cmd-work-fr]: [[cmd-work-fr]]

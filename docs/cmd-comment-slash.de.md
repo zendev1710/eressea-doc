@@ -1,6 +1,6 @@
 ---
 # cSpell:locale de
-alias: kommentar-mit-schraegstrichen
+alias: bef-kommentar-mit-schraegstrichen
 ---
 <!-- disable some rules due to autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->
@@ -28,3 +28,5 @@ Das `//` muß wie ein Befehl behandelt werden, man darf also nicht
     Außerdem muß ein Leerzeichen hinter den `//` sein.
 
 <!-- From  [https://wiki.eressea.de/index.php?title=KOMMENTAR&oldid=3993] -->
+
+[bef-kommentar]: [[bef-kommentar]]

@@ -48,7 +48,7 @@ EINHEIT ub2;  Handwerker [3,0$] flieht
 ```
 
 Auch der Spieler selbst kann hinter einem Semikolon Kommentare einfügen.
-Da diese Kommentare aber nicht in die Vorlage der nächsten Woche übernommen werden, sind dauerhafte Kommentare nach [`//`][comment-with-slashes] in der Regel sinnvoller.
+Da diese Kommentare aber nicht in die Vorlage der nächsten Woche übernommen werden, sind dauerhafte Kommentare nach [`//`][bef-kommentar-mit-schraegstrichen] in der Regel sinnvoller.
 
 Um Übertragungskapazität zu sparen, können temporäre Kommentare vor dem Versenden der Befehle entfernt werden.
 Dies erledigen manche Tools wie [[magellan]] oder VPP.
@@ -60,3 +60,5 @@ Dies erledigen manche Tools wie [[magellan]] oder VPP.
 <!-- From [https://wiki.eressea.de/index.php?title=;&oldid=16702] -->
 
 [Vorlage und VPP auf Gulrak.de]: http://www.gulrak.de/eressea/tools.html
+
+[bef-kommentar-mit-schraegstrichen]: [[bef-kommentar-mit-schraegstrichen]]

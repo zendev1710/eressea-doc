@@ -10,50 +10,50 @@ Les ordres d'Eressea sont exécutés dans un ordre fixe.
 Les ordres qui sont dans une même séquence sont exécutés en même temps ou l'ordre d'exécution n'a aucune importance.
 
 1. les nouveaux ordres par défaut sont définis
-2. [[cmd-group]], [`MAKE TEMP`][cmd-make]
-3. [[cmd-name]], [[cmd-describe]], [GUARD NOT][cmd-guard], [[cmd-help]], [[cmd-combat]], [[cmd-combatspell]], [[cmd-hide]], [[cmd-origin]], [[cmd-show]]
-4. [[cmd-banner]], [[cmd-email]], [OPTION][cmd-option], [[cmd-password]]
-5. [[cmd-contact]]
-6. [[cmd-message]]
-7. [[cmd-enter]]; 1er essai
-8. [[cmd-use]]
-9. [[cmd-leave]]
-10. [[cmd-enter]]; 2ème essai
-11. [ATTACK][cmd-attack]
-12. [[cmd-reserve]], [[cmd-claim]]
-13. [[cmd-enter]]; 3ème essai
-14. [`GIVE CONTROL`][cmd-give]
-15. [[cmd-forget]]
-16. [`GIVE CONTROL`][cmd-give]
-17. [[cmd-recruit]][^1]
-18. [[cmd-destroy]]
-19. [[cmd-follow]] est défini
-20. [[cmd-promote]]
-21. [PAY NOT][cmd-pay-not] définit pour la fonctionnalité et les coûts d'entretien du bâtiment concerné.
+2. [[cmd-group-fr]], [`MAKE TEMP`][cmd-make-fr]
+3. [[cmd-name-fr]], [[cmd-describe-fr]], [GUARD NOT][cmd-guard-fr], [[cmd-help-fr]], [[cmd-combat-fr]], [[cmd-combatspell-fr]], [[cmd-hide-fr]], [[cmd-origin-fr]], [[cmd-show-fr]]
+4. [[cmd-banner-fr]], [[cmd-email-fr]], [OPTION][cmd-option-fr], [[cmd-password-fr]]
+5. [[cmd-contact-fr]]
+6. [[cmd-message-fr]]
+7. [[cmd-enter-fr]]; 1er essai
+8. [[cmd-use-fr]]
+9. [[cmd-leave-fr]]
+10. [[cmd-enter-fr]]; 2ème essai
+11. [ATTACK][cmd-attack-fr]
+12. [[cmd-reserve-fr]], [[cmd-claim-fr]]
+13. [[cmd-enter-fr]]; 3ème essai
+14. [`GIVE CONTROL`][cmd-give-fr]
+15. [[cmd-forget-fr]]
+16. [`GIVE CONTROL`][cmd-give-fr]
+17. [[cmd-recruit-fr]][^1]
+18. [[cmd-destroy-fr]]
+19. [[cmd-follow-fr]] est défini
+20. [[cmd-promote-fr]]
+21. [PAY NOT][cmd-pay-not-fr] définit pour la fonctionnalité et les coûts d'entretien du bâtiment concerné.
 22. Les coûts d'entretien des bâtiments soumis à l'obligation d'entretien s'appliquent ; sinon, ils n'ont aucune fonctionnalité !
-23. [[cmd-quit]]
-24. [[cmd-cast]]
-25. [[cmd-teach]]
-26. [[cmd-learn]]
-27. [MAKE TEMP][cmd-make][^1]
-28. [[cmd-research]], [[cmd-plant]], [[cmd-spy]], [[cmd-grow]]
-29. [[cmd-entertain]][^1]
-30. [[cmd-work]][^1]
-31. [[cmd-tax]][^1]
-32. [[cmd-buy]][^1]
-33. [[cmd-sell]][^1]
-34. [[cmd-steal]][^1]
+23. [[cmd-quit-fr]]
+24. [[cmd-cast-fr]]
+25. [[cmd-teach-fr]]
+26. [[cmd-learn-fr]]
+27. [MAKE TEMP][cmd-make-fr][^1]
+28. [[cmd-research-fr]], [[cmd-plant-fr]], [[cmd-spy-fr]], [[cmd-grow-fr]]
+29. [[cmd-entertain-fr]][^1]
+30. [[cmd-work-fr]][^1]
+31. [[cmd-tax-fr]][^1]
+32. [[cmd-buy-fr]][^1]
+33. [[cmd-sell-fr]][^1]
+34. [[cmd-steal-fr]][^1]
 35. Les bateaux dont l'équipage est insuffisant subissent des dommages
-36. [[cmd-enter]]; 4ème essai
-37. [[cmd-move]] et [[cmd-route]], incluant [[cmd-ride]] et [[cmd-carry]] sont exécutés et les unités ayant reçu l'ordre de FOLLOW d'autres unités le font.
-38. [`GUARD NOT`][cmd-guard] cela n'est possible que si l'unité n'a pas bougé.
+36. [[cmd-enter-fr]]; 4ème essai
+37. [[cmd-move-fr]] et [[cmd-route-fr]], incluant [[cmd-ride-fr]] et [[cmd-carry-fr]] sont exécutés et les unités ayant reçu l'ordre de FOLLOW d'autres unités le font.
+38. [`GUARD NOT`][cmd-guard-fr] cela n'est possible que si l'unité n'a pas bougé.
 39. Les bateaux dérivent en haute mer
-40. [[cmd-default]]
+40. [[cmd-default-fr]]
 41. les unités vides sont supprimées
 42. les paysans, les chevaux et les forêts se multiplient, si possible ; des paysans se déplacent vers d'autres régions.
 43. les Silver pour l'entretien des unités est déduit
-44. [[cmd-sort]]
-45. [[cmd-number]]
+44. [[cmd-sort-fr]]
+45. [[cmd-number-fr]]
 
 Les ordres ne doivent toutefois pas nécessairement être saisis dans cet ordre.  
 Il est tout à fait permis d'écrire :
@@ -73,7 +73,7 @@ La nouvelle unité est d'abord créée, ne se bat pas, reçoit 300 Silver, recru
 
 Les ordres de rang égal émanant de différentes unités sont normalement traités dans l'ordre dans lequel ils apparaissent dans le rapport.  
 Ainsi, par exemple, d'abord tous les ordres GIVE de la première unité, puis tous les ordres GIVE de la deuxième unité, ensuite tous les ordres `RECRUIT` de la première unité, puis de la seconde et ainsi de suite.  
-La [[reserve-d-objets]] fonctionne également généralement dans cet ordre : les unités placées en premier dans l'ordre au NR sont d'abord « interrogées » pour savoir si elles peuvent donner un objet.  
+La [réserve d'objets][reserve-d-objets-id] fonctionne également généralement dans cet ordre : les unités placées en premier dans l'ordre au NR sont d'abord « interrogées » pour savoir si elles peuvent donner un objet.  
 Cependant, la prévalence peut être modifiée par certains ordres.  
 Ceux-ci incluent `ENTER, EXIT, TEMP, GIVE COMMAND` et `GIVE SHIP`.  
 Le comportement exact n'est pas garanti ! Par conséquent, en cas de doute, vous devez donner des ordres de telle manière que l'ordre des unités ne joue aucun rôle.
@@ -100,4 +100,9 @@ Poursuivre la lecture : [[tableau-recapitulatif-des-ordres]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehlsreihenfolge/fr&oldid=13985] -->
 
-[cmd-guard]: [[cmd-guard]]
+[cmd-attack-fr]: [[cmd-attack-fr]]
+[cmd-guard-fr]: [[cmd-guard-fr]]
+[cmd-give-fr]: [[cmd-give-fr]]
+[cmd-make-fr]: [[cmd-make-fr]]
+[cmd-option-fr]: [[cmd-option-fr]]
+[cmd-pay-not-fr]: [[cmd-pay-not-fr]]

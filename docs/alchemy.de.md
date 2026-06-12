@@ -3,7 +3,10 @@
 alias: alchemie
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+
+[](){ #alchemie-id }
+
 # Alchemie
 
 In Eressea ist Alchemie die Kunst, natürliche Substanzen (Kräuter) in Tränke zu verwandeln.
@@ -15,7 +18,7 @@ In Eressea ist Alchemie die Kunst, natürliche Substanzen (Kräuter) in Tränke 
 In der Welt von Eressea sind alchemistische Tränke nicht nur einfache Gebräue.  
 Sie sind mächtige Werkzeuge, die das Blatt wenden und das Schicksal eines Volkes stark beeinflussen können, zum Beispiel zur Unterstützung der Produktion, zur Stärkung der Truppen im Kampf oder um ein Volk besser gedeihen zu lassen.  
 
-Tränke werden mit Hilfe von [Kräutern][kraeuter] und anderen Zutaten gebraut und können dann von jeder Einheit benutzt werden. Um einen Trank herstellen zu können, braucht man das Talent [Alchemie][alchemie].  
+Tränke werden mit Hilfe von [Kräutern][krauter] und anderen Zutaten gebraut und können dann von jeder Einheit benutzt werden. Um einen Trank herstellen zu können, braucht man das Talent [Alchemie][alchemie-id].  
 
 Um die benötigten Kräuter finden zu können, braucht man das Talent [Kräuterkunde][krauterkunde].
 
@@ -312,7 +315,7 @@ Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 | [Würziger Wagemut][wurziger-wagemut]   |                                                |                                            |                                                    |                                      | :material-check:                             | :material-check:                   |                                            |                                                |                                            |                                        |                                    |                                      |                                                    |                                    |
 | [Steinbeißer][steinbeier]              |                                                |                                            |                                                    |                                      |                                              |                                    |                                            |                                                | :material-check:                           |                                        |                                    | :material-check:                     |                                                    |                                    |
 
-Weiterlesen: [[kraeuter]].
+Weiterlesen: [Kräuter][krauter-id].
 
 [^1]: Wirkt auf die Einheit, aber alle Dämonen der Partei in der Region bedienen sich davon, wenn etwas übrig ist.  
     Es reicht also, eine Einheit (pro Region) damit zu bestücken, solange sie genug Bauernblut für alle Dämonen trinkt.
@@ -321,3 +324,5 @@ Weiterlesen: [[kraeuter]].
     Im Falle dass die Anwendung schief geht, bleibt das [Dumpfbackenbrot][dumpfbackenbrot] beim Anwender und er bekommt eine Fehlermeldung.
 
 <!-- From [https://kwiki.eressea.de/index.php?title=Tränke&oldid=16967] -->
+
+[bef-mache]: [[bef-mache]]

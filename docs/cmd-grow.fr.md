@@ -18,7 +18,7 @@ Avec `GROW HORSES` une unité peut élever un cheval par personne et par niveau 
 
 Pour pouvoir élever des chevaux, il faut qu'il y ait au moins 2 chevaux dans le [haras][haras]{title="Stable"}.  
 En outre, il doit y avoir un cheval par "opportunité d'élevage" (c'est-à-dire 15 chevaux dans l'exemple ci-dessus).  
-L'unité doit avoir elle-même les chevaux, la [[reserve-d-objets]] n'est pas utilisée ici.  
+L'unité doit avoir elle-même les chevaux, la [réserve d'objets][reserve-d-objets-id] n'est pas utilisée ici.  
 
 Pour pouvoir utiliser l'ordre `GROW HERBS`, **il faut être T6** en [herboristerie][herboristerie]{title="Herbalism"}.
 
@@ -28,6 +28,6 @@ Il n'est pas possible de changer le type de plante d'une région, l'unité ne pe
 
 ## Voir aussi
 
-- [[cmd-plant]] (pour les plantes, les arbres ou les graines)
+- [[cmd-plant-fr]] (pour les plantes, les arbres ou les graines)
 
 <!-- From [https://wiki.eressea.de/index.php?title=GROW/fr&oldid=14489] -->

@@ -7,9 +7,9 @@ alias: chateaux
 # Châteaux
 
 Les châteaux augmentent les revenus des paysans, permettent d'échanger des produits de luxe et offrent à leurs occupants une protection en cas d'attaque.  
-Ils réduisent également la probabilité de [[peste]].  
+Ils réduisent également la probabilité de [peste][peste].  
 
-Les châteaux sont construits en pierre à l'aide de l'ordre [`MAKE CASTLE`][cmd-make] par des unités maîtrisant la [maçonnerie][maconnerie]{title="Masonry"}.  
+Les châteaux sont construits en pierre à l'aide de l'ordre [`MAKE CASTLE`][cmd-make-fr] par des unités maîtrisant la [maçonnerie][maconnerie]{title="Masonry"}.  
 Un château entre dans une nouvelle catégorie selon sa taille :
 
 *Taille d'un château selon son type.*
@@ -37,7 +37,12 @@ Au nord du temple, la ville de Xontormia s'étend le long du Whyren, enjambée u
 ```
 
 Les unités dans un château sont protégées, à savoir qu'une personne est protégée par unité de taille du château.  
-Seules les personnes protégées bénéficient du bonus qu'un château donne à ses occupants en cas de raid (pour plus d'informations, voir le chapitre [[guerre]], en particulier la liste des [bonus et malus][bonus-et-malus]).  
+Seules les personnes protégées bénéficient du bonus qu'un château donne à ses occupants en cas de raid.  
+Plus d'informations :
+
+- [la guerre][guerre]
+- [bonus et malus][bonus-et-malus]
+
 Chaque unité de taille du château nécessite une pierre.  
 
 Un plus grand château améliore le revenu de la population : tous les ouvriers et paysans bénéficient d'un bonus lorsqu'ils travaillent, qui dépend de la taille du plus grand château dans une région (voir aussi [tableau du bas][apercu]), de plus le propriétaire du plus grand château reçoit une part du produit des ventes des autres joueurs.  
@@ -117,11 +122,13 @@ Construction de châteaux : type, niveau minimum de compétence en maçonnerie, 
 
 ## Voir aussi
 
-- [[batiments-speciaux]]
+- [Bâtiments spéciaux][batiments-speciaux]
 - [Bâtiments][batiments-id]
 - [bonus et malus][bonus-et-malus]
 - [revenus][revenus]
 
-Poursuivre la lecture : [[batiments-speciaux]].
+Poursuivre la lecture : [bâtiments spéciaux][batiments-speciaux].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Burg/fr&oldid=14498] -->
+
+[cmd-make-fr]: [[cmd-make-fr]]

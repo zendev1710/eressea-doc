@@ -93,11 +93,11 @@ It does not mean that units leaving a ship can still attack in the same turn, as
 ## See also
 
 - [orders][orders]
-- [short description][orders-list]
+- [short description][list-of-orders]
 <!-- TODO: check -->
 <!-- - [short description DE/EN]-->
 
-Continue reading: [Short Description][orders-list].
+Continue reading: [Short Description][list-of-orders].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehlsreihenfolge/en&oldid=13988] -->
 

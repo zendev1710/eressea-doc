@@ -23,7 +23,7 @@ Plus d'information : [[ordres]].
 | [CARRY &lt;unit id&gt;]                                                    | Emportez d'autres unités avec vous                   | C      |
 | [CAST &#91;REGION x y&#93; &#91;LEVEL n&#93; "&lt;spell&gt;"...]           | Magie                                                | PL[^4] |
 | [CLAIM &lt;number&gt; &lt;item&gt;]                                        | Récupère les objets du pool de faction               | C      |
-| [[cmd-combat]]                                                             | Définit le comportement au combat                    | C      |
+| [[cmd-combat-fr]]                                                          | Définit le comportement au combat                    | C      |
 | [COMBAT AGGRESSIVE]                                                        |                                                      | C      |
 | [COMBAT DEFENSIVE]                                                         |                                                      | C      |
 | [COMBAT FLEE]                                                              |                                                      | C      |
@@ -41,7 +41,7 @@ Plus d'information : [[ordres]].
 | [DESTROY &#91;level&#93;]                                                  | Réduire la taille d'un bâtiment ou d'un bateau       | L      |
 | [DESTROY &#91;level&#93; STREET direction]                                 | Démolir la route                                     | L      |
 | [EMAIL email@adresse]                                                      | Définit l'adresse e-mail                             | C      |
-| [[cmd-end]]                                                                | Termine l'ordre `MAKE TEMP`                          | C      |
+| [[cmd-end-fr]]                                                             | Termine l'ordre `MAKE TEMP`                          | C      |
 | [ENTER BUILDING &lt;building id&gt;]                                       | Entre dans un bâtiment                               | C      |
 | [ENTER SHIP &lt;ship id&gt;]                                               | Entre dans un bateau                                 | C      |
 | [ENTERTAIN &#91;amount&#93;]                                               | Gagne 20 silver ou plus                              | L      |
@@ -71,13 +71,13 @@ Plus d'information : [[ordres]].
 | [HIDE &#91;level&#93;]                                                     | Définir le niveau de camouflage                      | C      |
 | [HIDE FACTION &#91;NOT&#93;]                                               | Déguise la faction en anonyme                        | C      |
 | [HIDE FACTION NUMBER &lt;faction id&gt;]                                   | Déguise une faction en une autre faction             | C      |
-| [HIDE race]                                                                | Démons : déguisés en une autre race                  | C      |
+| [HIDE &lt;peuple&gt;]                                                      | Démons : déguisés en un autre peuple                 | C      |
 | [LANGUAGE en/de]                                                           | change la langue de la faction                       | C      |
 | [LEARN &lt;skill&gt;]                                                      | Apprend une compétence                               | L      |
 | [LEARN AUTO &lt;skill&gt;]                                                 | Apprentissage ou enseignement d'une compétence       | L      |
-| [[cmd-leave]]                                                              | Schiff oder Gebäude verlassen                        | C      |
+| [[cmd-leave-fr]]                                                           | Schiff oder Gebäude verlassen                        | C      |
 | [LOCALE en/de]                                                             | Affiche la langue des ordres                         | C      |
-| [[cmd-make]]                                                               | Fabrique un objet ou exploite une ressource          | L      |
+| [[cmd-make-fr]]                                                            | Fabrique un objet ou exploite une ressource          | L      |
 | [MAKE &#91;&lt;amount&gt;&#93; &lt;item&gt;]                               |                                                      | L      |
 | [MAKE &#91;&lt;amount&gt;&#93; &lt;HERBS&gt;]                              | Récolte la plante locale                             | L      |
 | [MAKE &#91;&lt;amount&gt;&#93; potion]                                     | Produit une potion alchimique                        | L      |
@@ -101,7 +101,7 @@ Plus d'information : [[ordres]].
 | [NAME REGION "&lt;name&gt;"]                                               |                                                      | C      |
 | [NAME SHIP "&lt;name&gt;"]                                                 |                                                      | C      |
 | [NAME UNIT "&lt;name&gt;"]                                                 | Nomme des objets                                     | C      |
-| [[cmd-next]]                                                               | Termine les ordres                                   | C      |
+| [[cmd-next-fr]]                                                            | Termine les ordres                                   | C      |
 | [NUMBER BUILDING &#91;neue-nr&#93;]                                        |                                                      | C      |
 | [NUMBER FACTION &#91;neue-nr&#93;]                                         |                                                      | C      |
 | [NUMBER SHIP &#91;neue-nr&#93;]                                            |                                                      | C      |
@@ -125,8 +125,8 @@ Plus d'information : [[ordres]].
 | [PLANT &#91;&lt;number&gt;&#93; herb]                                      | Plante des herbes                                    | L      |
 | [PLANT &#91;&lt;number&gt;&#93; MALLORNSEEDS]                              | Plante des graines                                   | L      |
 | [PLANT &#91;&lt;number&gt;&#93; SEEDS]                                     | Plante des graines                                   | L      |
-| [PREFIX &#91;prefix&#93;]                                                  | Donne un préfixe au nom de la race                   | C      |
-| [[cmd-promote]]                                                            | Transforme l'unité en héros                          | C      |
+| [PREFIX &#91;prefix&#93;]                                                  | Donne un préfixe au nom du peuple                    | C      |
+| [[cmd-promote-fr]]                                                         | Transforme l'unité en héros                          | C      |
 | [QUIT "&lt;password&gt;" &#91;FACTION &lt;faction id&gt;&#93;]             | Quitte le jeu                                        | C      |
 | [RECRUIT &lt;number&gt;][recruter]                                         | Recrute plus de personnes                            | C      |
 | [REGION x,y]                                                               | Aucune fonction (uniquement pour les outils)         | C      |
@@ -138,8 +138,8 @@ Plus d'information : [[ordres]].
 | [SELL ALL &lt;luxury item&gt;]                                             |                                                      |        |
 | [SELL &lt;amount&gt; &lt;luxury item&gt;]                                  | Vend des produits de luxe                            | PL[^3] |
 | [SHOW "&lt;potion&gt;"]                                                    | Affiche la description d'un objet                    | C      |
-| [SHOW "&lt;race&gt;"]                                                      | Affiche la description d'une potion                  | C      |
-| [SHOW "&lt;spell&gt;"]                                                     | Affiche la description de la race de l'unité         | C      |
+| [SHOW "&lt;peuple&gt;"]                                                    | Affiche la description d'une potion                  | C      |
+| [SHOW "&lt;spell&gt;"]                                                     | Affiche la description du peuple de l'unité          | C      |
 | [SHOW "&lt;item&gt;"]                                                      | Affiche la description d'un sort                     | C      |
 | [SHOW ALL POTIONS]                                                         | Affiche la description de toutes les potions connues | C      |
 | [SHOW ALL SPELLS]                                                          | Affiche la description de tous les sorts connus      | C      |
@@ -151,7 +151,7 @@ Plus d'information : [[ordres]].
 | [TEACH &lt;unit id&gt; &#91;&lt;unit id&gt;&#93;...]                       | Enseigne à des unités                                | L      |
 | [UNIT &lt;unit id&gt;]                                                     | Commence les ordres d'une unité                      | C      |
 | [USE  &#91;&lt;number&gt;&#93; potion]                                     | Utilise une potion alchimique                        | C      |
-| [[cmd-work]]                                                               | Gagne 10 silver ou plus                              | L      |
+| [[cmd-work-fr]]                                                            | Gagne 10 silver ou plus                              | L      |
 
 [^1]: l'ordre n'est pas toujours long, voir [Fin de la bataille][fin-du-combat]
 [^2]: si l'unité suivie ne bouge pas, un autre ordre long peut être exécuté à la place
@@ -165,136 +165,132 @@ Plus d'information : [[ordres]].
 
 Poursuivre la lecture : [[premier-tour]].
 
-<!-- [THIS IS GIVE][give-link]
-[give-link]: [[cmd-give]] -->
-
 <!-- From [https://wiki.eressea.de/index.php?title=Kurzbeschreibung&oldid=16741] -->
 
 [//]: [[cmd-comment-fr]]
-
-[ATTACK &lt;unit id&gt;]: [[cmd-attack]]
-[BANNER "&lt;text&gt;"]: [[cmd-banner]]
-[BUY &lt;number&gt; &lt;luxury item&gt;]: [[cmd-buy]]
-[CARRY &lt;unit id&gt;]: [[cmd-carry]]
-[CAST &#91;REGION x y&#93; &#91;LEVEL n&#93; "&lt;spell&gt;"...]: [[cmd-cast]]
-[CLAIM &lt;number&gt; &lt;item&gt;]: [[cmd-claim]]
-[COMBAT AGGRESSIVE]: [[cmd-combat]]
-[COMBAT DEFENSIVE]: [[cmd-combat]]
-[COMBAT FLEE]: [[cmd-combat]]
-[COMBAT HELP &#91;NOT&#93;]: [[cmd-combat]]
-[COMBAT NOT]: [[cmd-combat]]
-[COMBAT REAR]: [[cmd-combat]]
-[COMBATSPELL &#91;LEVEL n&#93; "zauberspruch" &#91;NOT&#93;]: [[cmd-combatspell]]
-[CONTACT &lt;unit id&gt;]: [[cmd-contact]]
-[DEFAULT "Orders"]: [[cmd-default]]
-[DESCRIBE BUILDING "&lt;text&gt;"]: [[cmd-describe]]
-[DESCRIBE PRIVATE "&lt;text&gt;"]: [[cmd-describe]]
-[DESCRIBE REGION "&lt;text&gt;"]: [[cmd-describe]]
-[DESCRIBE SHIP "&lt;text&gt;"]: [[cmd-describe]]
-[DESCRIBE UNIT "&lt;text&gt;"]: [[cmd-describe]]
-[DESTROY &#91;level&#93;]: [[cmd-destroy]]
-[DESTROY &#91;level&#93; STREET direction]: [[cmd-destroy]]
-[EMAIL email@adresse]: [[cmd-email]]
-[ENTER BUILDING &lt;building id&gt;]: [[cmd-enter]]
-[ENTER SHIP &lt;ship id&gt;]: [[cmd-enter]]
-[ENTERTAIN &#91;amount&#93;]: [[cmd-entertain]]
-[ERESSEA &lt;faction id&gt; "password"]: [[cmd-eressea]]
-[FOLLOW SHIP &lt;ship id&gt;]: [[cmd-follow]]
-[FOLLOW UNIT &lt;unit id&gt;]: [[cmd-follow]]
-[FORGET &lt;skill&gt;]: [[cmd-forget]]
-[GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; &lt;item&gt;]: [[cmd-give]]
-[GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; MEN]: [[cmd-give]]
-[GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; SHIP]: [[cmd-give]]
-[GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; SILVER]: [[cmd-give]]
-[GIVE &lt;unit id&gt; COMMAND]: [[cmd-give]]
-[GIVE &lt;unit id&gt; UNIT]: [[cmd-give]]
-[GIVE &lt;unit id&gt; herb]: [[cmd-give]]
-[GIVE 0 &lt;number&gt; &lt;item&gt;]: [[cmd-give]]
-[GIVE 0 &lt;number&gt; MEN]: [[cmd-give]]
-[GIVE 0 &lt;number&gt; SILVER]: [[cmd-give]]
-[GROUP &#91;"&lt;name&gt;"&#93;]: [[cmd-group]]
-[GROW HORSES]: [[cmd-grow]]
-[GUARD &#91;NOT&#93;]: [[cmd-guard]]
-[HELP &lt;faction id&gt; ALL &#91;NOT&#93;]: [[cmd-help]]
-[HELP &lt;faction id&gt; COMBAT &#91;NOT&#93;]: [[cmd-help]]
-[HELP &lt;faction id&gt; GIVE &#91;NOT&#93;]: [[cmd-help]]
-[HELP &lt;faction id&gt; GUARD &#91;NOT&#93;]: [[cmd-help]]
-[HELP &lt;faction id&gt; PARTEITARNUNG &#91;NOT&#93;]: [[cmd-help]]
-[HELP &lt;faction id&gt; SILVER &#91;NOT&#93;]: [[cmd-help]]
-[HIDE &#91;level&#93;]: [[cmd-hide]]
-[HIDE FACTION &#91;NOT&#93;]: [[cmd-hide]]
-[HIDE FACTION NUMBER &lt;faction id&gt;]: [[cmd-hide]]
-[HIDE race]: [[cmd-hide]]
-[LANGUAGE en/de]: [[cmd-language]]
-[LEARN &lt;skill&gt;]: [[cmd-learn]]
-[LEARN AUTO &lt;skill&gt;]: [[cmd-learn-auto]]
-[LOCALE en/de]: [[cmd-locale]]
-[MAKE &#91;&lt;amount&gt;&#93; &lt;HERBS&gt;]: [[cmd-make]]
-[MAKE &#91;&lt;amount&gt;&#93; &lt;item&gt;]: [[cmd-make]]
-[MAKE &#91;&lt;amount&gt;&#93; Potion]: [[cmd-make]]
-[MAKE &#91;level&#93; &lt;building type&gt; &#91;&lt;building id&gt;&#93;]: [[cmd-make]]
-[MAKE &#91;level&#93; &lt;ship-type&gt;]: [[cmd-make]]
-[MAKE &#91;level&#93; SHIP &#91;&lt;ship id&gt;&#93;]: [[cmd-make]]
-[MAKE &#91;level&#93; STREET direction]: [[cmd-make]]
-[MAKE TEMP unit-alias-id &#91;"&lt;name&gt;"&#93;]: [[cmd-make]]
-[MESSAGE BUILDING &lt;building id&gt; "&lt;text&gt;"]: [[cmd-message]]
-[MESSAGE FACTION &lt;faction id&gt; "&lt;text&gt;"]: [[cmd-message]]
-[MESSAGE REGION "&lt;text&gt;"]: [[cmd-message]]
-[MESSAGE SHIP &lt;ship id&gt; "&lt;text&gt;"]: [[cmd-message]]
-[MESSAGE UNIT &lt;unit id&gt; "&lt;text&gt;"]: [[cmd-message]]
-[MOVE direction &#91;direction&#93;...]: [[cmd-move]]
-[NAME BUILDING "&lt;name&gt;"]: [[cmd-name]]
-[NAME FACTION "&lt;name&gt;"]: [[cmd-name]]
-[NAME REGION "&lt;name&gt;"]: [[cmd-name]]
-[NAME SHIP "&lt;name&gt;"]: [[cmd-name]]
-[NAME FOREIGN BUILDING building "&lt;name&gt;"]: [[cmd-name]]
-[NAME FOREIGN SHIP &lt;ship id&gt; "&lt;name&gt;"]: [[cmd-name]]
-[NAME FOREIGN FACTION &lt;faction id&gt; "&lt;name&gt;"]: [[cmd-name]]
-[NAME FOREIGN UNIT &lt;unit id&gt; "&lt;name&gt;"]: [[cmd-name]]
-[NAME UNIT "&lt;name&gt;"]: [[cmd-name]]
-[NUMBER BUILDING &#91;neue-nr&#93;]: [[cmd-number]]
-[NUMBER FACTION &#91;neue-nr&#93;]: [[cmd-number]]
-[NUMBER SHIP &#91;neue-nr&#93;]: [[cmd-number]]
-[NUMBER UNIT &#91;neue-nr&#93;]: [[cmd-number]]
-[OPTION ADRESSEN &#91;NOT&#93;]: [[cmd-option]]
-[OPTION AUSWERTUNG &#91;NOT&#93;]: [[cmd-option]]
-[OPTION BZIP2 &#91;NOT&#93;]: [[cmd-option]]
-[OPTION COMPUTER &#91;NOT&#93;]: [[cmd-option]]
-[OPTION MATERIALPOOL &#91;NOT&#93;]: [[cmd-option]]
-[OPTION PUNKTE &#91;NOT&#93;]: [[cmd-option]]
-[OPTION SILBERPOOL &#91;NOT&#93;]: [[cmd-option]]
-[OPTION STATISTIK &#91;NOT&#93;]: [[cmd-option]]
-[OPTION TALENTVERSCHIEBUNG &#91;NOT&#93;]: [[cmd-option]]
-[OPTION ZIPPED &#91;NOT&#93;]: [[cmd-option]]
-[OPTION ZUGVORLAGE &#91;NOT&#93;]: [[cmd-option]]
-[ORIGIN x y]: [[cmd-origin]]
-[PASSWORD "neues-password"]: [[cmd-password]]
-[PAY NOT &#91;&lt;building id&gt;&#93;]: [[cmd-pay-not]]
-[PIRACY &#91;faction 1&#93; &#91;faction 2&#93;...]: [[cmd-piracy]]
-[PLANT &#91;&lt;number&gt;&#93; MALLORNSEEDS]: [[cmd-plant]]
-[PLANT &#91;&lt;number&gt;&#93; SEEDS]: [[cmd-plant]]
-[PLANT &#91;&lt;number&gt;&#93; TREES]: [[cmd-plant]]
-[PLANT &#91;&lt;number&gt;&#93; herb]: [[cmd-plant]]
-[PREFIX &#91;prefix&#93;]: [[cmd-prefix]]
-[QUIT "&lt;password&gt;" &#91;FACTION &lt;faction id&gt;&#93;]: [[cmd-quit]]
-[REGION x,y]: [[cmd-region]]
-[RESEARCH HERBS]: [[cmd-research]]
-[RESERVE &lt;number&gt; "&lt;item&gt;"]: [[cmd-reserve]]
-[RESERVE &lt;number&gt; SILVER]: [[cmd-reserve]]
-[RIDE &lt;unit id&gt;]: [[cmd-ride]]
-[ROUTE direction &#91;direction&#93;...]: [[cmd-route]]
-[SELL &lt;amount&gt; &lt;luxury item&gt;]: [[cmd-sell]]
-[SELL ALL &lt;luxury item&gt;]: [[cmd-sell]]
-[SHOW "&lt;item&gt;"]: [[cmd-show]]
-[SHOW "&lt;potion&gt;"]: [[cmd-show]]
-[SHOW "&lt;race&gt;"]: [[cmd-show]]
-[SHOW "&lt;spell&gt;"]: [[cmd-show]]
-[SHOW ALL POTIONS]: [[cmd-show]]
-[SHOW ALL SPELLS]: [[cmd-show]]
-[SORT AFTER &lt;unit id&gt;]: [[cmd-sort]]
-[SORT BEFORE &lt;unit id&gt;]: [[cmd-sort]]
-[SPY &lt;unit id&gt;]: [[cmd-spy]]
-[TAX &#91;amount&#93;]: [[cmd-tax]]
-[TEACH &lt;unit id&gt; &#91;&lt;unit id&gt;&#93;...]: [[cmd-teach]]
-[UNIT &lt;unit id&gt;]: [[cmd-unit]]
-[USE &#91;&lt;number&gt;&#93; potion]: [[cmd-use]]
+[ATTACK &lt;unit id&gt;]: [[cmd-attack-fr]]
+[BANNER "&lt;text&gt;"]: [[cmd-banner-fr]]
+[BUY &lt;number&gt; &lt;luxury item&gt;]: [[cmd-buy-fr]]
+[CARRY &lt;unit id&gt;]: [[cmd-carry-fr]]
+[CAST &#91;REGION x y&#93; &#91;LEVEL n&#93; "&lt;spell&gt;"...]: [[cmd-cast-fr]]
+[CLAIM &lt;number&gt; &lt;item&gt;]: [[cmd-claim-fr]]
+[COMBAT AGGRESSIVE]: [[cmd-combat-fr]]
+[COMBAT DEFENSIVE]: [[cmd-combat-fr]]
+[COMBAT FLEE]: [[cmd-combat-fr]]
+[COMBAT HELP &#91;NOT&#93;]: [[cmd-combat-fr]]
+[COMBAT NOT]: [[cmd-combat-fr]]
+[COMBAT REAR]: [[cmd-combat-fr]]
+[COMBATSPELL &#91;LEVEL n&#93; "zauberspruch" &#91;NOT&#93;]: [[cmd-combatspell-fr]]
+[CONTACT &lt;unit id&gt;]: [[cmd-contact-fr]]
+[DEFAULT "Orders"]: [[cmd-default-fr]]
+[DESCRIBE BUILDING "&lt;text&gt;"]: [[cmd-describe-fr]]
+[DESCRIBE PRIVATE "&lt;text&gt;"]: [[cmd-describe-fr]]
+[DESCRIBE REGION "&lt;text&gt;"]: [[cmd-describe-fr]]
+[DESCRIBE SHIP "&lt;text&gt;"]: [[cmd-describe-fr]]
+[DESCRIBE UNIT "&lt;text&gt;"]: [[cmd-describe-fr]]
+[DESTROY &#91;level&#93;]: [[cmd-destroy-fr]]
+[DESTROY &#91;level&#93; STREET direction]: [[cmd-destroy-fr]]
+[EMAIL email@adresse]: [[cmd-email-fr]]
+[ENTER BUILDING &lt;building id&gt;]: [[cmd-enter-fr]]
+[ENTER SHIP &lt;ship id&gt;]: [[cmd-enter-fr]]
+[ENTERTAIN &#91;amount&#93;]: [[cmd-entertain-fr]]
+[ERESSEA &lt;faction id&gt; "password"]: [[cmd-eressea-fr]]
+[FOLLOW SHIP &lt;ship id&gt;]: [[cmd-follow-fr]]
+[FOLLOW UNIT &lt;unit id&gt;]: [[cmd-follow-fr]]
+[FORGET &lt;skill&gt;]: [[cmd-forget-fr]]
+[GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; &lt;item&gt;]: [[cmd-give-fr]]
+[GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; MEN]: [[cmd-give-fr]]
+[GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; SHIP]: [[cmd-give-fr]]
+[GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; SILVER]: [[cmd-give-fr]]
+[GIVE &lt;unit id&gt; COMMAND]: [[cmd-give-fr]]
+[GIVE &lt;unit id&gt; UNIT]: [[cmd-give-fr]]
+[GIVE &lt;unit id&gt; herb]: [[cmd-give-fr]]
+[GIVE 0 &lt;number&gt; &lt;item&gt;]: [[cmd-give-fr]]
+[GIVE 0 &lt;number&gt; MEN]: [[cmd-give-fr]]
+[GIVE 0 &lt;number&gt; SILVER]: [[cmd-give-fr]]
+[GROUP &#91;"&lt;name&gt;"&#93;]: [[cmd-group-fr]]
+[GROW HORSES]: [[cmd-grow-fr]]
+[GUARD &#91;NOT&#93;]: [[cmd-guard-fr]]
+[HELP &lt;faction id&gt; ALL &#91;NOT&#93;]: [[cmd-help-fr]]
+[HELP &lt;faction id&gt; COMBAT &#91;NOT&#93;]: [[cmd-help-fr]]
+[HELP &lt;faction id&gt; GIVE &#91;NOT&#93;]: [[cmd-help-fr]]
+[HELP &lt;faction id&gt; GUARD &#91;NOT&#93;]: [[cmd-help-fr]]
+[HELP &lt;faction id&gt; PARTEITARNUNG &#91;NOT&#93;]: [[cmd-help-fr]]
+[HELP &lt;faction id&gt; SILVER &#91;NOT&#93;]: [[cmd-help-fr]]
+[HIDE &#91;level&#93;]: [[cmd-hide-fr]]
+[HIDE FACTION &#91;NOT&#93;]: [[cmd-hide-fr]]
+[HIDE FACTION NUMBER &lt;faction id&gt;]: [[cmd-hide-fr]]
+[HIDE &lt;peuple&gt;]: [[cmd-hide-fr]]
+[LANGUAGE en/de]: [[cmd-language-fr]]
+[LEARN &lt;skill&gt;]: [[cmd-learn-fr]]
+[LEARN AUTO &lt;skill&gt;]: [[cmd-learn-auto-fr]]
+[LOCALE en/de]: [[cmd-locale-fr]]
+[MAKE &#91;&lt;amount&gt;&#93; &lt;HERBS&gt;]: [[cmd-make-fr]]
+[MAKE &#91;&lt;amount&gt;&#93; &lt;item&gt;]: [[cmd-make-fr]]
+[MAKE &#91;&lt;amount&gt;&#93; Potion]: [[cmd-make-fr]]
+[MAKE &#91;level&#93; &lt;building type&gt; &#91;&lt;building id&gt;&#93;]: [[cmd-make-fr]]
+[MAKE &#91;level&#93; &lt;ship-type&gt;]: [[cmd-make-fr]]
+[MAKE &#91;level&#93; SHIP &#91;&lt;ship id&gt;&#93;]: [[cmd-make-fr]]
+[MAKE &#91;level&#93; STREET direction]: [[cmd-make-fr]]
+[MAKE TEMP unit-alias-id &#91;"&lt;name&gt;"&#93;]: [[cmd-make-fr]]
+[MESSAGE BUILDING &lt;building id&gt; "&lt;text&gt;"]: [[cmd-message-fr]]
+[MESSAGE FACTION &lt;faction id&gt; "&lt;text&gt;"]: [[cmd-message-fr]]
+[MESSAGE REGION "&lt;text&gt;"]: [[cmd-message-fr]]
+[MESSAGE SHIP &lt;ship id&gt; "&lt;text&gt;"]: [[cmd-message-fr]]
+[MESSAGE UNIT &lt;unit id&gt; "&lt;text&gt;"]: [[cmd-message-fr]]
+[MOVE direction &#91;direction&#93;...]: [[cmd-move-fr]]
+[NAME BUILDING "&lt;name&gt;"]: [[cmd-name-fr]]
+[NAME FACTION "&lt;name&gt;"]: [[cmd-name-fr]]
+[NAME REGION "&lt;name&gt;"]: [[cmd-name-fr]]
+[NAME SHIP "&lt;name&gt;"]: [[cmd-name-fr]]
+[NAME FOREIGN BUILDING building "&lt;name&gt;"]: [[cmd-name-fr]]
+[NAME FOREIGN SHIP &lt;ship id&gt; "&lt;name&gt;"]: [[cmd-name-fr]]
+[NAME FOREIGN FACTION &lt;faction id&gt; "&lt;name&gt;"]: [[cmd-name-fr]]
+[NAME FOREIGN UNIT &lt;unit id&gt; "&lt;name&gt;"]: [[cmd-name-fr]]
+[NAME UNIT "&lt;name&gt;"]: [[cmd-name-fr]]
+[NUMBER BUILDING &#91;neue-nr&#93;]: [[cmd-number-fr]]
+[NUMBER FACTION &#91;neue-nr&#93;]: [[cmd-number-fr]]
+[NUMBER SHIP &#91;neue-nr&#93;]: [[cmd-number-fr]]
+[NUMBER UNIT &#91;neue-nr&#93;]: [[cmd-number-fr]]
+[OPTION ADRESSEN &#91;NOT&#93;]: [[cmd-option-fr]]
+[OPTION AUSWERTUNG &#91;NOT&#93;]: [[cmd-option-fr]]
+[OPTION BZIP2 &#91;NOT&#93;]: [[cmd-option-fr]]
+[OPTION COMPUTER &#91;NOT&#93;]: [[cmd-option-fr]]
+[OPTION MATERIALPOOL &#91;NOT&#93;]: [[cmd-option-fr]]
+[OPTION PUNKTE &#91;NOT&#93;]: [[cmd-option-fr]]
+[OPTION SILBERPOOL &#91;NOT&#93;]: [[cmd-option-fr]]
+[OPTION STATISTIK &#91;NOT&#93;]: [[cmd-option-fr]]
+[OPTION TALENTVERSCHIEBUNG &#91;NOT&#93;]: [[cmd-option-fr]]
+[OPTION ZIPPED &#91;NOT&#93;]: [[cmd-option-fr]]
+[OPTION ZUGVORLAGE &#91;NOT&#93;]: [[cmd-option-fr]]
+[ORIGIN x y]: [[cmd-origin-fr]]
+[PASSWORD "neues-password"]: [[cmd-password-fr]]
+[PAY NOT &#91;&lt;building id&gt;&#93;]: [[cmd-pay-not-fr]]
+[PIRACY &#91;faction 1&#93; &#91;faction 2&#93;...]: [[cmd-piracy-fr]]
+[PLANT &#91;&lt;number&gt;&#93; MALLORNSEEDS]: [[cmd-plant-fr]]
+[PLANT &#91;&lt;number&gt;&#93; SEEDS]: [[cmd-plant-fr]]
+[PLANT &#91;&lt;number&gt;&#93; TREES]: [[cmd-plant-fr]]
+[PLANT &#91;&lt;number&gt;&#93; herb]: [[cmd-plant-fr]]
+[PREFIX &#91;prefix&#93;]: [[cmd-prefix-fr]]
+[QUIT "&lt;password&gt;" &#91;FACTION &lt;faction id&gt;&#93;]: [[cmd-quit-fr]]
+[REGION x,y]: [[cmd-region-fr]]
+[RESEARCH HERBS]: [[cmd-research-fr]]
+[RESERVE &lt;number&gt; "&lt;item&gt;"]: [[cmd-reserve-fr]]
+[RESERVE &lt;number&gt; SILVER]: [[cmd-reserve-fr]]
+[RIDE &lt;unit id&gt;]: [[cmd-ride-fr]]
+[ROUTE direction &#91;direction&#93;...]: [[cmd-route-fr]]
+[SELL &lt;amount&gt; &lt;luxury item&gt;]: [[cmd-sell-fr]]
+[SELL ALL &lt;luxury item&gt;]: [[cmd-sell-fr]]
+[SHOW "&lt;item&gt;"]: [[cmd-show-fr]]
+[SHOW "&lt;potion&gt;"]: [[cmd-show-fr]]
+[SHOW "&lt;peuple&gt;"]: [[cmd-show-fr]]
+[SHOW "&lt;spell&gt;"]: [[cmd-show-fr]]
+[SHOW ALL POTIONS]: [[cmd-show-fr]]
+[SHOW ALL SPELLS]: [[cmd-show-fr]]
+[SORT AFTER &lt;unit id&gt;]: [[cmd-sort-fr]]
+[SORT BEFORE &lt;unit id&gt;]: [[cmd-sort-fr]]
+[SPY &lt;unit id&gt;]: [[cmd-spy-fr]]
+[TAX &#91;amount&#93;]: [[cmd-tax-fr]]
+[TEACH &lt;unit id&gt; &#91;&lt;unit id&gt;&#93;...]: [[cmd-teach-fr]]
+[UNIT &lt;unit id&gt;]: [[cmd-unit-fr]]
+[USE &#91;&lt;number&gt;&#93; potion]: [[cmd-use-fr]]

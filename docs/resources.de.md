@@ -111,6 +111,8 @@ Weiterlesen: [Waren][waren].
 [Adamantium auf Wikipedia]: http://de.wikipedia.org/wiki/Adamantium
 
 [kontaktiert]: ./cmd-contact.md
-[bef-mache]: ./cmd-make.md
 [bef-pflanze]: ./cmd-plant.md
 [`ZÜCHTE PFERDE`]: ./cmd-grow.md
+
+[bef-helfe]: [[bef-helfe]]
+[bef-mache]: [[bef-mache]]

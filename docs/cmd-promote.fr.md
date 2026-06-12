@@ -11,7 +11,7 @@ alias: cmd-promote-fr
 
 **`PROMOTE`**  
 
-Promeut une unité de votre propre race de faction au statut de **Héros**.  
+Promeut une unité de votre propre peuple de faction au statut de **Héros**.  
 
 Les héros sont particulièrement forts en [combat][guerre].  
 **Ils attaquent 5 fois à chaque round de combat**.  
@@ -27,7 +27,7 @@ Comme d'habitude, l'argent manquant sera retiré de la [réserve d'argent][reser
 Le nombre maximum de héros est limité, mais augmente avec la taille de la faction.  
 La formule pour cela est : log10((taille de la faction-500)÷50)×20.  
 
-Seules les personnes de votre propre race peuvent être promues (donc ni les monstres ni les migrants).  
+Seules les personnes de votre propre peuple peuvent être promues (donc ni les monstres ni les migrants).  
 Le transport s'effectue selon `RECRUIT`.  
 Le nombre de personnes après recrutement dans la semaine en cours est utilisé à la fois pour déterminer le nombre de héros possibles et les coûts de promotions.  
 

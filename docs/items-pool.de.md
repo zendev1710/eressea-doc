@@ -198,3 +198,5 @@ Weiterlesen: [Krieg][krieg].
 [bef-reserviere]: ./cmd-reserve.md
 [bef-benutze]: ./cmd-use.md
 [bef-zaubere]: ./cmd-cast.md
+
+[bef-gib]: [[bef-gib]]

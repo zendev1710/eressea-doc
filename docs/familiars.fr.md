@@ -3,7 +3,7 @@
 alias: familiers
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Familiers
 
 Les familiers sont toujours des représentants particulièrement intelligents de leur espèce, mais ils sont très rarement doués eux-même de magie.  
@@ -21,11 +21,11 @@ Cependant, ces familiers ont également la capacité d'accéder aux sorts de leu
 De plus, de nombreux familiers peuvent apprendre certaines compétences ou ont des compétences particulières.  
 Cependant, en raison de leur perspective fondamentalement différente, ils ne peuvent pas transmettre leurs connaissances en les enseignant.  
 Le familier confère au mage un bonus égal à la moitié de la valeur de la compétence (à l'exception de la magie) qu'il maîtrise.  
-Il est conseillé au mage de se rappeler précisément des compétences de son familier via un [[cmd-show]].  
+Il est conseillé au mage de se rappeler précisément des compétences de son familier via un [[cmd-show-fr]].  
 
-## Races de Familiers
+## Peuples de Familiers
 
-Le monde et la magie d'Eressea connaissent différentes races qui peuvent se lier à un mage en tant que familiers.
+Le monde et la magie d'Eressea connaissent différents peuples qui peuvent se lier à un mage en tant que familiers.
 
 ### Aigle
 
@@ -361,13 +361,13 @@ Caractéristiques d'un Loup.
 ## Modificateurs de compétences
 
 Les familiers sont très différents les uns des autres.
-Tous les familiers ne peuvent pas apprendre toutes les compétences et chaque race se distingue par des caractéristiques spécifiques.  
+Tous les familiers ne peuvent pas apprendre toutes les compétences et chaque peuple se distingue par des caractéristiques spécifiques.  
 
 Certains sont eux-mêmes doués de magie et disposent de leur propre aura.
 D'autres sont des créatures marines et de bons nageurs, d'autres encore peuvent voler et ainsi également traverser les océans.  
 
-Le tableau suivant devrait donner une meilleure vue d'ensemble des différentes races de familiers.  
-Si une case est vide, cela signifie que la race ne peut pas apprendre cette compétence ou qu'elle ne dispose pas de cette capacité.  
+Le tableau suivant devrait donner une meilleure vue d'ensemble des différents peuples de familiers.  
+Si une case est vide, cela signifie que le peuple ne peut pas apprendre cette compétence ou qu'elle ne dispose pas de cette capacité.  
 
 | Eigenschaft                | Aigle | Démon | Dauphin | Licorne | Hibou | Fée | Fantôme | Gobelin | Chat de l'Enfer | Pieuvre | Lynx | Nymphe | Rat | Tortue géante | Dragon chanteur | Diablotin | Tigre | Dreamcat | Ver des tunnels | Loup |
 |----------------------------|------:|------:|--------:|--------:|------:|----:|--------:|--------:|----------------:|--------:|-----:|-------:|----:|--------------:|----------------:|----------:|------:|---------:|----------------:|-----:|
@@ -415,22 +415,22 @@ Si une case est vide, cela signifie que la race ne peut pas apprendre cette comp
 
 ## Affectation des familiers
 
-Les familiers de différentes races peuvent rejoindre un mage au hasard... mais pas complètement au hasard.  
-La sélection est déterminée par son École de Magie, sa race et son niveau de magie.  
+Les familiers de différents peuples peuvent rejoindre un mage au hasard... mais pas complètement au hasard.  
+La sélection est déterminée par son École de Magie, son peuple et son niveau de magie.  
 
 <!-- TODO: clarify this translation !? -->
-Dans le tableau suivant, la race du mage qui tente de lier un familier à lui-même se trouve dans la première colonne.  
-La deuxième colonne contient la race de familier standard (familier principal) qui rejoint cette race de mage.  
-Dans les cinq colonnes suivantes se trouvent les races de familier attachées au mage en fonction de l'École de Magie qu'il a rejoint.  
-Avec 50%-100% (selon le niveau) la race de l'École de Magie est choisie, avec approximativement un pourcentage qui augmente avec le niveau que ce soit n'importe quel familier, plutôt que la race principale.  
+Dans le tableau suivant, le peuple du mage qui tente de lier un familier à lui-même se trouve dans la première colonne.  
+La deuxième colonne contient le peuple de familier standard (familier principal) qui rejoint ce peuple de mage.  
+Dans les cinq colonnes suivantes se trouvent les peuples de familier attachée au mage en fonction de l'École de Magie qu'il a rejoint.  
+Avec 50%-100% (selon le niveau) le peuple de l'École de Magie est choisi, avec approximativement un pourcentage qui augmente avec le niveau que ce soit n'importe quel familier, plutôt que le peuple principal.  
 
 Expériences de jeu :
 
 Les informations sur les pourcentages **doivent être considérées avec prudence** et doivent être revérifiées dans le code !  
 
-Un mage Elfe avec Tybied a la plus grande chance d'obtenir un Hibou (École de Magie) ou un Lynx (Familier principal), mais a aussi une chance (plus faible) d'obtenir une race aléatoire du tableau.  
+Un mage Elfe avec Tybied a la plus grande chance d'obtenir un Hibou (École de Magie) ou un Lynx (Familier principal), mais a aussi une chance (plus faible) d'obtenir un peuple aléatoire du tableau.  
 
-| Race      | Familier principal | Illaun          | Tybied        | Cerddor         | Gwyrrd          | Draig       |
+| Peuple    | Familier principal | Illaun          | Tybied        | Cerddor         | Gwyrrd          | Draig       |
 |-----------|--------------------|-----------------|---------------|-----------------|-----------------|-------------|
 | Aquariens | Tortue géante      | Dauphin         | Tortue géante | Dauphin         | Dauphin         | Pieuvre     |
 | Chats     | Lynx               | Dreamcat        | Lynx          | Dragon chanteur | Tigre           | Höllenkatze |
@@ -446,9 +446,9 @@ Un mage Elfe avec Tybied a la plus grande chance d'obtenir un Hibou (École de M
 
 Expériences de jeu :
 
-Le terrain sur lequel le familier est invoqué ne semble avoir aucune influence sur la race du familier.  
+Le terrain sur lequel le familier est invoqué ne semble avoir aucune influence sur le peuple du familier.  
 
 Un Aquarien ne devrait pas nécessairement se tenir à côté d'un lac intérieur, sinon le familier nageur le plus susceptible pourrait se retrouver coincé dans le petit lac sans aucune chance de voyager vers l'océan.  
-Cependant, on ne comprend pas encore bien dans quelle mesure il est possible d'invoquer un familier flottant dans une région sans accès à une tuile océan (lac ou mer), ni comment cela change les chances d'obtenir une autre race de familier.  
+Cependant, on ne comprend pas encore bien dans quelle mesure il est possible d'invoquer un familier flottant dans une région sans accès à une tuile océan (lac ou mer), ni comment cela change les chances d'obtenir un autre peuple de familier.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Vertraute/fr&oldid=15641] -->

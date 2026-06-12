@@ -12,15 +12,15 @@ C'est pourquoi il faut toujours chercher des amis et des alliés, car "les amis 
 
 ## Les camps dans une bataille
 
-L'ordre [[cmd-attack]] permet de lancer l'attaque contre l'adversaire.  
+L'ordre [[cmd-attack-fr]] permet de lancer l'attaque contre l'adversaire.  
 Les ordres `ATTACK` sont exécutés dans un ordre aléatoire.  
 Lors d'une attaque, les unités de tous les camps se rassemblent dans la région et se battent entre elles individuellement (personne par personne).  
 Une bataille dure au maximum six tours : cinq tours de combat réguliers et éventuellement encore le tour 0 (zéro), le [tour de tactique][tour-du-tacticien].  
 
 Le camp attaquant est constitué de toutes les unités qui ont donné des ordres `ATTACK` contre une ou plusieurs unités des défenseurs.  
 
-Le camp des défenseurs est composé des unités qui ont été attaquées, sur qui l'adversaire a donc donné l'ordre `ATTACK`*`unité-id`*, et de toutes les unités de la faction agressée qui sont prêtes à combattre (donc celles en [[cmd-combat]]`,`[`COMBAT AGGRESSIVE`][cmd-combat]`,`[`COMBAT REAR`][cmd-combat] ou [`COMBAT DEFENSIVE`][cmd-combat]).  
-De plus, toutes les unités prêtes au combat des factions alliées aux factions attaquées, c'est-à-dire celles qui ont mis [`HELP COMBAT`][cmd-help] avec la faction attaquée, apportent leur aide.
+Le camp des défenseurs est composé des unités qui ont été attaquées, sur qui l'adversaire a donc donné l'ordre `ATTACK`*`unité-id`*, et de toutes les unités de la faction agressée qui sont prêtes à combattre (donc celles en [[cmd-combat-fr]]`,`[`COMBAT AGGRESSIVE`][cmd-combat-fr]`,`[`COMBAT REAR`][cmd-combat-fr] ou [`COMBAT DEFENSIVE`][cmd-combat-fr]).  
+De plus, toutes les unités prêtes au combat des factions alliées aux factions attaquées, c'est-à-dire celles qui ont mis [`HELP COMBAT`][cmd-help-fr] avec la faction attaquée, apportent leur aide.
 
 Il y a donc différentes raisons pour lesquelles une unité participe au combat.  
 Celles-ci sont classées par ordre de priorité :
@@ -35,15 +35,15 @@ Celles-ci sont classées par ordre de priorité :
 
 Les alliés n'aident donc automatiquement que les défenseurs et ***seulement si le défenseur n'a pas lui-même attaqué**.  
 Les unités attaquées se défendent avec toutes les unités de la faction, à moins que celles-ci ne se tiennent explicitement à l'écart du combat.  
-Pour l'attaquant, le statut de combat n'a pas d'importance : à part pour les défenseurs, seules les unités qui ont donné un ordre [[cmd-attack]] sont engagées dans le combat.  
-Cependant, les unités qui ont mis [`COMBAT NOT`][cmd-combat] ou [`COMBAT FLEE`][cmd-combat] ne peuvent pas attaquer.
+Pour l'attaquant, le statut de combat n'a pas d'importance : à part pour les défenseurs, seules les unités qui ont donné un ordre [[cmd-attack-fr]] sont engagées dans le combat.  
+Cependant, les unités qui ont mis [`COMBAT NOT`][cmd-combat-fr] ou [`COMBAT FLEE`][cmd-combat-fr] ne peuvent pas attaquer.
 
 Ainsi, pour attaquer conjointement un ennemi, chaque faction attaquante doit attaquer au moins une unité de l'ennemi.  
 Pour se défendre ensemble contre des assaillants, il suffit que les factions qui se défendent s'entraident (`HELP`).  
 
 <!-- TODO: clarify -->
 En théorie, toute unité à laquelle [`HELP COMBAT`] a été attribuée est considérée comme alliée.  
-Est aussi considérée comme alliée une unité qui n'a attaqué aucune autre unité à qui [`HELP COMBAT`][cmd-help] a également été attribué.  
+Est aussi considérée comme alliée une unité qui n'a attaqué aucune autre unité à qui [`HELP COMBAT`][cmd-help-fr] a également été attribué.  
 
 **Exemple 1 :**
 
@@ -84,7 +84,7 @@ Quelques astuces permettent d'éviter les plus grosses bourdes :
 - Tu devrais régulièrement vérifier les statuts d'aide pour tous tes alliés.
   `HELP ALL` est préférable de pour tous ceux avec qui tu "pourrais" combattre.
   La méfiance fait souvent des dégâts à ce niveau.
-- Si possible, il ne devrait y avoir qu'un seul [groupe][cmd-group].
+- Si possible, il ne devrait y avoir qu'un seul [groupe][cmd-group-fr-id].
 - Dans ta faction, il faudrait que soit toutes les unités de combattants aient l'ordre `ATTACK`, soit aucune.
   Si seule une partie de tes unités attaque, il se peut que le reste ne participe pas au combat si un allié est attaqué.
 - Il est conseillé d'attaquer toutes les unités ennemies.
@@ -106,13 +106,13 @@ Dans ce cas, d'autres ordres longs sont possibles.
 
 Durant la bataille, il y a quatre lignes de combat.  
 Celles-ci ne sont composées que des unités qui participent réellement au combat (voir ci-dessus).  
-Pour plus d'informations sur les statuts de combat, voir [[cmd-combat]][`COMBAT`].
+Pour plus d'informations sur les statuts de combat, voir [[cmd-combat-fr]][`COMBAT`].
 
-1. ligne: Ici se trouvent toutes les unités qui ont mis [[cmd-combat]] ou [`COMBAT AGGRESSIVE`][cmd-combat].
-2. ligne : Ici se trouvent toutes les unités qui ont mis [`COMBAT REAR`][cmd-combat] ou [`COMBAT DEFENSIVE`][cmd-combat].
-3. ligne : Ici se trouvent toutes les unités qui ont mis [`COMBAT NOT`][cmd-combat].
+1. ligne: Ici se trouvent toutes les unités qui ont mis [[cmd-combat-fr]] ou [`COMBAT AGGRESSIVE`][cmd-combat-fr].
+2. ligne : Ici se trouvent toutes les unités qui ont mis [`COMBAT REAR`][cmd-combat-fr] ou [`COMBAT DEFENSIVE`][cmd-combat-fr].
+3. ligne : Ici se trouvent toutes les unités qui ont mis [`COMBAT NOT`][cmd-combat-fr].
 4. ligne : C'est ici que se trouvent toutes les unités qui cherchent simplement à s'échapper.
-   Donc celles qui ont mis [`COMBAT FLEE`][cmd-combat] et celles qui ont perdu un nombre approprié de Points de Vie (voir aussi [la fuite][la-fuite]).
+   Donc celles qui ont mis [`COMBAT FLEE`][cmd-combat-fr] et celles qui ont perdu un nombre approprié de Points de Vie (voir aussi [la fuite][la-fuite]).
 
 Seules les deux premières lignes de combat participent activement au combat, c'est-à-dire qu'elles peuvent frapper, tirer et être touchées.  
 Les unités qui ne sont pas combattantes et qui sont directement attaquées ne participent au combat que si la première ligne est débordée.  
@@ -177,13 +177,13 @@ Pour un groupe de 10, cela peut aller de 0 à 10 personnes, mais la moyenne est 
 ## Héros
 
 Les héros sont des combattants particulièrement puissants.  
-Ils doivent avoir été préalablement promus avec l'ordre [[cmd-promote]].  
+Ils doivent avoir été préalablement promus avec l'ordre [[cmd-promote-fr]].  
 **Les héros peuvent attaquer 5 fois à chaque tour de combat**.
 
 !!! warning "Attention"
     Cela ne s'applique pas aux attaques magiques ni aux arbalètes ni aux catapultes.
 
-Pour plus d'informations, voir [[cmd-promote]].
+Pour plus d'informations, voir [[cmd-promote-fr]].
 
 ## Le combat entre deux personnes
 
@@ -207,7 +207,7 @@ Seuls les niveaux de compétences sont pris en compte, les bonus apportés par l
 Cela vaut aussi bien pour le combat à distance que pour le combat rapproché.  
 En outre, il y a une certaine chance, dépendant de la différence de niveau, de recevoir un coup critique qui peut causer jusqu'à cinq fois plus de dégâts.
 
-Si une personne a subi plus de points de dégâts qu'elle ne peut "en encaisser", elle meurt (voir [Modificateurs de compétences][races-et-leurs-caracteristiques] les différents coups portés pendant le combat s'additionnent).
+Si une personne a subi plus de points de dégâts qu'elle ne peut "en encaisser", elle meurt (voir [Modificateurs de compétences][peuples-et-leurs-caracteristiques] les différents coups portés pendant le combat s'additionnent).
 
 Lorsqu'un combattant porte une armure, celle-ci peut absorber une partie (voire la totalité) des points de dégâts.  
 Cependant, l'armure rend le combattant moins mobile et augmente ses chances d'être touché (voir [le tableau des armures][armures-synthese]).  
@@ -241,7 +241,7 @@ Cependant les unités en première ligne se défendent avec leur niveau de comp�
 S'il n'en possède pas ou ne peut pas l'utiliser (c'est-à-dire si la compétence correspondante est inférieure à 1), il se défend [à mains nues][bonus-et-malus] !
 
 Les catapultes nécessitent des munitions.  
-Celles-ci peuvent être fabriquées à partir de pierres avec l'ordre [`MAKE ammunition`][cmd-make], passé par des maçons T3 en [extraction de pierres][extraction-de-pierres]{title="Quarrying"}.  
+Celles-ci peuvent être fabriquées à partir de pierres avec l'ordre [`MAKE ammunition`][cmd-make-fr], passé par des maçons T3 en [extraction de pierres][extraction-de-pierres]{title="Quarrying"}.  
 Elles pèsent 10 lbs.  
 Une unité de munitions correspond à une salve (6 cibles).
 
@@ -276,7 +276,7 @@ Voir aussi : [tables de combat][bonus-et-malus].
     Ils peuvent toujours attaquer avec leur arme à distance.  
     Les gobelins se défendent avec +/-0.  
     La compétence avec laquelle les orcs engagent le combat au corps à corps est déterminée par le niveau de leur meilleure compétence de corps à corps - 3.  
-    Certaines races (généralement les familiers) peuvent apprendre le combat au corps à corps et ne subissent alors aucune pénalité lorsqu'ils combattent au corps à corps.  
+    Certains peuples (généralement les familiers) peuvent apprendre le combat au corps à corps et ne subissent alors aucune pénalité lorsqu'ils combattent au corps à corps.  
 
 #### Bonus de château
 
@@ -390,13 +390,13 @@ Il s'ensuit également que les combattants à la lance sont légèrement plus ef
 
 ## La fuite
 
-Les unités qui sont au statut [`COMBAT FLEE`][cmd-combat] et sont [attaqués][cmd-attack] essaient de fuir.  
+Les unités qui sont au statut [`COMBAT FLEE`][cmd-combat-fr] et sont [attaqués][cmd-attack-fr] essaient de fuir.  
 Ils le font avant chaque round de combat, ils devront donc peut-être subir (plus) de coups avant de pouvoir s'échapper.  
 
 Les unités **touchées au combat** tentent également de fuir si :
 
-- Elles sont au statut [`COMBAT`][cmd-combat] ou [`COMBAT REAR`][cmd-combat] et qu'**il ne leur reste que 20%** de points de vie (PV)
-- Elles sont au statut [`COMBAT DEFENSIVE`][cmd-combat] ou [`COMBAT NOT`][cmd-combat] et qu'**il ne leur reste que 90%** de leurs PV
+- Elles sont au statut [`COMBAT`][cmd-combat-fr] ou [`COMBAT REAR`][cmd-combat-fr] et qu'**il ne leur reste que 20%** de points de vie (PV)
+- Elles sont au statut [`COMBAT DEFENSIVE`][cmd-combat-fr] ou [`COMBAT NOT`][cmd-combat-fr] et qu'**il ne leur reste que 90%** de leurs PV
 
 Les coups dont les points de dégâts ont été entièrement absorbés par l'armure et les tentatives de coup ratées comptent également.  
 Ceci a pour but d'empêcher les unités déjà endommagées avant la bataille de fuir même si elles n'étaient pas réellement en danger.  
@@ -409,7 +409,7 @@ Si l'unité se trouvait dans un bâtiment ou sur un bateau à terre, elle le qui
 
 !!! note
     Il peut être utile d'ordonner aux occupants d'un château (ou d'un bateau) de réintégrer leur propre château (ou bateau), ce qu'ils pourront peut-être faire après la bataille.  
-    Pensez également à remettre le commandement à la bonne unité avec [`GIVE COMMAND`][cmd-give].
+    Pensez également à remettre le commandement à la bonne unité avec [`GIVE COMMAND`][cmd-give-fr].
 
 ### Statut de combat `FLEE`
 
@@ -419,7 +419,7 @@ Ces unités **peuvent toujours se déplacer après le combat**, même si elles n
 
 De plus, ces unités ne **peuvent pas garder** de régions.  
 Toute garde est automatiquement annulée lorsque l'unité de garde passe au statut `FLEE`.  
-Cela se produit au début du tour, ce qui signifie que tous les effets de [[cmd-guard]] sont immédiatement annulés.
+Cela se produit au début du tour, ce qui signifie que tous les effets de [[cmd-guard-fr]] sont immédiatement annulés.
 
 ## Combats à bord et depuis les navires
 
@@ -435,11 +435,11 @@ Ces monstres, comme certains familiers, ont une attaque qui peut causer des dég
 
 Si le bateau est en sous-équipage ou vide après la bataille, il dérive sans contrôle dans l'océan et subit davantage de [dommages][dommages-aux-bateaux].
 
-Si vous souhaitez atterrir dans une région [gardée][cmd-guard] par une autre faction, vous devez d'abord [quitter][cmd-leave] le bateau et ne pourrez attaquer ou vous déplacer que lors du tour suivant.  
+Si vous souhaitez atterrir dans une région [gardée][cmd-guard-fr] par une autre faction, vous devez d'abord [quitter][cmd-leave-fr] le bateau et ne pourrez attaquer ou vous déplacer que lors du tour suivant.  
 Cela donne à vos ennemis le temps de se préparer.
 
 Depuis la terre, vous pouvez attaquer un bateau immédiatement.  
-Lorsque les unités à bord d'un bateau (ou ses alliés) sont attaqués, elles rejoignent les lignes de bataille normalement en fonction de leur statut de combat ([[cmd-combat]]) et de leur statut d'aide au combat ([`HELP COMBAT`][cmd-help]).  
+Lorsque les unités à bord d'un bateau (ou ses alliés) sont attaqués, elles rejoignent les lignes de bataille normalement en fonction de leur statut de combat ([[cmd-combat-fr]]) et de leur statut d'aide au combat ([`HELP COMBAT`][cmd-help-fr]).  
 
 [](){ #piraterie-fr-id }
 
@@ -449,12 +449,12 @@ Chaque capitaine a la chance de gagner un prix en capturant des bateaux dans les
 
 Le capitaine guette les bateaux qui terminent leur déplacement dans une région voisine.  
 Une fois sur place, l’équipage peut agir normalement lors du tour suivant.  
-Avec l'aide de [`FOLLOW SHIP`][cmd-follow], par exemple, vous pouvez également simplement suivre vos victimes pour le moment.
+Avec l'aide de [`FOLLOW SHIP`][cmd-follow-fr], par exemple, vous pouvez également simplement suivre vos victimes pour le moment.
 
 Il y a quelques points à garder à l’esprit dans toute l’histoire :
 
 - Uniquement les factions avec lesquelles vous n'êtes pas allié de combat (`HELP FIGHT`) sont reconnus comme des cibles
-- Si les numéros de faction sont spécifiés ([`PIRACY`*`<faction-id>`*`...`][cmd-piracy]), seuls les capitaines des factions spécifiées sont reconnus comme cibles
+- Si les numéros de faction sont spécifiés ([`PIRACY`*`<faction-id>`*`...`][cmd-piracy-fr]), seuls les capitaines des factions spécifiées sont reconnus comme cibles
 - Le mécanisme fonctionne également lorsque le bateau pirate est à terre
   Il offre donc un moyen efficace de protection du littoral.
 - Les pirates naviguent également dans les régions terrestres, à condition que le bateau puisse y atterrir.
@@ -465,7 +465,7 @@ Il y a quelques points à garder à l’esprit dans toute l’histoire :
   Être pirate comporte des risques.
 - S'il y a plusieurs cibles potentielles parmi lesquelles choisir, le capitaine en sélectionnera une au hasard
 - Les flottes pirates restent ensemble.
-  Si un bateau allié (sur lequel le capitaine a défini [`HELP COMBAT`][cmd-help]) de votre propre région a déjà reconnu une victime, notre bateau naviguera également vers la région en question, à condition que la victime reconnue par le premier bateau soit également une victime potentielle pour nous.
+  Si un bateau allié (sur lequel le capitaine a défini [`HELP COMBAT`][cmd-help-fr]) de votre propre région a déjà reconnu une victime, notre bateau naviguera également vers la région en question, à condition que la victime reconnue par le premier bateau soit également une victime potentielle pour nous.
 
 ## Fin du combat
 
@@ -474,17 +474,17 @@ Après la bataille, on compte les morts, et tout le matériel utilisable des uni
 Les unités blessées au combat restent blessées.  
 Ceci est indiqué dans le rapport.  
 Avec le temps, elles guérissent.  
-Elles régénèrent généralement 5 % (certaines races [davantage][modificateurs-de-competences-id]) de leurs points de vie maximum par tour, mais au moins un point par individu.  
+Elles régénèrent généralement 5 % (certains peuples [davantage][modificateurs-de-competences-id]) de leurs points de vie maximum par tour, mais au moins un point par individu.  
 Les unités mortes-vivantes ne se régénèrent pas.
 
-Si la région où les combats ont eu lieu était [gardée][alliances] **au début du combat** par une unité amie ou une unité ayant activé l'ordre [`HELP GUARD`][cmd-help] pour les forces amies, toutes les unités participant au combat (celles figurant dans le rapport de bataille) peuvent exécuter des ordres longs.  
+Si la région où les combats ont eu lieu était [gardée][alliances] **au début du combat** par une unité amie ou une unité ayant activé l'ordre [`HELP GUARD`][cmd-help-fr] pour les forces amies, toutes les unités participant au combat (celles figurant dans le rapport de bataille) peuvent exécuter des ordres longs.  
 Ceci est valable même si des troupes ennemies gardent également la région.  
 Cela fonctionne aussi si tu as attaqué toi-même (c'est-à-dire si tu as donné toi-même l'ordre `ATTACK`).
 
 Si aucune unité amie ou alliée ne gardait la région au début du combat, les unités participantes ne pourront plus exécuter d'ordres longs après le combat.
 
-La seule exception concerne les unités avec le statut de combat [`COMBAT FLEE`][cmd-combat] et les unités en mer.  
-Les unités avec le statut `COMBAT FLEE` peuvent se déplacer après une bataille s'ils ont défini l'un des ordres suivants : [[cmd-move]], [[cmd-route]] ou [`FOLLOW SHIP`][cmd-follow].  
+La seule exception concerne les unités avec le statut de combat [`COMBAT FLEE`][cmd-combat-fr] et les unités en mer.  
+Les unités avec le statut `COMBAT FLEE` peuvent se déplacer après une bataille s'ils ont défini l'un des ordres suivants : [[cmd-move-fr]], [[cmd-route-fr]] ou [`FOLLOW SHIP`][cmd-follow-fr].  
 Après une bataille en mer, vous pouvez toujours exécuter des ordres longs.
 
 ## Voir aussi
@@ -495,3 +495,13 @@ Après une bataille en mer, vous pouvez toujours exécuter des ordres longs.
 Poursuivre la lecture : [[alliances]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg/fr&oldid=16966] -->
+
+[cmd-attack-fr]: [[cmd-attack-fr]]
+[cmd-combat-fr]: [[cmd-combat-fr]]
+[cmd-follow-fr]: [[cmd-follow-fr]]
+[cmd-give-fr]: [[cmd-give-fr]]
+[cmd-guard-fr]: [[cmd-guard-fr]]
+[cmd-help-fr]: [[cmd-help-fr]]
+[cmd-leave-fr]: [[cmd-leave-fr]]
+[cmd-make-fr]: [[cmd-make-fr]]
+[cmd-piracy-fr]: [[cmd-piracy-fr]]

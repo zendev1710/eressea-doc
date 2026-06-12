@@ -2,6 +2,8 @@
 # cSpell:locale fr
 alias: eressea-fr
 ---
+<!-- disable MD052 because of mkdocs autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Avant-propos
 
 ## Vue d'ensemble du jeu
@@ -20,7 +22,7 @@ En avril 2015, il y en avait encore 220.
 Le jeu est conçu pour un nombre illimité de joueurs.  
 
 Le monde du jeu se compose de nombreuses îles et est peuplé de factions de joueurs et d'une faction globale de monstres.  
-En tant que joueur, vous contrôlez une faction qui appartient à l'une des nombreuses races du répertoire fantastique typique et dont les unités peuvent acquérir diverses compétences, exploiter des ressources et construire des bâtiments, des transports et des armes.
+En tant que joueur, vous contrôlez une faction qui appartient à l'un des nombreux peuples du répertoire fantastique typique et dont les unités peuvent acquérir diverses compétences, exploiter des ressources et construire des bâtiments, des transports et des armes.
 Ce qui rend le jeu intéressant, c'est l'interaction avec les autres factions et donc les autres joueurs.  
 
 Dans le jeu principal Eressea, il n’y a pas d’objectif de jeu officiel ni de fin de partie.  
@@ -52,7 +54,7 @@ Peu de temps après, l'enregistrement de nouvelles factions qui seraient lancée
 ## Voir aussi
 
 - [Site web d'Eressea]
-- [[histoire-d-eressea]]
+- [L'histoire d'Eressea][histoire-d-eressea-id]
 - [Régions et lieux du monde de Tolkien]
 - [Bravo Screenfun, März 2002]
 

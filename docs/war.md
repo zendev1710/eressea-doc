@@ -468,3 +468,13 @@ After sea battles on oceans you can always execute long orders.
 Continue reading: [[alliances]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg/en&oldid=16626] -->
+
+[cmd-attack]: [[cmd-attack]]
+[cmd-combat]: [[cmd-combat]]
+[cmd-follow]: [[cmd-follow]]
+[cmd-give]: [[cmd-give]]
+[cmd-guard]: [[cmd-guard]]
+[cmd-help]: [[cmd-help]]
+[cmd-make]: [[cmd-make]]
+[cmd-piracy]: [[cmd-piracy]]
+[cmd-promote]: [[cmd-promote]]

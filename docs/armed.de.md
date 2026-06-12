@@ -16,3 +16,5 @@ Auch für das Steuereintreiben muss man bewaffnet sein, wobei auch nur die Perso
 Sie sind sozusagen mit Zähnen und Klauen (oder Tentakeln, Fangarmen usw.) bewaffnet.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Bewaffnet&oldid=6339] -->
+
+[bef-bewache]: [[bef-bewache]]

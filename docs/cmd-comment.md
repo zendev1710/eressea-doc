@@ -49,7 +49,7 @@ UNIT ub2;  Handyman [3,0$] flieht
 ```
 
 The player himself can also insert comments after a semicolon.
-However, since these comments are not included in next week's template, permanent comments after [`//`][comment-with-slashes] usually make more sense.
+However, since these comments are not included in next week's template, permanent comments after [`//`][cmd-comment-with-slashes] usually make more sense.
 
 To save transmission capacity, temporary comments can be removed before sending the orders.
 Some tools do this, like [[magellan]] or VPP.
@@ -61,3 +61,5 @@ Some tools do this, like [[magellan]] or VPP.
 <!-- From [https://wiki.eressea.de/index.php?title=;&oldid=16702] -->
 
 [Vorlage and VPP on Gulrak.de]: http://www.gulrak.de/eressea/tools.html
+
+[cmd-comment-with-slashes]: [[cmd-comment-with-slashes]]

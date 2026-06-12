@@ -8,7 +8,7 @@ alias: bateaux
 
 # Bateaux
 
-Les bateaux sont construits avec l'ordre [**`MAKE`**&#91;*`niveaux`*&#93;*`type de bateau`*][cmd-make].  
+Les bateaux sont construits avec l'ordre [**`MAKE`**&#91;*`niveaux`*&#93;*`type de bateau`*][cmd-make-fr].  
 Les bateaux existants, inachevés ou endommagés sont construits avec **`MAKE`**&#91;*`niveaux`*&#91;&nbsp;`SHIP`&nbsp;&#91;`*`id-bateau`*&#93;.  
 
 Pour cela, il te faut du bois. Plus le bateau est complexe, plus il est difficile à construire et à commander.
@@ -36,7 +36,7 @@ Dans le rapport, les unités qui se trouvent sur le bateau suivent la descriptio
 
 La première unité est le capitaine et a le commandement du bateau.
 Elle détermine quelles autres unités sont autorisées à monter à bord du bateau.
-Elle peut [renommer][cmd-name] ou [décrire][cmd-describe] le bateau et elle compte également comme équipage.
+Elle peut [renommer][cmd-name-fr] ou [décrire][cmd-describe-fr] le bateau et elle compte également comme équipage.
 
 Contrairement aux bâtiments, les bateaux ne peuvent pas être agrandis.
 Donc, si vous avez commencé à construire un Drakkar, vous ne pouvez pas le transformer en caravelle plus tard.
@@ -173,8 +173,12 @@ GIVE 123 ALL MEN
 ## Voir aussi
 
 - [[deplacements]]
-- [[cmd-give]]
+- [[cmd-give-fr]]
 
 Poursuivre la lecture : [bâtiments][batiments-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schiff/fr&oldid=16676] -->
+
+[cmd-describe-fr]: [[cmd-describe-fr]]
+[cmd-make-fr]: [[cmd-make-fr]]
+[cmd-name-fr]: [[cmd-name-fr]]

@@ -1,6 +1,6 @@
 ---
 # cSpell:locale en
-alias: comment-with-slashes
+alias: cmd-comment-with-slashes
 ---
 # // Comment
 
@@ -26,3 +26,5 @@ The `//` has to be treated like an order, so you **can't** do:
     There must also be a space after the `//`.
 
 <!-- From  [https://wiki.eressea.de/index.php?title=KOMMENTAR&oldid=3993] -->
+
+[cmd-comment]: [[cmd-comment]]

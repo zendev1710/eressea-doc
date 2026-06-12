@@ -10,7 +10,7 @@ Dans Eressea, un joueur dirige ce que l'on appelle une **faction**.
 
 Une faction est au départ composée d'une seule **unité** d'une personne, puis progressivement d'un grand nombre d'unités.  
 
-Une unité est composée d'une, de quelques ou même de milliers de personnes de la **[race][races]** de la faction.  
+Une unité est composée d'une, de quelques ou même de milliers de personnes du **[peuple][peuples]** de la faction.  
 
 Chaque unité peut posséder autant d'objets et [d'argent][argent] (***silver***) qu'elle le souhaite, et peut apprendre toutes les [[competences]] d'Eressea.  
 Vous pouvez donner aux unités des [[ordres]] à chaque tour, qu'elles exécuteront du mieux possible.
@@ -19,17 +19,17 @@ Vous êtes éliminé du jeu lorsque votre faction n'a plus aucun membre, c'est-�
 
 ## Unités
 
-La faction commence la partie avec une **unité**, composée d'une personne avec 2 500 Silver, 10 Bois, 4 Pierres et un [cadeau de départ spécifique à la race choisie][debut-du-6eme-monde].
+La faction commence la partie avec une **unité**, composée d'une personne avec 2 500 Silver, 10 Bois, 4 Pierres et un [cadeau de bienvenue spécifique au peuple choisi][debut-du-6eme-monde].
 
 !!! Tip "Astuce"
-    Si vous ne savez pas à quoi sert l'objet cadeau, essayez l'ordre [`SHOW <Item>`][cmd-show].
+    Si vous ne savez pas à quoi sert l'objet cadeau, essayez l'ordre [`SHOW <Item>`][cmd-show-fr].
 
 Cette première personne n'est en aucun cas spéciale;  
 il s'agit simplement de la première personne appartenant à votre nouvelle faction.  
 Vous pouvez [recruter][recruter] de nouvelles personnes, également [produire des objets][objets], construire des [bâtiments][batiments-id] ou des [bateaux][bateaux-id], capturer des [chevaux][chevaux-et-chariots], forger des [armes][tableaux-relatifs-a-la-guerre] et ainsi de suite.  
 
-Les nouvelles unités sont créées en les générant avec une unité existante à l'aide de l'ordre [`MAKE TEMP`][cmd-make].  
-Une nouvelle unité n'a pas encore de personnes : vous devez d'abord y [transférer][cmd-give] les personnes d'une autre unité ou en recruter, ce qui nécessite de [l'argent][depenses].  
+Les nouvelles unités sont créées en les générant avec une unité existante à l'aide de l'ordre [`MAKE TEMP`][cmd-make-fr].  
+Une nouvelle unité n'a pas encore de personnes : vous devez d'abord y [transférer][cmd-give-fr] les personnes d'une autre unité ou en recruter, ce qui nécessite de [l'argent][depenses].  
 Les unités créées par des unités sur des bateaux ou dans des bâtiments commenceront à l'intérieur du même bateau ou bâtiment.  
 
 Une faction ne peut pas avoir plus d'un certain nombre d'unités, connu sous le nom de **limite d'unités**.  
@@ -69,42 +69,42 @@ Vous pouvez utiliser la langue qui vous convient pour nommer et décrire vos uni
 
 Cette première unité de l'exemple est l'unité de la faction qui a reçu ce rapport.  
 Elle est composée d'un Humain de sa propre faction (non affiché), possède 20 Silver et peut se battre en [mêlée][skill-melee-fr-id]{title="Melee"}, compétence dans laquelle l'unité est de niveau 1.  
-Il maîtrise [taxation][cmd-tax] au niveau 2 (pour plus de détails : les [[competences]]).  
+Il maîtrise [taxation][cmd-tax-fr] au niveau 2 (pour plus de détails : les [[competences]]).  
 Comme vous pouvez le voir, Konrad a également une [épée][tableaux-relatifs-a-la-guerre]{title="Sword"}.  
-"`TAX`" est ce qu'on appelle un ordre par [défaut][cmd-default].  
+"`TAX`" est ce qu'on appelle un ordre par [défaut][cmd-default-fr].  
 Si l'unité ne reçoit pas de nouveaux ordres pour le prochain tour, elle continuera à collecter des taxes.  
 Un seul ordre par défaut est donné dans le NR, mais les unités peuvent parfois en avoir plus d'un.  
 Ils ne seront listés que dans le CR ou dans les modèles d'ordres.  
 Plus d'informations à ce sujet dans le chapitre [[ordres]].
 
 Les unités ont un "combat status" (posture en combat), qui dans ce cas est "front" (devant).  
-Les détails sont expliqués dans le chapitre sur la [[guerre]] dans la section sur [lignes de combat][lignes-de-combat] et l'explication de l'ordre [[cmd-combat]].
+Les détails sont expliqués dans le chapitre sur la [[guerre]] dans la section sur [lignes de combat][lignes-de-combat] et l'explication de l'ordre [[cmd-combat-fr]].
 
-Une unité peut garder une région (pour plus de détails sur les conséquences, voir [[cmd-guard]]).  
+Une unité peut garder une région (pour plus de détails sur les conséquences, voir [[cmd-guard-fr]]).  
 Cela sera noté par "guards the region" dans le rapport.
 
 Enfin, une unité peut être blessée lors d'un [combat][guerre] ou d'une [famine][famine].  
 Elle sera notée *[`exhausted`][etat-de-sante]* (épuisée), *`wounded`* (blessée), ou même *`badly wounded`* (gravement blessée).
 
-L'unité suivante porte l'identifiant ***2ow***, est composée d'un nain, d'un cheval et d'une [bourse d'argent][bourse-d-argent]{title="Silverbag"}.  
+L'unité suivante porte l'identifiant ***2ow***, est composée d'un nain, d'un cheval et d'une [bourse d'argent][bourse-d-argent-id]{title="Silverbag"}.  
 Cela signifie qu'elle possède au moins 500 Silver.  
 Si elle avait plus de 5 000 Silver, vous verriez un coffre d'argent.  
-Vous ne pouvez pas voir à quelle faction appartient l'unité car elle est [masquée][cmd-hide], c'est-à-dire qu'elle ne révèle pas la faction à laquelle elle appartient.  
+Vous ne pouvez pas voir à quelle faction appartient l'unité car elle est [masquée][cmd-hide-fr], c'est-à-dire qu'elle ne révèle pas la faction à laquelle elle appartient.  
 Ce n'est probablement pas un choix très judicieux pour un "Botschafter" (ambassadeur), car vous n'avez même pas l'adresse e-mail de la faction.  
-La seule chose que vous pouvez faire est de lui envoyer un [[cmd-message]].
+La seule chose que vous pouvez faire est de lui envoyer un [[cmd-message-fr]].
 
 Enfin, des alliés [Trolls][trolls-fr-id]{title="Trolls"} transportent des gems (joyaux).  
-En plus des [Humains][humains]{title="Humans"}, [Nains][nains]{title="Dwarves"}, et [Trolls][trolls-fr-id]{title="Trolls"}, il y a beaucoup d'autres races en Eressea.  
-Elles sont décrites dans [ce chapitre][races].
+En plus des [Humains][humains]{title="Humans"}, [Nains][nains]{title="Dwarves"}, et [Trolls][trolls-fr-id]{title="Trolls"}, il y a beaucoup d'autres peuples en Eressea.  
+Plus d'information : [les peuples][peuples].
 
 Vous ne disposez que d'informations limitées sur les unités étrangères.  
-Leur statut au combat, leurs blessures, leurs compétences, leur groupe, leur camouflage de faction ou de race, leur statut de héros et leurs sorts sont cachés.  
+Leur statut au combat, leurs blessures, leurs compétences, leur groupe, leur camouflage de faction ou de peuple, leur statut de héros et leurs sorts sont cachés.  
 La plupart des objets sont visibles, mais l'argent, les herbes et les objets magiques ne sont pas visibles en détail.
 
 ### Dissolution des unités
 
 Si une unité se retrouve sans personne à la [fin du tour][sequence-des-ordres] (que ce soit à cause de la famine, en donnant des personnes ou en ne les obtenant jamais), elle sera dissoute.  
-Ses objets vont à une unité de votre faction, s'il y en a une, ou à une faction alliée sinon (elle doit avoir [`HELP silver`][cmd-help] envers cette faction, qui elle doit avoir `HELP GIVE` envers la notre).  
+Ses objets vont à une unité de votre faction, s'il y en a une, ou à une faction alliée sinon (elle doit avoir [`HELP silver`][cmd-help-fr] envers cette faction, qui elle doit avoir `HELP GIVE` envers la notre).  
 En général, c'est à la première unité dans l'ordre du rapport que tout revient.  
 Si les deux options ne sont pas possibles, l'argent et les chevaux vont à la région et tous les autres objets sont perdus.
 
@@ -118,6 +118,14 @@ Cependant, ils n'étaient plus sous le contrôle de leur ancienne faction.
 - [Réserve de faction][reserve-de-faction]
 - [[ordres]]
 
-Poursuivre la lecture : [[races]].
+Poursuivre la lecture : [les peuples][peuples].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteien/fr&oldid=16447] -->
+
+[cmd-default-fr]: [[cmd-default-fr]]
+[cmd-give-fr]: [[cmd-give-fr]]
+[cmd-help-fr]: [[cmd-help-fr]]
+[cmd-hide-fr]: [[cmd-hide-fr]]
+[cmd-make-fr]: [[cmd-make-fr]]
+[cmd-show-fr]: [[cmd-show-fr]]
+[cmd-tax-fr]: [[cmd-tax-fr]]

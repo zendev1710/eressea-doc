@@ -443,7 +443,7 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 [](){ #erschaffe-eine-sph-re-der-unsichtbarkeit-id }
 
-### Erschaffe eine [Sphäre der Unsichtbarkeit][sphaere-der-unsichtbarkeit]
+### Erschaffe eine [Sphäre der Unsichtbarkeit][sphare-der-unsichtbarkeit-id]
 
 :   Mit diesem Spruch kann der Zauberer eine Sphäre der Unsichtbarkeit erschaffen.  
     Die Späre macht ihren Träger sowie neunundneunzig weitere Personen in derselben Einheit unsichtbar.  

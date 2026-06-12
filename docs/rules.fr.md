@@ -12,7 +12,7 @@ Eressea est la version allemande d'[[atlantis]], un jeu développé en 1993 par 
 
 Eressea fonctionne sans interruption depuis 1996.  
 
-Dans Eressea, vous prenez la direction d'une **[faction][factions]** et vous jouez avec de nombreuses autres factions dirigées par d'autres joueurs dans le même monde fantastique.  
+Dans Eressea, vous prenez la direction d'une **[faction][faction]** et vous jouez avec de nombreuses autres factions dirigées par d'autres joueurs dans le même monde fantastique.  
 
 Ces règles sont relativement complexes, mais vous devriez quand même les lire avant de commencer à jouer.  
 Il suffit de suivre les liens *Poursuivre la lecture* en bas de chaque page pour avoir le fil conducteur.  

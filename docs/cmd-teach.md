@@ -36,3 +36,6 @@ Through the [[cmd-learn-auto]] order, the server attempts to automate learning a
     A mixture of `TEACH` and `LEARN AUTO` by unis of the same faction is not possible.
 
 <!-- From [https://wiki.eressea.de/index.php?title=TEACH&oldid=16726] -->
+
+[cmd-contact]: [[cmd-contact]]
+[cmd-help]: [[cmd-help]]

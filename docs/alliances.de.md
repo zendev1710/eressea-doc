@@ -60,3 +60,7 @@ ist die Zusammenfassung aller einzelnen Bereiche.
 Weiterlesen: [Magie][magie-de-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Allianz&oldid=16179] -->
+
+[bef-betrete]: [[bef-betrete]]
+[bef-bewache]: [[bef-bewache]]
+[bef-gib]: [[bef-gib]]

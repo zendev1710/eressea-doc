@@ -220,7 +220,7 @@ Les Aquariens sont chez eux dans l’eau, mais sont plutôt mal à l’aise en m
 
 - Tous les bateaux commandés par un capitaine Aquarien appartenant à une faction d'aquariens se [déplacent][deplacements] d'une région supplémentaire chaque semaine.
 - Les aquariens peuvent exécuter des [ordres longs][ordres-courts-et-longs] sur les bateaux. Attention, cela a quelques conséquences implicites : Les aquariens peuvent par exemple se déplacer d'une région océanique adjacente à une région terrestre vers la région terrestre, voir [nager][nager].
-- Sur une case d'océan (type de région océan) jusqu'à 100 aquariens embarqués peuvent gagner 10 Silver chacun avec l'ordre [[cmd-work-fr]].
+- Sur une case d'océan (type de région océan) jusqu'à 100 aquariens embarqués peuvent gagner 10 Silver chacun avec l'ordre [`WORK`][cmd-work-fr].
 
 ## Humains
 
@@ -284,7 +284,7 @@ Le nombre maximum d'immigrants est indiqué dans le rapport et, pour les grandes
 Les Orcs commencent leur vie en tant que combattants et la terminent généralement en tant que combattants. Leur force réside dans le nombre, mais ils manquent de jugeote.
 
 - Combattants nés : Toutes les nouvelles recrues orcs commencent au niveau 1 en [mêlée][skill-melee-fr-id]{title="Melee"} et [combat à l'arme d'hast][combat-a-larme-dhast]{title="Polearm"}.
-- Paresse : les orcs gagnent moins de silver que les autres peuples avec l'ordre [[cmd-work-fr]].
+- Paresse : les orcs gagnent moins de silver que les autres peuples avec l'ordre [`WORK`][cmd-work-fr].
 - Recrues faciles : Pour deux orcs recrutés, un seul paysan est soustrait du pool de paysans de la région. Ainsi vous pouvez recruter deux fois la limite de recrutement d'une région. La soustraction est arrondie au supérieur.
 - De même : si vous donnez des orcs aux paysans avec l'ordre [`GIVE 0`][cmd-give-fr], seule la moitié d'entre eux est ajoutée aux paysans. Cela est arrondi à l'inférieur.
 - Les orcs non armés ne combattent pas au corps à corps avec malus de -2 comme les autres peuples, mais avec ("meilleure compétence de combat corps à corps" -3). Ils ont toutefois besoin d’armes pour collecter les impôts.
@@ -312,7 +312,7 @@ Ces rochers ambulants font partie des créatures les plus puissantes d'Eressea. 
 - Il n'y a pas de cavalerie troll, ce qui signifie que les trolls ne reçoivent pas de bonus de cheval. Cela n'a aucun effet sur le transport de marchandises et la vitesse de déplacement des trolls montés.
 - Les pierres extraites par les trolls ne sont déduites qu'à 75% de la "réserve de la région". Cet effet est cumulatif avec une carrière (voir [ici][cercle-de-pierres] et [ici][ressources-minieres]).
 - Contre les trolls, la cavalerie ennemie n'a qu'un bonus de +1 au lieu du +2 habituel.
-- Les trolls sont le seul peuple capable d'utiliser des chariots sans chevaux. Les trolls peuvent tirer un chariot par quatre, mais ils ne peuvent se déplacer que d'une seule région (sauf route). Cela est expliqué plus en détail dans l'ordre [[cmd-ride-fr]].
+- Les trolls sont le seul peuple capable d'utiliser des chariots sans chevaux. Les trolls peuvent tirer un chariot par quatre, mais ils ne peuvent se déplacer que d'une seule région (sauf route). Cela est expliqué plus en détail dans l'ordre [`RIDE`][cmd-ride-fr].
 - Les trolls non armés infligent de 2 à 6 points de dégâts.
 - Les trolls blessés se régénèrent à hauteur de 7,5% de leurs points de vie.
 
@@ -343,3 +343,5 @@ Poursuivre la lecture : [Modificateurs de compétences][modificateurs-de-compete
 [cmd-combat-fr]: [[cmd-combat-fr]]
 [cmd-give-fr]: [[cmd-give-fr]]
 [cmd-hide-fr]: [[cmd-hide-fr]]
+[cmd-work-fr]: [[cmd-work-fr]]
+[cmd-ride-fr]: [[cmd-ride-fr]]

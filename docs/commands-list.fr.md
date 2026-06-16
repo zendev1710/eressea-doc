@@ -23,7 +23,7 @@ Plus d'information : [[ordres]].
 | [CARRY &lt;unit id&gt;]                                                    | Emportez d'autres unités avec vous                   | C      |
 | [CAST &#91;REGION x y&#93; &#91;LEVEL n&#93; "&lt;spell&gt;"...]           | Magie                                                | PL[^4] |
 | [CLAIM &lt;number&gt; &lt;item&gt;]                                        | Récupère les objets du pool de faction               | C      |
-| [[cmd-combat-fr]]                                                          | Définit le comportement au combat                    | C      |
+| [`COMBAT`][cmd-combat-fr]                                                  | Définit le comportement au combat                    | C      |
 | [COMBAT AGGRESSIVE]                                                        |                                                      | C      |
 | [COMBAT DEFENSIVE]                                                         |                                                      | C      |
 | [COMBAT FLEE]                                                              |                                                      | C      |
@@ -41,7 +41,7 @@ Plus d'information : [[ordres]].
 | [DESTROY &#91;level&#93;]                                                  | Réduire la taille d'un bâtiment ou d'un bateau       | L      |
 | [DESTROY &#91;level&#93; STREET direction]                                 | Démolir la route                                     | L      |
 | [EMAIL email@adresse]                                                      | Définit l'adresse e-mail                             | C      |
-| [[cmd-end-fr]]                                                             | Termine l'ordre `MAKE TEMP`                          | C      |
+| [`END`][cmd-end-fr]                                                        | Termine l'ordre `MAKE TEMP`                          | C      |
 | [ENTER BUILDING &lt;building id&gt;]                                       | Entre dans un bâtiment                               | C      |
 | [ENTER SHIP &lt;ship id&gt;]                                               | Entre dans un bateau                                 | C      |
 | [ENTERTAIN &#91;amount&#93;]                                               | Gagne 20 silver ou plus                              | L      |
@@ -75,9 +75,9 @@ Plus d'information : [[ordres]].
 | [LANGUAGE en/de]                                                           | change la langue de la faction                       | C      |
 | [LEARN &lt;skill&gt;]                                                      | Apprend une compétence                               | L      |
 | [LEARN AUTO &lt;skill&gt;]                                                 | Apprentissage ou enseignement d'une compétence       | L      |
-| [[cmd-leave-fr]]                                                           | Schiff oder Gebäude verlassen                        | C      |
+| [`LEAVE`][cmd-leave-fr]                                                    | Schiff oder Gebäude verlassen                        | C      |
 | [LOCALE en/de]                                                             | Affiche la langue des ordres                         | C      |
-| [[cmd-make-fr]]                                                            | Fabrique un objet ou exploite une ressource          | L      |
+| [`MAKE`][cmd-make-fr]                                                      | Fabrique un objet ou exploite une ressource          | L      |
 | [MAKE &#91;&lt;amount&gt;&#93; &lt;item&gt;]                               |                                                      | L      |
 | [MAKE &#91;&lt;amount&gt;&#93; &lt;HERBS&gt;]                              | Récolte la plante locale                             | L      |
 | [MAKE &#91;&lt;amount&gt;&#93; potion]                                     | Produit une potion alchimique                        | L      |
@@ -101,7 +101,7 @@ Plus d'information : [[ordres]].
 | [NAME REGION "&lt;name&gt;"]                                               |                                                      | C      |
 | [NAME SHIP "&lt;name&gt;"]                                                 |                                                      | C      |
 | [NAME UNIT "&lt;name&gt;"]                                                 | Nomme des objets                                     | C      |
-| [[cmd-next-fr]]                                                            | Termine les ordres                                   | C      |
+| [`NEXT`][cmd-next-fr]                                                      | Termine les ordres                                   | C      |
 | [NUMBER BUILDING &#91;neue-nr&#93;]                                        |                                                      | C      |
 | [NUMBER FACTION &#91;neue-nr&#93;]                                         |                                                      | C      |
 | [NUMBER SHIP &#91;neue-nr&#93;]                                            |                                                      | C      |
@@ -126,7 +126,7 @@ Plus d'information : [[ordres]].
 | [PLANT &#91;&lt;number&gt;&#93; MALLORNSEEDS]                              | Plante des graines                                   | L      |
 | [PLANT &#91;&lt;number&gt;&#93; SEEDS]                                     | Plante des graines                                   | L      |
 | [PREFIX &#91;prefix&#93;]                                                  | Donne un préfixe au nom du peuple                    | C      |
-| [[cmd-promote-fr]]                                                         | Transforme l'unité en héros                          | C      |
+| [`PROMOTE`][cmd-promote-fr]                                                | Transforme l'unité en héros                          | C      |
 | [QUIT "&lt;password&gt;" &#91;FACTION &lt;faction id&gt;&#93;]             | Quitte le jeu                                        | C      |
 | [RECRUIT &lt;number&gt;][recruter]                                         | Recrute plus de personnes                            | C      |
 | [REGION x,y]                                                               | Aucune fonction (uniquement pour les outils)         | C      |
@@ -151,7 +151,7 @@ Plus d'information : [[ordres]].
 | [TEACH &lt;unit id&gt; &#91;&lt;unit id&gt;&#93;...]                       | Enseigne à des unités                                | L      |
 | [UNIT &lt;unit id&gt;]                                                     | Commence les ordres d'une unité                      | C      |
 | [USE  &#91;&lt;number&gt;&#93; potion]                                     | Utilise une potion alchimique                        | C      |
-| [[cmd-work-fr]]                                                            | Gagne 10 silver ou plus                              | L      |
+| [`WORK`][cmd-work-fr]                                                      | Gagne 10 silver ou plus                              | L      |
 
 [^1]: l'ordre n'est pas toujours long, voir [Fin de la bataille][fin-du-combat]
 [^2]: si l'unité suivie ne bouge pas, un autre ordre long peut être exécuté à la place

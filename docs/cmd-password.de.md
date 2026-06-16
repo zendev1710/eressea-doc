@@ -12,17 +12,17 @@ Am Anfang wird jeder Partei ein zufälliges Passwort zugeordnet.
 
 Beispiel:
 
-    ; in der zweiten Woche des Monats Herdfeuer
-    ERESSEA 11 "AltesPasswort"
-      PASSWORT "Falsch" ; kein Effekt
-       EINHEIT 75
-         PASSWORT "MoftZga" ; das gilt ab nächster Runde!
-         [...]
-        
-        
-    ; in der letzten Woche des Monats Herdfeuer
-    ERESSEA 11 "MoftZga"
-      [...]
+```text
+; in der zweiten Woche des Monats Herdfeuer
+ERESSEA 11 "AltesPasswort"
+PASSWORT "Falsch" ; kein Effekt
+EINHEIT 75
+    PASSWORT "MoftZga" ; das gilt ab nächster Runde!
+    [...]
+; in der letzten Woche des Monats Herdfeuer
+ERESSEA 11 "MoftZga"
+[...]
+```
 
 Vorsicht:
 
@@ -33,4 +33,4 @@ Vorsicht:
 
 <!-- From [https://wiki.eressea.de/index.php?title=PASSWORT&oldid=6276] -->
 
-[bef-eressea]: ./cmd-eressea.md
+[bef-eressea]: [[bef-eressea]]

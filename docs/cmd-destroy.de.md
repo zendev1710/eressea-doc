@@ -3,7 +3,10 @@
 alias: bef-zerstoere
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+
+[](){ #bef-zerstore-id }
+
 # ZERSTÖRE
 
 *[Langer Befehl][kurze-und-lange-befehle].*  

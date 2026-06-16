@@ -32,7 +32,7 @@ Einheiten an Bord von Schiffen in fremd bewachten Regionen können weder arbeite
 
 <!-- From [https://wiki.eressea.de/index.php?title=ARBEITE/de&oldid=11714] -->
 
-[bef-bewache]: ./cmd-guard.md
-[bef-unterhalte]: ./cmd-entertain.md
+[bef-bewache]: [[bef-bewache]]
+[bef-unterhalte]: [[bef-unterhalte]]
 
 [bef-helfe]: [[bef-helfe]]

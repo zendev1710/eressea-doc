@@ -7,13 +7,13 @@ alias: reserve-de-faction
 # Réserve de faction
 
 La réserve de faction contient des objets spéciaux, généralement placés là par le maître du jeu pour des occasions particulières (par exemple, Noël, les anniversaires d'Eressea).  
-N'importe quelle unité peut prendre des objets dans la réserve grâce à l'ordre [[cmd-claim-fr]].  
+N'importe quelle unité peut prendre des objets dans la réserve grâce à l'ordre [`CLAIM`][cmd-claim-fr].  
 **Les objets ne peuvent ensuite plus être remis dans la réserve**.
 
 Le but de la réserve de faction est de te permettre de choisir quelle unité utilisera un objet particulier.  
 Les objets de la réserve possèdent généralement des pouvoirs magiques spéciaux.
 
-Vous pouvez obtenir des informations sur ces pouvoirs en utilisant l'ordre [[cmd-show-fr]].  
+Vous pouvez obtenir des informations sur ces pouvoirs en utilisant l'ordre [`SHOW`][cmd-show-fr].  
 Cela fonctionne également si l'objet est déjà dans la réserve.  
 Cependant, ces informations peuvent être vagues, et vous devrez dans ce cas déterminer vous-même les effets réels de l'objet récupéré depuis la réserve.
 
@@ -33,3 +33,6 @@ Voici quelques objets qui ont été placés dans la réserve de faction jusqu'à
 Poursuivre la lecture : l'[[argent]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteipool&oldid=14411] -->
+
+[cmd-claim-fr]: [[cmd-claim-fr]]
+[cmd-show-fr]: [[cmd-show-fr]]

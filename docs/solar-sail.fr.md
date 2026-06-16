@@ -21,6 +21,9 @@ Malheureusement, certains utilisaient aussi leur Voile Solaire à des fins moins
 Cela s'est produit contre la volonté expresse du Gnome de Noël, et certains ont même tenté de dissimuler leurs agissements en renommant les bateaux.  
 Mécontent de la situation, le Gnome de Noël a jeté un sort qui a radicalement modifié le fonctionnement d'une Voile Solaire.  
 
-Vous pouvez en apprendre davantage à propos de la Voile Solaire grâce aux ordres [[cmd-show-fr]] et [[cmd-claim-fr]].  
+Vous pouvez en apprendre davantage à propos de la Voile Solaire grâce aux ordres [`SHOW`][cmd-show-fr] et [`CLAIM`][cmd-claim-fr].  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Sonnensegel&oldid=5701] -->
+
+[cmd-claim-fr]: [[cmd-claim-fr]]
+[cmd-show-fr]: [[cmd-show-fr]]

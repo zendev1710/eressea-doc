@@ -14,14 +14,14 @@ Il existe différents bâtiments à Eressea qui offrent différents avantages.
 
 ## Maintenance
 
-Ces coûts de maintenance sont généralement indépendants de la taille du bâtiment et doivent être payés au début du tour par le propriétaire du bâtiment, entre l'ordre [[cmd-give-fr]] et les ordres longs (voir [Séquence des ordres][sequence-des-ordres]).  
+Ces coûts de maintenance sont généralement indépendants de la taille du bâtiment et doivent être payés au début du tour par le propriétaire du bâtiment, entre l'ordre [`GIVE`][cmd-give-fr] et les ordres longs (voir [Séquence des ordres][sequence-des-ordres]).  
 Une unité ne peut donc pas collecter des impôts et ensuite payer sa maintenance avec l'argent collecté.  
 S'il n'y a pas d'argent à ce moment-là, le bâtiment ne fonctionne pas.  
 
 La maintenance est entièrement due dès que le bâtiment est construit; mais pas au tour où il est commencé avec l'ordre [`MAKE`` `*`type bâtiment`*][cmd-make-fr].  
 Cela a pour conséquence que les bâtiments qui sont achevés en un seul tour ne fonctionnent pas pendant la semaine de construction, car aucune maintenance n'a été payée au début de la semaine.  
 
-Si l'on manque de Silver, ou si l'on n'utilise pas un certain bâtiment au cours d'une semaine et que l'on souhaite économiser sa maintenance, l'unité commandant le bâtiment (voir section suivante) peut faire en sorte que la maintenance ne soit pas payée ce tour en utilisant l'ordre [[cmd-pay-not-fr]].  
+Si l'on manque de Silver, ou si l'on n'utilise pas un certain bâtiment au cours d'une semaine et que l'on souhaite économiser sa maintenance, l'unité commandant le bâtiment (voir section suivante) peut faire en sorte que la maintenance ne soit pas payée ce tour en utilisant l'ordre [`PAY-NOT`][cmd-pay-not-fr].  
 Le bâtiment n'a alors bien sûr aucune utilité pendant cette semaine.  
 
 ## Unités et bâtiments
@@ -36,7 +36,7 @@ Les unités qui ne rentrent plus - même partiellement - dans la capacité encor
 
 S'il y a plusieurs unités dans un bâtiment, elles sont interrogées dans l'ordre, de haut en bas.  
 La première unité trop grande "verrouille" alors le bâtiment pour celles qui suivent, même si les unités suivantes pourraient rentrer si la trop grande n'était pas là.  
-L'ordre [[cmd-sort-fr]] permet de remédier à cette situation.  
+L'ordre [`SORT`][cmd-sort-fr] permet de remédier à cette situation.  
 
 ## Construction
 
@@ -59,4 +59,7 @@ Poursuivre la lecture : [les châteaux][chateaux]{title="Castle"}.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Gebäude/fr&oldid=16680] -->
 
+[cmd-give-fr]: [[cmd-give-fr]]
 [cmd-make-fr]: [[cmd-make-fr]]
+[cmd-pay-not-fr]: [[cmd-pay-not-fr]]
+[cmd-sort-fr]: [[cmd-sort-fr]]

@@ -70,8 +70,8 @@ Conclusion : Quiconque s'intéresse aux tendances démographiques jette égaleme
 ## Entrepôt
 
 Dans une région, un entrepôt est géré par une unité prioritaire (par exemple, le seigneur du plus ancien château) qui reçoit les marchandises excédentaires.  
-Si une autre unité a besoin de ces marchandises, elle peut les récupérer (avec la réserve de ressources activée) grâce à l'ordre [[cmd-reserve-fr]].  
-Il est important que l'entrepôt soit prioritaire car [[cmd-reserve-fr]] parcourt les unités de la région et prélève les objets nécessaires auprès de la première unité disponible qui les possède.  
+Si une autre unité a besoin de ces marchandises, elle peut les récupérer (avec la réserve de ressources activée) grâce à l'ordre [`RESERVE`][cmd-reserve-fr].  
+Il est important que l'entrepôt soit prioritaire car [`RESERVE`][cmd-reserve-fr] parcourt les unités de la région et prélève les objets nécessaires auprès de la première unité disponible qui les possède.  
 De plus, cela permet de visualiser en un coup d'œil les objets disponibles.  
 
 !!! tip
@@ -90,7 +90,7 @@ Si une région manque d'argent pour nourrir tout le monde, par négligence ou vo
 Si un seul membre d'une unité souffre de la faim, l'unité entière subit le désavantage de voir ses compétences réduites de moitié.  
 Par conséquent, placer une unité de 100 collecteurs d'impôts tout en bas d'une région n'est peut-être pas la meilleure stratégie.  
 
-Les unités peuvent être triées dans l'ordre souhaité à l'aide de l'ordre' [[cmd-sort-fr]].
+Les unités peuvent être triées dans l'ordre souhaité à l'aide de l'ordre' [`SORT`][cmd-sort-fr].
 
 ## Routes maritimes sûres
 
@@ -134,3 +134,6 @@ Tout semble normal dans le rapport, mais l'unité surcharge le bateau en argent,
 - [Conseils][remarques]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tipps\_und\_Tricks&oldid=6990] -->
+
+[cmd-reserve-fr]: [[cmd-reserve-fr]]
+[cmd-sort-fr]: [[cmd-sort-fr]]

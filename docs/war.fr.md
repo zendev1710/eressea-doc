@@ -12,14 +12,14 @@ C'est pourquoi il faut toujours chercher des amis et des alliés, car "les amis 
 
 ## Les camps dans une bataille
 
-L'ordre [[cmd-attack-fr]] permet de lancer l'attaque contre l'adversaire.  
+L'ordre [`ATTACK`][cmd-attack-fr] permet de lancer l'attaque contre l'adversaire.  
 Les ordres `ATTACK` sont exécutés dans un ordre aléatoire.  
 Lors d'une attaque, les unités de tous les camps se rassemblent dans la région et se battent entre elles individuellement (personne par personne).  
 Une bataille dure au maximum six tours : cinq tours de combat réguliers et éventuellement encore le tour 0 (zéro), le [tour de tactique][tour-du-tacticien].  
 
 Le camp attaquant est constitué de toutes les unités qui ont donné des ordres `ATTACK` contre une ou plusieurs unités des défenseurs.  
 
-Le camp des défenseurs est composé des unités qui ont été attaquées, sur qui l'adversaire a donc donné l'ordre `ATTACK`*`unité-id`*, et de toutes les unités de la faction agressée qui sont prêtes à combattre (donc celles en [[cmd-combat-fr]]`,`[`COMBAT AGGRESSIVE`][cmd-combat-fr]`,`[`COMBAT REAR`][cmd-combat-fr] ou [`COMBAT DEFENSIVE`][cmd-combat-fr]).  
+Le camp des défenseurs est composé des unités qui ont été attaquées, sur qui l'adversaire a donc donné l'ordre `ATTACK`*`unité-id`*, et de toutes les unités de la faction agressée qui sont prêtes à combattre (donc celles en [`COMBAT`][cmd-combat-fr]`,`[`COMBAT AGGRESSIVE`][cmd-combat-fr]`,`[`COMBAT REAR`][cmd-combat-fr] ou [`COMBAT DEFENSIVE`][cmd-combat-fr]).  
 De plus, toutes les unités prêtes au combat des factions alliées aux factions attaquées, c'est-à-dire celles qui ont mis [`HELP COMBAT`][cmd-help-fr] avec la faction attaquée, apportent leur aide.
 
 Il y a donc différentes raisons pour lesquelles une unité participe au combat.  
@@ -35,7 +35,7 @@ Celles-ci sont classées par ordre de priorité :
 
 Les alliés n'aident donc automatiquement que les défenseurs et ***seulement si le défenseur n'a pas lui-même attaqué**.  
 Les unités attaquées se défendent avec toutes les unités de la faction, à moins que celles-ci ne se tiennent explicitement à l'écart du combat.  
-Pour l'attaquant, le statut de combat n'a pas d'importance : à part pour les défenseurs, seules les unités qui ont donné un ordre [[cmd-attack-fr]] sont engagées dans le combat.  
+Pour l'attaquant, le statut de combat n'a pas d'importance : à part pour les défenseurs, seules les unités qui ont donné un ordre [`ATTACK`][cmd-attack-fr] sont engagées dans le combat.  
 Cependant, les unités qui ont mis [`COMBAT NOT`][cmd-combat-fr] ou [`COMBAT FLEE`][cmd-combat-fr] ne peuvent pas attaquer.
 
 Ainsi, pour attaquer conjointement un ennemi, chaque faction attaquante doit attaquer au moins une unité de l'ennemi.  
@@ -106,9 +106,9 @@ Dans ce cas, d'autres ordres longs sont possibles.
 
 Durant la bataille, il y a quatre lignes de combat.  
 Celles-ci ne sont composées que des unités qui participent réellement au combat (voir ci-dessus).  
-Pour plus d'informations sur les statuts de combat, voir [[cmd-combat-fr]][`COMBAT`].
+Pour plus d'informations sur les statuts de combat, voir [`COMBAT`][cmd-combat-fr][`COMBAT`].
 
-1. ligne: Ici se trouvent toutes les unités qui ont mis [[cmd-combat-fr]] ou [`COMBAT AGGRESSIVE`][cmd-combat-fr].
+1. ligne: Ici se trouvent toutes les unités qui ont mis [`COMBAT`][cmd-combat-fr] ou [`COMBAT AGGRESSIVE`][cmd-combat-fr].
 2. ligne : Ici se trouvent toutes les unités qui ont mis [`COMBAT REAR`][cmd-combat-fr] ou [`COMBAT DEFENSIVE`][cmd-combat-fr].
 3. ligne : Ici se trouvent toutes les unités qui ont mis [`COMBAT NOT`][cmd-combat-fr].
 4. ligne : C'est ici que se trouvent toutes les unités qui cherchent simplement à s'échapper.
@@ -177,13 +177,13 @@ Pour un groupe de 10, cela peut aller de 0 à 10 personnes, mais la moyenne est 
 ## Héros
 
 Les héros sont des combattants particulièrement puissants.  
-Ils doivent avoir été préalablement promus avec l'ordre [[cmd-promote-fr]].  
+Ils doivent avoir été préalablement promus avec l'ordre [`PROMOTE`][cmd-promote-fr].  
 **Les héros peuvent attaquer 5 fois à chaque tour de combat**.
 
 !!! warning "Attention"
     Cela ne s'applique pas aux attaques magiques ni aux arbalètes ni aux catapultes.
 
-Pour plus d'informations, voir [[cmd-promote-fr]].
+Pour plus d'informations, voir [`PROMOTE`][cmd-promote-fr].
 
 ## Le combat entre deux personnes
 
@@ -419,7 +419,7 @@ Ces unités **peuvent toujours se déplacer après le combat**, même si elles n
 
 De plus, ces unités ne **peuvent pas garder** de régions.  
 Toute garde est automatiquement annulée lorsque l'unité de garde passe au statut `FLEE`.  
-Cela se produit au début du tour, ce qui signifie que tous les effets de [[cmd-guard-fr]] sont immédiatement annulés.
+Cela se produit au début du tour, ce qui signifie que tous les effets de [`GUARD`][cmd-guard-fr] sont immédiatement annulés.
 
 ## Combats à bord et depuis les navires
 
@@ -484,7 +484,7 @@ Cela fonctionne aussi si tu as attaqué toi-même (c'est-à-dire si tu as donné
 Si aucune unité amie ou alliée ne gardait la région au début du combat, les unités participantes ne pourront plus exécuter d'ordres longs après le combat.
 
 La seule exception concerne les unités avec le statut de combat [`COMBAT FLEE`][cmd-combat-fr] et les unités en mer.  
-Les unités avec le statut `COMBAT FLEE` peuvent se déplacer après une bataille s'ils ont défini l'un des ordres suivants : [[cmd-move-fr]], [[cmd-route-fr]] ou [`FOLLOW SHIP`][cmd-follow-fr].  
+Les unités avec le statut `COMBAT FLEE` peuvent se déplacer après une bataille s'ils ont défini l'un des ordres suivants : [[cmd-move-fr]], [`ROUTE`][cmd-route-fr] ou [`FOLLOW SHIP`][cmd-follow-fr].  
 Après une bataille en mer, vous pouvez toujours exécuter des ordres longs.
 
 ## Voir aussi
@@ -505,3 +505,6 @@ Poursuivre la lecture : [[alliances]].
 [cmd-leave-fr]: [[cmd-leave-fr]]
 [cmd-make-fr]: [[cmd-make-fr]]
 [cmd-piracy-fr]: [[cmd-piracy-fr]]
+[cmd-move-fr]: [[cmd-move-fr]]
+[cmd-route-fr]: [[cmd-route-fr]]
+[cmd-promote-fr]: [[cmd-promote-fr]]

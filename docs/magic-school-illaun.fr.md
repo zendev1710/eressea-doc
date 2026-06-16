@@ -8,7 +8,7 @@ alias: sorts-illaun
 
 Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de niveau croissant.  
 
-*Note : Dans les descriptions ci-dessous N représente le niveau spécifié sur les ordres [[cmd-cast-fr]] ou [[cmd-combatspell-fr]] lancés.*
+*Note : Dans les descriptions ci-dessous N représente le niveau spécifié sur les ordres [`CAST`][cmd-cast-fr] ou [`COMBATSPELL`][cmd-combatspell-fr] lancés.*
 
 ## Niveau 1
 
@@ -420,3 +420,6 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 `CAST "Create a Visioneye"`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Illaunzauber&oldid=7014] -->
+
+[cmd-cast-fr]: [[cmd-cast-fr]]
+[cmd-combatspell-fr]: [[cmd-combatspell-fr]]

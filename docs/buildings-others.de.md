@@ -132,7 +132,7 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 | Größenbegrenzung:          | keine                                 |
 | Kapazität:                 | Personen entsprechend Größe           |
 
-- In einer Pferdezucht können mit dem Befehl [ZÜCHTE] Pferde gezüchtet werden. Hierzu braucht der Pferdezüchter das Talent Pferdezucht und mindestens zwei Pferde.
+- In einer Pferdezucht können mit dem Befehl [ZÜCHTE][bef-zuchte-id] Pferde gezüchtet werden. Hierzu braucht der Pferdezüchter das Talent Pferdezucht und mindestens zwei Pferde.
 - Die Chance ein Pferd zu züchten entspricht dem Talent des Pferdezüchters. Zusätzlich hat er entsprechend seinem Talent mehrere Versuche. Hat ein Pferdezüchter T5, so hat er 5 Versuche zu je 5% ein Pferd zu züchten.
 - Für jeden Zuchtversuch benötigt der Züchter ein Pferd. Sind nicht genug Pferde vorhanden, verfallen die Versuche.
 
@@ -153,7 +153,7 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 - Der Eigentümer erhält 10% aller Handelseinnahmen, zusätzlich zu eventuellen Einnahmen durch Burgen.
 - Der Eigentümer erhält (2 \* Handeln)% aller Luxusgüter, die sich auf einlaufenden Schiffen befinden, es sei denn, die die Gegenstände tragende Einheit ist besser getarnt als die Wahrnehmung des Hafenmeisters (Schmuggel) oder der Schiffskapitän ist mit dem Hafenmeister alliiert.
 - In Regionen mit Hafen steigen die Preise für Luxusgüter mit einer Wahrscheinlichkeit von 20% (normalerweise 10%).
-- Ein Hafen funktioniert nur, wenn er voll ausgebaut ist. Es kann nur einen Hafen pro Region geben. Wer zuerst fertig ist, hat gewonnen ... Der halbfertige Hafen kann mit dem Befehl [ZERSTÖRE] zerstört werden.
+- Ein Hafen funktioniert nur, wenn er voll ausgebaut ist. Es kann nur einen Hafen pro Region geben. Wer zuerst fertig ist, hat gewonnen ... Der halbfertige Hafen kann mit dem Befehl [ZERSTÖRE][bef-zerstore-id] zerstört werden.
 
 ## Akademie
 
@@ -288,10 +288,8 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 
 Weiterlesen: [Parteipool][parteipool].
 
-[BENUTZE 1 Wasser des Lebens]: ./cmd-use.md
-[ZÜCHTE]: ./cmd-grow.md
-[ZERSTÖRE]: ./cmd-destroy.md
-[MACHE gebäudetyp]: ./cmd-make.md
+[BENUTZE 1 Wasser des Lebens]: [[bef-benutze]]
+[MACHE gebäudetyp]: [[bef-mache]]
 
 [bef-helfe]: [[bef-helfe]]
 [bef-mache]: [[bef-mache]]

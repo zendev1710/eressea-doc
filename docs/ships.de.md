@@ -6,7 +6,7 @@ alias: schiff
 <!-- markdownlint-disable MD042 MD052 -->
 # Schiff
 
-Schiffe werden dem Befehl [**`MACHE`**&#91;*`stufen`*&#93;*`Schiffstyp`*][1] gebaut.  
+Schiffe werden dem Befehl [**`MACHE`**&#91;*`stufen`*&#93;*`Schiffstyp`*][bef-mache] gebaut.  
 Existierende, unfertige oder beschädigte Schiffe werden mit **`MACHE`**&#91;*`stufen`*&#93;&nbsp;`SCHIFF`&nbsp;&#91;*`schiff-nr`*&#93; weitergebaut. Dafür braucht man Holz. Je komplexer das Schiff, um so schwerer ist es zu erbauen und zu kommandieren. Dies ist in der Tabelle weiter unten zusammengefasst. Um mit dem Bau eines Schiffes zu beginnen oder an einem Schiff weiterzubauen bzw. es zu reparieren, braucht die Einheit mindestens das angegebene Schiffbautalent. In der Tabelle ist aufgeführt, wie viel Holz benötigt wird, um ein Schiff zu bauen.
 Eine Einheit kann pro Runde (Talentstufe \* Personen / Mindesttalent) Holz verbauen.
 
@@ -142,8 +142,7 @@ Weiterlesen: [Gebäude][gebaude-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schiff&oldid=16111] -->
 
-[1]: ./cmd-make.md
-[umbenennen]: ./cmd-name.md
-[beschreiben]: ./cmd-describe.md
-
+[bef-mache]: [[bef-mache]]
+[umbenennen]: [[bef-benenne]]
+[beschreiben]: [[bef-beschreibe]]
 [bef-gib]: [[bef-gib]]

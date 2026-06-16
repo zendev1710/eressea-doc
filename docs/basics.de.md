@@ -30,7 +30,7 @@ Einheiten können nur eine lange [Aktion][kurze-und-lange-befehle] Aktion pro Wo
 
 ## Kampf
 
-Kämpfe in Regionen die man nicht [bewacht] sind immer lang, auch wenn deine ganze Partei von nur einem Kundschafter angegriffen wird, hindert dieser ALLE Einheiten, die er [attackiert] hat, daran ihren langen Befehl auszuführen.
+Kämpfe in Regionen die man nicht [bewacht][bef-bewache] sind immer lang, auch wenn deine ganze Partei von nur einem Kundschafter angegriffen wird, hindert dieser ALLE Einheiten, die er [attackiert][bef-attackiere] hat, daran ihren langen Befehl auszuführen.
 Du solltest also dafür sorgen, dass du spätestens ab der ersten Woche, in der deine Partei angegriffen werden kann, deine Regionen bewachst.
 
 [](){ #basics-hunger-de-id }
@@ -76,5 +76,5 @@ In der Regel reicht es nicht, eine Unterhalter-Einheit in den benachbarten Berg 
 
 <!-- From [https://wiki.eressea.de/index.php?title=Grundlagen&oldid=17000] -->
 
-[bewacht]: ./cmd-guard.md
-[attackiert]: ./cmd-attack.md
+[bef-attackiere]: [[bef-attackiere]]
+[bef-bewache]: [[bef-bewache]]

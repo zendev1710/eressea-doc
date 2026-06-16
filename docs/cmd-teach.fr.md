@@ -31,7 +31,7 @@ Si vous souhaitez enseigner des unités d'autres factions, vous devez avoir reç
 TEACH xxxx yyyy TEMP 2 zzzz
 ```
 
-Avec l'ordre [[cmd-learn-auto-fr]], le serveur **tente d'automatiser** l'apprentissage et l'enseignement dans une région au sein d'une faction.  
+Avec l'ordre [`LEARN-AUTO`][cmd-learn-auto-fr], le serveur **tente d'automatiser** l'apprentissage et l'enseignement dans une région au sein d'une faction.  
 
 !!! warning "Attention"
     L'utilisation simultanée d'ordres `TEACH` et `LEARN AUTO` par les unités d'une même faction dans une région n'est pas autorisée.
@@ -40,3 +40,4 @@ Avec l'ordre [[cmd-learn-auto-fr]], le serveur **tente d'automatiser** l'apprent
 
 [cmd-contact-fr]: [[cmd-contact-fr]]
 [cmd-help-fr]: [[cmd-help-fr]]
+[cmd-learn-auto-fr]: [[cmd-learn-auto-fr]]

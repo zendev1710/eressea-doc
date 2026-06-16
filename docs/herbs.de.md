@@ -10,7 +10,7 @@ alias: kraeuter
 
 **Kräuter** werden mit dem Befehl [MACHE KRÄUTER] gemacht.
 Je nach Talentwert in [Kräuterkunde][skill-krauterkunde-id] findet man mehr oder weniger Kräuter der Region, in der man sich befindet, wobei jede Region nur ein Kraut hat.
-Kräuter wachsen ähnlich wie Bäume nach; wenn man nicht aufpasst, kann man durchaus alle Kräuter einer Region pflücken und muss dann mittels [ZÜCHTE KRÄUTER] zuerst wieder welche anpflanzen.
+Kräuter wachsen ähnlich wie Bäume nach; wenn man nicht aufpasst, kann man durchaus alle Kräuter einer Region pflücken und muss dann mittels [ZÜCHTE KRÄUTER][bef-zuchte-id] zuerst wieder welche anpflanzen.
 Selbst dann kann nur das ursprünglich dort wachsende Kraut wieder angepflanzt werden.
 Im Zweifelsfall muss man ausprobieren, welches Kraut jemals hier gewachsen ist.
 
@@ -94,6 +94,5 @@ Weiterlesen: [Befehle][befehl].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kräuter&oldid=16100] -->
 
-[MACHE KRÄUTER]: ./cmd-make.md
-[ZÜCHTE KRÄUTER]: ./cmd-grow.md
-[FORSCHE KRÄUTER]: ./cmd-research.md
+[MACHE KRÄUTER]: [[bef-mache]]
+[FORSCHE KRÄUTER]: [[bef-forsche]]

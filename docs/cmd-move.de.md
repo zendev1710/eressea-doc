@@ -45,6 +45,6 @@ Vorlage nächste Woche:
 
 <!-- From [https://wiki.eressea.de/index.php?title=NACH&oldid=16729] -->
 
-[Defaultbefehle]: ./cmd-default.md
-[bef-route]: ./cmd-route.md
-[bef-folge]: ./cmd-follow.md
+[Defaultbefehle]: [[bef-default]]
+[bef-folge]: [[bef-folge]]
+[bef-route]: [[bef-route]]

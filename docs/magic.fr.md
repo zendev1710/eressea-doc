@@ -68,7 +68,7 @@ Bien entendu, l’apprentissage par l’application ne coûte pas d’argent.
 À chaque niveau que l'unité gagne en magie, elle peut acquérir de nouveaux sorts.  
 Il y a actuellement un sort dans chaque niveau, dans des cas exceptionnels plusieurs voire aucun.  
 Une fois que vous avez atteint un nouveau niveau, les paroles sont décrites dans l'évaluation.  
-Si vous avez oublié la description, vous pouvez la faire afficher à nouveau à l'aide de l'ordre [[cmd-show-fr]].
+Si vous avez oublié la description, vous pouvez la faire afficher à nouveau à l'aide de l'ordre [`SHOW`][cmd-show-fr].
 
 ```text
                                      Wunderdoktor
@@ -118,7 +118,7 @@ ou alors
 
 Il existe des sorts normaux, des sorts de pré-combat, des sorts de combat et des sorts d'après-combat.
 
-Les sorts normaux sont lancés à l'aide de la commande [[cmd-cast-fr]].  
+Les sorts normaux sont lancés à l'aide de la commande [`CAST`][cmd-cast-fr].  
 Leur effet se produit soit immédiatement (voir [[sequence-des-ordres]]) soit parfois plus tard, par exemple au début du tour suivant.  
 
 Les trois types de sorts de combat ne peuvent jamais être lancés en utilisant `CAST`.  
@@ -148,7 +148,7 @@ Syntax:
 ```
 <!-- TODO check if below is what german text meant -->
 Si un mage active des sorts de combat, ceux-ci sont automatiquement lancés dès qu'il participe au combat : soit en donnant l'ordre `ATTACK` lui-même, soit en étant entraîné dans la bataille par une attaque ciblant son camp (voir [Les camps dans une bataille][les-camps-dans-une-bataille]).  
-Cela peut également se produire même s'il est au statut de combat `COMBAT NOT` ou `FLEE`, dès lors qu'il est explicitement attaqué avec l'ordre [[cmd-attack-fr]] !
+Cela peut également se produire même s'il est au statut de combat `COMBAT NOT` ou `FLEE`, dès lors qu'il est explicitement attaqué avec l'ordre [`ATTACK`][cmd-attack-fr] !
 
 Un sort de pré-combat ou de post-combat est lancé une fois avant ou après le début du combat.  
 Un sort de combat normal une fois par round de combat, à condition que l'unité ait encore suffisamment d'aura (voir [aura][aura-fr-id]) et qu'elle soit encore en vie.
@@ -176,7 +176,7 @@ D'autre part, il existe des sorts (et éventuellement d'autres choses) qui coût
 Cela signifie que l'unité peut alors stocker moins d'aura maximale.  
 Il s’agit généralement de sorts ou d’artefacts magiques très puissants qui provoquent des effets permanents.
 
-[[cmd-cast-fr]] est un ordre pseudo-long comparable à [[cmd-attack-fr]].  
+[[cmd-cast-fr]] est un ordre pseudo-long comparable à [`ATTACK`][cmd-attack-fr].  
 Une unité peut donc lancer des sorts plusieurs fois par tour, mais ne peut exécuter aucun autre ordre long.  
 Mais il y a un hic : les coûts d’aura des sorts augmentent.  
 Le premier sort lancé par l'unité au cours d'un round coûte l'aura normale spécifiée dans le sort.  
@@ -245,7 +245,7 @@ CAST REGION <x> <y> "<Sort>"
 ```
 
 Le sort est ensuite lancé dans la région spécifiée.  
-Les coordonnées X et Y font référence au [[cmd-origin-fr]].  
+Les coordonnées X et Y font référence au [`ORIGIN`][cmd-origin-fr].  
 Cependant, cette modification augmente le coût de tous les composants du sort de façon exponentielle.  
 Le **coût** des composants matériels et de l'aura **est doublé par région de distance** entre l'emplacement de l'unité et la cible.  
 
@@ -301,8 +301,8 @@ D'autres sorts, désignés spécifiquement comme sorts de **Magie en mer** marqu
 ### Magie sur les gens et les objets
 
 Certains sorts peuvent être utilisés pour influencer avec la magie des personnes et des objets.  
-Il est à noter que la grande majorité des sorts à lancer sur des unités amies nécessitent que l'unité cible contacte le mage avec [[cmd-contact-fr]].  
-Les téléportations et autres enchantements peuvent être bien intentionnés, mais peuvent souvent être utilisés pour des méfaits, et avec [[cmd-contact-fr]], la cible signale qu'elle accepte l'enchantement.  
+Il est à noter que la grande majorité des sorts à lancer sur des unités amies nécessitent que l'unité cible contacte le mage avec [`CONTACT`][cmd-contact-fr].  
+Les téléportations et autres enchantements peuvent être bien intentionnés, mais peuvent souvent être utilisés pour des méfaits, et avec [`CONTACT`][cmd-contact-fr], la cible signale qu'elle accepte l'enchantement.  
 
 ### Rang
 
@@ -425,7 +425,7 @@ Ce fait est peut-être la seule raison pour laquelle l'Astral est resté une app
 Quiconque pénètre dans l'Astral - cela n'est possible que grâce à certains [sorts][liste-des-sorts] - disparaît complètement du monde réel.  
 Comme le monde réel, l’Astral est divisé en régions dont les points cardinaux sont connus.  
 Les unités situées en un point de l'Astral apparaissent dans le rapport et sont jouées comme les autres unités.  
-Vous pouvez ainsi recevoir des ordres comme [[cmd-move-fr]] et [[cmd-attack-fr]] et interagir avec d'autres entités de l'Astral.  
+Vous pouvez ainsi recevoir des ordres comme [`MOVE`][cmd-move-fr] et [`ATTACK`][cmd-attack-fr] et interagir avec d'autres entités de l'Astral.  
 Ils ne peuvent communiquer avec le monde normal que par magie.  
 
 Les sens des créatures du monde sont incapables de percevoir concrètement l'environnement de l'Astral.  
@@ -469,5 +469,11 @@ Poursuivre la lecture : [[ecoles-de-magie]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
 
+[cmd-attack-fr]: [[cmd-attack-fr]]
+[cmd-cast-fr]: [[cmd-cast-fr]]
 [cmd-combatspell-fr]: [[cmd-combatspell-fr]]
+[cmd-contact-fr]: [[cmd-contact-fr]]
 [cmd-learn-fr]: [[cmd-learn-fr]]
+[cmd-move-fr]: [[cmd-move-fr]]
+[cmd-show-fr]: [[cmd-show-fr]]
+[cmd-origin-fr]: [[cmd-origin-fr]]

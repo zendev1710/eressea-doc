@@ -29,7 +29,7 @@ Sind mehrere Einheiten in einem Gebäude, werden diese der Reihe nach von oben n
 
 ## Bau und Abriss
 
-Gebäude werden mit dem [[bef-mache]][`MACHE `*`Gebäude`*]-Befehl gebaut und erweitert. Wie bei anderen Produktionsbefehlen ist die Bauleistung von Talent (Burgenbau) und Größe der Baumeistereinheit und vom erforderlichen Mindesttalent abhängig. Eine Einheit kann pro Runde (Talentstufe x Personen / Mindesttalent) Größenpunkte bauen; du kannst also beispielsweise mit einer hinreichend guten Einheit und genug Steinen problemlos in einer Woche einen Turm bauen. Gebäude können mit dem Befehl [ZERSTÖRE] wieder abgerissen werden.
+Gebäude werden mit dem [[bef-mache]][`MACHE `*`Gebäude`*]-Befehl gebaut und erweitert. Wie bei anderen Produktionsbefehlen ist die Bauleistung von Talent (Burgenbau) und Größe der Baumeistereinheit und vom erforderlichen Mindesttalent abhängig. Eine Einheit kann pro Runde (Talentstufe x Personen / Mindesttalent) Größenpunkte bauen; du kannst also beispielsweise mit einer hinreichend guten Einheit und genug Steinen problemlos in einer Woche einen Turm bauen. Gebäude können mit dem Befehl [ZERSTÖRE][bef-zerstore-id] wieder abgerissen werden.
 
 ## Siehe auch
 
@@ -37,16 +37,13 @@ Gebäude werden mit dem [[bef-mache]][`MACHE `*`Gebäude`*]-Befehl gebaut und er
 - [Andere Gebäude][andere-gebaude-id]
 - [Produktion][produktion]
 - [Ausgaben][ausgaben]
-- [Zerstöre][4]
+- [Zerstöre][bef-zerstore-id]
 
 Weiterlesen: [Burgen][burgen].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Gebäude&oldid=16113] -->
 
-[`MACHE `*`Gebäude`*]: ./cmd-make.md
-[bef-sortiere]: ./cmd-sort.md
-[ZERSTÖRE]: ./cmd-destroy.md
-[4]: ./cmd-destroy.md
-[`BEZAHLE NICHT`]: ./cmd-pay-not.md
-
+[`MACHE `*`Gebäude`*]: [[bef-mache]]
+[bef-sortiere]: [[bef-sortiere]]
+[`BEZAHLE NICHT`]: [[bef-bezahle-nicht]]
 [bef-gib]: [[bef-gib]]

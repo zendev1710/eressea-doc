@@ -41,7 +41,7 @@ Rahel reconnut des forêts et des montagnes, de nombreux marais et quelques plai
 </div>
 
 Dans cet exemple, à l'emplacement (0,0) se trouve un marais, au nord-est à l'emplacement (0,1) une montagne.  
-Chaque faction d'Eressea a son propre système de coordonnées, qui peut être modifié avec l'ordre [[cmd-origin-fr]], par exemple pour l'aligner sur celui d'une autre faction.  
+Chaque faction d'Eressea a son propre système de coordonnées, qui peut être modifié avec l'ordre [`ORIGIN`][cmd-origin-fr], par exemple pour l'aligner sur celui d'une autre faction.  
 
 <div class="lore-dialogue">
 "Bien, mon enfant", confirma Selen au chat, bien plus jeune qu'elle.
@@ -92,7 +92,7 @@ Le type de terrain détermine également quelles [[plantes]] peuvent pousser dan
 Un alchimiste pourra concocter des [potions][potions-fr-id] utiles à partir de différents ingrédients.  
 Certaines herbes ne poussent que dans les déserts, d'autres ont besoin du climat humide d'un marais, il y a donc pour chaque terrain des herbes qui ne peuvent pousser que là.  
 Les herbes qui y poussent ne peuvent toutefois pas être modifiées.  
-Même si toutes les herbes de la région ont été arrachées, seule l'herbe qui y poussait à l'origine peut être replantée [[cmd-plant-fr]].  
+Même si toutes les herbes de la région ont été arrachées, seule l'herbe qui y poussait à l'origine peut être replantée [`PLANT`][cmd-plant-fr].  
 En cas de doute, il faut essayer de voir quelle herbe a déjà poussé ici.  
 En général, les herbes ne poussent pas dans les volcans.  
 
@@ -186,7 +186,7 @@ Le nombre d'arbres et de montures trouvés dans la région est également indiqu
 Les pierres et le fer n'y ont pas encore été découverts."
 </div>
 
-Les paysans vivant dans la région peuvent être recrutés dans sa faction avec l'ordre [[cmd-recruit-fr]], les arbres peuvent être abattus et les chevaux domestiqués avec l'ordre [[cmd-make-fr]].  
+Les paysans vivant dans la région peuvent être recrutés dans sa faction avec l'ordre [`RECRUIT`][cmd-recruit-fr], les arbres peuvent être abattus et les chevaux domestiqués avec l'ordre [`MAKE`][cmd-make-fr].  
 
 <div class="lore-dialogue">
 — "Très bien, Rahel. Et que disent les lignes en dessous ?"
@@ -367,8 +367,8 @@ Second mois d'été.
 ## Voir aussi
 
 - [L'argent][argent]
-- [[cmd-recruit-fr]]
-- [[cmd-entertain-fr]]
+- [`RECRUIT`][cmd-recruit-fr]
+- [`ENTERTAIN`][cmd-entertain-fr]
 
 Poursuivre la lecture : [faction][faction].
 
@@ -376,4 +376,8 @@ Poursuivre la lecture : [faction][faction].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welt/fr&oldid=16558] -->
 
+[cmd-entertain-fr]: [[cmd-entertain-fr]]
 [cmd-origin-fr]: [[cmd-origin-fr]]
+[cmd-make-fr]: [[cmd-make-fr]]
+[cmd-plant-fr]: [[cmd-plant-fr]]
+[cmd-recruit-fr]: [[cmd-recruit-fr]]

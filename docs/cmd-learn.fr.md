@@ -29,7 +29,7 @@ Une unité peut bénéficier de [l'enseignement d'un Maître][cmd-teach-fr] pour
 
 ## Apprentissage automatique
 
-Avec l'ordre [[cmd-learn-auto-fr]], le serveur **tentera d'automatiser** l'apprentissage et l'enseignement dans une région au sein d'une faction.
+Avec l'ordre [`LEARN-AUTO`][cmd-learn-auto-fr], le serveur **tentera d'automatiser** l'apprentissage et l'enseignement dans une région au sein d'une faction.
 
 !!! warning "Attention"
     L'utilisation simultanée d'ordres `TEACH` et `LEARN AUTO` par les unités d'une même faction dans une région n'est pas autorisée.

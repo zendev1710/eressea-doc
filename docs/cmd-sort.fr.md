@@ -23,6 +23,8 @@ Les limitations suivantes s'appliquent :
 - Le propriétaire d'un bâtiment ou le capitaine d'un bateau ne peut pas utiliser cet ordre
 
 Le tri s'effectue en toute fin du tour, après les déplacements.  
-Ainsi, les unités entrées dans une région par [[cmd-move-fr]] ou [[cmd-ride-fr]] peuvent être triées immédiatement.  
+Ainsi, les unités entrées dans une région par [`MOVE`][cmd-move-fr] ou [`RIDE`][cmd-ride-fr] peuvent être triées immédiatement.  
 
 [cmd-give-fr]: [[cmd-give-fr]]
+[cmd-move-fr]: [[cmd-move-fr]]
+[cmd-ride-fr]: [[cmd-ride-fr]]

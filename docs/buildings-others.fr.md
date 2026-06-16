@@ -204,7 +204,7 @@ Le coût **total** d'un port (de taille 25) est de : 125 pierres, 125 bois, 6250
 - Dans une région dotée d'un port, les prix des biens de luxe augmenteront avec une probabilité de 20 % au lieu des 10 % normaux.
 - Un port ne fonctionnera que s’il est entièrement construit.
   Il ne peut y avoir qu'un seul port par région. Celui qui termine un port en premier en est le propriétaire.
-  Un port à moitié terminé peut être détruit avec l'ordre [[cmd-destroy-fr]].
+  Un port à moitié terminé peut être détruit avec l'ordre [`DESTROY`][cmd-destroy-fr].
 
 Le nombre de bateaux dans un port est illimité.  
 
@@ -362,3 +362,4 @@ Poursuivre la lecture : [réserve de faction][reserve-de-faction].
 [cmd-help-fr]: [[cmd-help-fr]]
 [cmd-make-fr]: [[cmd-make-fr]]
 [cmd-use-fr]: [[cmd-use-fr]]
+[cmd-destroy-fr]: [[cmd-destroy-fr]]

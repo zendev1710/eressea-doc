@@ -235,4 +235,4 @@ Allerdings ist bisher auch nicht gut verstanden, inwieweit man in einer Region o
 
 <!-- From [https://wiki.eressea.de/index.php?title=Vertraute&oldid=15826] -->
 
-[bef-zeige]: ./cmd-show.md
+[bef-zeige]: [[bef-zeige]]

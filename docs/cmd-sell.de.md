@@ -26,4 +26,4 @@ Im Normalreport taucht immer nur ein Befehl auf. Dies ist aber nur, damit nicht 
 
 <!-- From [https://wiki.eressea.de/index.php?title=VERKAUFE&oldid=16784] -->
 
-[bef-kaufe]: ./cmd-buy.md
+[bef-kaufe]: [[bef-kaufe]]

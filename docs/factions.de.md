@@ -39,7 +39,7 @@ Jede Einheit besitzt eine eindeutige Nummer, die vom Computer vergeben wird und 
 
 Diese erste Einheit des Beispiels ist die Einheit der Partei, die diesen Report bekam. Sie besteht aus einem Menschen der eigenen Partei (wird nicht angezeigt), hat 20 Silber und kann mit Hiebwaffen kämpfen: in diesem Talent hat die Einheit die Stufe 1. Das Talent [Steuereintreiben][skill-steuereintreiben-id] beherrscht sie auf Stufe 2 (näheres im Kapitel [zu den Talenten][talente]). Wie man sieht, hat Konrad Rabenhelm ein Schwert. "TREIBE" ist der so genannte [Defaultbefehl]. Bekommt diese Einheit keine neuen Befehle für die nächste Runde, so wird sie weiterhin Steuern eintreiben. Im NR wird immer nur ein Defaultbefehl angezeigt, aber die Einheit kann unter Umständen mehrere haben, die nur im CR oder in der Zugvorlage sichtbar sind. Das wird im Kapitel über [Befehle][befehl] weiter erklärt.
 
-Einheiten haben einen "Kampfstatus", in diesem Fall "vorne". Die Einzelheiten kannst du im Kapital [Krieg][krieg] im Abschnitt [Kampfreihen][die-schlacht] sowie in der Erklärung zum Befehl [KÄMPFE] nachlesen.
+Einheiten haben einen "Kampfstatus", in diesem Fall "vorne". Die Einzelheiten kannst du im Kapital [Krieg][krieg] im Abschnitt [Kampfreihen][die-schlacht] sowie in der Erklärung zum Befehl [KÄMPFE][bef-kampfe-id] nachlesen.
 
 Eine Einheit kann eine Region bewachen (zu den Auswirkungen siehe [[bef-bewache]]). In diesem Fall steht bei ihr zusätzlich "bewacht die Region".
 
@@ -66,13 +66,11 @@ Weiterlesen: [Rassen][rassen].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteien&oldid=16699] -->
 
-[`ZEIGE "`*`Gegenstand`*`"`]: ./cmd-show.md
-[`MACHE TEMP`]: ./cmd-make.md
-[Defaultbefehl]: ./cmd-default.md
-[KÄMPFE]: ./cmd-combat.md
-[bef-bewache]: ./cmd-guard.md
-[parteigetarnt]: ./cmd-hide.md
-[bef-botschaft]: ./cmd-message.md
-
+[`ZEIGE "`*`Gegenstand`*`"`]: [[bef-zeige]]
+[`MACHE TEMP`]: [[bef-mache]]
+[Defaultbefehl]: [[bef-default]]
+[parteigetarnt]: [[bef-tarne]]
+[bef-bewache]: [[bef-bewache]]
+[bef-botschaft]: [[bef-botschaft]]
 [bef-gib]: [[bef-gib]]
 [bef-helfe]: [[bef-helfe]]

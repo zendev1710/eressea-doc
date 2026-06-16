@@ -194,9 +194,8 @@ Weiterlesen: [Krieg][krieg].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Materialpool&oldid=17006] -->
 
-[bef-mache]: ./cmd-make.md
-[bef-reserviere]: ./cmd-reserve.md
-[bef-benutze]: ./cmd-use.md
-[bef-zaubere]: ./cmd-cast.md
-
+[bef-benutze]: [[bef-benutze]]
 [bef-gib]: [[bef-gib]]
+[bef-mache]: [[bef-mache]]
+[bef-reserviere]: [[bef-reserviere]]
+[bef-zaubere]: [[bef-zaubere]]

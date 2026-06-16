@@ -8,7 +8,7 @@ alias: sorts-tybied
 
 Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de niveau croissant.  
 
-*Note : Dans les descriptions ci-dessous N représente le niveau spécifié sur les ordres [[cmd-cast-fr]] ou [[cmd-combatspell-fr]] lancés.*
+*Note : Dans les descriptions ci-dessous N représente le niveau spécifié sur les ordres [`CAST`][cmd-cast-fr] ou [`COMBATSPELL`][cmd-combatspell-fr] lancés.*
 
 ## Niveau 1
 
@@ -548,3 +548,6 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 `CAST "Sacrifice Strength" <unit-id> <Aura>`  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tybiedzauber&oldid=7486] -->
+
+[cmd-cast-fr]: [[cmd-cast-fr]]
+[cmd-combatspell-fr]: [[cmd-combatspell-fr]]

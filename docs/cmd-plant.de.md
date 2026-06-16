@@ -25,9 +25,7 @@ Spielererfahrung: Solthar`PFLANZE` und `ZÜCHTE` sind synonyme Befehle. Du kanns
 
 ## Siehe auch
 
-- [ZÜCHTE] Pferde
+- [ZÜCHTE Pferde][bef-zuchte-id]
 - [Rohstoffe][rohstoffe]
 
 <!-- From [https://wiki.eressea.de/index.php?title=PFLANZE&oldid=16730] -->
-
-[ZÜCHTE]: ./cmd-grow.md

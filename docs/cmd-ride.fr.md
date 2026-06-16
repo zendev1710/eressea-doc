@@ -42,7 +42,10 @@ Règles restrictives :
 ## Voir aussi
 
 - [[deplacements]]
-- [[cmd-move-fr]]
-- [[cmd-route-fr]]
+- [`MOVE`][cmd-move-fr]
+- [`ROUTE`][cmd-route-fr]
 
 <!-- From [https://wiki.eressea.de/index.php?title=RIDE&oldid=16721] -->
+
+[cmd-move-fr]: [[cmd-move-fr]]
+[cmd-route-fr]: [[cmd-route-fr]]

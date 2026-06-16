@@ -349,4 +349,4 @@ Weiterlesen: [Parteien][parteien].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welt/de&oldid=16560] -->
 
-[bef-unterhalte]: ./cmd-entertain.md
+[bef-unterhalte]: [[bef-unterhalte]]

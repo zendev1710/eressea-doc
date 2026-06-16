@@ -173,7 +173,7 @@ GIVE 123 ALL MEN
 ## Voir aussi
 
 - [[deplacements]]
-- [[cmd-give-fr]]
+- [`GIVE`][cmd-give-fr]
 
 Poursuivre la lecture : [bâtiments][batiments-id].
 
@@ -182,3 +182,4 @@ Poursuivre la lecture : [bâtiments][batiments-id].
 [cmd-describe-fr]: [[cmd-describe-fr]]
 [cmd-make-fr]: [[cmd-make-fr]]
 [cmd-name-fr]: [[cmd-name-fr]]
+[cmd-give-fr]: [[cmd-give-fr]]

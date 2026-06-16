@@ -1,6 +1,10 @@
 ---
 # cSpell:locale fr
-alias: cmd-group-fr
+alias: 
+    - cmd-group-fr
+    - cmd-group_fr
+    - cmd-groupfr
+    - cmdgroupfr
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
 <!-- markdownlint-disable MD041 MD042 MD052 -->

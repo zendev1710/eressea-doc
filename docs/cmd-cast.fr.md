@@ -23,7 +23,7 @@ L'utilisation des sorts est expliquée plus en détail dans le chapitre [Magie][
 Vous obtenez leur description lorsque vous récupérez le sort, et vous pouvez utiliser l'ordre [`SHOW ALL SPELLS`][cmd-show-fr] pour l'afficher à nouveau.  
 
 Les **sorts de combat** ne peuvent pas simplement être lancés.  
-Si vous souhaitez en utiliser un contre une unité, vous devez définir le statut [[cmd-combatspell-fr]] puis [attaquer][cmd-attack-fr] une unité (ou être attaqué).  
+Si vous souhaitez en utiliser un contre une unité, vous devez définir le statut [`COMBATSPELL`][cmd-combatspell-fr] puis [attaquer][cmd-attack-fr] une unité (ou être attaqué).  
 Cependant, cela peut déclencher de plus grandes batailles !  
 
 [^1]: bien que `CAST` ne soit pas un ordre long, il exclut les autres ordres longs. Mais vous pouvez lancer d'autres sorts.
@@ -32,3 +32,4 @@ Cependant, cela peut déclencher de plus grandes batailles !
 
 [cmd-attack-fr]: [[cmd-attack-fr]]
 [cmd-show-fr]: [[cmd-show-fr]]
+[cmd-combatspell-fr]: [[cmd-combatspell-fr]]

@@ -87,5 +87,5 @@ Manchmal bekommst du die Meldung, dass ein Schiff wegen Überladung nicht ablege
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tipps\_und\_Tricks&oldid=6990] -->
 
-[bef-reserviere]: ./cmd-reserve.md
-[bef-sortiere]: ./cmd-sort.md
+[bef-reserviere]: [[bef-reserviere]]
+[bef-sortiere]: [[bef-sortiere]]

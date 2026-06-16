@@ -2,6 +2,11 @@
 # cSpell:locale de
 alias: bef-praefix
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD041 MD042 -->
+
+[](){ #bef-prafix-id }
+
 # PRÄFIX
 
 **`PRÄFIX`**`[`*`präfix`*`]`  
@@ -14,4 +19,4 @@ Der Befehl kann sowohl im Kontext der gesamten Partei als auch im Gruppenkontext
 
 <!-- From [https://wiki.eressea.de/index.php?title=PRÄFIX&oldid=5733] -->
 
-[Gruppe]: ./cmd-group.md
+[Gruppe]: [[bef-gruppe]]

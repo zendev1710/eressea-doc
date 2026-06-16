@@ -23,8 +23,8 @@ Pour une unité de 10 personnes, 100 Silver sont réservés pour chaque personne
 
 ## Sources d'erreur
 
-- une unité `TEMP` ne peut pas réserver ! Les objets tout comme l'argent doivent leur être donnés en utilisant l'ordre [[cmd-give-fr]]
-- L'ordre `RESERVE` s'exéute avanr les ordres [[cmd-give-fr]] et [[cmd-recruit-fr]] dans la [[orders-sequence]]. Donc l'instruction `EACH` s'applique sur le nombre de personnes **avant** passation et recrutement
+- une unité `TEMP` ne peut pas réserver ! Les objets tout comme l'argent doivent leur être donnés en utilisant l'ordre [`GIVE`][cmd-give-fr]
+- L'ordre `RESERVE` s'exéute avanr les ordres [`GIVE`][cmd-give-fr] et [`RECRUIT`][cmd-recruit-fr] dans la [[orders-sequence]]. Donc l'instruction `EACH` s'applique sur le nombre de personnes **avant** passation et recrutement
 - Si les unités d'une faction réservent plus d'un objet donné que ce qui est disponible dans la région (dans la réserve d'objets) dans son ensemble, le résultat est difficile à prédire. Pour plus de détails, voir [[items-pool]]
 - Si le même article est réservé plusieurs fois par une même unité, seule le dernier ordre est valable et pris en compte
 
@@ -53,6 +53,9 @@ L'unité réservera une épée et 50 Silver.
 ## Voir aussi
 
 - [[items-pool]]
-- [[cmd-give-fr]]
+- [`GIVE`][cmd-give-fr]
 
 <!-- From [https://wiki.eressea.de/index.php?title=RESERVE&oldid=14809] -->
+
+[cmd-give-fr]: [[cmd-give-fr]]
+[cmd-recruit-fr]: [[cmd-recruit-fr]]

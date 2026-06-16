@@ -24,5 +24,5 @@ Die direkte Weitergabe des Gegenstandes ist noch in der selben Runde möglich, [
 
 <!-- From [https://wiki.eressea.de/index.php?title=BEANSPRUCHE&oldid=3992] -->
 
-[Benutzt]: ./cmd-use.md
-[bef-reserviere]: ./cmd-reserve.md
+[Benutzt]: [[bef-benutze]]
+[bef-reserviere]: [[bef-reserviere]]

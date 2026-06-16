@@ -81,7 +81,7 @@ Der Bestand an Mallornbäumen wird dabei um den gleichen Betrag reduziert, als w
 Die in einer Region wild lebenden Pferde können von Einheiten mit dem Talent [Pferdedressur][pferdedressur] mit dem Befehl [`MACHE Pferd`][bef-mache] gefangen werden.
 Wildpferde vermehren sich jede Runde.
 Sie sind platz- und freiheitsliebend, und so wandern einige von ihnen in Nachbarregionen ab, wenn dort weniger Pferde leben.
-Bereits eingefangene Pferde vermehren sich nur, wenn eine Einheit mit dem Talent [Pferdedressur][pferdedressur] sie in einer [Pferdezucht][pferdezucht] mit dem Befehl [`ZÜCHTE PFERDE`] züchtet.
+Bereits eingefangene Pferde vermehren sich nur, wenn eine Einheit mit dem Talent [Pferdedressur][pferdedressur] sie in einer [Pferdezucht][pferdezucht] mit dem Befehl [`ZÜCHTE PFERDE`][bef-zuchte-id] züchtet.
 
 Spielererfahrung (Solthar):
 
@@ -110,9 +110,7 @@ Weiterlesen: [Waren][waren].
 
 [Adamantium auf Wikipedia]: http://de.wikipedia.org/wiki/Adamantium
 
-[kontaktiert]: ./cmd-contact.md
-[bef-pflanze]: ./cmd-plant.md
-[`ZÜCHTE PFERDE`]: ./cmd-grow.md
-
+[kontaktiert]: [[bef-kontaktiere]]
+[bef-pflanze]: [[bef-pflanze]]
 [bef-helfe]: [[bef-helfe]]
 [bef-mache]: [[bef-mache]]

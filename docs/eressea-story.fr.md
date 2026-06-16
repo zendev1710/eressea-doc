@@ -447,4 +447,4 @@ Comme ceux-ci ne peuvent être évoqués qu'au plus tôt au deuxième tour du je
 <!-- From [https://wiki.eressea.de/index.php?title=Geschichte\_von\_Eressea&oldid=7324] -->
 
 [Wikipedia]: http://de.wikipedia.org/wiki/Eressea_PbeM
-[Xolgrim]: https://wiki.eressea.de./cmd-use.mdr:Xolgrim#XE-Artikel_von_Xolgrim "Benutzer:Xolgrim (wiki)"
+[Xolgrim]: https://wiki.eressea.de/Benutzer:Xolgrim#XE-Artikel_von_Xolgrim "Benutzer:Xolgrim (wiki)"

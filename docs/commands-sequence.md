@@ -101,7 +101,7 @@ Continue reading: [Short Description][list-of-orders].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehlsreihenfolge/en&oldid=13988] -->
 
-[MAKE TEMP]: ./cmd-make.md
-[GUARD NOT]: ./cmd-guard.md
-[GIVE CONTROL]: ./cmd-give.md
-[PAY NOT]: ./cmd-pay-not.md
+[MAKE TEMP]: [[cmd-make]]
+[GUARD NOT]: [[cmd-guard]]
+[GIVE CONTROL]: [[cmd-give]]
+[PAY NOT]: [[cmd-pay-not]]

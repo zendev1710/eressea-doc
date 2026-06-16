@@ -105,7 +105,7 @@ Die langen Befehle sind:
 - [[bef-unterhalte]],
 - [[bef-verkaufe]],
 - [[bef-zaubere]],
-- [[bef-zerstoere]],
+- [ZERSTÖRE][bef-zerstore-id],
 - [[bef-zuechte]]
 
 Alle anderen Befehle sind kurze Befehle ([Kurzbeschreibung][kurzbeschreibung] aller Befehle).  
@@ -177,4 +177,4 @@ Weiterlesen: [Befehlsreihenfolge][befehlsreihenfolge].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehl&oldid=16787] -->
 
-[`OPTION ZUGVORLAGE`]: ./cmd-option.md
+[`OPTION ZUGVORLAGE`]: [[bef-option]]

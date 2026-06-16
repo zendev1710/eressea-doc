@@ -69,8 +69,9 @@ Most insect warriors live in organized hives. They hate the cold and prefer the 
 - Summer Creatures: Insects cannot enter glaciers and cannot be recruited there. Insects that nevertheless enter a glacier lose hit points and suffer skill halving according to the normal [starvation][starvation] rule.
 - Hibernation: During the winter months of hearth fire, icewind and snowbane, insects can only recruit in deserts. However, [alchemists][skill-alchemy-id] can [produce][make-potions-id] a [potion of nest warmth][potion-of-nest-warmth] that makes recruitment in other terrains possible.
 - Carapace Armor: Insects are protected by their natural armor. This natural armor will be halved if the insects are wearing additional armor. (see this [combat table][races-and-their-characteristics]).
-- Tacticians: Insects get a bonus on the [tactics][tactics] skill when appearing in large numbers. An insect tactician gets (log<sub>10</sub> (amount of fighters in their army)) - 1 to their tactics skill. This can also result in a penalty if there are very few fighters! Mind that fighters in different [groups] usually appear in different armies!
-- Nomad Traders: Insects can [trade][silver-trade-id  in deserts and swamps without needing castles.
+- Tacticians: Insects get a bonus on the [tactics][tactics] skill when appearing in large numbers. An insect tactician gets (log<sub>10</sub> (amount of fighters in their army)) - 1 to their tactics skill. This can also result in a penalty if there are very few fighters!  
+  Mind that fighters in different [groups] usually appear in different armies!
+- Nomad Traders: Insects can [trade][silver-trade-id]  in deserts and swamps without needing castles.
 
 ## Cats
 
@@ -157,11 +158,11 @@ Continue reading: [skills-modifiers].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rassen/en&oldid=16644] -->
 
-[groups]: ./cmd-group.md
-[heroes]: ./cmd-promote.md
-
 [skills-modifiers]: [[skills-modifiers]]
 
 [cmd-combat]: [[cmd-combat]]
 [cmd-give]: [[cmd-give]]
 [cmd-hide]: [[cmd-hide]]
+
+[groups]: [[cmd-group]]
+[heroes]: [[cmd-promote]]

@@ -62,7 +62,7 @@ Einheiten mit dem Kampfstatus können sich nach dem Kampf noch bewegen (mit [[be
     Einheiten mit KÄMPFE FLIEHE oder KÄMPFE NICHT, kämpfen, falls sie attackiert werden und die ersten beiden Reihen überrannt.  
     Das heißt, Magier zaubern auch.  
     Prä- und Postkampfzauber werden (derzeit) selbst dann gezaubert, wenn die ersten Reihen nicht überrannt werden.  
-    Soll dies verhindert werden, kann man die [Kampfzauber] deaktivieren.  
+    Soll dies verhindert werden, kann man die [Kampfzauber][bef-kampfzauber] deaktivieren.  
 
 Katapulte zu bedienen ist eine Aufgabe, die viel Vorbereitung erfordert, daher werden Einheiten mit dem Kampfstatus KÄMPFE NICHT und KÄMPFE FLIEHE keine Munition verschießen, aber zu anderen Waffen greifen, so sie welche dabei haben und beherrschen.
 
@@ -82,4 +82,4 @@ Weitere Details unter [[bef-helfe]] und in den Kapiteln [Kampf][krieg] und [Alli
 
 <!-- From [https://wiki.eressea.de/index.php?title=KÄMPFE&oldid=7216] -->
 
-[Kampfzauber]: ./cmd-combatspell.md
+[bef-kampfzauber]: [[bef-kampfzauber]]

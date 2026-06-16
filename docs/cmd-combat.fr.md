@@ -68,7 +68,7 @@ Il est donc important de se demander si ce statut a du sens pour les occupants d
 
 Les unités avec ce statut de combat ne peuvent pas non plus [attaquer][cmd-attack-fr] ni [garder][cmd-guard-fr].  
 Si une unité de garde se place en `COMBAT FLEE`, la garde est immédiatement annulée, avec les conséquences correspondantes.  
-Les unités avec ce statut de combat peuvent toujours se déplacer après le combat (avec [[cmd-move-fr]], [[cmd-route-fr]], [[cmd-follow-fr]]).  
+Les unités avec ce statut de combat peuvent toujours se déplacer après le combat (avec [`MOVE`][cmd-move-fr], [`ROUTE`][cmd-route-fr], [`FOLLOW`][cmd-follow-fr]).  
 
 !!! warning "Attention"
     Les unités avec `COMBAT FLEE` ou `COMBAT NOT` se battront si elles sont attaquées et que les deux premières lignes sont débordées.  
@@ -106,7 +106,7 @@ Si une telle unité est spécifiquement attaquée, aucune autre unité ne sera e
 Bien entendu, cela ne s'applique que si d'autres unités ne possédant pas ce statut ne sont pas également attaquées.  
 
 Votre propre faction est toujours impliquée lorsqu'elle attaque, ou lorsqu'elle-même ou une faction qu'elle aide est attaquée.  
-Plus de détails sur [[cmd-help-fr]] :
+Plus de détails sur [`HELP`][cmd-help-fr] :
 
 - [La guerre][guerre]
 - [Les alliance][alliances]
@@ -118,3 +118,7 @@ L'ordre `COMBAT HELP` réactive le statut qui permet à l'unité d'être aidée 
 [cmd-attack-fr]: [[cmd-attack-fr]]
 [cmd-combatspell-fr]: [[cmd-combatspell-fr]]
 [cmd-guard-fr]: [[cmd-guard-fr]]
+[cmd-move-fr]: [[cmd-move-fr]]
+[cmd-route-fr]: [[cmd-route-fr]]
+[cmd-follow-fr]: [[cmd-follow-fr]]
+[cmd-help-fr]: [[cmd-help-fr]]

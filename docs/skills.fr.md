@@ -9,7 +9,7 @@ alias: competences
 Les compétences sont un élément essentiel qui définit une [unité][cmd-unit-fr] dans Eressea.
 Toutes les personnes d'une unité ont les mêmes compétences.
 Elles doivent d'abord les apprendre.
-Pour être précis, avec l'ordre [[cmd-learn-fr]], une unité peut faire une tentative par tour pour gagner un nouveau niveau.
+Pour être précis, avec l'ordre [`LEARN`][cmd-learn-fr], une unité peut faire une tentative par tour pour gagner un nouveau niveau.
 
 ## Progression par usage
 
@@ -32,7 +32,7 @@ Mais parfois, la valeur de compétence "brute" sans bonus est également nécess
 ## Apprendre des compétences
 
 Atteindre un nouveau niveau de compétence devient de plus en plus difficile à chaque niveau.
-En moyenne, la progression vers un nouveau niveau de compétence avec la commande [[cmd-learn-fr]] prend environ un nombre de semaines égal au niveau de compétence visé, sans tenir compte des modifications apportées par le [peuple][peuples] ou le terrain.
+En moyenne, la progression vers un nouveau niveau de compétence avec la commande [`LEARN`][cmd-learn-fr] prend environ un nombre de semaines égal au niveau de compétence visé, sans tenir compte des modifications apportées par le [peuple][peuples] ou le terrain.
 Le temps d'apprentissage minimal est d'1 semaine.
 La durée maximale d'apprentissage ne dépasse pas (2 x nouveau niveau − 1).
 Les valeurs extrêmes sont moins fréquentes que la valeur moyenne.
@@ -79,7 +79,7 @@ L'unité s2 n'est enseignée qu'à moitié en endurance et n'apprend donc que 50
     Si plusieurs unités de professeurs enseignent à plusieurs unités d'élèves dans différentes compétences ou niveaux de compétence, il est possible que certains élèves n'aient pas de professeur ou ne reçoivent pas le bon professeur.  
     Il n'est pas possible de faire autrement en raison de l'organisation interne d'Eressea.  
     Dans ce cas, vous devez créer des « relations claires » en restructurant les unités pédagogiques.  
-    Avec l'ordre [[cmd-learn-auto-fr]], le serveur tente d'automatiser l'apprentissage et l'enseignement dans une région.  
+    Avec l'ordre [`LEARN-AUTO`][cmd-learn-auto-fr], le serveur tente d'automatiser l'apprentissage et l'enseignement dans une région.  
     Cependant, comme cela est dû à une simple heuristique, il n’est pas garanti qu’une chaîne d’apprentissage optimale (à long terme) soit créée.  
 
 [[magie]], [alchimie][alchimie]{title="Alchemy"}, [herboristerie][herboristerie]{title="Herbalism"}, [espionnage][skill-espionnage-id]{title="Espionage"} et [tactique][tactique] sont des compétences particulièrement difficiles à acquérir et coûteuses.
@@ -94,7 +94,7 @@ Si l'unité en apprentissage ne dispose pas de suffisamment au moment du paiemen
 par exemple si elle n'a que 500 Silver sur 550, ses chances d'apprendre diminueront d'environ 10%.
 
 Dans de rares cas, une unité peut vouloir se débarrasser d'une compétence.
-Ceci est possible avec l'ordre [[cmd-forget-fr]].
+Ceci est possible avec l'ordre [`FORGET`][cmd-forget-fr].
 
 ## Mélanger les compétences
 
@@ -203,3 +203,6 @@ Poursuivre la lecture : [[liste-des-competences]].
 
 [cmd-teach-fr]: [[cmd-teach-fr]]
 [cmd-unit-fr]: [[cmd-unit-fr]]
+[cmd-learn-fr]: [[cmd-learn-fr]]
+[cmd-forget-fr]: [[cmd-forget-fr]]
+[cmd-learn-auto-fr]: [[cmd-learn-auto-fr]]

@@ -16,4 +16,4 @@ Wandernde Bauern arbeiten in der Woche der Wanderung nicht, verbrauchen aber tro
 
 <!-- From [https://wiki.eressea.de/index.php?title=Bauernwanderung&oldid=2447] -->
 
-[hier]: ./cmd-work.md
+[hier]: [[bef-arbeite]]

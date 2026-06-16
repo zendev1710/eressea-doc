@@ -69,7 +69,7 @@ Damit kann man Kampfzauber und andere Zaubersprüche verwenden. Das Lernen von M
 Das Talent wird benötigt um an [Pferde][pferd-und-wagen] zu gelangen. Man kann es auf zwei Arten anwenden:
 
 - Mit [[bef-mache]][`MACHE SAMEN`]`[`*`anzahl`*`] Pferd` fängt man Pferde aus der Region und zwar 1 Pferd pro Person und Talentstufe Pferdedressur. Natürlich maximal soviele Pferde wie in der Region sind.
-- Mit [`ZÜCHTE PFERDE`] kann man aus bestehenden Pferden neue züchten, dazu muss man sich jedoch in einer [Pferdezucht][pferdezucht] befinden.
+- Mit [`ZÜCHTE PFERDE`][bef-zuchte-id] kann man aus bestehenden Pferden neue züchten, dazu muss man sich jedoch in einer [Pferdezucht][pferdezucht] befinden.
 
 ## Reiten
 
@@ -149,10 +149,9 @@ Weiterlesen: [Tarnung][tarnung-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente&oldid=15200] -->
 
-[bef-kaufe]: ./cmd-buy.md
-[`FORSCHE KRÄUTER`]: ./cmd-research.md
-[`MACHE SAMEN`]: ./cmd-make.md
-[bef-pflanze]: ./cmd-plant.md
-[`ZÜCHTE PFERDE`]: ./cmd-grow.md
-[bef-spioniere]: ./cmd-spy.md
-[Bewachungen]: ./cmd-guard.md
+[bef-kaufe]: [[bef-kaufe]]
+[`FORSCHE KRÄUTER`]: [[bef-forsche]]
+[`MACHE SAMEN`]: [[bef-mache]]
+[bef-pflanze]: [[bef-pflanze]]
+[bef-spioniere]: [[bef-spioniere]]
+[Bewachungen]: [[bef-bewache]]

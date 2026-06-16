@@ -44,4 +44,4 @@ Im Computerreport und der [Zugvorlage][befehl] sind alle `KAUFE`- und `VERKAUFE`
 
 <!-- From [https://wiki.eressea.de/index.php?title=KAUFE&oldid=16746] -->
 
-[bef-verkaufe]: ./cmd-sell.md
+[bef-verkaufe]: [[bef-verkaufe]]

@@ -52,7 +52,7 @@ Die Wahrscheinlichkeit dafür ist (100 − SpionageSpion x 5 + WahrnehmungOpfer 
 
 ## Einschätzung
 
-Viele Völker lagern ihre Waren bei einer sehr gut getarnten Einheit pro Region ([Kampfstatus][]: `KÄMPFE NICHT` oder `FLIEHE`). Die Gegenstände sind so vor einer Vielzahl von Gefahren geschützt, solange kein gegnerischer Wahrnehmer den Tarner auffliegen lässt.
+Viele Völker lagern ihre Waren bei einer sehr gut getarnten Einheit pro Region ([Kampfstatus][bef-kampfe-id]: `KÄMPFE NICHT` oder `FLIEHE`). Die Gegenstände sind so vor einer Vielzahl von Gefahren geschützt, solange kein gegnerischer Wahrnehmer den Tarner auffliegen lässt.
 
 Neben diesen passiven Anwendungen von Tarnung kann man natürlich mit gut ausgebildeten Tarnern auf Informationsbeschaffung gehen oder die Möglichkeit des Diebstahls nutzen.
 
@@ -65,6 +65,5 @@ Weiterlesen: [Reisen][reisen].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tarnung&oldid=17029] -->
 
-[Bewacht]: ./cmd-guard.md
-[bef-beklaue]: ./cmd-steal.md
-[Kampfstatus]: ./cmd-combat.md
+[Bewacht]: [[bef-bewache]]
+[bef-beklaue]: [[bef-beklaue]]

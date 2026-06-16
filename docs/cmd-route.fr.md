@@ -10,7 +10,7 @@ alias: cmd-route-fr
 
 **`ROUTE`**` `*`himmelsrichtung`*`[`*`himmelsrichtung`*`...]`  
 
-Avec cet ordre, l'unité se déplace dans le monde d'Eressea de la même manière qu'avec l'ordre [[cmd-move-fr]].  
+Avec cet ordre, l'unité se déplace dans le monde d'Eressea de la même manière qu'avec l'ordre [`MOVE`][cmd-move-fr].  
 
 Cependant, avec l'odre `ROUTE`, il est possible de planifier une séquence de déplacements, de sorte qu'une unité se déplace toujours de la même façon entre deux points (ou plus), ou effectue un long trajet jusqu'à ce qu'elle atteigne sa destination.  
 Tous les déplacements traités sont renvoyés en fin d'ordre `ROUTE`.  
@@ -48,7 +48,10 @@ Et finalement, l'ordre devient identique à l'ordre initial.
 ## Voir aussi
 
 - [[deplacements]]
-- [[cmd-move-fr]]
-- [[cmd-follow-fr]]
+- [`MOVE`][cmd-move-fr]
+- [`FOLLOW`][cmd-follow-fr]
 
 <!-- From [https://wiki.eressea.de/index.php?title=ROUTE&oldid=16732] -->
+
+[cmd-move-fr]: [[cmd-move-fr]]
+[cmd-follow-fr]: [[cmd-follow-fr]]

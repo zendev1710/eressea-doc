@@ -80,7 +80,7 @@ UNIT sjur;          Fuhrmann Sjur [2;243$]
     ROUTE SW W PAUSE E NE PAUSE
 ```
 
-Le commentaire suivant l'ordre [[cmd-unit-fr]] est inséré dans le modèle d'évaluation par le programme ;  
+Le commentaire suivant l'ordre [`UNIT`][cmd-unit-fr] est inséré dans le modèle d'évaluation par le programme ;  
 après le nom de l'unité, entre crochets, figurent le nombre de personnes qui la composent et la somme d'argent dont elle dispose (ici, 4 personnes avec 100 pièces d'argent et 2 personnes avec 243 pièces d'argent).  
 
 Attention aux coûts d'entretien.  
@@ -120,10 +120,10 @@ Pour cela, vous aurez besoin de marchands et de chariots.
 Achetez un chariot et 2 chevaux au seigneur du château, ou construisez-en un vous-même.  
 
 Il n'est pas nécessaire d'être allié à des partenaires commerciaux.  
-Utilisez l'ordre [[cmd-contact-fr]] pour échanger des marchandises et de l'argent avec d'autres factions sans être allié.  
+Utilisez l'ordre [`CONTACT`][cmd-contact-fr] pour échanger des marchandises et de l'argent avec d'autres factions sans être allié.  
 
 L'un des tableaux les plus importants de ce guide est la [[sequence-des-ordres]], qui indique l'ordre de traitement des ordres par le serveur.  
-Il illustre, par exemple, que vous pouvez tout à fait donner des matières premières à un forgeron la semaine précédant le début de sa production ([[cmd-give-fr]] est en position 14, [[cmd-make-fr]] en position 22), mais vous ne pouvez pas lui donner de potions ni les utiliser immédiatement ([[cmd-use-fr]] est en position 7).
+Il illustre, par exemple, que vous pouvez tout à fait donner des matières premières à un forgeron la semaine précédant le début de sa production ([[cmd-give-fr]] est en position 14, [`MAKE`][cmd-make-fr] en position 22), mais vous ne pouvez pas lui donner de potions ni les utiliser immédiatement ([[cmd-use-fr]] est en position 7).
 
 Il n'y a pas de gagnants dans ce jeu.  
 La partie dure jusqu'à ce que vous perdiez espoir ou que vos ennemis vous aient anéantis.  
@@ -151,3 +151,7 @@ Poursuivre la lecture : [[xontormia-express]].
 [cmd-option-fr]: [[cmd-option-fr]]
 [cmd-password-fr]: [[cmd-password-fr]]
 [cmd-tax-fr]: [[cmd-tax-fr]]
+[cmd-give-fr]: [[cmd-give-fr]]
+[cmd-make-fr]: [[cmd-make-fr]]
+[cmd-use-fr]: [[cmd-use-fr]]
+[cmd-unit-fr]: [[cmd-unit-fr]]

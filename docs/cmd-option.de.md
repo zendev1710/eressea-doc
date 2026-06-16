@@ -38,4 +38,4 @@ Mit der Auswertung Nummer 559 wurden die Optionen Materialpool und Silberpool al
 
 <!-- From [https://wiki.eressea.de/index.php?title=OPTION&oldid=16703] -->
 
-[bef-reserviere]: ./cmd-reserve.md
+[bef-reserviere]: [[bef-reserviere]]

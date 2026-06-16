@@ -21,7 +21,7 @@ Cependant, ces familiers ont également la capacité d'accéder aux sorts de leu
 De plus, de nombreux familiers peuvent apprendre certaines compétences ou ont des compétences particulières.  
 Cependant, en raison de leur perspective fondamentalement différente, ils ne peuvent pas transmettre leurs connaissances en les enseignant.  
 Le familier confère au mage un bonus égal à la moitié de la valeur de la compétence (à l'exception de la magie) qu'il maîtrise.  
-Il est conseillé au mage de se rappeler précisément des compétences de son familier via un [[cmd-show-fr]].  
+Il est conseillé au mage de se rappeler précisément des compétences de son familier via un [`SHOW`][cmd-show-fr].  
 
 ## Peuples de Familiers
 
@@ -452,3 +452,5 @@ Un Aquarien ne devrait pas nécessairement se tenir à côté d'un lac intérieu
 Cependant, on ne comprend pas encore bien dans quelle mesure il est possible d'invoquer un familier flottant dans une région sans accès à une tuile océan (lac ou mer), ni comment cela change les chances d'obtenir un autre peuple de familier.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Vertraute/fr&oldid=15641] -->
+
+[cmd-show-fr]: [[cmd-show-fr]]

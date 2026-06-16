@@ -16,7 +16,9 @@ Mit `RESERVIERE ALLES`*`gegenstand`* reserviert eine Einheit von dem angegebenen
 
 Mit `RESERVIERE JE` werden *`anzahl`* Gegenstände *pro Person* reserviert.
 
-    RESERVIERE JE 100 Silber
+```text
+RESERVIERE JE 100 Silber
+```
 
 reserviert bei einer Einheit mit 10 Personen also 1000 Silber.
 
@@ -31,17 +33,21 @@ reserviert bei einer Einheit mit 10 Personen also 1000 Silber.
 
 Mit
 
-     RESERVIERE JE 1 Schwert
-     RESERVIERE JE 1 Schild
-     GIB depo ALLES
+```text
+RESERVIERE JE 1 Schwert
+RESERVIERE JE 1 Schild
+GIB depo ALLES
+```
 
 kann eine Einheit, auch nach einem verlustreichen Kampf, pro Person eine Waffe und einen Schild behalten und alles andere (Beute) an eine Depot-Einheit abgeben.
 
 Mit
 
-     @RESERVIERE 100 Silber
-     RESERVIERE 1 Schwert
-     RESERVIERE 50 Silber
+```text
+@RESERVIERE 100 Silber
+RESERVIERE 1 Schwert
+RESERVIERE 50 Silber
+```
 
 wird die Einheit ein Schwert und 50 Silber reservieren.
 
@@ -52,6 +58,5 @@ wird die Einheit ein Schwert und 50 Silber reservieren.
 
 <!-- From [https://wiki.eressea.de/index.php?title=RESERVIERE&oldid=14809] -->
 
-[bef-rekrutiere]: ./cmd-recruit.md
-
 [bef-gib]: [[bef-gib]]
+[bef-rekrutiere]: [[bef-rekrutiere]]

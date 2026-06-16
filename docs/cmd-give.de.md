@@ -134,5 +134,5 @@ Boote können keine Konvois bilden und die Schiffe müssen an der gleichen Küst
 
 <!-- From [https://wiki.eressea.de/index.php?title=GIB&oldid=16897] -->
 
-[bef-kontaktiere]: ./cmd-contact.md
-[bef-reserviere]: ./cmd-reserve.md
+[bef-kontaktiere]: [[bef-kontaktiere]]
+[bef-reserviere]: [[bef-reserviere]]

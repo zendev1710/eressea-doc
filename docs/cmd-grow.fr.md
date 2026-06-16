@@ -28,6 +28,8 @@ Il n'est pas possible de changer le type de plante d'une région, l'unité ne pe
 
 ## Voir aussi
 
-- [[cmd-plant-fr]] (pour les plantes, les arbres ou les graines)
+- [`PLANT`][cmd-plant-fr] (pour les plantes, les arbres ou les graines)
 
 <!-- From [https://wiki.eressea.de/index.php?title=GROW/fr&oldid=14489] -->
+
+[cmd-plant-fr]: [[cmd-plant-fr]]

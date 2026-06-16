@@ -27,7 +27,7 @@ Quelle qu'en soit la raison, sans accord préalable du maître de jeu, cela sera
 Une autre raison est souvent que la disparition d'une faction entraînerait un changement important dans l'équilibre des forces.
 Une alliance qui perd un membre important reprend la faction du joueur et la gère comme une seconde faction.
 Cela n'est pas non plus acceptable, sauf si cela a été convenu avec le meneur de jeu (il existe plusieurs anciennes factions pour lesquelles cela a été autorisé).
-Pour atténuer ce phénomène, nous avons l'ordre [[cmd-quit-fr]] avec l'argument FACTION, qui transfère les unités de la faction sortante à une faction alliée, ce qui garantit le respect de la limite d'unités et des plafonds pour les mages, héros, etc.
+Pour atténuer ce phénomène, nous avons l'ordre [`QUIT`][cmd-quit-fr] avec l'argument FACTION, qui transfère les unités de la faction sortante à une faction alliée, ce qui garantit le respect de la limite d'unités et des plafonds pour les mages, héros, etc.
 
 Plusieurs joueurs partageant un compte de messagerie ne peuvent pas être admis à Eressea.
 Le risque de tricherie est trop important.
@@ -49,7 +49,7 @@ L'adresse enregistrée doit exister et le joueur doit répondre dans les 14 jour
 
 L'envoi d'ordres pour d'autres factions est en principe interdit.
 La seule exception à cette règle concerne les remplacements de vacances.
-Pour que celles-ci soient légales, la faction à remplacer doit indiquer dans le [[cmd-banner-fr]] l'adresse e-mail et la durée exacte du remplacement.
+Pour que celles-ci soient légales, la faction à remplacer doit indiquer dans le [`BANNER`][cmd-banner-fr] l'adresse e-mail et la durée exacte du remplacement.
 Une prise en charge de courte durée dans le but de "dissoudre" la faction n'est pas un remplacement de vacances ! Les remplacements de vacances de plus de 3 semaines doivent être annoncés au préalable à la direction du jeu.
 **Le non-respect de cette règle entraîne la suppression de la faction.**
 
@@ -68,3 +68,6 @@ Poursuivre la lecture : [[conseils-pour-debutants]].
 <!-- From [https://wiki.eressea.de/index.php?title=Hinweise/fr&oldid=14039] -->
 
 [ce lien]: https://www.eressea.de/?page_id=189&lang=en
+
+[cmd-quit-fr]: [[cmd-quit-fr]]
+[cmd-banner-fr]: [[cmd-banner-fr]]

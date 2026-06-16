@@ -24,7 +24,7 @@ Mit `TARNE PARTEI NICHT` wird diese Anonymisierung wieder aufgehoben und andere 
 Es gibt keinen einfachen Weg, diese Form der Tarnung zu durchschauen.
 Um wieder der eigenen Partei zugehörig zu erscheinen, muß für `nummer` die eigene Parteinummer verwendet werden.
 Die angegebene Partei muss der Partei, welche den Befehl gibt, bekannt sein, d.h. in deren Report auftauchen, ansonsten schlägt der Befehl fehl.
-Parteien, die von der Partei oder Gruppe der Einheit [`HELFE xyz PARTEITARNUNG`][cmd-help] bekommen, können die wahre Parteizugehörigkeit der Einheit sehen.
+Parteien, die von der Partei oder Gruppe der Einheit [`HELFE xyz PARTEITARNUNG`][bef-helfe] bekommen, können die wahre Parteizugehörigkeit der Einheit sehen.
 
 Soweit, so einfach.
 Diese Tarnung bringt jedoch ein paar Besonderheiten mit sich, die hier in loser Reihenfolge aufgezählt werden:
@@ -54,4 +54,4 @@ Mit `TARNE rasse` können [Dämonen][damonen] sich als andere Rasse tarnen.
 
 <!-- From [https://wiki.eressea.de/index.php?title=TARNE&oldid=15791] -->
 
-[cmd-help]: [[cmd-help]]
+[bef-helfe]: [[bef-helfe]]

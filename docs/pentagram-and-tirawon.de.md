@@ -77,4 +77,4 @@ Die mit (\*) gekennzeichneten Parteien tauchen jeweils zweimal auf.
 
 [Ausführlicher Bericht aus der Sicht Tirawons]: http://members.chello.at/r.lang/eressea/pentagramm/index.html
 
-[falschem Banner]: ./cmd-hide.md
+[falschem Banner]: [[bef-tarne]]

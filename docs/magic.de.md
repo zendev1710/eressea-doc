@@ -116,8 +116,8 @@ Ihre Wirkung entfaltet sich entweder sofort (siehe [Befehlsreihenfolge][befehlsr
 
 Die drei Arten von Kampfzaubern können niemals mit ZAUBERE gezaubert werden.
 Stattdessen werden sie gezaubert, wenn die Einheit aktiv in einen Kampf verwickelt wird.
-Alle drei Arten können mit dem Befehl [KAMPFZAUBER STUFE n "Zauber"] gesetzt werden.
-Löschen kann man einen bestimmten Kampfzauber mit dem Befehl [KAMPFZAUBER "Zauber" NICHT][KAMPFZAUBER STUFE n "Zauber"] oder alle gesetzten Kampfzauber mit [KAMPFZAUBER NICHT][KAMPFZAUBER STUFE n "Zauber"].
+Alle drei Arten können mit dem Befehl [KAMPFZAUBER STUFE n "Zauber"][bef-kampfzauber] gesetzt werden.
+Löschen kann man einen bestimmten Kampfzauber mit dem Befehl [KAMPFZAUBER "Zauber" NICHT][bef-kampfzauber] oder alle gesetzten Kampfzauber mit [KAMPFZAUBER NICHT][bef-kampfzauber].
 Kampfzauber wirken in etwa wie die [KÄMPFE-Befehle][kampfreihen], d. h. einmal gesetzt, bleiben sie gespeichert.
 Eine Einheit kann maximal je einen Präkampfzauber, einen Kampfzauber und einen Postkampfzauber haben.
 Hat die Einheit beispielsweise schon einen Präkampfzauber und setzt einen neuen Präkampfzauber, so wird der alte durch den neuen ersetzt.
@@ -366,12 +366,11 @@ Weiterlesen: [[magiegebiete]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
 
-[bef-zeige]: ./cmd-show.md
-[bef-zaubere]: ./cmd-cast.md
-[KAMPFZAUBER STUFE n "Zauber"]: ./cmd-combatspell.md
-[bef-attackiere]: ./cmd-attack.md
-[bef-ursprung]: ./cmd-origin.md
-[bef-kontaktiere]: ./cmd-contact.md
-
+[bef-attackiere]: [[bef-attackiere]]
+[bef-kontaktiere]: [[bef-kontaktiere]]
 [bef-lerne]: [[bef-lerne]]
+[bef-kampfzauber]: [[bef-kampfzauber]]
 [bef-nach]: [[bef-nach]]
+[bef-ursprung]: [[bef-ursprung]]
+[bef-zaubere]: [[bef-zaubere]]
+[bef-zeige]: [[bef-zeige]]

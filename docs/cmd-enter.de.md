@@ -32,8 +32,7 @@ GIB u2 KOMMANDO
 
 <!-- From [https://wiki.eressea.de/index.php?title=BETRETE&oldid=7174] -->
 
-[bef-kontaktiere]: ./cmd-contact.md
-[bef-verlasse]: ./cmd-leave.md
-
 [bef-gib]: [[bef-gib]]
 [bef-helfe]: [[bef-helfe]]
+[bef-kontaktiere]: [[bef-kontaktiere]]
+[bef-verlasse]: [[bef-verlasse]]

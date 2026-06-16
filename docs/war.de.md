@@ -144,7 +144,7 @@ Dabei wird folgendermaßen vorgegangen:
 - Werte voneinander abziehen: Für jeden Punkt Differenz zwischen der Attacke des Angreifers und der Parade des Verteidigers wird jetzt die BT um 5% erhöht bzw erniedrigt. Die tatsächliche Trefferchance ergibt sich also aus folgender Formel: (Attacke(Angreifer)-Parade(Verteidiger)) \* 5% + 30%.
 - Anfängerglück: Schlägt der Angriff fehl, hat der Angreifer zusätzlich eine 10%ige Chance, seinen Angriff doch noch zu verwandeln: Er kann ein zweites Mal zuschlagen und zwar mit einer um 90 bis 99% (Zufall) erhöhten Trefferchance. Dadurch haben stark benachteiligte Kämpfer die Möglichkeit, zumindest einige Zufallstreffer zu landen.
 
-Jede Person attackiert einmal pro Kampfrunde (außer [Helden] und einigen Monstern).
+Jede Person attackiert einmal pro Kampfrunde (außer [Helden][bef-befordere-id] und einigen Monstern).
 
 Gelingt einem Kämpfer ein Treffer, so fügt er dem Gegner Schaden zu.
 Dabei verursachen verschiedene Waffen auch verschieden starken Schaden (Schadenspunkte, siehe [Waffeneigenschaften][waffeneigenschaften]).
@@ -395,11 +395,10 @@ Weiterlesen: [allianz][allianz].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg&oldid=16610] -->
 
-[`KÄMPFE`]: ./cmd-combat.md
-[bef-gruppe]: ./cmd-group.md
-[Helden]: ./cmd-promote.md
-[MACHE Katapultmunition]: ./cmd-make.md
-[`PIRATERIE <parteinummer> ...`]: ./cmd-piracy.md
+[`KÄMPFE`]: [bef-kampfe-id]
+[bef-gruppe]: [[bef-gruppe]]
+[MACHE Katapultmunition]: [[bef-mache]]
+[`PIRATERIE <parteinummer> ...`]: [[bef-piraterie]]
 
 [bef-attackiere]: [[bef-attackiere]]
 [bef-bewache]: [[bef-bewache]]

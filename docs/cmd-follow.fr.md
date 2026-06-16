@@ -51,10 +51,16 @@ Seul le premier est toujours exécuté.
 ## Voir aussi
 
 - [[deplacements]]
-- [[cmd-move-fr]]
-- [[cmd-route-fr]]
-- [[cmd-ride-fr]]
-- [[cmd-carry-fr]]
-- [[cmd-piracy-fr]]
+- [`MOVE`][cmd-move-fr]
+- [`ROUTE`][cmd-route-fr]
+- [`RIDE`][cmd-ride-fr]
+- [`CARRY`][cmd-carry-fr]
+- [`PIRACY`][cmd-piracy-fr]
 
 <!-- From [https://wiki.eressea.de/index.php?title=FOLLOW/fr&oldid=8283] -->
+
+[cmd-carry-fr]: [[cmd-carry-fr]]
+[cmd-move-fr]: [[cmd-move-fr]]
+[cmd-piracy-fr]: [[cmd-piracy-fr]]
+[cmd-route-fr]: [[cmd-route-fr]]
+[cmd-ride-fr]: [[cmd-ride-fr]]

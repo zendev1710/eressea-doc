@@ -10,7 +10,7 @@ Vor der Schlacht wird der beste Taktiker aller teilnehmenden Einheiten bestimmt.
 
 ## Situationsabhängige Boni auf Taktik
 
-Ein Taktiker, der in der ersten Reihe [kämpft][cmd-combat], bekommt einen Bonus von +1 auf sein Taktik-Talent. Steht er in der 3. oder 4. Reihe, reduziert sich sein Talent um 1.
+Ein Taktiker, der in der ersten Reihe [kämpft][bef-kampfe-id], bekommt einen Bonus von +1 auf sein Taktik-Talent. Steht er in der 3. oder 4. Reihe, reduziert sich sein Talent um 1.
 
 Auf das Talent Taktik gibt es auch einige Rassenboni die vom Terrain abhängig sind:
 

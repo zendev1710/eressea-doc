@@ -16,7 +16,7 @@ Un déplacement n'est possible que dans les six directions suivantes : nord-est
 !!! note "Note"
     Il n'est pas possible de se déplacer directement vers le nord ou le sud.  
 
-Pour se déplacer, il faudra renseigner la direction -ou les directions consécutives- à prendre, au moyen des ordres [[cmd-move-fr]] ou [[cmd-route-fr]] (déplacement planfié sur plusieurs tours).  
+Pour se déplacer, il faudra renseigner la direction -ou les directions consécutives- à prendre, au moyen des ordres [`MOVE`][cmd-move-fr] ou [`ROUTE`][cmd-route-fr] (déplacement planfié sur plusieurs tours).  
 
 La vitesse de déplacement se caractérise par le nombre de régions terrestres (ou de régions océaniques pour un bateau) que peut parcourir une unité en une seule fois.  
 
@@ -168,10 +168,10 @@ L'unité souhaitant être transportée doit donner l'ordre [`RIDE <ID-du-transpo
 Il est ainsi possible de transporter des unités (sans maîtrise de l'Équitation) sur des chevaux et dans des chariots.  
 L'unité de transport doit bien sûr avoir une capacité de transport suffisante pour les passagers et leurs possessions.  
 
-Par contre, avec [`FOLLOW UNIT <ID-unité-suivie>`][cmd-follow-fr] ou `FOLLOW SHIP <ID-bateau-suivi>`, c'est comme si l'unité avait elle-même donné un ordre [[cmd-move-fr]], si l'unité suivie (ou le bateau) a un ordre de déplacement.  
+Par contre, avec [`FOLLOW UNIT <ID-unité-suivie>`][cmd-follow-fr] ou `FOLLOW SHIP <ID-bateau-suivi>`, c'est comme si l'unité avait elle-même donné un ordre [`MOVE`][cmd-move-fr], si l'unité suivie (ou le bateau) a un ordre de déplacement.  
 L'unité qui suit doit porter son propre poids.  
 
-Les unités en déplacement peuvent être stoppées par des unités en garde dans une région (voir [[cmd-guard-fr]]).  
+Les unités en déplacement peuvent être stoppées par des unités en garde dans une région (voir [`GUARD`][cmd-guard-fr]).  
 
 Si une unité ou un bateau est trop lourdement chargé, il ne peut pas se déplacer.  
 Pour cela, le poids total de l'unité à transporter, y compris les marchandises et les *silvers* qu'elle transporte, est comparé à sa capacité de transport.  
@@ -183,10 +183,10 @@ Le tableau dans le chapitre [[objets]] référence le poids des marchandises.
 
 L'unité de transport doit bien sûr avoir une capacité de transport suffisante pour les passagers et leurs possessions.  
 
-Par contre, avec [`FOLLOW UNIT <ID-unité-suivie>`][cmd-follow-fr] ou `FOLLOW SHIP <ID-bateau-suivi>`, c'est comme si l'unité avait elle-même donné un ordre [[cmd-move-fr]], si l'unité suivie (ou le bateau) a un ordre de déplacement.  
+Par contre, avec [`FOLLOW UNIT <ID-unité-suivie>`][cmd-follow-fr] ou `FOLLOW SHIP <ID-bateau-suivi>`, c'est comme si l'unité avait elle-même donné un ordre [`MOVE`][cmd-move-fr], si l'unité suivie (ou le bateau) a un ordre de déplacement.  
 L'unité qui suit doit porter son propre poids.  
 
-Les unités en déplacement peuvent être stoppées par des unités en garde dans une région (voir [[cmd-guard-fr]]).  
+Les unités en déplacement peuvent être stoppées par des unités en garde dans une région (voir [`GUARD`][cmd-guard-fr]).  
 
 Si une unité ou un bateau est trop lourdement chargé, il ne peut pas se déplacer.  
 Pour cela, le poids total de l'unité à transporter, y compris les marchandises et les *silvers* qu'elle transporte, est comparé à sa capacité de transport.  
@@ -204,3 +204,6 @@ Poursuivre la lecture : [[naviguer]].
 [cmd-carry-fr]: [[cmd-carry-fr]]
 [cmd-follow-fr]: [[cmd-follow-fr]]
 [cmd-ride-fr]: [[cmd-ride-fr]]
+[cmd-move-fr]: [[cmd-move-fr]]
+[cmd-route-fr]: [[cmd-route-fr]]
+[cmd-guard-fr]: [[cmd-guard-fr]]

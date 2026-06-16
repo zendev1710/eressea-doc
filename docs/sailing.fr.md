@@ -17,10 +17,10 @@ Les bateaux peuvent cependant appareiller n'importe où, on peut donc construire
 Les bateaux ne peuvent pas passer directement d'une côte à une région côtière voisine sans naviguer d'abord sur une région océanique.  
 De même, ils ne peuvent pas partir dans toutes les directions, mais seulement dans la direction d'où ils sont venus et dans les directions voisines.  
 Un bateau venant de l'est (le rapport indique alors "côte est") peut donc partir vers l'est, le nord-est et le sud-est.  
-Cependant, si une région dispose d'un port, les bateaux du propriétaire du port et des factions amies (voir [[cmd-help-fr]]) peuvent aller dans d'autres directions à condition qu'il s'agisse de régions océaniques.  
+Cependant, si une région dispose d'un port, les bateaux du propriétaire du port et des factions amies (voir [`HELP`][cmd-help-fr]) peuvent aller dans d'autres directions à condition qu'il s'agisse de régions océaniques.  
 
 En haute mer - cad des régions océaniques qui ne sont pas bordées par une région terrestre - les bateaux peuvent dériver vers une région voisine et subir des dommages à cause de tempêtes.  
-Cela ne s'applique pas aux bateaux qui ordonnent des [[cmd-follow-fr]] ou [piraterie][piraterie-fr-id].  
+Cela ne s'applique pas aux bateaux qui ordonnent des [`FOLLOW`][cmd-follow-fr] ou [piraterie][piraterie-fr-id].  
 
 Pour pouvoir naviguer sur un bateau, il faut un équipage formé, c'est-à-dire des unités qui ont appris la compétence sailing.  
 Dans le tableau suivant, le niveau de compétence en sailing du capitaine (la première unité sur le bateau dans le rapport) est indiqué sous "Capitaine".  
@@ -71,26 +71,26 @@ Il est possible de regrouper plusieurs bateaux en [convoi][convoi].
 Les détails à ce sujet sont décrits dans le chapitre sur les [bateaux][bateaux-id].  
 
 Les unités qui se trouvent à bord d'un bateau ne sont peuvent exécuter d'ordres longs (à l'exception des aquariens).  
-Seul le capitaine d'un bateau peut donner des ordres de [[cmd-move-fr]] ou [[cmd-route-fr]] pour faire naviguer le bateau.  
-Sur une case d'océan (type de région océan) jusqu'à 100 aquariens embarqués peuvent gagner 10 Silver chacun avec l'ordre [[cmd-work-fr]].  
+Seul le capitaine d'un bateau peut donner des ordres de [`MOVE`][cmd-move-fr] ou [`ROUTE`][cmd-route-fr] pour faire naviguer le bateau.  
+Sur une case d'océan (type de région océan) jusqu'à 100 aquariens embarqués peuvent gagner 10 Silver chacun avec l'ordre [`WORK`][cmd-work-fr].  
 Néanmoins, toutes les unités à bord du bateau consomment l'entretien hebdomadaire, il faut donc toujours embarquer suffisamment de Silver.  
 
 Lorsque le bateau est à terre, toutes les unités à bord peuvent faire quelque chose ; elles vont pour ainsi dire à terre pour travailler.  
 Elles peuvent le faire même si le bateau part au cours du même tour.  
 Mais si la région est gardée par une faction non alliée, en addition aux conséquences habituelles de l'ordre GUARD, elles ne peuvent pas non plus [gagner d'argent][argent] avec `WORK`, `ENTERTAIN` ou `SELL`, comme elles pourraient le faire autrement.  
 
-Si des unités veulent quitter un bateau, elles doivent d'abord le faire avec [[cmd-leave-fr]].  
+Si des unités veulent quitter un bateau, elles doivent d'abord le faire avec [`LEAVE`][cmd-leave-fr].  
 Si la région n'est pas gardée par une faction non alliée, les unités peuvent se déplacer immédiatement avec MOVE, sinon elles ne pourront le faire qu'au tour suivant l'ordre LEAVE.  
-Cela s'applique bien sûr aussi à [[cmd-ride-fr]] et [[cmd-carry-fr]].  
+Cela s'applique bien sûr aussi à [`RIDE`][cmd-ride-fr] et [`CARRY`][cmd-carry-fr].  
 
 ## Nager
 
 Les [aquariens][aquariens] peuvent nager jusqu'à terre à partir d'un bateau qui se trouve dans une région océanique à côté de régions terrestres, mais pas l'inverse.  
-Cela fonctionne comme un mouvement normal avec [[cmd-move-fr]] et seulement si l'unité n'est pas surchargée.  
+Cela fonctionne comme un mouvement normal avec [`MOVE`][cmd-move-fr] et seulement si l'unité n'est pas surchargée.  
 Ils peuvent emporter des objets, mais pas de chevaux, même si l'unité qui nage peut les porter.  
 De même [transporter][cmd-carry-fr] des personnes d'autres peuples n'est pas possible de cette manière, mais les aquariens peuvent se transporter mutuellement.  
 Ce mouvement a lieu avant celui des bateaux, de sorte qu'un bateau peut déposer des unités puis poursuivre sa route.  
-[[cmd-leave-fr]] n'est pas nécessaire lorsque l'on nage à partir d'un bateau, mais ce n'est même pas une erreur.  
+[`LEAVE`][cmd-leave-fr] n'est pas nécessaire lorsque l'on nage à partir d'un bateau, mais ce n'est même pas une erreur.  
 
 ## Dommages aux bateaux
 
@@ -140,3 +140,10 @@ Poursuivre la lecture : [production][production-fr-id].
 
 [cmd-carry-fr]: [[cmd-carry-fr]]
 [cmd-make-fr]: [[cmd-make-fr]]
+[cmd-move-fr]: [[cmd-move-fr]]
+[cmd-route-fr]: [[cmd-route-fr]]
+[cmd-work-fr]: [[cmd-work-fr]]
+[cmd-follow-fr]: [[cmd-follow-fr]]
+[cmd-ride-fr]: [[cmd-ride-fr]]
+[cmd-help-fr]: [[cmd-help-fr]]
+[cmd-leave-fr]: [[cmd-leave-fr]]

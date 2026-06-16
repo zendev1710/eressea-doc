@@ -4,7 +4,7 @@ alias: cmd-name
 ---
 # NAME
 
-**`NAME UNIT "<name>"`*  
+**`NAME UNIT "<name>"`**  
 **`NAME FOREIGN UNIT <unit-id> "<name>"`**  
 **`NAME FOREIGNUNIT UNIT <unit-id> "<name>"`**  
 **`NAME FACTION "<name>"`**  

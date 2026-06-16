@@ -81,10 +81,9 @@ Weiterlesen: [Schiffsreise][schiffsreise].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Reisen&oldid=16133] -->
 
-[bef-route]: ./cmd-route.md
-[bef-transportiere]: ./cmd-carry.md
-[bef-folge]: ./cmd-follow.md
-[bef-bewache]: ./cmd-guard.md
-
+[bef-bewache]: [[bef-bewache]]
 [bef-fahre]: [[bef-fahre]]
+[bef-folge]: [[bef-folge]]
 [bef-nach]: [[bef-nach]]
+[bef-route]: [[bef-route]]
+[bef-transportiere]: [[bef-transportiere]]

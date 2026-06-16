@@ -216,10 +216,10 @@ Continue reading: [Material pool][items-pool].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Geld/en&oldid=16779] -->
 
-[collecting taxes]: ./cmd-tax.md
-[entertaining]: ./cmd-entertain.md
-[recruit]: ./cmd-recruit.md
-[reserved]: ./cmd-reserve.md
-[`WORK`]: ./cmd-work.md
+[collecting taxes]: [[cmd-tax]]
+[entertaining]: [[cmd-entertain]]
+[recruit]: [[cmd-recruit]]
+[reserved]: [[cmd-reserve]]
+[`WORK`]: [[cmd-work]]
 
 [cmd-help]: [[cmd-help]]

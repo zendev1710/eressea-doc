@@ -58,4 +58,4 @@ You can therefore (also) replace a lack of class in Tacticians with mass, but it
 
 <!-- From [https://wiki.eressea.de/index.php?title=Taktik/en&oldid=9952] -->
 
-[fighting]: ./cmd-combat.md
+[fighting]: [[cmd-combat]]

@@ -141,5 +141,5 @@ Weiterlesen: [Xontormia-Express][xontormia-express-de-id].
 [1]: https://discord.gg/JyAeYJw%7CDiscord
 [PbEm-Spiele-Forum]: http://www.pbem-spiele.de/
 
-[Passwort]: ./cmd-password.md
-[Unterhaltung]: ./cmd-entertain.md
+[Passwort]: [[bef-passwort]]
+[Unterhaltung]: [[bef-unterhalte]]

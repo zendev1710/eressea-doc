@@ -435,4 +435,4 @@ Since these can only be conjured up in the second round of the game at the earli
 <!-- From [https://wiki.eressea.de/index.php?title=Geschichte\_von\_Eressea&oldid=7324] -->
 
 [Wikipedia]: http://de.wikipedia.org/wiki/Eressea_PbeM
-[Xolgrim]: https://wiki.eressea.de./cmd-use.mdr:Xolgrim#XE-Artikel_von_Xolgrim
+[Xolgrim]: https://wiki.eressea.de/Benutzer:Xolgrim#XE-Artikel_von_Xolgrim

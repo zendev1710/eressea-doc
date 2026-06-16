@@ -97,12 +97,12 @@ Weiterlesen: [Produktion][produktion].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schiffsreise&oldid=15813] -->
 
-[bef-folge]: ./cmd-follow.md
-[bef-route]: ./cmd-route.md
-[bef-arbeite]: ./cmd-work.md
-[bef-verlasse]: ./cmd-leave.md
-[bef-transportiere]: ./cmd-carry.md
-[1]: ./cmd-make.md
+[bef-folge]: [[bef-folge]]
+[bef-route]: [[bef-route]]
+[bef-arbeite]: [[bef-arbeite]]
+[bef-verlasse]: [[bef-verlasse]]
+[bef-transportiere]: [[bef-transportiere]]
+[1]: [[bef-mache]]
 
 [bef-fahre]: [[bef-fahre]]
 [bef-helfe]: [[bef-helfe]]

@@ -78,9 +78,9 @@ Ils ne seront listés que dans le CR ou dans les modèles d'ordres.
 Plus d'informations à ce sujet dans le chapitre [[ordres]].
 
 Les unités ont un "combat status" (posture en combat), qui dans ce cas est "front" (devant).  
-Les détails sont expliqués dans le chapitre sur la [[guerre]] dans la section sur [lignes de combat][lignes-de-combat] et l'explication de l'ordre [[cmd-combat-fr]].
+Les détails sont expliqués dans le chapitre sur la [[guerre]] dans la section sur [lignes de combat][lignes-de-combat] et l'explication de l'ordre [`COMBAT`][cmd-combat-fr].
 
-Une unité peut garder une région (pour plus de détails sur les conséquences, voir [[cmd-guard-fr]]).  
+Une unité peut garder une région (pour plus de détails sur les conséquences, voir [`GUARD`][cmd-guard-fr]).  
 Cela sera noté par "guards the region" dans le rapport.
 
 Enfin, une unité peut être blessée lors d'un [combat][guerre] ou d'une [famine][famine].  
@@ -91,7 +91,7 @@ Cela signifie qu'elle possède au moins 500 Silver.
 Si elle avait plus de 5 000 Silver, vous verriez un coffre d'argent.  
 Vous ne pouvez pas voir à quelle faction appartient l'unité car elle est [masquée][cmd-hide-fr], c'est-à-dire qu'elle ne révèle pas la faction à laquelle elle appartient.  
 Ce n'est probablement pas un choix très judicieux pour un "Botschafter" (ambassadeur), car vous n'avez même pas l'adresse e-mail de la faction.  
-La seule chose que vous pouvez faire est de lui envoyer un [[cmd-message-fr]].
+La seule chose que vous pouvez faire est de lui envoyer un [`MESSAGE`][cmd-message-fr].
 
 Enfin, des alliés [Trolls][trolls-fr-id]{title="Trolls"} transportent des gems (joyaux).  
 En plus des [Humains][humains]{title="Humans"}, [Nains][nains]{title="Dwarves"}, et [Trolls][trolls-fr-id]{title="Trolls"}, il y a beaucoup d'autres peuples en Eressea.  
@@ -122,10 +122,13 @@ Poursuivre la lecture : [les peuples][peuples].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteien/fr&oldid=16447] -->
 
+[cmd-combat-fr]: [[cmd-combat-fr]]
 [cmd-default-fr]: [[cmd-default-fr]]
 [cmd-give-fr]: [[cmd-give-fr]]
+[cmd-guard-fr]: [[cmd-guard-fr]]
 [cmd-help-fr]: [[cmd-help-fr]]
 [cmd-hide-fr]: [[cmd-hide-fr]]
 [cmd-make-fr]: [[cmd-make-fr]]
+[cmd-message-fr]: [[cmd-message-fr]]
 [cmd-show-fr]: [[cmd-show-fr]]
 [cmd-tax-fr]: [[cmd-tax-fr]]

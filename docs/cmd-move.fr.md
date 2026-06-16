@@ -52,8 +52,12 @@ LEARN Ride
 ## Voir aussi
 
 - [[deplacements]]
-- [[cmd-route-fr]]
-- [[cmd-follow-fr]]
-- [[cmd-default-fr]]
+- [`ROUTE`][cmd-route-fr]
+- [`FOLLOW`][cmd-follow-fr]
+- [`DEFAULT`][cmd-default-fr]
 
 <!-- From [https://wiki.eressea.de/index.php?title=MOVE&oldid=16729] -->
+
+[cmd-default-fr]: [[cmd-default-fr]]
+[cmd-follow-fr]: [[cmd-follow-fr]]
+[cmd-route-fr]: [[cmd-route-fr]]

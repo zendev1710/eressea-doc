@@ -96,22 +96,22 @@ Les paysans affamés peuvent ressusciter plus tard sous la forme de [morts-vivan
 
 ### Travail
 
-Une unité peut gagner de l'argent en travaillant dans l'agriculture (voir l'ordre [[cmd-work-fr]]).  
+Une unité peut gagner de l'argent en travaillant dans l'agriculture (voir l'ordre [`WORK`][cmd-work-fr]).  
 Cependant, plus les forêts sont denses dans une région, moins il y a de surface cultivable, et moins les paysans (et aussi les unités de joueurs) peuvent travailler : par arbre, huit paysans ou joueurs ne peuvent plus travailler et chaque pousse d'arbre occupe 4 emplois.  
-Le nombre maximal de personnes pouvant travailler (et non pas habiter) dans une région dépend également du type terrain (voir le tableau de la commande [[cmd-work-fr]]).  
+Le nombre maximal de personnes pouvant travailler (et non pas habiter) dans une région dépend également du type terrain (voir le tableau de la commande [`WORK`][cmd-work-fr]).  
 
 Un paysan gagne normalement 11 Silver par tour.  
 Ce salaire peut augmenter jusqu'à 16 Silver par paysan et par tour grâce au bonus d'une citadelle (voir aussi [ce tableau][apercu]).  
 Par exemple, si une citadelle est construite dans une plaine et que la forêt est coupée, 10000 paysans peuvent se nourrir en un tour et 60000 Silver supplémentaires sont ajoutés aux réserves de la région.  
 
 Les unités des joueurs travaillant gagnent cependant moins - après tout, ce ne sont que des ouvriers auxiliaires.  
-Le montant qu'elles peuvent gagner (1 silver de moins que les paysans) est indiqué d'une part dans le rapport, d'autre part dans le tableau de l'ordre [[cmd-work-fr]].  
+Le montant qu'elles peuvent gagner (1 silver de moins que les paysans) est indiqué d'une part dans le rapport, d'autre part dans le tableau de l'ordre [`WORK`][cmd-work-fr].  
 
 Garder empêche de travailler uniquement les unités se trouvant à l'intérieur d'un bateau (sauf en cas d'utilisation de `HELP`).  
 
 ### Collecter les impôts
 
-Les unités armés et entraînés peuvent extorquer 20 Silver aux paysans avec l'ordre [[cmd-tax-fr]] par personne et par niveau de compétence.  
+Les unités armés et entraînés peuvent extorquer 20 Silver aux paysans avec l'ordre [`TAX`][cmd-tax-fr] par personne et par niveau de compétence.  
 Pour cela, il faut bien sûr la compétence Taxation, mais aussi une arme par personne (les catapultes ne comptent pas) et la compétence correspondante pour la maîtriser.  
 
 Si le nombre de paysans est près du maximum de population, presque toutes les réserves de silver de la région seront utilisées par les paysans, de sorte qu'ils n'auront plus de Silver "à disposition" pour les impôts.  
@@ -155,7 +155,7 @@ Garder empêche le divertissement uniquement pour les unités se trouvant à l'i
 ### Le vol : la méthode malhonnête
 
 Outre les moyens honnêtes de gagner de l'argent, il existe une variante malhonnête : le vol.  
-Les unités qui se sont dissimulées peuvent essayer de voler des Silver à d'autres unités avec l'ordre [[cmd-steal-fr]].  
+Les unités qui se sont dissimulées peuvent essayer de voler des Silver à d'autres unités avec l'ordre [`STEAL`][cmd-steal-fr].  
 
 Si la compétence de [discrétion][skill-discretion-id]{title="Stealth"} du voleur est supérieure à la [perception][skill-perception-fr-id]{title="Perception"}de la meilleure unité de la faction volée dans la région, il vole 50 silver par point de différence de compétences.  
 
@@ -169,7 +169,7 @@ Dans toutes les régions qui ne produisent pas ce bien, il existe une demande to
 Ceux qui n'ont pas peur des risques liés aux voyages peuvent gagner beaucoup d'argent grâce au commerce.  
 
 Pour faire du commerce, il faut être compétent en [commerce][commerce]{title="Trade"}.  
-Une personne (ou une unité) peut acheter et/ou vendre au maximum 10 produits de luxe par niveau de compétence, voir [[cmd-buy-fr]] et [[cmd-sell-fr]].  
+Une personne (ou une unité) peut acheter et/ou vendre au maximum 10 produits de luxe par niveau de compétence, voir [`BUY`][cmd-buy-fr] et [`SELL`][cmd-sell-fr].  
 Les quantités respectives de biens échangés sont totalement arbitraires.  
 Par exemple, une unité composée d'une personne avec une compétence de niveau 4 en commerce peut acheter 20 Gems et vendre 12 Soies et 8 Baumes par tour.  
 
@@ -294,25 +294,32 @@ Il est préférable de bien s'entendre avec tes colocataires s'ils sont amicaux.
 Si la région est gardée par une faction étrangère, aucune de nos propres unités ne peut collecter d'impôts ni recruter.
 Le travail, le divertissement et le commerce sont toutefois possibles, à moins que l'unité ne se trouve sur un bateau.
 
-Si toutes les factions qui gardent ont paramétré [`HELP GUARD`][cmd-help-fr] ou [`HELP ALL`][cmd-help-fr] avec notre faction ou un ordre [[cmd-contact-fr]] avec notre unité ou notre faction, alors la garde n'a pas d'effet.
+Si toutes les factions qui gardent ont paramétré [`HELP GUARD`][cmd-help-fr] ou [`HELP ALL`][cmd-help-fr] avec notre faction ou un ordre [`CONTACT`][cmd-contact-fr] avec notre unité ou notre faction, alors la garde n'a pas d'effet.
 Cela s'applique également si notre unité n'est pas vue en raison d'un niveau de stealth suffisamment bon.
 Pour une unité `TEMP` (particulièrement pertinente lors du recrutement), l'unité "mère" compte, c'est à dire l'unité qui donne l'ordre `MAKE TEMP`.
 
 ## Voir aussi
 
-- [[cmd-give-fr]]
-- [[cmd-reserve-fr]]
-- [[cmd-recruit-fr]]
+- [`GIVE`][cmd-give-fr]
+- [`RESERVE`][cmd-reserve-fr]
+- [`RECRUIT`][cmd-recruit-fr]
 - [La réserve d'objets][reserve-d-objets-id]
 - [stealth]
-- [[cmd-guard-fr]]
+- [`GUARD`][cmd-guard-fr]
 
 Poursuivre la lecture : [la réserve d'objets][reserve-d-objets-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Geld/fr&oldid=16925] -->
 
+[cmd-buy-fr]: [[cmd-buy-fr]]
 [cmd-entertain-fr]: [[cmd-entertain-fr]]
 [cmd-help-fr]: [[cmd-help-fr]]
 [cmd-reserve-fr]: [[cmd-reserve-fr]]
 [cmd-tax-fr]: [[cmd-tax-fr]]
 [cmd-work-fr]: [[cmd-work-fr]]
+[cmd-contact-fr]: [[cmd-contact-fr]]
+[cmd-give-fr]: [[cmd-give-fr]]
+[cmd-recruit-fr]: [[cmd-recruit-fr]]
+[cmd-guard-fr]: [[cmd-guard-fr]]
+[cmd-steal-fr]: [[cmd-steal-fr]]
+[cmd-sell-fr]: [[cmd-sell-fr]]

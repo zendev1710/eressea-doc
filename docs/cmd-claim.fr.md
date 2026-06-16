@@ -22,8 +22,9 @@ Les objets réclamés vont à l'unité qui a passé l'odre `CLAIM`.
 L'objet peut être transmis directement au cours du même tour, mais il ne peut être [utilisé][cmd-use-fr] que la semaine suivante.  
 
 !!! warning "Attention"
-    Ne pas confondre réserve de faction et [réserve d'objets][reserve-d-objets-id], à laquelle vous pouvez accéder avec l'ordre [[cmd-reserve-fr]] !
+    Ne pas confondre réserve de faction et [réserve d'objets][reserve-d-objets-id], à laquelle vous pouvez accéder avec l'ordre [`RESERVE`][cmd-reserve-fr] !
 
 <!-- From [https://wiki.eressea.de/index.php?title=CLAIM&oldid=3992] -->
 
 [cmd-use-fr]: [[cmd-use-fr]]
+[cmd-reserve-fr]: [[cmd-reserve-fr]]

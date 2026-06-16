@@ -1,6 +1,9 @@
 ---
 # cSpell:locale fr
-alias: cmd-language-fr
+alias: 
+    - cmd-language-fr
+    - cmd-language_fr
+    - cmd-languagefr
 ---
 <!-- disable MD052 because of mkdocs autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->
@@ -20,6 +23,8 @@ Le serveur essaie de traduire les [ordres][ordres] dans la nouvelle langue, mais
 
 ## Voir aussi
 
-- [[cmd-locale-fr]]
+- [`LOCALE`][cmd-locale-fr]
 
 <!-- From [https://wiki.eressea.de/index.php?title=LANGUAGE&oldid=16697] -->
+
+[cmd-locale-fr]: [[cmd-locale-fr]]

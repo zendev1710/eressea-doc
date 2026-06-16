@@ -6,7 +6,7 @@ alias: cmd-buy-fr
 <!-- markdownlint-disable MD052 -->
 # BUY
 
-*`BUY` est, comme [[cmd-sell-fr]], un ordre [pseudo-long][ordres-courts-et-longs] [^1].*  
+*`BUY` est, comme [`SELL`][cmd-sell-fr], un ordre [pseudo-long][ordres-courts-et-longs] [^1].*  
 
 **`BUY <nombre> "produit de luxe"`**  
 
@@ -42,6 +42,8 @@ Dans le rapport informatique (CR) et le [modèle d'ordres][ordres] tous les ordr
 ## Voir aussi
 
 - [Le commerce][le-commerce]
-- [[cmd-sell-fr]]
+- [`SELL`][cmd-sell-fr]
 
 <!-- From [https://wiki.eressea.de/index.php?title=BUY&oldid=16746] -->
+
+[cmd-sell-fr]: [[cmd-sell-fr]]

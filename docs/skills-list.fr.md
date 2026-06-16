@@ -6,7 +6,7 @@ alias: liste-des-competences
 <!-- markdownlint-disable MD042 MD051 MD052 -->
 # Liste des compétences
 
-Les compétence s'acquièrent progressivement avec l'ordre [[cmd-learn-fr]].  
+Les compétence s'acquièrent progressivement avec l'ordre [`LEARN`][cmd-learn-fr].  
 
 Elles peuvent être acquises plus rapidement à l'aide d'un [maître enseignant][cmd-teach-fr]{title="TEACH"}.  
 
@@ -28,8 +28,8 @@ L'apprentissage de l'alchimie coûte 200 silver par tour et par personne.
 Plus d'information :
 
 - Chapitre dédié : [l'alchimie][alchimie]
-- Ordre [[cmd-make-fr]]
-- Ordre [[cmd-use-fr]]
+- Ordre [`MAKE`][cmd-make-fr]
+- Ordre [`USE`][cmd-use-fr]
 
 ## Apprivoisement
 
@@ -81,8 +81,8 @@ Cette compétence permet d'acheter et de vendre des [biens de luxe][biens-de-lux
 Plus d'information :
 
 - Chapitre dédié : [le commerce][le-commerce]
-- Ordre [[cmd-buy-fr]]
-- Ordre [[cmd-sell-fr]]
+- Ordre [`BUY`][cmd-buy-fr]
+- Ordre [`SELL`][cmd-sell-fr]
 
 ## Construction de routes
 
@@ -169,7 +169,7 @@ Par personne et par niveau de compétence, il est possible :
 *Espionage (EN), Spionage (DE)*.
 <!-- cspell:enable -->
 
-Nécessaire pour utiliser l'ordre [[cmd-spy-fr]] et ainsi obtenir des informations secrètes sur les unités des autres factions (compétences, véritable appartenance à une faction...). Apprendre "Espionage" coûte 100 Silver par personne et par semaine.
+Nécessaire pour utiliser l'ordre [`SPY`][cmd-spy-fr] et ainsi obtenir des informations secrètes sur les unités des autres factions (compétences, véritable appartenance à une faction...). Apprendre "Espionage" coûte 100 Silver par personne et par semaine.
 
 ## Extraction de pierres
 
@@ -242,7 +242,7 @@ Permet de récolter des [[plantes]] pour concocter des [potions][alchimie].
 
 Le coût d'apprentissage est de **200 silver par semaine et par personne**.
 
-À un niveau élevé on peut aussi utiliser les ordres [`RESEARCH HERBS`][cmd-research-fr] et [`MAKE SEEDS`][cmd-make-fr] (voir [Production][production-fr-id]) et [[cmd-plant-fr]].  
+À un niveau élevé on peut aussi utiliser les ordres [`RESEARCH HERBS`][cmd-research-fr] et [`MAKE SEEDS`][cmd-make-fr] (voir [Production][production-fr-id]) et [`PLANT`][cmd-plant-fr].  
 Même avec un niveau élevé on peut ne trouver que peu ou pas de plantes.
 
 ## Maçonnerie
@@ -366,9 +366,15 @@ Toutes les unités sur le bateau ayant acquis cette compétence comptent dans l'
 
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente/fr&oldid=15211] -->
 
+[cmd-buy-fr]: [[cmd-buy-fr]]
 [cmd-grow-fr]: [[cmd-grow-fr]]
 [cmd-guard-fr]: [[cmd-guard-fr]]
 [cmd-make-fr]: [[cmd-make-fr]]
 [cmd-research-fr]: [[cmd-research-fr]]
 [cmd-tax-fr]: [[cmd-tax-fr]]
 [cmd-teach-fr]: [[cmd-teach-fr]]
+[cmd-learn-fr]: [[cmd-learn-fr]]
+[cmd-use-fr]: [[cmd-use-fr]]
+[cmd-sell-fr]: [[cmd-sell-fr]]
+[cmd-plant-fr]: [[cmd-plant-fr]]
+[cmd-spy-fr]: [[cmd-spy-fr]]

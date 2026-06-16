@@ -18,7 +18,7 @@ Dieser Effekt greift auch bei weniger als 10 Schülern. Eine Person welche mitte
 
 LERNE AUTO funktioniert nicht bei teuren Talenten und nicht in Kombination mit LEHRE: Andere Einheiten, die gewöhnliche LERNE- und LEHRE-Befehle benutzen, werden nicht an der automatischen Zuweisung von Lehrern beteiligt. Einheiten, die LERNE AUTO benutzen, können nicht durch LEHRE gelehrt werden.
 
-Es kann trotzdem sinnvoll sein, LEHRE und LERNE AUTO parallel für verschiedene Einheiten zu nutzen. Die Vorteile von LEHRE./cmd-learn.md sind:
+Es kann trotzdem sinnvoll sein, LEHRE und LERNE AUTO parallel für verschiedene Einheiten zu nutzen. Die Vorteile von [LEHRE][bef-lehre] sind:
 
 - Einheiten mit teuren Talenten können gelehrt werden.
 - Eine Einheit kann Einheiten in unterschiedlichen Talenten lehren.

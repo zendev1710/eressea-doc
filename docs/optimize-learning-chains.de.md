@@ -178,7 +178,7 @@ Produktions-Einheiten wollen viel Zeit zum Arbeiten haben und nur dann lernen, w
 1) Alle Einheiten brauchen gleich lang, um die nächste Stufe zu erreichen.
    Tatsächlich gibt es zufällige Schwankungen in der Lerndauer bis zur nächsten Stufe und Lehrer müssen etwas mehr lernen als Schüler, weil sie sich auf einer höheren Talent-Stufe befinden.  
 2) Die Zeit lässt sich beliebig fein unterteilen.
-   Tatsächlich kann man nur Wochenweise lehren./cmd-learn.md.
+   Tatsächlich kann man nur Wochenweise [lehren][bef-lehre].
    Praktisch ist diese Unterteilung auch fein genug.  
 3) "Lehren" und "gelehrt werden" behindern sich nicht gegenseitig.
    Denkbar sind Situationen wie: S2 könnte bei S1 lernen, aber auch S3 lehren; S1 kann nicht bei L lernen und S3 kann nicht S4 lehren.
@@ -277,3 +277,5 @@ Sonst wären es 3750 die mit 133% hochgelehrt werden können.
 d.h. nach Abzug einiger Prozente für die Stufenunterschiede sollten 4000 Schüler möglich sein.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Optimierung\_Lernketten&oldid=3553] -->
+
+[bef-lehre]: [[bef-lehre]]

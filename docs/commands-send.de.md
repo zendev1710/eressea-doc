@@ -106,7 +106,7 @@ Mails an Eressea
 
 Jeder Zug muss mit der Zeile [ERESSEA xxx "passwort"] beginnen.
 xxx ist die eigene Parteinummer, und "passwort" ist das Passwort der Partei.
-Jeder Zug muss mit dem Schlüsselwort [NÄCHSTER] beendet werden.
+Jeder Zug muss mit dem Schlüsselwort [NÄCHSTER][bef-nachster-id] beendet werden.
 
 Alle Befehle werden pro Einheit abgegeben, auch wenn es Befehle sind, die die Partei als Ganzes betreffen; irgendjemand muss sie halt ausführen.
 
@@ -200,14 +200,13 @@ Weiterlesen: [Hinweise][hinweise].
 [Notepad++]: http://notepad-plus.sourceforge.net/
 [magellan-web]: http://magellan-client.sf.net
 
-[ERESSEA xxx "passwort"]: ./cmd-eressea.md
-[NÄCHSTER]: ./cmd-next.md
-[bef-einheit]: ./cmd-unit.md
-[bef-arbeite]: ./cmd-work.md
-[TREIBE STEUERN EIN]: ./cmd-tax.md
-[bef-unterhalte]: ./cmd-entertain.md
-[;]: ./cmd-comment.md
-[Kommentar-Befehl //]: ./cmd-comment-slash.md
+[ERESSEA xxx "passwort"]: [[bef-eressea]]
+[TREIBE STEUERN EIN]: [[bef-treibe]]
+[bef-unterhalte]: [[bef-unterhalte]]
+[;]: [[bef-kommentar]]
+[Kommentar-Befehl //]: [[bef-kommentar-mit-schraegstrichen]]
 
+[bef-arbeite]: [[bef-arbeite]]
+[bef-einheit]: [[bef-einheit]]
 [bef-lerne]: [[bef-lerne]]
 [bef-nach]: [[bef-nach]]

@@ -83,4 +83,4 @@ Burgenbau - Baumaterial, Mindesttalent, Bonus und Erlösanteil
 Weiterlesen: [Andere Gebäude][andere-gebaude-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Burg&oldid=17012] -->
-[MACHE BURG]: ./cmd-make.md
+[MACHE BURG]: [[bef-mache]]

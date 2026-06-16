@@ -11,7 +11,7 @@ alias: cmd-password-fr
 Cette instruction réinitialise le mot de passe de votre faction.  
 
 !!! info "Rappel"
-    L'ordre [[cmd-eressea-fr]] doit être défini dans le lot d'ordres pour que l'instruction soit prise en compte.  
+    L'ordre [`ERESSEA`][cmd-eressea-fr] doit être défini dans le lot d'ordres pour que l'instruction soit prise en compte.  
 
 **Seuls des lettres et des chiffres sont autorisés dans le mot de passe**.  
 
@@ -53,3 +53,5 @@ Remarques :
 - le mot de passe des envois d'ordre précédents reste valable même si plusieurs fichiers d'ordres ont été envoyés pour le lot d'ordres actuel dans lequel des mots de passe différents ont été définis
 
 <!-- From [https://wiki.eressea.de/index.php?title=PASSWORD&oldid=6276] -->
+
+[cmd-eressea-fr]: [[cmd-eressea-fr]]

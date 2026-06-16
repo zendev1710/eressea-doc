@@ -61,9 +61,5 @@ Es wird immer nur der erste ausgeführt.
 
 <!-- From [https://wiki.eressea.de/index.php?title=FOLGE&oldid=16723] -->
 
-[bef-route]: ./cmd-route.md
-[bef-transportiere]: ./cmd-carry.md
-[bef-piraterie]: ./cmd-piracy.md
-
 [bef-fahre]: [[bef-fahre]]
 [bef-nach]: [[bef-nach]]

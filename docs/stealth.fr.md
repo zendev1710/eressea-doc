@@ -20,7 +20,7 @@ C'est la situation de départ lorsque l'on commence la partie, car toutes les no
 
 ## Contrecarrer la garde
 
-Les unités camouflées avec succès ne sont pas soumises aux conséquences de [[cmd-guard-fr]].  
+Les unités camouflées avec succès ne sont pas soumises aux conséquences de [`GUARD`][cmd-guard-fr].  
 Elles peuvent faire de l'entertain, collecter des impôts, extraire des ressources ou recruter des paysans.  
 
 ## Augmenter les chances de fuite
@@ -33,7 +33,7 @@ Les chances de fuite maximales sont de 75 % (90 % pour les Halfelins).
 
 ## Vol de Silver
 
-Les unités dissimulées peuvent voler des Silver à d'autres unités en utilisant l'ordre [[cmd-steal-fr]].  
+Les unités dissimulées peuvent voler des Silver à d'autres unités en utilisant l'ordre [`STEAL`][cmd-steal-fr].  
 Ici aussi, la perception la plus élevée de la faction volée dans la région compte.  
 Par niveau de différence de compétence, chaque personne qui vole vole 50 Silver.  
 Dans ce cas, le vol se fait **toujours** dans la totalité de la réserve d'argent de la faction dans la région.  
@@ -79,7 +79,7 @@ Outre ces utilisations passives de la dissimulation, il est bien sûr possible d
 
 ## Voir aussi
 
-- [[cmd-guard-fr]]
+- [`GUARD`][cmd-guard-fr]
 - [revenus][le-vol-la-methode-malhonnete]
 
 Poursuivre la lecture : [[deplacements]].
@@ -89,3 +89,4 @@ Poursuivre la lecture : [[deplacements]].
 [cmd-combat-fr]: [[cmd-combat-fr]]
 [cmd-guard-fr]: [[cmd-guard-fr]]
 [cmd-spy-fr]: [[cmd-spy-fr]]
+[cmd-steal-fr]: [[cmd-steal-fr]]

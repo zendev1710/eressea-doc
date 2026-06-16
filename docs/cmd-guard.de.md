@@ -26,7 +26,7 @@ Parteien, die mit *mindestens einer* bewachenden Partei alliiert sind, können t
 
 In der Runde, in der der `BEWACHE`-Befehl gegeben wurde, gelten all diese Beschränkungen allerdings noch nicht, denn die bewachende Einheit muss erst einmal herausfinden, wo fremde Einheiten überall Silber eintreiben könnten etc. Die bewachende Einheit wird sofort für alle anderen Einheiten in der Region sichtbar, egal wie hoch ihr Tarnungstalent ist.
 
-Mit `BEWACHE NICHT` wird der Bewachungsstatus einer Einheit aufgelöst. Das passiert außerdem, wenn sich die Einheit fortbewegt. Einheiten mit dem Kampfstatus [KÄMPFE FLIEHE] können nicht bewachen und Einheiten, aus denen im Kampf alle überlebenden Personen fliehen, beenden ebenfalls das Bewachen.
+Mit `BEWACHE NICHT` wird der Bewachungsstatus einer Einheit aufgelöst. Das passiert außerdem, wenn sich die Einheit fortbewegt. Einheiten mit dem Kampfstatus [KÄMPFE FLIEHE][bef-kampfe-id] können nicht bewachen und Einheiten, aus denen im Kampf alle überlebenden Personen fliehen, beenden ebenfalls das Bewachen.
 
 Wenn eine Einheit durch eine Region reist, die von mindestens einer nicht verbündeten Partei bewacht wird, hängt die Chance, dass sie aufgehalten wird von mehreren Faktoren ab: Sie wird vergrößert durch die Anzahl der feindlichen Bewacher, den Regionstyp (es wird schwerer in Sümpfen, Gletschern, Bergen und Vulkanen), das Wahrnehmungstalent der feindlichen Bewacher, Amulette des Wahren Sehens, sowie die Größe der Burg des Regionsbesitzers, falls dieser nicht verbündet ist. Sie wird verringert durch die Anzahl der verbündeten Bewacher und das Tarnungstalent der Einheit, sowie [[ring-der-unsichtbarkeit]].
 
@@ -42,7 +42,5 @@ In den [ersten Wochen][welpenschutz] kann deine Partei noch nicht bewachen.
 
 <!-- From [https://wiki.eressea.de/index.php?title=BEWACHE&oldid=16839] -->
 
-[bef-kontaktiere]: ./cmd-contact.md
-[KÄMPFE FLIEHE]: ./cmd-combat.md
-
 [bef-helfe]: [[bef-helfe]]
+[bef-kontaktiere]: [[bef-kontaktiere]]

@@ -114,7 +114,7 @@ De telles demandes génèrent un trafic inutile.
 ## Ce que vous devez considérer lors de la saisie des ordres
 
 Chaque tour d'ordres doit commencer par la ligne [`ERESSEA xxx "<mot de passe>"`][cmd-eressea-fr]. *xxx* est l'identifiant de votre faction, et *mot de passe* est le mot de passe de la faction.  
-Chaque tour doit se terminer avec le mot-clé [[cmd-next-fr]].  
+Chaque tour doit se terminer avec le mot-clé [`NEXT`][cmd-next-fr].  
 
 Tous les ordres sont émis par unité, même s'il s'agit d'ordres qui affectent la faction dans son ensemble; quelqu'un doit le faire.  
 
@@ -143,9 +143,9 @@ NEXT
 
 La première ligne avec ECHECK est destinée au vérificateur de syntaxe.  
 Il reconnaît cette ligne et utilise les paramètres qui y sont spécifiés.  
-Avec l'option `-z`, les personnes et leurs actifs en commentaire derrière l'ordre [[cmd-unit-fr]] sont interprétés.  
-Les revenus avec [[cmd-work-fr]] (généralement 11 silvers par personne), les [taxes][cmd-tax-fr] et le [divertissement][cmd-entertain-fr] (20 silver par personne) sont également pris en compte.  
-Les compétences coûteuses telles que l'apprentissage de la magie avec l'ordre[`LEARN MAGIC`][cmd-learn-fr] et le déplacement d'unités transportant de l'argent (avec [[cmd-move-fr]]) sont ensuite évalués et des avertissements sont émis s'il y a trop peu d'argent.  
+Avec l'option `-z`, les personnes et leurs actifs en commentaire derrière l'ordre [`UNIT`][cmd-unit-fr] sont interprétés.  
+Les revenus avec [`WORK`][cmd-work-fr] (généralement 11 silvers par personne), les [taxes][cmd-tax-fr] et le [divertissement][cmd-entertain-fr] (20 silver par personne) sont également pris en compte.  
+Les compétences coûteuses telles que l'apprentissage de la magie avec l'ordre[`LEARN MAGIC`][cmd-learn-fr] et le déplacement d'unités transportant de l'argent (avec [`MOVE`][cmd-move-fr]) sont ensuite évalués et des avertissements sont émis s'il y a trop peu d'argent.  
 `-w4` est le « niveau d'avertissement », 4 étant le niveau le plus verbeux.  
 Et enfin, `-r100` indique que le coût de recrutement de cette faction est de 100 silver par personne.  
 
@@ -153,7 +153,7 @@ La ligne `; ECHECK WAGE 12` est également pour ECheck et fixe le salaire pour 
 
 On voit que les membres de l'unité 32 vont être affamés : 30 silver ne suffisent pas pour 5 personnes.  
 Cependant, avec les paramètres ECheck `-z -w4` utilisés ci-dessus, ECheck le remarquera et émettra un avertissement.  
-L'unité doit gagner de l'argent (par exemple avec [[cmd-entertain-fr]] si elle possède déjà la compétence de divertissement, sinon avec [[cmd-work-fr]]).  
+L'unité doit gagner de l'argent (par exemple avec [`ENTERTAIN`][cmd-entertain-fr] si elle possède déjà la compétence de divertissement, sinon avec [`WORK`][cmd-work-fr]).  
 Une autre possibilité est qu'une autre unité avec suffisamment d'argent se déplace vers la région de coordonnées (5, 3).  
 
 Tous les [[ordres]] peuvent être abrégés.  
@@ -216,3 +216,7 @@ Poursuivre la lecture : [[remarques]].
 [cmd-eressea-fr]: [[cmd-eressea-fr]]
 [cmd-learn-fr]: [[cmd-learn-fr]]
 [cmd-tax-fr]: [[cmd-tax-fr]]
+[cmd-move-fr]: [[cmd-move-fr]]
+[cmd-work-fr]: [[cmd-work-fr]]
+[cmd-next-fr]: [[cmd-next-fr]]
+[cmd-unit-fr]: [[cmd-unit-fr]]

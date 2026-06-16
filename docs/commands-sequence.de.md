@@ -10,7 +10,7 @@ Die Befehle von Eressea werden in einer festen Reihenfolge ausgewertet. Befehle,
 
 1. neue Default-Befehle werden gesetzt
 2. [[bef-gruppe]], [MACHE TEMP][bef-mache]
-3. [[bef-benenne]], [[bef-beschreibe]], [BEWACHE NICHT], [[bef-helfe]], [KÄMPFE], [[bef-kampfzauber]], [[bef-tarne]], [[bef-ursprung]], [[bef-zeige]]
+3. [[bef-benenne]], [[bef-beschreibe]], [BEWACHE NICHT], [[bef-helfe]], [KÄMPFE][bef-kampfe-id], [[bef-kampfzauber]], [[bef-tarne]], [[bef-ursprung]], [[bef-zeige]]
 4. [[bef-banner]], [[bef-email]], [[bef-option]], [[bef-passwort]]
 5. [[bef-kontaktiere]]
 6. [[bef-botschaft]]
@@ -25,7 +25,7 @@ Die Befehle von Eressea werden in einer festen Reihenfolge ausgewertet. Befehle,
 15. [[bef-vergiss]]
 16. [GIB][bef-gib]
 17. [[bef-rekrutiere]] \*
-18. [ZERSTÖRE]
+18. [ZERSTÖRE][bef-zerstore-id]
 19. [[bef-folge]] wird gesetzt
 20. [[bef-befoerdere]]
 21. [BEZAHLE NICHT] Stellt Funktion und Unterhaltskosten für das entsprechende Gebäude ein.
@@ -35,7 +35,7 @@ Die Befehle von Eressea werden in einer festen Reihenfolge ausgewertet. Befehle,
 25. [[bef-lehre]]
 26. [[bef-lerne]]
 27. [MACHE TEMP][bef-mache] \*
-28. [[bef-forsche]], [[bef-pflanze]], [[bef-spioniere]], [ZÜCHTE]
+28. [[bef-forsche]], [[bef-pflanze]], [[bef-spioniere]], [ZÜCHTE][bef-zuchte-id]
 29. [[bef-unterhalte]] \*
 30. [[bef-arbeite]] \*
 31. [[bef-treibe]] \*
@@ -89,12 +89,8 @@ Weiterlesen: [Kurzbeschreibung][kurzbeschreibung].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehlsreihenfolge/de&oldid=13925] -->
 
-[BEWACHE NICHT]: ./cmd-guard.md
-[KÄMPFE]: ./cmd-combat.md
-[ZERSTÖRE]: ./cmd-destroy.md
-[BEZAHLE NICHT]: ./cmd-pay-not.md
-[ZÜCHTE]: ./cmd-grow.md
-
+[BEWACHE NICHT]: [[bef-bewache]]
+[BEZAHLE NICHT]: [[bef-bezahle-nicht]]
 [bef-bewache]: [[bef-bewache]]
 [bef-gib]: [[bef-gib]]
 [bef-mache]: [[bef-mache]]

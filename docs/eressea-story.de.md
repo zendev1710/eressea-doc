@@ -428,5 +428,5 @@ Da diese aber frühestens in der zweiten Spielrunde gezaubert werden können ble
 
 <!-- From [https://wiki.eressea.de/index.php?title=Geschichte\_von\_Eressea&oldid=7324] -->
 
-[Xolgrim]: https://wiki.eressea.de./cmd-use.mdr:Xolgrim#XE-Artikel_von_Xolgrim "Benutzer:Xolgrim (wiki)"
+[Xolgrim]: https://wiki.eressea.de/Benutzer:Xolgrim#XE-Artikel_von_Xolgrim "Benutzer:Xolgrim (wiki)"
 [Wikipedia]: http://de.wikipedia.org/wiki/Eressea_PbeM

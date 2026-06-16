@@ -84,7 +84,7 @@ A game started by Solthar in 2017 that featured E3 rules with a few tweaks and 3
 
 Continue reading: [rules][rules].
 
-[Eressea]: ./cmd-eressea.md
+[Eressea]: [[cmd-eressea]]
 
 [Discord]: https://discord.gg/KT5Fffh
 [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/

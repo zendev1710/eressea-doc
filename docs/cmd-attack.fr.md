@@ -20,7 +20,7 @@ Au cours des premières semaines, une faction est [immunisée][puppy-protection]
 ## Voir aussi
 
 - [La guerre][guerre]
-- Ordre [[cmd-combat-fr]]
+- Ordre [`COMBAT`][cmd-combat-fr]
 
 [^1]: `ATTACK` est un [ordre pseudo-long][ordres-courts-et-longs] : c'est un ordre court dans le sens où plusieurs ordres  `ATTACK` peuvent être donnés;
 c'est un ordre long parce qu'il exclut d'autres ordres longs si un combat « long » se produit effectivement.

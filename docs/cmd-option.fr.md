@@ -94,6 +94,8 @@ Avant d'être envoyé par email par le serveur au joueur, le fichier corresponda
 La [réserve d'objets][reserve-d-objets-id] et la [réserve d'argent][reserve-dargent] sont donc toujours actives.  
 
 !!! note "rappel"
-    Les unités peuvent utiliser l'ordre [[cmd-reserve-fr]] pour sécuriser des objets, empêchant ainsi d'autres unités de les prendre et de les consommer.  
+    Les unités peuvent utiliser l'ordre [`RESERVE`][cmd-reserve-fr] pour sécuriser des objets, empêchant ainsi d'autres unités de les prendre et de les consommer.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=OPTION&oldid=16703] -->
+
+[cmd-reserve-fr]: [[cmd-reserve-fr]]

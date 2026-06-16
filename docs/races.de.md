@@ -112,7 +112,7 @@ Die Anzahl der Migranten errechnet sich als:
 <!-- cspell:enable -->
 
 Hat man durch eine Katastrophe oder Kampf plötzlich zu viele Migranten, werden diese nicht entfernt, man kann nur keine neuen mehr aufnehmen.
-Die Maximalzahl an Migranten wird im Report angezeigt und ist für größere Parteien fast identisch zur Zahl der [Helden].
+Die Maximalzahl an Migranten wird im Report angezeigt und ist für größere Parteien fast identisch zur Zahl der [Helden][bef-befordere-id].
 Die folgende Tabelle enthält einige Beispiele:
 
 *Anzahl der Migranten nach Parteigröße.*
@@ -166,9 +166,7 @@ Weiterlesen: [Talentmodifikatoren][talentmodifikatoren].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rassen&oldid=16044] -->
 
-[klauen]: ./cmd-steal.md
-[Helden]: ./cmd-promote.md
-
+[klauen]: [[bef-beklaue]]
 [bef-gib]: [[bef-gib]]
 [bef-gruppe]: [[bef-gruppe]]
 [bef-tarne]: [[bef-tarne]]

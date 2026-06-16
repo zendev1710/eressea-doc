@@ -3,7 +3,10 @@
 alias: bef-zuechte
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+
+[](){ #bef-zuchte-id }
+
 # ZÜCHTE
 
 *[Langer Befehl][kurze-und-lange-befehle].*  
@@ -25,4 +28,4 @@ Spielererfahrung: Solthar`PFLANZE` und `ZÜCHTE` sind synonyme Befehle. Du kanns
 
 <!-- From [https://wiki.eressea.de/index.php?title=ZÜCHTE&oldid=16739] -->
 
-[bef-pflanze]: ./cmd-plant.md
+[bef-pflanze]: [[bef-pflanze]]

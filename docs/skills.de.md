@@ -155,9 +155,8 @@ Weiterlesen: [Liste der Talente][liste-der-talente].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Talente&oldid=16985] -->
 
-[Einheiten]: ./cmd-unit.md
-[bef-vergiss]: ./cmd-forget.md
-
+[Einheiten]: [[bef-einheit]]
 [bef-lehre]: [[bef-lehre]]
 [bef-lerne]: [[bef-lerne]]
 [bef-lerne-auto]: [[bef-lerne-auto]]
+[bef-vergiss]: [[bef-vergiss]]

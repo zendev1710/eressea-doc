@@ -86,27 +86,27 @@ Il existe des ordres courts et des ordres longs dans Eressea.
 
 Les ordres **longs** sont les suivants :
 
-- [[cmd-work-fr]],
-- [[cmd-attack-fr]],
-- [[cmd-steal-fr]],
-- [[cmd-ride-fr]],
-- [[cmd-follow-fr]],
-- [[cmd-research-fr]],
-- [[cmd-buy-fr]],
-- [[cmd-teach-fr]],
-- [[cmd-learn-fr]],
-- [[cmd-make-fr]] (exception: `MAKE TEMP`),
-- [[cmd-move-fr]],
-- [[cmd-plant-fr]],
-- [[cmd-piracy-fr]],
-- [[cmd-route-fr]],
-- [[cmd-spy-fr]],
-- [[cmd-tax-fr]],
-- [[cmd-entertain-fr]],
-- [[cmd-sell-fr]],
-- [[cmd-cast-fr]],
-- [[cmd-destroy-fr]],
-- [[cmd-grow-fr]].
+- [`WORK`][cmd-work-fr],
+- [`ATTACK`][cmd-attack-fr],
+- [`STEAL`][cmd-steal-fr],
+- [`RIDE`][cmd-ride-fr],
+- [`FOLLOW`][cmd-follow-fr],
+- [`RESEARCH`][cmd-research-fr],
+- [`BUY`][cmd-buy-fr],
+- [`TEACH`][cmd-teach-fr],
+- [`LEARN`][cmd-learn-fr],
+- [`MAKE`][cmd-make-fr] (exception: `MAKE TEMP`),
+- [`MOVE`][cmd-move-fr],
+- [`PLANT`][cmd-plant-fr],
+- [`PIRACY`][cmd-piracy-fr],
+- [`ROUTE`][cmd-route-fr],
+- [`SPY`][cmd-spy-fr],
+- [`TAX`][cmd-tax-fr],
+- [`ENTERTAIN`][cmd-entertain-fr],
+- [`SELL`][cmd-sell-fr],
+- [`CAST`][cmd-cast-fr],
+- [`DESTROY`][cmd-destroy-fr],
+- [`GROW`][cmd-grow-fr].
 
 Tous les autres ordres sont des ordres courts ([brève description] de tous les ordres).  
 
@@ -171,10 +171,32 @@ Bien entendu, cela comporte le risque que vous manquiez des erreurs auxquelles v
 
 - [[sequence-des-ordres]]
 - [[tableau-recapitulatif-des-ordres]]
-- [[cmd-default-fr]]
+- [`DEFAULT`][cmd-default-fr]
 
 Poursuivre la lecture : [[sequence-des-ordres]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehl&oldid=16787] -->
 
+[cmd-attack-fr]: [[cmd-attack-fr]]
+[cmd-buy-fr]: [[cmd-buy-fr]]
+[cmd-cast-fr]: [[cmd-cast-fr]]
+[cmd-default-fr]: [[cmd-default-fr]]
+[cmd-destroy-fr]: [[cmd-destroy-fr]]
+[cmd-entertain-fr]: [[cmd-entertain-fr]]
+[cmd-follow-fr]: [[cmd-follow-fr]]
+[cmd-grow-fr]: [[cmd-grow-fr]]
+[cmd-learn-fr]: [[cmd-learn-fr]]
+[cmd-make-fr]: [[cmd-make-fr]]
+[cmd-move-fr]: [[cmd-move-fr]]
 [cmd-option-fr]: [[cmd-option-fr]]
+[cmd-piracy-fr]: [[cmd-piracy-fr]]
+[cmd-plant-fr]: [[cmd-plant-fr]]
+[cmd-research-fr]: [[cmd-research-fr]]
+[cmd-ride-fr]: [[cmd-ride-fr]]
+[cmd-route-fr]: [[cmd-route-fr]]
+[cmd-sell-fr]: [[cmd-sell-fr]]
+[cmd-spy-fr]: [[cmd-spy-fr]]
+[cmd-steal-fr]: [[cmd-steal-fr]]
+[cmd-tax-fr]: [[cmd-tax-fr]]
+[cmd-teach-fr]: [[cmd-teach-fr]]
+[cmd-work-fr]: [[cmd-work-fr]]

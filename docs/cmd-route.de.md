@@ -42,6 +42,5 @@ Und schließlich wieder wie am Anfang.
 
 <!-- From [https://wiki.eressea.de/index.php?title=ROUTE&oldid=16732] -->
 
-[bef-folge]: ./cmd-follow.md
-
+[bef-folge]: [[bef-folge]]
 [bef-nach]: [[bef-nach]]

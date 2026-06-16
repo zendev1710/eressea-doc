@@ -6,7 +6,7 @@ alias: cmd-sell-fr
 <!-- markdownlint-disable MD052 -->
 # SELL
 
-*`SELL` est, comme [[cmd-buy-fr]], un ordre [pseudo-long][ordres-courts-et-longs][^1].*  
+*`SELL` est, comme [`BUY`][cmd-buy-fr], un ordre [pseudo-long][ordres-courts-et-longs][^1].*  
 
 **`SELL`**` `*`nombre`*` `*`produit de luxe`*  
 **`SELL`**` ALL `*`produit de luxe`*  
@@ -35,6 +35,8 @@ Dans le rapport informatique (CR) et le [modèle d'ordres][ordres] tous les ordr
 ## Voir aussi
 
 - [Le commerce][le-commerce]
-- [[cmd-buy-fr]]
+- [`BUY`][cmd-buy-fr]
 
 <!-- From [https://wiki.eressea.de/index.php?title=SELL&oldid=16784] -->
+
+[cmd-buy-fr]: [[cmd-buy-fr]]

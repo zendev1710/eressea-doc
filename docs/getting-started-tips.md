@@ -142,5 +142,5 @@ Continue reading: [[xontormia-express]].
 
 [cmd-entertain]: [[cmd-entertain]]
 [cmd-password]: [[cmd-password]]
-[cmd-tax]: [[cmd-tax]
+[cmd-tax]: [[cmd-tax]]
 [cmd-unit]: [[cmd-unit]]

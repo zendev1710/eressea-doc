@@ -161,7 +161,7 @@ You can then immediately cut them with a sawmill, producing 20 wood.
 - The owner of the harbour receives 10% of all the silver earned through trade, in addition to the possible income through castles.
 - The owner also receives (2 \* trade)% of all luxury items which are on board of incoming ships. Unless the unit which carries the goods has a hiding level higher than the harbour master's perception level or the ship's captain is allied with the harbour owner.
 - In a region with a harbour, the prices of goods will increase with a probability of 20% instead of the normal 10%.
-- A harbour will only work if it is completely built. There can be only one harbour per region. The one who finishes a harbour first is the winner. The half-finished harbour can be destroyed with the order [[cmd-destroy]].
+- A harbour will only work if it is completely built. There can be only one harbour per region. The one who finishes a harbour first is the winner. The half-finished harbour can be destroyed with the order [`DESTROY`][cmd-destroy].
 
 ## Academy
 
@@ -296,6 +296,7 @@ You can then immediately cut them with a sawmill, producing 20 wood.
 
 Continue reading: [Faction pool][faction-pool].
 
+[cmd-destroy]: [[cmd-destroy]]
 [cmd-grow]: [[cmd-grow]]
 [cmd-help]: [[cmd-help]]
 [cmd-make]: [[cmd-make]]

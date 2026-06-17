@@ -87,7 +87,7 @@ Aquarians are at home in the water, but they feel uncomfortable in the mountains
 
 - Expert Sailors: All ships commanded by an Aquarian captain belonging to an Aquarian faction [move][movement] by 1 extra region per week.
 - Sea dwellers: Aquarians can issue [long orders][orders] while on a ship sailing on the ocean. Attention, this has some implicit consequences: for example, aquarians on a ship in an ocean region adjacent to a land region can move to the land region, see [swimming][swimming].
-- Fishermen: Up to 100 aquarians per ocean region can earn 10 silver each per turn with the [[cmd-work]] order.
+- Fishermen: Up to 100 aquarians per ocean region can earn 10 silver each per turn with the [`WORK`][cmd-work] order.
 
 ## Humans
 
@@ -126,7 +126,7 @@ If you have to many migrants, for example after a battle, they are not removed, 
 Orcs start their life as fighters, and usually end it as fighters. They intuitively know how to wield weapons. They like contacting other factions with triple superiority.
 
 - Born Fighters: All newly recruited orcs start out with a level in the melee and polearm skills.
-- Laziness: Orcs earn less silver than other races with the [[cmd-work]] order.
+- Laziness: Orcs earn less silver than other races with the [`WORK`][cmd-work] order.
 - Easy Recruits: For two recruited orcs only one peasant is subtracted from the peasant pool of the region. Thus you can recruit twice the recruitment limit of a region. Fractions are rounded up.
 - Likewise, for every two orcs given to the peasants (see the [`GIVE 0`][cmd-give] order) only one peasant is added to the peasant pool of the region (rounded down this time).
 - Dangerous: Unarmed orcs do not fight with a -2 penalty in close combat like other races, but with (best close combat skill - 3). They still need weapons to collect taxes.
@@ -142,7 +142,7 @@ These walking boulders are among the strongest creatures of Eressea. They love t
 - Foot Soldiers: While technically trolls can ride, there is no troll cavalry, and thus no bonus for riding in combat (This has no effect on the transport of goods and the movement speed of mounted trolls).
 - Quarrying: Only 75% of the stones [quarried][about-mining] by trolls are subtracted from the amount of stones available in a region. This effect is cumulative with a [quarry][quarry].
 - The enemy's cavalry only gets a +1 bonus against trolls instead of the normal +2.
-- Horsepower: Trolls are the only race able to use carts without horses. Four trolls can pull a cart, making them less dependent on horses, but they can only move one region (without a road). This is explained with the [[cmd-ride]] order.
+- Horsepower: Trolls are the only race able to use carts without horses. Four trolls can pull a cart, making them less dependent on horses, but they can only move one region (without a road). This is explained with the [`RIDE`][cmd-ride] order.
 - Unarmed Combat: Unarmed trolls cause 2−6 points of damage.
 - Regeneration: Wounded trolls regenerate at 7,5% of their hit points.
 
@@ -166,3 +166,6 @@ Continue reading: [skills-modifiers].
 
 [groups]: [[cmd-group]]
 [heroes]: [[cmd-promote]]
+
+[cmd-ride]: [[cmd-ride]]
+[cmd-work]: [[cmd-work]]

@@ -87,27 +87,27 @@ There are short and long orders in Eressea.
 
 The long orders are:
 
-- [[cmd-work]],
-- [[cmd-attack]],
-- [[cmd-steal]],
-- [[cmd-ride]],
-- [[cmd-follow]],
-- [[cmd-research]],
-- [[cmd-buy]],
-- [[cmd-teach]],
-- [[cmd-learn]],
-- [[cmd-make]] (exception: `MAKE TEMP`),
-- [[cmd-move]],
-- [[cmd-plant]],
-- [[cmd-piracy]],
-- [[cmd-route]],
-- [[cmd-spy]],
-- [[cmd-tax]],
-- [[cmd-entertain]],
-- [[cmd-sell]],
-- [[cmd-cast]],
-- [[cmd-destroy]],
-- [[cmd-grow]].
+- [`WORK`][cmd-work],
+- [`ATTACK`][cmd-attack],
+- [`STEAL`][cmd-steal],
+- [`RIDE`][cmd-ride],
+- [`FOLLOW`][cmd-follow],
+- [`RESEARCH`][cmd-research],
+- [`BUY`][cmd-buy],
+- [`TEACH`][cmd-teach],
+- [`LEARN`][cmd-learn],
+- [`MAKE`][cmd-make] (exception: `MAKE TEMP`),
+- [`MOVE`][cmd-move],
+- [`PLANT`][cmd-plant],
+- [`PIRACY`][cmd-piracy],
+- [`ROUTE`][cmd-route],
+- [`SPY`][cmd-spy],
+- [`TAX`][cmd-tax],
+- [`ENTERTAIN`][cmd-entertain],
+- [`SELL`][cmd-sell],
+- [`CAST`][cmd-cast],
+- [`DESTROY`][cmd-destroy],
+- [`GROW`][cmd-grow].
 
 All other orders are short orders ([short description] of all orders).  
 
@@ -122,7 +122,7 @@ The default order is always in the [orders template] as a suggestion for a long 
 So you only need to give a horse trainer the order `MAKE Horse` once, and this order will appear in the orders template until she receives another long order (e.g. `LEARN Tazming`).  
 It makes sense that not all long orders are adopted as default orders.  
 This applies, for example, to `MOVE`, `ATTACK` and `FOLLOW`.  
-For more information about default orders, see the [[cmd-default]] order page.  
+For more information about default orders, see the [`DEFAULT`][cmd-default] order page.  
 
 A unit that worked one turn, moved north the next turn, and then received no more orders will settle down and work again the following turn (unless, of course, it receives another long order that turn).  
 
@@ -172,10 +172,32 @@ Of course, this carries the risk that you will miss errors that you did not expe
 
 - [[orders-sequence]]
 - [[list-of-orders]]
-- [[cmd-default]]
+- [`DEFAULT`][cmd-default]
 
 Continue reading: [[orders-sequence]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehl&oldid=16787] -->
 
+[cmd-attack]: [[cmd-attack]]
+[cmd-buy]: [[cmd-buy]]
+[cmd-cast]: [[cmd-cast]]
+[cmd-default]: [[cmd-default]]
+[cmd-destroy]: [[cmd-destroy]]
+[cmd-entertain]: [[cmd-entertain]]
+[cmd-follow]: [[cmd-follow]]
+[cmd-grow]: [[cmd-grow]]
+[cmd-learn]: [[cmd-learn]]
+[cmd-make]: [[cmd-make]]
+[cmd-move]: [[cmd-move]]
 [cmd-option]: [[cmd-option]]
+[cmd-piracy]: [[cmd-piracy]]
+[cmd-plant]: [[cmd-plant]]
+[cmd-research]: [[cmd-research]]
+[cmd-route]: [[cmd-route]]
+[cmd-ride]: [[cmd-ride]]
+[cmd-sell]: [[cmd-sell]]
+[cmd-spy]: [[cmd-spy]]
+[cmd-steal]: [[cmd-steal]]
+[cmd-tax]: [[cmd-tax]]
+[cmd-teach]: [[cmd-teach]]
+[cmd-work]: [[cmd-work]]

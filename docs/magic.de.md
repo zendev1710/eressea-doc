@@ -60,7 +60,7 @@ Natürlich kostet Lernen durch Anwendung kein Silber.
 Mit jeder Stufe, die die Einheit in Magie erreicht, kann sie neue Sprüche bekommen.
 Es gibt zur Zeit einen Spruch in jeder Stufe, in Ausnahmefällen auch einmal mehrere oder gar keinen.
 Hat man eine neue Stufe erreicht, so werden die Sprüche in der Auswertung beschrieben.
-Hat man die Beschreibung vergessen, kann man sie sich mit dem Befehl [[bef-zeige]] nochmals zeigen lassen.
+Hat man die Beschreibung vergessen, kann man sie sich mit dem Befehl [`ZEIGE`][bef-zeige] nochmals zeigen lassen.
 
 Eine so angezeigte Spruchbeschreibung sieht ungefähr so aus:
 
@@ -111,7 +111,7 @@ Syntax:
 
 Es gibt Normale Zauber, Präkampfzauber, Kampfzauber und Postkampfzauber.
 
-Normale Zauber werden mit dem Befehl [[bef-zaubere]] gezaubert.
+Normale Zauber werden mit dem Befehl [`ZAUBERE`][bef-zaubere] gezaubert.
 Ihre Wirkung entfaltet sich entweder sofort (siehe [Befehlsreihenfolge][befehlsreihenfolge]) oder manchmal auch erst zu einem späteren Zeitpunkt zum Beispiel zum Anfang der folgenden Runde.
 
 Die drei Arten von Kampfzaubern können niemals mit ZAUBERE gezaubert werden.
@@ -142,7 +142,7 @@ Syntax:
 
 Hat eine Magiereinheit Kampfzauber gesetzt, zaubert sie automatisch, sobald sie an einem Kampf teilnimmt.
 Entweder indem sie selber ATTACKIERE befiehlt oder indem sie durch einen Angriff auf ihre Seite in den Kampf gezogen wurde (siehe [Die Seiten in einer Schlacht][die-seiten-in-einer-schlacht]).
-Das kann also auch passieren, wenn sie auf KÄMPFE NICHT oder FLIEHE steht, falls sie explizit mit dem Befehl [[bef-attackiere]] angegriffen wird!
+Das kann also auch passieren, wenn sie auf KÄMPFE NICHT oder FLIEHE steht, falls sie explizit mit dem Befehl [`ATTACKIERE`][bef-attackiere] angegriffen wird!
 
 Ein Prä- oder Postkampfzauber wird einmal vor Beginn bzw. nach Ende des Kampfes gezaubert.
 Ein normaler Kampfzauber einmal in jeder Kampfrunde.
@@ -161,11 +161,19 @@ Das kann aber zwischen fast gar nichts und Talent - Stufe schwanken.
 Magische Rassen regenerieren Aura schneller, nichtmagische Rassen deutlich langsamer.
 
 Die maximale Aura ist nicht unveränderlich: Zum einen gibt es einen Zauber, mit dessen Hilfe eine Einheit Aura auf eine andere transferieren kann.
-Die Zieleinheit kann dadurch kurzfristig mehr Aura erhalten, als sie normalerweise maximal aufnehmen kann. Dadurch kann sie Zauber wirken, deren Kosten über ihrer Maximalaura liegen. Überschüssige Aura geht aber am Ende einer Runde wieder verloren.
+Die Zieleinheit kann dadurch kurzfristig mehr Aura erhalten, als sie normalerweise maximal aufnehmen kann.  
+Dadurch kann sie Zauber wirken, deren Kosten über ihrer Maximalaura liegen.  
+Überschüssige Aura geht aber am Ende einer Runde wieder verloren.
 
-Außerdem gibt es Zauber (und möglicherweise andere Dinge), die Magier permanente Aura kosten, wie etwa "Erschaffe einen Ring der Unsichtbarkeit". Das heißt, dass die Einheit fortan weniger maximale Aura speichern kann. In der Regel sind das sehr mächtige Zaubersprüche oder Artefaktmagie, die permanente Effekte hervorrufen.
+Außerdem gibt es Zauber (und möglicherweise andere Dinge), die Magier permanente Aura kosten, wie etwa "Erschaffe einen Ring der Unsichtbarkeit".  
+Das heißt, dass die Einheit fortan weniger maximale Aura speichern kann.  
+In der Regel sind das sehr mächtige Zaubersprüche oder Artefaktmagie, die permanente Effekte hervorrufen.
 
-[[bef-zaubere]] ist ein pseudolanger Befehl vergleichbar mit [[bef-attackiere]]. Eine Einheit kann also mehrmals pro Runde zaubern, allerdings keinen anderen langen Befehl ausführen. Das ganze hat aber einen Haken: Die Aura-Kosten der Zauber erhöhen sich. Der erste Zauber, den die Einheit in einer Runde zaubert, kostet die normale, beim Zauber angegebene Aura. Der zweite kostet das Doppelte, der dritte das Vierfache, der vierte das Achtfache usw.
+[[bef-zaubere]] ist ein pseudolanger Befehl vergleichbar mit [`ATTACKIERE`][bef-attackiere].  
+Eine Einheit kann also mehrmals pro Runde zaubern, allerdings keinen anderen langen Befehl ausführen.  
+Das ganze hat aber einen Haken: Die Aura-Kosten der Zauber erhöhen sich.  
+Der erste Zauber, den die Einheit in einer Runde zaubert, kostet die normale, beim Zauber angegebene Aura.  
+Der zweite kostet das Doppelte, der dritte das Vierfache, der vierte das Achtfache usw.
 
 Kampfzauber werden davon gesondert behandelt, sie erhöhen die Kosten für normale Zauber oder andere Kampfzauber nicht und kosten immer nur die angegebene Aura. [Fernzauber][fernzauber] erhöhen ebenfalls die Zauberkosten.
 
@@ -173,15 +181,24 @@ Kampfzauber werden davon gesondert behandelt, sie erhöhen die Kosten für norma
 
 Der Wert, der als "Stufe" angegeben wird, ist zunächst einmal das Mindesttalent, bei dem die Einheit den Zauber bekommt.
 
-Manche Zauber haben feste Wirkungen und Kosten. Sie werden immer auf der Stufe des Zaubers gezaubert und sie kann nicht durch Parameter verändert werden. Für Dinge wie [Magieresistenz][magic-magieresistenz-id] kann sie trotzdem wichtig sein. *Ring der Unsichtbarkeit* wird immer auf Stufe 6 gezaubert und produziert genau einen Ring.
+Manche Zauber haben feste Wirkungen und Kosten.  
+Sie werden immer auf der Stufe des Zaubers gezaubert und sie kann nicht durch Parameter verändert werden.  
+Für Dinge wie [Magieresistenz][magic-magieresistenz-id] kann sie trotzdem wichtig sein.  
+**Ring der Unsichtbarkeit** wird immer auf Stufe 6 gezaubert und produziert genau einen Ring.
 
-Sehr viele Zauber haben stufenabhängige Wirkungen und Kosten. Ihr Effekt leitet sich von der Stufe ab, auf der gezaubert wurde. Die Details hängen vom jeweiligen Zauber ab. Manchmal betrifft es die Wirkungsdauer, manchmal die Anzahl der verzauberten Personen und so weiter.
+Sehr viele Zauber haben stufenabhängige Wirkungen und Kosten.  
+Ihr Effekt leitet sich von der Stufe ab, auf der gezaubert wurde.  
+Die Details hängen vom jeweiligen Zauber ab. Manchmal betrifft es die Wirkungsdauer, manchmal die Anzahl der verzauberten Personen und so weiter.
 
-Bei diesen variablen Zaubern kann eine Stufe angeben werden, auf der der Zauber gesprochen werden soll. Diese muss gleich oder niedriger sein als das Magietalent der Einheit, sie kann aber über oder unter der normalen Stufe des Zaubers liegen. So kann man den Zauber auf einer niedrigeren Stufe als sein eigenes Talent zaubern.
+Bei diesen variablen Zaubern kann eine Stufe angeben werden, auf der der Zauber gesprochen werden soll.  
+Diese muss gleich oder niedriger sein als das Magietalent der Einheit, sie kann aber über oder unter der normalen Stufe des Zaubers liegen.  
+So kann man den Zauber auf einer niedrigeren Stufe als sein eigenes Talent zaubern.
 
-Durch einen ,[Ring der Macht][ring-der-macht] [magierturm][magic-magierturm-id] oder [gesegneten Steinkreis][steinkreis] kann die Stärke zusätzlich um je einen Punkt erhöht werden. Dieser Bonus wird zur angegebenen Stufe addiert.
+Durch einen ,[Ring der Macht][ring-der-macht] [magierturm][magic-magierturm-id] oder [gesegneten Steinkreis][steinkreis] kann die Stärke zusätzlich um je einen Punkt erhöht werden.  
+Dieser Bonus wird zur angegebenen Stufe addiert.
 
-Wird die Stufe weggelassen, wird der Zauber auf der maximal möglichen Stufe, also dem Talentwert der Einheit gezaubert (Modifikationen wie Rassenboni oder Sonderboni wie der für Insekten in Wüsten eingerechnet). Dies ist unter anderem deshalb nicht immer wünschenswert, weil die Stufe auch die [Wahrscheinlichkeit für Patzer][patzer] beeinflusst.
+Wird die Stufe weggelassen, wird der Zauber auf der maximal möglichen Stufe, also dem Talentwert der Einheit gezaubert (Modifikationen wie Rassenboni oder Sonderboni wie der für Insekten in Wüsten eingerechnet).  
+Dies ist unter anderem deshalb nicht immer wünschenswert, weil die Stufe auch die [Wahrscheinlichkeit für Patzer][patzer] beeinflusst.
 
 Diese Modifikation funktioniert auch bei Kampfzaubern:
 
@@ -211,7 +228,7 @@ Fernzauber werden zwar in der Region der Magiereinheit gesprochen, wirken aber i
 ZAUBERE REGION <x> <y> "<Zauber>"
 ```
 
-Der Zauber wird dann in der angegebenen Region gewirkt. Die X- und Y-Koordinaten beziehen sich dabei auf den [[bef-ursprung]]. Diese Modifikation erhöht die Kosten aller Komponenten des Zaubers allerdings exponentiell: Die Kosten für Materialkomponenten und Aura werden pro Region Entfernung zwischen dem Ort der Einheit und dem Ziel verdoppelt (Formel: 2<sup>a</sup>, wobei a die Entfernung der Zielregion zur Region der Einheit ist). Folgende Tabellen zur Illustration:
+Der Zauber wird dann in der angegebenen Region gewirkt. Die X- und Y-Koordinaten beziehen sich dabei auf den [`URSPRUNG`][bef-ursprung]. Diese Modifikation erhöht die Kosten aller Komponenten des Zaubers allerdings exponentiell: Die Kosten für Materialkomponenten und Aura werden pro Region Entfernung zwischen dem Ort der Einheit und dem Ziel verdoppelt (Formel: 2<sup>a</sup>, wobei a die Entfernung der Zielregion zur Region der Einheit ist). Folgende Tabellen zur Illustration:
 
 |                                   |                                   |                                     |                                     |                                     |                                       |
 |-----------------------------------|-----------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|---------------------------------------|
@@ -238,19 +255,29 @@ Dabei ist wichtig, dass man erst die Region und dann die Stufe angibt.
 
 **Beispiel:**
 
-Eine Einheit in der Region (1,1) zaubert als ersten Zauberspruch der Runde "Segen der Erde" auf Stufe 3 in die östlich gelegene Nachbarregion (a = 1 Feld Entfernung). Das kostet 2 \* 3 = 6 Aura. Der Befehl für diesen Spruch lautet `ZAUBERE REGION 2 1 STUFE 3 "Segen der Erde"`.
+Eine Einheit in der Region (1,1) zaubert als ersten Zauberspruch der Runde "Segen der Erde" auf Stufe 3 in die östlich gelegene Nachbarregion (a = 1 Feld Entfernung).  
+Das kostet 2 \* 3 = 6 Aura. Der Befehl für diesen Spruch lautet `ZAUBERE REGION 2 1 STUFE 3 "Segen der Erde"`.
 
 ### Schiffs- und Seezauber
 
-Neben den Fernzaubern gibt es auch noch zwei andere Klassen von besonderen Sprüchen. Generell können Zauber **nicht von ablegenden Schiffen** aus gezaubert werden. Eine Ausnahme bilden nur die als **Schiffszauber** bezeichneten Sprüche. Sprüche, die als **Seezauber** gekennzeichnet sind, können auch von Nicht-Meermenschen auf dem Ozean gezaubert werden.
+Neben den Fernzaubern gibt es auch noch zwei andere Klassen von besonderen Sprüchen.  
+Generell können Zauber **nicht von ablegenden Schiffen** aus gezaubert werden.  
+Eine Ausnahme bilden nur die als **Schiffszauber** bezeichneten Sprüche.  
+Sprüche, die als **Seezauber** gekennzeichnet sind, können auch von Nicht-Meermenschen auf dem Ozean gezaubert werden.
 
 ### Personen- und Objektzauber
 
-Mit einigen Zaubern kann man Personen und Objekte magisch beeinflussen. Hierbei ist zu beachten, dass die allermeisten Zauber, die auf befreundete Einheiten gezaubert werden sollen, erfordern, dass die Zieleinheit mit [[bef-kontaktiere]] den Magier kontaktiert. Teleports und andere Verzauberungen können ja gut gemeint sein, aber oft auch zu Missetaten benutzt werden, und mit [[bef-kontaktiere]] signalisiert das Ziel, dass es mit der Verzauberung einverstanden ist.
+Mit einigen Zaubern kann man Personen und Objekte magisch beeinflussen.  
+Hierbei ist zu beachten, dass die allermeisten Zauber, die auf befreundete Einheiten gezaubert werden sollen, erfordern, dass die Zieleinheit mit [`KONTAKTIERE`][bef-kontaktiere] den Magier kontaktiert.  
+Teleports und andere Verzauberungen können ja gut gemeint sein, aber oft auch zu Missetaten benutzt werden, und mit [`KONTAKTIERE`][bef-kontaktiere] signalisiert das Ziel, dass es mit der Verzauberung einverstanden ist.
 
 ### Rang
 
-Die Reihenfolge der normalen Zauber ergibt sich aus dem Rang des Zaubers. Es werden innerhalb einer Runde immer diejenigen Zauber mit einem niedrigeren Rang vor denjenigen mit einem höheren ausgeführt. Dabei ist Rang 1 der niedrigste und Rang 9 der höchste. Die meisten Zauber haben den Standardrang 5, Antimagiezauber aber haben fast alle Rang 2, werden also gegebenenfalls vor den normalen Zaubern gezaubert. Zauber gleichen Rangs werden in der im Zug angegebenen Reihenfolge gezaubert.
+Die Reihenfolge der normalen Zauber ergibt sich aus dem Rang des Zaubers.  
+Es werden innerhalb einer Runde immer diejenigen Zauber mit einem niedrigeren Rang vor denjenigen mit einem höheren ausgeführt.  
+Dabei ist Rang 1 der niedrigste und Rang 9 der höchste.  
+Die meisten Zauber haben den Standardrang 5, Antimagiezauber aber haben fast alle Rang 2, werden also gegebenenfalls vor den normalen Zaubern gezaubert.  
+Zauber gleichen Rangs werden in der im Zug angegebenen Reihenfolge gezaubert.
 
 **Beispiel:**
 
@@ -336,11 +363,22 @@ Erfahrenen Magiern wird irgendwann auf ihren Wanderungen ein ungewöhnliches Exe
 !!! note "Hinweis"
     Auch diesen Abschnitt kannst du auslassen, wenn du die Anleitung zum ersten Mal liest – denn es dauert viele Wochen, bis eine Partei den Astralraum bereisen kann – oder wenn du die komplizierten Regeln des Astralraums lieber selbst herausfinden möchtest.
 
-So unterschiedlich wie die Meinungen, worum es sich dabei eigentlich handelt, sind auch die Namen, die dieser zweiten Ebene des Seins verliehen worden sind: Manche nennen sie die *Welt der Geisterwesen*, andere wiederum die *astrale Welt*, am bekanntesten jedoch ist der Begriff *Astralraum*. In dieser anderen Welt herrschen auch völlig andere Naturgesetze. Diese Tatsache mag der einzige Grund sein, dass der Astralraum überhaupt noch ein praktischer Anwendungsbereich der Magie geblieben ist: Wer es schafft, den Übergang zwischen Astralraum und Wirklichkeit durch seine magischen Kräfte zum richtigen Zeitpunkt verwischen zu lassen, kann daraus große Vorteile erlangen - sei es durch die Wahrnehmung von Dingen auf der jeweils anderen Seite, ohne selbst dabei gesehen zu werden, oder durch die schnelle Reise über große Entfernungen.
+So unterschiedlich wie die Meinungen, worum es sich dabei eigentlich handelt, sind auch die Namen, die dieser zweiten Ebene des Seins verliehen worden sind: Manche nennen sie die *Welt der Geisterwesen*, andere wiederum die *astrale Welt*, am bekanntesten jedoch ist der Begriff *Astralraum*.  
+In dieser anderen Welt herrschen auch völlig andere Naturgesetze.  
+Diese Tatsache mag der einzige Grund sein, dass der Astralraum überhaupt noch ein praktischer Anwendungsbereich der Magie geblieben ist: Wer es schafft, den Übergang zwischen Astralraum und Wirklichkeit durch seine magischen Kräfte zum richtigen Zeitpunkt verwischen zu lassen, kann daraus große Vorteile erlangen - sei es durch die Wahrnehmung von Dingen auf der jeweils anderen Seite, ohne selbst dabei gesehen zu werden, oder durch die schnelle Reise über große Entfernungen.
 
-Wer den Astralraum betritt – dies ist nur durch bestimmte [Zauber][zauberliste] möglich –, verschwindet vollständig aus der realen Welt. Der Astralraum ist wie die reale Welt in Regionen mit den bekannten Himmelsrichtungen unterteilt. Einheiten, die sich an einem Punkt im Astralraum befinden, tauchen wie andere Einheiten im Report auf und werden auch wie diese gespielt. Sie können also Befehle wie [NACH][bef-nach] und [[bef-attackiere]] erhalten und mit anderen Einheiten in der astralen Welt interagieren. Mit der normalen Welt können sie nur durch Zauber in Verbindung treten.
+Wer den Astralraum betritt – dies ist nur durch bestimmte [Zauber][zauberliste] möglich –, verschwindet vollständig aus der realen Welt.  
+Der Astralraum ist wie die reale Welt in Regionen mit den bekannten Himmelsrichtungen unterteilt.  
+Einheiten, die sich an einem Punkt im Astralraum befinden, tauchen wie andere Einheiten im Report auf und werden auch wie diese gespielt.  
+Sie können also Befehle wie [NACH][bef-nach] und [`ATTACKIERE`][bef-attackiere] erhalten und mit anderen Einheiten in der astralen Welt interagieren.  
+Mit der normalen Welt können sie nur durch Zauber in Verbindung treten.
 
-Die Sinne weltlicher Geschöpfe vermögen es nicht, die Umgebung in der astralen Welt konkret wahrzunehmen. Das Auge erblickt die Umgebung bloß als Nebel, und alle Geräusche sind dumpf und gedämpft. Von jedem Punkt im Astralraum lassen sich bis zu 19 realweltliche Regionen schemenhaft erkennen, die höchstens zwei Regionen Abstand von einer bestimmten realen Region haben, die wir hier den "Bezugspunkt" nennen werden (grün im Bild). Einige Zauber vermögen, diese Schemen genauer erscheinen zu lassen. Im Beispielbild sind alle Regionen, die sich von einer Region erkennen lassen, rot umrandet. Sechs Regionen, die von der roten Linien halbiert werden, sind sogar von je zwei Astralregionen sichtbar.
+Die Sinne weltlicher Geschöpfe vermögen es nicht, die Umgebung in der astralen Welt konkret wahrzunehmen.  
+Das Auge erblickt die Umgebung bloß als Nebel, und alle Geräusche sind dumpf und gedämpft.  
+Von jedem Punkt im Astralraum lassen sich bis zu 19 realweltliche Regionen schemenhaft erkennen, die höchstens zwei Regionen Abstand von einer bestimmten realen Region haben, die wir hier den "Bezugspunkt" nennen werden (grün im Bild).  
+Einige Zauber vermögen, diese Schemen genauer erscheinen zu lassen.  
+Im Beispielbild sind alle Regionen, die sich von einer Region erkennen lassen, rot umrandet.  
+Sechs Regionen, die von der roten Linien halbiert werden, sind sogar von je zwei Astralregionen sichtbar.
 
 <!-- TODO: astral connection map 488X393 - should be where in the page ? -->
 ![Astral space connection](assets/images/astral-space-connection.jpg "Astral space connection")
@@ -350,26 +388,40 @@ Illustration des Astralraums und der Geometrie seiner Verbindungen</span></a>
 -->
 </figure>
 
-Besonders verwirrend wird der Astralraum dadurch, dass diese Schemen nicht identisch sind mit den Regionen, die mit der Astralraumregion verbunden sind, von denen aus man also in die Astralregion gelangen kann und umgekehrt. Stattdessen ist jeder Punkt im Astralraum mit einem Bereich in der normalen Welt verbunden, der je 16 Regionen umfasst (im Bild gelb). Dieser Bereich ist wie ein Parallelogramm geformt mit je vier Regionen Ausdehnung in Richtung Ost-West und Südwest-Nordost. Der "Bezugspunkt" ist die südwestliche Ecke davon. Alle Regionen in so einem Bereich führen beim Betreten der astralen Welt zu demselben Punkt. Diese Verbindung ist für die meisten Zauber, die den Astralraum betreffen, eine Voraussetzung. Sie kann aber auch gestört werden, zum Beispiel durch gesegnete Steinkreise, die kürzlich von einem Magier besucht wurden. Je nach benutztem Zauber können noch weitere Einschränkungen gelten.
+Besonders verwirrend wird der Astralraum dadurch, dass diese Schemen nicht identisch sind mit den Regionen, die mit der Astralraumregion verbunden sind, von denen aus man also in die Astralregion gelangen kann und umgekehrt.  
+Stattdessen ist jeder Punkt im Astralraum mit einem Bereich in der normalen Welt verbunden, der je 16 Regionen umfasst (im Bild gelb).  
+Dieser Bereich ist wie ein Parallelogramm geformt mit je vier Regionen Ausdehnung in Richtung Ost-West und Südwest-Nordost.  
+Der "Bezugspunkt" ist die südwestliche Ecke davon.  
+Alle Regionen in so einem Bereich führen beim Betreten der astralen Welt zu demselben Punkt.  
+Diese Verbindung ist für die meisten Zauber, die den Astralraum betreffen, eine Voraussetzung.  
+Sie kann aber auch gestört werden, zum Beispiel durch gesegnete Steinkreise, die kürzlich von einem Magier besucht wurden.  
+Je nach benutztem Zauber können noch weitere Einschränkungen gelten.
 
-Darum ist Vorsicht geboten – denn man kann an einen Punkt im Astralraum einerseits die Schemen von realen Regionen erkennen, die nicht mit diesem Punkt im Realraum verbunden sind, andererseits tauchen nicht alle Regionen der wirklichen Welt, zu denen so eine Verbindung besteht, als Schemen auf. Erst, wenn Reisende sich trotz dieser Unterschiede zurechtfinden, werden sie feststellen, dass sie in der astralen Welt um ein Vielfaches schneller vorankommen können. Denn jeder Schritt in der Geisterwelt entspricht 4 Schritten in der realen Welt.
+Darum ist Vorsicht geboten – denn man kann an einen Punkt im Astralraum einerseits die Schemen von realen Regionen erkennen, die nicht mit diesem Punkt im Realraum verbunden sind, andererseits tauchen nicht alle Regionen der wirklichen Welt, zu denen so eine Verbindung besteht, als Schemen auf.  
+Erst, wenn Reisende sich trotz dieser Unterschiede zurechtfinden, werden sie feststellen, dass sie in der astralen Welt um ein Vielfaches schneller vorankommen können.  
+Denn jeder Schritt in der Geisterwelt entspricht 4 Schritten in der realen Welt.
 
-Nur durch Magie kann die Wirklichkeit derart verändert werden, dass Lebewesen in die Welt der Geisterwesen übertreten. Ferner kann man keine Steine, Pferde, Wagen oder Katapulte in die Welt der Geister mitnehmen. Einzig *Elfenpferde* scheinen als magische Reittiere im Astralraum überleben zu können.
+Nur durch Magie kann die Wirklichkeit derart verändert werden, dass Lebewesen in die Welt der Geisterwesen übertreten.  
+Ferner kann man keine Steine, Pferde, Wagen oder Katapulte in die Welt der Geister mitnehmen.  
+Einzig *Elfenpferde* scheinen als magische Reittiere im Astralraum überleben zu können.
 
-Überhaupt sei jeder vor dem unbedachten Übertritt in den Astralraum gewarnt, wird dieser doch von schrecklichen [Wesen][hirntoter] bewohnt, welche durch gewöhnliche Waffen nicht zu besiegen sind, und die ihren Opfern unbarmherzig Willen und Gedächtnis rauben. Nur wer mächtige magische Waffen oder Verbündete mit sich führt oder sich vor unfreundlichen Blicken außerordentlich gut zu verbergen mag, wird vor diesen Schrecken des Astralraums gefeit sein.
+Überhaupt sei jeder vor dem unbedachten Übertritt in den Astralraum gewarnt, wird dieser doch von schrecklichen [Wesen][hirntoter] bewohnt, welche durch gewöhnliche Waffen nicht zu besiegen sind, und die ihren Opfern unbarmherzig Willen und Gedächtnis rauben.  
+Nur wer mächtige magische Waffen oder Verbündete mit sich führt oder sich vor unfreundlichen Blicken außerordentlich gut zu verbergen mag, wird vor diesen Schrecken des Astralraums gefeit sein.
 
 ## Listen aller Zauber
 
-Zu den Anfangszeiten von Eressea waren die genauen Spruchlisten geheim, um "das gespannte Zittern haben zu können, ob und welche neuen Sprüche man beim Erreichen einer neuen Stufe erhält". Inzwischen läuft Eressea aber so lange, dass es einen zu großen Nachteil für neue Spieler gegenüber Veteranen bedeuten würde, wenn die Sprüche nicht bekannt wären. Deshalb gibt es nun eine [Liste aller Zauber][zauberliste] und [Zauberbeschreibungen][zauberbeschreibungen].
+Zu den Anfangszeiten von Eressea waren die genauen Spruchlisten geheim, um "das gespannte Zittern haben zu können, ob und welche neuen Sprüche man beim Erreichen einer neuen Stufe erhält".  
+Inzwischen läuft Eressea aber so lange, dass es einen zu großen Nachteil für neue Spieler gegenüber Veteranen bedeuten würde, wenn die Sprüche nicht bekannt wären.  
+Deshalb gibt es nun eine [Liste aller Zauber][zauberliste] und [Zauberbeschreibungen][zauberbeschreibungen].
 
 Weiterlesen: [[magiegebiete]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
 
 [bef-attackiere]: [[bef-attackiere]]
+[bef-kampfzauber]: [[bef-kampfzauber]]
 [bef-kontaktiere]: [[bef-kontaktiere]]
 [bef-lerne]: [[bef-lerne]]
-[bef-kampfzauber]: [[bef-kampfzauber]]
 [bef-nach]: [[bef-nach]]
 [bef-ursprung]: [[bef-ursprung]]
 [bef-zaubere]: [[bef-zaubere]]

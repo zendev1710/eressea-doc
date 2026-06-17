@@ -36,8 +36,9 @@ Rahel betrachtete noch verblüfft die eigentlich geheime Karte, als Selen mit de
 Angestrengt betrachtete die Novizin die Karte. Offenbar hatte man sich bei ihrer Erstellung auf das wesentliche beschränkt und die entdeckten Landstriche nur grob klassifiziert.
 Rahel erkannte Wälder und Gebirge, viele Sümpfe und einige unbewaldete Ebenen.
 </div>
+
 In diesem Beispiel ist bei (0,0) ein Sumpf, nordöstlich davon bei (0,1) ein Gebirge.  
-Jede Partei in Eressea hat ein eigenes Koordinatensystem, welches mit dem Befehl [[bef-ursprung]] verschoben werden kann, beispielsweise, um es an das einer anderen Partei anzugleichen.  
+Jede Partei in Eressea hat ein eigenes Koordinatensystem, welches mit dem Befehl [`URSPRUNG`][bef-ursprung] verschoben werden kann, beispielsweise, um es an das einer anderen Partei anzugleichen.  
 
 <div class="lore-dialogue">
 "Gut, mein Kind", bestätigte Selen die um so vieles jüngere Katze.
@@ -342,11 +343,13 @@ Hier eine kurze Übersicht:
 ## Siehe auch
 
 - [Geld][geld]
-- [[bef-rekrutiere]]
-- [[bef-unterhalte]]
+- [`REKRUTIERE`][bef-rekrutiere]
+- [`UNTERHALTE`][bef-unterhalte]
 
 Weiterlesen: [Parteien][parteien].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welt/de&oldid=16560] -->
 
+[bef-rekrutiere]: [[bef-rekrutiere]]
 [bef-unterhalte]: [[bef-unterhalte]]
+[bef-ursprung]: [[bef-ursprung]]

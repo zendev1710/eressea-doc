@@ -21,30 +21,37 @@ Mit dem Befehl `NACH` bewegt sich die Einheit durch die Welt von Eressea. Die Hi
 | Westen     | W           |
 | Südwesten  | SW, Südw    |
 
-Der Befehl hat ein besonderes Verhalten, was [Defaultbefehle] betrifft, also Befehle, die die Einheit in der Folgewoche in der [Zugvorlage][befehl] bekommt: Der NACH-Befehl wird nicht in die Vorlage übernommen. Stattdessen werden die langen Befehle übernommen, die die Einheit in der letzten Woche in der Vorlage hatte.
+Der Befehl hat ein besonderes Verhalten, was [Defaultbefehle][bef-default] betrifft, also Befehle, die die Einheit in der Folgewoche in der [Zugvorlage][befehl] bekommt: Der NACH-Befehl wird nicht in die Vorlage übernommen.  
+Stattdessen werden die langen Befehle übernommen, die die Einheit in der letzten Woche in der Vorlage hatte.
 
 Vorlage:
 
-     LERNE Reiten
-     @GIB x 100 Silber
+```text
+LERNE Reiten
+@GIB x 100 Silber
+```
 
 Eingeschickte Befehle
 
-     NACH w
+```text
+NACH w
+```
 
 Vorlage nächste Woche:
 
-     LERNE Reiten
+```text
+LERNE Reiten
+```text
 
 ## Siehe auch
 
 - [Reisen][reisen]
-- [[bef-route]]
-- [[bef-folge]]
-- [[bef-default]][Defaultbefehle]
+- [`ROUTE`][bef-route]
+- [`FOLGE`][bef-folge]
+- [`DEFAULT`][bef-default]
 
 <!-- From [https://wiki.eressea.de/index.php?title=NACH&oldid=16729] -->
 
-[Defaultbefehle]: [[bef-default]]
+[bef-default]: [[bef-default]]
 [bef-folge]: [[bef-folge]]
 [bef-route]: [[bef-route]]

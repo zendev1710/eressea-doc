@@ -10,7 +10,7 @@ Besonders bei größeren Parteien verliert man als Spieler in einigen Regionen d
 
 ## Der Silberpool
 
-Der Silberpool übernimmt beim Spielen das Verteilen von Geld, so dass z.B. bei [[bef-rekrutiere]] die Einheit automatisch genug Geld bekommt (sofern in der Region vorhanden) oder das Lernen teurer Talente versorgt wird.
+Der Silberpool übernimmt beim Spielen das Verteilen von Geld, so dass z.B. bei [`REKRUTIERE`][bef-rekrutiere] die Einheit automatisch genug Geld bekommt (sofern in der Region vorhanden) oder das Lernen teurer Talente versorgt wird.
 Trotzdem wird überall in der Anleitung darauf hingewiesen, dass Einheiten genug Geld dabei haben müssen.
 Dies ist nur, um zu vermeiden, dass es vergessen wird.
 
@@ -33,7 +33,7 @@ Die Pools gelten nur für die eigene Partei.
 Fremden Einheiten müssen Gegenstände explizit übergeben werden.
 
 !!! warning "Achtung"
-    die Pools funktionieren nicht nur bei der Produktion, also im Wesentlichen für den Befehl [[bef-mache]], sondern im Grunde für alles, insbesondere auch bei den Befehlen [[bef-reserviere]], [GIB][bef-gib], [[bef-benutze]], [[bef-zaubere]], [[bef-rekrutiere]].  
+    die Pools funktionieren nicht nur bei der Produktion, also im Wesentlichen für den Befehl [`MACHE`][bef-mache], sondern im Grunde für alles, insbesondere auch bei den Befehlen [`RESERVIERE`][bef-reserviere], [GIB][bef-gib], [`BENUTZE`][bef-benutze], [`ZAUBERE`][bef-zaubere], [`REKRUTIERE`][bef-rekrutiere].  
     Hat die Einheit einen Gegenstand nicht, so holt sie sich diesen aus dem Materialpool, um ihn zu verarbeiten, zu übergeben oder zu reservieren.  
     Braucht jedoch eine Einheit Waffen für einen Angriff oder das Eintreiben von Steuern, müssen diese explizit übergeben oder reserviert werden, da hier der Materialpool nicht wirkt.  
 
@@ -66,7 +66,7 @@ LERNE Tarnung
 
 ## RESERVIERE und GIB
 
-Bei [[bef-reserviere]] und [GIB][bef-gib], die vor den meisten anderen Befehlen in der [Befehlsreihenfolge][befehlsreihenfolge] kommen, gilt es ein paar besondere Dinge zu beachten.
+Bei [`RESERVIERE`][bef-reserviere] und [GIB][bef-gib], die vor den meisten anderen Befehlen in der [Befehlsreihenfolge][befehlsreihenfolge] kommen, gilt es ein paar besondere Dinge zu beachten.
 Diese gelten für den Silber- und den Materialpool gleichermaßen:
 
 Erstens stehen Gegenstände die übergeben oder reserviert wurden nicht mehr im Pool zur Verfügung.
@@ -187,7 +187,7 @@ Nun ist der Silber- und der Materialpool für alle Parteien automatisch aktiv un
 ## Siehe auch
 
 - [GIB][bef-gib]
-- [[bef-reserviere]]
+- [`RESERVIERE`][bef-reserviere]
 - [Befehlsreihenfolge][befehlsreihenfolge]
 
 Weiterlesen: [Krieg][krieg].
@@ -197,5 +197,6 @@ Weiterlesen: [Krieg][krieg].
 [bef-benutze]: [[bef-benutze]]
 [bef-gib]: [[bef-gib]]
 [bef-mache]: [[bef-mache]]
+[bef-rekrutiere]: [[bef-rekrutiere]]
 [bef-reserviere]: [[bef-reserviere]]
 [bef-zaubere]: [[bef-zaubere]]

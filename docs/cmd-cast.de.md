@@ -22,7 +22,7 @@ Die Anwendung der Zauber ist zum einen im Kapitel [Magie][magie-de-id] genauer e
 Diese erhält man, wenn man den Zauber neu erhält und kann ihn sich mit [`ZEIGE ALLE ZAUBER`][bef-zeige] nochmal anzeigen lassen.
 
 Kampfzauber können nicht einfach so gezaubert werden.
-Will man diese gegen eine Einheit verwenden, muß man den [[bef-kampfzauber]] setzen und dann eine Einheit [attackieren][bef-attackiere] oder attackiert werden.
+Will man diese gegen eine Einheit verwenden, muß man den [`KAMPFZAUBER`][bef-kampfzauber] setzen und dann eine Einheit [attackieren][bef-attackiere] oder attackiert werden.
 Dies kann allerdings zu größeren Schlachten führen!
 
 [^1]: ZAUBERE ist zwar kein langer Befehl, er schließt aber weitere lange Befehle aus. Man kann aber weitere Zauber sprechen.
@@ -30,4 +30,5 @@ Dies kann allerdings zu größeren Schlachten führen!
 <!-- From [https://wiki.eressea.de/index.php?title=ZAUBERE&oldid=16737] -->
 
 [bef-attackiere]: [[bef-attackiere]]
+[bef-kampfzauber]: [[bef-kampfzauber]]
 [bef-zeige]: [[bef-zeige]]

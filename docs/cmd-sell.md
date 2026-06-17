@@ -6,7 +6,7 @@ alias: cmd-sell
 <!-- markdownlint-disable MD052 -->
 # SELL
 
-*`SELL` is like [[cmd-buy]], a [pseudo-long order][short-and-long-orders][^1].*  
+*`SELL` is like [`BUY`][cmd-buy], a [pseudo-long order][short-and-long-orders][^1].*  
 
 **`SELL`**[<sup>`(l)`</sup>]` `*`number`*` `*`Luxury item`*  
 **`SELL`**[<sup>`(l)`</sup>]` ALL `*`Luxury item`*  
@@ -30,11 +30,13 @@ Only one order appears in the normal report (NR).
 But this is only so that there is not a large list of orders there.  
 In the computer report 5CR) and the [orders template][orders], all `BUY` and `SELL` orders are listed.  
 
-[^1]: `SELL` is, like [[cmd-buy]], a ["pseudo-long" order][orders].
+[^1]: `SELL` is, like [`BUY`][cmd-buy], a ["pseudo-long" order][orders].
 
 ## See also
 
 - [trading][silver-trade-id]
-- [[cmd-buy]]
+- [`BUY`][cmd-buy]
 
 <!-- From [https://wiki.eressea.de/index.php?title=SELL&oldid=16784] -->
+
+[cmd-buy]: [[cmd-buy]]

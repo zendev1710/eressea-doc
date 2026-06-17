@@ -23,7 +23,7 @@ Only full 10s can be specified; everything else is rounded down to the next full
 The farmers even give away silver that they actually need to survive, which can lead to [hunger][starvation].  
 
 If several factions want to collect taxes, the money is divided between the factions.  
-If you want to prevent non-allied factions from collecting taxes, you can do this with the [[cmd-guard]] order.  
+If you want to prevent non-allied factions from collecting taxes, you can do this with the [`GUARD`][cmd-guard] order.  
 
 !!! note
     Taxation skill does not increase during use.
@@ -33,3 +33,5 @@ If you want to prevent non-allied factions from collecting taxes, you can do thi
 - [[money]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=TAX&oldid=16747] -->
+
+[cmd-guard]: [[cmd-guard]]

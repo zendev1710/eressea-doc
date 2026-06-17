@@ -86,27 +86,27 @@ Es gibt in Eressea kurze und lange Befehle.
 
 Die langen Befehle sind:
 
-- [[bef-arbeite]],
-- [[bef-attackiere]],
-- [[bef-beklaue]],
-- [[bef-fahre]],
-- [[bef-folge]],
-- [[bef-forsche]],
-- [[bef-kaufe]],
-- [[bef-lehre]],
-- [[bef-lerne]],
-- [[bef-mache]] (Ausnahme: `MACHE TEMP`),
-- [[bef-nach]],
-- [[bef-pflanze]],
-- [[bef-piraterie]],
-- [[bef-route]],
-- [[bef-spioniere]],
-- [[bef-treibe]],
-- [[bef-unterhalte]],
-- [[bef-verkaufe]],
-- [[bef-zaubere]],
+- [`ARBEITE`][bef-arbeite],
+- [`ATTACKIERE`][bef-attackiere],
+- [`BEKLAUE`][bef-beklaue],
+- [`FAHRE`][bef-fahre],
+- [`FOLGE`][bef-folge],
+- [`FORSCHE`][bef-forsche],
+- [`KAUFE`][bef-kaufe],
+- [`LEHRE`][bef-lehre],
+- [`LERNE`][bef-lerne],
+- [`MACHE`][bef-mache] (Ausnahme: `MACHE TEMP`),
+- [`NACH`][bef-nach],
+- [`PFLANZE`][bef-pflanze],
+- [`PIRATERIE`][bef-piraterie],
+- [`ROUTE`][bef-route],
+- [`SPIONIERE`][bef-spioniere],
+- [`TREIBE`][bef-treibe],
+- [`UNTERHALTE`][bef-unterhalte],
+- [`VERKAUFE`][bef-verkaufe],
+- [`ZAUBERE`][bef-zaubere],
 - [ZERSTÖRE][bef-zerstore-id],
-- [[bef-zuechte]]
+- [`ZUECHTE`][bef-zuechte]
 
 Alle anderen Befehle sind kurze Befehle ([Kurzbeschreibung][kurzbeschreibung] aller Befehle).  
 
@@ -121,7 +121,7 @@ Der Default-Befehl steht in der [Zugvorlage] immer als Vorschlag für einen lang
 Du brauchst also einem Pferdedresseur nur einmal den Befehl MACHE pferd zu geben und dieser Befehl erscheint solange in der Zugvorlage, bis sie einen anderen langen Befehl erhält (z.B. LERNE Pferdedressur).  
 Sinnvollerweise werden nicht alle langen Befehle als Default-Befehle übernommen.  
 Das betrifft z.B. `NACH`, `ATTACKIERE` und `FOLGE`.  
-Weiteres zu Default-Befehlen auf der Seite zum Befehl [[bef-default]].  
+Weiteres zu Default-Befehlen auf der Seite zum Befehl [`DEFAULT`][bef-default].  
 
 Eine Einheit, die eine Runde arbeitete, in der kommenden Runde nach Norden zog und dann keinen Befehl mehr bekam, wird sich in der darauf folgenden Runde niederlassen und wieder arbeiten (es sei denn natürlich, sie erhält in dieser Runde einen anderen langen Befehl).
 
@@ -171,10 +171,32 @@ Das birgt natürlich das Risiko, dass du Fehler übersiehst, mit denen du nicht 
 
 - [Befehlsreihenfolge][befehlsreihenfolge]
 - [Kurzbeschreibung][kurzbeschreibung]
-- [[bef-default]]
+- [`DEFAULT`][bef-default]
 
 Weiterlesen: [Befehlsreihenfolge][befehlsreihenfolge].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehl&oldid=16787] -->
 
 [`OPTION ZUGVORLAGE`]: [[bef-option]]
+
+[bef-arbeite]: [[bef-arbeite]]
+[bef-attackiere]: [[bef-attackiere]]
+[bef-beklaue]: [[bef-beklaue]]
+[bef-default]: [[bef-default]]
+[bef-fahre]: [[bef-fahre]]
+[bef-folge]: [[bef-folge]]
+[bef-forsche]: [[bef-forsche]]
+[bef-kaufe]: [[bef-kaufe]]
+[bef-lehre]: [[bef-lehre]]
+[bef-lerne]: [[bef-lerne]]
+[bef-mache]:[[bef-mache]]
+[bef-nach]: [[bef-nach]]
+[bef-pflanze]: [[bef-pflanze]]
+[bef-piraterie]: [[bef-piraterie]]
+[bef-route]: [[bef-route]]
+[bef-spioniere]: [[bef-spioniere]]
+[bef-treibe]: [[bef-treibe]]
+[bef-unterhalte]: [[bef-unterhalte]]
+[bef-verkaufe]: [[bef-verkaufe]]
+[bef-zaubere]: [[bef-zaubere]]
+[bef-zuechte]: [[bef-zuechte]]

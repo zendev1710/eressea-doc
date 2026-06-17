@@ -20,7 +20,7 @@ Eine Region kann nur vom Burgherr der mächtigsten Burg einer Region umbenannt w
 Gruppen können nur von Gruppenmitgliedern umbenannt werden und der neue Gruppenname darf nicht bereits vorhanden sein.
 
 Der neue Name kann bis zu 127 Zeichen lang sein.  
-Längere Beschreibungen fügt man mit dem Befehl [[bef-beschreibe]] an.  
+Längere Beschreibungen fügt man mit dem Befehl [`BESCHREIBE`][bef-beschreibe] an.  
 
 Durch den Zusatz `FREMDE` (bzw. `FREMDES`) und der Angabe der Nummer kann man Einheiten, Schiffe und sogar Gebäude (nicht nur Burgen) anderer Parteien benennen, sofern diese noch keinen Namen haben (Einheiten also als "Einheit abc" benannt sind).  
 Man kann sogar eine fremde Partei benennen, sofern diese älter als zehn Runden ist.

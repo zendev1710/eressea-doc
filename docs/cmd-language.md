@@ -18,6 +18,8 @@ The server is trying to translate the [[orders]] into the new language, but it i
 
 ## See also
 
-- [[cmd-locale]]
+- [`LOCALE`][cmd-locale]
 
 <!-- From [https://wiki.eressea.de/index.php?title=LANGUAGE&oldid=16697] -->
+
+[cmd-locale]: [[cmd-locale]]

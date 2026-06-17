@@ -92,7 +92,9 @@ With evaluation number 559, the Material Pool and Silver Pool options were set a
 
 - `SILVERPOOL`: Typically, units pay expenses incurred “out of pocket.” This option can be used to ensure that necessary Silver is collected from all units in the region.
 - `MATERIALPOOL`: If the [Material Pool][items-pool] is switched on, all required items in a unit are collected as needed, similar to Silver with the [Silver Pool][the-silver-pool].
-  Units can use the [[cmd-reserve]] order to secure items, preventing other units from taking them and consuming them.
+  Units can use the [`RESERVE`][cmd-reserve] order to secure items, preventing other units from taking them and consuming them.
   This option should be used carefully, as you can quickly, for example, use all the wood in a region that you had planned for other purposes, just because you have forgot one `RESERVE`.
 
 <!-- From [https://wiki.eressea.de/index.php?title=OPTION&oldid=16703] -->
+
+[cmd-reserve]: [[cmd-reserve]]

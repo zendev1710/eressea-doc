@@ -6,7 +6,7 @@ alias: bef-kaufe
 <!-- markdownlint-disable MD052 -->
 # KAUFE
 
-*`KAUFE` ist wie [[bef-verkaufe]] ein ["pseudolanger" Befehl][kurze-und-lange-befehle].*
+*`KAUFE` ist wie [`VERKAUFE`][bef-verkaufe] ein ["pseudolanger" Befehl][kurze-und-lange-befehle].*
 
 **`KAUFE`**` `*`anzahl`*` `*`luxusgut`*  
 
@@ -40,7 +40,7 @@ Im Computerreport und der [Zugvorlage][befehl] sind alle `KAUFE`- und `VERKAUFE`
 ## Siehe auch
 
 - [Handel][handel]
-- [[bef-verkaufe]]
+- [`VERKAUFE`][bef-verkaufe]
 
 <!-- From [https://wiki.eressea.de/index.php?title=KAUFE&oldid=16746] -->
 

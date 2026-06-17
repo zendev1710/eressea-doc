@@ -11,7 +11,7 @@ alias: cmd-contact
 You are normally not allowed to give anything to units of foreign factions unless you are allied with that faction.  
 
 To allow this to a limited extent, there is the `CONTACT` order.  
-In this round -and only in this round- the commanding unit behaves towards the named unit as if it were allied with it (see also under [[cmd-help]]), i.e. it accepts items, silver and people from it.  
+In this round -and only in this round- the commanding unit behaves towards the named unit as if it were allied with it (see also under [`HELP`][cmd-help]), i.e. it accepts items, silver and people from it.  
 Non-allied factions can also enter castles and ships, recruit people and extract resources in this way.  
 
 `CONTACT UNIT` allows this to be done by a single unit, while `CONTACT FACTION` allows all units of the faction in question in a region.  

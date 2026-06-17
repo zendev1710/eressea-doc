@@ -24,12 +24,12 @@ Plus d'information : [[ordres]].
 | [CAST &#91;REGION x y&#93; &#91;LEVEL n&#93; "&lt;spell&gt;"...]           | Magie                                                | PL[^4] |
 | [CLAIM &lt;number&gt; &lt;item&gt;]                                        | Récupère les objets du pool de faction               | C      |
 | [`COMBAT`][cmd-combat-fr]                                                  | Définit le comportement au combat                    | C      |
-| [COMBAT AGGRESSIVE]                                                        |                                                      | C      |
-| [COMBAT DEFENSIVE]                                                         |                                                      | C      |
-| [COMBAT FLEE]                                                              |                                                      | C      |
-| [COMBAT HELP &#91;NOT&#93;]                                                | L'unité n'est pas aidée au combat                    | C      |
-| [COMBAT NOT]                                                               |                                                      | C      |
-| [COMBAT REAR]                                                              |                                                      | C      |
+| [`COMBAT AGGRESSIVE`][cmd-combat-fr]                                       |                                                      | C      |
+| [`COMBAT DEFENSIVE`][cmd-combat-fr]                                        |                                                      | C      |
+| [`COMBAT FLEE`][cmd-combat-fr]                                             |                                                      | C      |
+| [`COMBAT HELP [NOT]`][cmd-combat-fr]                                       | L'unité n'est pas aidée au combat                    | C      |
+| [`COMBAT NOT`][cmd-combat-fr]                                              |                                                      | C      |
+| [`COMBAT REAR`][cmd-combat-fr]                                             |                                                      | C      |
 | [COMBATSPELL &#91;LEVEL n&#93; "zauberspruch" &#91;NOT&#93;]               | Définit des sorts pour les combats                   | C      |
 | [CONTACT &lt;unit id&gt;]                                                  | Contacter les unités étrangères                      | C      |
 | [DEFAULT "Orders"]                                                         | Définit l'ordre par défaut pour le prochain tour     | C      |
@@ -174,12 +174,14 @@ Poursuivre la lecture : [[premier-tour]].
 [CARRY &lt;unit id&gt;]: [[cmd-carry-fr]]
 [CAST &#91;REGION x y&#93; &#91;LEVEL n&#93; "&lt;spell&gt;"...]: [[cmd-cast-fr]]
 [CLAIM &lt;number&gt; &lt;item&gt;]: [[cmd-claim-fr]]
+<!--
 [COMBAT AGGRESSIVE]: [[cmd-combat-fr]]
 [COMBAT DEFENSIVE]: [[cmd-combat-fr]]
 [COMBAT FLEE]: [[cmd-combat-fr]]
 [COMBAT HELP &#91;NOT&#93;]: [[cmd-combat-fr]]
 [COMBAT NOT]: [[cmd-combat-fr]]
 [COMBAT REAR]: [[cmd-combat-fr]]
+-->
 [COMBATSPELL &#91;LEVEL n&#93; "zauberspruch" &#91;NOT&#93;]: [[cmd-combatspell-fr]]
 [CONTACT &lt;unit id&gt;]: [[cmd-contact-fr]]
 [DEFAULT "Orders"]: [[cmd-default-fr]]
@@ -294,3 +296,11 @@ Poursuivre la lecture : [[premier-tour]].
 [TEACH &lt;unit id&gt; &#91;&lt;unit id&gt;&#93;...]: [[cmd-teach-fr]]
 [UNIT &lt;unit id&gt;]: [[cmd-unit-fr]]
 [USE &#91;&lt;number&gt;&#93; potion]: [[cmd-use-fr]]
+
+[cmd-combat-fr]: [[cmd-combat-fr]]
+[cmd-end-fr]: [[cmd-end-fr]]
+[cmd-leave-fr]: [[cmd-leave-fr]]
+[cmd-make-fr]: [[cmd-make-fr]]
+[cmd-next-fr]: [[cmd-next-fr]]
+[cmd-promote-fr]: [[cmd-promote-fr]]
+[cmd-work-fr]: [[cmd-work-fr]]

@@ -21,7 +21,7 @@ Auch solche Vertraute besitzen jedoch zusätzlich die Fähigkeit, auf die Zauber
 Außerdem können viele Vertraute bestimmte Talente lernen oder haben besondere Fähigkeiten.
 Aufgrund ihrer grundlegend anderen Sichtweise, können sie jedoch ihr Wissen nicht durch Lehren weitergeben.
 Der Vertraute verleiht dem Magier einen Bonus in Höhe des halben Talentwertes auf jedes Talent (ausgenommen Magie), welches der Vertraute beherrscht.
-Einem Magier sei jedenfalls angeraten, sich diese Fähigkeiten seines Vertrauten über ein [[bef-zeige]] genau in Erinnerung zu rufen.
+Einem Magier sei jedenfalls angeraten, sich diese Fähigkeiten seines Vertrauten über ein [`ZEIGE`][bef-zeige] genau in Erinnerung zu rufen.
 
 ## Vertrautenrassen
 

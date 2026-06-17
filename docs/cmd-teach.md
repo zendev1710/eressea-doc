@@ -30,7 +30,7 @@ If you want to teach units from other factions, you must have received the [`HEL
 TEACH xxxx yyyy TEMP 2 zzzz
 ```
 
-Through the [[cmd-learn-auto]] order, the server attempts to automate learning and teaching in a region within a faction.  
+Through the [`LEARN-AUTO`][cmd-learn-auto] order, the server attempts to automate learning and teaching in a region within a faction.  
 
 !!! warning "Caution"
     A mixture of `TEACH` and `LEARN AUTO` by unis of the same faction is not possible.
@@ -39,3 +39,4 @@ Through the [[cmd-learn-auto]] order, the server attempts to automate learning a
 
 [cmd-contact]: [[cmd-contact]]
 [cmd-help]: [[cmd-help]]
+[cmd-learn-auto]: [[cmd-learn-auto]]

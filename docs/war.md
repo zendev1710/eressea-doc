@@ -13,7 +13,7 @@ That's why you should always look for friends and allies, because "friends come 
 
 ## The sides in a battle
 
-The [[cmd-attack]] order launches an attack against the opponent.  
+The [`ATTACK`][cmd-attack] order launches an attack against the opponent.  
 `ATTACK` orders are executed in random order.  
 During an attack, units from all sides gather in the area and fight each other individually (person by person).  
 A battle lasts a maximum of six turns: five regular combat turns and possibly also turn 0 (zero), the [tactics turn][tacticians-round].
@@ -22,7 +22,7 @@ The attacking side consists of all units that have given `ATTACK` orders against
 
 <!-- TODO: check links in this sentence in wiki -->
 The defenders' camp is made up of the units that have been attacked, on which the opponent has therefore given the order `ATTACK`*`unit-id`*, and with all the units of the attacked faction that are ready to fight.  
-Therefore those in [[cmd-combat]], [`COMBAT AGGRESSIVE`][cmd-combat], [`COMBAT REAR`][cmd-combat] or [`COMBAT DEFENSIVE`][cmd-combat].  
+Therefore those in [`COMBAT`][cmd-combat], [`COMBAT AGGRESSIVE`][cmd-combat], [`COMBAT REAR`][cmd-combat] or [`COMBAT DEFENSIVE`][cmd-combat].  
 In addition, all combat-ready units of factions allied to the factions under attack, i.e. those that have put [`HELP COMBAT`][cmd-help] with the faction under attack, help out.
 
 So there are different reasons why a unit takes part in combat.  
@@ -41,7 +41,7 @@ These are, listed in order of priority:
 
 So allies only automatically help defenders and *only if the defenders have not attacked themselves*.  
 Attacked units defend themselves with all the units of the faction, unless they explicitly stay out of the fight.  
-For the attacker, combat status is irrelevant for the purpose of joining the battle: apart from defenders, only units that have given an [[cmd-attack]] order are engaged in combat.  
+For the attacker, combat status is irrelevant for the purpose of joining the battle: apart from defenders, only units that have given an [`ATTACK`][cmd-attack] order are engaged in combat.  
 However, units that have set [`COMBAT NOT`][cmd-combat] or [`COMBAT FLEE`][cmd-combat] cannot attack.
 
 So, to jointly attack an enemy, each attacking faction must attack at least one of the enemy's units.  
@@ -89,7 +89,7 @@ There are a few tips to help you **avoid the biggest blunders**:
 - You should regularly check the help statuses for all your allies.
   `HELP ALL` is preferable for anyone you **might** fight.
   Mistrust often does damage here.
-- If possible, there should only be one [[cmd-group]].
+- If possible, there should only be one [`GROUP`][cmd-group].
 - In your faction, either all the combat units should have the ATTACK order, or none at all.
   If only some of your units attack, the rest may not take part in the combat if an ally is attacked.
 - It is recommended that you attack all enemy units.
@@ -111,9 +111,9 @@ In this case, other long orders are possible.
 
 In battle, there are four combat rows.  
 These are only made up of units that are actually participating in combat (see above).  
-For more information on combat status, see [[cmd-combat]].
+For more information on combat status, see [`COMBAT`][cmd-combat].
 
-1. row: This is where you'll find all the units that have set [[cmd-combat]] or [`COMBAT AGGRESSIVE`][cmd-combat].
+1. row: This is where you'll find all the units that have set [`COMBAT`][cmd-combat] or [`COMBAT AGGRESSIVE`][cmd-combat].
 2. row: This is where you'll find all the units that have set [`COMBAT REAR`][cmd-combat] or [`COMBAT DEFENSIVE`][cmd-combat]
 3. row: This is where you'll find all the units that have set [`COMBAT NOT`][cmd-combat].
 4. row: This is where you'll find all the units that are simply trying to escape.
@@ -183,12 +183,12 @@ For a group of 10, this can range from 0 to 10 people, but the average is around
 ## Heroes
 
 Heroes are particularly powerful fighters.  
-They must have been previously designated with the order [[cmd-promote]].  
+They must have been previously designated with the order [`PROMOTE`][cmd-promote].  
 Heroes can attack 5 times per combat round.
 
 Warning! This does not apply to magic attacks or to crossbows and catapults.
 
-For more information, see [[cmd-promote]].
+For more information, see [`PROMOTE`][cmd-promote].
 
 ## The fight between two persons
 
@@ -376,7 +376,7 @@ It also follows that spear fighters are slightly more effective against mounted 
 People who have set [`COMBAT FLEE`][cmd-combat] and are [attacked][cmd-attack] try to flee.  
 They do this before each round of combat, so they may have to take (more) hits before they can escape.  
 
-Persons with [[cmd-combat]] or [`COMBAT REAR`][cmd-combat] with only 20% of their hit points left, and persons with [`COMBAT DEFENSIVE`][cmd-combat] or [`COMBAT NOT`][cmd-combat] with just 90% of their hit points left also attempt to flee, but only if they have taken a hit in combat.  
+Persons with [`COMBAT`][cmd-combat] or [`COMBAT REAR`][cmd-combat] with only 20% of their hit points left, and persons with [`COMBAT DEFENSIVE`][cmd-combat] or [`COMBAT NOT`][cmd-combat] with just 90% of their hit points left also attempt to flee, but only if they have taken a hit in combat.  
 Hits whose damage points have been completely absorbed by the armor and failed hit attempts also count.  
 This is to prevent units that were already damaged before the battle from fleeing even though they were not actually in danger.
 
@@ -393,7 +393,7 @@ Special rules apply to units with the FLEE status.
 These units can still move after combat, even if they would otherwise not be able to execute a long order.  
 Furthermore, these units cannot guard regions.  
 Any guarding performed is automatically canceled when the unit assumes the `FLEE` status.  
-This happens at the beginning of the turn, which means that all effects of [[cmd-guard]] are immediately negated.
+This happens at the beginning of the turn, which means that all effects of [`GUARD`][cmd-guard] are immediately negated.
 
 ## Combat on and with ships
 
@@ -409,7 +409,7 @@ These monsters, like some familiars, have an attack that can cause structural da
 
 If the ship is undermanned or empty after the battle, it drifts without control in the ocean and takes further [damage][damage-to-ships].
 
-If you want to land in a region [guarded][cmd-guard] by another faction, you must first [[cmd-leave]] the ship and can attack or move only in the following round.  
+If you want to land in a region [guarded][cmd-guard] by another faction, you must first [`LEAVE`][cmd-leave] the ship and can attack or move only in the following round.  
 This gives your enemies some time to prepare.
 
 From land you can attack a ship immediately.  
@@ -457,7 +457,7 @@ It also works if you have attacked yourself (i.e. you have set the `ATTACK` orde
 If you have no own or allied units guarding the region at the beginning of the battle, the units participating in the battle can no longer execute long orders after the battle.
 
 The only exception are units with the combat status [`COMBAT FLEE`][cmd-combat] and units at sea.  
-Units with the status `COMBAT FLEE` can move after a battle if the have set one of the following orders: [[cmd-move]], [[cmd-route]] or [`FOLLOW SHIP`][cmd-follow].  
+Units with the status `COMBAT FLEE` can move after a battle if the have set one of the following orders: [[cmd-move]], [`ROUTE`][cmd-route] or [`FOLLOW SHIP`][cmd-follow].  
 After sea battles on oceans you can always execute long orders.
 
 ## See also
@@ -473,8 +473,11 @@ Continue reading: [[alliances]].
 [cmd-combat]: [[cmd-combat]]
 [cmd-follow]: [[cmd-follow]]
 [cmd-give]: [[cmd-give]]
+[cmd-group]: [[cmd-group]]
 [cmd-guard]: [[cmd-guard]]
 [cmd-help]: [[cmd-help]]
+[cmd-leave]: [[cmd-leave]]
 [cmd-make]: [[cmd-make]]
 [cmd-piracy]: [[cmd-piracy]]
 [cmd-promote]: [[cmd-promote]]
+[cmd-route]: [[cmd-route]]

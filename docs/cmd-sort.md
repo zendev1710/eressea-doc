@@ -23,4 +23,7 @@ The following limitations apply:
 - A building owner or ship captain cannot use this order
 
 Sorting takes place at the very end of the round, after movement.  
-Thus, units that entered a region using [[cmd-move]] or [[cmd-ride]] can be sorted immediately.  
+Thus, units that entered a region using [`MOVE`][cmd-move] or [`RIDE`][cmd-ride] can be sorted immediately.  
+
+[cmd-move]: [[cmd-move]]
+[cmd-ride]: [[cmd-ride]]

@@ -42,7 +42,7 @@ This is used with advantage for magicians.
 
 ## `COMBAT NOT`
 
-The unit only takes part in the fight if it is the target of an enemy [[cmd-attack]] command.  
+The unit only takes part in the fight if it is the target of an enemy [`ATTACK`][cmd-attack] command.  
 This is used to advantage for units that stay out of combat but are not supposed to flee, e.g. to occupy a building.  
 The unit attempts to flee when it still has 90% of its hit points.  
 
@@ -58,7 +58,7 @@ It is therefore important to consider whether this status makes sense for buildi
 
 Units with this combat status also cannot [attack][cmd-attack] or [guard][cmd-guard].  
 If a guarding unit places `COMBAT FLEE`, the guarding is immediately canceled, with corresponding consequences.  
-Units with the combat status can still move after combat (with [[cmd-move]], [[cmd-route]], [[cmd-follow]]).  
+Units with the combat status can still move after combat (with [`MOVE`][cmd-move], [`ROUTE`][cmd-route], [`FOLLOW`][cmd-follow]).  
 
 !!! warning "Caution"
     Units with `COMBAT FLEE` or `COMBAT NOT` will fight if they are attacked and the first two rows are overrun.  
@@ -80,10 +80,14 @@ If such a unit is attacked, no other units will be brought into battle.
 Of course, this only applies if other units without such a status are not also attacked.  
 
 Your own faction is always involved when it attacks, or when it or a faction it helps is attacked.  
-You'll find further details at [[cmd-help]] and in the chapters [[war]] and [Alliance][alliances].  
+You'll find further details at [`HELP`][cmd-help] and in the chapters [[war]] and [Alliance][alliances].  
 
 <!-- From [https://wiki.eressea.de/index.php?title=COMBAT&oldid=7216] -->
 
 [cmd-attack]: [[cmd-attack]]
 [cmd-combatspell]: [[cmd-combatspell]]
+[cmd-follow]: [[cmd-follow]]
 [cmd-guard]: [[cmd-guard]]
+[cmd-help]: [[cmd-help]]
+[cmd-move]: [[cmd-move]]
+[cmd-route]: [[cmd-route]]

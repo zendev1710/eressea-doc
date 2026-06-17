@@ -40,7 +40,7 @@ Mit diesem Talent können [Gebäude und Burgen][gebaude-id] gebaut werden.
 
 ## Handeln
 
-In Regionen mit einer Burg: Luxusgüter kaufen und verkaufen. Pro Person und Talentstufe können 10 Güter gehandelt werden (siehe [Handel][handel] und [[bef-kaufe]]).
+In Regionen mit einer Burg: Luxusgüter kaufen und verkaufen. Pro Person und Talentstufe können 10 Güter gehandelt werden (siehe [Handel][handel] und [`KAUFE`][bef-kaufe]).
 
 ## Hiebwaffen
 
@@ -58,22 +58,26 @@ Zusammen mit einem Katapult und Katapultmunition: kämpfen. Mit Katapulten kann 
 
 ## Kräuterkunde
 
-Finden von [Kräutern][krauter-id] zur Herstellung von [alchemistischen Tränken][tranke-id]. Lernen kostet 200 Silber pro Runde und Person. Ab höheren Talentwerten ist auch [`FORSCHE KRÄUTER`], [`MACHE SAMEN`] (siehe [Produktion][produktion]) und [[bef-pflanze]] möglich. Trotz hoher Talentwerte kann man durchaus wenige oder gar keine Kräuter finden.
+Finden von [Kräutern][krauter-id] zur Herstellung von [alchemistischen Tränken][tranke-id].  
+Lernen kostet 200 Silber pro Runde und Person. Ab höheren Talentwerten ist auch [`FORSCHE KRÄUTER`], [`MACHE SAMEN`] (siehe [Produktion][produktion]) und [`PFLANZE`][bef-pflanze] möglich.  
+Trotz hoher Talentwerte kann man durchaus wenige oder gar keine Kräuter finden.
 
 ## [Magie][magie-de-id]
 
-Damit kann man Kampfzauber und andere Zaubersprüche verwenden. Das Lernen von Magie kostet abhängig von der Stufe [Silber][magie-de-id].
+Damit kann man Kampfzauber und andere Zaubersprüche verwenden.  
+Das Lernen von Magie kostet abhängig von der Stufe [Silber][magie-de-id].
 
 ## Pferdedressur
 
 Das Talent wird benötigt um an [Pferde][pferd-und-wagen] zu gelangen. Man kann es auf zwei Arten anwenden:
 
-- Mit [[bef-mache]][`MACHE SAMEN`]`[`*`anzahl`*`] Pferd` fängt man Pferde aus der Region und zwar 1 Pferd pro Person und Talentstufe Pferdedressur. Natürlich maximal soviele Pferde wie in der Region sind.
+- Mit [`MACHE`][bef-mache][`MACHE SAMEN`]`[`*`anzahl`*`] Pferd` fängt man Pferde aus der Region und zwar 1 Pferd pro Person und Talentstufe Pferdedressur. Natürlich maximal soviele Pferde wie in der Region sind.
 - Mit [`ZÜCHTE PFERDE`][bef-zuchte-id] kann man aus bestehenden Pferden neue züchten, dazu muss man sich jedoch in einer [Pferdezucht][pferdezucht] befinden.
 
 ## Reiten
 
-Zusammen mit einem [Pferd][pferd-und-wagen]: Ab Reiten 1 schnellere Bewegung, ab Reiten 2 Pferdebonus im Kampf. Pro Person und Talentstufe vier Pferde (und ein weiteres pro Person) zu Fuß oder zwei Pferde reitend.
+Zusammen mit einem [Pferd][pferd-und-wagen]: Ab Reiten 1 schnellere Bewegung, ab Reiten 2 Pferdebonus im Kampf.  
+Pro Person und Talentstufe vier Pferde (und ein weiteres pro Person) zu Fuß oder zwei Pferde reitend.
 
 ## Rüstungsbau
 
@@ -85,13 +89,15 @@ Bau und Reparatur von Schiffen aus Holz (siehe [Schiffe][schiff]).
 
 ## Segeln
 
-Zusammen mit einem Schiff: ermöglicht Segeln. Alle Personen auf dem Schiff mit dem Segeln Talent zählen als Matrosen.
+Zusammen mit einem Schiff: ermöglicht Segeln.  
+Alle Personen auf dem Schiff mit dem Segeln Talent zählen als Matrosen.
 
 [](){ #skill-spionage-id }
 
 ## Spionage
 
-Wird benötigt um den Befehl [[bef-spioniere]] anzuwenden und damit an Informationen über Einheiten anderer Parteien zu bekommen die normalerweise nicht sichtbar sind (Talente, wahre Parteizugehörigkeit...). Spionage lernen kostet 100 Silber pro Person und Woche.
+Wird benötigt um den Befehl [`SPIONIERE`][bef-spioniere] anzuwenden und damit an Informationen über Einheiten anderer Parteien zu bekommen die normalerweise nicht sichtbar sind (Talente, wahre Parteizugehörigkeit...).  
+Spionage lernen kostet 100 Silber pro Person und Woche.
 
 ## Stangenwaffen
 
@@ -101,7 +107,9 @@ Zusammen mit einer Stangenwaffe: kämpfen. Mit Talent Steuereintreiben: Steuern 
 
 Steine und Katapultmunition (ab Talentstufe 3) produzieren. Pro Person und Talentstufe kann ein Stein gemacht werden.
 
-Man beachte, dass die Vorkommen pro Stufe begrenzt sind (siehe [Rohstoffe][vom-bergbau]). Man sieht immer nur, wie viele Steine auf der obersten Schicht liegen. Wenn bis zu einer Tiefe von (Talentstufe Steinbau \* 2) keine Steine mehr vorkommen, sieht man kein eventuelles Steinvorkommen.
+Man beachte, dass die Vorkommen pro Stufe begrenzt sind (siehe [Rohstoffe][vom-bergbau]).  
+Man sieht immer nur, wie viele Steine auf der obersten Schicht liegen.  
+Wenn bis zu einer Tiefe von (Talentstufe Steinbau \* 2) keine Steine mehr vorkommen, sieht man kein eventuelles Steinvorkommen.
 
 [](){ #skill-steuereintreiben-id }
 
@@ -123,7 +131,8 @@ Bei einem Kampf hat die Seite mit dem besten Taktiker einige Attacken frei (sieh
 
 ## Tarnung
 
-Die Einheit ist immer getarnt und nur für Einheiten mit gleichem oder größeren Wahrnehmungstalent sichtbar. Erfolgreich getarnte Einheiten können andere Einheiten [beklauen][tarnung-id] und [Bewachungen] umgehen.
+Die Einheit ist immer getarnt und nur für Einheiten mit gleichem oder größeren Wahrnehmungstalent sichtbar.  
+Erfolgreich getarnte Einheiten können andere Einheiten [beklauen][tarnung-id] und [Bewachungen] umgehen.
 
 ## Unterhaltung
 
@@ -143,7 +152,8 @@ Bau von Wagen und Katapulten aus Holz. Pro Person und Talentstufe kann aus 5 Hol
 
 ## Wahrnehmung
 
-Die Einheit ist immer auf der Ausschau nach getarnten Einheiten. Dadurch kann man z.B. Dieben "vorbeugen" (siehe [Wahrnehmung][tarnung-id]).
+Die Einheit ist immer auf der Ausschau nach getarnten Einheiten.  
+Dadurch kann man z.B. Dieben "vorbeugen" (siehe [Wahrnehmung][tarnung-id]).
 
 Weiterlesen: [Tarnung][tarnung-id].
 
@@ -155,3 +165,4 @@ Weiterlesen: [Tarnung][tarnung-id].
 [bef-pflanze]: [[bef-pflanze]]
 [bef-spioniere]: [[bef-spioniere]]
 [Bewachungen]: [[bef-bewache]]
+[bef-mache]:[[bef-mache]]

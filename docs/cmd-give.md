@@ -26,7 +26,7 @@ The unit transfers items, command of ships or buildings, persons, ships or even 
 
 With `GIVE` units can give all the goods they own to other units.
 The condition is that the indicated unit accepts things.  
-This is the case if it belongs to the same faction or an allied faction (`HELP GIVE`), or if it has given this turn the [[cmd-contact]] order for the giving unit.  
+This is the case if it belongs to the same faction or an allied faction (`HELP GIVE`), or if it has given this turn the [`CONTACT`][cmd-contact] order for the giving unit.  
 Monster units and certain player units with monster races also accept nothing.  
 Those who simply want to throw away objects can also give them to peasants or throw them into the ocean (`GIVE 0 "amount" "item"'`).  
 Persons, Silver and horses respectively increase the supply of peasants, Silver and horses in a (land) region.  
@@ -96,7 +96,7 @@ If you want to bring people from different units together, this is done with `GI
 Player experience (Solthar):
 
 If you want to hand over people to a unit of another faction, a simple [`HELP GIVE`][cmd-help] is not enough!  
-The receiving unit must [[cmd-contact]] the transferring unit.  
+The receiving unit must [`CONTACT`][cmd-contact] the transferring unit.  
 In addition, if the receiving unit is a [migrant unit][humans], it must not have any people at the time of transfer.
 Ideally it should be an empty TEMP unit.
 Example:
@@ -133,11 +133,13 @@ Boats cannot form convoys and the ships must be on the same coast.
 
 ## See also
 
-- [[cmd-reserve]]
+- [`RESERVE`][cmd-reserve]
 - [[items-pool]]
 - [Ships][ships-id]
 - [[buildings]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=GIVE/en&oldid=15995] -->
 
+[cmd-contact]: [[cmd-contact]]
 [cmd-help]: [[cmd-help]]
+[cmd-reserve]: [[cmd-reserve]]

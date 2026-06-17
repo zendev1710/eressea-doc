@@ -37,6 +37,10 @@ If the number of available jobs is exceeded, player units can no longer work in 
 | Swamp     |              2000 |        250 |               200 |
 | Volcano   |               500 |         63 |                50 |
 
-Units on board ships in foreign-guarded regions cannot work or maintain themselves (see [[cmd-guard]], [[cmd-help]] and [[cmd-entertain]]).
+Units on board ships in foreign-guarded regions cannot work or maintain themselves (see [`GUARD`][cmd-guard], [`HELP`][cmd-help] and [`ENTERTAIN`][cmd-entertain]).
 
 <!-- From [https://wiki.eressea.de/index.php?title=WORK/en&oldid=11713] -->
+
+[cmd-entertain]: [[cmd-entertain]]
+[cmd-guard]: [[cmd-guard]]
+[cmd-help]: [[cmd-help]]

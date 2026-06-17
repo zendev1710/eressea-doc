@@ -23,8 +23,8 @@ reserved for a unit with 10 people i.e. 1000 Silver.
 
 ## Sources of error
 
-- `TEMP` unit cannot reserve! Silver like items must be given to them using [[cmd-give]]
-- `RESERVE` occurs before [[cmd-give]] and [[cmd-recruit]] in the [[orders-sequence]]. So related `EACH` apply on the number of people **before** handover and recruitment
+- `TEMP` unit cannot reserve! Silver like items must be given to them using [`GIVE`][cmd-give]
+- `RESERVE` occurs before [`GIVE`][cmd-give] and [`RECRUIT`][cmd-recruit] in the [[orders-sequence]]. So related `EACH` apply on the number of people **before** handover and recruitment
 - If a faction's units reserve more of an item than is available in the region (in the material pool) as a whole, the outcome is difficult to predict. For further details see [[items-pool]]
 - If the same item is reserved by a unit several times, only the last entry is valid
 
@@ -53,6 +53,9 @@ The unit will reserve a sword and 50 silver.
 ## See also
 
 - [[items-pool]]
-- [[cmd-give]]
+- [`GIVE`][cmd-give]
 
 <!-- From [https://wiki.eressea.de/index.php?title=RESERVE&oldid=14809] -->
+
+[cmd-give]: [[cmd-give]]
+[cmd-recruit]: [[cmd-recruit]]

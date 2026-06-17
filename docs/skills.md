@@ -10,7 +10,7 @@ alias: skills
 Les compétences sont un élément essentiel qui définit une [unité][cmd-unit] dans Eressea.
 Toutes les personnes d'une unité ont les mêmes compétences.
 Elles doivent d'abord les apprendre.
-Pour être précis, avec l'ordre [[cmd-learn]], une unité peut faire une tentative par tour pour gagner un nouveau niveau.
+Pour être précis, avec l'ordre [`LEARN`][cmd-learn], une unité peut faire une tentative par tour pour gagner un nouveau niveau.
 
 Certaines compétences s'améliorent également en les utilisant.
 Si l'unité utilise la compétence, il y a 1/3 de chances qu'elle gagne de l'expérience (2/3 de chances qu'elle n'en gagne pas).
@@ -36,7 +36,7 @@ Au premier succès d'un ordre d'apprentissage `LEARN`, l'unité apprenante sera,
 ## Learn skills
 
 Atteindre un nouveau niveau de compétence devient de plus en plus difficile à chaque niveau.
-En moyenne, la progression vers un nouveau niveau de compétence avec la commande [[cmd-learn]] prend environ un nombre de semaines égal au niveau de compétence visé, sans tenir compte des modifications apportées par la [race][races] ou le terrain.
+En moyenne, la progression vers un nouveau niveau de compétence avec la commande [`LEARN`][cmd-learn] prend environ un nombre de semaines égal au niveau de compétence visé, sans tenir compte des modifications apportées par la [race][races] ou le terrain.
 Le temps d'apprentissage minimal est d'1 semaine.
 La durée maximale d'apprentissage ne dépasse pas (2 x nouveau niveau − 1).
 Les valeurs extrêmes sont moins fréquentes que la valeur moyenne.
@@ -82,7 +82,7 @@ Unit s2 is only half taught in endurance and therefore only learns 50% faster.
     Si plusieurs unités de professeurs enseignent à plusieurs unités d'élèves dans différentes compétences ou niveaux de compétence, il est possible que certains élèves n'aient pas de professeur ou ne reçoivent pas le bon professeur.  
     Il n'est pas possible de faire autrement en raison de l'organisation interne d'Eressea.  
     Dans ce cas, vous devez créer des « relations claires » en restructurant les unités pédagogiques.  
-    Avec l'ordre [[cmd-learn-auto]], le serveur tente d'automatiser l'apprentissage et l'enseignement dans une région.  
+    Avec l'ordre [`LEARN-AUTO`][cmd-learn-auto], le serveur tente d'automatiser l'apprentissage et l'enseignement dans une région.  
     Cependant, comme cela est dû à une simple heuristique, il n’est pas garanti qu’une chaîne d’apprentissage optimale (à long terme) soit créée.  
 
 [[magic]], [alchemy][skill-alchemy-id], [herbalism][herbalism], [espionage][skill-espionage-id] et [[tactics]] sont particulièrement difficiles et coûteuses.
@@ -97,7 +97,7 @@ Si l'unité en apprentissage ne dispose pas de suffisamment au moment du paiemen
 par exemple si elle n'a que 500 Silver sur 550, ses chances d'apprendre diminueront d'environ 10%.
 
 Dans de rares cas, une unité peut vouloir se débarrasser d'une compétence.
-Ceci est possible avec l'ordre [[cmd-forget]].
+Ceci est possible avec l'ordre [`FORGET`][cmd-forget].
 
 ## Mixing skills
 
@@ -193,6 +193,8 @@ Continue reading: [[list-of-skills]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Talente/fr&oldid=16177] -->
 
+[cmd-forget]: [[cmd-forget]]
 [cmd-learn]: [[cmd-learn]]
+[cmd-learn-auto]: [[cmd-learn-auto]]
 [cmd-teach]: [[cmd-teach]]
 [cmd-unit]: [[cmd-unit]]

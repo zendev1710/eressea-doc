@@ -45,7 +45,7 @@ Each person needs 10 silver maintenance per week in order not to go hungry
 
 ## Finance
 
-Entertainment and taxes are learned quicker than trading, only do [[cmd-work]] in an emergency to avoid starvation.  
+Entertainment and taxes are learned quicker than trading, only do [`WORK`][cmd-work] in an emergency to avoid starvation.  
 
 ## Mage
 
@@ -84,3 +84,4 @@ As a rule, it is not enough to place an entertainer unit in the neighboring moun
 
 [cmd-attack]: [[cmd-attack]]
 [cmd-guard]: [[cmd-guard]]
+[cmd-work]: [[cmd-work]]

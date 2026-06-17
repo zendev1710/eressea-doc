@@ -6,19 +6,29 @@ alias: reisen
 <!-- markdownlint-disable MD052 -->
 # Reisen
 
-In Eressea gibt es mehrere Möglichkeiten, sich fortzubewegen: zu Fuß gehen, auf Pferden reiten oder auf Schiffen über Ozeane segeln. Einige wenige können sogar schwimmen oder fliegen. Für alle Varianten wird der Befehl [NACH][bef-nach] oder [[bef-route]] benutzt.
+In Eressea gibt es mehrere Möglichkeiten, sich fortzubewegen: zu Fuß gehen, auf Pferden reiten oder auf Schiffen über Ozeane segeln.  
+Einige wenige können sogar schwimmen oder fliegen.  
+Für alle Varianten wird der Befehl [NACH][bef-nach] oder [`ROUTE`][bef-route] benutzt.
 
 ## Reisen: Zu Land und zur See
 
-In jeder Runde kann man zu Land eine Region weit gehen. Hat eine Einheit genug Pferde und hat sie das Talent Reiten, so kommt sie eine Region weiter als zu Fuß. Sind die aneinanderliegenden Regionen durch Straßen verbunden, können sich die Einheiten zu Fuß bis zu 2 Regionen und zu Pferd bis zu 3 Regionen weit bewegen.
+In jeder Runde kann man zu Land eine Region weit gehen.  
+Hat eine Einheit genug Pferde und hat sie das Talent Reiten, so kommt sie eine Region weiter als zu Fuß.  
+Sind die aneinanderliegenden Regionen durch Straßen verbunden, können sich die Einheiten zu Fuß bis zu 2 Regionen und zu Pferd bis zu 3 Regionen weit bewegen.
 
 Bewegung ist nur in die sechs Richtungen Nordost, Nordwest, Osten, Westen, Südost und Südwest möglich. Eine direkte Bewegung nach Norden oder Süden geht nicht.
 
-Mit dem Befehl [[bef-transportiere]]` `*`fahrgast-einheit`* können Einheiten andere Einheiten mitnehmen. Die zu transportierende Einheit muss dazu den Befehl [`FAHRE transporter-einheit`][bef-fahre] geben. Durch diesen Befehl ist es z.B. möglich, Einheiten, die nicht reiten können, auf Pferden oder Wagen mitzunehmen. Die transportierende Einheit muss dazu natürlich Tragekapazität für die Passagiere und deren Besitztümer haben. Mit [[bef-folge]]` EINHEIT `*`verfolgte-einheit`* oder `FOLGE SCHIFF`*`verfolgtes-schiff`* ist es hingegen so, als hätte die Einheit selber einen NACH-Befehl gegeben, wenn die verfolgte Einheit oder das Schiff einen Bewegungsbefehl haben. Sie muss also ihr Gewicht selber tragen.
+Mit dem Befehl [`TRANSPORTIERE`][bef-transportiere]` `*`fahrgast-einheit`* können Einheiten andere Einheiten mitnehmen.  
+Die zu transportierende Einheit muss dazu den Befehl [`FAHRE transporter-einheit`][bef-fahre] geben.  
+Durch diesen Befehl ist es z.B. möglich, Einheiten, die nicht reiten können, auf Pferden oder Wagen mitzunehmen.  
+Die transportierende Einheit muss dazu natürlich Tragekapazität für die Passagiere und deren Besitztümer haben.  
+Mit [`FOLGE`][bef-folge]` EINHEIT `*`verfolgte-einheit`* oder `FOLGE SCHIFF`*`verfolgtes-schiff`* ist es hingegen so, als hätte die Einheit selber einen NACH-Befehl gegeben, wenn die verfolgte Einheit oder das Schiff einen Bewegungsbefehl haben.  
+Sie muss also ihr Gewicht selber tragen.
 
-Reisende Einheiten können von bewachenden Einheiten in einer Region gestoppt werden (siehe [[bef-bewache]]).
+Reisende Einheiten können von bewachenden Einheiten in einer Region gestoppt werden (siehe [`BEWACHE`][bef-bewache]).
 
-Wenn eine Einheit oder ein Schiff zu schwer beladen ist, können sie sich nicht fortbewegen. Dazu wird das Gesamtgewicht der zu transportierenden Einheit samt mitgeführten Waren und Silber mit der Tragekapazität verglichen (siehe [diese Tabelle][waren] für die Gewichte).
+Wenn eine Einheit oder ein Schiff zu schwer beladen ist, können sie sich nicht fortbewegen.  
+Dazu wird das Gesamtgewicht der zu transportierenden Einheit samt mitgeführten Waren und Silber mit der Tragekapazität verglichen (siehe [diese Tabelle][waren] für die Gewichte).
 
 TODO: Katapulte
 
@@ -48,17 +58,23 @@ Die **Bewegungsgeschwindigkeit** zu Fuß beträgt ohne [Straße][strassen-id] ei
 
 **Pferde** haben eine Kapazität von 20GE.
 
-**Wagen** haben eine Kapazität von 100GE. Dazu müssen sie von 2 Pferden pro Wagen gezogen werden. Wagen können aber auch als Fracht transportiert werden, zum Beispiel auf einem Schiff oder wenn die Einheit zu wenige Pferde dabei hat; sie haben ein Gewicht von 40GE.
+**Wagen** haben eine Kapazität von 100GE. Dazu müssen sie von 2 Pferden pro Wagen gezogen werden.  
+Wagen können aber auch als Fracht transportiert werden, zum Beispiel auf einem Schiff oder wenn die Einheit zu wenige Pferde dabei hat; sie haben ein Gewicht von 40GE.
 
-Je 4 Trolle können auch ohne Pferde einen Wagen ziehen, allerdings nur eine Region weit. Nur Trolle können Wagen ohne Pferde benutzen.
+Je 4 Trolle können auch ohne Pferde einen Wagen ziehen, allerdings nur eine Region weit.  
+Nur Trolle können Wagen ohne Pferde benutzen.
 
-**Zu Fuß** kann jede Person (auch ohne das Talent Reiten) ein Pferd eine Region weit führen. Zusätzlich kann jede Person pro Talentstufe Reiten vier Pferde führen (eine Person mit Reiten 1 also insgesamt 5 Pferde). Führen Trolle sowohl Pferde als auch Wagen mit sich, so ziehen bevorzugt die Pferde die Wagen.
+**Zu Fuß** kann jede Person (auch ohne das Talent Reiten) ein Pferd eine Region weit führen.  
+Zusätzlich kann jede Person pro Talentstufe Reiten vier Pferde führen (eine Person mit Reiten 1 also insgesamt 5 Pferde).  
+Führen Trolle sowohl Pferde als auch Wagen mit sich, so ziehen bevorzugt die Pferde die Wagen.
 
-**Zu Pferd** kann jede Person pro Talentstufe Reiten zwei Pferde mitnehmen. Dabei ist zu beachten, dass die Reiter selbst von der Kapazität des Gespanns abgezogen werden müssen.
+**Zu Pferd** kann jede Person pro Talentstufe Reiten zwei Pferde mitnehmen.  
+Dabei ist zu beachten, dass die Reiter selbst von der Kapazität des Gespanns abgezogen werden müssen.
 
 Sind zu viele Pferde vorhanden, kann sich die Einheit nicht mehr bewegen.
 
-Sind in einer Einheit mehrere Pferde und Wagen, so wird deren Tragekapazität einfach addiert. So passen z.B. auf drei Wagen sieben Steine, obwohl auf einen Wagen nur ein Stein (abgerundet) passt.
+Sind in einer Einheit mehrere Pferde und Wagen, so wird deren Tragekapazität einfach addiert.  
+So passen z.B. auf drei Wagen sieben Steine, obwohl auf einen Wagen nur ein Stein (abgerundet) passt.
 
 **Beispiele** (wir nehmen hierfür an, dass es keine Straßen gibt)
 

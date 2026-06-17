@@ -68,7 +68,7 @@ In general, the quantities that can be extracted increase with each new layer.
 The development of Eressea's vegetation is determined by the seasons.
 As soon as the first rays of sunlight hit the ground in spring, the seeds hidden in the soil germinate and last year's saplings grow into mature trees.
 If there isn't enough sun (no free working space), the seeds remain dormant in the soil.
-During the summer and autumn months, mature trees shed their seeds, which can be collected with the [[cmd-make]]`seed / "mallorn seed"` order and the [herbalism][herbalism] skill (minimum level 3 / 4) and then replanted elsewhere with the [[cmd-plant]]`seed / "mallorn seed"` order (minimum level 6 / 7).
+During the summer and autumn months, mature trees shed their seeds, which can be collected with the [`MAKE`][cmd-make]`seed / "mallorn seed"` order and the [herbalism][herbalism] skill (minimum level 3 / 4) and then replanted elsewhere with the [`PLANT seed / "mallorn seed"`][cmd-plant] order (minimum level 6 / 7).
 
 If wood or mallorn is felled, the forest shrinks and only recovers very slowly.
 As long as there is enough wood, it can be felled in any quantity.
@@ -132,3 +132,4 @@ Continue reading: [Goods][items].
 [cmd-guard]: [[cmd-guard]]
 [cmd-help]: [[cmd-help]]
 [cmd-make]: [[cmd-make]]
+[cmd-plant]: [[cmd-plant]]

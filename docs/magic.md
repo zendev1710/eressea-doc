@@ -66,7 +66,7 @@ Of course, learning through application does not cost silver.
 With each level the unit gains in magic, it can gain new spells.
 There is currently one spell in each level, in exceptional cases several or none at all.
 Once you have reached a new level, the sayings are described in the evaluation.
-If you have forgotten the description, you can have it shown again using the [[cmd-show]] command.
+If you have forgotten the description, you can have it shown again using the [`SHOW`][cmd-show] command.
 
 ```text
 Eine so angezeigte Spruchbeschreibung sieht ungefähr so aus:
@@ -117,7 +117,7 @@ Syntax:
 
 There are normal spells, pre-combat spells, combat spells and post-combat spells.
 
-Normal spells are cast using the [[cmd-cast]] order.
+Normal spells are cast using the [`CAST`][cmd-cast] order.
 Their effect occurs either immediately (see [[orders-sequence]]) or sometimes at a later point in time, for example at the beginning of the following round.  
 
 The three types of combat spells can never be cast using `CAST`.
@@ -147,7 +147,7 @@ Syntax:
 ```
 <!-- TODO check if below is what german text meant -->
 If a mage has cast combat spells, it automatically casts spells as soon as it takes part in combat, either by ordering `ATTACK` himself or by being drawn into battle by an attack on his side (see [The Sides in a Battle][the-sides-in-a-battle]).  
-This can also happen even if he is set to `COMBAT NOT` or `FLEE`, when he is explicitly attacked with the [[cmd-attack]] order!
+This can also happen even if he is set to `COMBAT NOT` or `FLEE`, when he is explicitly attacked with the [`ATTACK`][cmd-attack] order!
 
 A pre-combat or post-combat spell is cast once before or after the combat begins.
 A normal combat spell once per combat round. Of course, only under the condition that the unit still has sufficient aura (see under [Aura][aura-id]) and that it is still alive.
@@ -173,7 +173,7 @@ There are also spells (and possibly other things) that cost mages permanent aura
 This means that the unit can now store less maximum aura.  
 These are usually very powerful spells or artifact magic that cause permanent effects.  
 
-[[cmd-cast]] is a pseudo-long command comparable to [[cmd-attack]].  
+[[cmd-cast]] is a pseudo-long command comparable to [`ATTACK`][cmd-attack].  
 A unit can therefore cast spells several times per round, but cannot carry out any other long command.  
 But there is a catch: the aura costs of the spells increase. The first spell the unit casts in a round costs the normal aura specified in the spell.  
 The second costs twice as much, the third four times as much, the fourth as eight times, etc.  
@@ -239,7 +239,7 @@ CAST REGION <x> <y> "<Spell>>"
 ```
 
 The spell is then cast in the specified region.  
-The X and Y coordinates refer to the [[cmd-origin]].  
+The X and Y coordinates refer to the [`ORIGIN`][cmd-origin].  
 However, this modification increases the cost of all components of the spell exponentially.  
 The cost of material components and aura are doubled per region of distance between the unit's location and the target.  
 Formula: 2<sup>a</sup>, where a is the distance of the target region to the region of the unit.  
@@ -288,8 +288,8 @@ Sayings that as **Sea magic** marked can also be cast by non-Aquarians on the oc
 ### Magic with people and objects
 
 Some spells can be used to magically influence people and objects.  
-It should be noted that the vast majority of spells to be cast on friendly units require that the target unit contact the magician with [[cmd-contact]].  
-Teleports and other enchantments can be well-intentioned, but can often be used for misdeeds, and with [[cmd-contact]] the target signals that they agree to the enchantment.  
+It should be noted that the vast majority of spells to be cast on friendly units require that the target unit contact the magician with [`CONTACT`][cmd-contact].  
+Teleports and other enchantments can be well-intentioned, but can often be used for misdeeds, and with [`CONTACT`][cmd-contact] the target signals that they agree to the enchantment.  
 
 ### Rank
 
@@ -404,7 +404,7 @@ This fact may be the only reason why the Astral plane has remained a practical a
 Anyone who enters the Astral space -this is only possible through certain [spells][list-of-spells] -disappears completely from the real world.  
 Like the real world, the Astral space is divided into regions with the known cardinal points.  
 Units located at a point in Astral space appear in the report and are played like other units.  
-So you can receive orders like [[cmd-move]] and [[cmd-attack]] and interact with other entities in the astral world.  
+So you can receive orders like [`MOVE`][cmd-move] and [`ATTACK`][cmd-attack] and interact with other entities in the astral world.  
 They can only communicate with the normal world through magic.  
 
 The senses of worldly creatures are unable to concretely perceive the surroundings in the astral world.  
@@ -447,5 +447,11 @@ Continue reading: [[schools-of-magic]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
 
+[cmd-attack]: [[cmd-attack]]
+[cmd-cast]: [[cmd-cast]]
 [cmd-combatspell]: [[cmd-combatspell]]
+[cmd-contact]: [[cmd-contact]]
 [cmd-learn]: [[cmd-learn]]
+[cmd-move]: [[cmd-move]]
+[cmd-origin]: [[cmd-origin]]
+[cmd-show]: [[cmd-show]]

@@ -54,12 +54,15 @@ Es wird immer nur der erste ausgeführt.
 
 - [Reisen][reisen]
 - [NACH][bef-nach]
-- [[bef-route]]
+- [`ROUTE`][bef-route]
 - [`FAHRE`][bef-fahre]
-- [[bef-transportiere]]
-- [[bef-piraterie]]
+- [`TRANSPORTIERE`][bef-transportiere]
+- [`PIRATERIE`][bef-piraterie]
 
 <!-- From [https://wiki.eressea.de/index.php?title=FOLGE&oldid=16723] -->
 
 [bef-fahre]: [[bef-fahre]]
 [bef-nach]: [[bef-nach]]
+[bef-piraterie]: [[bef-piraterie]]
+[bef-route]: [[bef-route]]
+[bef-transportiere]: [[bef-transportiere]]

@@ -7,13 +7,13 @@ alias: faction-pool
 # Faction pool
 
 The faction pool contains some special items that are usually placed there by the game management on special occasions (e.g. Christmas, Eressea anniversaries).
-Using the [[cmd-claim]] command, any unit can claim items from the faction pool.
+Using the [`CLAIM`][cmd-claim] command, any unit can claim items from the faction pool.
 It is not possible to put it back.
 
 The point of the faction pool is that you can decide for yourself which unit should use a certain item.
 In most cases, items in the faction pool have special magical powers.
 
-You can get information about it using [[cmd-show]].
+You can get information about it using [`SHOW`][cmd-show].
 This also works if the item is still in the faction pool.
 However, this information is often vague and you usually have to explore the effects yourself.
 
@@ -33,3 +33,6 @@ Some items that have been placed in the faction pool so far:
 Continue reading: [[money]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteipool&oldid=14411] -->
+
+[cmd-claim]: [[cmd-claim]]
+[cmd-show]: [[cmd-show]]

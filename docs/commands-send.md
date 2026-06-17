@@ -210,3 +210,4 @@ Continue reading: [[hints]].
 [cmd-eressea]: [[cmd-eressea]]
 [cmd-learn]: [[cmd-learn]]
 [cmd-tax]: [[cmd-tax]]
+[cmd-work]: [[cmd-work]]

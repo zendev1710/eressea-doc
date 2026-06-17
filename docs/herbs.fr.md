@@ -3,7 +3,10 @@
 alias: plantes
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+
+[](){ #plantes-id }
+
 # Plantes
 
 **Les plantes** se ramassent avec l'ordre [`MAKE HERBS`][cmd-make-fr].  

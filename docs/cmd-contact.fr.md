@@ -2,10 +2,6 @@
 # cSpell:locale fr
 alias: cmd-contact-fr
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 -->
-
-[](){ #cmd-contact-fr-id }
 
 # CONTACT
 
@@ -44,7 +40,7 @@ Pour que cela soit possible, l'unité *x* doit donner l'ordre `CONTACT FACTION f
 L'unité *x* et l'unité *y* d'une faction gardent la région.  
 Pour que l'unité *a* recrute, *x* et *y* doivent tous deux passer un ordre `CONTACT` (`CONTACT UNIT a` ou `CONTACT FACTION ff`).
 
-## Differences avec `HELP`
+## Différences avec `HELP`
 
 `CONTACT` a une fonction similaire à [`HELP GIVE + HELP GUARD`][cmd-help-fr], mais n'est pas tout à fait identique :
 <!-- TODO: compare second item in enumeration with original wiki documentation -->

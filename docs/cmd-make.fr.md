@@ -31,6 +31,8 @@ Sans préciser la *quantité*, l'unité produira autant d'items que de personnes
 Concocter une potion est très complexe et ne peut être réalisé que par des alchimistes particulièrement talentueux.  
 Les détails peuvent être trouvés dans le chapitre sur [l'alchimie][alchimie].
 
+[](){ #make-plantes-id }
+
 ### Plantes
 
 Les plantes sont produites avec l'ordre `MAKE HERBS` par des unités maîtrisant l'[herboristerie].

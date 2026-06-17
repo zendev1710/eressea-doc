@@ -40,7 +40,10 @@ Partei 300:
 ## See also
 
 - [[movement]]
-- [[cmd-move]]
-- [[cmd-route]]
+- [`MOVE`][cmd-move]
+- [`ROUTE`][cmd-route]
 
 <!-- From [https://wiki.eressea.de/index.php?title=RIDE&oldid=16721] -->
+
+[cmd-move]: [[cmd-move]]
+[cmd-route]: [[cmd-route]]

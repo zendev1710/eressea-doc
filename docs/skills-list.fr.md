@@ -12,7 +12,9 @@ Elles peuvent être acquises plus rapidement à l'aide d'un [maître enseignant]
 
 Une unité peut apprendre une ou plusieurs des compétences décrites ci-dessous, à l'exception du [combat à mains nues][skill-combat-a-mains-nues-id]{title="Unarmed combat"}.
 
-## [[alchimie]]
+[](){ #skill-alchimie-id }
+
+## [Alchimie][alchimie-id]
 
 <!-- cspell:disable -->
 *Alchemy (EN), Alchemie (DE)*.
@@ -169,7 +171,9 @@ Par personne et par niveau de compétence, il est possible :
 *Espionage (EN), Spionage (DE)*.
 <!-- cspell:enable -->
 
-Nécessaire pour utiliser l'ordre [`SPY`][cmd-spy-fr] et ainsi obtenir des informations secrètes sur les unités des autres factions (compétences, véritable appartenance à une faction...). Apprendre "Espionage" coûte 100 Silver par personne et par semaine.
+Nécessaire pour utiliser l'ordre [`SPY`][cmd-spy-fr] et ainsi obtenir des informations secrètes sur les unités des autres factions (compétences, véritable appartenance à une faction...).  
+
+Apprendre l'espionnage coûte 100 Silver par personne pour chaque tentative d'apprentissage.
 
 ## Extraction de pierres
 
@@ -209,7 +213,7 @@ Pour la prospection, on ne voit pas plus que la couche (niveau en extraction min
 *Weaponsmithing (EN), Waffenbau (DE)*.
 <!-- cspell:enable -->
 
-Fabrication d'armes en bois et en métal (voir [[objets]]).
+Permet la [fabrication d'armes][production-d-armes-id] en [bois][bois] et en [métal][fer].
 
 ## Fabrication d'armures
 
@@ -217,7 +221,7 @@ Fabrication d'armes en bois et en métal (voir [[objets]]).
 *Armoursmithing (EN), Rüstungsbau (DE)*.
 <!-- cspell:enable -->
 
-Permet la fabrication d'armures en fer, en [laen][laen-fr-id]{title="Laen"} ou en [adamantium][adamantium-fr-id] (voir [[objets]]).
+Permet la [fabrication d'armures][production-d-armures-id] en [fer][fer], en [laen][laen-fr-id]{title="Laen"} ou en [adamantium][adamantium-fr-id].
 
 ## Fabrication de chariots
 
@@ -238,7 +242,7 @@ Une unité peut fabriquer un chariot par personne et niveau de compétence.
 *Herbalism (EN), Kräuterkunde (DE)*.
 <!-- cspell:enable -->
 
-Permet de récolter des [[plantes]] pour concocter des [potions][alchimie].  
+Permet de récolter des [plantes][plantes-id] pour concocter des [potions][alchimie].  
 
 Le coût d'apprentissage est de **200 silver par semaine et par personne**.
 
@@ -253,7 +257,7 @@ Même avec un niveau élevé on peut ne trouver que peu ou pas de plantes.
 
 Permet de construire des [bâtiments spéciaux][batiments-speciaux] et des [châteaux][chateaux]{title="Castle"}.
 
-## [[magie]]
+## [Magie][magie-fr-id]
 
 <!-- cspell:disable -->
 *Magic (EN), Magie (DE)*.
@@ -298,7 +302,7 @@ Capacité à abattre des arbres et des mallorns pour faire du [bois][bois]{title
 !!! note "Note"
     Veillez à bien gérer les [ressources forestières][ressources-forestieres] des régions que vous [gardez][cmd-guard-fr].
 
-## [[tactique]]
+## [Tactique][tactique]
 
 <!-- cspell:disable -->
 *Tactics (EN), Taktik (DE)*.

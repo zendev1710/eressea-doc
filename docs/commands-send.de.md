@@ -138,7 +138,7 @@ NÄCHSTER
 
 Die erste Zeile mit dem ECHECK ist für den Syntax-Checker.
 Er erkennt diese Zeile und benutzt die Parameter der Zeile.
-Mit dem -z werden die Personen und deren Vermögen aus dem Kommentar hinter dem Befehl [[bef-einheit]] ausgewertet, ebenso werden dann Einnahmen mit [[bef-arbeite]] (idR. je 11 Silber pro Person) und [TREIBE STEUERN EIN] und [[bef-unterhalte]] (je 20 Silber pro Person) berücksichtigt.
+Mit dem -z werden die Personen und deren Vermögen aus dem Kommentar hinter dem Befehl [`EINHEIT`][bef-einheit] ausgewertet, ebenso werden dann Einnahmen mit [`ARBEITE`][bef-arbeite] (idR. je 11 Silber pro Person) und [TREIBE STEUERN EIN] und [`UNTERHALTE`][bef-unterhalte] (je 20 Silber pro Person) berücksichtigt.
 Teure Talente wie z.B. [LERNE MAGIE][bef-lerne] und Einheiten, die mit [NACH][bef-nach] Silber bewegen, werden dann ausgewertet und bei zu wenig Silber Warnungen ausgegeben.
 Das -w4 ist der "Warning-Level", 4 heißt hier, besonders pingelig zu sein.
 Und das -r100 schließlich besagt, daß die Rekrutierungskosten dieser Partei 100 Silber pro Person betragen.
@@ -147,7 +147,7 @@ Die Zeile ; ECHECK LOHN 12 ist ebenfalls für ECheck und legt den Lohn für Arb
 
 Man kann erkennen, dass Personen aus Einheit 32 hungern werden: 30 Silber reichen nicht für fünf Personen.
 Mit dem oben benutzten ECheck-Parameter -z -w4 wird ECheck dies aber bemerken und eine Warnung ausgeben.
-Die Einheit sollte also entweder Geld verdienen (z.B. mit [[bef-unterhalte]], sofern sie das Talent Unterhaltung schon beherrscht, sonst ggf. mit [[bef-arbeite]]) oder eine andere Einheit mit genug Silber sollte in die Region 5,3 ziehen.
+Die Einheit sollte also entweder Geld verdienen (z.B. mit [`UNTERHALTE`][bef-unterhalte], sofern sie das Talent Unterhaltung schon beherrscht, sonst ggf. mit [`ARBEITE`][bef-arbeite]) oder eine andere Einheit mit genug Silber sollte in die Region 5,3 ziehen.
 
 Alle [Befehle][befehl] können abgekürzt werden.
 Der Computer nimmt einfach das erste Wort, welches dem eingegebenen Befehl entspricht.

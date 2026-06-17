@@ -16,11 +16,14 @@ Die gewählten Zauber werden von der Einheit automatisch eingesetzt, sollte sie 
 Mit `KAMPFZAUBER <Zauberspruch> NICHT` bzw. `KAMPFZAUBER NICHT` wird das Setzen eines bzw. aller Kampfzauber rückgängig gemacht.
 
 Nicht alle Zaubersprüche sind Kampfzauber, dieses kann der Beschreibung der Zauber, welche man im Spiel erhält, entnommen werden.
-Die Beschreibung eines Zaubers kann man sich mit dem Befehl [[bef-zeige]] erneut zeigen lassen.
+Die Beschreibung eines Zaubers kann man sich mit dem Befehl [`ZEIGE`][bef-zeige] erneut zeigen lassen.
 
 ## Siehe auch
 
 - [Magie][magie-de-id]
-- [[bef-zaubere]]
+- [`ZAUBERE`][bef-zaubere]
 
 <!-- From [https://wiki.eressea.de/index.php?title=KAMPFZAUBER&oldid=16818] -->
+
+[bef-zeige]: [[bef-zeige]]
+[bef-zaubere]: [[bef-zaubere]]

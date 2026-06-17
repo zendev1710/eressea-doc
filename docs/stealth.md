@@ -20,7 +20,7 @@ This is the starting situation when you begin the game, as all new units have St
 
 ## Counter the guard
 
-For successfully disguised units, the restrictions of [[cmd-guard]] do not apply.  
+For successfully disguised units, the restrictions of [`GUARD`][cmd-guard] do not apply.  
 They can therefore collect taxes, mine resources, destroy roads, and recruit farmers.  
 
 ## Increase chance of escape
@@ -32,7 +32,7 @@ The maximum escape chance is 75% (halflings 90%).
 
 ## Theft of Silver
 
-Successful stealers can steal silver from other units using the [[cmd-steal]] command.  
+Successful stealers can steal silver from other units using the [`STEAL`][cmd-steal] command.  
 The highest Perception skill of the targeted party in the region determines the amount stolen.  
 For each skill level difference, each thief steals 50 silver.  
 The silver is **always** stolen from the entire silver pool of the targeted party in the region.  
@@ -76,7 +76,7 @@ In addition to these passive applications of camouflage, one can of course use w
 
 ## See also
 
-- [[cmd-guard]]
+- [`GUARD`][cmd-guard]
 - [revenue][stealing-the-dishonest-way]
 
 Continue reading: [[movement]].
@@ -86,3 +86,4 @@ Continue reading: [[movement]].
 [cmd-combat]: [[cmd-combat]]
 [cmd-guard]: [[cmd-guard]]
 [cmd-spy]: [[cmd-spy]]
+[cmd-steal]: [[cmd-steal]]

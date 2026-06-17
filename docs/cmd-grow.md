@@ -27,6 +27,8 @@ It is not possible to change herb types of a region, the unit always tries to pl
 
 ## See also
 
-- [[cmd-plant]] (for herbs, trees or seeds).
+- [`PLANT`][cmd-plant] (for herbs, trees or seeds).
 
 <!-- From [https://wiki.eressea.de/index.php?title=GROW/en&oldid=14482] -->
+
+[cmd-plant]: [[cmd-plant]]

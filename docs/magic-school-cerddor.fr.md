@@ -4,6 +4,7 @@ alias: sorts-cerddor
 ---
 <!-- disable some rules due to autorefs plugin usage -->
 <!-- markdownlint-disable MD052 -->
+
 # Sorts Cerddor
 
 Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de niveau croissant.  
@@ -404,7 +405,7 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 <!-- cspell:enable -->
 
 :   Ce rituel permet d'incorporer n'importe quelle entité, quel que soit son type, dans sa propre faction.  
-    Il le prouve en [**contactant**][cmd-contact-fr-id] le mage.  
+    Il le prouve en [contactant][cmd-contact-fr] le mage.  
     Il sera également exclusivement occupé aux préparatifs du rituel tout au long de la semaine.  
     Le rituel échouera s’il est trop fortement lié à son ancienne faction, par exemple s’il leur doit des services en échange de son éducation coûteuse.  
     Le mage menant le rituel doit naturellement dépenser de l'aura en permanence pour assurer la liaison permanente de l'initié à son groupe.  
@@ -559,7 +560,7 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 Nul ne sait que, jusqu'à il y a quelques années, cette ferme était la demeure du prédicateur itinérant Grauwolf. banni depuis.
 Après avoir rallié à sa cause la quasi-totalité des paysans lors d'un de ses discours enflammés, il fut condamné pour sédition et exilé.
 Il accepta de me révéler, à contrecœur, le secret de son éloquence."
-</di>
+</div>
 
 Extrait de « Errants » de Firudin le Sage.  
 
@@ -602,4 +603,5 @@ Extrait de « Errants » de Firudin le Sage.
 [anneau d'Invisibilité]: [[anneau-dinvisibilite]]{title="Ring of Invisibility"}
 
 [cmd-cast-fr]: [[cmd-cast-fr]]
+[cmd-contact-fr]: [[cmd-contact-fr]]
 [cmd-combatspell-fr]: [[cmd-combatspell-fr]]

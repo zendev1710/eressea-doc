@@ -97,8 +97,8 @@ Pflegt Kontakt mit vielen Parteien, dies macht das Spiel spannend und es wird eu
 Gerät man in Konflikte, ist es gut zu wissen, dass man nicht alleine dasteht.
 Kontakte erlauben euch einen Informationsaustausch, z.B. für Karteninformation; sie ermöglichen es, Erfahrungen und Tipps auszutauschen, und besonders das gegenseitige Lehren ist sehr hilfreich.
 
-Um Kontakt mit den anderen Parteien aufzunehmen, beschafft euch die Liste der anderen Parteien in euren Regionen mit [[bef-option]] ADRESSEN und kontaktiert sie direkt.
-Verwendet den Befehl [[bef-botschaft]] REGION, um die Mitspieler auf euch aufmerksam zu machen.
+Um Kontakt mit den anderen Parteien aufzunehmen, beschafft euch die Liste der anderen Parteien in euren Regionen mit [`OPTION`][bef-option] ADRESSEN und kontaktiert sie direkt.
+Verwendet den Befehl [`BOTSCHAFT`][bef-botschaft] REGION, um die Mitspieler auf euch aufmerksam zu machen.
 
 Um die Ziele zu erreichen, die ihr euch gesteckt habt, solltet ihr keine Ausgaben scheuen.
 Das Startkapital ist zur Investition gedacht.
@@ -115,10 +115,10 @@ Dafür braucht man Händler und Wagen.
 Kauft euch einen Wagen und zwei Pferde vom Burgherren oder baut selber einen.
 
 Man muss mit Handelspartnern nicht alliiert sein.
-Verwendet den Befehl [[bef-kontaktiere]], um mit anderen Parteien Waren und Silber austauschen zu können, ohne alliiert zu sein.
+Verwendet den Befehl [`KONTAKTIERE`][bef-kontaktiere], um mit anderen Parteien Waren und Silber austauschen zu können, ohne alliiert zu sein.
 
 Eine der wichtigsten Tabellen in dieser Anleitung ist die [Befehlsreihenfolge], also die Reihenfolge, in der die Befehle beim Server bearbeitet werden.
-Aus ihr ist ersichtlich, dass man z.B. eiem Waffenbauer durchaus noch in der selben Woche Rohstoffe geben kann, bevor er produziert ([[bef-gib]] kommt an Position 14, [[bef-mache]] an Position 22), man aber keine Tränke übergeben und dann sofort benutzen kann ([[bef-benutze]] ist an Stelle 7).
+Aus ihr ist ersichtlich, dass man z.B. eiem Waffenbauer durchaus noch in der selben Woche Rohstoffe geben kann, bevor er produziert ([[bef-gib]] kommt an Position 14, [`MACHE`][bef-mache] an Position 22), man aber keine Tränke übergeben und dann sofort benutzen kann ([[bef-benutze]] ist an Stelle 7).
 
 Es gibt keine Gewinner in diesem Spiel.
 Das Spiel dauert so lange, bis ihr an euch selber verzweifelt oder eure Feinde euch ausgerottet haben.
@@ -143,3 +143,7 @@ Weiterlesen: [Xontormia-Express][xontormia-express-de-id].
 
 [Passwort]: [[bef-passwort]]
 [Unterhaltung]: [[bef-unterhalte]]
+[bef-botschaft]: [[bef-botschaft]]
+[bef-mache]:[[bef-mache]]
+[bef-option]: [[bef-option]]
+[bef-kontaktiere]: [[bef-kontaktiere]]

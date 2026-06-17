@@ -37,8 +37,8 @@ Partei 300:
 ## Siehe auch
 
 - [Reisen][reisen]
-- [NACH][bef-nach]
-- [[bef-route]]
+- [`NACH`][bef-nach]
+- [`ROUTE`][bef-route]
 
 <!-- From [https://wiki.eressea.de/index.php?title=FAHRE&oldid=16721] -->
 

@@ -96,8 +96,8 @@ Maintain contact with many factions; this makes the game exciting and will help 
 If you get into conflicts, it's good to know you're not alone.
 Contacts allow you to exchange information, such as map data; they enable you to share experiences and tips, and mutual learning is especially helpful.
 
-To contact other factions, obtain a list of them in your region using [[cmd-option]] ADDRESSES and contact them directly.
-Use the [[cmd-message]] REGION order to alert other factions to your presence.
+To contact other factions, obtain a list of them in your region using [`OPTION`][cmd-option] ADDRESSES and contact them directly.
+Use the [`MESSAGE`][cmd-message] REGION order to alert other factions to your presence.
 
 To achieve your goals, you shouldn't skimp on expenses.
 The starting capital is intended for investment.
@@ -114,10 +114,10 @@ For this, you'll need merchants and wagons.
 Buy a wagon and two horses from the lord of the castle or build one yourself.
 
 You don't need to be allied with trading partners.
-Use the [[cmd-contact]] command to exchange goods and silver with other factions without being allied.
+Use the [`CONTACT`][cmd-contact] command to exchange goods and silver with other factions without being allied.
 
 One of the most important tables in this guide is the [[orders-sequence]], which shows the order in which orders are processed by the server.
-It illustrates, for example, that you can certainly give raw materials to a weaponsmith in the same week before he starts production ([[cmd-give]] is at position 14, [[cmd-make]] is at position 22), but you cannot give him potions and then use them immediately ([[cmd-use]] is at position 7).
+It illustrates, for example, that you can certainly give raw materials to a weaponsmith in the same week before he starts production ([[cmd-give]] is at position 14, [`MAKE`][cmd-make] is at position 22), but you cannot give him potions and then use them immediately ([[cmd-use]] is at position 7).
 
 There are no winners in this game.
 The game lasts until you despair of yourselves or your enemies have wiped you out.
@@ -140,7 +140,11 @@ Continue reading: [[xontormia-express]].
 [Eressea's Discord channel]: https://discord.gg/JyAeYJw%7CDiscord
 [PbEm Games forum]: http://www.pbem-spiele.de/
 
+[cmd-contact]: [[cmd-contact]]
 [cmd-entertain]: [[cmd-entertain]]
+[cmd-make]: [[cmd-make]]
+[cmd-option]: [[cmd-option]]
+[cmd-message]: [[cmd-message]]
 [cmd-password]: [[cmd-password]]
 [cmd-tax]: [[cmd-tax]]
 [cmd-unit]: [[cmd-unit]]

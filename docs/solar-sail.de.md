@@ -17,6 +17,9 @@ Leider gab es auch einige Zeitgenossen, die ihre Sonnensegel zu weniger friedlic
 Dies geschah gegen den ausdrücklichen Wunsch des Weihnachtsgnoms und einige versuchten gar, ihr Tun durch Umbenennung der Schiffe zu verschleiern.  
 Nicht gerade erfreut darüber, sprach der Weihnachtsgnom einen Zauber, der die Wirkungsweise eines Sonnensegels dramatisch veränderte.
 
-Mehr dazu kann man mit den Befehlen [[bef-zeige]] und [[bef-beanspruche]] erfahren.  
+Mehr dazu kann man mit den Befehlen [`ZEIGE`][bef-zeige] und [`BEANSPRUCHE`][bef-beanspruche] erfahren.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Sonnensegel&oldid=5701] -->
+
+[bef-beanspruche]: [[bef-beanspruche]]
+[bef-zeige]: [[bef-zeige]]

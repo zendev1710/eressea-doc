@@ -146,12 +146,13 @@ Poursuivre la lecture : [[xontormia-express]].
 [serveur Discord d'Eressea]: https://discord.gg/JyAeYJw%7CDiscord
 [forum des Jeux PbEm]: http://www.pbem-spiele.de/
 
+[cmd-contact-fr]: [[cmd-contact-fr]]
 [cmd-entertain-fr]: [[cmd-entertain-fr]]
+[cmd-give-fr]: [[cmd-give-fr]]
+[cmd-make-fr]: [[cmd-make-fr]]
 [cmd-message-fr]: [[cmd-message-fr]]
 [cmd-option-fr]: [[cmd-option-fr]]
 [cmd-password-fr]: [[cmd-password-fr]]
 [cmd-tax-fr]: [[cmd-tax-fr]]
-[cmd-give-fr]: [[cmd-give-fr]]
-[cmd-make-fr]: [[cmd-make-fr]]
-[cmd-use-fr]: [[cmd-use-fr]]
 [cmd-unit-fr]: [[cmd-unit-fr]]
+[cmd-use-fr]: [[cmd-use-fr]]

@@ -95,7 +95,7 @@ Meermenschen sind im Wasser zu Hause, im Gebirge fühlen sie sich dagegen unwohl
 
 - Alle Schiffe mit Meermenschen-Kapitän einer Meermenschen-Partei können sich ein Feld weiter [bewegen][reisen].
 - Meermenschen können auch auf Schiffen [lange Befehle][befehl] ausführen. Achtung, dies hat einige implizite Folgen: Meermenschen können sich z.B. von einer an eine Landregion angrenzende Ozeanregion auf die Landregion begeben, siehe [Anschwimmen][anschwimmen].
-- Bis zu 100 Meermenschen pro Ozeanfeld können auf hoher See mit dem Befehl [[bef-arbeite]] je 10 Silber verdienen.
+- Bis zu 100 Meermenschen pro Ozeanfeld können auf hoher See mit dem Befehl [`ARBEITE`][bef-arbeite] je 10 Silber verdienen.
 
 ## Menschen
 
@@ -134,7 +134,7 @@ Die folgende Tabelle enthält einige Beispiele:
 Orks sind ein recht kämpferisches Volk; schon in der Kindergrube wissen sie mit einer Waffe umzugehen. Kontakte zu anderen Völkern haben sie am liebsten mit dreifacher Übermacht.
 
 - Neu rekrutierte Orks starten mit je Talentstufe 1 in Hiebwaffen und Stangenwaffen.
-- Orks verdienen mit [[bef-arbeite]] weniger als andere Rassen.
+- Orks verdienen mit [`ARBEITE`][bef-arbeite] weniger als andere Rassen.
 - Rekrutierte Orks werden - ähnlich dem zwergischen Eisenbonus - nur zu 50% von den Regionsbauern abgezogen. Ein rekrutierter Ork wird deshalb nur zur Hälfte vom Rekrutierungslimit der Region abgezogen. Es wird aufgerundet.
 - Analog gilt: Gibt man Orks mit [`GIB 0`][bef-gib] an die Bauern, so werden sie nur zur Hälfte zu den Bauern addiert. Hierbei wird allerdings abgerundet.
 - Unbewaffnete Orks kämpfen im Nahkampf nicht wie andere Rassen mit -2, sondern mit (bestes Nahkampftalent - 3). Zum Steuereintreiben benötigen sie trotzdem Waffen.
@@ -148,7 +148,7 @@ Trolle stapfen wandelnden Felsbrocken gleich unübersehbar durch die Lande. Mit 
 - Es gibt keine Troll-Kavallerie, d.h. Trolle erhalten keinen Pferdebonus. Auf den Warentransport und die Bewegungsgeschwindigkeit berittener Trolle hat das keine Auswirkungen.
 - Von Trollen [abgebaute Steine][vom-bergbau] werden nur zu 75% vom "Regionsvorrat" abgezogen. Dieser Effekt ist kumulativ zu einem [Steinbruch][steinbruch].
 - Gegen Trolle hat Kavallerie nur einen Bonus von +1.
-- Trolle sind als einzige Rasse dazu in der Lage, Wagen ohne Pferde zu benutzen. Je vier Trolle können einen Wagen ziehen, sich allerdings auch nur eine Region (ohne Straße) bewegen. Genauer wird das beim Befehl [[bef-fahre]] erklärt.
+- Trolle sind als einzige Rasse dazu in der Lage, Wagen ohne Pferde zu benutzen. Je vier Trolle können einen Wagen ziehen, sich allerdings auch nur eine Region (ohne Straße) bewegen. Genauer wird das beim Befehl [`FAHRE`][bef-fahre] erklärt.
 - Unbewaffnete Trolle machen 2 bis 6 Trefferpunkte Schaden.
 - Verwundete Trolle regenerieren sich mit 7,5% ihrer Trefferpunkte.
 
@@ -166,7 +166,9 @@ Weiterlesen: [Talentmodifikatoren][talentmodifikatoren].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rassen&oldid=16044] -->
 
+[bef-arbeite]: [[bef-arbeite]]
 [klauen]: [[bef-beklaue]]
+[bef-fahre]: [[bef-fahre]]
 [bef-gib]: [[bef-gib]]
 [bef-gruppe]: [[bef-gruppe]]
 [bef-tarne]: [[bef-tarne]]

@@ -24,7 +24,7 @@ Spielererfahrung: Solthar`PFLANZE` und `ZÜCHTE` sind synonyme Befehle. Du kanns
 
 ## Siehe auch
 
-- [[bef-pflanze]] Kräuter/Bäume/Samen
+- [`PFLANZE`][bef-pflanze] Kräuter/Bäume/Samen
 
 <!-- From [https://wiki.eressea.de/index.php?title=ZÜCHTE&oldid=16739] -->
 

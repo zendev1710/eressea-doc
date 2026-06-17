@@ -14,12 +14,12 @@ To do so, the unit must be [[armed]] with at least one [weapon][weapons-summary-
 !!! note
     Ocean regions cannot be guarded.
 
-When a faction is guarding a region, units that are not allied with it are subject to [alliances][alliances] ([`HELP GUARD`][cmd-help] or [[cmd-contact]]), with the following restrictions:
+When a faction is guarding a region, units that are not allied with it are subject to [alliances][alliances] ([`HELP GUARD`][cmd-help] or [`CONTACT`][cmd-contact]), with the following restrictions:
 
 1. You can no longer collect taxes, mine raw materials, [trade][silver-trade-id] or recruit farmers in this region
 2. There is a certain probability that you will be stopped in transit
-3. If you are on a ship, you cannot [[cmd-work]], [[cmd-entertain]], [[cmd-attack]] or move overland immediately.
-   In order to be able to carry out the actions the following week, you must first [[cmd-leave]] the ship
+3. If you are on a ship, you cannot [`WORK`][cmd-work], [`ENTERTAIN`][cmd-entertain], [`ATTACK`][cmd-attack] or move overland immediately.
+   In order to be able to carry out the actions the following week, you must first [`LEAVE`][cmd-leave] the ship
 
 If the unit is not seen, for example because it has a higher Stealth skill than the guarding faction's best Perception skill in the region, the first two restrictions do not apply.
 
@@ -64,9 +64,14 @@ In the [first few weeks][puppy-protection] a faction cannot guard yet.
 
 - [`HELP GUARD`][cmd-help]
 - [[alliances]]
-- [[cmd-contact]]
+- [`CONTACT`][cmd-contact]
 
 <!-- From [https://wiki.eressea.de/index.php?title=GUARD&oldid=16839] -->
 
+[cmd-attack]: [[cmd-attack]]
 [cmd-combat]: [[cmd-combat]]
+[cmd-contact]: [[cmd-contact]]
+[cmd-entertain]: [[cmd-entertain]]
 [cmd-help]: [[cmd-help]]
+[cmd-leave]: [[cmd-leave]]
+[cmd-work]: [[cmd-work]]

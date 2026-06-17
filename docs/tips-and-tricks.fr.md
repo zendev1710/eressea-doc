@@ -75,9 +75,9 @@ Il est important que l'entrepôt soit prioritaire car [`RESERVE`][cmd-reserve-fr
 De plus, cela permet de visualiser en un coup d'œil les objets disponibles.  
 
 !!! tip
-     Si l'entrepôt adopte un camouflage permanent, le stock devrait échapper à un espion peu compétent, errant ou nageant, appartenant à une faction hostile.  
-     Une autre théorie suggère un niveau de perception élevé pour rendre l'entrepôt difficile à piller;  
-     toutefois, un bon observateur de la même faction, en plus de la présence de l'entrepôt lui-même, suffirait également à empêcher le vol.  
+    Si l'entrepôt adopte un camouflage permanent, le stock devrait échapper à un espion peu compétent, errant ou nageant, appartenant à une faction hostile.  
+    Une autre théorie suggère un niveau de perception élevé pour rendre l'entrepôt difficile à piller;  
+    toutefois, un bon observateur de la même faction, en plus de la présence de l'entrepôt lui-même, suffirait également à empêcher le vol.  
 
 ## Échapper à la mort par famine
 

@@ -9,35 +9,35 @@ alias: sailing
 
 # Sailing
 
-You can leave your island only with [ships][ships-id] and, for example, open up new markets or establish direct contact with other factions.
+You can leave your island only with [ships][ships-id] and, for example, open up new markets or establish direct contact with other factions.  
 With a ship it is possible to move up to 7 regions, even more than 7 regions with the help of aquarians or with magic.
 
-All ships larger than a boat (including longboats) can only dock in plains and forests.
-All other types of region (e.g. mountains, highlands, swamps, etc.) require an [Harbour][harbour] for ships to dock.
-If a ship tries to dock in an unsuitable region, it suffers [damages][damage-to-ships].
+All ships larger than a boat (including longboats) can only dock in plains and forests.  
+All other types of region (e.g. mountains, highlands, swamps, etc.) require an [Harbour][harbour] for ships to dock.  
+If a ship tries to dock in an unsuitable region, it suffers [damages][damage-to-ships].  
 However, ships can set sail from anywhere, so you can build ships in any coastal region and launch them.
 
-Ships cannot pass directly from one coast to a neighbouring coastal region without first sailing on an ocean region.
-Similarly, they can't leave in all directions, but only in the direction from which they came and in neighbouring directions.
-A ship coming from the east (report indicates then "coast east") can thus leave towards the east, the north-east and the south-east.
-However, if a region has a harbour, the ships of the owner of the harbour and of friendly factions (see [[cmd-help]]) can go in any directions as long as they are oceanic regions.
+Ships cannot pass directly from one coast to a neighbouring coastal region without first sailing on an ocean region.  
+Similarly, they can't leave in all directions, but only in the direction from which they came and in neighbouring directions.  
+A ship coming from the east (report indicates then "coast east") can thus leave towards the east, the north-east and the south-east.  
+However, if a region has a harbour, the ships of the owner of the harbour and of friendly factions (see [`HELP`][cmd-help]) can go in any directions as long as they are oceanic regions.
 
-On the high seas - i.e. ocean areas that are not bordered by a land region - ships can drift into a neighbouring area and suffer damage due to storms.
-This does not apply to ships ordering [[cmd-follow]] or [[cmd-piracy]].
+On the high seas - i.e. ocean areas that are not bordered by a land region - ships can drift into a neighbouring area and suffer damage due to storms.  
+This does not apply to ships ordering [`FOLLOW`][cmd-follow] or [`PIRACY`][cmd-piracy].
 
-To be able to sail a ship, you need a trained crew, i.e. units that have learnt the skill of sailing.
-In the following table, the sailing skill level of the captain (the first unit on the ship in the report) is indicated under "Captain".
-In addition, a certain overall level of sailing is required to pilot the ship.
-To achieve this, the sailing skill levels of all the persons on board are added together, including those of the captain's unit and units from "foreign" factions.
-The required value is shown in the table under "Crew".
-The range indicated in the table is valid per turn, i.e. a ship can sail a maximum of this distance per turn.
+To be able to sail a ship, you need a trained crew, i.e. units that have learnt the skill of sailing.  
+In the following table, the sailing skill level of the captain (the first unit on the ship in the report) is indicated under "Captain".  
+In addition, a certain overall level of sailing is required to pilot the ship.  
+To achieve this, the sailing skill levels of all the persons on board are added together, including those of the captain's unit and units from "foreign" factions.  
+The required value is shown in the table under "Crew".  
+The range indicated in the table is valid per turn, i.e. a ship can sail a maximum of this distance per turn.  
 Ships piloted by a unit of aquarians from an aquarian faction (migrant aquarians from a human faction do not count) can sail one extra hex.
 
 **Example:**
 
-- A trireme can be piloted by a unit of 30 persons with sailing 4 or by a unit of one person with sailing 4 and a unit of 58 persons with sailing 2.
-  In all cases, it sails over 7 regions per turn (8 for Aquarians) and can carry 2000 lbs, from which the weight of the crew is of course deducted.
-- A dragonship with a level 2 unit of 25 persons moves 5 regions.
+- A trireme can be piloted by a unit of 30 persons with sailing 4 or by a unit of one person with sailing 4 and a unit of 58 persons with sailing 2.  
+  In all cases, it sails over 7 regions per turn (8 for Aquarians) and can carry 2000 lbs, from which the weight of the crew is of course deducted.  
+- A dragonship with a level 2 unit of 25 persons moves 5 regions.  
   However, with 3 level 20 persons, it can move 7 regions.
 
 | Type       | Range | Capacity | Captain / Crew | Shipcraft lvl | Qty of wood |
@@ -58,47 +58,47 @@ Dragonship Range.
 |---------|:-:|:-:|:--:|:--:|:---:|
 | Range   | 5 | 6 | 7  | 8  |  9  |
 
-If a ship does not have a sufficient crew, it cannot set sail.
-If this happens at sea (for example due to combat or units starving for lack of money), it drifts until it reaches a coastal region.
+If a ship does not have a sufficient crew, it cannot set sail.  
+If this happens at sea (for example due to combat or units starving for lack of money), it drifts until it reaches a coastal region.  
 It then suffers [damages][damage-to-ships] every turn, so that it quickly sinks.
 
-The total weight of all units on a ship, including the weight of horses, carts, persons and of course all goods and silver of the units, must be able to be transported by the ship.
-If this is not the case, or is no longer the case, the ship cannot sail.
-At sea, it will not sink immediately, but will drift.
-Ships capacities are shown in the table above and are always displayed in the report.
+The total weight of all units on a ship, including the weight of horses, carts, persons and of course all goods and silver of the units, must be able to be transported by the ship.  
+If this is not the case, or is no longer the case, the ship cannot sail.  
+At sea, it will not sink immediately, but will drift.  
+Ships capacities are shown in the table above and are always displayed in the report.  
 The weights of items can be found in the section on [[items]] and those of persons of different races, in the table [Weights and Capacities][travel-by-land-or-by-sea].
 
-It is possible to group together several ships in a [convoy][convoy-id].
+It is possible to group together several ships in a [convoy][convoy-id].  
 Details are described in the chapter on [ships][ships-id].
 
-Units aboard a ship cannot execute long orders (with the exception of aquarians).
-Only the captain can give [[cmd-move]] or [[cmd-route]] orders to navigate the ship.
-Up to 100 aquarians per ocean region can earn 10 silver each per turn with the [[cmd-work]] order.
+Units aboard a ship cannot execute long orders (with the exception of aquarians).  
+Only the captain can give [`MOVE`][cmd-move] or [`ROUTE`][cmd-route] orders to navigate the ship.  
+Up to 100 aquarians per ocean region can earn 10 silver each per turn with the [`WORK`][cmd-work] order.  
 Nevertheless, all persons on the ship need the weekly upkeep, so it should always have enough silver on board.
 
-When the ship is ashore, all the units on board can do something; they go ashore to work, so to speak.
-They can do this even if the ship leaves during the same turn.
+When the ship is ashore, all the units on board can do something; they go ashore to work, so to speak.  
+They can do this even if the ship leaves during the same turn.  
 However, if the region is guarded by a non-allied faction, they cannot [earn silver][money] with WORK, ENTERTAIN or SELL.
 
-If units want to leave a ship, they must first do so with [[cmd-leave]].
-If the region is not guarded by a non-allied faction, the units can move immediately with MOVE, otherwise they can only MOVE on the turn following the LEAVE order.
-This also applies to [[cmd-ride]] and [[cmd-carry]].
+If units want to leave a ship, they must first do so with [`LEAVE`][cmd-leave].  
+If the region is not guarded by a non-allied faction, the units can move immediately with MOVE, otherwise they can only MOVE on the turn following the LEAVE order.  
+This also applies to [`RIDE`][cmd-ride] and [`CARRY`][cmd-carry].
 
 ## Swimming
 
-[Aquarians][aquarians] in a ship can swim from an ocean region onto a directly adjacent land region (with the MOVE order), but the reverse is not true.
-Aquarians can not swim from a land region onto any ocean region.
-This works only if the unit isn’t overloaded.
-Swimming aquarians can carry items, but not horses.
-[transporting][cmd-carry] units of other races is not possible in this way, but aquarians can transport each other.
-This movement takes place before the movement of ships, so a ship can drop off units and then move on.
+[Aquarians][aquarians] in a ship can swim from an ocean region onto a directly adjacent land region (with the MOVE order), but the reverse is not true.  
+Aquarians can not swim from a land region onto any ocean region.  
+This works only if the unit isn’t overloaded.  
+Swimming aquarians can carry items, but not horses.  
+[transporting][cmd-carry] units of other races is not possible in this way, but aquarians can transport each other.  
+This movement takes place before the movement of ships, so a ship can drop off units and then move on.  
 [[cmd-leave]] is not necessary when swimming from a ship, but is not even a mistake.
 
 ## Damage to Ships
 
 Travelling by sea is dangerous, and ships can be damaged on the high seas by storms, natural events or even creatures from the depths (or also if no one drives them).
 
-Damage is expressed as a percentage and reduces capacity in proportion to the damage indicated; round down.
+Damage is expressed as a percentage and reduces capacity in proportion to the damage indicated; round down.  
 Range, including all acceleration bonuses (aquarian, artefacts, spells), is also reduced in proportion; but in this case, always round up.
 
 Example: A boat with an aquarian captain is 17% damaged.
@@ -139,4 +139,12 @@ Continue reading: [Production][production-id].
 <!-- From [https://wiki.eressea.de/index.php?title=Schiffsreise/en&oldid=15812] -->
 
 [cmd-carry]: [[cmd-carry]]
+[cmd-follow]: [[cmd-follow]]
+[cmd-help]: [[cmd-help]]
+[cmd-leave]: [[cmd-leave]]
 [cmd-make]: [[cmd-make]]
+[cmd-move]: [[cmd-move]]
+[cmd-piracy]: [[cmd-piracy]]
+[cmd-ride]: [[cmd-ride]]
+[cmd-route]: [[cmd-route]]
+[cmd-work]: [[cmd-work]]

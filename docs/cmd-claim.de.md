@@ -20,7 +20,7 @@ Der Gegenstande gehen an die Einheit, die den `BEANSPRUCHE`-Befehl gegeben hat.
 Die direkte Weitergabe des Gegenstandes ist noch in der selben Runde möglich, [Benutzt] werden kann er aber erst in der Folgewoche.
 
 !!! warning "Achtung"
-    Nicht verwechseln mit dem Materialpool, auf den man mit [[bef-reserviere]] zugreifen muss!
+    Nicht verwechseln mit dem Materialpool, auf den man mit [`RESERVIERE`][bef-reserviere] zugreifen muss!
 
 <!-- From [https://wiki.eressea.de/index.php?title=BEANSPRUCHE&oldid=3992] -->
 

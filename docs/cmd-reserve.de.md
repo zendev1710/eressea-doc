@@ -25,7 +25,7 @@ reserviert bei einer Einheit mit 10 Personen also 1000 Silber.
 ## Fehlerquellen
 
 - `TEMP`-Einheiten können nicht reservieren! Silber wie Gegenstände müssen ihnen mit [GIB][bef-gib] übergeben werden.
-- `RESERVIERE` kommt vor [GIB][bef-gib] und [[bef-rekrutiere]] in der [Befehlsreihenfolge][befehlsreihenfolge]. Also bezieht sich `JE` auf die Anzahl der Personen vor Personenübergabe und Rekrutierungen.
+- `RESERVIERE` kommt vor [GIB][bef-gib] und [`REKRUTIERE`][bef-rekrutiere] in der [Befehlsreihenfolge][befehlsreihenfolge]. Also bezieht sich `JE` auf die Anzahl der Personen vor Personenübergabe und Rekrutierungen.
 - Wird von den Einheiten einer Partei mehr von einem Gegenstand reserviert, als in der Region (im Materialpool) insgesamt vorhanden ist, ist das Ergebnis schwer vorhersagbar. Für weitere Details siehe [Materialpool][materialpool].
 - Wird ein und derselbe Gegenstand von einer Einheiten mehrmals reserviert, so gilt nur der letzte Eintrag.
 

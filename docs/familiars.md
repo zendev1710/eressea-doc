@@ -21,7 +21,7 @@ However, such familiars also have the ability to access their magician's spells.
 In addition, many familiars can learn certain skills or have special abilities.  
 However, due to their fundamentally different perspective, they cannot pass on their knowledge through teaching.  
 The familiar gives the magician a bonus of half the skill value on each skill (excluding magic) that the familiar has mastered.  
-In any case, a magician is advised to remember these abilities of his familiar in detail using a [[cmd-show]].  
+In any case, a magician is advised to remember these abilities of his familiar in detail using a [`SHOW`][cmd-show].  
 
 ## Familiar breeds
 
@@ -461,3 +461,5 @@ An Aquarian shouldn't necessarily stand next to an inland lake, otherwise the mo
 However, it is not yet well understood to what extent you can summon a floating familiar in a region without access to an ocean tile (lake or sea), or how this changes the chances of getting another familiar race.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Vertraute&oldid=15826] -->
+
+[cmd-show]: [[cmd-show]]

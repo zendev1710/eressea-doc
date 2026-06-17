@@ -198,6 +198,8 @@ Dans une plaine de 25 chevaux, il y a 1 mise bas par semaine.
 Avec 500 chevaux, il y a 10 nouveaux chevaux par tour.  
 Avec 1000 chevaux il n'y a plus de croissance.  
 
+[](){ #resources-plantes-id }
+
 #### Plantes
 
 <!-- cspell:disable -->

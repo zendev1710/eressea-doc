@@ -63,7 +63,8 @@ Entertain the peasants. If the peasants have enough silver, units can earn 20 si
 
 ## Espionage
 
-Necessary to use the order [[cmd-spy]] and thus obtain secret information about units of other factions (skills, true belonging to a faction, ...). Learning espionage costs 100 silver per person per week.
+Necessary to use the order [`SPY`][cmd-spy] and thus obtain secret information about units of other factions (skills, true belonging to a faction, ...).  
+Learning espionage costs 100 silver per person per week.
 
 [](){ #skill-forestry-id }
 
@@ -75,7 +76,9 @@ Felling trees to make wood or mallorn (see [resources][deep-in-the-forest]).
 
 ## Herbalism
 
-Find [[herbs]] to make [potions][alchemy]. Learning cost is 200 Silver per week. With a high level you can give the orders [`RESEARCH HERBS`][cmd-research], [`MAKE SEEDS`][cmd-make] (see [production][production-id]) and [[cmd-plant]]. Despite high skill level, you may sometimes find few or no herbs.
+Find [[herbs]] to make [potions][alchemy]. Learning cost is 200 Silver per week.  
+With a high level you can give the orders [`RESEARCH HERBS`][cmd-research], [`MAKE SEEDS`][cmd-make] (see [production][production-id]) and [`PLANT`][cmd-plant].  
+Despite high skill level, you may sometimes find few or no herbs.
 
 [](){ #skill-magic-id }
 
@@ -188,7 +191,7 @@ This skill does not increase when used, nor does the corresponding weapon skill.
 
 ## Trade
 
-In regions with a castle: buy and sell luxury goods. Per person and skill you can trade 10 goods (see [trade][silver-trade-id] and [[cmd-buy]]).
+In regions with a castle: buy and sell luxury goods. Per person and skill you can trade 10 goods (see [trade][silver-trade-id] and [`BUY`][cmd-buy]).
 
 [](){ #skill-unarmed-combat-id }
 
@@ -208,8 +211,11 @@ Continue reading: [stealth][stealth-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente/en&oldid=15207] -->
 
+[cmd-buy]: [[cmd-buy]]
 [cmd-grow]: [[cmd-grow]]
 [cmd-guard]: [[cmd-guard]]
 [cmd-make]: [[cmd-make]]
+[cmd-plant]: [[cmd-plant]]
 [cmd-research]: [[cmd-research]]
+[cmd-spy]: [[cmd-spy]]
 [cmd-steal]: [[cmd-steal]]

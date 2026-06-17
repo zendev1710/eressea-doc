@@ -10,7 +10,7 @@ There are a number of different buildings in Eressea that offer different benefi
 
 ## Maintenance
 
-These maintenance costs are generally independent of the size of the building and must be paid at the start of the turn by the building owner, between the [[cmd-give]] order and long orders (see [[orders-sequence]]).
+These maintenance costs are generally independent of the size of the building and must be paid at the start of the turn by the building owner, between the [`GIVE`][cmd-give] order and long orders (see [[orders-sequence]]).
 So a unit cannot collect taxes and then pay for its maintenance with the money collected.
 If there is no money at the time, the building does not function.
 
@@ -30,7 +30,8 @@ The unit that owns the largest castle in a region can even rename and describe t
 The effect of buildings (including castles) is counted on a unit-by-unit basis.
 Units that no longer fit - even partially - into the free capacity do not receive a bonus from the building - even if they are the only unit!
 
-If there are several units in a building, they are interrogated in order, from top to bottom. The first unit that is too big "locks" the building for those that follow, even if the following units could get in if the big one wasn't there. The [[cmd-sort]] order can be used to remedy this situation.
+If there are several units in a building, they are interrogated in order, from top to bottom.  
+The first unit that is too big "locks" the building for those that follow, even if the following units could get in if the big one wasn't there. The [`SORT`][cmd-sort] order can be used to remedy this situation.
 
 ## Building
 
@@ -49,5 +50,7 @@ Continue reading: [[castles]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Gebäude/en&oldid=16677] -->
 
+[cmd-give]: [[cmd-give]]
 [cmd-make]: [[cmd-make]]
+[cmd-sort]: [[cmd-sort]]
 [cmd-pay-not]: [[cmd-pay-not]]

@@ -8,25 +8,41 @@ alias: tarnung
 
 # Tarnung
 
-Mit dem [Talent][talente] **Tarnung** kann man sich vor anderen Einheiten tarnen. [Bewacht] eine Einheit allerdings die Region oder befindet sie sich auf einem Schiff oder in einem Gebäude, ist sie immer sichtbar.
+Mit dem [Talent][talente] **Tarnung** kann man sich vor anderen Einheiten tarnen.  
+[Bewacht][bef-bewache] eine Einheit allerdings die Region oder befindet sie sich auf einem Schiff oder in einem Gebäude, ist sie immer sichtbar.
 
 ## Gegenmaßnahmen
 
-Getarnte Einheiten kann man mit dem Talent *Wahrnehmung* entdecken. Ist das beste Wahrnehmungstalent deiner Partei in der Region kleiner als das Tarnungstalent einer fremden Einheit, erscheint die getarnte Einheit nicht in der Auswertung - sie wird unsichtbar. Sind Wahrnehmungstalent und Tarnungstalent gleich groß, so erscheint die getarnte Einheit in der Auswertung. Dies ist die Ausgangslage wenn man das Spiel beginnt, da alle neuen Einheiten Tarnung und Wahrnehmung auf Stufe 0 haben.
+Getarnte Einheiten kann man mit dem Talent *Wahrnehmung* entdecken.  
+Ist das beste Wahrnehmungstalent deiner Partei in der Region kleiner als das Tarnungstalent einer fremden Einheit, erscheint die getarnte Einheit nicht in der Auswertung - sie wird unsichtbar.  
+Sind Wahrnehmungstalent und Tarnungstalent gleich groß, so erscheint die getarnte Einheit in der Auswertung.  
+Dies ist die Ausgangslage wenn man das Spiel beginnt, da alle neuen Einheiten Tarnung und Wahrnehmung auf Stufe 0 haben.
 
 ## Bewachen unterlaufen
 
-Für erfolgreich getarnte Einheiten zählen die Restriktionen von [[bef-bewache]][Bewacht] nicht. Sie können somit Steuern eintreiben, Ressourcen abbauen, Straßen zerstören und Bauern rekrutieren.
+Für erfolgreich getarnte Einheiten zählen die Restriktionen von [`BEWACHE`][bef-bewache] nicht.  
+Sie können somit Steuern eintreiben, Ressourcen abbauen, Straßen zerstören und Bauern rekrutieren.
 
 ## Fluchtchance erhöhen
 
-Die Standardfluchtchance einer Einheit im [Kampf][die-flucht] beträgt 25% (Halblinge 50%). Mit jeder Stufe Tarnung steigt die Fluchtchance der Einheit um 5%. Ein Pferd steigert die Fluchtchance einer Person einmalig um 10% (5 Pferde bringen einer Person also NICHT +50% sondern nur +10), dabei ist es nicht relevant ob die Einheit reiten kann. Die maximale Fluchtchance beträgt 75% (Halblinge 90%).
+Die Standardfluchtchance einer Einheit im [Kampf][die-flucht] beträgt 25% (Halblinge 50%).  
+Mit jeder Stufe Tarnung steigt die Fluchtchance der Einheit um 5%.  
+Ein Pferd steigert die Fluchtchance einer Person einmalig um 10% (5 Pferde bringen einer Person also NICHT +50% sondern nur +10), dabei ist es nicht relevant ob die Einheit reiten kann.  
+Die maximale Fluchtchance beträgt 75% (Halblinge 90%).
 
 ## Diebstahl von Silber
 
-Erfolgreiche Tarner können anderen Einheiten mit dem Befehl [[bef-beklaue]] Silber stehlen. Auch hier zählt das höchste Wahrnehmungstalent der beklauten Partei in der Region. Pro Talentstufe Unterschied klaut jede klauende Person 50 Silber. Hierbei wird **immer** aus dem gesamten Silberpool der Partei in der Region gestohlen. Die bestohlene Partei erhält eine Meldung, dass sie bestohlen wurde, aber nicht, von wem. Ist das Tarnungstalent nur gleich gut wie die Wahrnehmung, klappt der Diebstahl nicht, und die bestohlene Partei erhält eine anonyme Meldung über den Versuch. Ist die Tarnung zu schlecht, bekommt die Partei, die bestohlen werden sollte, eine Meldung mit dem Namen der Diebe.
+Erfolgreiche Tarner können anderen Einheiten mit dem Befehl [`BEKLAUE`][bef-beklaue] Silber stehlen.  
+Auch hier zählt das höchste Wahrnehmungstalent der beklauten Partei in der Region.  
+Pro Talentstufe Unterschied klaut jede klauende Person 50 Silber.  
+Hierbei wird **immer** aus dem gesamten Silberpool der Partei in der Region gestohlen.  
+Die bestohlene Partei erhält eine Meldung, dass sie bestohlen wurde, aber nicht, von wem.  
+Ist das Tarnungstalent nur gleich gut wie die Wahrnehmung, klappt der Diebstahl nicht, und die bestohlene Partei erhält eine anonyme Meldung über den Versuch.  
+Ist die Tarnung zu schlecht, bekommt die Partei, die bestohlen werden sollte, eine Meldung mit dem Namen der Diebe.
 
-Goblins klauen, sofern sie Tarnung bis mindestens Stufe 4 gelernt haben, immer mindestens 50 Silber, auch wenn ihre Tarnung unter dem Wahrnehmungstalent liegt. Solcher Diebstahl fällt natürlich auf und ist daher nur unter bestimmten Umständen sinnvoll. Man hört, Goblinarmeen haben dem Gegner schon durch Nahrungsentzug den entscheidenden Schlag versetzt.
+Goblins klauen, sofern sie Tarnung bis mindestens Stufe 4 gelernt haben, immer mindestens 50 Silber, auch wenn ihre Tarnung unter dem Wahrnehmungstalent liegt.  
+Solcher Diebstahl fällt natürlich auf und ist daher nur unter bestimmten Umständen sinnvoll.  
+Man hört, Goblinarmeen haben dem Gegner schon durch Nahrungsentzug den entscheidenden Schlag versetzt.
 
 Rechnet man damit, erfolgreich beklaut zu werden, hilft es nur, Silber in die betroffene Region zu schaffen, da selbst die Einnahmen aus Unterhaltung, Steuereintreiben, Arbeiten und Handel von den Dieben geklaut werden können.
 
@@ -52,18 +68,19 @@ Die Wahrscheinlichkeit dafür ist (100 − SpionageSpion x 5 + WahrnehmungOpfer 
 
 ## Einschätzung
 
-Viele Völker lagern ihre Waren bei einer sehr gut getarnten Einheit pro Region ([Kampfstatus][bef-kampfe-id]: `KÄMPFE NICHT` oder `FLIEHE`). Die Gegenstände sind so vor einer Vielzahl von Gefahren geschützt, solange kein gegnerischer Wahrnehmer den Tarner auffliegen lässt.
+Viele Völker lagern ihre Waren bei einer sehr gut getarnten Einheit pro Region ([Kampfstatus][bef-kampfe-id]: `KÄMPFE NICHT` oder `FLIEHE`).  
+Die Gegenstände sind so vor einer Vielzahl von Gefahren geschützt, solange kein gegnerischer Wahrnehmer den Tarner auffliegen lässt.
 
 Neben diesen passiven Anwendungen von Tarnung kann man natürlich mit gut ausgebildeten Tarnern auf Informationsbeschaffung gehen oder die Möglichkeit des Diebstahls nutzen.
 
 ## Siehe auch
 
-- [[bef-bewache]][Bewacht]
+- [`BEWACHE`][bef-bewache]
 - [Einnahmen][diebstahl-der-unehrliche-weg]
 
 Weiterlesen: [Reisen][reisen].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tarnung&oldid=17029] -->
 
-[Bewacht]: [[bef-bewache]]
+[bef-bewache]: [[bef-bewache]]
 [bef-beklaue]: [[bef-beklaue]]

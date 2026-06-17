@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: hints
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Hints
 
 ## Registration
@@ -27,7 +29,7 @@ Without knowledge of the game masters it is always, for whatever region it happe
 Another reason is often that the departure of a faction would lead to a major change in the balance of power.  
 An alliance that loses an important member takes over the player's faction and runs it as a second faction.  
 This is also not okay unless it has been coordinated with the game management (there are several legacy factions where it has been allowed).  
-To alleviate the phenomenon, we have the [[cmd-quit]] order with the argument FACTION, which transfers the units of the leaving faction to an allied faction, which ensures that the unit limit and the upper limits for mages, heroes, etc. are adhered to.  
+To alleviate the phenomenon, we have the [`QUIT`][cmd-quit] order with the argument FACTION, which transfers the units of the leaving faction to an allied faction, which ensures that the unit limit and the upper limits for mages, heroes, etc. are adhered to.  
 
 Players sharing an E-Mail-Account, cannot be admitted to the game.  
 The danger of cheating is too big. Just get your own E-Mail, it's easy.  
@@ -48,7 +50,7 @@ The registered address must exist and the player must respond to emails from the
 ### Vacation replacement
 
 While sending in orders for other factions is generally prohibited, the only exception to this are absence replacements.  
-For them to be legal, the faction must state the E-Mail of the replacement player and the exact duration of the replacement in their [[cmd-banner]].  
+For them to be legal, the faction must state the E-Mail of the replacement player and the exact duration of the replacement in their [`BANNER`][cmd-banner].  
 Taking over a faction for "liquidating" the faction is not a vacation replacement! Replacements of more than 3 weeks must be reported to the game management.  
 **Disregarding this rules leads to the liquidation of the faction.**  
 
@@ -67,3 +69,6 @@ Continue reading: [Tips for Beginners][beginner-tips].
 <!-- From [https://wiki.eressea.de/index.php?title=Hinweise/en&oldid=13383] -->
 
 [this link]: https://www.eressea.de/?page_id=189&lang=en
+
+[cmd-banner]: [[cmd-banner]]
+[cmd-quit]: [[cmd-quit]]

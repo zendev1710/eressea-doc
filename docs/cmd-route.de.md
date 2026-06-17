@@ -37,8 +37,8 @@ Und schließlich wieder wie am Anfang.
 ## Siehe auch
 
 - [Reisen][reisen]
-- [NACH][bef-nach]
-- [[bef-folge]]
+- [`NACH`][bef-nach]
+- [`FOLGE`][bef-folge]
 
 <!-- From [https://wiki.eressea.de/index.php?title=ROUTE&oldid=16732] -->
 

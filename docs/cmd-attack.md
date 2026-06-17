@@ -20,7 +20,7 @@ In the first few weeks, a faction is [immune][puppy-protection] to attacks.
 ## See also
 
 - [[war]]
-- [[cmd-combat]] order
+- [`COMBAT`][cmd-combat] order
 
 [^1]: The `ATTACK` order is a [pseudo-long order][short-and-long-orders]:
 It is short in the sense that are several `ATTACK` orders can be done;

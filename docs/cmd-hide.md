@@ -44,7 +44,7 @@ However, this camouflage comes with a few special features, which are listed her
   Now the iron dwarf attacks the river elf.
   This means that three armies appear in the battle report: the iron dwarves and two river elf armies.
 
-However, [[cmd-group]] also has the side effect of having multiple armies.  
+However, [`GROUP`][cmd-group] also has the side effect of having multiple armies.  
 This way you can't see whether units are posing as a foreign faction or whether the person in question just has several groups.
 
 With `HIDE race` [demons][demons-id] can disguise themselves as another race.
@@ -56,4 +56,5 @@ With `HIDE race` [demons][demons-id] can disguise themselves as another race.
 
 <!-- From [https://wiki.eressea.de/index.php?title=HIDE&oldid=15791] -->
 
+[cmd-group]: [[cmd-group]]
 [cmd-help]: [[cmd-help]]

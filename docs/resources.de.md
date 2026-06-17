@@ -67,13 +67,13 @@ Im allgemeinen werden die abbaubaren Rohstoffmengen mit steigender Schwierigkeit
 Die Entwicklung der Vegetation Eresseas wird von den Jahreszeiten bestimmt.
 Sobald im Frühjahr die ersten Sonnenstrahlen auf den Waldboden treffen, treiben die im Boden verborgenen Samen aus und die Schösslinge des letzten Jahres wachsen zu ausgewachsenen Bäumen heran.
 Bei zu wenig Sonnenlicht (keine freien Arbeitsplätze) schlummern die Samen weiterhin im Boden.
-In den Sommer- und Herbstmonaten werfen die ausgewachsenen Bäume ihre Samen herab, welche mit [`Samen`][bef-mache] bzw. `MACHE Mallornsamen` von [Kräuterkundlern][skill-krauterkunde-id] mit einem Talent von 3 bzw. 4 oder mehr eingesammelt und mit [[bef-pflanze]]`Samen/Mallornsamen` anderswo eingepflanzt werden können (Mindesttalent von 6 bzw. 7).
+In den Sommer- und Herbstmonaten werfen die ausgewachsenen Bäume ihre Samen herab, welche mit [`Samen`][bef-mache] bzw. `MACHE Mallornsamen` von [Kräuterkundlern][skill-krauterkunde-id] mit einem Talent von 3 bzw. 4 oder mehr eingesammelt und mit [`PFLANZE`][bef-pflanze]`Samen/Mallornsamen` anderswo eingepflanzt werden können (Mindesttalent von 6 bzw. 7).
 
 Wird Holz oder Mallorn gefällt, schrumpft der Wald und erholt sich nur sehr langsam.
 Solange noch genug Holz vorhanden ist, kann es in beliebigen Mengen gefällt werden.
 Für Mallorn, ein "magisches" Holz, welches man nur in wenigen Regionen findet, gilt Gleiches.
 Mallorn vermehrt sich zwar wie Holz, jedoch wachsen Mallornsamen nur in den dafür geeigneten Regionen an.
-In Mallornregionen kann mit dem Befehl [[bef-mache]]`Holz` auch Holz anstelle von Mallorn gefällt werden.
+In Mallornregionen kann mit dem Befehl [`MACHE`][bef-mache]`Holz` auch Holz anstelle von Mallorn gefällt werden.
 Der Bestand an Mallornbäumen wird dabei um den gleichen Betrag reduziert, als würde man Mallorn fällen.
 
 ### Und anderswo
@@ -110,7 +110,8 @@ Weiterlesen: [Waren][waren].
 
 [Adamantium auf Wikipedia]: http://de.wikipedia.org/wiki/Adamantium
 
-[kontaktiert]: [[bef-kontaktiere]]
-[bef-pflanze]: [[bef-pflanze]]
+
 [bef-helfe]: [[bef-helfe]]
 [bef-mache]: [[bef-mache]]
+[bef-pflanze]: [[bef-pflanze]]
+[kontaktiert]: [[bef-kontaktiere]]

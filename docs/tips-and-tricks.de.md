@@ -46,34 +46,44 @@ Fazit: Wer auf die Entwicklung der Bevölkerungszahl achtet, wirft damit auch ei
 
 ## Warenlager
 
-Ein Warenlager in einer Region besteht aus einer Einheit, die möglichst weit oben in der Zugvorlage steht (z.B. der Burgherr der ältesten Burg) und an die überschüssige Waren abgegeben werden. Benötigt eine andere Einheit etwas davon, so kann sie es sich (bei eingeschaltetem Materialpool) per [[bef-reserviere]] selbst nehmen. Das Warenlager sollte deshalb weit oben stehen, weil `RESERVIERE` die Einheiten einer Region der Reihe nach durchgeht und sich benötigte Gegenstände von der ersten verfügbaren Einheit nimmt, die diese Gegenstände besitzt. Ein weiterer Vorteil, man sieht auf einem Blick, welche Gegenstände verfügbar sind.
+Ein Warenlager in einer Region besteht aus einer Einheit, die möglichst weit oben in der Zugvorlage steht (z.B. der Burgherr der ältesten Burg) und an die überschüssige Waren abgegeben werden.  
+Benötigt eine andere Einheit etwas davon, so kann sie es sich (bei eingeschaltetem Materialpool) per [`RESERVIERE`][bef-reserviere] selbst nehmen.  
+Das Warenlager sollte deshalb weit oben stehen, weil `RESERVIERE` die Einheiten einer Region der Reihe nach durchgeht und sich benötigte Gegenstände von der ersten verfügbaren Einheit nimmt, die diese Gegenstände besitzt.  
+Ein weiterer Vorteil, man sieht auf einem Blick, welche Gegenstände verfügbar sind.
 
-\[E2-Tipp\]: Lernt das Warenlager permanent Tarnung, entzieht sich der Lagerbestand hoffentlich einem wenig talentierten herumziehenden oder anschwimmenden Spion einer unfreundlichen Partei. Eine andere Theorie fordert ein hohes Wahrnehmungstalent, damit das Lager nur schwer bestohlen werden kann - um dies zu verhindern reicht aber auch ein guter Wahrnehmer der gleichen Partei zusätzlich zum Lager.
+\[E2-Tipp\]: Lernt das Warenlager permanent Tarnung, entzieht sich der Lagerbestand hoffentlich einem wenig talentierten herumziehenden oder anschwimmenden Spion einer unfreundlichen Partei.  
+Eine andere Theorie fordert ein hohes Wahrnehmungstalent, damit das Lager nur schwer bestohlen werden kann - um dies zu verhindern reicht aber auch ein guter Wahrnehmer der gleichen Partei zusätzlich zum Lager.
 
 ## Dem Hungertode entrinnen
 
 Magier, Wahrnehmer, Taktiker und andere wichtige Einheiten sollten im NR so weit wie möglich oben stehen. Silber wird eigentlich immer (eine Garantie seitens der SL gibt es hierfür nicht!) von oben nach unten verteilt. Gibt es in einer Region durch eine Unachtsamkeit oder Diebstahl nicht genug Silber um alle Personen zu versorgen nehmen sich die oberen Einheiten zuerst das Essen und die unteren müssen (ver-)hungern. Hungert von einer Einheit auch nur eine einzelne Person so unterliegt die ganze Einheit dem Nachteil der Talenthalbierung. Die 100er Einheit Steuereintreiber ganz unten in der Region stehen zu haben ist also eventuell auch nicht so clever.
 
-In die gewünschte Reihenfolge bekommt man die Einheiten mit dem Befehl [[bef-sortiere]].
+In die gewünschte Reihenfolge bekommt man die Einheiten mit dem Befehl [`SORTIERE`][bef-sortiere].
 
 ## Sichere (Schiffs-)routen
 
-Bei großen Parteien verliert man schnell mal die Übersicht über die Flotte. Leicht kann es passieren, dass ein vergessener ROUTE-Befehl (oder ein NMR) dazu führt, dass ein Schiff, das eigentlich schon sein Ziel erreicht hat, in der nächsten Runde weiterfährt und gegen einen Berg knallt. Dagegen hilft, ROUTE Befehle mit doppeltem PAUSE abzuschließen, also etwa
+Bei großen Parteien verliert man schnell mal die Übersicht über die Flotte.  
+Leicht kann es passieren, dass ein vergessener ROUTE-Befehl (oder ein NMR) dazu führt, dass ein Schiff, das eigentlich schon sein Ziel erreicht hat, in der nächsten Runde weiterfährt und gegen einen Berg knallt.  
+Dagegen hilft, ROUTE Befehle mit doppeltem PAUSE abzuschließen, also etwa
 
-     ROUTE no no no no o o o o o o nw nw nw so PAUSE PAUSE
+`ROUTE no no no no o o o o o o nw nw nw so PAUSE PAUSE`
 
-Das bewirkt, das bei erreichen des letzten PAUSE als Default-Befehl für die nächste Runde ROUTE PAUSE no no no no o o o o o o nw nw nw so PAUSE gesetzt wird. Das gibt zwar eine Fehlermeldung, aber das Schiff bewegt sich auch nicht mehr weiter.
+Das bewirkt, das bei erreichen des letzten PAUSE als Default-Befehl für die nächste Runde `ROUTE PAUSE no no no no o o o o o o nw nw nw so PAUSE` gesetzt wird.  
+Das gibt zwar eine Fehlermeldung, aber das Schiff bewegt sich auch nicht mehr weiter.
 
 ## TEMP-Einheiten
 
-Mit TEMP-Einheiten kann man jede Menge Quatsch machen und Beschränkungen umgehen, die einem der Server aus übertriebener Fürsorge auferlegt. Will man zum Beispiel ein Gebäude oder Schiff VERLASSEN und ist sich nicht sicher, was mit dem Kommando passiert? Ganz einfach
+Mit TEMP-Einheiten kann man jede Menge Quatsch machen und Beschränkungen umgehen, die einem der Server aus übertriebener Fürsorge auferlegt.  
+Will man zum Beispiel ein Gebäude oder Schiff VERLASSEN und ist sich nicht sicher, was mit dem Kommando passiert? Ganz einfach
 
-     GIB TEMP 123 ALLES
-     GIB TEMP 123 ALLES PERSONEN
-     MACHEN TEMP 123
-     ; ... BENENNEN und andere neue Befehle der Einheit
-     ENDE
-     GIB neu KOMMANDO
+```text
+GIB TEMP 123 ALLES
+GIB TEMP 123 ALLES PERSONEN
+MACHEN TEMP 123
+; ... BENENNEN und andere neue Befehle der Einheit
+ENDE
+GIB neu KOMMANDO
+```
 
 setzen; die leere Einheit übergibt brav das Kommando an die richtige Einheit und die neue TEMP-Einheit übernimmt die alte (allerdings mit neuer Nummer).
 

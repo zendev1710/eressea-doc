@@ -44,7 +44,7 @@ Dies verwendet man mit Vorteil für Magier.
 
 ## `KÄMPFE NICHT`
 
-Die Einheit kämpft nur noch dann mit, wenn sie selber das Ziel eines feindlichen [[bef-attackiere]]-Befehls ist.
+Die Einheit kämpft nur noch dann mit, wenn sie selber das Ziel eines feindlichen [`ATTACKIERE`][bef-attackiere]-Befehls ist.
 Dies setzt man mit Vorteil für Einheiten ein, die sich aus dem Kampf heraushalten, aber nicht fliehen sollen, weil sie z.B. ein Gebäude besetzt halten sollen.
 Die Einheit versucht zu fliehen, wenn sie noch 90% ihrer Trefferpunkte hat.
 
@@ -54,9 +54,9 @@ Wird eine fluchtbereite Einheit in einen Kampf verwickelt, versucht sie vor jede
 Für weitere Informationen über das "Fluchtverhalten", siehe den Abschnitt [Flucht][die-flucht] im Kapitel Kampf.
 Diesen Kampfstatus setzt man mit Vorteil für fast alle "Zivilisten" ein.
 Flieht aus einer Einheit auch nur eine Person erfolgreich aus einem Kampf, verlässt diese automatisch Gebäude oder an Land liegende Schiffe, in denen sie sich befindet.
-Es gilt daher abzuwägen, ob dieser Status für Gebäudeinsassen sinnvoll ist.Einheiten mit diesem Kampfstatus können auch nicht [[bef-attackiere]] oder [[bef-bewache]].
+Es gilt daher abzuwägen, ob dieser Status für Gebäudeinsassen sinnvoll ist.Einheiten mit diesem Kampfstatus können auch nicht [`ATTACKIERE`][bef-attackiere] oder [`BEWACHE`][bef-bewache].
 Setzt eine bewachende Einheit KÄMPFE FLIEHE, wird das Bewachen sofort aufgehoben, mit entsprechenden Konsequenzen.
-Einheiten mit dem Kampfstatus können sich nach dem Kampf noch bewegen (mit [[bef-nach]], [[bef-route]], [[bef-folge]]).
+Einheiten mit dem Kampfstatus können sich nach dem Kampf noch bewegen (mit [`NACH`][bef-nach], [`ROUTE`][bef-route], [`FOLGE`][bef-folge]).
 
 !!! warning "Achtung"
     Einheiten mit KÄMPFE FLIEHE oder KÄMPFE NICHT, kämpfen, falls sie attackiert werden und die ersten beiden Reihen überrannt.  
@@ -78,8 +78,14 @@ Wird eine solche Einheit attackiert, werden keine anderen Einheiten in den Kampf
 Dies gilt natürlich nur, wenn nicht zusätzlich andere Einheiten ohne einen solchen Status attackiert werden.
 
 Die eigene Partei ist immer dann involviert, wenn sie angreift, oder wenn sie oder eine Partei, der sie hilft, angegriffen wird.
-Weitere Details unter [[bef-helfe]] und in den Kapiteln [Kampf][krieg] und [Allianz][alliances].
+Weitere Details unter [`HELFE`][bef-helfe] und in den Kapiteln [Kampf][krieg] und [Allianz][alliances].
 
 <!-- From [https://wiki.eressea.de/index.php?title=KÄMPFE&oldid=7216] -->
 
+[bef-attackiere]: [[bef-attackiere]]
+[bef-bewache]: [[bef-bewache]]
+[bef-folge]: [[bef-folge]]
+[bef-helfe]: [[bef-helfe]]
 [bef-kampfzauber]: [[bef-kampfzauber]]
+[bef-nach]: [[bef-nach]]
+[bef-route]: [[bef-route]]

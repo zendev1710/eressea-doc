@@ -8,7 +8,7 @@ Particularly with larger factions, players lose track in some regions, especiall
 
 ## The silver pool
 
-The silver pool takes over the distribution of money when playing, so that for example with [[cmd-recruit]] the unit automatically gets enough money (if available in the region) or the learning of expensive skills is provided.  
+The silver pool takes over the distribution of money when playing, so that for example with [`RECRUIT`][cmd-recruit] the unit automatically gets enough money (if available in the region) or the learning of expensive skills is provided.  
 Nevertheless, it is stated throughout the instructions that units must have enough money with them.  
 This is just to avoid forgetting it.
 
@@ -17,7 +17,7 @@ If the entity that owns the building cannot pay for it out of their own pocket o
 At the end of the round, the unit will try again to pay for the building from its own silver reserves or from its own faction's pool.  
 
 **`TEMP` units cannot reserve**.  
-They cover the recruitment costs from the silver pool, if necessary, but should receive silver and items that they should take with them to another region or process immediately with [[cmd-give]].
+They cover the recruitment costs from the silver pool, if necessary, but should receive silver and items that they should take with them to another region or process immediately with [`GIVE`][cmd-give].
 
 !!! warning "Attention"
     when `TEMP` units get silver, they also use it to recruit!  
@@ -33,7 +33,7 @@ The material pool is the logical continuation of the silver pool: every unit tha
 The pools are only valid for your own faction.  
 Objects must be explicitly handed over to foreign units.  
 
-The pools not only work in production (essentially for the [[cmd-make]] order), but basically for everything, and especially for [[cmd-reserve]], [[cmd-give]], [[cmd-use]], [[cmd-cast]] and [[cmd-recruit]] orders.  
+The pools not only work in production (essentially for the [`MAKE`][cmd-make] order), but basically for everything, and especially for [`RESERVE`][cmd-reserve], [`GIVE`][cmd-give], [`USE`][cmd-use], [`CAST`][cmd-cast] and [`RECRUIT`][cmd-recruit] orders.  
 If the unit does not have an item, it takes it from the material pool in order to process it, hand it over or reserve it.  
 However, if a unit needs weapons for an attack or to collect taxes, these must be explicitly handed over or reserved, as the material pool does not apply here.
 
@@ -67,7 +67,7 @@ UNIT c ; for storage, has no iron
 
 ## RESERVE and GIVE
 
-There are a few special things to note about [[cmd-reserve]] and [[cmd-give]], which come before most other orders in the [[orders-sequence]].
+There are a few special things to note about [`RESERVE`][cmd-reserve] and [`GIVE`][cmd-give], which come before most other orders in the [[orders-sequence]].
 These apply equally to the silver and material pools:
 
 Firstly, items that have been handed over or reserved are no longer available in the pool.  
@@ -192,10 +192,17 @@ The silver and material pools are now automatically active for all factions and 
 
 ## See also
 
-- [[cmd-give]]
-- [[cmd-reserve]]
+- [`GIVE`][cmd-give]
+- [`RESERVE`][cmd-reserve]
 - [[orders-sequence]]
 
 Continue reading: [[war]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Materialpool&oldid=17006] -->
+
+[cmd-cast]: [[cmd-cast]]
+[cmd-give]: [[cmd-give]]
+[cmd-make]: [[cmd-make]]
+[cmd-recruit]: [[cmd-recruit]]
+[cmd-reserve]: [[cmd-reserve]]
+[cmd-use]: [[cmd-use]]

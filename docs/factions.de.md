@@ -35,27 +35,50 @@ Hier ein Beispiel für Einheiten:
 
 Eigene Einheiten sind mit einem '\*' markiert, Einheiten anderer Parteien mit einem '-' oder einem '+', wenn man der Partei [hilft][allianz].
 
-Jede Einheit besitzt eine eindeutige Nummer, die vom Computer vergeben wird und die bei allen Befehlen verwendet wird, im ersten Fall hier die Nummer tb2. Der Begriff "Nummer" mutet hier seltsam an, denn in Eressea werden die Einheiten mit "base36"-Zahlen versehen; neben den Ziffern 0-9 sind also die Buchstaben a-z als "Ziffern" gültig. Jede Einheit hat zudem einen Namen ("Konrad Rabenhelm") und vielleicht eine Beschreibung (nach dem Semikolon). Zudem werden Besitz und, falls die Information verfügbar ist, Talente angezeigt.
+Jede Einheit besitzt eine eindeutige Nummer, die vom Computer vergeben wird und die bei allen Befehlen verwendet wird, im ersten Fall hier die Nummer tb2.  
+Der Begriff "Nummer" mutet hier seltsam an, denn in Eressea werden die Einheiten mit "base36"-Zahlen versehen; neben den Ziffern 0-9 sind also die Buchstaben a-z als "Ziffern" gültig.  
+Jede Einheit hat zudem einen Namen ("Konrad Rabenhelm") und vielleicht eine Beschreibung (nach dem Semikolon).  
+Zudem werden Besitz und, falls die Information verfügbar ist, Talente angezeigt.
 
-Diese erste Einheit des Beispiels ist die Einheit der Partei, die diesen Report bekam. Sie besteht aus einem Menschen der eigenen Partei (wird nicht angezeigt), hat 20 Silber und kann mit Hiebwaffen kämpfen: in diesem Talent hat die Einheit die Stufe 1. Das Talent [Steuereintreiben][skill-steuereintreiben-id] beherrscht sie auf Stufe 2 (näheres im Kapitel [zu den Talenten][talente]). Wie man sieht, hat Konrad Rabenhelm ein Schwert. "TREIBE" ist der so genannte [Defaultbefehl]. Bekommt diese Einheit keine neuen Befehle für die nächste Runde, so wird sie weiterhin Steuern eintreiben. Im NR wird immer nur ein Defaultbefehl angezeigt, aber die Einheit kann unter Umständen mehrere haben, die nur im CR oder in der Zugvorlage sichtbar sind. Das wird im Kapitel über [Befehle][befehl] weiter erklärt.
+Diese erste Einheit des Beispiels ist die Einheit der Partei, die diesen Report bekam.  
+Sie besteht aus einem Menschen der eigenen Partei (wird nicht angezeigt), hat 20 Silber und kann mit Hiebwaffen kämpfen: in diesem Talent hat die Einheit die Stufe 1.  
+Das Talent [Steuereintreiben][skill-steuereintreiben-id] beherrscht sie auf Stufe 2 (näheres im Kapitel [zu den Talenten][talente]).  
+Wie man sieht, hat Konrad Rabenhelm ein Schwert. "TREIBE" ist der so genannte [Defaultbefehl]. Bekommt diese Einheit keine neuen Befehle für die nächste Runde, so wird sie weiterhin Steuern eintreiben.  
+Im NR wird immer nur ein Defaultbefehl angezeigt, aber die Einheit kann unter Umständen mehrere haben, die nur im CR oder in der Zugvorlage sichtbar sind.  
+Das wird im Kapitel über [Befehle][befehl] weiter erklärt.
 
 Einheiten haben einen "Kampfstatus", in diesem Fall "vorne". Die Einzelheiten kannst du im Kapital [Krieg][krieg] im Abschnitt [Kampfreihen][die-schlacht] sowie in der Erklärung zum Befehl [KÄMPFE][bef-kampfe-id] nachlesen.
 
-Eine Einheit kann eine Region bewachen (zu den Auswirkungen siehe [[bef-bewache]]). In diesem Fall steht bei ihr zusätzlich "bewacht die Region".
+Eine Einheit kann eine Region bewachen (zu den Auswirkungen siehe [`BEWACHE`][bef-bewache]).  
+In diesem Fall steht bei ihr zusätzlich "bewacht die Region".
 
-Schlussendlich kann eine Einheit durch einen [Kampf][krieg] oder durch [Hunger][hunger-de-id] verwundet sein. In diesem Fall steht bei der Einheit noch "erschöpft", "verwundet" oder gar "schwer verwundet".
+Schlussendlich kann eine Einheit durch einen [Kampf][krieg] oder durch [Hunger][hunger-de-id] verwundet sein.  
+In diesem Fall steht bei der Einheit noch "erschöpft", "verwundet" oder gar "schwer verwundet".
 
-Die nächste Einheit hat die Nummer 2ow, besteht aus einem [Zwergen][zwerge] und hat ein Pferd und einen Silberbeutel. Das heißt, dass sie mehr als 500 Silber bei sich hat. Hätte sie gar mehr als 5000 Silber bei sich, sähe man eine Silberkassette. Hätte sie nur 500 Silber oder weniger, würde man bei einer fremden Einheit gar nichts sehen. Welcher Partei die fremde Einheit angehört, kann man nicht sehen, denn sie hat sich [parteigetarnt], verbirgt also ihre Parteizugehörigkeit. Dies ist bei Botschaftern natürlich keine besonders kluge Wahl, da die anderen Spielenden so auch nicht an die E-Mail-Adresse der Partei kommen. Du kannst einer solchen Einheit höchstens eine [[bef-botschaft]] zukommen lassen.
+Die nächste Einheit hat die Nummer 2ow, besteht aus einem [Zwergen][zwerge] und hat ein Pferd und einen Silberbeutel.  
+Das heißt, dass sie mehr als 500 Silber bei sich hat.  
+Hätte sie gar mehr als 5000 Silber bei sich, sähe man eine Silberkassette.  
+Hätte sie nur 500 Silber oder weniger, würde man bei einer fremden Einheit gar nichts sehen.  
+Welcher Partei die fremde Einheit angehört, kann man nicht sehen, denn sie hat sich [parteigetarnt], verbirgt also ihre Parteizugehörigkeit.  
+Dies ist bei Botschaftern natürlich keine besonders kluge Wahl, da die anderen Spielenden so auch nicht an die E-Mail-Adresse der Partei kommen. Du kannst einer solchen Einheit höchstens eine [`BOTSCHAFT`][bef-botschaft] zukommen lassen.
 
-Schließlich siehst du ein paar befreundete [Trolle][trolle], die Juwelen geladen haben. Neben [Menschen][menschen], [Zwergen][zwerge] und [Trollen][trolle] gibt es noch viele andere Rassen in Eressea. Sie werden [diesem Kapitel][rassen] näher behandelt.
+Schließlich siehst du ein paar befreundete [Trolle][trolle], die Juwelen geladen haben.  
+Neben [Menschen][menschen], [Zwergen][zwerge] und [Trollen][trolle] gibt es noch viele andere Rassen in Eressea.  
+Sie werden [diesem Kapitel][rassen] näher behandelt.
 
-Über fremde Einheiten gibt es nur begrenzte Informationen. Ihr Kampfstatus, Verletzungen, Talente, Gruppe, Parteitarnung, Rassentarnung, Heldenstatus und Zauber sind verborgen. Die meisten Gegenstände sind sichtbar, aber Silber, Kräuter und magische Gegenstände sind nicht alle genau zu erkennen.
+Über fremde Einheiten gibt es nur begrenzte Informationen.  
+Ihr Kampfstatus, Verletzungen, Talente, Gruppe, Parteitarnung, Rassentarnung, Heldenstatus und Zauber sind verborgen.  
+Die meisten Gegenstände sind sichtbar, aber Silber, Kräuter und magische Gegenstände sind nicht alle genau zu erkennen.
 
 ### Auflösung von Einheiten
 
-Sollte eine Einheit am [Ende der Runde][befehlsreihenfolge] einmal keine Personen mehr haben (sei es durch Hunger, Übergabe oder weil sie nie welche bekommen hat), wird sie aufgelöst. Ihre Gegenstände fallen dann an eine Einheit der eigenen Partei, falls vorhanden, ansonsten an eine befreundete Einheit (zu der sie [`HELFE Silber`][bef-helfe] hat und die zu ihr `HELFE GIB` hat). Dabei wird wahrscheinlich die erste Einheit der Reportreihenfolge ausgewählt. Falls beides nicht geht, fallen Silber und Pferde an die Region, alle anderen Gegenstände gehen verloren.
+Sollte eine Einheit am [Ende der Runde][befehlsreihenfolge] einmal keine Personen mehr haben (sei es durch Hunger, Übergabe oder weil sie nie welche bekommen hat), wird sie aufgelöst.  
+Ihre Gegenstände fallen dann an eine Einheit der eigenen Partei, falls vorhanden, ansonsten an eine befreundete Einheit (zu der sie [`HELFE Silber`][bef-helfe] hat und die zu ihr `HELFE GIB` hat).  
+Dabei wird wahrscheinlich die erste Einheit der Reportreihenfolge ausgewählt.  
+Falls beides nicht geht, fallen Silber und Pferde an die Region, alle anderen Gegenstände gehen verloren.
 
-Spielererfahrung: SoltharEs soll Fälle geben, bei denen besondere magische Gegenstände eine unheimliche Energie erzeugen, die Einheiten in einem Zustand zwischen Leben und Tod erhalten. Diese sind dann aber nicht mehr unter der Kontrolle ihrer ehemaligen Partei.
+Spielererfahrung: SoltharEs soll Fälle geben, bei denen besondere magische Gegenstände eine unheimliche Energie erzeugen, die Einheiten in einem Zustand zwischen Leben und Tod erhalten.  
+Diese sind dann aber nicht mehr unter der Kontrolle ihrer ehemaligen Partei.
 
 ## Siehe auch
 

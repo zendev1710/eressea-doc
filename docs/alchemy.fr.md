@@ -3,7 +3,10 @@
 alias: alchimie
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD051 MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD051 MD052 -->
+
+[](){ #alchimie-id }
+
 # Alchimie
 
 Dans Eressea, l'alchimie est l'art de transformer des substances naturelles (plantes) en potions.
@@ -21,7 +24,7 @@ Une potion ne pèse rien.
 
 ### Fabrication
 
-Seule une personne sufisamment compétente en [alchimie][alchimie]{title="Alchemy"}, appelée alchimiste, peut fabriquer une potion.  
+Seule une personne suffisamment compétente en [alchimie][alchimie]{title="Alchemy"}, appelée alchimiste, peut fabriquer une potion.  
 
 !!! warning "Remarque"
     Une faction compte au plus **3 alchimistes**.

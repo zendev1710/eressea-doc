@@ -9,7 +9,7 @@ alias: movement
 There are several modes of movement in Eressea: Walking, riding on horses, or sailing over oceans on ships.  
 Sometimes you may even fly or swim.  
 
-For alle modes the orders [[cmd-move]] or [[cmd-route]] are used.  
+For alle modes the orders [`MOVE`][cmd-move] or [`ROUTE`][cmd-route] are used.  
 
 !!! info "Information"
     The unit of weight is the **lbs**.  
@@ -91,10 +91,10 @@ The unit that is to be carried must have the order [`RIDE <transporting-unit>`][
 Units that do not have the riding skill can still be transported along on horses or carts with this combination of orders.  
 Of course, the carrying units must have enough capacity for the passengers and their equipment.  
 
-Using [`FOLLOW UNIT <followee>`][cmd-follow] or `FOLLOW SHIP <followed-ship>` is mostly equivalent to the unit using the [[cmd-move]] order itself, if the the followed unit also has a movement order.  
+Using [`FOLLOW UNIT <followee>`][cmd-follow] or `FOLLOW SHIP <followed-ship>` is mostly equivalent to the unit using the [`MOVE`][cmd-move] order itself, if the the followed unit also has a movement order.  
 The followers must carry their own weight.  
 
-Travelling units may be stopped from passing through a region by guarding units (siehe [[cmd-guard]]).  
+Travelling units may be stopped from passing through a region by guarding units (siehe [`GUARD`][cmd-guard]).  
 
 If the cargo (including any passengers) is too heavy for a unit or ship, it cannot move.  
 The total weight of the transported units and their goods and equipment, including silver, is checked against the carrying capacity (check [this table][items-id] to find out the weight of items).
@@ -156,4 +156,7 @@ Continue reading: [Sailing][sailing-id].
 
 [cmd-carry]: [[cmd-carry]]
 [cmd-follow]: [[cmd-follow]]
+[cmd-guard]: [[cmd-guard]]
+[cmd-move]: [[cmd-move]]
 [cmd-ride]: [[cmd-ride]]
+[cmd-route]: [[cmd-route]]

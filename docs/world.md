@@ -38,7 +38,7 @@ Rahel recognized forests and mountains, many swamps and some woodless plains.
 </div>
 
 In this example, a swamp is located at (0,0); in its northeast at (0,1) you can find a mountain.  
-Every faction in Eressea has its own coordinate system, which can be shifted with the order [[cmd-origin]] in order to adjust it to the one of another faction.  
+Every faction in Eressea has its own coordinate system, which can be shifted with the order [`ORIGIN`][cmd-origin] in order to adjust it to the one of another faction.  
 
 <div class="lore-dialogue">
 "Well done my child", Selen assured the much younger cat.
@@ -134,7 +134,7 @@ The information for the following region is explained in detail:
 
 `Vîpot (3,-4), desert, 0/1 trees, 22 stones/3, 190 peasants, 5765 silver, 36 horses.`
 
-The region is called "Vîpot" and has the coordinates (3,-4) as seen from the [[cmd-origin]] of the faction.  
+The region is called "Vîpot" and has the coordinates (3,-4) as seen from the [`ORIGIN`][cmd-origin] of the faction.  
 Another player - with a different ORIGIN - knows the same region under the same name but with different coordinates.  
 The region type is desert.  
 There is a maximum of 500 free jobs in a desert.  
@@ -181,7 +181,7 @@ Finally, the scout has reported the amount of trees and horses they have found i
 Stones and iron have not yet been discovered there."
 </div>
 
-The peasants living in the region can be recruited to your faction with the command [[cmd-recruit]], the trees can be cut down and horses tamed with the command [[cmd-make]].
+The peasants living in the region can be recruited to your faction with the command [`RECRUIT`][cmd-recruit], the trees can be cut down and horses tamed with the command [`MAKE`][cmd-make].
 
 <div class="lore-dialogue">
 — "Very good, Rahel. And what is written in the lines below?"
@@ -341,8 +341,8 @@ Here is a brief overview:
 ## See also
 
 - [[money]]
-- [[cmd-recruit]]
-- [[cmd-entertain]]
+- [`RECRUIT`][cmd-recruit]
+- [`ENTERTAIN`][cmd-entertain]
 
 Continue reading: [[factions]].
 
@@ -350,4 +350,8 @@ Continue reading: [[factions]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Welt/en&oldid=16559] -->
 
+[cmd-entertain]: [[cmd-entertain]]
+[cmd-make]: [[cmd-make]]
+[cmd-origin]: [[cmd-origin]]
 [cmd-plant]: [[cmd-plant]]
+[cmd-recruit]: [[cmd-recruit]]

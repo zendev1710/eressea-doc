@@ -11,7 +11,7 @@ So ändert man die Sprache der Partei von Englisch auf Deutsch oder umgekehrt. D
 
 ## Siehe auch
 
-- [[bef-locale]]
+- [`LOCALE`][bef-locale]
 
 <!-- From [https://wiki.eressea.de/index.php?title=SPRACHE&oldid=16697] -->
 

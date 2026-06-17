@@ -6,7 +6,7 @@ alias: cmd-buy
 <!-- markdownlint-disable MD052 -->
 # BUY
 
-*`BUY` is like [[cmd-sell]], a [pseudo-long order][short-and-long-orders][^1].*  
+*`BUY` is like [`SELL`][cmd-sell], a [pseudo-long order][short-and-long-orders][^1].*  
 
 **`BUY <number> <luxury-good>`**  
 
@@ -42,7 +42,9 @@ In the computer report and the [orders template][orders] are all `BUY` and `SELL
 
 ## See also
 
-- [trade][silver-trade-id]
-- [[cmd-sell]]
+- [Trade][silver-trade-id]
+- [`SELL`][cmd-sell]
 
 <!-- From [https://wiki.eressea.de/index.php?title=BUY&oldid=16746] -->
+
+[cmd-sell]: [[cmd-sell]]

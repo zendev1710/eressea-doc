@@ -17,6 +17,9 @@ Unfortunately, some also used their Solar Sails for less peaceful purposes, whet
 This occurred against the express wishes of the Christmas Gnome, and some even attempted to conceal their actions by renaming the ships.  
 Displeased with the situation, the Christmas Gnome cast a spell that radically altered the way a Solar Sail functions.  
 
-You can learn more about Solar Sail using the [[cmd-show]] and [[cmd-claim]] orders.  
+You can learn more about Solar Sail using the [`SHOW`][cmd-show] and [`CLAIM`][cmd-claim] orders.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Sonnensegel&oldid=5701] -->
+
+[cmd-claim]: [[cmd-claim]]
+[cmd-show]: [[cmd-show]]

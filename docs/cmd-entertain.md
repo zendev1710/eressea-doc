@@ -25,7 +25,7 @@ Since there are only 60 Silver available, these 60 Silver are divided approximat
 So unit A gets about 1/5 and unit B gets about 4/5 of the available money.  
 That makes around 12 Silver for A and around 48 Silver for B.  
 
-Units aboard ships in guarded regions cannot work or maintain (see [[cmd-work]], [[cmd-guard]] and [[cmd-help]]).
+Units aboard ships in guarded regions cannot work or maintain (see [`WORK`][cmd-work], [`GUARD`][cmd-guard] and [`HELP`][cmd-help]).
 
 The tax collection limit of a region indicates how much silver can be taken from farmers in total (excluding [trade][silver-trade-id]) without them leaving.
 It is as high as the farmers' surplus income.
@@ -35,3 +35,7 @@ It is as high as the farmers' surplus income.
 - [[money]]
 
 <!-- From [https://wiki.eressea.de/index.php?title=ENTERTAIN&oldid=16748] -->
+
+[cmd-guard]: [[cmd-guard]]
+[cmd-help]: [[cmd-help]]
+[cmd-work]: [[cmd-work]]

@@ -10,7 +10,7 @@ Konflikte werden in Eressea nicht zu vermeiden sein. Es wird Streit um Silber, u
 
 ## Die Seiten in einer Schlacht
 
-Mit dem Befehl [[bef-attackiere]] startet man den Angriff gegen den Gegner. Die `ATTACKIERE`-Befehle werden in einer zufälligen Reihenfolge ausgeführt. Bei einer Attacke sammeln sich die Einheiten aller Seiten in der Region und kämpfen als Einzelpersonen gegeneinander. Eine Schlacht dauert maximal sechs Runden: fünf reguläre Kampfrunden und eventuell noch die Runde 0 (Null), die [Taktikerrunde][die-taktikerrunde].
+Mit dem Befehl [`ATTACKIERE`][bef-attackiere] startet man den Angriff gegen den Gegner. Die `ATTACKIERE`-Befehle werden in einer zufälligen Reihenfolge ausgeführt. Bei einer Attacke sammeln sich die Einheiten aller Seiten in der Region und kämpfen als Einzelpersonen gegeneinander. Eine Schlacht dauert maximal sechs Runden: fünf reguläre Kampfrunden und eventuell noch die Runde 0 (Null), die [Taktikerrunde][die-taktikerrunde].
 
 Die angreifende Seite besteht aus allen Einheiten, welche `ATTACKIERE`-Befehle gegen eine oder mehrere Einheiten der verteidigenden Partei gegeben haben.
 
@@ -23,17 +23,23 @@ Es gibt also unterschiedliche Gründe, warum eine Einheit am Kampf teilnimmt. Di
 3. Eine Einheit aus der eigenen Partei wird von jemandem attackiert. Dann nimmt die Einheit am Kampf teil, wenn sie weder `KÄMPFE NICHT` noch `KÄMPFE FLIEHE` gesetzt hat. In letzterem Fall kommt sie nicht auf die Idee, zu [flüchten][die-flucht], da sie ja nicht selbst bedroht ist.
 4. Eine Einheit aus einer verbündeten Partei (also einer Partei, der man `HELFE KÄMPFE` gesetzt hat) wird von jemandem attackiert. Dann nimmt die Einheit am Kampf teil, wenn sie nicht `KÄMPFE NICHT` oder `KÄMPFE FLIEHE` gesetzt hat. Wiederum wird eine Einheit mit `KÄMPFE FLIEHE` nicht [flüchten][die-flucht], da sie keiner direkten Bedrohung ausgesetzt ist.
 
-Alliierte helfen also automatisch nur Verteidigern und *nur dann, wenn der Verteidiger nicht selber attackiert hat*. Angegriffene verteidigen sich mit dem Rest der Partei, wenn dieser sich nicht explizit aus dem Kampf heraushält. Für einen Angriff spielt der Kampfstatus primär keine Rolle: außer Verteidigern werden nur solche Einheiten in den Kampf verwickelt, die einen [[bef-attackiere]] Befehl gegeben haben. Einheiten, die jedoch [`KÄMPFE NICHT`][`KÄMPFE`] oder [`KÄMPFE FLIEHE`][`KÄMPFE`] gesetzt haben, können aber nicht angreifen.
+Alliierte helfen also automatisch nur Verteidigern und *nur dann, wenn der Verteidiger nicht selber attackiert hat*.  
+Angegriffene verteidigen sich mit dem Rest der Partei, wenn dieser sich nicht explizit aus dem Kampf heraushält.  
+Für einen Angriff spielt der Kampfstatus primär keine Rolle: außer Verteidigern werden nur solche Einheiten in den Kampf verwickelt, die einen [`ATTACKIERE`][bef-attackiere] Befehl gegeben haben.  
+Einheiten, die jedoch [`KÄMPFE NICHT`][`KÄMPFE`] oder [`KÄMPFE FLIEHE`][`KÄMPFE`] gesetzt haben, können aber nicht angreifen.
 
-Um also einen Feind gemeinsam anzugreifen, muss jede angreifende Partei mindestens eine Einheit des Feindes attackieren. Um sich gemeinsam gegen Angreifer zu wehren, müssen sich die verteidigenden Parteien nur gegenseitig helfen.
+Um also einen Feind gemeinsam anzugreifen, muss jede angreifende Partei mindestens eine Einheit des Feindes attackieren.  
+Um sich gemeinsam gegen Angreifer zu wehren, müssen sich die verteidigenden Parteien nur gegenseitig helfen.
 
 Prinzipiell gilt jeder als alliiert, dem [`HELFE KÄMPFE`] gesetzt wurde, und der niemanden attackiert hat, dem [`HELFE KÄMPFE`][bef-helfe] gesetzt wurde.
 
-**Beispiel 1:** A hilft B und C. C attackiert B, deshalb greift A in den Kampf mit ein: B ist alliiert. Partei C gilt nicht als alliiert, weil sie einen Alliierten angreift.  
+**Beispiel 1:** A hilft B und C. C attackiert B, deshalb greift A in den Kampf mit ein: B ist alliiert.   
+Partei C gilt nicht als alliiert, weil sie einen Alliierten angreift.  
 Wer kämpft nun gegen wen?  
 Ich kämpfe gegen meine Feinde. Meine Feinde sind Parteien, die mich angreifen, die ich angreife, oder die einen Alliierten (nach der Definition von eben) angreifen.
 
-**Beispiel 2:** A hilft B und C. B und C attackieren sich gegenseitig. Dann hilft A weder B noch C, denn keiner von ihnen gilt als alliiert, und keiner ist ein Feind von A.
+**Beispiel 2:** A hilft B und C. B und C attackieren sich gegenseitig.  
+Dann hilft A weder B noch C, denn keiner von ihnen gilt als alliiert, und keiner ist ein Feind von A.
 
 **Beispiel 3:** A attackiert B und C. Sind B und C nicht alliiert, helfen sie einander trotzdem gegen A, denn A ist ein gemeinsamer Feind. Wenn also B noch Fronttruppen hat, C aber nur noch Bogenschützen, dann stellen sich die Truppen von B schützend vor C. Ausnahme: Wenn B und C verfeindet sind, weil z.B. B gegen einen zusätzlichen Alliierten D von C kämpft, dann helfen Sie sich nicht untereinander, auch nicht gegen A.
 
@@ -48,7 +54,7 @@ Spielererfahrung:Es ist eigentlich noch ein bisschen komplizierter.
 Ein paar Tips helfen, die gröbsten Schnitzer zu verhindern:
 
 - Du solltest regelmäßig deine Helfe-Stati kontrollieren zu allen Verbündeten. Am besten ist HELFE ALLES für alle, mit denen du in einen Kampf geraten *könntest*. Misstrauen tut hier oft weh.
-- Nach Möglichkeit sollte nur eine [[bef-gruppe]] vorhanden sein.
+- Nach Möglichkeit sollte nur eine [`GRUPPE`][bef-gruppe] vorhanden sein.
 - Von deiner Partei sollten entweder alle Kampfeinheiten ATTACKIERE-Befehle haben oder keine. Wenn nur ein Teil deiner Einheiten attackiert, kann es sein, dass der Rest nicht am Kampf teilnimmt, wenn ein Verbündeter angegriffen wird.
 - Es ist ratsam, alle feindlichen Einheiten anzugreifen. Mindestens solltest du von jeder feindlichen Partei eine Einheit angreifen. Beachte auch, dass durch Parteitarnung nicht immer klar sein könnte, wer wirklich zu welcher Partei gehört. Eine andere Strategie könnte sein, überhaupt nur eine feindliche Einheit anzugreifen und vielleicht zu hoffen, dass auf der Gegenseite falsch HELFE-Stati zu Verwirrung fühlen. Ob dies ein ehrenwertes Vorgehen wäre, wollen wir hier nicht beurteilen.
 
@@ -125,12 +131,12 @@ Das können 0 bis 10 Personen sein, im langfristigen Mittel sind es aber etwa 3 
 ## Helden
 
 Helden sind besonders starke Kämpfer.
-Sie müssen zuvor mit dem Befehl [[bef-befoerdere]] ernannt worden sein.
+Sie müssen zuvor mit dem Befehl [`BEFOERDERE`][bef-befoerdere] ernannt worden sein.
 Helden können in jeder Kampfrunde 5 mal angreifen.
 
 Achtung! Dies gilt nicht für magische Angriffe und auch nicht für Armbrüste und Katapulte.
 
-Für nähere Informationen siehe [[bef-befoerdere]].
+Für nähere Informationen siehe [`BEFOERDERE`][bef-befoerdere].
 
 ## Der Kampf zwischen zwei Personen
 
@@ -326,7 +332,7 @@ Besonderheiten gelten für Einheiten mit dem Status FLIEHE.
 Diese Einheiten können sich nach dem Kampf noch bewegen, auch wenn sie sonst keinen langen Befehl ausführen dürften.
 Weiterhin können diese Einheiten keine Regionen bewachen.
 Eine durchgeführte Bewachung wird automatisch aufgelöst, wenn die Einheit den Status FLIEHE einnimmt.
-Dies geschieht zu Beginn der Runde, womit alle Effekte von [[bef-bewache]] sofort aufgelöst werden.
+Dies geschieht zu Beginn der Runde, womit alle Effekte von [`BEWACHE`][bef-bewache] sofort aufgelöst werden.
 
 ## Kampf auf und von Schiffen
 
@@ -342,7 +348,7 @@ Diese Monster haben, wie auch einige Vertraute, einen Angriff der jede Kampfrund
 
 Ist das Schiff nach der Schlacht unterbesetzt oder leer, treibt es ohne Kontrolle im Ozean und nimmt weiteren [Schaden][schiffsschaden].
 
-Will man mit einem Schiff Truppen in einer feindlich [bewachten][bef-bewache] Region anlanden, so müssen diese erst das Schiff [[bef-verlasse]] und können erst in der folgenden Runde den Angriff starten oder sich bewegen.
+Will man mit einem Schiff Truppen in einer feindlich [bewachten][bef-bewache] Region anlanden, so müssen diese erst das Schiff [`VERLASSE`][bef-verlasse] und können erst in der folgenden Runde den Angriff starten oder sich bewegen.
 Dadurch hat der Gegner die Möglichkeit, entsprechend zu reagieren.
 
 Von Land aus kann man Schiffe an der Küste sofort angreifen.
@@ -401,6 +407,8 @@ Weiterlesen: [allianz][allianz].
 [`PIRATERIE <parteinummer> ...`]: [[bef-piraterie]]
 
 [bef-attackiere]: [[bef-attackiere]]
+[bef-befoerdere]: [[bef-befoerdere]]
 [bef-bewache]: [[bef-bewache]]
 [bef-folge]: [[bef-folge]]
 [bef-helfe]: [[bef-helfe]]
+[bef-verlasse]: [[bef-verlasse]]

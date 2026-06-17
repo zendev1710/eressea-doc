@@ -9,16 +9,19 @@ alias: bef-betrete
 **`BETRETE`**` BURG `*`gebäude-nr`*  
 **`BETRETE`**` SCHIFF `*`schiff-nr`*  
 
-Betritt das angegebene [Gebäude][gebaude-id] oder [Schiff][schiff]. Die Einheit mit dem [Kommando][einheiten-und-gebaude] über das Gebäude oder Schiff muss den Zutritt erlauben. Das tut sie, wenn sie zur eigenen Partei gehört, [HELFE][bef-helfe] BEWACHE für die eigene Partei gesetzt hat oder in dieser Runde den [[bef-kontaktiere]] Befehl für die Einheit gibt. Anderenfalls wird der Zutritt verweigert.
+Betritt das angegebene [Gebäude][gebaude-id] oder [Schiff][schiff].  
+Die Einheit mit dem [Kommando][einheiten-und-gebaude] über das Gebäude oder Schiff muss den Zutritt erlauben.  
+Das tut sie, wenn sie zur eigenen Partei gehört, [`HELFE BEWACHE`][bef-helfe] für die eigene Partei gesetzt hat oder in dieser Runde den [`KONTAKTIERE`][bef-kontaktiere] Befehl für die Einheit gibt.  
+Anderenfalls wird der Zutritt verweigert.
 
-Ein BETRETE impliziert [[bef-verlasse]], wenn die Einheit sich auf einem Schiff oder in einem Gebäude befindet.
+Ein BETRETE impliziert [`VERLASSE`][bef-verlasse], wenn die Einheit sich auf einem Schiff oder in einem Gebäude befindet.
 
 <!-- TODO: exclude E3 from documentation -->
 **[E3A — Das Dritte Zeitalter][das-dritte-zeitalter]**
 
-Ein Ausnahme sind Gebäudebesitzer. Diese müssen entweder ein explizites [[bef-verlasse]] setzen, oder [GIB][bef-gib] KOMMANDO verwenden.
+Ein Ausnahme sind Gebäudebesitzer. Diese müssen entweder ein explizites [`VERLASSE`][bef-verlasse] setzen, oder [GIB][bef-gib] KOMMANDO verwenden.
 
-BETRETE hat immer Vorrang vor [[bef-verlasse]], wenn beide Befehle gegeben werden.
+BETRETE hat immer Vorrang vor [`VERLASSE`][bef-verlasse], wenn beide Befehle gegeben werden.
 
 Es ist durchaus möglich, auf hoher See von einem Schiff auf ein anderes zu wechseln.
 

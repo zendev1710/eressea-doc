@@ -25,7 +25,7 @@ A region can only be renamed by the lord of the most powerful castle in a region
 Groups can only be renamed by group members and the new group name cannot already exist.  
 
 The new name can be up to 127 characters long.  
-Longer descriptions can be added using the [[cmd-describe]] order.  
+Longer descriptions can be added using the [`DESCRIBE`][cmd-describe] order.  
 
 Through the additional `FOREIGN` specifying the element id, you can name units, ships and even buildings (not just castles) of other factions if they do not yet have a name (i.e. units are named as "unit abc").  
 You can even name a foreign faction as long as it is older than ten rounds.  
@@ -40,3 +40,5 @@ ERESSEA 7 "Seven"
 ```
 
 <!-- From [https://wiki.eressea.de/index.php?title=NAME&oldid=16968] -->
+
+[cmd-describe]: [[cmd-describe]]

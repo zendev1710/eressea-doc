@@ -24,8 +24,9 @@ However, this is not evaluated by the server.
 
 - [Learning][learn-skills]
 - By using [teachers][cmd-teach] you can halve the required learning times
-- Through the [[cmd-learn-auto]] order, the server attempts to automate learning and teaching in a region within a faction. A mixture of `TEACH` and `LEARN AUTO` however, is not possible
+- Through the [`LEARN-AUTO`][cmd-learn-auto] order, the server attempts to automate learning and teaching in a region within a faction. A mixture of `TEACH` and `LEARN AUTO` however, is not possible
 
 <!-- From [https://wiki.eressea.de/index.php?title=LEARN&oldid=16727] -->
 
+[cmd-learn-auto]: [[cmd-learn-auto]]
 [cmd-teach]: [[cmd-teach]]

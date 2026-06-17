@@ -26,7 +26,7 @@ Tränke werden mit dem Befehl [`MACHE "<Trank>"`][bef-mache] hergestellt.
 
 Pro Trank braucht man diverse Zutaten.  
 Welche dies sind, erfährt man aus den Rezepten, die man mit Erlangen einer neuen Stufe im Talent Alchemie automatisch für diese Stufe bekommt.  
-Später kann man sie sich mit dem Befehl [[bef-zeige]] anzeigen lassen.  
+Später kann man sie sich mit dem Befehl [`ZEIGE`][bef-zeige] anzeigen lassen.  
 
 Um einen Trank herstellen zu können, muss die Stufe des Alchemisten **doppelt so hoch** sein wie die Stufe des Trankes.  
 
@@ -35,7 +35,7 @@ Ein Alchemist kann jede Runde Talentstufe/(2\*Trankstufe) Tränke herstellen.
 Ein Alchemist der Stufe 6 kann also maximal einen Trank der Stufe 3, einen der zweiten Stufe oder drei Tränke der ersten Stufe herstellen.
 
 !!! tip "Tipp"
-    Tränke werden mit dem Befehl [[bef-benutze]]`[anzahl] "Trank" [einheit-nr]` angewendet.  
+    Tränke werden mit dem Befehl [`BENUTZE [anzahl] "Trank" [einheit-nr]`][bef-benutze] angewendet.  
 
 Die Einheitennummer ist dabei nur bei Dumpfbackenbrot anzugeben, da dies der einzige Trank ist, der auf andere Einheiten wirkt.  
 Ein Trank lässt sich nicht auf mehrere Einheiten aufteilen - man kann aber nach der Trank-Benutzung eine große Einheit in mehrere kleinere Einheiten aufteilen:
@@ -325,4 +325,6 @@ Weiterlesen: [Kräuter][krauter-id].
 
 <!-- From [https://kwiki.eressea.de/index.php?title=Tränke&oldid=16967] -->
 
+[bef-benutze]: [[bef-benutze]]
 [bef-mache]: [[bef-mache]]
+[bef-zeige]: [[bef-zeige]]

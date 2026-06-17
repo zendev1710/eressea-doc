@@ -26,7 +26,7 @@ Die Einheit übergibt Gegenstände, das Kommando über Schiffe oder Gebäude, Pe
 
 Mit `GIB` können Einheiten alle Waren, die sie haben, an andere Einheiten geben.
 Bedingung ist, dass die angegebene Einheit Sachen annimmt.
-Dies tut sie nur, wenn sie zur eigenen oder einer alliierten Partei gehört (`HELFE GIB`), oder wenn sie diese Runde den Befehl [[bef-kontaktiere]] für die Gebereinheit gegeben hat.
+Dies tut sie nur, wenn sie zur eigenen oder einer alliierten Partei gehört (`HELFE GIB`), oder wenn sie diese Runde den Befehl [`KONTAKTIERE`][bef-kontaktiere] für die Gebereinheit gegeben hat.
 Einheiten der Monsterpartei und manche Spielereinheiten mit Monsterrassen nehmen ebenfalls nichts an.
 Wer Gegenstände einfach nur los werden will, kann diese auch an die Bauern übergeben oder im Ozean versenken (`GIB 0`*`anzahl gegenstand`*).
 Personen, Silber und Pferde vergrößern den Bauern-, Silber- bzw. Pferdevorrat einer Landregion.
@@ -90,7 +90,7 @@ Will man Personen verschiedener Einheiten zusammenführen, so geschieht dies mit
 Dabei werden dann auch die [Talente][talente] vermischt, und man sollte die Gegenstände nicht vergessen, da sie evtl.
 den Bauern zufallen, wenn die Einheit keine Personen mehr hat.
 
-Spielererfahrung: Solthar Willst du einer Einheit einer anderen Partei Personen übergeben, reicht ein einfaches HELFE GIB nicht aus, sondern die Empfängereinheit muss die übergebende Einheit KONTAKTIEREN.
+Spielererfahrung: Solthar Willst du einer Einheit einer anderen Partei Personen übergeben, reicht ein einfaches `HELFE GIB` nicht aus, sondern die Empfängereinheit muss die übergebende Einheit KONTAKTIEREN.
 Falls die Empfängereinheit eine [Migranteneinheit][menschen] ist, darf sie außerdem zum Zeitpunkt der Übergabe keine Personen haben.
 Am besten sollte sie also eine leere TEMP-Einheit sein.
 
@@ -120,14 +120,14 @@ Das Kommando kann nicht an Einheiten ohne Personen (z.B. nach einem Kampf oder "
 ## Konvoi
 
 Mit `GIB`*`einheit-nr`*` `*`anzahl`*`SCHIFF` übergibt der Besitzer eines Schiffes oder Konvois die Anzahl Schiffe.
-Die übergebende und empfangende Einheit müssen der selben Partei angehören, HELFE ALLES oder KONTAKTIERE genügt nicht.
+Die übergebende und empfangende Einheit müssen der selben Partei angehören, `HELFE ALLES` oder `KONTAKTIERE` genügt nicht.
 Ist die anderen Einheit ebenfalls Besitzer eines Schiffes wird ein [Konvoi][konvoi-id] gebildet.
 Konvois bestehen immer aus Schiffen des gleichen Typs.
 Boote können keine Konvois bilden und die Schiffe müssen an der gleichen Küste liegen.
 
 ## Siehe auch
 
-- [[bef-reserviere]]
+- [`RESERVIERE`][bef-reserviere]
 - [Materialpool][materialpool]
 - [Schiff][schiff]
 - [Gebäude][gebaude-id]

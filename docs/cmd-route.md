@@ -10,7 +10,7 @@ alias: cmd-route
 
 **`ROUTE`**` `*`direction`*`[`*`direction`*`...]`  
 
-With this order, the unit moves through the world of Eressea in the same way as with the [[cmd-move]] order.  
+With this order, the unit moves through the world of Eressea in the same way as with the [`MOVE`][cmd-move] order.  
 
 With that `ROUTE` order you can, however, create a chain of movement so that a unit always travels between two or more points or completes a long route until it reaches its destination.  
 All movements that have been processed are returned to the back `ROUTE` order attached.  
@@ -48,7 +48,10 @@ And finally again like at the beginning.
 ## See also
 
 - [[movement]]
-- [[cmd-move]]
-- [[cmd-follow]]
+- [`MOVE`][cmd-move]
+- [`FOLLOW`][cmd-follow]
 
 <!-- From [https://wiki.eressea.de/index.php?title=ROUTE&oldid=16732] -->
+
+[cmd-follow]: [[cmd-follow]]
+[cmd-move]: [[cmd-move]]

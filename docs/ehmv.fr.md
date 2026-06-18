@@ -2,6 +2,11 @@
 # cSpell:locale fr
 alias: EHMV-fr
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD041 MD042 -->
+
+[](){ #ehmv-fr-id }
+
 # EHMV
 
 **Eressea Hex Map Viewer**, [EHMV] en abrégé, est un visualiseur de cartes et de rapports pour le jeu par courrier électronique [Eressea].  

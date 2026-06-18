@@ -21,7 +21,7 @@ Make [potions][alchemy] from [[herbs]]. Learning costs 200 silver per person. Th
 
 ## Armoursmithing
 
-Produce iron, laen, and adamantium plates (see [[items]]).
+Produce iron, laen, and adamantium plates (see [items][items]).
 
 [](){ #skill-bow-id }
 
@@ -82,7 +82,7 @@ Despite high skill level, you may sometimes find few or no herbs.
 
 [](){ #skill-magic-id }
 
-## [[magic]]
+## [Magic][magic-id]
 
 This allows you to cast combat spells and other types spells. Learning magic [costs silver][magic] depending on the level.
 
@@ -144,7 +144,7 @@ With a [horse][horse-and-carriage]: Starting from riding 1 faster movement; star
 
 ## Roadwork
 
-Building [[roads]] from stones. One stone can be built per person and skill level.
+Building [roads][roads] from stones. One stone can be built per person and skill level.
 
 [](){ #skill-sailing-id }
 
@@ -160,13 +160,13 @@ Construct and repair ships with wood (see [ships][ships-id]).
 
 [](){ #skill-stealth-id }
 
-## [[stealth]]
+## [Stealth][stealth-id]
 
 The unit is always cloaked and only visible to units with the same or greater perception skill. Successfully camouflaged units can [steal][cmd-steal] or thwart [guarding][cmd-guard] units.
 
 [](){ #skill-tactics-id }
 
-## [[tactics]]
+## [Tactics][tactics]
 
 In combat, the side with the best tactician has extra attacks (see [mustering][to-arms]). Learning costs 200 silver per person.
 
@@ -205,7 +205,7 @@ It is only available for monsters and other special races where it works like a 
 
 ## Weaponsmithing
 
-Produce weapons from wood and metals (see [[items]]).
+Produce weapons from wood and metals (see [items][items]).
 
 Continue reading: [stealth][stealth-id].
 

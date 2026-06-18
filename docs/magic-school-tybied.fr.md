@@ -224,14 +224,14 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 `CAST [LEVEL n] "Astral Call" <x> <y> <unit-id> [<unit-id> ...]`  
 
-### Créer une [[amulette-de-vision-decuplee]]
+### Créer une [amulette de vision décuplée][amulette-de-vision-decuplee-id]{title="Amulet of True Sight"}
 
 <!-- cspell:disable -->
 *Create An Amulet of True Sight (EN), Erschaffe ein Amulett des wahren Sehens (DE)*.
 <!-- cspell:enable -->
 
-:   Le sort permet à un mage de créer une [amulette de vision décuplée][amulette-de-vision-decuplee]{title="Amulet of True Sight"}.  
-    L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité][anneau-dinvisibilite]{title="Ring of Invisibility"}.  
+:   Le sort permet à un mage de créer une [amulette de vision décuplée][amulette-de-vision-decuplee-id]{title="Amulet of True Sight"}.  
+    L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité][anneau-d-invisibilite-id]{title="Ring of Invisibility"}.  
     Cependant, les unités qui utilisent leur compétence de [discrétion][skill-discretion-id]{title="Stealth"} pour se cacher ne sont toujours pas détectées.
 
 |               Composants                | Niv. |  Type  | Rang |              B               | D |
@@ -246,7 +246,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 *Create A Ring of Invisibility (EN), Erschaffe einen Ring der Unsichtbarkeit (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sort, le sorcier peut créer un [anneau d'Invisibilité][anneau-dinvisibilite]{title="Ring of Invisibility"}.  
+:   Avec ce sort, le sorcier peut créer un [anneau d'Invisibilité][anneau-d-invisibilite-id]{title="Ring of Invisibility"}.  
     Le porteur de l'anneau devient invisible pour toutes les unités des autres partis, quelle que soit la qualité de leur perception.  
     Dans une unité invisible, chaque personne doit porter une bague.
 
@@ -399,13 +399,13 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 `COMBATSPELL [LEVEL n] Acceleration`  
 
-### Créer un [[anneau-de-pouvoir]]
+### Créer un [anneau de Pouvoir][anneau-de-pouvoir-id]{title="Ring of Power"}
 
 <!-- cspell:disable -->
 *Ring of Power (EN), Erschaffe einen Ring der Macht (DE)*.
 <!-- cspell:enable -->
 
-:   Ce rituel puissant crée un [[anneau-de-pouvoir]]. Celui-ci augmente la puissance de tout sort lancé par son porteur, comme si le mage était supérieur d'un niveau.
+:   Ce rituel puissant crée un [anneau de Pouvoir][anneau-de-pouvoir-id]{title="Ring of Power"}. Celui-ci augmente la puissance de tout sort lancé par son porteur, comme si le mage était supérieur d'un niveau.
 
 |                Composants                | Niv. |  Type  | Rang |              B               | D |
 |:----------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|

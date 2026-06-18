@@ -19,7 +19,7 @@ To find out more, see the [Production][production-id] chapter.
 
 ## Items
 
-[[items]] and [raw materials][resources] are created with `MAKE [`*`number`*`]`*`item`*` `.  
+[Items][items] and [raw materials][resources] are created with `MAKE [`*`number`*`]`*`item`*` `.  
 Depending on the item, a certain skill and perhaps also certain raw materials are required.  
 Without specifying *number*, the unit will produce as many items as people, skill and possibly raw materials allow it to.  
 

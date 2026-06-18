@@ -2,9 +2,11 @@
 # cSpell:locale en
 alias: extended-commands
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Extended Commands
 
-ExtendedCommands is a plugin for [[magellan]] that is included as standard and can be used to automate orders.
+ExtendedCommands is a plugin for [Magellan][magellan-id] that is included as standard and can be used to automate orders.
 
 There is an introduction and a few example scripts on the [official site].
 

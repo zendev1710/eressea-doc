@@ -9,50 +9,50 @@ alias: orders-sequence
 Eressea's orders are evaluated in a fixed sequence. Orders with the same number are executed at the same time or the exact sequence is irrelevant.
 
 1. new default orders are set
-2. [[cmd-group]], [MAKE TEMP]
-3. [[cmd-name]], [[cmd-describe]], [GUARD NOT], [[cmd-help]], [[cmd-combat]], [[cmd-combatspell]], [[cmd-hide]], [[cmd-origin]], [[cmd-show]]
-4. [[cmd-banner]], [[cmd-email]], [[cmd-option]], [[cmd-password]]
-5. [[cmd-contact]]
-6. [[cmd-message]]
-7. [[cmd-enter]]; 1st attempt
-8. [[cmd-use]]
-9. [[cmd-leave]]
-10. [[cmd-enter]]; 2nd attempt
-11. [[cmd-attack]]
-12. [[cmd-reserve]], [[cmd-claim]]
-13. [[cmd-enter]]; 3rd attempt
-14. [GIVE CONTROL]
-15. [[cmd-forget]]
-16. [[cmd-give]][GIVE CONTROL]
-17. [[cmd-recruit]][^1]
-18. [[cmd-destroy]]
-19. [[cmd-follow]] is set
-20. [[cmd-promote]]
-21. [PAY NOT]; stops operation and maintenance costs for the corresponding building.
+2. [`GROUP`][cmd-group], [`MAKE TEMP`][cmd-make]
+3. [`NAME`][cmd-name], [`DESCRIBE`][cmd-describe], [`GUARD NOT`][cmd-guard], [`HELP`][cmd-help], [`COMBAT`][cmd-combat], [`COMBATSPELL`][cmd-combatspell], [`HIDE`][cmd-hide], [`ORIGIN`][cmd-origin], [`SHOW`][cmd-show]
+4. [`BANNER`][cmd-banner], [`EMAIL`][cmd-email], [`OPTION`][cmd-option], [`PASSWORD`][cmd-password]
+5. [`CONTACT`][cmd-contact]
+6. [`MESSAGE`][cmd-message]
+7. [`ENTER`][cmd-enter]; 1st attempt
+8. [`USE`][cmd-use]
+9. [`LEAVE`][cmd-leave]
+10. [`ENTER`][cmd-enter]; 2nd attempt
+11. [`ATTACK`][cmd-attack]
+12. [`RESERVE`][cmd-reserve], [`CLAIM`][cmd-claim]
+13. [`ENTER`][cmd-enter]; 3rd attempt
+14. [`GIVE CONTROL`][cmd-give]
+15. [`FORGET`][cmd-forget]
+16. [`GIVE`][cmd-give]
+17. [`RECRUIT`][cmd-recruit][^1]
+18. [`DESTROY`][cmd-destroy]
+19. [`FOLLOW`][cmd-follow] is set
+20. [`PROMOTE`][cmd-promote]
+21. [`PAY NOT`][cmd-pay-not]; stops operation and maintenance costs for the corresponding building.
 22. maintenance costs for buildings are accounted for. If they cannot be raised, the building has no effect for that turn!
-23. [[cmd-quit]]
-24. [[cmd-cast]]
-25. [[cmd-teach]]
-26. [[cmd-learn]]
-27. [[cmd-make]][MAKE TEMP][^1]
-28. [[cmd-research]], [[cmd-plant]], [[cmd-spy]], [[cmd-grow]]
-29. [[cmd-entertain]][^1]
-30. [[cmd-work]][^1]
-31. [[cmd-tax]][^1]
-32. [[cmd-buy]][^1]
-33. [[cmd-sell]][^1]
-34. [[cmd-steal]][^1]
+23. [`QUIT`][cmd-quit]
+24. [`CAST`][cmd-cast]
+25. [`TEACH`][cmd-teach]
+26. [`LEARN`][cmd-learn]
+27. [`MAKE TEMP`][cmd-make][^1]
+28. [`RESEARCH`][cmd-research], [`PLANT`][cmd-plant], [`SPY`][cmd-spy], [`GROW`][cmd-grow]
+29. [`ENTERTAIN`][cmd-entertain][^1]
+30. [`WORK`][cmd-work][^1]
+31. [`TAX`][cmd-tax][^1]
+32. [`BUY`][cmd-buy][^1]
+33. [`SELL`][cmd-sell][^1]
+34. [`STEAL`][cmd-steal][^1]
 35. ships with insufficient crew suffer damage
 36. ENTER; 4th attempt
-37. [[cmd-move]] and [[cmd-route]], including [[cmd-ride]] and [[cmd-carry]] are executed, and units ordered to FOLLOW other units do so
-38. [[cmd-guard]][GUARD NOT]; this only works if the unit has not moved.
+37. [`MOVE`][cmd-move] and [`ROUTE`][cmd-route], including [`RIDE`][cmd-ride] and [`CARRY`][cmd-carry] are executed, and units ordered to FOLLOW other units do so
+38. [`GUARD`][cmd-guard]; this only works if the unit has not moved.
 39. ships drift on the high seas
-40. [[cmd-default]]
+40. [`DEFAULT`][cmd-default]
 41. empty units are removed
 42. peasants, horses and trees grow, if possible; the remaining peasants move into other regions
 43. silver for units maintenance is subtracted
-44. [[cmd-sort]]
-45. [[cmd-number]]
+44. [`SORT`][cmd-sort]
+45. [`NUMBER`][cmd-number]
 
 [^1]: Orders marked like this are divided "fairly"; see [notes][notes] below.
 
@@ -101,7 +101,54 @@ Continue reading: [Short Description][list-of-orders].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehlsreihenfolge/en&oldid=13988] -->
 
-[MAKE TEMP]: [[cmd-make]]
-[GUARD NOT]: [[cmd-guard]]
-[GIVE CONTROL]: [[cmd-give]]
-[PAY NOT]: [[cmd-pay-not]]
+[cmd-attack]: [[cmd-attack]]
+[cmd-banner]: [[cmd-banner]]
+[cmd-buy]: [[cmd-buy]]
+[cmd-carry]: [[cmd-carry]]
+[cmd-cast]: [[cmd-cast]]
+[cmd-claim]: [[cmd-claim]]
+[cmd-combat]: [[cmd-combat]]
+[cmd-combatspell]: [[cmd-combatspell]]
+[cmd-contact]: [[cmd-contact]]
+[cmd-default]: [[cmd-default]]
+[cmd-describe]: [[cmd-describe]]
+[cmd-destroy]: [[cmd-destroy]]
+[cmd-email]: [[cmd-email]]
+[cmd-enter]: [[cmd-enter]]
+[cmd-entertain]: [[cmd-entertain]]
+[cmd-follow]: [[cmd-follow]]
+[cmd-forget]: [[cmd-forget]]
+[cmd-give]: [[cmd-give]]
+[cmd-group]: [[cmd-group]]
+[cmd-grow]: [[cmd-grow]]
+[cmd-guard]: [[cmd-guard]]
+[cmd-help]: [[cmd-help]]
+[cmd-hide]: [[cmd-hide]]
+[cmd-learn]: [[cmd-learn]]
+[cmd-leave]: [[cmd-leave]]
+[cmd-make]: [[cmd-make]]
+[cmd-message]: [[cmd-message]]
+[cmd-move]: [[cmd-move]]
+[cmd-name]: [[cmd-name]]
+[cmd-number]: [[cmd-number]]
+[cmd-option]: [[cmd-option]]
+[cmd-origin]: [[cmd-origin]]
+[cmd-password]: [[cmd-password]]
+[cmd-pay-not]: [[cmd-pay-not]]
+[cmd-plant]: [[cmd-plant]]
+[cmd-promote]: [[cmd-promote]]
+[cmd-quit]: [[cmd-quit]]
+[cmd-recruit]: [[cmd-recruit]]
+[cmd-research]: [[cmd-research]]
+[cmd-reserve]: [[cmd-reserve]]
+[cmd-ride]: [[cmd-ride]]
+[cmd-route]: [[cmd-route]]
+[cmd-sell]: [[cmd-sell]]
+[cmd-show]: [[cmd-show]]
+[cmd-sort]: [[cmd-sort]]
+[cmd-spy]: [[cmd-spy]]
+[cmd-steal]: [[cmd-steal]]
+[cmd-tax]: [[cmd-tax]]
+[cmd-teach]: [[cmd-teach]]
+[cmd-use]: [[cmd-use]]
+[cmd-work]: [[cmd-work]]

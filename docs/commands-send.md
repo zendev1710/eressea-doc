@@ -19,16 +19,16 @@ Under no circumstances should lines that are too long be wrapped independently, 
 
 ### Examples
 
-Most new players use the [[magellan]] tool.  
+Most new players use the [Magellan][magellan-id] tool.  
 Eressea also has various other tools that make life easier for the player.  
 Here is a list of the most famous ones:
 
 - [CSMap][csmap-id]
 - [ECheck][echeck-id]
-- [[ehmv]]
-- [[magellan]]
+- [ehmv][ehmv-id]
+- [Magellan][magellan-id]
   - [[extended-commands]]
-  - [[fftools]]
+  - [fftools][fftools-id]
 - [[vorlage]]
 
 ## How to submit orders, and what you get in return
@@ -46,7 +46,7 @@ There are various [tools][how-to-submit-orders-and-what-you-get-in-return] that 
 Be careful when using web interfaces such as GMX or GMail!  
 These have proven to be problematic in the past because emails were formatted incorrectly.  
 
-Users of [[magellan]] can most conveniently [send orders directly from the program][sending-orders-from-magellan], without having to go through email programs or web mailers.  
+Users of [Magellan][magellan-id] can most conveniently [send orders directly from the program][sending-orders-from-magellan], without having to go through email programs or web mailers.  
 
 The orders must always be sent to [eressea-server@kn-bremen.de] with the subject **ERESSEA 2 ORDERS**.  
 If these subjects are not used, the emails will not be recognized by the game server and will be ignored.  

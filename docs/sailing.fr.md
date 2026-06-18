@@ -65,7 +65,11 @@ Le poids total de toutes les unités d'un bateau, y compris le poids des chevaux
 Si ce n'est pas ou plus le cas, le bateau ne peut pas naviguer.  
 En mer, il ne coulera pas immédiatement, mais dérivera.  
 Les capacités des bateaux sont indiquées dans le tableau ci-dessus et sont toujours affichées dans le rapport.  
-Les poids des objets se trouvent dans la section sur [[objets]] et ceux des personnes des différents peuples, dans le tableau [Poids et Capacités][deplacements].  
+
+Voir aussi :
+
+- [Les objets et leurs poids][objets]
+- [Poids et capactiés des personnes selon leur Peuple][deplacements]
 
 Il est possible de regrouper plusieurs bateaux en [convoi][convoi].  
 Les détails à ce sujet sont décrits dans le chapitre sur les [bateaux][bateaux-id].  

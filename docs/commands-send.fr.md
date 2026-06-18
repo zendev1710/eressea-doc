@@ -19,16 +19,16 @@ En aucun cas l'éditeur ne doit effectuer de renvoi à la ligne automatique pour
 
 ### Exemples
 
-La plupart des nouveaux joueurs utilisent l'outil [[magellan]].  
+La plupart des nouveaux joueurs utilisent l'outil [Magellan][magellan-fr-id].  
 Eressea dispose également de divers autres outils qui facilitent la vie du joueur.  
 Voici une liste des plus utilisés :
 
 - [CSMap][csmap-fr-id]
 - [ECheck][echeck-fr-id]
-- [[ehmv]]
-- [[magellan]]
+- [ehmv][ehmv-fr-id]
+- [Magellan][magellan-fr-id]
   - [[extended-commands]]
-  - [[fftools]]
+  - [fftools][fftools-id]
 - [[vorlage]]
 
 ## Comment soumettre des ordres et ce que vous obtenez en retour
@@ -47,7 +47,7 @@ Il existe divers [outils][comment-soumettre-des-ordres-et-ce-que-vous-obtenez-en
 Soyez prudent lorsque vous utilisez des interfaces web telles que GMX ou GMail !  
 Ceux-ci se sont avérés problématiques dans le passé car les e-mails étaient mal formatés.  
 
-Les utilisateurs de [[magellan]] peuvent très facilement [envoyer des ordres directement depuis le programme][envoi-des-ordres-depuis-magellan], sans avoir à passer par des programmes de messagerie ou des outils de messagerie web.
+Les utilisateurs de [Magellan][magellan-fr-id] peuvent très facilement [envoyer des ordres directement depuis le programme][envoi-des-ordres-depuis-magellan], sans avoir à passer par des programmes de messagerie ou des outils de messagerie web.
 
 Les ordres doivent toujours être envoyés à [eressea-server@kn-bremen.de], avec, en objet, l'intitulé **ERESSEA ORDERS 2**.
 Si l'objet de l'email est différent, les emails ne seront pas reconnus par le serveur de jeu et seront ignorés.  

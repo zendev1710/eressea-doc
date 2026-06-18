@@ -203,7 +203,7 @@ Avec ces sorts variables, vous pouvez spécifier un niveau auquel le sort doit �
 Celui-ci doit être égal ou inférieur au niveau en magie de l'unité, mais il peut être supérieur ou inférieur au niveau normal du sort.  
 Cela vous permet de lancer le sort à un niveau inférieur à votre propre compétence.
 
-En utilisant un [[anneau-de-pouvoir]], une [Tour des mages] ou un [Cercle de pierres bénies][cercle-de-pierres], la force peut être augmentée d'un point supplémentaire.  
+En utilisant un [anneau de Pouvoir][anneau-de-pouvoir-id]{title="Ring of Power"}, une [Tour des mages] ou un [Cercle de pierres bénies][cercle-de-pierres], la force peut être augmentée d'un point supplémentaire.  
 Ce bonus est ajouté au niveau spécifié.
 
 Si le niveau n'est pas précisé, le sort est lancé au niveau maximum possible, c'est à dire le niveau de compétence de l'unité (les modifications comme les bonus raciaux ou les bonus spéciaux comme ceux des Insectes dans les déserts sont pris en compte).  
@@ -224,7 +224,7 @@ CAST LEVEL 4 "Miracle doctor"
 ```
 
 Ce sort coûtera 4 aura et rapportera 200 silver.  
-Avec un Anneau de Pouvoir, cela coûte toujours 4 aura mais rapporte 250 silver.
+Avec un anneau de Pouvoir, cela coûte toujours 4 aura mais rapporte 250 silver.
 
 ### Composants
 
@@ -403,7 +403,7 @@ Par exemple, une boule de feu qui ferait 50 dégâts (5d10 + 15) ne fait que (90
 
 ## Tour des Mages
 
-Une [Tour de Mage][tour-de-mage] augmente la régénération de l'aura de 75 % et augmente le niveau effectif de tout sort lancé en son sein de 1, le cas échéant, en plus d'un [[anneau-de-pouvoir]] sans augmenter le coût.  
+Une [Tour de Mage][tour-de-mage] augmente la régénération de l'aura de 75 % et augmente le niveau effectif de tout sort lancé en son sein de 1, le cas échéant, en plus d'un [anneau de Pouvoir][anneau-de-pouvoir-id]{title="Ring of Power"} sans augmenter le coût.  
 De plus, la probabilité d’un échec du sort est considérablement réduite.  
 
 ## Familiers

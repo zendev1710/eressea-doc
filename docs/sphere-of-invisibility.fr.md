@@ -2,6 +2,11 @@
 # cSpell:locale fr
 alias: sphere-dinvisibilite
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD041 MD042 -->
+
+[](){ #sphere-d-invisibilite-id }
+
 # Sphère d'invisibilité
 
 <!-- cspell:disable -->

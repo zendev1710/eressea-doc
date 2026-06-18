@@ -220,13 +220,13 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 
 `CAST "Create A Ring of Invisibility"`  
 
-### Créer une [[amulette-de-vision-decuplee]]
+### Créer une [amulette de vision décuplée][amulette-de-vision-decuplee-id]{title="Amulet of True Sight"}
 
 <!-- cspell:disable -->
 *Create An Amulet of True Sight (EN), Erschaffe ein Amulett des wahren Sehens (DE)*.
 <!-- cspell:enable -->
 
-:   Le sort permet à un mage de créer une [amulette de vision décuplée].  
+:   Le sort permet à un mage de créer une [amulette de vision décuplée][amulette-de-vision-decuplee-id]{title="Amulet of True Sight"}.  
     L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité].  
     Cependant, les unités qui utilisent leur compétence de [discrétion][skill-discretion-id]{title="Stealth"} pour se cacher ne sont toujours pas détectées.
 
@@ -384,13 +384,13 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 
 ## Niveau 13
 
-### Créer une [Sphère d'Invisibilité]
+### Créer une [Sphère d'Invisibilité][sphere-d-invisibilite-id]{title="Sphere of Invisibility"}
 
 <!-- cspell:disable -->
 *Create A Sphere of Invisibility (EN), Erschaffe eine Sphäre der Unsichtbarkeit (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sort, le mage peut créer une [Sphère d'Invisibilité].  
+:   Avec ce sort, le mage peut créer une [Sphère d'Invisibilité][sphere-d-invisibilite-id]{title="Sphere of Invisibility"}.  
     Celle-ci rend invisibles son porteur et quatre-vingt-dix-neuf autres personnes de la même unité.
 
 |                 Composants                 | Niv. |  Type  | Rang |              B               | D |

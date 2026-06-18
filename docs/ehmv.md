@@ -2,6 +2,11 @@
 # cSpell:locale en
 alias: ehmv
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD041 MD042 -->
+
+[](){ #ehmv-id }
+
 # EHMV
 
 **Eressea Hex Map Viewer**, [EHMV] for short, is a map and report viewer for the email game [Eressea].  

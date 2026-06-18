@@ -3,7 +3,10 @@
 alias: ring-der-unsichtbarkeit
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+
+[](){ #ring-der-unsichtbarkeit-id }
+
 # Ring der Unsichtbarkeit
 
 Dieses magische Artefakt wurde seit Urzeiten von den Elfen benutzt, auf der Jagd oder um sich vor Feinden zu verbergen.  

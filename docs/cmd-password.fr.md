@@ -42,7 +42,7 @@ ERESSEA 11 "MoftZga"
 ```
 
 !!! note "Note"
-    Lors de l'ouverture d'un rapport avec [[magellan]], le mot de passe renseigné dans le rapport est associé à la faction concernée, et mémorisé sur confirmation.  
+    Lors de l'ouverture d'un rapport avec [Magellan][magellan-fr-id], le mot de passe renseigné dans le rapport est associé à la faction concernée, et mémorisé sur confirmation.  
     Magellan inscrit ensuite automatiquement les ordres `ERESSEA` et `PASSWORD` dans le fichier d'ordres à [envoyer][envoi-des-ordres-depuis-magellan].  
 
 <!-- TODO: improve, remarks are not very clear -->

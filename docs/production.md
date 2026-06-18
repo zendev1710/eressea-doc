@@ -16,7 +16,7 @@ In order to be able to produce things, you need the appropriate skill.
 Most things are done with the order [`MAKE`*`<number>`*` `*`item`*][cmd-make], for example `MAKE Iron`, `MAKE Sword` or `MAKE 15 Elvenbow`.  
 
 Depending on the item, a different level of skill is required in order to be able to produce it.  
-Most [resources][resources] only require basic knowledge of the corresponding skills (Level 1), while most [[items]] require higher skill levels.  
+Most [resources][resources] only require basic knowledge of the corresponding skills (Level 1), while most [items][items] require higher skill levels.  
 For items with high minimum skill values, you can only craft a few of them.
 In any case, **per unit per round**, you can only produce one type of item or resource and work on one building or ship.  
 

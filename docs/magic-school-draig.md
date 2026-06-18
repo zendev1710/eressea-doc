@@ -3,7 +3,7 @@
 alias: draig-spells
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 -->
+<!-- markdownlint-disable MD042 MD052 -->
 # Draig spells
 
 *Note : in the documentation below, T represents the magic skill level.*
@@ -92,19 +92,19 @@ alias: draig-spells
 
 `CAST [LEVEL n] "Chaos Curse" <unit-id>`  
 
-### Create an [[amulet-of-true-sight]]
+### Create an [Amulet of True Sight][amulet-of-true-sight-id]
 
-:   The spell allows a magician to create an [[amulet-of-true-sight]].  
-    The amulet allows the wearer to see all units protected by a ring of invisibility.  
-    However, units that use their [[stealth]] skill to hide still remain undetected.
+:   The spell allows a magician to create an [Amulet of True Sight][amulet-of-true-sight-id].  
+    The amulet allows the wearer to see all units protected by a [Ring of Invisibility][ring-of-invisibility-id].  
+    However, units that use their [stealth][skill-stealth-id] skill to hide still remain undetected.
 
 |               Components                | Lvl |  Type  | Rank |             Ship             | Dist. |
 |:---------------------------------------:|:---:|:------:|:----:|:----------------------------:|:-----:|
 | 50 aura, 3 000 silver, 1 permanent aura |  6  | Normal |  5   | :material-check:{ .success } |       |
 
-### Create a [[ring-of-invisibility]]
+### Create a [Ring of Invisibility][ring-of-invisibility-id]
 
-:   With this spell the wizard can create a ring of invisibility.  
+:   With this spell the wizard can create a [Ring of Invisibility][ring-of-invisibility-id].  
     The bearer of the ring becomes invisible to all units of other parties, no matter how good their perception may be.  
     In an invisible unit, each person must wear a ring.
 
@@ -194,9 +194,9 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
 :   With this dark ritual, the black magician can cause a rift in the fabric of magic, which will tear all magical power from the region.  
     All magically gifted people in the region will lose much of their aura.
 
-|         Components         | Lvl |  Type  | Rank | Ship | Dist. |
-|:--------------------------:|:---:|:------:|:----:|:----:|:-----:|
-| 35 aura, 1 [[dragonblood]] |  9  | Normal |  3   |      |       |
+|              Components               | Lvl |  Type  | Rank | Ship | Dist. |
+|:-------------------------------------:|:---:|:------:|:----:|:----:|:-----:|
+| 35 aura, 1 [dragonblood][dragonblood] |  9  | Normal |  3   |      |       |
 
 `CAST "Astral Leak"`  
 
@@ -264,9 +264,9 @@ With the help of this spell, the magician can transfer his own aura at a ratio o
     Both are said to have already happened.  
     The bait lasts about 6 weeks, but must be placed in kite-friendly terrain.
 
-|        Components         | Lvl |  Type  | Rank | Ship |            Dist.             |
-|:-------------------------:|:---:|:------:|:----:|:----:|:----------------------------:|
-| 80 aura, 1 [[dragonhead]] | 11  | Normal |  5   |      | :material-check:{ .success } |
+|             Components              | Lvl |  Type  | Rank | Ship |            Dist.             |
+|:-----------------------------------:|:---:|:------:|:----:|:----:|:----------------------------:|
+| 80 aura, 1 [dragonhead][dragonhead] | 11  | Normal |  5   |      | :material-check:{ .success } |
 
 `CAST [REGION x y] *Dragon Call`  
 

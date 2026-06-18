@@ -22,7 +22,7 @@ A faction starts a game with one **unit** consisting of one person with 2500 sil
     if you do not know what you have there, try the order [`SHOW "`*`Item`*`"`][cmd-show].
 
 This first person is not special in any way; they are just the first person belonging to your new faction.  
-You can [recruit][recruiting] new persons, and eventually produce [[items]], and build [[buildings]] and [ships][ships-id], tame [horses][horse-and-carriage], forge [weapons][war-tables] and so on.
+You can [recruit][recruiting] new persons, and eventually produce [items][items], and build [[buildings]] and [ships][ships-id], tame [horses][horse-and-carriage], forge [weapons][war-tables] and so on.
 
 New units are created by generating them with an existing unit using the [MAKE TEMP][cmd-make] order.  
 A new unit has no people, yet: you first have to [transfer][cmd-give] them from another unit or recruit them, which requires [money][expenses].  

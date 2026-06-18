@@ -155,11 +155,11 @@ alias: tybied-spells
 
 `CAST [LEVEL n] "Astral Call" <x> <y> <unit-id> [<unit-id> ...]`  
 
-### Create an [[amulet-of-true-sight]]
+### Create an [Amulet of True Sight][amulet-of-true-sight-id]
 
-:   The spell allows a magician to create an [[amulet-of-true-sight]].  
+:   The spell allows a magician to create an [Amulet of True Sight][amulet-of-true-sight-id].  
     The amulet allows the wearer to see all units protected by a ring of invisibility.  
-    However, units that use their [[stealth]] skill to hide still remain undetected.
+    However, units that use their [stealth][skill-stealth-id] skill to hide still remain undetected.
 
 |               Components                | Lvl |  Type  | Rank |             Ship             | Dist. |
 |:---------------------------------------:|:---:|:------:|:----:|:----------------------------:|:-----:|
@@ -167,7 +167,7 @@ alias: tybied-spells
 
 `CAST "Create An Amulet of True Sight"`  
 
-### Create a [[ring-of-invisibility]]
+### Create a [Ring of Invisibility][ring-of-invisibility-id]
 
 :   With this spell the wizard can create a ring of invisibility.  
     The bearer of the ring becomes invisible to all units of other parties, no matter how good their perception may be.  
@@ -281,7 +281,7 @@ alias: tybied-spells
 
 `COMBATSPELL [LEVEL n] Acceleration`  
 
-### Create a [[ring-of-power]]
+### Create a [Ring of Power][ring-of-power-id]
 
 :   This powerful ritual creates a ring of power.  
     A ring of power increases the power of any spell its wearer casts, as if the mage were one level better.

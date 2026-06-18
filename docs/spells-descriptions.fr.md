@@ -149,7 +149,7 @@ alias: description-des-sorts
 
 `CAST [REGION x y] "Calm Riot"`  
 
-[](){ #aper-u-sur-la-r-alit-id }
+[](){ #apercu-sur-la-realite-id }
 
 ### Aperçu sur la réalité
 
@@ -451,7 +451,7 @@ Extrait de « Errants » de Firudin le Sage.
 
 `CAST [LEVEL n] "Song of Courting"`  
 
-[](){ #chant-de-g-n-rosit-id }
+[](){ #chant-de-generosite-id }
 
 ### Chant de générosité
 
@@ -695,7 +695,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 `COMBATSPELL [LEVEL n] "Shadow Knights"`  
 
-[](){ #cr-er-des-golem-de-fer-id }
+[](){ #creer-des-golem-de-fer-id }
 
 ### Créer des [[golem-de-fer]]
 
@@ -713,7 +713,7 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 `CAST [LEVEL n] "Create Iron Golems"`  
 
-[](){ #cr-er-des-golem-de-pierre-id }
+[](){ #creer-des-golem-de-pierre-id }
 
 ### Créer des [[golem-de-pierre]]
 
@@ -736,15 +736,15 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 `CAST [LEVEL n] "Create Stone Golems"`  
 
-[](){ #cr-er-un-anneau-d-invisibilit-title-ring-of-invisibility-id }
+[](){ #creer-un-anneau-d-invisibilite-id }
 
-### Créer un [anneau d'Invisibilité][anneau-dinvisibilite]{title="Ring of Invisibility"}
+### Créer un [anneau d'Invisibilité][anneau-d-invisibilite-id]{title="Ring of Invisibility"}
 
 <!-- cspell:disable -->
 *Create A Ring of Invisibility (EN), Erschaffe einen Ring der Unsichtbarkeit (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sort, le sorcier peut créer un [anneau d'Invisibilité][anneau-dinvisibilite]{title="Ring of Invisibility"}.  
+:   Avec ce sort, le sorcier peut créer un [anneau d'Invisibilité][anneau-d-invisibilite-id]{title="Ring of Invisibility"}.  
     Le porteur de l'anneau devient invisible pour toutes les unités des autres partis, quelle que soit la qualité de leur perception.  
     Dans une unité invisible, chaque personne doit porter une bague.
 
@@ -754,15 +754,15 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 `CAST "Create A Ring of Invisibility"`  
 
-[](){ #cr-er-un-anneau-de-pouvoir-id }
+[](){ #creer-un-anneau-de-pouvoir-id }
 
-### Créer un [[anneau-de-pouvoir]]
+### Créer un [anneau de Pouvoir][anneau-de-pouvoir-id]{title="Ring of Power"}
 
 <!-- cspell:disable -->
 *Ring of Power (EN), Erschaffe einen Ring der Macht (DE)*.
 <!-- cspell:enable -->
 
-:   Ce rituel puissant crée un [[anneau-de-pouvoir]].  
+:   Ce rituel puissant crée un [anneau de Pouvoir][anneau-de-pouvoir-id]{title="Ring of Power"}.  
     Celui-ci augmente la puissance de tout sort lancé par son porteur, comme si le mage était supérieur d'un niveau.
 
 | Éc. |                Composants                | Niv. |  Type  | Rang |            Bateau            | Dist. |
@@ -771,7 +771,7 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 `CAST "Create A Ring of Power"`  
 
-[](){ #cr-er-un-cristal-d-antimagie-title-antimagic-crystal-id }
+[](){ #creer-un-cristal-d-antimagie-id }
 
 ### Créer un [Cristal d'Antimagie][cristal-dantimagie]{title="Antimagic Crystal"}
 
@@ -788,7 +788,7 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 `CAST "Create An Antimagic Crystal"`  
 
-[](){ #cr-er-un-dreameye-title-dreameye-id }
+[](){ #creer-un-dreameye-id }
 
 ### Créer un [DreamEye][dreameye]{title="DreamEye"}
 
@@ -808,7 +808,7 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 `CAST "Create a Visioneye"`  
 
-[](){ #cr-er-un-sac-a-herbes-magique-id }
+[](){ #creer-un-sac-a-herbes-magique-id }
 
 ### Créer un [[sac-a-herbes-magique]]
 
@@ -825,7 +825,7 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 `CAST "Create A magical Herb Pouch"`
 
-[](){ #cr-er-un-sac-sans-fond-id }
+[](){ #creer-un-sac-sans-fond-id }
 
 ### Créer un [[sac-sans-fond]]
 
@@ -843,16 +843,16 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 `CAST "Create A Bag of Holding"`
 
-[](){ #cr-er-une-amulette-de-vision-decuplee-id }
+[](){ #creer-une-amulette-de-vision-decuplee-id }
 
-### Créer une [[amulette-de-vision-decuplee]]
+### Créer une [amulette de vision décuplée][amulette-de-vision-decuplee-id]{title="Amulet of True Sight"}
 
 <!-- cspell:disable -->
 *Create An Amulet of True Sight (EN), Erschaffe ein Amulett des wahren Sehens (DE)*.
 <!-- cspell:enable -->
 
-:   Le sort permet à un mage de créer une [amulette de vision décuplée][amulette-de-vision-decuplee]{title="Amulet of True Sight"}.
-    L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité][anneau-dinvisibilite]{title="Ring of Invisibility"}.  
+:   Le sort permet à un mage de créer une [amulette de vision décuplée][amulette-de-vision-decuplee-id]{title="Amulet of True Sight"}.
+    L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité][anneau-d-invisibilite-id]{title="Ring of Invisibility"}.  
     Cependant, les unités qui utilisent leur compétence de [discrétion][skill-discretion-id]{title="Stealth"} pour se cacher ne sont toujours pas détectées.
 
 |  Éc.   |               Composants                | Niv. |  Type  | Rang |            Bateau            | Dist. |
@@ -861,7 +861,7 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 `CAST "Create An Amulet of True Sight"`  
 
-[](){ #cr-er-une-ceinture-de-force-de-troll-id }
+[](){ #creer-une-ceinture-de-force-de-troll-id }
 
 ### Créer une [[ceinture-de-force-de-troll]]
 
@@ -878,7 +878,7 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 `CAST "Create A Belt of Troll Strength"`  
 
-[](){ #cr-er-une-epee-de-flammes-id }
+[](){ #creer-une-epee-de-flammes-id }
 
 ### Créer une [[epee-de-flammes]]
 
@@ -897,15 +897,15 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST "Create A Flaming Sword"`  
 
-[](){ #cr-er-une-sph-re-d-invisibilit-title-sphere-of-invisibility-id }
+[](){ #creer-une-sphere-d-invisibilit-id }
 
-### Créer une [Sphère d'Invisibilité][sphere-dinvisibilite]{title="Sphere of Invisibility"}
+### Créer une [Sphère d'Invisibilité][sphere-d-invisibilite-id]{title="Sphere of Invisibility"}
 
 <!-- cspell:disable -->
 *Create A Sphere of Invisibility (EN), Erschaffe eine Sphäre der Unsichtbarkeit (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sort, le mage peut créer une [Sphère d'Invisibilité][sphere-dinvisibilite]{title="Sphere of Invisibility"}.  
+:   Avec ce sort, le mage peut créer une [Sphère d'Invisibilité][sphere-d-invisibilite-id]{title="Sphere of Invisibility"}.  
     Celle-ci rend invisibles son porteur et quatre-vingt-dix-neuf autres personnes de la même unité.
 
 | Éc. |                 Composants                 | Niv. |  Type  | Rang |            Bateau            | Dist. |
@@ -1609,7 +1609,7 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST [REGION x y] "Summon Earth Elemental"`  
 
-[](){ #invocation-de-la-r-alit-id }
+[](){ #invocation-de-la-realite-id }
 
 ### Invocation de la Réalité
 
@@ -1751,7 +1751,7 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 :   Ce sort permet au mage de protéger comme par magie les insectes du froid paralysant des glaciers.  
     Vous pouvez entrer dans les glaciers et y agir normalement.  
     Le dicton fonctionne au niveau*10 insectes.  
-    Un [Anneau de Pouvoir][anneau-de-pouvoir]{title="Ring of Power"} augmente le nombre d'insectes enchantables de 10 supplémentaires.
+    Un [Anneau de Pouvoir][anneau-de-pouvoir-id]{title="Ring of Power"} augmente le nombre d'insectes enchantables de 10 supplémentaires.
 
 |  Éc.   | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
 |:------:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
@@ -1962,7 +1962,7 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 `CAST [LEVEL n] Firewall <direction>`  
 
-[](){ #murs-d-ternit-id }
+[](){ #murs-d-eternite-id }
 
 ### Murs d'éternité
 

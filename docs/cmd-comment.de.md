@@ -51,7 +51,7 @@ Auch der Spieler selbst kann hinter einem Semikolon Kommentare einfügen.
 Da diese Kommentare aber nicht in die Vorlage der nächsten Woche übernommen werden, sind dauerhafte Kommentare nach [`//`][bef-kommentar-mit-schraegstrichen] in der Regel sinnvoller.
 
 Um Übertragungskapazität zu sparen, können temporäre Kommentare vor dem Versenden der Befehle entfernt werden.
-Dies erledigen manche Tools wie [[magellan]] oder VPP.
+Dies erledigen manche Tools wie [Magellan][magellan-de-id]oder VPP.
 
 ## Externe Links
 

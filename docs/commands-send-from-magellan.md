@@ -6,7 +6,7 @@ alias: sending-orders-from-magellan
 <!-- markdownlint-disable MD052 -->
 # Sending orders from Magellan
 
-[[magellan]] offers the possibility of [emailing][sending-orders] the orders directly from the program.  
+[Magellan][magellan-id] offers the possibility of [emailing][sending-orders] the orders directly from the program.  
 The advantage of this is that there are no errors caused by copying into the e-mail program or webmailer.
 More, they do not do any automatic formatting that the Eressea server does not understand, for example HTML formatting, strange line breaks, automatic banners or strange letter encoding, especially with umlauts.  
 To have a copy of the email sent, you can send a copy of the orders to your own address.  

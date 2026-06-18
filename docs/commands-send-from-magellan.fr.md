@@ -2,9 +2,11 @@
 # cSpell:locale fr
 alias: envoi-des-ordres-depuis-magellan
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Envoi des ordres depuis Magellan
 
-[[magellan]] offre la possibilité d'[envoyer les ordres par email][envoi-des-ordres] directement depuis le programme.  
+[Magellan][magellan-fr-id] offre la possibilité d'[envoyer les ordres par email][envoi-des-ordres] directement depuis le programme.  
 L'avantage est d'éliminer le risque d'erreurs causées par la copie dans le programme de messagerie ou le webmailer.  
 
 De plus, aucun formatage automatique n'est effectué que le serveur Eressea ne saurait comprendre, comme par exemple :

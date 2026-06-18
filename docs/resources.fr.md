@@ -214,11 +214,11 @@ Plus d'information : [liste des plantes][liste-des-plantes].
 ## Voir aussi
 
 - [Production][production-fr-id]
-- [[objets]]
+- [Objets][objets]
 - [[routes]]
 - [Bâtiments][batiments-id]
 
-Poursuivre la lecture : [[objets]].
+Poursuivre la lecture : [objets][objets].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rohstoffe/fr&oldid=16659] -->
 

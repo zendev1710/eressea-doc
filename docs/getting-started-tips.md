@@ -18,7 +18,7 @@ They'll definitely give you tips for your first moves or answer your questions.
 You can also ask questions in the [PbEm Games forum].
 Eressea has its own subforum there.
 
-Most players use [[magellan]], a program that reads the CR (Computer Report), displays it clearly, helps in creating commands, and shows many errors.
+Most players use [Magellan][magellan-id], a program that reads the CR (Computer Report), displays it clearly, helps in creating commands, and shows many errors.
 
 Then there's [ECheck][echeck-id], a program that lets you check your moves for correctness.
 ECheck is automatically run by the server on incoming moves and the result is sent back.

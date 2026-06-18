@@ -194,7 +194,7 @@ Is it possible to nest `DEFAULT` orders to make orders for several weeks in adva
 
 Well, something like `DEFAULT "DEFAULT 'LEARN Endurance'"` apparently works as you would expect, but the game management would rather not make any guarantees about it.  
 Please do not submit bug reports if something like this doesn't work as expected.
-Scripting languages ​​such as [[vorlage]], [[extended-commands]] or [[fftools]] are better suited for such projects.
+Scripting languages ​​such as [[vorlage]], [[extended-commands]] or [fftools][fftools-id] are better suited for such projects.
 
 ## See also
 

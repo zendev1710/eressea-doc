@@ -445,7 +445,7 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 ### Erschaffe eine [Sphäre der Unsichtbarkeit][sphare-der-unsichtbarkeit-id]
 
-:   Mit diesem Spruch kann der Zauberer eine Sphäre der Unsichtbarkeit erschaffen.  
+:   Mit diesem Spruch kann der Zauberer eine [Sphäre der Unsichtbarkeit][sphare-der-unsichtbarkeit-id] erschaffen.  
     Die Späre macht ihren Träger sowie neunundneunzig weitere Personen in derselben Einheit unsichtbar.  
 
 | Mag. |                Komponenten                | Stufe |  Art   | Rang |            Schiff            | Fern. |

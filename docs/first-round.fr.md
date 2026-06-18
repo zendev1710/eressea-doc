@@ -77,7 +77,7 @@ Nous ne savons pas exactement quand elle a débuté.
 Notez que certains ordres s'étendent sur plusieurs lignes.  
 Ici, l'ordre `DESCRIBE` avec le délimiteur de retour à la ligne `\` a été utilisé.  
 
-Cependant, si vous utilisez [[magellan]] pour vos ordres, vous n'avez pas à vous en soucier.  
+Cependant, si vous utilisez [Magellan][magellan-fr-id] pour vos ordres, vous n'avez pas à vous en soucier.  
 
 ```text
 ERESSEA 37wj "pwpw42"

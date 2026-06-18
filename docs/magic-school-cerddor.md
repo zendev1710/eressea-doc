@@ -2,6 +2,8 @@
 # cSpell:locale en
 alias: cerddor-spells
 ---
+<!-- disable some rules due to autorefs plugin usage -->
+<!-- markdownlint-disable MD052 -->
 # Cerddor spells
 
 ## Level 1
@@ -165,11 +167,11 @@ alias: cerddor-spells
 
 ## Level 6
 
-### Create an [[amulet-of-true-sight]]
+### Create an [Amulet of True Sight][amulet-of-true-sight-id]
 
-:   The spell allows a magician to create an [[amulet-of-true-sight]].  
-    The amulet allows the wearer to see all units protected by a [[ring-of-invisibility]].  
-    However, units that use their [[stealth]] skill to hide still remain undetected.
+:   The spell allows a magician to create an [Amulet of True Sight][amulet-of-true-sight-id].  
+    The amulet allows the wearer to see all units protected by a [Ring of Invisibility][ring-of-invisibility-id].  
+    However, units that use their [stealth][skill-stealth-id] skill to hide still remain undetected.
 
 |               Components                | Lvl |  Type  | Rank |             Ship             | Dist. |
 |:---------------------------------------:|:---:|:------:|:----:|:----------------------------:|:-----:|
@@ -177,9 +179,9 @@ alias: cerddor-spells
 
 `CAST "Create An Amulet of True Sight"`  
 
-### Create a [[sphere-of-invisibility]]
+### Create a [Sphere of Invisibility][sphere-of-invisibility-id]
 
-:   With this spell the magician can create a sphere of invisibility.  
+:   With this spell the magician can create a [Sphere of Invisibility][sphere-of-invisibility-id].  
     The sphere renders its wielder and ninety-nine other people in the same unit invisible.
 
 |                Components                 | Lvl |  Type  | Rank |             Ship             | Dist. |

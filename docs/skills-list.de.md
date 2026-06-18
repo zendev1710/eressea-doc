@@ -123,7 +123,7 @@ Dieses Talent steigt nicht durch Anwendung, ebenso wenig das entsprechende Waffe
 
 Bau von Straßen aus Steinen. Pro Person und Talentstufe kann ein Stein verbaut werden (siehe [Straßen][strassen-id]).
 
-## [[taktik]]
+## [Taktik][taktik]
 
 Bei einem Kampf hat die Seite mit dem besten Taktiker einige Attacken frei (siehe [Musterung][die-musterung-der-einheiten]). Lernen kostet 200 Silber pro Person.
 

@@ -129,14 +129,14 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 
 ## Niveau 6
 
-### Créer une [[amulette-de-vision-decuplee]]
+### Créer une [amulette de vision décuplée][amulette-de-vision-decuplee-id]{title="Amulet of True Sight"}
 
 <!-- cspell:disable -->
 *Create An Amulet of True Sight (EN), Erschaffe ein Amulett des wahren Sehens (DE)*.
 <!-- cspell:enable -->
 
-:   Le sort permet à un mage de créer une [amulette de vision décuplée][amulette-de-vision-decuplee]{title="Amulet of True Sight"}.  
-    L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité][anneau-dinvisibilite]{title="Ring of Invisibility"}.  
+:   Le sort permet à un mage de créer une [amulette de vision décuplée][amulette-de-vision-decuplee-id]{title="Amulet of True Sight"}.  
+    L'amulette permet au porteur de voir toutes les unités protégées par un [anneau d'Invisibilité][anneau-d-invisibilite-id]{title="Ring of Invisibility"}.  
     Cependant, les unités qui utilisent leur compétence de [discrétion][skill-discretion-id]{title="Stealth"} pour se cacher ne sont toujours pas détectées.
 
 |               Composants                | Niv. |  Type  | Rang |              B               | D |
@@ -145,13 +145,13 @@ Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de n
 
 `CAST "Create An Amulet of True Sight"`  
 
-### Créer un [anneau d'Invisibilité][anneau-dinvisibilite]{title="Ring of Invisibility"}
+### Créer un [anneau d'Invisibilité][anneau-d-invisibilite-id]{title="Ring of Invisibility"}
 
 <!-- cspell:disable -->
 *Create A Ring of Invisibility (EN), Erschaffe einen Ring der Unsichtbarkeit (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sort, le sorcier peut créer un [anneau d'Invisibilité][anneau-dinvisibilite]{title="Ring of Invisibility"}.  
+:   Avec ce sort, le sorcier peut créer un [anneau d'Invisibilité][anneau-d-invisibilite-id]{title="Ring of Invisibility"}.  
     Le porteur de l'anneau devient invisible pour toutes les unités des autres partis, quelle que soit la qualité de leur perception.  
     Dans une unité invisible, chaque personne doit porter une bague.
 

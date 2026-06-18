@@ -20,7 +20,7 @@ Pour en savoir plus, voir le chapitre [Production][production-fr-id].
 
 ## Objets
 
-Les [[objets]] et les [matières premières][ressources] sont créés avec `MAKE [`*`number`*`]`*`item`*` `.  
+Les [objets][objets] et les [matières premières][ressources] sont créés avec `MAKE [`*`number`*`]`*`item`*` `.  
 Selon l'objet, une certaine compétence et peut-être aussi certaines matières premières sont nécessaires.  
 Sans préciser la *quantité*, l'unité produira autant d'items que de personnes dans l'unité, de niveaux de compétence et éventuellement de matières premières le permettent.  
 

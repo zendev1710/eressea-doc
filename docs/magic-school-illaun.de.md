@@ -8,13 +8,12 @@ alias: illaunzauber
 
 ### Schattenritter
 
-:   Dieser Zauber vermag dem Gegner ein 
-    Die Schattenritter haben keinen effeztes Bild der eigenen Truppen vorzuspiegeln. Die Schattenritter haben keinen effektiven Angriff und Verwundungen im Kampf zerstören sie sofort.  
+:   Dieser Zauber vermag dem Gegner ein geringfügig versetztes Bild der eigenen Truppen vorzuspiegeln.  
+    Die Schattenritter haben keinen effektiven Angriff und Verwundungen im Kampf zerstören sie sofort.  
 
-
-| Komponenten | Stufe |  Art   | 
-|:-----------:|:-----:|:------:|:
-|   T aura    |   1   | Prä-k. | 
+| Mag. | Komponenten | Stufe |  Art   | Rang | Schiff | Fern. |
+|:----:|:-----------:|:-----:|:------:|:----:|:------:|:------|
+|  I   |   T aura    |   1   | Prä-k. |  4   |        |       |
 
 `KAMPFZAUBER [STUFE n] Schattenritter`  
 

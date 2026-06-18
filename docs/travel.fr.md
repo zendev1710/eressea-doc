@@ -175,7 +175,8 @@ Les unités en déplacement peuvent être stoppées par des unités en garde dan
 
 Si une unité ou un bateau est trop lourdement chargé, il ne peut pas se déplacer.  
 Pour cela, le poids total de l'unité à transporter, y compris les marchandises et les *silvers* qu'elle transporte, est comparé à sa capacité de transport.  
-Le tableau dans le chapitre [[objets]] référence le poids des marchandises.
+
+Voir aussi : [poids des marchandises][objets].
 
 ## Déplacement en mer
 
@@ -190,7 +191,8 @@ Les unités en déplacement peuvent être stoppées par des unités en garde dan
 
 Si une unité ou un bateau est trop lourdement chargé, il ne peut pas se déplacer.  
 Pour cela, le poids total de l'unité à transporter, y compris les marchandises et les *silvers* qu'elle transporte, est comparé à sa capacité de transport.  
-Le tableau dans le chapitre [[objets]] référence le poids des marchandises.
+
+Voir aussi : [poids des marchandises][objets].
 
 ## Voir aussi
 

@@ -66,7 +66,11 @@ The total weight of all units on a ship, including the weight of horses, carts, 
 If this is not the case, or is no longer the case, the ship cannot sail.  
 At sea, it will not sink immediately, but will drift.  
 Ships capacities are shown in the table above and are always displayed in the report.  
-The weights of items can be found in the section on [[items]] and those of persons of different races, in the table [Weights and Capacities][travel-by-land-or-by-sea].
+
+See also :
+
+- [Items and their weights][items]
+- [Weights and Capacities of persons according to their race][travel-by-land-or-by-sea]
 
 It is possible to group together several ships in a [convoy][convoy-id].  
 Details are described in the chapter on [ships][ships-id].

@@ -19,7 +19,7 @@ On vous y donnera sans aucun doute des conseils pour vos premiers pas et vous au
 Vous pouvez également poser vos questions sur le [forum des Jeux PbEm].  
 Eressea y possède son propre sous-forum.  
 
-La plupart des joueurs utilisent [[magellan]], un programme client qui lit le CR (« Computer Report »), l'affiche clairement, aide à créer des ordres et montre de nombreuses erreurs.  
+La plupart des joueurs utilisent [Magellan][magellan-fr-id], un programme client qui lit le CR (« Computer Report »), l'affiche clairement, aide à créer des ordres et montre de nombreuses erreurs.  
 
 Il existe aussi [ECheck][echeck-fr-id], un programme qui vous permet de vérifier la validité de vos ordres.  
 ECheck est exécuté automatiquement par le serveur lors de la réception des ordres et le résultat est renvoyé.  

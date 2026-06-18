@@ -221,11 +221,11 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ## Level 6
 
-### Create an [[amulet-of-true-sight]]
+### Create an [Amulet of True Sight][amulet-of-true-sight-id]
 
-:   The spell allows a magician to create an [[amulet-of-true-sight]].  
-    The amulet allows the wearer to see all units protected by a ring of invisibility.  
-    However, units that use their [[stealth]] skill to hide still remain undetected.
+:   The spell allows a magician to create an [Amulet of True Sight][amulet-of-true-sight-id].  
+    The amulet allows the wearer to see all units protected by a [Ring of Invisibility][ring-of-invisibility-id].  
+    However, units that use their [stealth][skill-stealth-id] skill to hide still remain undetected.
 
 |               Components                | Lvl |  Type  | Rank |             Ship             | Dist. |
 |:---------------------------------------:|:---:|:------:|:----:|:----------------------------:|:-----:|
@@ -233,9 +233,9 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 `CAST "Create An Amulet of True Sight"`  
 
-### Create a [[ring-of-invisibility]]
+### Create a [Ring of Invisibility][ring-of-invisibility-id]
 
-:   With this spell the wizard can create a ring of invisibility.  
+:   With this spell the wizard can create a [Ring of Invisibility][ring-of-invisibility-id].  
     The bearer of the ring becomes invisible to all units of other parties, no matter how good their perception may be.  
     In an invisible unit, each person must wear a ring.
 

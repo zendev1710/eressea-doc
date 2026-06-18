@@ -52,7 +52,7 @@ It is reduced by :
 
 - the number of allied guards
 - the moving unit's stealth skill
-- the use of a [[ring-of-invisibility]]
+- the use of a [Ring of Invisibility][ring-of-invisibility-id]
 
 !!! note
     [Monster][monsters] faction (ii) units are generally considered armed due to their claws, teeth and other extremities, even if they do not carry a visible weapon.  

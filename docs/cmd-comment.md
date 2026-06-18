@@ -52,7 +52,7 @@ The player himself can also insert comments after a semicolon.
 However, since these comments are not included in next week's template, permanent comments after [`//`][cmd-comment-with-slashes] usually make more sense.
 
 To save transmission capacity, temporary comments can be removed before sending the orders.
-Some tools do this, like [[magellan]] or VPP.
+Some tools do this, like [Magellan][magellan-id] or VPP.
 
 ## External links
 

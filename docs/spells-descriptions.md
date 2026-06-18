@@ -217,9 +217,9 @@ alias: description-of-spells
 :   With this dark ritual, the black magician can cause a rift in the fabric of magic, which will tear all magical power from the region.  
     All magically gifted people in the region will lose much of their aura.
 
-| Sc. | Components                 | Lvl |   Type | Rank | Ship | Dist. |
-|:---:|----------------------------|----:|-------:|:----:|:-----|:------|
-|  D  | 35 aura, 1 [[dragonblood]] |   9 | Normal |  3   |      |       |
+| Sc. | Components                            | Lvl |   Type | Rank | Ship | Dist. |
+|:---:|---------------------------------------|----:|-------:|:----:|:-----|:------|
+|  D  | 35 aura, 1 [dragonblood][dragonblood] |   9 | Normal |  3   |      |       |
 
 `CAST "Astral Leak"`  
 
@@ -551,7 +551,7 @@ And if you have done everything to please them, they will send one of their own 
 
 [](){ #create-a-ring-of-power-id }
 
-### Create a [[ring-of-power]]
+### Create a [Ring of Power][ring-of-power-id]
 
 :   This powerful ritual creates a ring of power.  
     A ring of power increases the power of any spell its wearer casts, as if the mage were one level better.
@@ -564,7 +564,7 @@ And if you have done everything to please them, they will send one of their own 
 
 [](){ #create-a-ring-of-invisibility-id }
 
-### Create a [[ring-of-invisibility]]
+### Create a [Ring of Invisibility][ring-of-invisibility-id]
 
 :   With this spell the wizard can create a ring of invisibility.  
     The bearer of the ring becomes invisible to all units of other parties, no matter how good their perception may be.  
@@ -578,9 +578,9 @@ And if you have done everything to please them, they will send one of their own 
 
 [](){ #create-a-sphere-of-invisibility-id }
 
-### Create a [[sphere-of-invisibility]]
+### Create a [Sphere of Invisibility][sphere-of-invisibility-id]
 
-:   With this spell the magician can create a sphere of invisibility.  
+:   With this spell the magician can create a [Sphere of Invisibility][sphere-of-invisibility-id].  
     The sphere renders its wielder and ninety-nine other people in the same unit invisible.
 
 | Sc. | Components                               | Lvl |   Type | Rank | Ship                         | Dist. |
@@ -606,9 +606,9 @@ And if you have done everything to please them, they will send one of their own 
 
 [](){ #create-an-amulet-of-true-sight-id }
 
-### Create an [[amulet-of-true-sight]]
+### Create an [Amulet of True Sight][amulet-of-true-sight-id]
 
-:   The spell allows a magician to create an [[amulet-of-true-sight]].  
+:   The spell allows a magician to create an [Amulet of True Sight][amulet-of-true-sight-id].  
     The amulet allows the wearer to see all units protected by a ring of invisibility.  
     However, units that use their [[stealth]] skill to hide still remain undetected.
 

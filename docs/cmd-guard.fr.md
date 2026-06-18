@@ -61,7 +61,7 @@ La probabilité d'être stoppée décroît avec :
 
 - le nombre de gardes alliés
 - la compétence de furtivité de l'unité en mouvement
-- l'utilisation d'un [anneau d'Invisibilité][anneau-dinvisibilite]
+- l'utilisation d'un [anneau d'Invisibilité][anneau-d-invisibilite-id]
 
 ## Particularités
 

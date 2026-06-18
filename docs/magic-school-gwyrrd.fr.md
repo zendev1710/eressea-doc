@@ -292,7 +292,7 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 ## Niveau 6
 
-### Créer une [[amulette-de-vision-decuplee]]
+### Créer une [amulette de vision décuplée][amulette-de-vision-decuplee-id]{title="Amulet of True Sight"}
 
 <!-- cspell:disable -->
 *Create An Amulet of True Sight (EN), Erschaffe ein Amulett des wahren Sehens (DE)*.

@@ -3,7 +3,10 @@
 alias: ring-of-invisibility
 ---
 <!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+<!-- markdownlint-disable MD041 MD042 MD052 -->
+
+[](){ #ring-of-invisibility-id }
+
 # Ring of Invisibility
 
 This magical artifact has been used by elves since ancient times, when hunting or to hide from enemies.  

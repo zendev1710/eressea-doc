@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: schools-of-magic
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Schools of Magic
 
 There are five Schools of Magic in Eressea.  

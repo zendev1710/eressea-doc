@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-route
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # ROUTE
 
 *[Langer Befehl][kurze-und-lange-befehle].*  

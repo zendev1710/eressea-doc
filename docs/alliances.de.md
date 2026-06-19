@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: allianz
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Allianz
 
 Allianzen bilden das Rückgrat der Welt, ob dies nun Kriegs-, Handels- oder einfach nur Friedensallianzen sind.

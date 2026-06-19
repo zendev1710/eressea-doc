@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: liste-der-talente
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Liste der Talente
 
 Hier die Liste aller Talente, die Einheiten in Eressea erlernen können. Dies ist nur eine kurze Übersicht, weitere Details enthalten die jeweiligen Kapitel.

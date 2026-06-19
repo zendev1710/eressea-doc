@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: naviguer
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Naviguer
 
 Seuls les [bateaux][bateaux-id] permettent de quitter son île et ainsi, par exemple, d'ouvrir de nouveaux marchés ou d'établir un contact direct avec d'autres factions.  
@@ -135,8 +134,8 @@ Les bateaux voyagent le long des côtes ou en pleine mer.
 
 ## Voir aussi
 
-- [[deplacements]]
-- [[bateaux]]
+- [Déplacements][deplacements]
+- [Bateaux][bateaux-id]
 
 Poursuivre la lecture : [production][production-fr-id].
 

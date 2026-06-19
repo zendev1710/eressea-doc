@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: liste-des-competences
 ---
-<!-- disable some rules due to of autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD051 MD052 -->
+
 # Liste des compétences
 
 Les compétence s'acquièrent progressivement avec l'ordre [`LEARN`][cmd-learn-fr].  
@@ -92,9 +91,11 @@ Plus d'information :
 *Roadwork (EN), Straßenbau (DE)*.
 <!-- cspell:enable -->
 
-Cette compétence permet de construire des [routes][routes] avec des [pierres][pierre].  
+Cette compétence permet de construire des [routes][routes-id] avec des [pierres][pierre].  
 
 Une pierre peut être posée par personne, par niveau de compétence et par tour.
+
+[](){ #skill-construction-navale-id }
 
 ## Construction navale
 

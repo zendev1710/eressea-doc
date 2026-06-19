@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: conseils-pour-debutants
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Conseils pour débutants
 
 Lorsque vous renseignez les ordres, assurez-vous d'avoir utilisé l'identifiant de faction et les identifiants d'unité corrects.  
@@ -27,10 +26,10 @@ Utilisez ECheck avec l'option `-e` pour vérifier si vos ordres sont interprét�
 ECheck vérifie uniquement la syntaxe des ordres.  
 ECheck n'analyse pas la sémantique (c'est-à-dire le sens et la logique des ordres), mais il peut effectuer divers tests concernant l'argent lorsque le [modèle d'ordres][ordres] du serveur est utilisé.  
 
-Fixez-vousi plusieurs objectifs.  
-L'un de tes premiers objectifs devrait être d'explorer les environs.  
+Fixez-vous plusieurs objectifs.  
+L'un de vos premiers objectifs devrait être d'explorer les environs.  
 C'est le seul moyen de découvrir les régions montagneuses et forestières importantes où vous pourrez extraire du minerai et récolter du bois.  
-Envoiez donc quelques unités composées d'un seul soldat et donnez-leur suffisamment d'argent pour subvenir à leurs besoins pendant un certain temps.  
+Envoyez donc quelques unités composées d'un seul soldat et donnez-leur suffisamment d'argent pour subvenir à leurs besoins pendant un certain temps.  
 
 !!! note "Remarque"
     N'oubliez pas de prendre en compte l'argent nécessaire au recrutement !  
@@ -122,8 +121,8 @@ Achetez un chariot et 2 chevaux au seigneur du château, ou construisez-en un vo
 Il n'est pas nécessaire d'être allié à des partenaires commerciaux.  
 Utilisez l'ordre [`CONTACT`][cmd-contact-fr] pour échanger des marchandises et de l'argent avec d'autres factions sans être allié.  
 
-L'un des tableaux les plus importants de ce guide est la [[sequence-des-ordres]], qui indique l'ordre de traitement des ordres par le serveur.  
-Il illustre, par exemple, que vous pouvez tout à fait donner des matières premières à un forgeron la semaine précédant le début de sa production ([[cmd-give-fr]] est en position 14, [`MAKE`][cmd-make-fr] en position 22), mais vous ne pouvez pas lui donner de potions ni les utiliser immédiatement ([[cmd-use-fr]] est en position 7).
+L'un des tableaux les plus importants de ce guide est la [séquence des ordres][sequence-des-ordres], qui indique l'ordre de traitement des ordres par le serveur.  
+Il illustre, par exemple, que vous pouvez tout à fait donner des matières premières à un forgeron la semaine précédant le début de sa production ([`GIVE`][cmd-give-fr] est en position 14, [`MAKE`][cmd-make-fr] en position 22), mais vous ne pouvez pas lui donner de potions ni les utiliser immédiatement ([`USE`][cmd-use-fr] est en position 7).
 
 Il n'y a pas de gagnants dans ce jeu.  
 La partie dure jusqu'à ce que vous perdiez espoir ou que vos ennemis vous aient anéantis.  
@@ -134,12 +133,12 @@ Ne vous laissez pas agacer ni emporter par des décisions hâtives : le joueur 
 
 ## Voir aussi
 
-- [[trucs-et-astuces]]
-- [[remarques]]
-- [[premier-tour]]
+- [Trucs et astuces][trucs-et-astuces]
+- [Conseils][conseils]
+- [Premier tour][premier-tour]
 - [Les bases][bases]
 
-Poursuivre la lecture : [[xontormia-express]].
+Poursuivre la lecture : [Xontormia Express][xontormia-express-fr-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Anfängertipps&oldid=17013] -->
 

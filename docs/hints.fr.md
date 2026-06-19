@@ -1,8 +1,8 @@
 ---
-# cSpell:locale fr
-alias: remarques
+alias: conseils
 ---
-# Remarques
+
+# Conseils
 
 ## Inscription
 
@@ -63,7 +63,7 @@ Soyez gentils les uns avec les autres.
 Même votre pire ennemi dans le jeu est certainement quelqu'un de gentil et ne mérite pas d'être bombardé de mails publicitaires, d'images "beurk" et autres.
 **Un comportement antisocial entraîne l'exclusion du jeu.**
 
-Poursuivre la lecture : [[conseils-pour-debutants]].
+Poursuivre la lecture : [conseils pour débutants][conseils-pour-debutants].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Hinweise/fr&oldid=14039] -->
 

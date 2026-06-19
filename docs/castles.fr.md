@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: chateaux
 ---
-<!-- disable some rules due to of autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Châteaux
 
 Les châteaux augmentent les revenus des paysans, permettent d'échanger des produits de luxe et offrent à leurs occupants une protection en cas d'attaque.  

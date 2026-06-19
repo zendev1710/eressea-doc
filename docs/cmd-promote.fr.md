@@ -2,8 +2,6 @@
 # cSpell:locale fr
 alias: cmd-promote-fr
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
 
 [](){ #cmd-promote-fr-id }
 
@@ -22,7 +20,7 @@ C'est pourquoi il vaut la peine de promouvoir les unités dotées de compétence
 
 <!-- TODO: which cost exactly ? -->
 Le coût de la promotion en tant que Héros d'une unité dépend du nombre total de personnes de la faction.  
-Comme d'habitude, l'argent manquant sera retiré de la [réserve d'argent][reserve-dargent] lorsqu'il y en a suffisamment.  
+Comme d'habitude, l'argent manquant sera retiré de la [réserve d'argent][reserve-d-argent-id] lorsqu'il y en a suffisamment.  
 
 Le nombre maximum de héros est limité, mais augmente avec la taille de la faction.  
 La formule pour cela est : log10((taille de la faction-500)÷50)×20.  

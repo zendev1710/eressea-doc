@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-kontaktiere
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # KONTAKTIERE
 
 **`KONTAKTIERE`**` EINHEIT `*`einheit-nr`*  

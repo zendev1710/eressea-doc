@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: description-des-sorts
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Description des sorts
 
 ## A
@@ -695,9 +694,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 `COMBATSPELL [LEVEL n] "Shadow Knights"`  
 
-[](){ #creer-des-golem-de-fer-id }
+[](){ #creer-des-golems-de-fer-id }
 
-### Créer des [[golem-de-fer]]
+### Créer des [Golems de Fer][golem-de-fer]
 
 <!-- cspell:disable -->
 *Create Iron Golems (EN), Erschaffe Eisengolems (DE)*.
@@ -713,9 +712,9 @@ Un guerrier aussi solide ne fuira pas même dans des situations difficiles et so
 
 `CAST [LEVEL n] "Create Iron Golems"`  
 
-[](){ #creer-des-golem-de-pierre-id }
+[](){ #creer-des-golems-de-pierre-id }
 
-### Créer des [[golem-de-pierre]]
+### Créer des [Golems de pierre][golem-de-pierre]
 
 <!-- cspell:disable -->
 *Create Stone Golems (EN), Erschaffe Steingolems (DE)*.
@@ -773,7 +772,7 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 [](){ #creer-un-cristal-d-antimagie-id }
 
-### Créer un [Cristal d'Antimagie][cristal-dantimagie]{title="Antimagic Crystal"}
+### Créer un [Cristal d'Antimagie][cristal-d-anti-magie-id]{title="Antimagic Crystal"}
 
 <!-- cspell:disable -->
 *Create An Antimagic Crystal (EN), Erschaffe Antimagiekristall (DE)*.
@@ -802,9 +801,9 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
     Cela peut donner à l'utilisateur un énorme avantage dans la bataille à venir.  
     Mais attention : interpréter les rêves est une affaire difficile.
 
-| Éc. |               Composants                | Niv. |  Type  | Rang |            Bateau            | Dist. |
-|:---:|:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
-|  I  | 1 [[tete-de-dragon]], 5 aura permanents |  14  | Normal |  5   | :material-check:{ .success } |       |
+| Éc. |                                Composants                                 | Niv. |  Type  | Rang |            Bateau            | Dist. |
+|:---:|:-------------------------------------------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-----:|
+|  I  | 1 [tête de dragon][tete-de-dragon]{title="Dragonhead"}, 5 aura permanents |  14  | Normal |  5   | :material-check:{ .success } |       |
 
 `CAST "Create a Visioneye"`  
 
@@ -1685,26 +1684,26 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 [](){ #invocation-du-dragon-id }
 
-### Invocation du Dragon
+### Invocation du dragon
 
 <!-- cspell:disable -->
 *Dragon Call (EN), Drachenruf (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sombre rituel, le mage crée un leurre dont l'odeur est irrésistible pour les [Dragons][dragons-connus].  
+:   Avec ce sombre rituel, le mage crée un leurre dont l'odeur est irrésistible pour les [dragons][dragons-connus].  
     Il n'a pas encore été possible de déterminer si les dragons viennent des environs ou de la Sphère du Chaos.  
     On dit que les deux se sont déjà produits.  
     L'appât dure environ 6 semaines, mais doit être placé sur un terrain adapté aux cerfs-volants.
 
-| Éc. |          Composants           | Niv. |  Type  | Rang | Bateau |              D               |
-|:---:|:-----------------------------:|:----:|:------:|:----:|:------:|:----------------------------:|
-|  D  | 80 aura, 1 [[tete-de-dragon]] |  11  | Normal |  5   |        | :material-check:{ .success } |
+| Éc. |                           Composants                            | Niv. |  Type  | Rang | Bateau |              D               |
+|:---:|:---------------------------------------------------------------:|:----:|:------:|:----:|:------:|:----------------------------:|
+|  D  | 80 aura, 1 [tête de dragon][tete-de-dragon]{title="Dragonhead"} |  11  | Normal |  5   |        | :material-check:{ .success } |
 
 `CAST [REGION x y] "Dragon Call"`  
 
 [](){ #invocation-du-familier-id }
 
-### Invocation du Familier
+### Invocation du familier
 
 <!-- cspell:disable -->
 *Summon Familiar (EN), Vertrauten rufen (DE)*.

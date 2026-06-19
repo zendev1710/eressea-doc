@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-lehre
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # LEHRE
 
 *[Langer Befehl][kurze-und-lange-befehle].*  

@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: faction-fr
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Faction
 
 Dans Eressea, un joueur dirige ce que l'on appelle une **faction**.  
@@ -13,7 +12,7 @@ Une faction est au départ composée d'une seule **unité** d'une personne, puis
 Une unité est composée d'une, de quelques ou même de milliers de personnes du **[peuple][peuples]** de la faction.  
 
 Chaque unité peut posséder autant d'objets et [d'argent][argent] (***silver***) qu'elle le souhaite, et peut apprendre toutes les [[competences]] d'Eressea.  
-Vous pouvez donner aux unités des [[ordres]] à chaque tour, qu'elles exécuteront du mieux possible.
+Vous pouvez donner aux unités des [ordres][ordres] à chaque tour, qu'elles exécuteront du mieux possible.
 
 Vous êtes éliminé du jeu lorsque votre faction n'a plus aucun membre, c'est-à-dire lorsque toutes les unités ont été détruites ou dissoutes, ou lorsque aucun ordre n'a été reçu pendant cinq tours consécutifs (5 NMR).
 
@@ -75,10 +74,10 @@ Comme vous pouvez le voir, Konrad a également une [épée][tableaux-relatifs-a-
 Si l'unité ne reçoit pas de nouveaux ordres pour le prochain tour, elle continuera à collecter des taxes.  
 Un seul ordre par défaut est donné dans le NR, mais les unités peuvent parfois en avoir plus d'un.  
 Ils ne seront listés que dans le CR ou dans les modèles d'ordres.  
-Plus d'informations à ce sujet dans le chapitre [[ordres]].
+Plus d'informations à ce sujet dans le chapitre [ordres][ordres].
 
 Les unités ont un "combat status" (posture en combat), qui dans ce cas est "front" (devant).  
-Les détails sont expliqués dans le chapitre sur la [[guerre]] dans la section sur [lignes de combat][lignes-de-combat] et l'explication de l'ordre [`COMBAT`][cmd-combat-fr].
+Les détails sont expliqués dans le chapitre sur la [guerre][guerre] dans la section sur [lignes de combat][lignes-de-combat] et l'explication de l'ordre [`COMBAT`][cmd-combat-fr].
 
 Une unité peut garder une région (pour plus de détails sur les conséquences, voir [`GUARD`][cmd-guard-fr]).  
 Cela sera noté par "guards the region" dans le rapport.
@@ -116,7 +115,7 @@ Cependant, ils n'étaient plus sous le contrôle de leur ancienne faction.
 ## Voir aussi
 
 - [Réserve de faction][reserve-de-faction]
-- [[ordres]]
+- [Ordres][ordres]
 
 Poursuivre la lecture : [les peuples][peuples].
 

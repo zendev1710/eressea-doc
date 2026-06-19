@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: argent
 ---
-<!-- disable some rules due to of autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Argent
 
 !!! note "Note"

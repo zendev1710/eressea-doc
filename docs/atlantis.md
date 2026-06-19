@@ -3,9 +3,6 @@
 alias: atlantis
 ---
 
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 -->
-
 [](){ #atlantis-id }
 
 # Atlantis

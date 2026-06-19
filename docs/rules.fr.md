@@ -2,13 +2,12 @@
 # cSpell:locale fr
 alias: regles
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Règles
 
 Eressea se joue exclusivement par e-mail.
 Ceux qui n'ont pas d'adresse e-mail ne peuvent malheureusement pas jouer à Eressea.  
-Eressea est la version allemande d'[[atlantis]], un jeu développé en 1993 par Russell Wallace.  
+Eressea est la version allemande d'[Atlantis][atlantis-fr-id], un jeu développé en 1993 par Russell Wallace.  
 
 Eressea fonctionne sans interruption depuis 1996.  
 
@@ -36,6 +35,6 @@ Cela signifie que **les règles peuvent changer**.
 
 Certains changements ont pu donner lieu à de longues discussions entre l'équipe de direction et quelques joueurs mécontents.  
 
-Poursuivre la lecture : [[introduction]].
+Poursuivre la lecture : [introduction][introduction-fr-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Regeln/fr&oldid=14182] -->

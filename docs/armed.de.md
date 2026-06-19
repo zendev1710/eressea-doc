@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bewaffnet
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Bewaffnet
 
 Eine Einheit gilt als bewaffnet, wenn sie über ein [Kampftalent][liste-der-talente] (Hiebwaffen, Stangenwaffen, Bogenschießen, Armbrustschießen, Katapultbedienung) und mindestens eine Waffe des entsprechenden Typs verfügt.

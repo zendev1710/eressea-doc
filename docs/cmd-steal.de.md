@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-beklaue
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # BEKLAUE
 
 *[Langer Befehl][kurze-und-lange-befehle].*

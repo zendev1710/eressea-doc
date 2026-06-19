@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-make
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # MAKE
 
 **`MAKE`**`[`*`amount`*`]`*`item`*  
@@ -32,7 +31,7 @@ Details can be found in the [Alchemy chapter][alchemy].
 
 ### Herbs
 
-Herbs are produced with the `MAKE HERBS` order by units with the [herbalism][herbalism] skill. For details, see the chapter on [[herbs]].
+Herbs are produced with the `MAKE HERBS` order by units with the [herbalism][herbalism] skill. For details, see the chapter on [herbs][herbs-id].
 
 ## Units
 

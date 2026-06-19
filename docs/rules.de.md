@@ -2,12 +2,13 @@
 # cSpell:locale de
 alias: regeln
 ---
+
 # Regeln
 
 Dies ist die Anleitung zu dem Postspiel *Eressea*.
 Eressea wird ausschließlich per E-Mail gespielt.
 Wer keine eigene E-Mail-Adresse hat, kann bei Eressea leider nicht mitspielen.
-Eressea ist der deutsche Ableger von [[atlantis]], einem Spiel das 1993 von Russell Wallace entwickelt wurde.
+Eressea ist der deutsche Ableger von [Atlantis][atlantis-de-id], einem Spiel das 1993 von Russell Wallace entwickelt wurde.
 Eressea läuft ohne Unterbrechung seit 1996.
 In Eressea übernimmst du die Leitung einer *Partei* und spielst mit vielen anderen Parteien anderer Menschen zusammen in der gleichen fantastischen Welt.
 

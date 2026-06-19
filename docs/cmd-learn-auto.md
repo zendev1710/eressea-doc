@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-learn-auto
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # LEARN AUTO
 
 **`LEARN AUTO`**` `*`skill`*  

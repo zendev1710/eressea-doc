@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: cmd-use-fr
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # USE
 
 **`USE`**`[`*`<quantité>`*`] "`*`<Potion>`*`" [`*`<unit-id>`*`]`  
@@ -20,8 +19,8 @@ Vous pouvez utiliser une potion plusieurs fois pour étendre les effets à plus 
 
 Avec cet ordre, d'autres objets que les potions peuvent être utilisés, par exemple :
 
-- un [[cristal-dantimagie]]
-- certains objets de la réserve de faction ([[noel]]).
+- Un [Cristal d'Antimagie][cristal-d-anti-magie-id]
+- Certains objets de la réserve de faction (voir [Noël][noel-id])
 
 Ceux-ci peuvent avoir des paramètres supplémentaires, qui sont spécifiés dans la [description][cmd-show-fr] de l'item à utiliser.  
 

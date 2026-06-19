@@ -94,14 +94,16 @@ plugins:
       # close_tag: "$]"
   - privacy
   - redirects
-  - search
+  - search :
+      enabled: true
+      lang: en, fr, de
   - table-reader
   - autorefs:
       # for french markdown pages anchors, I want a tooltiphaving the english translation.
       # so internal link_titles are disabled for that reason
       link_titles: external
       # recommended when used with i18n plugin to avoid multiple link warnings
-      # resolve_closest: true
+      resolve_closest: true
   - i18n:
       languages:
         - locale: en

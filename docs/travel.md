@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: movement
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Movement
 
 There are several modes of movement in Eressea: Walking, riding on horses, or sailing over oceans on ships.  

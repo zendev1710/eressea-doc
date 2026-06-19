@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: farmers-proliferation
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Farmers proliferation
 
 Farmers reproduce at a rate of 1 per thousand per week.  

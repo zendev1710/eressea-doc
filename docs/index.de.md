@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: hauptseite
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Hauptseite
 
 Willkommen auf [[eressea]]!
@@ -22,7 +21,7 @@ Diese Seite gibt die im Wiki beschriebenen Spielregeln wieder.
 - [Hilfsmittel][was-man-bei-der-eingabe-beachten-muss]
 - [Anfängertipps][anfangertipps-id]
 - Die [Geschichte von Eressea][geschichte-von-eressea]
-- Eressea stammt von [[atlantis]] ab
+- Eressea stammt von [Atlantis][atlantis-de-id] ab
 - [Häufig gestellte Fragen][faq] an die Spielleitung.
 
 ## Sehenswerte Seiten
@@ -73,7 +72,7 @@ Eine 2017 von Solthar gestartete Partie auf der Basis der Regeln von E3, mit 3 Z
 - [Discord] Server: Hier findest du auch immer jemanden, der dir bei Regelfragen weiter hilft.
 - [Forum] für Eressea
 - [Mantis], Bugs melden
-- [Magellan]
+- [Magellan][magellan-ext]
 - [CSMapFx]
 - [Ralf Ducksteins Eressea Wiki] (Link ist leider verwaist).
 - [Eressea in Wikipedia]
@@ -100,7 +99,7 @@ Weiterlesen: [[regeln]].
 [Discord]: https://discord.gg/KT5Fffh
 [Forum]: https://www.pbem-spiele.de/forum/viewforum.php?f=16
 [Mantis]: https://bugs.eressea.de/
-[Magellan]: https://magellan2.github.io
+[magellan-ext]: https://magellan2.github.io
 [CSMapFx]: https://www.eressea.kn-bremen.de/downloads/
 [Ralf Ducksteins Eressea Wiki]: http://wiki.duckstein.net/Eressea/Eressea
 [Eressea in Wikipedia]: https://de.wikipedia.org/wiki/Eressea_PbeM

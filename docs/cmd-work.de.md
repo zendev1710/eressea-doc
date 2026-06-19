@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-arbeite
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # ARBEITE
 
 **`ARBEITE`**  

@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-use
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # USE
 
 **`USE`**`[`*`<amount>`*`] "`*`<Potion>`*`" [`*`<unit-id>`*`]`  

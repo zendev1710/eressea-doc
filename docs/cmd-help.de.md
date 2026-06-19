@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-helfe
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # HELFE
 
 **`HELFE`**` `*`partei-nr`*`GIB [NICHT]`  

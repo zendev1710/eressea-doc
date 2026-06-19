@@ -2,8 +2,6 @@
 # cSpell:locale de
 alias: xontormia-express-de
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
 
 [](){ #xontormia-express-de-id }
 

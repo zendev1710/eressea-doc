@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-kommentar-mit-schraegstrichen
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # KOMMENTAR (//)
 
 **`//`**` `*`Kommentar`*

@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: draigzauber
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Draigzauber
 
 ## Stufe 1

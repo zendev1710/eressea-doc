@@ -2,8 +2,6 @@
 # cSpell:locale en
 alias: items
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
 
 [](){ #items-id }
 
@@ -32,7 +30,7 @@ Weight, skill and raw material requirements.
 | [myrrh][myrrh]                       |      2 | [trade][skill-trade-id]          |    1 |                   -- |
 | [oil][oil]                           |      3 | [trade][skill-trade-id]          |    1 |                   -- |
 | [silk][silk]                         |      3 | [trade][skill-trade-id]          |    1 |                   -- |
-| [[herbs]]                            |      0 | [herbalism][herbalism]           |    1 |                   -- |
+| [Herbs][herbs-id]                    |      0 | [herbalism][herbalism]           |    1 |                   -- |
 | [seed][seeds]                        |    0,1 | [herbalism][herbalism]           |    3 |                   -- |
 | [mallorn seed][mallornseeds]         |    0,1 | [herbalism][herbalism]           |    4 |                   -- |
 | [iron][iron]                         |      5 | [mining][mining]                 |    1 |                   -- |

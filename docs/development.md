@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: development
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Development
 
 This page is intended to bring developers of different tools or script developers together or to address questions that arise again and again.

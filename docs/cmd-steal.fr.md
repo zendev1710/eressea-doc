@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: cmd-steal-fr
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
+
 [](){ #cmd-steal-fr-id }
 
 # STEAL
@@ -29,7 +28,7 @@ Si la perception des victimes est plus élevée que la dissimulation des auteurs
 
 ## Voir aussi
 
-- [[money]]
+- [Argent][argent]
 - [Discrétion][discretion-id]
 
 <!-- From [https://wiki.eressea.de/index.php?title=STEAL&oldid=16749] -->

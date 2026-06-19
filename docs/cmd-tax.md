@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-tax
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # TAX
 
 *[long order][short-and-long-orders].*

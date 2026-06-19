@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: hints
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Hints
 
 ## Registration

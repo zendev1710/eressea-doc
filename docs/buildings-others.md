@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: other-buildings
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Other Buildings
 
 Buildings are built with the [`MAKE "building type"`][cmd-make] order and can be enlarged with [`MAKE "building type" building-id`][cmd-make].  

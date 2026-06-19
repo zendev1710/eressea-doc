@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: mitwirkende
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 -->
+
 # Mitwirkende
 
 [](){ #corwin-de-id }

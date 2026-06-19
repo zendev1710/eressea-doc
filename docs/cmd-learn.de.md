@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-lerne
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # LERNE
 
 *[Langer Befehl][kurze-und-lange-befehle].*

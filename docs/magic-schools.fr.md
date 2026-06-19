@@ -2,8 +2,9 @@
 # cSpell:locale fr
 alias: ecoles-de-magie
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
+[](){ #ecoles-de-magie-id }
+
 # Écoles de Magie
 
 Il existe cinq Écoles de Magie dans Eressea.  

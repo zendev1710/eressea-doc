@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: cmd-carry-fr
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # CARRY
 
 *`RIDE` est un ordre [long][ordres-courts-et-longs].*  
@@ -41,7 +40,7 @@ Règles restrictives :
 
 ## Voir aussi
 
-- [[deplacements]]
+- [Déplacements][deplacements]
 - [`MOVE`][cmd-move-fr]
 - [`ROUTE`][cmd-route-fr]
 

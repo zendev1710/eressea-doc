@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-region
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # REGION
 
 `REGION x,y; Name der Region`  

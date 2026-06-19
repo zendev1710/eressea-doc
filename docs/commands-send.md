@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: sending-orders
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Sending orders
 
 ## What you need to play Eressea
@@ -193,17 +192,16 @@ The date of the email (Date: header) is used as the order.
 ## See also
 
 - [The World of Eressea][world]
-- [[first-round]]
+- [The first round][first-round]
 - [[orders]]
 
-Continue reading: [[hints]].
+Continue reading: [hints][hints].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehle\_einschicken&oldid=16786] -->
 
 [eressea-server@kn-bremen.de]: mailto:eressea-server@kn-bremen.de
 
 [Notepad++]: http://notepad-plus.sourceforge.net/
-[Magellan]: http://magellan-client.sf.net
 
 [cmd-comment]: [[cmd-comment]]
 [cmd-comment-with-slashes]: [[cmd-comment-with-slashes]]

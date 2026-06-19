@@ -2,8 +2,6 @@
 # cSpell:locale fr
 alias: alchimie
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD051 MD052 -->
 
 [](){ #alchimie-id }
 

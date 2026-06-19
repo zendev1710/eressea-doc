@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-tarne
 ---
-<!-- disable some rules due to of autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # TARNE
 
 **`TARNE`**`[`*`stufe`*`]`  

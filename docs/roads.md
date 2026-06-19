@@ -2,8 +2,6 @@
 # cSpell:locale en
 alias: roads
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
 
 [](){ #roads-id }
 

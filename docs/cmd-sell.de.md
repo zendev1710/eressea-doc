@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-verkaufe
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # VERKAUFE
 
 *`VERKAUFE` ist wie [`KAUFE`][bef-kaufe] ein ["pseudolanger" Befehl][kurze-und-lange-befehle].[^1]*

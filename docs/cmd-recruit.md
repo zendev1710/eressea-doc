@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-recruit
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # RECRUIT
 
 **`RECRUIT`**` `*`number`*  

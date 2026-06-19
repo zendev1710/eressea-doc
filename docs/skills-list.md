@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: list-of-skills
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # List of skills
 <!-- TODO: check translations - seem to be bad sometimes -->
 
@@ -15,7 +14,8 @@ This is just a short overview, all details are given in the respective chapters.
 
 ## Alchemy
 
-Make [potions][alchemy] from [[herbs]]. Learning costs 200 silver per person. There can be no more than three alchemists per faction.
+Make [potions][alchemy] from [herbs][herbs-id].  
+Learning costs 200 silver per person. There can be no more than three alchemists per faction.
 
 [](){ #skill-armoursmithing-id }
 
@@ -76,7 +76,7 @@ Felling trees to make wood or mallorn (see [resources][deep-in-the-forest]).
 
 ## Herbalism
 
-Find [[herbs]] to make [potions][alchemy]. Learning cost is 200 Silver per week.  
+Find [herbs][herbs-id] to make [potions][alchemy]. Learning cost is 200 Silver per week.  
 With a high level you can give the orders [`RESEARCH HERBS`][cmd-research], [`MAKE SEEDS`][cmd-make] (see [production][production-id]) and [`PLANT`][cmd-plant].  
 Despite high skill level, you may sometimes find few or no herbs.
 

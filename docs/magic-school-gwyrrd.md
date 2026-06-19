@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: gwyrrd-spells
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Gwyrrd spells
 
 ## Level 1

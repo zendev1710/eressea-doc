@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: monsters
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Monsters
 
 The faction of monsters is currently the only non-player character (NPC) faction in Eressea.  
@@ -42,7 +41,7 @@ Sometimes it's good to just avoid them because they often calm down after a whil
 *Id (igjr).*
 
 Igjarjuk is (or was?) an Ice Dragon, also called the **Great Wyrm**.  
-After its death, it evolved into an Undead Wyrm, a monster that intervened in the battle between [[pentagram-and-tirawon]] (and died a second time in the process).  
+After its death, it evolved into an Undead Wyrm, a monster that intervened in the battle between [Pentagram and Tirawon][pentagram-and-tirawon] (and died a second time in the process).  
 According to rumors, Igjarjuk was last seen in the 13th World.  
 
 Perhaps he has seven lives?  

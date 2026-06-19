@@ -2,8 +2,6 @@
 # cSpell:locale fr
 alias: batiments
 ---
-<!-- disable some rules due to of autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
 
 [](){ #batiments-id }
 

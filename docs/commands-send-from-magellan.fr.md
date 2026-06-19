@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: envoi-des-ordres-depuis-magellan
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Envoi des ordres depuis Magellan
 
 [Magellan][magellan-fr-id] offre la possibilité d'[envoyer les ordres par email][envoi-des-ordres] directement depuis le programme.  

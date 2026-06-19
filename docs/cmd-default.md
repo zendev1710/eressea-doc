@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-default
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # DEFAULT
 
 **`DEFAULT "<order>"`**  

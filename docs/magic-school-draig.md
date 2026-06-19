@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: draig-spells
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Draig spells
 
 *Note : in the documentation below, T represents the magic skill level.*

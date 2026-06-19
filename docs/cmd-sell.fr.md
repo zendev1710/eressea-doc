@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: cmd-sell-fr
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # SELL
 
 *`SELL` est, comme [`BUY`][cmd-buy-fr], un ordre [pseudo-long][ordres-courts-et-longs][^1].*  

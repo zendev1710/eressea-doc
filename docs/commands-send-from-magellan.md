@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: sending-orders-from-magellan
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Sending orders from Magellan
 
 [Magellan][magellan-id] offers the possibility of [emailing][sending-orders] the orders directly from the program.  

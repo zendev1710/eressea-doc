@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: objets
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
+
 # Objets
 
 <!-- TODO: improve below tables (no weight ? "min" as "min/needed skill"? sometimes another word for "production"?...) -->
@@ -96,7 +95,7 @@ Aucune ressource n'est nécessaire pour produire un bien de luxe.
 | [Myrrhe][myrrhe]{title="Myrrh"}                                              |     2 | [commerce][commerce]{title="Trade"}                                    |    1 |                   -- |
 | [Soie][soie]{title="Silk"}                                                   |     3 | [commerce][commerce]{title="Trade"}                                    |    1 |                   -- |
 | [Épice][epice]{title="Spice"}                                                |     2 | [commerce][commerce]{title="Trade"}                                    |    1 |                   -- |
-| [[herbs]]                                                                    |     0 | [herboristerie][herboristerie]{title="Herbalism"}                      |    1 |                   -- |
+| [Plantes][plantes-id]{title="Herbs"}                                         |     0 | [herboristerie][herboristerie]{title="Herbalism"}                      |    1 |                   -- |
 | [Graine][graines]{title="Seeds"}                                             |   0,1 | [herboristerie][herboristerie]{title="Herbalism"}                      |    3 |                   -- |
 | [Graine de mallorn][graines-de-mallorn]{title="Mallornseeds"}                |   0,1 | [herboristerie][herboristerie]{title="Herbalism"}                      |    4 |                   -- |
 | [Bois][bois]{title="Wood"}                                                   |     5 | [sylviculture][sylviculture]{title="Forestry"}                         |    1 |                   -- |
@@ -139,7 +138,7 @@ Aucune ressource n'est nécessaire pour produire un bien de luxe.
 
 - [Production][production-fr-id]
 - [Ressources][ressources]
-- [Routes][routes]
+- [Routes][routes-id]
 - [Bâtiments][batiments-id]
 - [Tables militaires][tableaux-relatifs-a-la-guerre]
 

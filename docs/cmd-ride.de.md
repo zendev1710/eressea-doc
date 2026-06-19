@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-fahre
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # FAHRE
 
 *`FAHRE` ist ein [langer Befehl][kurze-und-lange-befehle].*  

@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-move
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # MOVE
 
 *[long order][short-and-long-orders].*  

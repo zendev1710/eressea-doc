@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-research
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # RESEARCH
 
 *[long order][short-and-long-orders].*  
@@ -18,6 +17,6 @@ To do this, the unit must have at least [herbalism][herbalism] **T7**.
 
 ## See also
 
-- [[herbs]]
+- [Herbs][herbs-id]
 
 <!-- From [https://wiki.eressea.de/index.php?title=RESEARCH&oldid=16724] -->

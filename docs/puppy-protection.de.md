@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: welpenschutz
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Welpenschutz
 
 Normalerweise findet sich in den ersten Reports einer Partei ein Hinweis der Form "`Deine Partei ist noch die nächsten 3 Wochen immun gegen Angriffe`".  

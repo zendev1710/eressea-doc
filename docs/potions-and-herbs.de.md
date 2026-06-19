@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: tabellen-traenke-und-kraeuter
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Tabellen: Tränke und Kräuter
 
 ## Liste der alchemistischen Tränke und Kräuter

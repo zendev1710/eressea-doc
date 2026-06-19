@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-sort
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # SORT
 
 **`SORT`**` BEFORE `*`unit-id`*  

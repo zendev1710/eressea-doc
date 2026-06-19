@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-banner
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # BANNER
 
 **BANNER**&nbsp;"&lt;*text*&gt;"  

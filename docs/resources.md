@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: resources
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Resources
 
 Raw materials can be obtained without other ingredients from the region without further ingredients.  

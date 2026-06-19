@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bauernwanderung
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Bauernwanderung
 
 Bauern sind in der Lage von Region zu Region zu wandern. Sie tun das aus unterschiedlichen Gründen, die sich in der Geschichte Eressea immer mal änderten:

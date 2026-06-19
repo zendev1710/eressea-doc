@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: contributors
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 -->
+
 # Contributors
 
 [](){ #corwin-id }

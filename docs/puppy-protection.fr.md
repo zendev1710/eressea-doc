@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: protection-du-chiot
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Protection du chiot
 
 En général, le premier rapport d'une faction contient un message (en anglais ou en allemand) du type : « Votre faction est immunisée contre les attaques pendant les 3 prochaines semaines ».

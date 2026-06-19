@@ -2,8 +2,6 @@
 # cSpell:locale fr
 alias: le-monde-d-eressea
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
 
 [](){ #le-monde-d-eressea-id }
 
@@ -53,7 +51,7 @@ Et sur ces mots, Selen ouvrit un grand livre lourd qui avait été posé sur la 
 Nous recueillons ces rapports car ils nous aident beaucoup à prendre des décisions."
 </div>
 
-Dans le monde d'Eressea, il existe plusieurs [[types-de-terrain]] (montagne, plaine, forêt, glacier, haut-plateau, marais, désert et volcan) avec des caractéristiques différentes.  
+Dans le monde d'Eressea, il existe plusieurs [types de terrains][types-de-terrain] (montagne, plaine, forêt, glacier, haut-plateau, marais, désert et volcan) avec des caractéristiques différentes.  
 
 Un explorateur qui ne craint pas les vastes océans peut découvrir d'autres types de régions exotiques au cours de ses voyages d'exploration. Un exemple est le "mur de feu", qui représente un obstacle insurmontable. En règle générale, les murs de feu délimitent les mondes d'Eressea. Cela permet d'éviter que des factions d'âges très différents ne s'affrontent facilement.  
 
@@ -88,7 +86,7 @@ Les paysans ont également besoin [d'argent][argent] (10 **silver** chaque semai
 Les plus grands [châteaux][chateaux]{title="Castle"} donnent un petit bonus de salaire dans la région, de sorte que les paysans qui travaillent peuvent éventuellement subvenir aux besoins de quelques autres paysans de la région, mais le risque que des paysans meurent, par exemple à cause d'une peste, augmente énormément si le nombre d'emplois disponibles est faible.  
 De plus, si tous les emplois sont occupés, aucune unité de joueur ne peut plus travailler dans la région.  
 
-Le type de terrain détermine également quelles [[plantes]] peuvent pousser dans la région.  
+Le type de terrain détermine également quelles [plantes][plantes-id] peuvent pousser dans la région.  
 Un alchimiste pourra concocter des [potions][potions-fr-id] utiles à partir de différents ingrédients.  
 Certaines herbes ne poussent que dans les déserts, d'autres ont besoin du climat humide d'un marais, il y a donc pour chaque terrain des herbes qui ne peuvent pousser que là.  
 Les herbes qui y poussent ne peuvent toutefois pas être modifiées.  
@@ -96,11 +94,11 @@ Même si toutes les herbes de la région ont été arrachées, seule l'herbe qui
 En cas de doute, il faut essayer de voir quelle herbe a déjà poussé ici.  
 En général, les herbes ne poussent pas dans les volcans.  
 
-Dans chaque région, il est possible de construire des [[routes]].  
+Dans chaque région, il est possible de construire des [routes][routes-id].  
 Les coûts varient en fonction du terrain.  
 De plus, la construction de routes dans les glaciers, les marais et les déserts n'est possible que si des [bâtiments spéciaux][batiments-speciaux] s'y trouvent.  
 
-De plus, le type de terrain détermine quelles [[ressources]] peuvent être trouvées dans la région et avec quelle chance.  
+De plus, le type de terrain détermine quelles [ressources][ressources] peuvent être trouvées dans la région et avec quelle chance.  
 Ainsi, dans les montagnes et les glaciers où aucune ressource n'a encore été extraite, on trouve toujours du fer et des pierres dès le niveau d'extraction 1.  
 Les montagnes ont cependant toujours nettement plus de ressources qu'un glacier.  
 Dans un volcan, un tailleur de pierres a 50% de chances de trouver des pierres au niveau d'extraction 1, de même qu'un mineur n'aura que 50% de chances d'y trouver du fer au niveau 1.  
@@ -157,7 +155,7 @@ Actuellement, il y a 22 pierres au niveau d'extraction 3 (couche 3).
 Pour découvrir ce gisement de pierres, il faut un tailleur de pierre au moins T2 en [extraction de pierres][extraction-de-pierres]{title="Quarrying"} (avec ce niveau, on peut voir des gisements de pierres jusqu'à la couche 4 maximum).  
 Cependant, pour pouvoir effectivement extraire des pierres, l'unité doit être T3 T2 en [extraction de pierres][extraction-de-pierres]{title="Quarrying"}.  
 
-On peut en principe construire des [[routes]] dans chaque région non maritime pour augmenter la vitesse de déplacement par voie terrestre.  
+On peut en principe construire des [routes][routes-id] dans chaque région non maritime pour augmenter la vitesse de déplacement par voie terrestre.  
 Pour le désert de Vîpot, il faut 100 pierres pour construire une route sur l'un des 6 points cardinaux (W, NW, NE, E, SW, SW).  
 De plus, la région voisine doit également avoir une route aménagée en direction de Vîpot, afin qu'il y ait une liaison routière.  
 Mais comme Vîpot est un désert, il faut en plus un [caravanserail][caravanserail] entièrement construit.  
@@ -275,7 +273,7 @@ Dans le monde d'Eressea, l'année est divisée en neuf mois de trois semaines ch
 
 Chaque tour du jeu correspond à une semaine dans le monde.  
 Pendant ce temps, on peut faire beaucoup de choses.  
-Mais il y a certaines choses auxquelles il faut consacrer presque toute la semaine (pour en savoir plus, voir le chapitre [[ordres]]).  
+Mais il y a certaines choses auxquelles il faut consacrer presque toute la semaine (pour en savoir plus, voir : [ordres][ordres]).  
 
 Même si l'influence des saisons n'est généralement pas très marquée, certains domaines ou événements sont tout de même influencés de manière significative.  
 
@@ -284,7 +282,7 @@ En voici un bref aperçu :
 - Les peuples d'[Insectes][insectes] recrutent difficilement en hiver
 - Les tempêtes en [mer][deplacements] sont plus fréquentes en automne
 - Les différentes phases de [croissance des forêts][ressources-forestieres] sont liées à des saisons particulières
-- En hiver, la croissance des [[plantes]] s'arrête
+- En hiver, la croissance des [plantes][plantes-id] s'arrête
 
 ## Mois et saisons
 

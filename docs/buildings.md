@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: buildings
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Buildings
 
 There are a number of different buildings in Eressea that offer different benefits. Apart from castles and monuments, all buildings have a recurring maintenance cost to keep them running.
@@ -41,12 +40,12 @@ A unit can build ( skill level x persons / minimum skill) size points per round,
 
 ## See also
 
-- [[castles]]
+- [Castles][castles]
 - [special buildings][other-buildings]
 - [Production][production-id]
 - [expenses][expenses]
 
-Continue reading: [[castles]].
+Continue reading: [castles][castles].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Gebäude/en&oldid=16677] -->
 

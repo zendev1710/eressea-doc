@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: cmd-attack-fr
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # ATTACK
 
 **ATTACK**&nbps;&lt;unit-id&gt; [^1]  

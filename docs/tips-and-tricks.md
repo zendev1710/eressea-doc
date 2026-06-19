@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: tips-and-tricks
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Tips and tricks
 
 <!-- TODO: translate in english -->

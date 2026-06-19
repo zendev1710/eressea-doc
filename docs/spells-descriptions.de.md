@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: zauberbeschreibungen
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Zauberbeschreibungen
 
 ## A

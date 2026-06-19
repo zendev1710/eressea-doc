@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: monstres
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Monstres
 
 La Faction des Monstres est actuellement la seule faction de PNJ dans Eressea.  
@@ -11,7 +10,7 @@ La Faction des Monstres est actuellement la seule faction de PNJ dans Eressea.
 Elle avait l'ID 0, mais a l'ID (ii) depuis le tour 572. Pourquoi (ii) ? Si l'on convertit ii de la base 36 au système décimal, on obtient 666.  
 
 Il existe de nombreux peuples de monstres avec des caractéristiques et des capacités différentes.  
-Les plus répandues sont les différents types de [Morts-Vivants][morts-vivants-connus], les [Dragons][dragons-connus] et leur cortège.  
+Les plus répandues sont les différents types de [Morts-Vivants][morts-vivants-connus], les [dragons][dragons-connus] et leur cortège.  
 
 Certains types de monstres sont plutôt rares, voire uniques.  
 D'autres, tels que les [Braineaters][mangeurs-de-cerveau], ne se trouvent (presque) uniquement dans certaines régions.  
@@ -33,7 +32,7 @@ Ils peuvent (comme tous les monstres) attaquer les unités des joueurs.
 Au combat, ils ont des attaques de souffle de dragon, mais aussi des attaques avec dents et griffes.  
 Ils peuvent encaisser de nombreux coups et sont donc difficiles à blesser.  
 
-Au fil du temps, les Dragons et les Wyrms commencent à rassembler autour d'eux une suite, appelée **dracoïdes**.  
+Au fil du temps, les dragons et les Wyrms commencent à rassembler autour d'eux une suite, appelée **dracoïdes**.  
 Ce sont des créatures humanoïdes basses, à écailles, capables de se battre avec des épées, des javelots ou des arcs.  
 
 On dit que certains mages peuvent influencer les dragons.  
@@ -41,15 +40,15 @@ Il parait cependant peu probable qu’un dragon adulte se soumette réellement �
 
 Il existe différents types de dragons, référencés ci-dessous.  
 
-### Jeunes Dragons
+### Jeunes dragons
 
-Les **jeunes Dragons** évoluent en [Dragons adultes][dragons-fr-id].
+Les **jeunes dragons** évoluent en [dragons adultes][dragons-fr-id].
 
 [](){ #dragons-fr-id }
 
 ### Dragons
 
-Les **Dragons adultes** évoluent en [Wyrms][wyrms-fr-id].
+Les **dragons adultes** évoluent en [wyrms][wyrms-fr-id].
 
 [](){ #wyrms-fr-id }
 
@@ -88,8 +87,8 @@ Il peut être parfois bon de les éviter, car généralement ils s'apaisent au b
 *Identifiant (igjr).*
 <!-- cspell:enable -->
 
-Igjarjuk est (ou était ?) un Dragon des Glaces, aussi appelé le **Grand Wyrm**.  
-Après sa mort, celui-ci a évolué en **Wyrm Mort-Vivant**, monstre qui est intervenu dans la bataille entre [[pentagram-and-tirawon]], pendant laquelle il est mort une seconde fois.  
+Igjarjuk est (ou était ?) un dragon des glaces, aussi appelé le **Grand Wyrm**.  
+Après sa mort, celui-ci a évolué en **Wyrm Mort-Vivant**, monstre qui est intervenu dans la bataille entre [Pentagram and Tirawon][pentagram-and-tirawon], pendant laquelle il est mort une seconde fois.  
 Selon la rumeur, Igjarjuk a été vu pour la dernière fois dans le Treizième monde.  
 
 Peut-être a-t-il sept vies ?
@@ -142,7 +141,7 @@ Dans le monde normal, on ne les rencontre que lorsqu'ils ont été éjectés de 
 
 Les Morts-Vivants constituent la plus grande partie des monstres.  
 
-Ils apparaissent là où les paysans meurent (de [famine][famine] et de maladie, ou victimes de [Dragons][dragons-connus]), ou là où les guerriers tombent au cours d'une [bataille][guerre].  
+Ils apparaissent là où les paysans meurent (de [famine][famine] et de maladie, ou victimes de [dragons][dragons-connus]), ou là où les guerriers tombent au cours d'une [bataille][guerre].  
 Les Morts-Vivants peuvent acquérir diverses [[competences]], ce qui les rend plus dangereux.  
 
 Ils peuvent également muter, ce qui les rend nettement plus forts.  
@@ -187,6 +186,6 @@ Les Zombies peuvent muter en [Juju Zombies][juju-zombies-fr-id].
 
 ## Voir aussi
 
-- [[familiers]]
+- [Familiers][familiers-id]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Monster/fr&oldid=8008] -->

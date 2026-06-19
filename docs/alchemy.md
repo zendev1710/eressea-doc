@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: alchemy
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Alchemy
 
 In Eressea, alchemy is the art of transforming natural substances (herbs) into potions.
@@ -12,7 +11,7 @@ In Eressea, alchemy is the art of transforming natural substances (herbs) into p
 
 ## Potions
 
-Alchemical **potions** are prepared using [[herbs]] and other ingredients, and can then be used by any unit.  
+Alchemical **potions** are prepared using [herbs][herbs-id] and other ingredients, and can then be used by any unit.  
 
 A potion weighs nothing.
 
@@ -352,7 +351,7 @@ To prepare this potion, you will need the following herbs:
 | [white hemlocks][white-hemlocks]       |                                              |                                            |                                            |                                            |                                  |         :material-check:         |                 :material-check:                 |                                  |                                    |                                                    |                                                            |                                                        |                                                |                                              |
 | [windbag][windbag]                     |               :material-check:               |                                            |                                            |                                            |                                  |                                  |                                                  |                                  |          :material-check:          |                                                    |                                                            |                                                        |                :material-check:                |               :material-check:               |
 
-Continue reading: [[herbs]].
+Continue reading: [herbs][herbs-id].
 
 [^1]: Acts on the unit, but all the faction's demons in the region use it if there are any left.  
 So you only need to equip one unit (per region), as long as it drinks enough peasant blood for all the demons.  

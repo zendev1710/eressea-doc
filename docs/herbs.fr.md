@@ -2,8 +2,6 @@
 # cSpell:locale fr
 alias: plantes
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
 
 [](){ #plantes-id }
 
@@ -225,7 +223,7 @@ Cette plante pousse uniquement sur les [glaciers][glacier-fr-id]{title="Glacier"
 | [Plaine][plaine]{title="Plain"}                | [amour d'Elfes][amour-delfes]{title="Elvendear"}, [champignon cobalt][champignon-cobalt]{title="Cobalt fungus"}, [œil de chouette][il-de-chouette]{title="Owlsgaze"}, [lierre d'araignée][lierre-daraignee]{title="Spider ivy"}, [racine plate][racine-plate]{title="Flatroot"}, [témérité piquante][temerite-piquante]{title="Tangy temerity"} |
 | [Volcan][volcan]{title="Volcano"}              | --                                                                                                                                                                                                                                                                                                                                              |
 
-Poursuivre la lecture : [[ordres]].
+Poursuivre la lecture : [ordres][ordres].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kräuter/fr&oldid=13444] -->
 

@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: cmd-research-fr
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # RESEARCH
 
 *Ordre [long][ordres-courts-et-longs].*  
@@ -18,6 +17,6 @@ L'unité doit être au moins **T7** en [herboristerie][herboristerie]{title="Her
 
 ## Voir aussi
 
-- [[plantes]]
+- [Plantes][plantes-id]
 
 <!-- From [https://wiki.eressea.de/index.php?title=RESEARCH&oldid=16724] -->

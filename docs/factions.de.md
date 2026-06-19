@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: parteien
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Parteien
 
 Spielende führen sogenannte **Parteien** auf Eressea. Eine Partei besteht zunächst aus einer, später dann mitunter aus sehr vielen Einheiten. Diese Einheiten bestehen aus einer, einigen wenigen oder gar Tausenden von Personen der [Rasse][rassen] der Partei. Jede Einheit kann beliebig viele Gegenstände und Silber besitzen, und ebenso alle [Talente][talente] von Eressea erlernen. Den Einheiten kannst du jede Runde [Befehle][befehl] geben, welche sie so gut wie möglich ausführen.

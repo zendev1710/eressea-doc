@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-attackiere
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # ATTACKIERE
 
 *Pseudolanger Befehl [^1].*  

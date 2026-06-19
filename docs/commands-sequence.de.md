@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: befehlsreihenfolge
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Befehlsreihenfolge
 
 Die Befehle von Eressea werden in einer festen Reihenfolge ausgewertet. Befehle, die unter der selben Nummer stehen, werden zur gleichen Zeit ausgeführt oder die Reihenfolge spielt keine Rolle.
@@ -27,7 +26,7 @@ Die Befehle von Eressea werden in einer festen Reihenfolge ausgewertet. Befehle,
 17. [`REKRUTIERE`][bef-rekrutiere] \*
 18. [`ZERSTÖRE`][bef-zerstore-id]
 19. [`FOLGE`][bef-folge] wird gesetzt
-20. [`BEFOERDERE`][bef-befoerdere]
+20. [`BEFOERDERE`][bef-befordere-id]
 21. [`BEZAHLE NICHT`][bef-bezahle-nicht] Stellt Funktion und Unterhaltskosten für das entsprechende Gebäude ein.
 22. Unterhaltskosten für unterhaltspflichtige Gebäude fallen an; sonst haben sie keine Funktion!
 23. [`STIRB`][bef-stirb]
@@ -97,7 +96,6 @@ Weiterlesen: [Kurzbeschreibung][kurzbeschreibung].
 [bef-attackiere]: [[bef-attackiere]]
 [bef-banner]: [[bef-banner]]
 [bef-beanspruche]: [[bef-beanspruche]]
-[bef-befoerdere]: [[bef-befoerdere]]
 [bef-beklaue]: [[bef-beklaue]]
 [bef-benenne]: [[bef-benenne]]
 [bef-benutze]: [[bef-benutze]]

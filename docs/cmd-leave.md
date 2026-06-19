@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-leave
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # LEAVE
 
 **`LEAVE`**  

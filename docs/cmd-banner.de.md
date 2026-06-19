@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-banner
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # BANNER
 
 **`BANNER`**`"`*`text`*`"`  

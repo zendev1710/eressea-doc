@@ -49,7 +49,7 @@ For an auto-reload much faster: `mkdocs serve --dirtyreload`.
 
 ## Python useful commands
 
-### list of packages installed versions
+### List of packages installed versions
 
 `pip list`
 
@@ -65,4 +65,35 @@ mkdocs-material-extensions 1.3.1
 mkdocs-redirects           1.2.2
 mkdocs-static-i18n         1.3.0
 ...
+```
+
+### Check a package version
+
+`pip show <package name>`
+
+Example :
+
+`pip show mkdocs`
+
+```console
+Name: mkdocs
+Version: 1.6.1
+Summary: Project documentation with Markdown.
+Home-page:
+Author:
+Author-email: Tom Christie <tom@tomchristie.com>
+License:
+Location: C:\Users\cyril\Documents\GitHub\dev\eressea-doc\.venv\Lib\site-packages
+Requires: click, colorama, ghp-import, jinja2, markdown, markupsafe, mergedeep, mkdocs-get-deps, packaging, pathspec, pyyaml, pyyaml-env-tag, watchdog
+Required-by: mkdocs-alias-plugin, mkdocs-material, mkdocs-redirects, mkdocs-static-i18n
+...
+```
+
+### Update packages dependencies
+
+With pur, requirement: `pip install pur`, and then:
+
+```console
+pur -r requirements.txt
+pip install -r requirements.txt
 ```

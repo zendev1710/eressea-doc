@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: developpement
 ---
-<!-- disable some rules due to of autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Développement
 
 Cette page est destinée à rassembler les développeurs de différents outils ou développeurs de scripts ou à répondre à des questions qui reviennent sans cesse.
@@ -14,8 +13,8 @@ Les listes de diffusion [E-Client] et Développement Magellan constituent un bon
 
 ## Outils
 
-- [Magellan]
-- [CSMapFx]
+- [Magellan][magellan-fr-id]
+- [CSMapFx][csmap-fr-id]
 - [Vorlage]
 - [crtools]
 
@@ -67,8 +66,6 @@ C’est exactement ce qu’il faut pour que les (futurs) informaticiens puissent
 <!-- From [https://wiki.eressea.de/index.php?title=Entwicklung&oldid=8216] -->
 
 [E-Client]: http://groups.google.com/group/eressea-client
-[Magellan]: http://magellan-client.sf.net
-[CSMapFx]: https://github.com/ennorehling/csmapfx
 [Vorlage]: https://gulrak.de/pbemtools/
 [crtools]: http://sourceforge.net/project/showfiles.php?group_id=91825&package_id=128120
 [Plugin ExtendedCommands]: http://magellan.log-out.net/extcmds/

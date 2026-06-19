@@ -2,11 +2,12 @@
 # cSpell:locale en
 alias: rules
 ---
+
 # Rules
 
 Eressea is a play-by-email (PBEM) game, played exclusively by e-mail.
 If you do not have your own e-mail address, you cannot play Eressea.
-Eressea originates from [[atlantis]], a game that was developed in 1993 by Russell Wallace.
+Eressea originates from [Atlantis][atlantis-id], a game that was developed in 1993 by Russell Wallace.
 Eressea has been running continuously since 1996.
 In Eressea you will lead a *faction* and play together with many other factions of other people in a fantastical world.
 
@@ -26,6 +27,6 @@ This means that **rules may change**.
 
 Though such changes have sometimes unfortunately led to extensive disputes between the game masters and a few dissatisfied players in the past, we hereby expressly point out that we reserve the right to change all rules at any time, under special circumstances even without prior notice.
 
-Continue reading: [[introduction]].
+Continue reading: [introduction][introduction-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Regeln/en&oldid=14181] -->

@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-carry
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # CARRY
 
 *`RIDE` is a [long order][short-and-long-orders].*  

@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cerddor-spells
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Cerddor spells
 
 ## Level 1

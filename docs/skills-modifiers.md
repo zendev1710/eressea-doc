@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: skills-modifiers
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Skills modifiers
 
 The different [[races]] have, in addition to their special abilities, different recruitment costs and modifiers on their [[skills]].

@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: cmd-spy-fr
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # SPY
 
 *Ordre [long][ordres-courts-et-longs]*.

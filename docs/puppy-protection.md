@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: puppy-protection
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Puppy protection
 
 Generally, a faction's first report contains a message such as: "Your faction is immune to attacks for the next 3 weeks."  

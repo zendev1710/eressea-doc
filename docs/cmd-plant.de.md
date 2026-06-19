@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-pflanze
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # PFLANZE
 
 *[Langer Befehl][kurze-und-lange-befehle].*  

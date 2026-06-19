@@ -2,13 +2,12 @@
 # cSpell:locale fr
 alias: fftools2-fr
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 -->
+
 [](){ #fftools-fr-id }
 
 # FFTools2
 
-FFTools2 est un plugin pour [Magellan] permettant de créer automatiquement des ordres d'unités.  
+FFTools2 est un plugin pour [Magellan][magellan-fr-id] permettant de créer automatiquement des ordres d'unités.  
 
 Sur le [site officiel], vous trouverez une introduction, des instructions d'installation et une aide complète pour les ordres individuels.  
 Des exemples d'utilisation sont également disponibles sur les pages de détail des ordres.  
@@ -31,5 +30,4 @@ En plus des pages d'aide, il existe une chaîne FFTools supplémentaire sur le s
 
 <!-- From [https://wiki.eressea.de/index.php?title=FFTools2&oldid=16883] -->
 
-[Magellan]: http://magellan-client.sf.net
 [site officiel]: http://fftools2.fietefietz.de/

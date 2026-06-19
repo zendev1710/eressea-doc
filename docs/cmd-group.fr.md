@@ -6,8 +6,7 @@ alias:
     - cmd-groupfr
     - cmdgroupfr
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
+
 [](){ #cmd-group-fr-id }
 
 # GROUP

@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: peuples-fr
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Peuples
 
 En plus des [Humains][humains]title={"Humans"}, il existe beaucoup d'autres peuples (types de faction, ou peuples) dans Eressea.  
@@ -176,7 +175,7 @@ Il est cependant possible grâce à l'[alchimie][alchimie]{title="Alchemy"} de [
 Les insectes sont automatiquement protégés par leur armure naturelle de chitine.  
 Cette armure naturelle sera réduite de moitié si les insectes portent une armure additionnelle (voir [ici][peuples-et-leurs-caracteristiques]).  
 
-Les insectes obtiennent un bonus de [[tactique]] lorsqu'ils sont en nombre.  
+Les insectes obtiennent un bonus de [tactique][tactique] lorsqu'ils sont en nombre.  
 Un tacticien insecte obtient (log<sub>10</sub> (nombre de combattants dans son groupe))-1 en tactique.  
 Cela peut également entraîner un malus s'il y a très peu de combattants ! Attention, les unités dans différents [groupes][cmd-group-fr-id] sont gérées dans des armées différentes !  
 

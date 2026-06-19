@@ -5,8 +5,7 @@ alias:
     - cmd-language_fr
     - cmd-languagefr
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # LANGUAGE
 
 **`LANGUAGE`**`de`  

@@ -2,12 +2,11 @@
 # cSpell:locale en
 alias: history-of-eressea
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # History of Eressea
 
 According to [Wikipedia], Eressea launched on August 27, 1996.
-It was developed as a spin-off of [[atlantis]].
+It was developed as a spin-off of [Atlantis][atlantis-id].
 The popularity was subject to relatively strong fluctuations.
 The record was over 2 000 factions at the beginning of 2002.
 At the end of 2005, there were fewer than 1 000 factions for the first time.
@@ -335,7 +334,7 @@ October 2003 - Registration closed
 
 17.04.2005 - RESTART, weights, etc.
 
-04.05.2005 - The [[xontormia-express]] appears again after a break under a new editor
+04.05.2005 - The [Xontormia Express][xontormia-express-id] appears again after a break under a new editor
 
 05.06.2005 - Astral space reform (from round 430) etc.
 
@@ -376,7 +375,7 @@ October 2003 - Registration closed
 
 - Material and silver pool are active for all parties (previously they were optional)
 
-02.03.2008 - After articles have only been published very irregularly in recent months, the last issue of [[xontormia-express]] is being published.
+02.03.2008 - After articles have only been published very irregularly in recent months, the last issue of [Xontormia Express][xontormia-express-id] is being published.
 
 28.04.2008 - Regions receive IDs
 

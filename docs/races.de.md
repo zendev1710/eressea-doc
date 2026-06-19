@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: rassen
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Rassen
 
 Neben den Menschen gibt es in Eressea noch viele andere Rassen (Parteitypen), unter denen du wählen kannst.

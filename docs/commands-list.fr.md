@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: tableau-recapitulatif-des-ordres
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Tableau récapitulatif des ordres
 
 `C`/`L`indique si l'[ordre][ordres] est un ordre Court ou Long.  
@@ -12,7 +11,7 @@ Une unité ne peut exécuter qu’un seul ordre long par tour, mais peut exécut
 `PL` désigne un [ordre Pseudo-Long][ordres], qui peut être donné plusieurs fois à une unité.  
 Toutefois, aucun autre ordre long ne peut être exécuté.  
 
-Plus d'information : [[ordres]].
+Plus d'information : [ordres][ordres].
 
 | Ordre                                                                      | Description                                          | C/L    |
 |----------------------------------------------------------------------------|------------------------------------------------------|--------|
@@ -160,10 +159,10 @@ Plus d'information : [[ordres]].
 
 ## Voir aussi
 
-- [[ordres]]
-- [[sequence-des-ordres]]
+- [Ordres][ordres]
+- [Séquence des ordres][sequence-des-ordres]
 
-Poursuivre la lecture : [[premier-tour]].
+Poursuivre la lecture : [premier tour][premier-tour].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kurzbeschreibung&oldid=16741] -->
 

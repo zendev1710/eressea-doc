@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: factions
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Factions
 
 Players lead so-called **factions** on Eressea.  

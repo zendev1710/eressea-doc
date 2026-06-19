@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-gib
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # GIB
 
 ` `**`GIB`**` `*`einheit-nr anzahl gegenstand`*  

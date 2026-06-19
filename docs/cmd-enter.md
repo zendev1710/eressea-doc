@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-enter
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # ENTER
 
 **`ENTER`**` BUILDING `*`building-id`*  

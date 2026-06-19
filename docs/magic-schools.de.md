@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: magiegebiete
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Magiegebiete
 
 Es gibt fünf Magiegebiete in Eressea.  

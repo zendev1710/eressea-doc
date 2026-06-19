@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: cmd-region-fr
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # REGION
 
 `REGION x,y; <Nom de la région>`  

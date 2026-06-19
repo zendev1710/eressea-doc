@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: sorts-illaun
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Sorts Illaun
 
 Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de niveau croissant.  
@@ -315,7 +314,7 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
 
 ## Niveau 9
 
-### Invocation du Familier
+### Invocation du familier
 
 <!-- cspell:disable -->
 *Summon Familiar (EN), Vertrauten rufen (DE)*.
@@ -413,9 +412,9 @@ Les sorts de l'École de magie **Illaun** sont décrits ci-dessous par ordre de 
     Cela peut donner à l'utilisateur un énorme avantage dans la bataille à venir.  
     Mais attention : interpréter les rêves est une affaire difficile.
 
-|               Composants                | Niv. |  Type  | Rang |              B               | D |
-|:---------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
-| 1 [[tete-de-dragon]], 5 aura permanents |  14  | Normal |  5   | :material-check:{ .success } |   |
+|                                Composants                                 | Niv. |  Type  | Rang |              B               | D |
+|:-------------------------------------------------------------------------:|:----:|:------:|:----:|:----------------------------:|:-:|
+| 1 [tête de dragon][tete-de-dragon]{title="Dragonhead"}, 5 aura permanents |  14  | Normal |  5   | :material-check:{ .success } |   |
 
 `CAST "Create a Visioneye"`  
 

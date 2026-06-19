@@ -2,11 +2,10 @@
 # cSpell:locale de
 alias: kurzbeschreibung
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Kurzbeschreibung
 
-Unter `K`/`L` ist vermerkt, ob der [[befehl]] ein [kurzer][kurze-und-lange-befehle] oder [langer][kurze-und-lange-befehle] Befehl ist.
+Unter `K`/`L` ist vermerkt, ob der [befehl][befehl] ein [kurzer][kurze-und-lange-befehle] oder [langer][kurze-und-lange-befehle] Befehl ist.
 Eine Einheit kann pro Runde nur einen langen Befehl ausführen, aber beliebig viele kurze.
 
 `PL` bezeichnet einen [pseudolangen Befehl][befehl], der einer Einheit mehrfach gegeben werden kann.
@@ -21,11 +20,11 @@ Kurzliste der Befehle.
 | Befehl                                                                   | Beschreibung                                           | K/L    |
 |--------------------------------------------------------------------------|--------------------------------------------------------|--------|
 | [//]                                                                     | bleibender Kommentar                                   | K      |
-| [[bef-arbeite]]                                                          | verdient 10 Silber oder mehr                           | L      |
+| [ARBEITE][bef-arbeite]                                                   | verdient 10 Silber oder mehr                           | L      |
 | [ATTACKIERE einheit-nr][bef-attackiere]                                  | greift die Einheit an                                  | PL[^1] |
 | [BANNER "text"]                                                          | setzt Text für Adressliste                             | K      |
 | [BEANSPRUCHE anzahl gegenstand]                                          | holt Gegenstände aus Parteipool                        | K      |
-| [[bef-befoerdere]]                                                       | macht Einheit zu Helden                                | K      |
+| [BEFOERDERE][bef-befordere-id]                                           | macht Einheit zu Helden                                | K      |
 | [BEKLAUE einheit-nr]                                                     | klaut 50 Silber oder mehr                              | L      |
 | [BENENNE EINHEIT "name"][bef-benenne]                                    | benennt Objekte                                        | K      |
 | [BENENNE PARTEI "name"][bef-benenne]                                     |                                                        | K      |
@@ -54,7 +53,7 @@ Kurzliste der Befehle.
 | [DEFAULT "befehl"]                                                       | setzt Default-Befehl für die nächste Runde.            | K      |
 | [EINHEIT einheit-nr]                                                     | beginnt Befehle für eine Einheit                       | K      |
 | [EMAIL email@adresse]                                                    | setzt die E-Mail-Adresse                               | K      |
-| [[bef-ende]]                                                             | beendet MACHE TEMP                                     | K      |
+| [ENDE][bef-ende]                                                         | beendet MACHE TEMP                                     | K      |
 | [ERESSEA partei-nr "passwort"]                                           | beginnt Befehle für Partei                             | K      |
 | [FAHRE einheit-nr][bef-fahre]                                            | sich transportieren lassen                             | L      |
 | [FOLGE EINHEIT einheit-nr]                                               | folgt einer Einheit                                    | PL[^2] |
@@ -95,7 +94,7 @@ Kurzliste der Befehle.
 | [MACHE \[stufe\] gebäude-typ \[gebäude-nr\]][bef-mache]                  | erweitere oder baue neues Gebäude                      | L      |
 | [MACHE \[stufe\] schiffstyp][bef-mache]                                  | baue neue Schiffe                                      | L      |
 | [MACHE \[stufe\] SCHIFF \[schiff-nr\]][bef-mache]                        | baue weiter am Schiff                                  | L      |
-| [[bef-mache]]                                                            | baue weiter an Gebäude/Schiff                          | L      |
+| [MACHE TEMP][bef-mache]                                                  | baue weiter an Gebäude/Schiff                          | L      |
 | [MACHE \[stufe\] STRASSE richtung][bef-mache]                            | baue Straßen                                           | L      |
 | [MACHE \[anzahl\] KRÄUTER][bef-mache]                                    | suche Kräuter der Region                               | L      |
 | [MACHE \[anzahl\] trank][bef-mache]                                      | mache einen alchemistischen Trank                      | L      |
@@ -145,7 +144,7 @@ Kurzliste der Befehle.
 | [VERGISS talent]                                                         | vergisst das Talent                                    | K      |
 | [VERKAUFE anzahl luxusgut]                                               | verkauft Luxusgüter                                    | PL[^3] |
 | [VERKAUFE ALLES luxusgut]                                                |                                                        |        |
-| [[bef-verlasse]]                                                         | Schiff oder Gebäude verlassen                          | K      |
+| [VERLASSE][bef-verlasse]                                                 | Schiff oder Gebäude verlassen                          | K      |
 | [ZAUBERE \[REGION x y\] \[STUFE n\] "zauberspruch" \[...\]][bef-zaubere] | Zaubern                                                | PL[^4] |
 | [ZEIGE ALLE ZAUBER][bef-zeige]                                           | zeigt Beschreibung aller bekannten Zauber              | K      |
 | [ZEIGE ALLE TRÄNKE][bef-zeige]                                           | zeigt Beschreibung aller bekannten Tränke              | K      |
@@ -165,9 +164,9 @@ Kurzliste der Befehle.
 ## Siehe auch
 
 - [Befehle][befehl]
-- [[befehlsreihenfolge]]
+- [Befehlsreihenfolge][befehlsreihenfolge]
 
-Weiterlesen: [[der-erste-zug]].
+Weiterlesen: [Der erste Zug][der-erste-zug].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kurzbeschreibung&oldid=16741] -->
 
@@ -198,6 +197,7 @@ Weiterlesen: [[der-erste-zug]].
 [VERKAUFE anzahl luxusgut]: [[bef-verkaufe]]
 [VERKAUFE ALLES luxusgut]: [[bef-verkaufe]]
 [BENUTZE &#91;anzahl&#93; trank]: [[bef-benutze]]
+
 [bef-arbeite]: [[bef-arbeite]]
 [bef-attackiere]: [[bef-attackiere]]
 [bef-benenne]: [[bef-benenne]]

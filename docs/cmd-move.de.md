@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-nach
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # NACH
 
 *[Langer Befehl][kurze-und-lange-befehle].*

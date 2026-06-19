@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: magellan
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
+
 [](){ #magellan-id }
 
 # Magellan
@@ -44,7 +43,7 @@ The latest version of Magellan is available on this [download page].
 
 ## External links
 
-- [Magellan]
+- [Magellan][magellan-ext]
 - [Magellan download page][download page]
 - [Bug tracker for Magellan][bug tracker]
 - [Magellan source code (for developers)]
@@ -54,6 +53,6 @@ The latest version of Magellan is available on this [download page].
 
 [bug tracker]: https://magellan2.github.io/bugs/
 [download page]: https://magellan2.github.io/en/download/
-[Magellan]: https://magellan2.github.io/en
+[magellan-ext]: https://magellan2.github.io/en
 [Magellan source code (for developers)]: https://github.com/magellan2
 [Magellan 1]: http://sourceforge.net/projects/magellan-client

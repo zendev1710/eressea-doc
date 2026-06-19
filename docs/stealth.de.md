@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: tarnung
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
+
 [](){ #tarnung-id }
 
 # Tarnung

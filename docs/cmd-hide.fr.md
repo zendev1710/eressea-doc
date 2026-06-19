@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: cmd-hide-fr
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
+
 [](){ #cmd-hide-fr-id }
 
 # HIDE

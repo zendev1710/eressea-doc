@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-transportiere
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # TRANSPORTIERE
 
 *`FAHRE` ist ein [langer Befehl][kurze-und-lange-befehle]*.  

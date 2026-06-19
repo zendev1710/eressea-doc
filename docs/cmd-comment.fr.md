@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: cmd-comment-fr
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Commentaire (;)
 
 Le point-virgule « ; » est utilisé dans les ordres Eressea pour marquer les commentaires (temporaires).

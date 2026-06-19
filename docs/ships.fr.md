@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: bateaux
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
+
 [](){ #bateaux-id }
 
 # Bateaux
@@ -172,7 +171,7 @@ GIVE 123 ALL MEN
 
 ## Voir aussi
 
-- [[deplacements]]
+- [Déplacements][deplacements]
 - [`GIVE`][cmd-give-fr]
 
 Poursuivre la lecture : [bâtiments][batiments-id].

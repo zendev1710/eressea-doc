@@ -2,8 +2,6 @@
 # cSpell:locale en
 alias: ring-of-invisibility
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
 
 [](){ #ring-of-invisibility-id }
 

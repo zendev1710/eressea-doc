@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: cs-map-fr
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 -->
+
 [](){ #csmap-fr-id }
 
 # CSMap
@@ -18,9 +17,9 @@ CSMap devrait être progressivement étendu pour pouvoir également exécuter de
 
 ## Téléchargement
 
-- [CSMapFx]
+- [CSMapFx][csmapfx-ext]
 
 <!-- From [https://wiki.eressea.de/index.php?title=CSMap&oldid=7342] -->
 
 [Eressea]: http://www.eressea.de/
-[CSMapFx]: https://www.eressea.kn-bremen.de/downloads/
+[csmapfx-ext]: https://www.eressea.kn-bremen.de/downloads/

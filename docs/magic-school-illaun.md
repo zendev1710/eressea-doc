@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: illaun-spells
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Illaun spells
 
 ## Level 1

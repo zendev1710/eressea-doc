@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: sorts-draig
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Sorts Draig
 
 Les sorts de l'École de magie **Draig** sont décrits ci-dessous par ordre de niveau croissant.  
@@ -366,20 +365,20 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 ## Niveau 11
 
-### Invocation du Dragon
+### Invocation du dragon
 
 <!-- cspell:disable -->
 *Dragon Call (EN), Drachenruf (DE)*.
 <!-- cspell:enable -->
 
-:   Avec ce sombre rituel, le mage crée un leurre dont l'odeur est irrésistible pour les [Dragons][dragons-fr-id].  
+:   Avec ce sombre rituel, le mage crée un leurre dont l'odeur est irrésistible pour les [dragons][dragons-fr-id].  
     Il n'a pas encore été possible de déterminer si les dragons viennent des environs ou de la sphère du chaos.  
     On dit que les deux se sont déjà produits.  
     L'appât dure environ 6 semaines, mais doit être placé sur un terrain adapté aux cerfs-volants.
 
-|          Composants           | Niv. |  Type  | Rang | B |              D               |
-|:-----------------------------:|:----:|:------:|:----:|:-:|:----------------------------:|
-| 80 aura, 1 [[tete-de-dragon]] |  11  | Normal |  5   |   | :material-check:{ .success } |
+|                           Composants                            | Niv. |  Type  | Rang | B |              D               |
+|:---------------------------------------------------------------:|:----:|:------:|:----:|:-:|:----------------------------:|
+| 80 aura, 1 [tête de dragon][tete-de-dragon]{title="Dragonhead"} |  11  | Normal |  5   |   | :material-check:{ .success } |
 
 `CAST [REGION x y] "Dragon Call"`  
 
@@ -434,7 +433,7 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 
 ## Niveau 13
 
-### Invocation du Familier
+### Invocation du familier
 
 <!-- cspell:disable -->
 *Summon Familiar (EN), Vertrauten rufen (DE)*.

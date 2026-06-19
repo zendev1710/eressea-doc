@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: world
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # World
 
 ## Geography
@@ -82,10 +81,10 @@ This means that you can turn a forest into a plain by felling trees or, converse
 | [Plain][plain]         |        10000 |               200 |              50 | flatroot , tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
 
 If the number of available jobs is exceeded, it becomes very difficult for peasants to earn the required weekly wage - peasants also need 10 silver every round to survive, which they earn through [work][cmd-work-id].  
-Larger [[castles]] give a small bonus to the silver earned through work in the region, so that the working peasants may be able to provide for some other peasants in the region, but the risk of peasants dying, for example due to a plague, increases enormously if the number of available jobs is small.  
+Larger [castles][castles] give a small bonus to the silver earned through work in the region, so that the working peasants may be able to provide for some other peasants in the region, but the risk of peasants dying, for example due to a plague, increases enormously if the number of available jobs is small.  
 Furthermore, no more player units can work in this region if all workplaces are occupied.  
 
-The terrain type also determines which [[herbs]] can grow in the region.  
+The terrain type also determines which [herbs][herbs-id] can grow in the region.  
 An alchemist will be able to brew helpful [potions][alchemy] from different ingredients.  
 Some herbs only thrive in deserts, others need the swampy climate of a bog, so there are herbs for every terrain that can only grow there.  
 However, the herbs that grow there cannot be changed.  
@@ -280,7 +279,7 @@ Here is a brief overview:
 - Peoples of the [insect][insects] race can hardly recruit in winter
 - Storms at [sea][movement] are much more common in autumn
 - The individual phases of [forest growth][deep-in-the-forest] are linked to seasonal cycle
-- In winter the growth of the [[herbs]] comes to a standstill
+- In winter the growth of the [herbs][herbs-id] comes to a standstill
 
 ## Months
 

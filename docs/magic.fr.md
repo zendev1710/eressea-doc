@@ -2,18 +2,16 @@
 # cSpell:locale fr
 alias: magie
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
 
 [](){ #magie-fr-id }
 
 # Magie
 
-La magie est un moyen mystique et puissant de changer et de créer des choses et peut affaiblir l'ennemi ou renforcer les alliés dans la [[guerre]].
+La magie est un moyen mystique et puissant de changer et de créer des choses et peut affaiblir l'ennemi ou renforcer les alliés dans la [guerre][guerre].
 
 ## L'étude de la magie
 
-Chaque faction doit choisir l'une des cinq [[ecoles-de-magie]] parmi [Illaun][sorts-illaun], [Tybied][sorts-tybied], [Gwyrrd][sorts-gwyrrd], [Cerddor][sorts-cerddor] ou [Draig][sorts-draig].  
+Chaque faction doit choisir l'une des cinq [écoles de magie][ecoles-de-magie-id] parmi [Illaun][sorts-illaun], [Tybied][sorts-tybied], [Gwyrrd][sorts-gwyrrd], [Cerddor][sorts-cerddor] ou [Draig][sorts-draig].  
 
 L'École de Magie de la faction est déterminée par la toute première unité qui apprend la magie dans la faction.
 Cela se fait à l'aide de l'ordre [`LEARN MAGIC "<école de magie>"`][cmd-learn-fr].  
@@ -119,7 +117,7 @@ ou alors
 Il existe des sorts normaux, des sorts de pré-combat, des sorts de combat et des sorts d'après-combat.
 
 Les sorts normaux sont lancés à l'aide de la commande [`CAST`][cmd-cast-fr].  
-Leur effet se produit soit immédiatement (voir [[sequence-des-ordres]]) soit parfois plus tard, par exemple au début du tour suivant.  
+Leur effet se produit soit [immédiatement][sequence-des-ordres] soit parfois plus tard, par exemple au début du tour suivant.  
 
 Les trois types de sorts de combat ne peuvent jamais être lancés en utilisant `CAST`.  
 Au lieu de cela, ils sont lancés lorsque l’unité est activement engagée dans un combat.  
@@ -176,7 +174,7 @@ D'autre part, il existe des sorts (et éventuellement d'autres choses) qui coût
 Cela signifie que l'unité peut alors stocker moins d'aura maximale.  
 Il s’agit généralement de sorts ou d’artefacts magiques très puissants qui provoquent des effets permanents.
 
-[[cmd-cast-fr]] est un ordre pseudo-long comparable à [`ATTACK`][cmd-attack-fr].  
+[`CAST`][cmd-cast-fr] est un ordre pseudo-long comparable à [`ATTACK`][cmd-attack-fr].  
 Une unité peut donc lancer des sorts plusieurs fois par tour, mais ne peut exécuter aucun autre ordre long.  
 Mais il y a un hic : les coûts d’aura des sorts augmentent.  
 Le premier sort lancé par l'unité au cours d'un round coûte l'aura normale spécifiée dans le sort.  
@@ -359,7 +357,7 @@ Conséquences possibles (par ordre décroissant de fréquence) :
 
 - Le sort fonctionne, mais les sorts suivants deviennent beaucoup plus chers
 - Toute aura est perdue, le sort fonctionne ou non
-- Le sort ne fonctionne pas et vous devenez un [[crapaud]] pendant 2 semaines ou plus
+- Le sort ne fonctionne pas et vous devenez un [crapaud][crapaud] pendant 2 semaines ou plus
 - Le sort ne fonctionne pas et il y a un effet spécial
 
 Les effets spéciaux affectent principalement Gwyrrd (des Ents enragés sont créés) et Draig (des foules de paysans ou d'autres conséquences).
@@ -406,12 +404,14 @@ Par exemple, une boule de feu qui ferait 50 dégâts (5d10 + 15) ne fait que (90
 Une [Tour de Mage][tour-de-mage] augmente la régénération de l'aura de 75 % et augmente le niveau effectif de tout sort lancé en son sein de 1, le cas échéant, en plus d'un [anneau de Pouvoir][anneau-de-pouvoir-id]{title="Ring of Power"} sans augmenter le coût.  
 De plus, la probabilité d’un échec du sort est considérablement réduite.  
 
+[](){ #magic-familiers-id }
+
 ## Familiers
 
 Les mages expérimentés rencontreront à un moment donné au cours de leurs pérégrinations un spécimen inhabituel d’une espèce qui les rejoindra.  
 Le genre auquel appartient cette créature dépend principalement de l' École de Magie et du peuple.  
 
-Plus d'information sur ces créatures : les [[familiers]].  
+Plus d'information sur ces créatures : les [familiers][familiers-id].  
 
 ## L'Astral
 
@@ -463,9 +463,9 @@ Les autres devront compter sur leurs alliés !
 
 Dans les premiers jours d'Eressea, les listes exactes de sorts étaient secrètes afin que "nous puissions anticiper si et quels nouveaux sorts on recevrait en atteignant un nouveau niveau".
 Eressea existe maintenant depuis si longtemps que les nouveaux joueurs seraient trop désavantagés par rapport aux joueurs confirmés si les sorts n'étaient pas connus.  
-C'est pourquoi il existe désormais une [[liste-des-sorts]] et une [[description-des-sorts]].
+C'est pourquoi il existe désormais une [liste des sorts][liste-des-sorts] et une [description des sorts][description-des-sorts].
 
-Poursuivre la lecture : [[ecoles-de-magie]].
+Poursuivre la lecture : [écoles de magie][ecoles-de-magie-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magie/de&oldid=16363] -->
 

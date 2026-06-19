@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: sonnensegel
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Sonnensegel
 
 Das **Sonnensegel** war das Eresseanische[ [weihnachten|Weihnachtsgeschenk]] des Jahres 2004.  

@@ -2,8 +2,6 @@
 # cSpell:locale en
 alias: amulet-of-true-sight
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 -->
 
 [](){ #amulet-of-true-sight-id }
 

@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: tactics
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Tactics
 
 Before the battle, the best tactician of all participating units is determined.  

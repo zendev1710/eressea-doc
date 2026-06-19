@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-route
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # ROUTE
 
 *[long order][short-and-long-orders].*  

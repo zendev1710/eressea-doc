@@ -2,24 +2,39 @@
 # cSpell:locale de
 alias: schiffsreise
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Schiffsreise
 
-Nur mit [Schiffen][schiff] kann man seine Insel verlassen und so z.B. neue Märkte erschließen oder direkten Kontakt zu anderen Parteien aufnehmen. Mit einem Schiff kann man bis zu 7 Regionen weit segeln, unter Einsatz von Meermenschen oder Magie sogar noch weiter.
+Nur mit [Schiffen][schiff] kann man seine Insel verlassen und so z.B. neue Märkte erschließen oder direkten Kontakt zu anderen Parteien aufnehmen.  
+Mit einem Schiff kann man bis zu 7 Regionen weit segeln, unter Einsatz von Meermenschen oder Magie sogar noch weiter.
 
-Alle Schiffe größer als ein Boot (das schließt Langboote ein) können nur in Ebenen und Wäldern anlegen. Alle anderen Regionstypen (z.B. Berge, Hochländer, Sümpfe) brauchen einen [**Hafen**][hafen], damit dort Schiffe anlegen können. Wenn ein Schiff versucht, in einer ungeeigneten Region anzulegen, nimmt es [Schaden][schiffsschaden]. Ablegen können Schiffe überall, man kann also Schiffe in allen Küstenregionen bauen und dann zu Wasser lassen.
+Alle Schiffe größer als ein Boot (das schließt Langboote ein) können nur in Ebenen und Wäldern anlegen.  
+Alle anderen Regionstypen (z.B. Berge, Hochländer, Sümpfe) brauchen einen [**Hafen**][hafen], damit dort Schiffe anlegen können.  
+Wenn ein Schiff versucht, in einer ungeeigneten Region anzulegen, nimmt es [Schaden][schiffsschaden].  
+Ablegen können Schiffe überall, man kann also Schiffe in allen Küstenregionen bauen und dann zu Wasser lassen.
 
-Schiffe können aber nicht direkt - ohne über eine Ozeanregion zu segeln - von einer Küste in die benachbarte Küstenregion gelangen. Ebenso können sie nicht in alle Richtungen ablegen, sondern nur in die Richtung, aus der sie kamen und deren Nachbarrichtungen. Ein Schiff, welches aus Osten kam (im Report steht dann auch "Ostküste"), kann also nach Osten, Nordosten und Südosten ablegen. Verfügt eine Region jedoch über einen Hafen, dann können Schiffe des Hafeneigners und von Parteien, die vom Hafeneigner [HELFE][bef-helfe] BEWACHE haben, auch in andere Richtungen ablegen, sofern es sich um Ozeanregionen handelt.
+Schiffe können aber nicht direkt - ohne über eine Ozeanregion zu segeln - von einer Küste in die benachbarte Küstenregion gelangen.  
+Ebenso können sie nicht in alle Richtungen ablegen, sondern nur in die Richtung, aus der sie kamen und deren Nachbarrichtungen.  
+Ein Schiff, welches aus Osten kam (im Report steht dann auch "Ostküste"), kann also nach Osten, Nordosten und Südosten ablegen.  
+Verfügt eine Region jedoch über einen Hafen, dann können Schiffe des Hafeneigners und von Parteien, die vom Hafeneigner [HELFE][bef-helfe] BEWACHE haben, auch in andere Richtungen ablegen, sofern es sich um Ozeanregionen handelt.
 
-Auf hoher See - das sind Ozeanregionen, an die keine Landregion grenzt - können Schiffe durch Stürme in eine Nachbarregion abtreiben und Schaden nehmen. Die gilt nicht für Schiffe die [`FOLGE`][bef-folge] oder [Piraterie][piraterie-de-id] ausführen.
+Auf hoher See - das sind Ozeanregionen, an die keine Landregion grenzt - können Schiffe durch Stürme in eine Nachbarregion abtreiben und Schaden nehmen.  
+Die gilt nicht für Schiffe die [`FOLGE`][bef-folge] oder [Piraterie][piraterie-de-id] ausführen.
 
-Um ein Schiff segeln zu können, braucht eine ausgebildete Crew, sprich Einheiten, die das Talent Segeln erlernt haben. In der folgenden Tabelle steht unter "Kapitän" die Talentstufe, den der Kapitän oder die Kapitänin (die erste Einheit auf dem Schiff im Report) des Schiffes in Segeln haben muss. Zudem braucht man auf dem Schiff eine gewisses Gesamttalent in Segeln. Dazu werden die Talentwerte aller Personen auf dem Schiff zusammengezählt, einschließlich der Kapitänseinheit und Einheiten fremder Parteien. Der benötigte Wert steht in der Tabelle unter "Besatzung". Die in der Tabelle aufgeführte Reichweite gilt pro Runde, d.h. ein Schiff kann pro Runde maximal so weit segeln. Schiffe, die von einer Meermenscheneinheit einer Meermenschenpartei gesteuert werden (Migranten-Meermenschen einer Menschenpartei zählt also nicht), können jeweils ein Feld weiter segeln.
+Um ein Schiff segeln zu können, braucht eine ausgebildete Crew, sprich Einheiten, die das Talent Segeln erlernt haben.  
+In der folgenden Tabelle steht unter "Kapitän" die Talentstufe, den der Kapitän oder die Kapitänin (die erste Einheit auf dem Schiff im Report) des Schiffes in Segeln haben muss.  
+Zudem braucht man auf dem Schiff eine gewisses Gesamttalent in Segeln.  
+Dazu werden die Talentwerte aller Personen auf dem Schiff zusammengezählt, einschließlich der Kapitänseinheit und Einheiten fremder Parteien.  
+Der benötigte Wert steht in der Tabelle unter "Besatzung".  
+Die in der Tabelle aufgeführte Reichweite gilt pro Runde, d.h. ein Schiff kann pro Runde maximal so weit segeln.  
+Schiffe, die von einer Meermenscheneinheit einer Meermenschenpartei gesteuert werden (Migranten-Meermenschen einer Menschenpartei zählt also nicht), können jeweils ein Feld weiter segeln.
 
 **Beispiele:**
 
-- Eine [Trireme][trireme-de-id] kann mit einer Einheit mit 30 Personen mit Segeln 4 gesteuert werden oder mit einer Einheit mit einer Person der Stufe 4 und einer Einheit mit 58 Personen der Stufe 2. In jedem Fall segelt sie pro Runde 7 Regionen weit (Meermenschen 8) und kann 2000 GE mitnehmen, wovon das Gewicht der Crew natürlich abgeht.
-- Eine Drachenschiff mit einer Einheit mit 25 Personen der Stufe 2 segelt 5 Regionen weit. Mit 3 Personen der Stufe 20 kann es allerdings 7 Regionen weit segeln.
+- Eine [Trireme][trireme-de-id] kann mit einer Einheit mit 30 Personen mit Segeln 4 gesteuert werden oder mit einer Einheit mit einer Person der Stufe 4 und einer Einheit mit 58 Personen der Stufe 2.  
+  In jedem Fall segelt sie pro Runde 7 Regionen weit (Meermenschen 8) und kann 2000 GE mitnehmen, wovon das Gewicht der Crew natürlich abgeht.
+- Eine Drachenschiff mit einer Einheit mit 25 Personen der Stufe 2 segelt 5 Regionen weit.  
+  Mit 3 Personen der Stufe 20 kann es allerdings 7 Regionen weit segeln.
 
 Schiffe - Reichweite, Kapazität, Talente
 
@@ -49,7 +64,8 @@ Dabei nimmt es ständig [Schaden][schiffsschaden], so dass es nach kurzer Zeit v
 
 Das Gesamtgewicht aller Einheiten auf einem Schiff, einschließlich des Gewichtes von Pferden, Wagen, Leuten und natürlich aller Waren und Silber der Einheiten, muss vom Schiff getragen werden können.  
 Ist dies nicht der Fall, so kann das Schiff nicht segeln. Es wird allerdings auch nicht sofort untergehen, sondern kann ebenfalls abtreiben.  
-Die Kapazitäten der Schiffe werden in der obigen Tabelle aufgeführt und sind immer im Report angezeigt. Die Gewichte der Gegenstände sind im Abschnitt über [Waren][waren] zu finden, die der Personen der verschiedenen Rassen hier bei [Reisen][reisen].
+Die Kapazitäten der Schiffe werden in der obigen Tabelle aufgeführt und sind immer im Report angezeigt.  
+Die Gewichte der Gegenstände sind im Abschnitt über [Waren][waren] zu finden, die der Personen der verschiedenen Rassen hier bei [Reisen][reisen].
 
 Es ist möglich, mehrere Schiffe zu einem [Konvoi][konvoi-id] zusammenzufassen.  
 Die Details hierzu sind im Kapitel über [Schiffe][schiff] beschrieben.

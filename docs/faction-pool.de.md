@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: parteipool
 ---
-<!-- properdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Parteipool
 
 Der Parteipool enthält einige besondere Gegenständse, die in der Regel von der Spielleitung zu besonderen Anlässen (z.B. Weihnachten, Eresea-Jubiläen) dort abgelegt werden.  

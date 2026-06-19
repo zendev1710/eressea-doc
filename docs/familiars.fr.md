@@ -2,8 +2,9 @@
 # cSpell:locale fr
 alias: familiers
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
+[](){ #familiers-id }
+
 # Familiers
 
 Les familiers sont toujours des représentants particulièrement intelligents de leur espèce, mais ils sont très rarement doués eux-même de magie.  
@@ -21,9 +22,9 @@ Cependant, ces familiers ont également la capacité d'accéder aux sorts de leu
 De plus, de nombreux familiers peuvent apprendre certaines compétences ou ont des compétences particulières.  
 Cependant, en raison de leur perspective fondamentalement différente, ils ne peuvent pas transmettre leurs connaissances en les enseignant.  
 Le familier confère au mage un bonus égal à la moitié de la valeur de la compétence (à l'exception de la magie) qu'il maîtrise.  
-Il est conseillé au mage de se rappeler précisément des compétences de son familier via un [`SHOW`][cmd-show-fr].  
+Il est conseillé au mage de se rappeler précisément des compétences de son familier en utilisant régulièrement l'ordre [`SHOW`][cmd-show-fr].  
 
-## Peuples de Familiers
+## Peuples de familiers
 
 Le monde et la magie d'Eressea connaissent différents peuples qui peuvent se lier à un mage en tant que familiers.
 
@@ -254,7 +255,7 @@ Caractéristiques d'une Tortue Géante.
 |:-----:|:----------:|:--------:|:----------:|:---------:|:-------------------:|
 |  +0   |     +0     |    +0    |     +1     |    +0     |         +0          |
 
-### Dragon Chanteur
+### Dragon chanteur
 
 Les dragons chanteurs sont de la taille d'un tigre adulte.
 Leur couleur varie du rouge chatoyant au noir profond en passant par le vert foncé.  
@@ -266,7 +267,7 @@ Ils aiment les chants et les repas copieux.
 De temps en temps, ils forment une alliance magique étroite avec un mage.
 Lorsque cela se produit, le mage dispose d'un familier extrêmement loyal et précieux.  
 
-Caractéristiques d'un Dragon Chanteur.  
+Caractéristiques d'un dragon chanteur.  
 
 | PV  | Résistance à la magie | Attaque | Défense | Armure naturelle |
 |:---:|:---------------------:|:-------:|:-------:|:----------------:|
@@ -428,7 +429,7 @@ Expériences de jeu :
 
 Les informations sur les pourcentages **doivent être considérées avec prudence** et doivent être revérifiées dans le code !  
 
-Un mage Elfe avec Tybied a la plus grande chance d'obtenir un Hibou (École de Magie) ou un Lynx (Familier principal), mais a aussi une chance (plus faible) d'obtenir un peuple aléatoire du tableau.  
+Un mage Elfe avec Tybied a la plus grande chance d'obtenir un Hibou (École de Magie) ou un Lynx (familier principal), mais a aussi une chance (plus faible) d'obtenir un peuple aléatoire du tableau.  
 
 | Peuple    | Familier principal | Illaun          | Tybied        | Cerddor         | Gwyrrd          | Draig       |
 |-----------|--------------------|-----------------|---------------|-----------------|-----------------|-------------|

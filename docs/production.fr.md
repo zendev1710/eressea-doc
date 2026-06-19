@@ -2,21 +2,20 @@
 # cSpell:locale fr
 alias: production-fr
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
+
 [](){ #production-fr-id }
 
 # Production
 
 Diverses choses peuvent être produites à Eressea.  
 
-Il existe des [[ressources]] (par exemple le fer, les pierres, le bois, les chevaux) et des [produits finis][objets] : diverses armes et armures, des [bateaux][bateaux-id], des chariots, des [bâtiments][batiments-id], des [[routes]] et des [potions][alchimie].  
+Il existe des [ressources][ressources] (par exemple le fer, les pierres, le bois, les chevaux) et des [produits finis][objets] : diverses armes et armures, des [bateaux][bateaux-id], des chariots, des [bâtiments][batiments-id], des [routes][routes-id] et des [potions][alchimie].  
 Pour pouvoir produire, il faut posséder les compétences appropriées.  
 
 La plupart des productions s"effectuent avec l'ordre [`MAKE`*`<number>`*` `*`item`*][cmd-make-fr], par exemple `MAKE Iron`, `MAKE Sword` ou `MAKE 15 Elvenbow`.  
 
 Selon l'objet, un niveau de compétence différent est requis pour pouvoir le produire.  
-La majorité des [[ressources]] ne nécessitent qu'une connaissance de base des compétences correspondantes (niveau 1), tandis que la plupart des [objets][objets] nécessitent des niveaux de compétence plus élevés.  
+La majorité des ressources][ressources] ne nécessitent qu'une connaissance de base des compétences correspondantes (niveau 1), tandis que la plupart des [objets][objets] nécessitent des niveaux de compétence plus élevés.  
 Pour les objets avec des valeurs de compétence minimales élevées, vous ne pouvez en fabriquer que quelques-uns.
 Dans tous les cas, **par unité et sur un tour**, vous ne pouvez produire qu’un seul type d’objet ou de ressource et travailler sur un seul bâtiment ou bateau.  
 
@@ -76,7 +75,7 @@ Pour faciliter la collecte, il existe une [réserve d'objets][reserve-d-objets-i
 - [Routes][routes-id]
 - [Bateaux][bateaux-id]
 - [[buildings]]
-- [[faction-pool]]
+- [Réserve de faction][reserve-de-faction]
 
 Poursuivre la lecture : [ressources][ressources].
 

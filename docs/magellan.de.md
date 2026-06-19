@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: magellan-de
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
+
 [](){ #magellan-de-id }
 
 # Magellan

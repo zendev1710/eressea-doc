@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: batiments-speciaux
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Bâtiments spéciaux
 
 Les bâtiments construits dans une région **procurent des avantages** importants aux unités qui les occupent.

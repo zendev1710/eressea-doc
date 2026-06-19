@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-hide
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # HIDE
 
 **`HIDE`**`[`*`level`*`]`  

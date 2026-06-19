@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-quit
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # QUIT
 
 **`QUIT`**`"<password>"`  

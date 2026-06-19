@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: cmd-option-fr
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # OPTION
 
 **OPTION**&nbsp;ADDRESSES|COMPUTER|PLAINTEXT|SCORE|SHOWSKCHANGE|STATISTICS|TEMPLATE&nbsp;&#91;NOT&#93;  
@@ -91,7 +90,7 @@ Avant d'être envoyé par email par le serveur au joueur, le fichier corresponda
 
 **À partir de l'évaluation 559**, les options  `ITEMPOOL` et  `SILVERPOOL` ont été activées par défaut et **ne sont plus désactivables**.  
 
-La [réserve d'objets][reserve-d-objets-id] et la [réserve d'argent][reserve-dargent] sont donc toujours actives.  
+La [réserve d'objets][reserve-d-objets-id] et la [réserve d'argent][reserve-d-argent-id] sont donc toujours actives.  
 
 !!! note "rappel"
     Les unités peuvent utiliser l'ordre [`RESERVE`][cmd-reserve-fr] pour sécuriser des objets, empêchant ainsi d'autres unités de les prendre et de les consommer.  

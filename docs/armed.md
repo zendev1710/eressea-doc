@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: armed
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Armed
 
 A unit is considered armed and ready for fight if it possesses a [combat skill][combat-skills] and at least one weapon of the corresponding type.

@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: einleitung
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Einleitung
 
 <!-- TODO: logo 180X180 - should be to the left or right part of the page -->

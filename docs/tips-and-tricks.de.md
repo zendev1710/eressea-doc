@@ -2,23 +2,32 @@
 # cSpell:locale de
 alias: tipps-und-tricks
 ---
-<!-- properdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Tipps und Tricks
 
 ## Man muss nicht immer reiten können
 
-Schon früh im Spiel lohnt sich Handel und Transport. Auch wenn man nicht reiten kann, kann man pro Person ein Pferd mit sich führen - was dann die Kapazität der Einheit von 5,4 auf 25,4 GE pusht (4 [Trolle][trolle] können sogar noch einen Wagen mitnehmen und kommen mit 4 Pferden auf eine Kapazität von 223,2 GE). So kann man mit ein paar wenigen Leuten schon Steine, Handelsgüter und anderes schweres Zeug herumtragen.
+Schon früh im Spiel lohnt sich Handel und Transport.  
+Auch wenn man nicht reiten kann, kann man pro Person ein Pferd mit sich führen - was dann die Kapazität der Einheit von 5,4 auf 25,4 GE pusht (4 [Trolle][trolle] können sogar noch einen Wagen mitnehmen und kommen mit 4 Pferden auf eine Kapazität von 223,2 GE).  
+So kann man mit ein paar wenigen Leuten schon Steine, Handelsgüter und anderes schweres Zeug herumtragen.
 
 ## Wie rüste ich meine Truppen aus?
 
-Die beste Rüstung ist Plattenpanzer + Schild. Wer nachrechnet, stellt fest das ein Kämpfer mit Schild, Rüstung und Schwert 6 GE trägt, und sich nicht bewegen kann. Deshalb hatten in früheren Tagen Ritter Knappen dabei - und in Eressea Pferde. Für je 20 GE Überlast gibt man der Einheit 1 Pferd und schon können sich die Truppen wieder bewegen. Wie schon erwähnt, braucht man dafür nicht einmal reiten können. Alternativ kann man pro 100 Personen auch 70 Plattenpanzer und 30 Kettenhemden ausrüsten, dann wiegt die Ausrüstung der Einheit genau 540 GE, also exakt so viel Gewicht wie sie maximal tragen kann.
+Die beste Rüstung ist Plattenpanzer + Schild.  
+Wer nachrechnet, stellt fest das ein Kämpfer mit Schild, Rüstung und Schwert 6 GE trägt, und sich nicht bewegen kann.  
+Deshalb hatten in früheren Tagen Ritter Knappen dabei - und in Eressea Pferde.  
+Für je 20 GE Überlast gibt man der Einheit 1 Pferd und schon können sich die Truppen wieder bewegen.  
+Wie schon erwähnt, braucht man dafür nicht einmal reiten können.  
+Alternativ kann man pro 100 Personen auch 70 Plattenpanzer und 30 Kettenhemden ausrüsten, dann wiegt die Ausrüstung der Einheit genau 540 GE, also exakt so viel Gewicht wie sie maximal tragen kann.
 
 (Teilt der Gegner pro Treffer einen sehr hohen Schaden aus, so kann es besser sein, den Plattenpanzer durch ein Kettenhemd zu ersezten oder gar ganz wegzulassen, weil sonst die höhere Trefferwahrscheinlichkeit nicht durch den Rüstungsschutz kompensiert wird.)
 
 ## Was sollen meine Truppen lernen?
 
-Truppen lernen Ausdauer + Waffentalent. Es gibt, abhängig von der Rasse, einen Punkt an dem man besser Ausdauer lernen sollte als das Waffentalent zu verbessern. Irgendwann kosten neue Stufen im Waffentalent nämlich soviel Lernzeit wie mehrere Stufen Ausdauer. Wo dieser Punkt erreicht ist, kann man sich ausrechnen, oder an den Waffentalenten der Feinde ausrichten - denn auf keinen Fall sollte man weit hinter den Feinden zurückbleiben.
+Truppen lernen Ausdauer + Waffentalent.  
+Es gibt, abhängig von der Rasse, einen Punkt an dem man besser Ausdauer lernen sollte als das Waffentalent zu verbessern.  
+Irgendwann kosten neue Stufen im Waffentalent nämlich soviel Lernzeit wie mehrere Stufen Ausdauer.  
+Wo dieser Punkt erreicht ist, kann man sich ausrechnen, oder an den Waffentalenten der Feinde ausrichten - denn auf keinen Fall sollte man weit hinter den Feinden zurückbleiben.
 
 Der Vorteil davon, zwei Talente zu lernen ist auch, das es leichter ist, immer Lehrer zu haben - für das eine oder andere Talent.
 
@@ -28,19 +37,28 @@ Unabhängig von der Rasse und den dadurch notwendigen Unterhaltern/Steuereintrei
 
 ## Handelsgüter einkaufen
 
-Bei übermäßigem Einkauf steigt zwar der Preis für das Handelsgut zeitweilig, aber solange er unter dem Verkaufspreis bleibt, sollte man trotzdem mehr kaufen. In der Regel kann man in weitaus mehr Regionen ein Gut verkaufen, als kaufen - und Händler können mehrere verschieden Güter pro Runde verkaufen. (Es gibt sogar Situationen, in denen es sinnvoll ist, Handelsgüter *über* dem maximalen Verkaufspreis einzukaufen, aber das führt vielleicht zu weit.)
+Bei übermäßigem Einkauf steigt zwar der Preis für das Handelsgut zeitweilig, aber solange er unter dem Verkaufspreis bleibt, sollte man trotzdem mehr kaufen.  
+In der Regel kann man in weitaus mehr Regionen ein Gut verkaufen, als kaufen - und Händler können mehrere verschieden Güter pro Runde verkaufen.  
+(Es gibt sogar Situationen, in denen es sinnvoll ist, Handelsgüter *über* dem maximalen Verkaufspreis einzukaufen, aber das führt vielleicht zu weit.)
 
 Mit Handel kann man große Mengen an Geld machen, das "aus dem Nichts" entsteht, also nicht vom Regionsvorrat der Bauern abgezogen wird, das sollte man sich auf keinen Fall entgehen lassen.
 
 ## Leben am Rande des Einheiten-Limits
 
-Hat eine Partei 2500 Einheiten (E3:250), so kann sie keine neuen Einheiten mehr erschaffen. Zunächst müssen einige Einheiten aufgelöst werden, in dem man mehrere Einheiten zusammenlegt (verhungern lassen, Kämpfe verlieren und GIB 0 geht natürlich auch). Da leere Einheiten aber erst kurz vor Ende der Befehlsreihenfolge aufgelöst werden, kann man auf die Weise erst in der nächsten Woche neue Einheiten erschaffen.
+Hat eine Partei 2500 Einheiten (E3:250), so kann sie keine neuen Einheiten mehr erschaffen.  
+Zunächst müssen einige Einheiten aufgelöst werden, in dem man mehrere Einheiten zusammenlegt (verhungern lassen, Kämpfe verlieren und GIB 0 geht natürlich auch).  
+Da leere Einheiten aber erst kurz vor Ende der Befehlsreihenfolge aufgelöst werden, kann man auf die Weise erst in der nächsten Woche neue Einheiten erschaffen.
 
-Manchmal kann man mit einem kleinen Trick doch noch beides in einer Runde erledigen: Einheit A übergibt alle ihre Personen an Einheit B. Die nun leere Einheit A kann sofort Rekrutieren (kommt nach GIB). Voraussetzung ist natürlich, dass man in der Region, in der man rekrutieren will auch zwei Einheiten hat, die man zusammenlegen kann.
+Manchmal kann man mit einem kleinen Trick doch noch beides in einer Runde erledigen: Einheit A übergibt alle ihre Personen an Einheit B.  
+Die nun leere Einheit A kann sofort Rekrutieren (kommt nach GIB).  
+Voraussetzung ist natürlich, dass man in der Region, in der man rekrutieren will auch zwei Einheiten hat, die man zusammenlegen kann.
 
 ## Bauern als Kundschafter
 
-[Umherwandernde Bauern][bauernwanderung] bringen aufschlußreiche Informationen aus Nachbarregionen mit. Erhöht sich die Zahl der Bauern einer Region plötzlich deutlich schneller als dies durch die natürliche [Bauernvermehrung][bauernvermehrung] erklärbar ist, dann sind aus Nachbarregionen zugewanderte Bauern die Ursache. Häufig sind dafür Monster verantwortlich, die sich in der Nachbarschaft eingenistet haben und dort Bauern verscheuchen. Die zweite Alternative sind Bauern, die in ihrer Heimat keine Arbeit finden.
+[Umherwandernde Bauern][bauernwanderung] bringen aufschlußreiche Informationen aus Nachbarregionen mit.  
+Erhöht sich die Zahl der Bauern einer Region plötzlich deutlich schneller als dies durch die natürliche [Bauernvermehrung][bauernvermehrung] erklärbar ist, dann sind aus Nachbarregionen zugewanderte Bauern die Ursache.  
+Häufig sind dafür Monster verantwortlich, die sich in der Nachbarschaft eingenistet haben und dort Bauern verscheuchen.  
+Die zweite Alternative sind Bauern, die in ihrer Heimat keine Arbeit finden.
 
 Fazit: Wer auf die Entwicklung der Bevölkerungszahl achtet, wirft damit auch einen Blick auf die Nachbarregionen.
 

@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-cast
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # CAST
 
 *[Short order][short-and-long-orders][^1].*  

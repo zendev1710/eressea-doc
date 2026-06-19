@@ -2,8 +2,6 @@
 # cSpell:locale de
 alias: andere-gebaeude
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
 
 [](){ #andere-gebaude-id }
 

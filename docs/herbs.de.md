@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: kraeuter
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
+
 [](){ #krauter-id }
 
 # Kräuter

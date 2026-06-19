@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-folge
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # FOLGE
 
 *[Kurzer Befehl][kurze-und-lange-befehle].*  

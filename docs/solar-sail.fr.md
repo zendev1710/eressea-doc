@@ -2,15 +2,14 @@
 # cSpell:locale fr
 alias: voile-solaire
 ---
-<!-- disable some rules due to of autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Voile Solaire
 
 <!-- cspell:disable -->
 *Solar sail (EN), Sonnensegel (DE).*
 <!-- cspell:enable -->
 
-La **Voile Solaire** était le [cadeau de Noël][noel] des Éresséens en 2004.  
+La **Voile Solaire** était le [cadeau de Noël][noel-id] des Éresséens en 2004.  
 
 À l'origine, elle permettait une accélération *unique et extrême* d'un [bateau][bateaux-id] (portée de +50 régions).  
 L'idée sous-jacente était de faciliter les contacts (pacifiques) entre différents peuples sur de grandes distances.  

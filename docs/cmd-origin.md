@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-origin
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # ORIGIN
 
 **`ORIGIN`**` `*`x y`*  

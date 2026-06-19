@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: deplacement-des-agriculteurs
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Déplacement des agriculteurs
 
 Les agriculteurs peuvent se déplacer d'une région à l'autre.  

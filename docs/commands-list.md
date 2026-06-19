@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: list-of-orders
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # List of orders
 
 Under `S`/`L` it is noted whether the [order][orders] is a Short or Long order.  
@@ -12,7 +11,7 @@ A unit can only execute one long order per round, but can execute any number of 
 `PL` denotes one [Pseudo-Long order][orders], which can be given multiple times to a unit.  
 However, no other long order can be executed.  
 
-More information: [[orders]].  
+More information: [orders][orders].  
 
 <!-- A link containing brackets (e.g. [BEWACHE  &#91;NICHT&#93;) cannot be used as a reference link -->
 <!-- instead, replace by HTML escape codes (e.g. [BEWACHE &#91;[NICHT&#93;) or use inline link [...](<link>) -->
@@ -26,7 +25,7 @@ More information: [[orders]].
 | [CARRY &lt;unit id&gt;]                                                    | Take other units with you                  | S      |
 | [CAST &#91;REGION x y&#93; &#91;LEVEL n&#93; "&lt;spell&gt;"...]           | Magic                                      | PL[^4] |
 | [CLAIM &lt;number&gt; &lt;item&gt;]                                        | Retrieves items from faction pool          | S      |
-| [[cmd-combat]]                                                             | Sets behavior in combat                    | S      |
+| [COMBAT][cmd-combat]                                                       | Sets behavior in combat                    | S      |
 | [COMBAT AGGRESSIVE]                                                        |                                            | S      |
 | [COMBAT DEFENSIVE]                                                         |                                            | S      |
 | [COMBAT FLEE]                                                              |                                            | S      |
@@ -44,7 +43,7 @@ More information: [[orders]].
 | [DESTROY &#91;level&#93;]                                                  | Reduce the size of a building or ship      | L      |
 | [DESTROY &#91;level&#93; STREET direction]                                 | Tear down the road                         | L      |
 | [EMAIL email@adresse]                                                      | Sets the email address                     | S      |
-| [[cmd-end]]                                                                | Completed MAKE TEMP                        | S      |
+| [END][cmd-end]                                                             | Completed MAKE TEMP                        | S      |
 | [ENTER BUILDING &lt;building id&gt;]                                       | Enters building                            | S      |
 | [ENTER SHIP &lt;ship id&gt;]                                               | Enters ships                               | S      |
 | [ENTERTAIN &#91;amount&#93;]                                               | Earned 20 or more silver                   | L      |
@@ -78,9 +77,9 @@ More information: [[orders]].
 | [LANGUAGE en/de]                                                           | changes the language of the faction        | S      |
 | [LEARN &lt;skill&gt;]                                                      | Learn skill                                | L      |
 | [LEARN AUTO &lt;skill&gt;]                                                 | Learning or teaching skill                 | L      |
-| [[cmd-leave]]                                                              | Schiff oder Gebäude verlassen              | S      |
+| [LEAVE][cmd-leave]                                                         | Schiff oder Gebäude verlassen              | S      |
 | [LOCALE en/de]                                                             | displays the language of the orders        | S      |
-| [[cmd-make]]                                                               | Continue to build buildings/ships          | L      |
+| [MAKE][cmd-make]                                                           | Continue to build buildings/ships          | L      |
 | [MAKE &#91;&lt;amount&gt;&#93; &lt;item&gt;]                               | MAKE an item or mine resources             | L      |
 | [MAKE &#91;&lt;amount&gt;&#93; &lt;HERBS&gt;]                              | Look for local herbs                       | L      |
 | [MAKE &#91;&lt;amount&gt;&#93; potion]                                     | MAKE an alchemical potion                  | L      |
@@ -104,7 +103,7 @@ More information: [[orders]].
 | [NAME REGION "&lt;name&gt;"]                                               |                                            | S      |
 | [NAME SHIP "&lt;name&gt;"]                                                 |                                            | S      |
 | [NAME UNIT "&lt;name&gt;"]                                                 | Names objects                              | S      |
-| [[cmd-next]]                                                               | Terminates orders                          | S      |
+| [NEXT][cmd-next]                                                           | Terminates orders                          | S      |
 | [NUMBER BUILDING &#91;neue-nr&#93;]                                        |                                            | S      |
 | [NUMBER FACTION &#91;neue-nr&#93;]                                         |                                            | S      |
 | [NUMBER SHIP &#91;neue-nr&#93;]                                            |                                            | S      |
@@ -129,7 +128,7 @@ More information: [[orders]].
 | [PLANT &#91;&lt;number&gt;&#93; MALLORNSEEDS]                              | Plants seeds                               | L      |
 | [PLANT &#91;&lt;number&gt;&#93; SEEDS]                                     | Plants seeds                               | L      |
 | [PREFIX &#91;prefix&#93;]                                                  | Gives the breed name a prefix              | S      |
-| [[cmd-promote]]                                                            | Turns unity into heroes                    | S      |
+| [PROMOTE][cmd-promote]                                                     | Turns unity into heroes                    | S      |
 | [QUIT "&lt;password&gt;" &#91;FACTION &lt;faction id&gt;&#93;]             | Leave the game                             | S      |
 | [RECRUIT &lt;number&gt;][recruiting]                                       | Recruits more people                       | S      |
 | [REGION x,y]                                                               | No function (only for tools)               | S      |
@@ -154,7 +153,7 @@ More information: [[orders]].
 | [TEACH &lt;unit id&gt; &#91;&lt;unit id&gt;&#93;...]                       | Teach units                                | L      |
 | [UNIT &lt;unit id&gt;]                                                     | Begins orders for a unit                   | S      |
 | [USE  &#91;&lt;number&gt;&#93; potion]                                     | Uses alchemical potion                     | S      |
-| [[cmd-work]]                                                               | Earns 10 silver or more                    | L      |
+| [WORK][cmd-work]                                                           | Earns 10 silver or more                    | L      |
 
 [^1]: the order is not always long, see [The end of the battle][the-end]
 [^2]: if the tracked unit does not move, another long order can be executed instead
@@ -163,10 +162,10 @@ More information: [[orders]].
 
 ## See also
 
-- [[orders]]
-- [[orders-sequence]]
+- [Orders][orders]
+- [Orders sequence][orders-sequence]
 
-Continue reading: [[first-round]].
+Continue reading: [the first round][first-round].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kurzbeschreibung&oldid=16741] -->
 
@@ -299,3 +298,11 @@ Continue reading: [[first-round]].
 [TEACH &lt;unit id&gt; &#91;&lt;unit id&gt;&#93;...]: [[cmd-teach]]
 [UNIT &lt;unit id&gt;]: [[cmd-unit]]
 [USE &#91;&lt;number&gt;&#93; potion]: [[cmd-use]]
+
+[cmd-combat]: [[cmd-combat]]
+[cmd-end]: [[cmd-end]]
+[cmd-leave]: [[cmd-leave]]
+[cmd-make]: [[cmd-make]]
+[cmd-next]: [[cmd-next]]
+[cmd-promote]: [[cmd-promote]]
+[cmd-work]: [[cmd-work]]

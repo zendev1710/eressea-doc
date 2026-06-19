@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: skills
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
+
 # Skills
 <!-- TODO: translate page in english -->
 

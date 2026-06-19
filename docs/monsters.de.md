@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: monster
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Monster
 
 Die Partei der Monster ist derzeit die einzige NPC-Partei in Eressea.

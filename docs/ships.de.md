@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: schiff
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Schiff
 
 Schiffe werden dem Befehl [**`MACHE`**&#91;*`stufen`*&#93;*`Schiffstyp`*][bef-mache] gebaut.  

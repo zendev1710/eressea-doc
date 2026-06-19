@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: talente
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+>
 # Talente
 
 Eine der wesentlichen Eigenschaften, die [Einheiten] in Eressea definieren, sind ihre Talente.  

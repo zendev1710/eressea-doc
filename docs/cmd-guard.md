@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-guard
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # GUARD
 
 **`GUARD`**`[NOT]`

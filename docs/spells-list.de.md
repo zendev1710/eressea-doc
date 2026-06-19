@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: zauberliste
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Zauberliste
 
 ## Alle Zauber

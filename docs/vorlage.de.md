@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: vorlage-de
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 -->
+
 [](){ #vorlage-de-id }
 
 # Vorlage

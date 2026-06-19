@@ -2,8 +2,6 @@
 # cSpell:locale en
 alias: ehmv
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 -->
 
 [](){ #ehmv-id }
 

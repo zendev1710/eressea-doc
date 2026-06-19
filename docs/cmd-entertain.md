@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-entertain
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # ENTERTAIN
 
 **`ENTERTAIN`**`[`*`Amount`*`]`  

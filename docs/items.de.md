@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: waren
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Waren
 
 ## Produktion von Waren

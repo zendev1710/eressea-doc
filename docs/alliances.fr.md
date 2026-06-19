@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: alliances-fr
 ---
-<!-- disable some rules due to of autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Alliances
 
 Les alliances constituent l'épine dorsale du monde, que ce soit en temps de guerre, de commerce ou de simple coopération pacifique.  

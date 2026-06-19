@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: entwicklung
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Entwicklung
 
 Diese Seite soll Entwickler verschiedener Tools oder Skriptentwickler zusammenführen bzw. auf Fragestellungen eingehen die sich immer wieder stellen.

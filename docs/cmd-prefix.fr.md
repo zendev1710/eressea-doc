@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: cmd-prefix-fr
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # PREFIX
 
 **`PREFIX`**`[`*`préfixe`*`]`  

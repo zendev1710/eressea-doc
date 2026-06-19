@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: eressea-fr
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Avant-propos
 
 ## Vue d'ensemble du jeu

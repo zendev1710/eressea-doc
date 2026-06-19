@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-bewache
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # BEWACHE
 
 **`BEWACHE`**`[NICHT]`  

@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: alliances
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Alliances
 
 Alliances form the backbone of the world, be it in war, trade or just peaceful cooperation.

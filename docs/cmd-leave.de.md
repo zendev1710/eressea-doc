@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-verlasse
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # VERLASSE
 
 **`VERLASSE`**  

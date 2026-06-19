@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: tybiedzauber
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Tybiedzauber
 
 ## Stufe 1

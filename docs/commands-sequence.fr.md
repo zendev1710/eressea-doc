@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: sequence-des-ordres
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Séquence des ordres
 
 Les ordres d'Eressea sont exécutés dans un ordre fixe.  
@@ -93,10 +92,9 @@ Cela ne signifie pas que les unités qui quittent un bateau peuvent attaquer dan
 
 ## Voir aussi
 
-- [[ordres]]
-- [[tableau-recapitulatif-des-ordres]]
+- [Ordres][ordres]
 
-Poursuivre la lecture : [[tableau-recapitulatif-des-ordres]].
+Poursuivre la lecture : [Tableau récapitulatif des ordres][tableau-recapitulatif-des-ordres].
 
 [^1]: ordres divisés "équitablement"; voir les [notes explicatives][notes-explicatives].
 

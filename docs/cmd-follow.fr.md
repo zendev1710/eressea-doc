@@ -50,7 +50,7 @@ Seul le premier est toujours exécuté.
 
 ## Voir aussi
 
-- [[deplacements]]
+- [Déplacements][deplacements]
 - [`MOVE`][cmd-move-fr]
 - [`ROUTE`][cmd-route-fr]
 - [`RIDE`][cmd-ride-fr]

@@ -2,10 +2,10 @@
 # cSpell:locale de
 alias: reports-de
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 -->
-<!-- TODO : translate in german -->
+
 # Reports
+
+<!-- TODO : translate in german -->
 
 [](){ #cr-de-id }
 

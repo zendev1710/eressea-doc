@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: troubleshooting
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Troubleshooting
 
 ## Errors in the Game
@@ -12,13 +11,16 @@ A program as big and complex as Eressea inevitably contains errors. The design t
 
 **If you can't live with that, you shouldn't play Eressea!**
 
-It is not possible to rerun a turn for an individual player. It's either all the players or none of them. Because of this, reruns are rarely ever done, and only if the bug affects a large number of players and is deemed threatening to their existence.
+It is not possible to rerun a turn for an individual player. It's either all the players or none of them.  
+Because of this, reruns are rarely ever done, and only if the bug affects a large number of players and is deemed threatening to their existence.
 
 It is also not always possible to compensate for or replace losses caused by errors, especially if people or objects such as ships or buildings are lost.
 
-Even then, it's still a decision that is made by the game masters alone, and is not guaranteed. Minor mistakes often affect many factions, so that on the whole it balances itself out.
+Even then, it's still a decision that is made by the game masters alone, and is not guaranteed.  
+Minor mistakes often affect many factions, so that on the whole it balances itself out.
 
-Every player is asked to make errors they encounter known to the game masters, also and especially if they profit from them. The best way to do this is to file [bug report][bug-report] on [Mantis].
+Every player is asked to make errors they encounter known to the game masters, also and especially if they profit from them.  
+The best way to do this is to file [bug report][bug-report] on [Mantis].
 
 ## Bug Report
 
@@ -43,10 +45,11 @@ Eressea is not without errors, but there are not many. If you think that you hav
 
 Please don't be impatient if you do not get an answer right away. If you need help right away, ask on [Discord].
 
-Bug fixes are generally not included into the running server right away if they are not serious. Instead, the new code is tested first and then rolled out quarterly after an announcement. This ensures the stability of future turns. So if a bug is marked as "resolved" this *does not* automatically imply that it won't happen again the next turn.
+Bug fixes are generally not included into the running server right away if they are not serious.  
+Instead, the new code is tested first and then rolled out quarterly after an announcement.  
+This ensures the stability of future turns. So if a bug is marked as "resolved" this *does not* automatically imply that it won't happen again the next turn.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Hinweise/en&oldid=13383] -->
 
 [Mantis]: http://bugs.eressea.de/
 [Discord]: https://discord.gg/KT5Fffh
-

@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: tybied-spells
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Tybied spells
 
 ## Level 1

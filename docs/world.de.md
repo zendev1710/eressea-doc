@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: welt
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Welt
 
 ## Die Landschaft von Eressea

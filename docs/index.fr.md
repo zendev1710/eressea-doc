@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: accueil
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Accueil
 
 Bienvenue dans [[eressea]] !
@@ -16,19 +15,19 @@ Ce site reprend les règles du jeu décrites dans le wiki, **entièrement tradui
 
 ## Pour débuter
 
-- Les [[regles]]
+- [Les règles][regles]
 - [L'inscription au jeu]
 - [E-Announce] : la mailing list pour les modifications de règles — **IMPORTANT** !
 - [Les outils indispensables pour jouer][ce-que-vous-devez-considerer-lors-de-la-saisie-des-ordres]
 - [Conseils pour les nouveaux joueurs][conseils-pour-debutants]
-- [L'histoire d'Eressea][histoire-d-eressea-id] : Eressea provient d'[[atlantis]]
+- [L'histoire d'Eressea][histoire-d-eressea-id] : Eressea provient d'[Atlantis][atlantis-fr-id]
 - [Questions fréquentes (FAQ)][questions-frequentes]
 
 ## Liens utiles
 
-- [[sequence-des-ordres]] : **la page la plus importante** des règles !
-- [[tactique]] - Combien de tacticiens pour quels bonus
-- [[familiers]] - Tout sur ces créatures magiques
+- [Séquence des ordres][sequence-des-ordres] : **la page la plus importante** des règles !
+- [Tactique][tactique] - Combien de tacticiens pour quels bonus
+- [Familiers][familiers-id] - Tout sur ces créatures magiques
 - [[developpement]] d'outils et de scripts
 - [Xontormia Express] - La gazette et ses [numéros archivés]
 - Les archives des [annonces] des changements de règles
@@ -76,8 +75,8 @@ Un jeu lancé par Solthar en 2017, basé sur les règles d'E3, avec 3 tours par 
 - Serveur [Discord] : tu pourras y trouver des joueurs sympas et des réponses à tes questions sur les règles, en Allemand, Anglais, Français et autres.
 - [Forum] d'Eressea (ancien)
 - [Mantis] - signaler des bugs
-- [Magellan]
-- [CSMapFx]
+- [Magellan][magellan-fr-id]
+- [CSMapFx][csmap-fr-id]
 - [Le wiki Eressea de Ralf Duckstein]
 - [Eressea sur Wikipedia]
 - La fameuse [carte du monde connu]
@@ -104,8 +103,6 @@ Poursuivre la lecture : [les règles][regles].
 [Inscription à Eressea]: https://www.eressea.de/?page_id=189&lang=en
 [Forum]: https://www.pbem-spiele.de/forum/viewforum.php?f=16
 [Mantis]: https://bugs.eressea.de/
-[Magellan]: https://magellan2.github.io
-[CSMapFx]: https://www.eressea.kn-bremen.de/downloads/
 [Le wiki Eressea de Ralf Duckstein]: http://wiki.duckstein.net/Eressea/Eressea
 [Eressea sur Wikipedia]: https://en.wikipedia.org/wiki/Eressea_(video_game)
 [carte du monde connu]: https://karten.adi.tz-o.de/Inselnamen.jpg

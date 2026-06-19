@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: cmd-make-fr
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # MAKE
 
 **`MAKE TEMP`**` `*`unit-alias-id`*`["`*`nom`*`"]`  
@@ -36,7 +35,7 @@ Les détails peuvent être trouvés dans le chapitre sur [l'alchimie][alchimie].
 ### Plantes
 
 Les plantes sont produites avec l'ordre `MAKE HERBS` par des unités maîtrisant l'[herboristerie].
-Pour plus de détails, voir le chapitre sur les [[plantes]].
+Pour plus de détails, voir le chapitre sur les [plantes][plantes-fr-id].
 
 ## Unités
 
@@ -123,7 +122,7 @@ Avec les bâtiments ainsi que les bateaux, vous pouvez spécifier avec *niveau* 
 ## Routes
 
 Pour faciliter les déplacements dans une région comportant des routes et des ponts, utilisez l'ordre `MAKE ROAD`*`direction`*.  
-Pour construire des [[routes]], l'unité a besoin de la compétence [construction de routes][construction-de-routes]{title="Roadwork"} et des [pierres][objets].  
+Pour construire des [routes][routes-id], l'unité a besoin de la compétence [construction de routes][construction-de-routes]{title="Roadwork"} et des [pierres][objets].  
 Dans les glaciers, il faut au préalable un [tunnel][tunnel-fr-id], dans les déserts un [caravansérail][caravanserail] et dans les marais un [barrage][barrage]{title="Dam"}.  
 Une pierre est utilisée par point de compétence en construction de route.
 Entre 50 et 250 pierres sont nécessaires pour chaque direction souhaitée, selon les [[terrain-types]].  

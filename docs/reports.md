@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: reports
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 -->
+
 # Reports
 
 [](){ #cr-id }

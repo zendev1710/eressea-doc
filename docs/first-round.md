@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: first-round
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # The first round
 
 ## The first report

@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-plant
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # PLANT
 
 *[long order][short-and-long-orders].*  

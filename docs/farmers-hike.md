@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: farmers-hike
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Farmers hike
 
 Farmers are able to move from region to region.  

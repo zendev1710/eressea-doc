@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-treibe
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # TREIBE
 
 *[Langer Befehl][kurze-und-lange-befehle].*

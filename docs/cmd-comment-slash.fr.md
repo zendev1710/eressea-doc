@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: cmd-comment-with-slashes-fr
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Commentaire //
 
 **`//`**` `*`Comment`*  

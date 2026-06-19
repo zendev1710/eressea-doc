@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: bottes-de-fee
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Bottes de fée
 
 <!-- cspell:disable -->

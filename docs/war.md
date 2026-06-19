@@ -3,8 +3,7 @@
 alias:
     - war
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # War
 
 Conflict is bound to arise in Eressea.  

@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: cerddorzauber
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Cerddorzauber
 
 ## Stufe 1

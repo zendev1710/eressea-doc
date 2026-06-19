@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-piraterie
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # PIRATERIE
 
 *[Langer Befehl][kurze-und-lange-befehle].*  

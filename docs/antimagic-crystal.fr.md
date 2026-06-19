@@ -2,6 +2,9 @@
 # cSpell:locale fr
 alias: cristal-dantimagie
 ---
+
+[](){ #cristal-d-anti-magie-id }
+
 # Cristal d'Antimagie
 
 <!-- cspell:disable -->

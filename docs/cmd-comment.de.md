@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-kommentar
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # KOMMENTAR (;)
 
 Das Semikolon ";" dient in Eressea-Befehlen der Markierung (temporärer) Kommentare. Einige dieser Kommentare werden "automatisch" eingefügt. Die Standard-[Zugvorlage][befehl] enthält zum Beispiel immer die Namen von Regionen und Einheiten, die Anzahl der Personen und deren Silbervorrat als Kommentar. Außerdem werden Kommentare auch genutzt, um dem Programm [[echeck]] bestimmte Informationen mitzuteilen, wie etwa den Lohn in einer Region.

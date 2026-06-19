@@ -3,7 +3,7 @@
 alias: sang-de-dragon
 ---
 
-# Sang de Dragon
+# Sang de dragon
 
 Du sang de dragon peut être obtenu lorsqu'un dragon est tué.
 

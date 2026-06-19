@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: tableaux-potions-et-plantes
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Tableaux : potions et plantes
 
 ## Liste des potions alchimiques et plantes

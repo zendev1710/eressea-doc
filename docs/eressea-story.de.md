@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: geschichte-von-eressea
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Geschichte von Eressea
 
 Laut [Wikipedia] startete Eressea am 27. August 1996.

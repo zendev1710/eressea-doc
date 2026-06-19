@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: cmd-move-fr
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # MOVE
 
 *Ordre [long][ordres-courts-et-longs].*  
@@ -51,7 +50,7 @@ LEARN Ride
 
 ## Voir aussi
 
-- [[deplacements]]
+- [Déplacements][deplacements]
 - [`ROUTE`][cmd-route-fr]
 - [`FOLLOW`][cmd-follow-fr]
 - [`DEFAULT`][cmd-default-fr]

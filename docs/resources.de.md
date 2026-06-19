@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: rohstoffe
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Natürliche Ressourcen
 
 Rohstoffe können ohne weitere Zutaten gewonnen direkt aus den Vorräten der [Region][welt] gewonnen werden.
@@ -109,7 +108,6 @@ Weiterlesen: [Waren][waren].
 <!-- From [https://wiki.eressea.de/index.php?title=Rohstoffe&oldid=16865] -->
 
 [Adamantium auf Wikipedia]: http://de.wikipedia.org/wiki/Adamantium
-
 
 [bef-helfe]: [[bef-helfe]]
 [bef-mache]: [[bef-mache]]

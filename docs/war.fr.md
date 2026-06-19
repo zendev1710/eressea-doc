@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: guerre
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD051 MD052 -->
+
 # Guerre
 
 Les conflits sont inévitables dans Eressea.  
@@ -489,7 +488,7 @@ Après une bataille en mer, vous pouvez toujours exécuter des ordres longs.
 
 ## Voir aussi
 
-- [[tactique]]
+- [Tactique][tactique]
 - [[war-tables]]
 
 Poursuivre la lecture : [[alliances]].

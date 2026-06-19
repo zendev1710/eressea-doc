@@ -2,19 +2,18 @@
 # cSpell:locale fr
 alias: modificateurs-de-competences
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
+
 [](){ #modificateurs-de-competences-id }
 
 # Modificateurs de compétences
 
-Les différents [peuples] ont, en plus de leurs capacités spéciales, des coûts de recrutement (silver) et des modificateurs différents sur les [[competences]]  
+Les différents [peuples] ont, en plus de leurs capacités spéciales, des coûts de recrutement (silver) et des modificateurs différents sur les [compétences][competences]  
 Les caractéristiques et modificateurs de compétences sont répertoriés dans le tableau ci-dessous.  
 
 | Compétence                                                             | [Nains][nains]{title="Dwarves"} | [Orcs][orcs-fr-id]{title="Orcs"} | [Elfes][elfes]{title="Elves"} | [Chats][chats]{title="Cats"} | [Démons][demons-fr-id]{title="Demons"} | [Halfelins][halfelins]{title="Halflings"} | [Humains][humains]{title="Humans"} | [Gobelins][gobelins]{title="Goblins"} | [Insectes][insectes]{title="Insects"} | [Trolls][trolls-fr-id]{title="Trolls"} | [Aquariens][aquariens]{title="Aquarians"} |
 |------------------------------------------------------------------------|--------------------------------:|---------------------------------:|------------------------------:|-----------------------------:|---------------------------------------:|------------------------------------------:|-----------------------------------:|--------------------------------------:|--------------------------------------:|---------------------------------------:|------------------------------------------:|
 | [Discrétion][skill-discretion-id]{title="Stealth"}                     |                              -1 |                                0 |                            +1 |                           +1 |                                     +1 |                                        +1 |                                  0 |                                    +1 |                                    -1 |                                     -3 |                                         0 |
-| [Construction navale]                                                  |                              -1 |                               -1 |                            -1 |                           -1 |                                     -1 |                                        -1 |                                 +1 |                                    -2 |                                     0 |                                     -1 |                                        +3 |
+| [Construction navale][skill-construction-navale-id]{title="Shipcraft"} |                              -1 |                               -1 |                            -1 |                           -1 |                                     -1 |                                        -1 |                                 +1 |                                    -2 |                                     0 |                                     -1 |                                        +3 |
 | [Divertissement][skill-divertissement-id]{title="Entertainment"}       |                              -1 |                               -2 |                             0 |                            0 |                                     -3 |                                        +1 |                                  0 |                                    -1 |                                    -2 |                                     -1 |                                         0 |
 | [Sylviculture][sylviculture]{title="Forestry"}                         |                              -1 |                               +1 |                             0 |                            0 |                                     +1 |                                         0 |                                  0 |                                     0 |                                    +1 |                                      0 |                                         0 |
 | [Tir à l'arc][tir-a-larc]{title="Bow"}                                 |                              -1 |                                0 |                            +2 |                            0 |                                      0 |                                        -1 |                                  0 |                                     0 |                                    -2 |                                     -2 |                                         0 |
@@ -50,6 +49,6 @@ Les caractéristiques et modificateurs de compétences sont répertoriés dans l
 !!! note
     Dans le rapport, ces modificateurs sont déjà pris en compte, ce qui signifie que le niveau effectif est toujours affiché.
 
-Poursuivre la lecture : [[competences]].
+Poursuivre la lecture : [compétences][competences].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Talentmodifikatoren/fr&oldid=14952] -->

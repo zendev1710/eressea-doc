@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: reisen
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Reisen
 
 In Eressea gibt es mehrere Möglichkeiten, sich fortzubewegen: zu Fuß gehen, auf Pferden reiten oder auf Schiffen über Ozeane segeln.  

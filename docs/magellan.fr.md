@@ -2,13 +2,12 @@
 # cSpell:locale fr
 alias: magellan-fr
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
+
 [](){ #magellan-fr-id }
 
 # Magellan
 
-[Magellan] est un client à part entière d'Eressea.  
+[Magellan][magellan-ext] est un client à part entière d'Eressea.  
 Vous pouvez l'utiliser pour afficher votre carte, rechercher, donner des ordres, et tout ce qu'il vous reste à faire est de quitter le programme pour écrire des emails à vos alliés...Presque  
 
 Magellan est en mode de développement modéré, et évolue principalement lors de modifications du serveur.  
@@ -46,7 +45,7 @@ La dernière version de Magellan est disponible sur cette [page de téléchargem
 
 ## Liens externes
 
-- [Magellan]
+- [Magellan][magellan-ext]
 - [Page de téléchargement de Magellan][page de téléchargement]
 - [Bug tracker pour Magellan][bug tracker]
 - [Code source de Magellan (pour les développeurs)]
@@ -56,6 +55,6 @@ La dernière version de Magellan est disponible sur cette [page de téléchargem
 
 [bug tracker]: https://magellan2.github.io/bugs/
 [page de téléchargement]: https://magellan2.github.io/en/download/
-[Magellan]: https://magellan2.github.io/en
+[magellan-ext]: https://magellan2.github.io/en
 [Code source de Magellan (pour les développeurs)]: https://github.com/magellan2
 [Magellan 1]: http://sourceforge.net/projects/magellan-client

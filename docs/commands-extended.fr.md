@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: extended-commands-fr
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # `Extended Commands`
 
 `Extended Commands` est un plugin pour [Magellan][magellan-fr-id] inclus dans la distribution standard et permettant d'automatiser les ordres.  
@@ -509,6 +508,4 @@ int metaGetUnitSkillLevel(Unit unit, String skillName) { // actually copied from
 
 <!-- From [https://wiki.eressea.de/index.php?title=ExtendedCommands&oldid=5882] -->
 
-<!-- TODO: add to magellan.md -->
-<!-- [Magellan]: http://magellan-client.sf.net -->
 [site web officiel]: http://magellan.narabi.de/plugins_extcmds_en.php

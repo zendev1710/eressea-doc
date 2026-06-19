@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-spioniere
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # SPIONIERE
 
 *[Langer Befehl][kurze-und-lange-befehle].*  

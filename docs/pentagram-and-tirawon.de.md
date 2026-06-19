@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: pentagramm-und-tirawon
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Pentagramm und Tirawon
 
 Die Bündnisse **"Das Pentagramm"** und **"Ewiges Feuer von Tirawon / Grüne Hand Salassars"** waren zwei der mächtigsten Großbündnisse der 6. Welt und herrschten jeweils über mehrere hundert Regionen. In der Runde 381 (letzte Woche des Monats Sturmmond im Jahre 8 des zweiten Zeitalters) trafen ihre aufeinander ...

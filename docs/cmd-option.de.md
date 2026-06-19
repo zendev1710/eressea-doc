@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-option
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # OPTION
 
 **`OPTION`**` `*`option`*`[NICHT]`  

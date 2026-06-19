@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: proliferation-des-agriculteurs
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Prolifération des agriculteurs
 
 Les agriculteurs se reproduisent au rythme de 1 pour mille par semaine.  

@@ -2,8 +2,6 @@
 # cSpell:locale fr
 alias: bourse-d-argent
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 -->
 
 [](){ #bourse-d-argent-id }
 

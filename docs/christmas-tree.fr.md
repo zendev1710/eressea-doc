@@ -2,6 +2,9 @@
 # cSpell:locale fr
 alias: sapin-de-noel
 ---
+
+[](){ #sapin-de-noel-id }
+
 # Sapin de Noël
 
 **Le Sapin de Noël** était le cadeau de Noël d'Eressean en 2006.  

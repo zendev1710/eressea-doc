@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: competences
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Compétences
 
 Les compétences sont un élément essentiel qui définit une [unité][cmd-unit-fr] dans Eressea.
@@ -82,45 +81,50 @@ L'unité s2 n'est enseignée qu'à moitié en endurance et n'apprend donc que 50
     Avec l'ordre [`LEARN-AUTO`][cmd-learn-auto-fr], le serveur tente d'automatiser l'apprentissage et l'enseignement dans une région.  
     Cependant, comme cela est dû à une simple heuristique, il n’est pas garanti qu’une chaîne d’apprentissage optimale (à long terme) soit créée.  
 
-[[magie]], [alchimie][alchimie]{title="Alchemy"}, [herboristerie][herboristerie]{title="Herbalism"}, [espionnage][skill-espionnage-id]{title="Espionage"} et [tactique][tactique] sont des compétences particulièrement difficiles à acquérir et coûteuses.
-Apprendre l'espionnage coûte 100 Silver par personne et par tour.
-200 Silver par personne et par semaine pour l'alchimie, l'herboristerie et la tactique.
-Apprendre la magie coûte facilement plusieurs milliers de Silver à des niveaux élevés (voir ce [tableau][magie]).
-L'unité qui apprend une de ces compétences doit avoir en sa possession cette somme.
-Le fait que l'unité reçoive ou non un enseignement n'a aucune incidence sur le coût.
-Si l'unité est dans une [académie][academie]{title="Academy"}, le coût d'apprentissage des compétences payantes est doublé.
+[La magie][magie-fr-id], [l'alchimie][alchimie]{title="Alchemy"}, [l'herboristerie][herboristerie]{title="Herbalism"}, [l'espionnage][skill-espionnage-id]{title="Espionage"} et [la tactique][tactique] sont des compétences particulièrement difficiles à acquérir et coûteuses.  
+Apprendre l'espionnage coûte 100 Silver par personne et par tour.  
+200 Silver par personne et par semaine pour l'alchimie, l'herboristerie et la tactique.  
+Apprendre la magie coûte facilement plusieurs milliers de Silver à des niveaux élevés (voir ce [tableau][magie]).  
+L'unité qui apprend une de ces compétences doit avoir en sa possession cette somme.  
+Le fait que l'unité reçoive ou non un enseignement n'a aucune incidence sur le coût.  
+Si l'unité est dans une [académie][academie]{title="Academy"}, le coût d'apprentissage des compétences payantes est doublé.  
 
-Si l'unité en apprentissage ne dispose pas de suffisamment au moment du paiement, elle apprendra au prorata de la quantité de Silver dont elle dispose;
-par exemple si elle n'a que 500 Silver sur 550, ses chances d'apprendre diminueront d'environ 10%.
+Si l'unité en apprentissage ne dispose pas de suffisamment au moment du paiement, elle apprendra au prorata de la quantité de Silver dont elle dispose;  
+par exemple si elle n'a que 500 Silver sur 550, ses chances d'apprendre diminueront d'environ 10 %.  
 
-Dans de rares cas, une unité peut vouloir se débarrasser d'une compétence.
+Dans de rares cas, une unité peut vouloir se débarrasser d'une compétence.  
 Ceci est possible avec l'ordre [`FORGET`][cmd-forget-fr].
 
 ## Mélanger les compétences
 
-Lorsque des personnes sont transférées ou recrutées dans une unité existante, les nouveaux niveaux de compétences sont calculés en fonction du nombre de semaines d'apprentissage que les deux unités ont eu.
-Il peut arriver que des semaines d'apprentissage soient "perdues" en raison des effets d'arrondi.
-Tu devrais donc éviter autant que possible de fusionner inutilement des unités.
+Lorsque des personnes sont transférées ou recrutées dans une unité existante, les nouveaux niveaux de compétences sont calculés en fonction du nombre de semaines d'apprentissage que les deux unités ont eu.  
+Il peut arriver que des semaines d'apprentissage soient "perdues" en raison des effets d'arrondi.  
+Tu devrais donc éviter autant que possible de fusionner inutilement des unités.  
 
 **Exemple :**
 
-Une unité de deux personnes avec "melee" 5 recrute un paysan. Les deux personnes ont chacune étudié environ 15 semaines (à savoir 1+2+3+4+5) avant de passer au niveau 5. Les paysans n'ont pas de compétence, on ajoute donc 0. La nouvelle unité a donc environ 30 semaines d'apprentissage. Cela correspond à 3 personnes avec "melee" 4 (1+2+3+4=10 semaines par personne). La nouvelle unité est donc de niveau 4.
+Une unité de deux personnes avec "melee" 5 recrute un paysan.  
+Les deux personnes ont chacune étudié environ 15 semaines (à savoir 1+2+3+4+5) avant de passer au niveau 5.  
+Les paysans n'ont pas de compétence, on ajoute donc 0. La nouvelle unité a donc environ 30 semaines d'apprentissage.  
+Cela correspond à 3 personnes avec "melee" 4 (1+2+3+4=10 semaines par personne).  
+La nouvelle unité est donc de niveau 4.
 
 Pour le calcul des semaines d'apprentissage, tout comme pour l'apprentissage, ce sont les valeurs de compétences "brutes" qui comptent, auxquelles sont d'abord soustraits tous les bonus et malus tels que les bonus raciaux.
 
 Expérience de jeu (Solthar):
 
-En fait, la question est plus compliquée.
-Cependant, vous pouvez ignorer cette étape si vous lisez ce guide pour la première fois.
-Chaque fois qu'une unité avance d'un niveau, un dé est lancé pour déterminer combien de semaines il lui faudra pour passer au niveau suivant.
-Cela donne une valeur comprise entre 1 et (2 x nouveau niveau − 1).
-Une unité peut donc avoir un talent compris entre (6,1) -cette notation signifie niveau 6 et encore une semaine avant la promotion -et (6,13).
-Cette valeur est prise en compte lors du mélange.
-Par exemple, si vous mélangez une personne avec (5,6) et une personne avec (1,2) – qui correspondent toutes deux exactement à la moyenne – elles auront un total de 16 semaines d’apprentissage.
-Cependant, deux personnes avec (3,4) ne correspondent qu’à 12 semaines d’apprentissage.
-La différence de deux semaines par personne sera « créditée » à la nouvelle unité.
-Il a donc (3,2) - un peu mieux que la moyenne.
+En fait, la question est plus compliquée.  
+Cependant, vous pouvez ignorer cette étape si vous lisez ce guide pour la première fois.  
+Chaque fois qu'une unité avance d'un niveau, un dé est lancé pour déterminer combien de semaines il lui faudra pour passer au niveau suivant.  
+Cela donne une valeur comprise entre 1 et (2 x nouveau niveau − 1).  
+Une unité peut donc avoir un talent compris entre (6,1) -cette notation signifie niveau 6 et encore une semaine avant la promotion -et (6,13).  
+Cette valeur est prise en compte lors du mélange.  
+Par exemple, si vous mélangez une personne avec (5,6) et une personne avec (1,2) – qui correspondent toutes deux exactement à la moyenne – elles auront un total de 16 semaines d’apprentissage.  
+Cependant, deux personnes avec (3,4) ne correspondent qu’à 12 semaines d’apprentissage.  
+La différence de deux semaines par personne sera « créditée » à la nouvelle unité.  
+Il a donc (3,2) - un peu mieux que la moyenne.  
 
+<!-- TODO translate -->
 If you mix (5,1) and (1,1), i.e. people who have almost made it to the next climb, you would even get (4,4).
 However, mixing (5,11) and (1,3) results in (3,5) as the new value. So it is not possible to accurately predict the talent value of a mixed unit.
 Only a minimum and maximum value can be specified.
@@ -156,7 +160,7 @@ Les compétences de production sont les suivantes :
 Pour plus d'information, consulter les chapitres :
 
 - [Production][production-fr-id]
-- [[alchimie]]
+- [L'alchimie][alchimie-id]
 
 ### Compétences de gain d'argent
 
@@ -176,7 +180,7 @@ L'équitation est également abordée dans le chapitre des [combats][tableaux-re
 
 ### La magie
 
-La [[magie]] est une compétence aux pouvoirs particulièrement puissants.
+La [magie][magie-fr-id] est une compétence aux pouvoirs particulièrement puissants.
 
 ### Compétences de combat
 
@@ -195,9 +199,9 @@ Les autres compétences essentielles au combat sont :
 - [équitation][equitation]{title="Riding"}
 - [tactique][tactique]{title="Tactics"}
 
-Toutes ces compétences sont particulièrement importantes dans les [batailles][guerre], que ce soit contre d'autres factions ou des [[monstres]].
+Toutes ces compétences sont particulièrement importantes dans les [batailles][guerre], que ce soit contre d'autres factions ou des [monstres][monstres].
 
-Poursuivre la lecture : [[liste-des-competences]].
+Poursuivre la lecture : [liste des compétences][liste-des-competences].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Talente/fr&oldid=16177] -->
 

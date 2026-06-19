@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: arme-et-pret-au-combat
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Armé et prêt au combat
 
 Une unité est considérée comme armée et prête au combat*si elle possède une [compétence de combat][competences-de-combat] et est équipée d'au moins une arme du type correspondant.  

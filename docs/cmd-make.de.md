@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-mache
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # MACHE
 
 *[Langer Befehl][kurze-und-lange-befehle].*

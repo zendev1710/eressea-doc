@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: sorts-tybied
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Sorts Tybied
 
 Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de niveau croissant.  
@@ -303,7 +302,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 ## Niveau 7
 
-### Créer un [Cristal d'Antimagie][cristal-dantimagie]{title="Antimagic Crystal"}
+### Créer un [Cristal d'Antimagie][cristal-d-anti-magie-id]{title="Antimagic Crystal"}
 
 <!-- cspell:disable -->
 *Create An Antimagic Crystal (EN), Erschaffe Antimagiekristall (DE)*.
@@ -479,7 +478,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 `COMBATSPELL [LEVEL n] "Shield Shine"`  
 
-### Invocation du Familier
+### Invocation du familier
 
 <!-- cspell:disable -->
 *Summon Familiar (EN), Vertrauten rufen (DE)*.

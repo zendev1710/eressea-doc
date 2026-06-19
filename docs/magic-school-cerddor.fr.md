@@ -2,8 +2,6 @@
 # cSpell:locale fr
 alias: sorts-cerddor
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
 
 # Sorts Cerddor
 
@@ -417,7 +415,7 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 
 `CAST [LEVEL n] "Rite of Acceptance" <unit-id>`  
 
-### Invocation du Familier
+### Invocation du familier
 
 <!-- cspell:disable -->
 *Summon Familiar (EN), Vertrauten rufen (DE)*.

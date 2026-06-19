@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-forsche
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # FORSCHE
 
 *[Langer Befehl][kurze-und-lange-befehle].*  

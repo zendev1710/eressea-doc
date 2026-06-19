@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: orders-sequence
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Orders sequence
 
 Eressea's orders are evaluated in a fixed sequence. Orders with the same number are executed at the same time or the exact sequence is irrelevant.

@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: grundlagen
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Grundlagen
 
 Nur weil es in Eressea keinen Gewinner gibt, heißt das nicht, das man nicht verlieren kann.

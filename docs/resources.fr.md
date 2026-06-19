@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: ressources
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Ressources
 
 Les matières premières peuvent être obtenues directement à partir des réserves des [régions][le-monde-d-eressea-id] sans aucun autre ingrédient.  
@@ -215,7 +214,7 @@ Plus d'information : [liste des plantes][liste-des-plantes].
 
 - [Production][production-fr-id]
 - [Objets][objets]
-- [[routes]]
+- [Routes][routes-id]
 - [Bâtiments][batiments-id]
 
 Poursuivre la lecture : [objets][objets].

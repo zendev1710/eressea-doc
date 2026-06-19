@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: familiars
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Familiars
 
 Familiars are always particularly intelligent representatives of their species, but they are rarely gifted with magic on their own.  

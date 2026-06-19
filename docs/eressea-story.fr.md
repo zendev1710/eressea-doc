@@ -2,15 +2,13 @@
 # cSpell:locale fr
 alias: histoire-d-eressea
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
 
 [](){ #histoire-d-eressea-id }
 
 # Eressea depuis ses débuts
 
 Selon [Wikipedia], Eressea a été lancé le 27 août 1996.
-Il a été développé en tant que spin-off d'[[atlantis]].
+Il a été développé en tant que spin-off d'[Atlantis][atlantis-fr-id].
 La popularité était sujette à des fluctuations relativement fortes.
 Le record était de plus de 2 000 factions début 2002.
 Fin 2005, il y avait pour la première fois moins de 1 000 factions.
@@ -224,7 +222,7 @@ La grande majorité de ces changements concerne les peuples et les règles de co
 - Der Kalender wird verändert. Statt in Monaten wird nun in Wochen gerechnet. Ein Jahr besteht aus 9 Monaten mit je 3 Wochen. Die Monate sind: Eiswind, Schneebann, Blütenregen, Mond der milden Winde, Sonnenfeuer, Feldsegen, Nebeltage, Sturmmond und Herdfeuer. Als Winter (für die Insektenrekrutierung wichtig) gelten Herdfeuer, Eiswind und Schneebann. In den Monaten Schneebann, Nebeltage und Sturmmond toben die Stürme auf See besonders heftig. Die Auswirkung von Stürmen wird verändert: ein Schiff, welches in einen Sturm gerät, steht jetzt vor größeren Problemen als bisher.
 - Les ordres `DELIVER`, `RESERVE` et `//` sont désormais exécutés jusqu'à ce que des ordres contraires soient reçus pour une unité. Par exemple, si le joueur provoque un NMR, ces ordres seront toujours exécutés
 - Le sang de paysans affecte 100 démons dans une région, et non plus une seule unité
-- Les Familiers et l'Astral sont introduits dans le jeu
+- Les familiers et l'Astral sont introduits dans le jeu
 
 ### "Réforme des matières premières" - Date et tour inconnus
 
@@ -343,7 +341,7 @@ Peu de temps après, les inscriptions seront à nouveau possibles contre un don 
 
 17.04.2005 - RESTART, poids, etc.
 
-04.05.2005 -Le [[xontormia-express]] réapparaît après une pause sous un nouvel éditeur
+04.05.2005 -Le [Xontormia Express][xontormia-express-fr-id] réapparaît après une pause sous un nouvel éditeur
 
 05.06.2005 - Réforme de l'Astral (à partir du tour 430) etc.
 
@@ -387,7 +385,7 @@ Peu de temps après, les inscriptions seront à nouveau possibles contre un don 
 
 02.03.2008 - Xontormia Express
 
-- Après que les articles n'aient été publiés que de manière très irrégulière ces derniers mois, le dernier numéro de [[xontormia-express]] est en cours de publication.
+- Après que les articles n'aient été publiés que de manière très irrégulière ces derniers mois, le dernier numéro de [Xontormia Express][xontormia-express-fr-id] est en cours de publication.
 
 28.04.2008 - Un identifiant est associé à chaque région
 

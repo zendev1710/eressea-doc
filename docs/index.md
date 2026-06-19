@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: home
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Home
 
 Welcome to [[eressea]]!
@@ -74,7 +73,7 @@ A game started by Solthar in 2017 that featured E3 rules with a few tweaks and 3
 - [Discord] server: you can find friendly players and answers to your rules questions in German, English, and other languages here.
 - [Forum] for Eressea
 - [Mantis] - report bugs here
-- [Magellan]
+- [Magellan][magellan-ext]
 - [CSMapFx]
 - [Ralf Duckstein's Eressea wiki]
 - [Eressea on Wikipedia]
@@ -100,7 +99,7 @@ Continue reading: [rules][rules].
 [**Registration for E2 is open!**]: https://www.eressea.de/?page_id=189&lang=en
 [Forum]: https://www.pbem-spiele.de/forum/viewforum.php?f=16
 [Mantis]: https://bugs.eressea.de/
-[Magellan]: https://magellan2.github.io
+[magellan-ext]: https://magellan2.github.io
 [CSMapFx]: https://www.eressea.kn-bremen.de/downloads/
 [Ralf Duckstein's Eressea wiki]: http://wiki.duckstein.net/Eressea/Eressea
 [Eressea on Wikipedia]: https://en.wikipedia.org/wiki/Eressea_(video_game)

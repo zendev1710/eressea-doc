@@ -2,6 +2,9 @@
 # cSpell:locale fr
 alias: poussiere-d-etoile
 ---
+
+[](){ #poussiere-d-etoile-id }
+
 # Poussière d'étoile
 
 <div class="lore-dialogue">

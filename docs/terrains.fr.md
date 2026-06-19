@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: types-de-terrain
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Types de terrain
 
 <!-- TODO reorganize info. Some are partially duplicated in world.md -->
@@ -18,7 +17,7 @@ alias: types-de-terrain
 
 Dans ce milieu hostile, les déplacements et le commerce sont par nature limités.  
 
-Pour y construire des [routes][routes] et ainsi faciliter les déplacements, un [caravansérail][caravanserail]{title="Caravanserai"} doit y être au préalable érigé et fonctionnel.  
+Pour y construire des [routes][routes-id] et ainsi faciliter les déplacements, un [caravansérail][caravanserail]{title="Caravanserai"} doit y être au préalable érigé et fonctionnel.  
 Un caravansérail permet également d'y doubler le volume de commerce.  
 
 Les plantes qui poussent dans le désert sont le [tamaris][tamaris]{title="Waterfinder"}, le [peyote][peyote-fr-id]{title="Peyote"}, et la [pourriture de sable][pourriture-de-sable]{title="Sand reeker"}.  

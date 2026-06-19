@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: basics
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Basics
 
 Just because there is no winner in Eressea doesn't mean you can't lose.  

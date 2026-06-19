@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: war-tables
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # War tables
 
 This page lists combat-relevant properties of weapons, armor, and races.

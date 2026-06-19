@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-rekrutiere
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # REKRUTIERE
 
 **`REKRUTIERE`**` `*`anzahl`*  

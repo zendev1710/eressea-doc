@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-comment
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # ; COMMENT
 
 The semicolon “;” is used in Eressea orders to mark (temporary) comments.

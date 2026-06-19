@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: krieg
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Krieg
 
 Konflikte werden in Eressea nicht zu vermeiden sein. Es wird Streit um Silber, um Regionen, um Steuerrechte, um Handelsrouten und so weiter geben. Deswegen muss man sich immer nach Freunden und Alliierten umschauen, denn: "Freunde kommen und gehen, Feinde mehren sich."
@@ -131,12 +130,12 @@ Das können 0 bis 10 Personen sein, im langfristigen Mittel sind es aber etwa 3 
 ## Helden
 
 Helden sind besonders starke Kämpfer.
-Sie müssen zuvor mit dem Befehl [`BEFOERDERE`][bef-befoerdere] ernannt worden sein.
+Sie müssen zuvor mit dem Befehl [`BEFOERDERE`][bef-befordere-id] ernannt worden sein.
 Helden können in jeder Kampfrunde 5 mal angreifen.
 
 Achtung! Dies gilt nicht für magische Angriffe und auch nicht für Armbrüste und Katapulte.
 
-Für nähere Informationen siehe [`BEFOERDERE`][bef-befoerdere].
+Für nähere Informationen siehe [`BEFOERDERE`][bef-befordere-id].
 
 ## Der Kampf zwischen zwei Personen
 
@@ -407,7 +406,6 @@ Weiterlesen: [allianz][allianz].
 [`PIRATERIE <parteinummer> ...`]: [[bef-piraterie]]
 
 [bef-attackiere]: [[bef-attackiere]]
-[bef-befoerdere]: [[bef-befoerdere]]
 [bef-bewache]: [[bef-bewache]]
 [bef-folge]: [[bef-folge]]
 [bef-helfe]: [[bef-helfe]]

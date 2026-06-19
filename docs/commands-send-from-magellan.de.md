@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: befehle-von-magellan-verschicken
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Befehle von Magellan verschicken
 
 [Magellan][magellan-de-id] bietet die Möglichkeit des [E-Mail-Versands][befehle-einschicken] der Befehle direkt aus dem Programm.

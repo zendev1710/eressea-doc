@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: taktik
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Taktik
 
 Vor der Schlacht wird der beste Taktiker aller teilnehmenden Einheiten bestimmt. Die Seite mit den besten Taktiker gewinnt die sogenannte "Taktikerrunde": in einem geschickten Manöver lockt er die Feinde in einen Hinterhalt und seine Verbündeten können vor der ersten Kampfrunde überraschend mit einer bestimmten Chance zuschlagen, ohne dass der Feind in dieser Runde auch angreifen kann. Sind zwei oder mehr Taktiker verschiedener Seiten gleich gut, so können alle davon in der Taktikerrunde zuschlagen. Die Chance, diesen Schlag zu machen, beträgt 10% für jeden Talentpunkt Unterschied zwischen dem besten eigenen Taktiker und dem besten Taktiker der Gegenseite, jeweils inklusive Boni oder Mali. Ab einem Talentunterschied von 10 schlagen alle Verbündeten einmal zu. Für das Nachladen zählt die Taktikerrunde auch, eine Armbrust die in der Taktikerrunde geschossen hat schießt also in Runde 3 anstelle von Runde 4 das zweite Mal. Die Taktikerrunde erlaubt auch einen zusätzlichen Fluchtversuch.

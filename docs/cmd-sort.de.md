@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-sortiere
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # SORTIERE
 
 **`SORTIERE`**` VOR `*`einheit-nr`*  

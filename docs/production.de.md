@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: produktion
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Produktion
 
 Verschiedene Dinge können in Eressea produziert werden. Es gibt [Rohstoffe][rohstoffe] (z.B. Eisen, Steine, Holz, Pferde) und [Endprodukte][waren] (diverse Waffen und Rüstungen, [Schiffe][schiff] und Wagen, [Gebäude][gebaude-id] und [Straßen][strassen-id] und alchemistische [Tränke][tranke-id]). Um Dinge produzieren zu können, braucht man ein entsprechendes Talent. Die meisten Dinge werden mit dem Befehl [`MACHE`*`Anzahl`*` `*`Gegenstand`*] produziert, zum Beispiel `MACHE Eisen, MACHE Schwert` oder `MACHE 15 Elfenbogen`.

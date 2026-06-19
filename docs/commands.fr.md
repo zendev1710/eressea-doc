@@ -2,6 +2,7 @@
 # cSpell:locale fr
 alias: ordres
 ---
+
 # Ordres
 
 ## Conventions d'écriture
@@ -169,11 +170,11 @@ Bien entendu, cela comporte le risque que vous manquiez des erreurs auxquelles v
 
 ## Voir aussi
 
-- [[sequence-des-ordres]]
+- [Séquence des ordres][sequence-des-ordres]
 - [[tableau-recapitulatif-des-ordres]]
 - [`DEFAULT`][cmd-default-fr]
 
-Poursuivre la lecture : [[sequence-des-ordres]].
+Poursuivre la lecture : [séquence des ordres][sequence-des-ordres].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehl&oldid=16787] -->
 

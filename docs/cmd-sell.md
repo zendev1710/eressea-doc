@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-sell
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # SELL
 
 *`SELL` is like [`BUY`][cmd-buy], a [pseudo-long order][short-and-long-orders][^1].*  

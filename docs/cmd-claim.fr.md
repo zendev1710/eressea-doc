@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: cmd-claim-fr
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # CLAIM
 
 **`CLAIM`**` `*`Qté <objet>`*

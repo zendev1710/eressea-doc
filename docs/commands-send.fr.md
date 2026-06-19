@@ -2,15 +2,14 @@
 # cSpell:locale fr
 alias: envoi-des-ordres
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Envoi des ordres
 
 ## Ce dont vous avez besoin pour jouer à Eressea
 
 En plus de votre propre accès à la messagerie électronique, vous n'avez pas besoin de grand-chose pour jouer à Eressea.  
 
-Pour éditer les [[ordres]], un simple éditeur de texte suffit.  
+Pour éditer les [ordres][ordres], un simple éditeur de texte suffit.  
 Sous UNIX/Linux par ex. VI ou EMACS, sous Windows Notepad fonctionne également.  
 L'important, c'est que l'éditeur n'ajoute des sauts de lignes que là où vous en saisissez.  
 En aucun cas l'éditeur ne doit effectuer de renvoi à la ligne automatique pour des lignes trop longues, sinon les ordres pourraient ne pas être exécutés correctement.  
@@ -156,7 +155,7 @@ Cependant, avec les paramètres ECheck `-z -w4` utilisés ci-dessus, ECheck le r
 L'unité doit gagner de l'argent (par exemple avec [`ENTERTAIN`][cmd-entertain-fr] si elle possède déjà la compétence de divertissement, sinon avec [`WORK`][cmd-work-fr]).  
 Une autre possibilité est qu'une autre unité avec suffisamment d'argent se déplace vers la région de coordonnées (5, 3).  
 
-Tous les [[ordres]] peuvent être abrégés.  
+Tous les [ordres][ordres] peuvent être abrégés.  
 L'ordinateur prend simplement le premier mot qui correspond à l'ordre saisi :
 
 - `MO S` peut signifier soit `MOVE SOUTHEAST`, soit `MOVE SOUTHWEST`, auquel cas l'ordinateur ignore tous les autres ordres !
@@ -197,18 +196,17 @@ La date de l'email (Date : en-tête) fait office d'ordre.
 
 ## Voir aussi
 
-- [Le Monde d'Eressea][world]
-- [[first-round]]
-- [[ordres]]
+- [Le Monde d'Eressea][le-monde-d-eressea-id]
+- [Premier tour][premier-tour]
+- [Ordres][ordres]
 
-Poursuivre la lecture : [[remarques]].
+Poursuivre la lecture : [conseils][conseils].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Befehle\_einschicken&oldid=16786] -->
 
 [eressea-server@kn-bremen.de]: mailto:eressea-server@kn-bremen.de
 
 [Notepad++]: http://notepad-plus.sourceforge.net/
-[Magellan]: http://magellan-client.sf.net
 
 [cmd-comment-fr]: [[cmd-comment-fr]]
 [cmd-comment-with-slashes-fr]: [[cmd-comment-with-slashes-fr]]

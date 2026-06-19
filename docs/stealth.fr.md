@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: discretion
 ---
-<!-- disable some rules due to of autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
+
 [](){ #discretion-id }
 
 # Discrétion
@@ -70,6 +69,8 @@ Ensuite, que la tentative d'espionnage ait réussi ou non, on détermine la prob
 
 probabilité (en %) = 100 − E x 5 + P x 2
 
+[](){ #stealth-remarques-id }
+
 ## Remarques
 
 De nombreuses factions stockent leurs marchandises sur une unité très bien camouflée dans chaque région ([position de combat][cmd-combat-fr]: `COMBAT NOT` ou `COMBAT FLEE`).  
@@ -82,7 +83,7 @@ Outre ces utilisations passives de la dissimulation, il est bien sûr possible d
 - [`GUARD`][cmd-guard-fr]
 - [revenus][le-vol-la-methode-malhonnete]
 
-Poursuivre la lecture : [[deplacements]].
+Poursuivre la lecture : [Déplacements][deplacements].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tarnung/fr&oldid=16974] -->
 

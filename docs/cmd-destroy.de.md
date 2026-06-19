@@ -2,8 +2,6 @@
 # cSpell:locale de
 alias: bef-zerstoere
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
 
 [](){ #bef-zerstore-id }
 

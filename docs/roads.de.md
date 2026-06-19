@@ -2,10 +2,7 @@
 # cSpell:locale de
 alias: strassen
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
 
-<!-- NOTE: Straßen slugifyied/stringifyied result is straen, not human readable, so a specific id is used -->
 [](){ #strassen-id }
 
 # Straßen

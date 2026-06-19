@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: cs-map-de
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 -->
+
 [](){ #csmap-de-id }
 
 # CSMap

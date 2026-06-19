@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-grow
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # GROW
 
 *[long order][short-and-long-orders].*  

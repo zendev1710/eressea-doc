@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: list-of-spells
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # List of spells
 
 ## All spells

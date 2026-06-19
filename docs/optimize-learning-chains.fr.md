@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: chaines-d-apprentissage-optimisees
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Chaînes d'apprentissage optimisées
 
 ## Considérations préliminaires
@@ -141,7 +140,7 @@ Certaines chaînes typiques enseignant-élève sont présentées et discutées c
   Si vous le souhaitez, vous pouvez ignorer toute la structure pyramidale et simplement faire apprendre une unité sans enseignant.
   Plus une pyramide comporte de couches, plus elle apprend vite.
   Étant donné que le nombre de personnes nécessaires augmente d’un facteur 10 à chaque quart de travail, il existe des limites à la hauteur de la pyramide.
-- **Pyramide à double sommet** --L'unité enseignante située au sommet d'une pyramide apprend au moins les deux tiers du temps et peut enseigner au maximum un tiers du temps. 
+- **Pyramide à double sommet** --L'unité enseignante située au sommet d'une pyramide apprend au moins les deux tiers du temps et peut enseigner au maximum un tiers du temps.  
   Cependant, l'idéal serait que la première unité d'étudiants apprenne la moitié du temps (et transmette ses connaissances dans l'autre moitié).
   Cela conduit à l’idée d’utiliser non pas une seule unité enseignant au sommet mais deux.
   L’espoir que deux enseignants puissent ensuite enseigner à tour de rôle les deux tiers du temps s’avère trompeur.
@@ -180,7 +179,7 @@ Les unités de production veulent avoir beaucoup de temps pour travailler et n'a
 2. Le temps peut être divisé en petits détails.
   En fait, vous ne pouvez enseigner que chaque semaine.
   En pratique, cette division est également assez fine.
-3. « Enseigner » et « être enseigné » n’interfèrent pas l’un avec l’autre. 
+3. « Enseigner » et « être enseigné » n’interfèrent pas l’un avec l’autre.  
   Des situations telles que : S2 pourrait apprendre de S1, mais aussi enseigner à S3 ; S1 ne peut pas apprendre de L et S3 ne peut pas enseigner S4.
   Puisque S2 ne peut pas faire les deux en même temps, S1 ou S3 doivent apprendre sans professeur, ce qui leur fait perdre du temps.
   En fait, de telles situations ne peuvent (presque) se produire que dans la phase de démarrage.
@@ -189,20 +188,20 @@ Les unités de production veulent avoir beaucoup de temps pour travailler et n'a
 **Exemple de calcul**  
 pour une pyramide à trois niveaux (L,S1,S2) : pour chaque unité, il est indiqué quelle proportion de son temps elle passe à enseigner/apprendre sans professeur/enseigner/faire autre chose.
 
-- L ne peut pas être enseigné 
+- L ne peut pas être enseigné  
   Soit x la proportion de temps pendant laquelle L apprend.
   Alors il enseigne 1-x.
   Résultat : [0/x/1-x/0].
-- S1 est enseigné 1-x par L et apprend y sans professeur. 
+- S1 est enseigné 1-x par L et apprend y sans professeur.  
   Pour apprendre aussi vite que L, vous devez faire 2*(1-x)+y=x.
   Donc y=3*x-2.
   Le reste du temps[1-(1-x)-(3x-2)=2-2x]enseigne S1.
   Rendements[1-x /3x-2 /2-2x /0].
-- S2 apprend 2-2x par S1, le reste du temps (1-(2-2x)=2x-1) il fait autre chose. 
+- S2 apprend 2-2x par S1, le reste du temps (1-(2-2x)=2x-1) il fait autre chose.  
   Rendements[2-2x /0 /0 /2x-1].
-- Pour que tout le monde apprenne à la même vitesse, x = 2*(2-2x), donc x=4/5. 
-- La vitesse d'apprentissage est donc de 4/5 
-- Le temps non utilisé pour l'apprentissage (pondéré par la taille de l'unité) est de (100*3/5+10*0+1*0)/111=0,540540... 
+- Pour que tout le monde apprenne à la même vitesse, x = 2*(2-2x), donc x=4/5.  
+- La vitesse d'apprentissage est donc de 4/5  
+- Le temps non utilisé pour l'apprentissage (pondéré par la taille de l'unité) est de (100*3/5+10*0+1*0)/111=0,540540...  
   Trois unités et 111 personnes sont nécessaires
   Ci-dessous, nous spécifions cela sous la forme d'un 4-tuple (0,8000, 0,5405, 3, 111).
 
@@ -212,14 +211,14 @@ En comparaison, le même calcul suppose que chaque niveau doit apprendre 10 % de
   Soit x la proportion de temps pendant laquelle L apprend.
   Alors il enseigne 1-x.
   Résultat : [0/x/1-x/0].
-- S1 est enseigné 1-x par L et apprend y sans professeur. 
+- S1 est enseigné 1-x par L et apprend y sans professeur.  
   Puisque S1 doit apprendre 10 % de moins que L, ce qui suit s'applique : 2*(1-x)+y= 0.9x .
   Donc y=2,9x-2.
   Le reste du temps[1-(1-x)-(2.9x-2)=2-1.9x]enseigne S1.
   Rendements[1-x /2,9x-2 /2-1,9x /0].
-- S2 apprend 2-1,9x par S1 le reste du temps (1-(2-1,9x)=1,9x-1), il fait autre chose. 
+- S2 apprend 2-1,9x par S1 le reste du temps (1-(2-1,9x)=1,9x-1), il fait autre chose.  
   Rendements[2-1,9x /0 /0 /1,9x-1].
-- Pour que S2 0.9*0,9 = 0,81 fois plus vite que L apprend, doit être 0,81x = 2*(2-1,9x), donc x=0,8677. 
+- Pour que S2 0.9*0,9 = 0,81 fois plus vite que L apprend, doit être 0,81x = 2*(2-1,9x), donc x=0,8677.  
   Ainsi la vitesse d’apprentissage de L est de 0,8677, celle de S1 est de 0,7809 et celle de S2 est de 0,7028.
   En moyenne, cela fait 0,7113.
   Le temps non utilisé pour l'apprentissage (pondéré par la taille de l'unité) est de (100*0,6486+10*0+1*0)/111=0,5843.
@@ -230,20 +229,20 @@ La comparaison entre eux est plus intéressante (A est plus rapide que B)
 
 Maintenant en voici un **Aperçu de l’analyse de la chaîne d’apprentissage** pour les exemples ci-dessus.
 
-- Chaîne L-S (pyramide à 2 couches) : (0,6667, 0,6061, 2, 11) 
-- Pyramide à 3 couches, la couche intermédiaire n'apprend pas sans professeur : (0,6667, 0,6306, 3, 111). 
+- Chaîne L-S (pyramide à 2 couches) : (0,6667, 0,6061, 2, 11)  
+- Pyramide à 3 couches, la couche intermédiaire n'apprend pas sans professeur : (0,6667, 0,6306, 3, 111).  
   À chaque quart de travail supplémentaire, la proportion de temps non consacré aux études approche 0,6333.
   La vitesse d'apprentissage reste la même.
-- Pyramide à 3 couches, la couche intermédiaire apprend même sans professeur : (0,8000, 0,5405, 3, 111). 
-- Pyramide à 4 niveaux, les niveaux intermédiaires apprennent même sans professeur : (0,8571, 0,5143, 4, 1111). 
-- Pyramide à 5 niveaux, les niveaux intermédiaires apprennent même sans professeur : (0,8889, 0,5000, 5, 11111). 
-- Pyramide à 2 couches et double pointe : (0,8000, 0,5000, 3, 12). 
+- Pyramide à 3 couches, la couche intermédiaire apprend même sans professeur : (0,8000, 0,5405, 3, 111).  
+- Pyramide à 4 niveaux, les niveaux intermédiaires apprennent même sans professeur : (0,8571, 0,5143, 4, 1111).  
+- Pyramide à 5 niveaux, les niveaux intermédiaires apprennent même sans professeur : (0,8889, 0,5000, 5, 11111).  
+- Pyramide à 2 couches et double pointe : (0,8000, 0,5000, 3, 12).  
   Les pics supplémentaires agissent de la même manière que les couches supplémentaires d’une pyramide.
   L'efficacité est légèrement inférieure, moins de personnes sont nécessaires.
-- Deux enseignants (pour des compétences différentes) enseignant chacun l'un à l'autre et une unité d'étudiants : (1,0000, 0,4091, 3, 11). 
-- Deux professeurs (pour des compétences différentes) qui enseignent chacun uniquement à l'unité étudiante : (1,2222, 0,2778, 3, 12). 
+- Deux enseignants (pour des compétences différentes) enseignant chacun l'un à l'autre et une unité d'étudiants : (1,0000, 0,4091, 3, 11).  
+- Deux professeurs (pour des compétences différentes) qui enseignent chacun uniquement à l'unité étudiante : (1,2222, 0,2778, 3, 12).  
   Les élèves apprennent à une vitesse de 4/3, les professeurs seulement à 2/3.
-- Si trois professeurs enseignent trois compétences différentes, les élèves peuvent (presque) toujours apprendre avec le professeur. 
+- Si trois professeurs enseignent trois compétences différentes, les élèves peuvent (presque) toujours apprendre avec le professeur.  
   Malheureusement, il n'y a que quelques cas dans lesquels vous souhaitez apprendre trois compétences de manière permanente.
 
 ### Autres influences sur la vitesse

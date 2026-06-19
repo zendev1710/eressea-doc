@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: castles
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Castles
 
 Castles increase the peasants' income, enable trade luxury goods and, finally, offer their occupants protection in the event of an attack.  

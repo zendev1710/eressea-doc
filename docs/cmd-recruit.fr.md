@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: cmd-recruit-fr
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # RECRUIT
 
 **`RECRUIT`**` `*`number`*
@@ -13,7 +12,7 @@ Cela implique l'embauche de nouvelles personnes parmi les agriculteurs de la ré
 Selon le [peuple][peuples] auquel appartient votre faction, vous devez dépenser entre 40 et 150 Silver en [coût de recrutement][modificateurs-de-competences-id] par personne embauchée.  
 L'unité qui recrute de nouveaux membres doit posséder cet argent.  
 Lorsqu'une nouvelle unité est créée, vous devez lui donner l'argent nécessaire pour qu'elle puisse recruter.  
-Si l'unité qui recrute n'a pas assez d'argent, elle l'obtient de la [réserve d'argent][reserve-dargent].  
+Si l'unité qui recrute n'a pas assez d'argent, elle l'obtient de la [réserve d'argent][reserve-d-argent-id].  
 
 Vous ne pouvez recruter que des personnes du peuple de votre faction.  
 Les unités de [migrants][humains] ne recrutent donc plus de migrants.  

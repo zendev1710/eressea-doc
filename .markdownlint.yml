@@ -5,5 +5,6 @@ MD013: false
 # MD024: false
 # no-inline-html Inline HTML (br, sub, sup, etc.)
 MD033: false
-# MD040: false
-# MD046: false
+MD041: false
+MD042: false
+MD052: false

@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: pentagram-and-tirawon
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Pentagram and Tirawon
 
 The alliances **"The Pentagram"** and **"Eternal Fire of Tirawon /Green Hand of Salassar"** were two of the most powerful alliances in the 6th world and each ruled over several hundred regions.  

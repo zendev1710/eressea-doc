@@ -2,13 +2,12 @@
 # cSpell:locale en
 alias: fftools
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 -->
+
 [](){ #fftools-id }
 
 # FFTools
 
-FFTools2 are a plugin for [Magellan] for automatically creating orders for units.
+FFTools2 are a plugin for [Magellan][magellan-id] for automatically creating orders for units.
 
 On the [official site] there is an introduction, installation instructions and complete help for the individual orders.  
 Examples of usage are also available on the orders detail pages.  
@@ -26,10 +25,9 @@ As comments in the unit orders, they are sent to the Eressea server and sent bac
 If necessary, the script orders can be revised and another script run can be started until the desired result is achieved.  
 “Normal” Eressea orders can also be used in addition.
 
-FFTools2 creates its own menu structure in Magellan and also integrates into the context menu (right-click menu).  
+FFTools2 creates its own menu structure in [Magellan][magellan-id] and also integrates into the context menu (right-click menu).  
 In addition to the help pages, there is an extra FFTools channel on the Eressea Discord server.
 
 <!-- From [https://wiki.eressea.de/index.php?title=FFTools2&oldid=16883] -->
 
-[Magellan]: http://magellan-client.sf.net
 [official site]: http://fftools2.fietefietz.de/

@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: trucs-et-astuces
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Trucs et astuces
 
 ## Il n'est pas toujours nécessaire de savoir monter à cheval
@@ -131,7 +130,7 @@ Tout semble normal dans le rapport, mais l'unité surcharge le bateau en argent,
 
 ## Voir aussi
 
-- [Conseils][remarques]
+- [Conseils][conseils]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tipps\_und\_Tricks&oldid=6990] -->
 

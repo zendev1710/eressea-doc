@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: cmd-entertain-fr
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # ENTERTAIN
 
 **`ENTERTAIN`**`[`*`Amount`*`]`  
@@ -32,7 +31,7 @@ Il est aussi élevé que le surplus de revenu des agriculteurs.
 
 ## Voir aussi
 
-- [[argent]]
+- [Argent][argent]
 
 <!-- From [https://wiki.eressea.de/index.php?title=ENTERTAIN&oldid=16748] -->
 

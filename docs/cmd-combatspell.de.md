@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-kampfzauber
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # KAMPFZAUBER
 
 **`KAMPFZAUBER`**` [STUFE `*`n`*`] "<Zauberspruch>"`  

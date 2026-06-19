@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-spy
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # SPY
 
 *[long prder][short-and-long-orders].*

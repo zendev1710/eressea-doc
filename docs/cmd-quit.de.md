@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bef-stirb
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # STIRB
 
 **`STIRB`**`"Passwort"`  

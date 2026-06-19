@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: rapports
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 -->
+
 # Rapports
 
 [](){ #cr-fr-id }

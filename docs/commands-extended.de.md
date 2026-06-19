@@ -343,5 +343,5 @@ Auch das ist etwas komplizierter. Wird mittels metaBefehlChecker("partei#"); auf
 
 <!-- From [https://wiki.eressea.de/index.php?title=ExtendedCommands&oldid=5882] -->
 
-[Magellan]: http://magellan-client.sf.net
+[magellan-ext]: http://magellan-client.sf.net
 [offiziellen Seite]: http://magellan.narabi.de/plugins_extcmds_en.php

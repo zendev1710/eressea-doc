@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: beginner-tips
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Beginner tips
 
 When entering orders, make sure you have used the correct faction number and unit numbers.
@@ -42,7 +41,7 @@ and of course, tax collectors need the appropriate weapon skill ([tax collection
 
 [Perception][skill-perception-id] is a very important skill that is often underestimated by beginners.
 Only tax collectors are able to see camouflaged units and prevent them from [stealing][stealing-the-dishonest-way]! It's therefore worthwhile to recruit and train at least one Perceiver for each of your home regions right from the start.
-It's also advisable to build [[castles]] early, at least at level 2, and "trading posts" (required skills: [masonry][masonry] and [mining] for the stone and [castles building][buildings]) so that [trade][silver-trade-id] can be conducted.
+It's also advisable to build [castles][castles] early, at least at level 2, and "trading posts" (required skills: [masonry][masonry] and [mining] for the stone and [castles building][buildings]) so that [trade][silver-trade-id] can be conducted.
 Of course, training the necessary merchants and transports (usually cavalry) and equipping them with [horses and wagons][horse-and-carriage] is also essential.
 Understanding trade isn't easy for beginners, but it's worth the effort.
 
@@ -128,12 +127,12 @@ Don't let yourselves get annoyed or be carried away by rash decisions – the pl
 
 ## See also
 
-- [[tips-and-tricks]]
-- [[hints]]
-- [[first-round]]
-- [[basics]]
+- [Tips and tricks][tips-and-tricks]
+- [Hints][hints]
+- [The first round][first-round]
+- [Basics][basics]
 
-Continue reading: [[xontormia-express]].
+Continue reading: [Xontormia Express][xontormia-express-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Anfängertipps&oldid=17013] -->
 

@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: tete-de-serpent-de-mer
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Tête de serpent de mer
 
 <!-- cspell:disable -->

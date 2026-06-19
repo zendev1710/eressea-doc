@@ -2,14 +2,14 @@
 # cSpell:locale fr
 alias: reserve-d-objets
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
 
 [](){ #reserve-d-objets-id }
 
 # Réserve d'objets
 
 En particulier avec les factions volumineuses, les joueurs peuvent perdre le fil dans certaines régions, d'autant plus que "distribuer de l'argent" est plutôt ennuyeux, compliqué et n'ajoute pas grand-chose au plaisir du jeu.
+
+[](){ #reserve-d-argent-id }
 
 ## Réserve d'argent
 
@@ -204,7 +204,7 @@ Il y avait des réglages séparés pour l'argent et les autres objets.
 - [`RESERVE`][cmd-reserve-fr]
 - [[orders-sequence]]
 
-Poursuivre la lecture : la [[guerre]].
+Poursuivre la lecture : la [guerre][guerre].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Materialpool&oldid=17006] -->
 

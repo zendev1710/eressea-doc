@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: solar-sail
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Solar Sail
 
 The **Solar Sail** was the Eressians' [Christmas Gift][christmas] in 2004.  

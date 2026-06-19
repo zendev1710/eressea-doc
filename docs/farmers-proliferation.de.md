@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: bauernvermehrung
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Bauernvermehrung
 
 Bauern vermehren sich mit einer Rate von 1 Promille pro Woche. Es wird aufgerundet, d.h. in einer Woche kommen pro angefangene 1000 Bauern einer dazu.

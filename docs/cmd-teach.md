@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-teach
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # TEACH
 
 *[long order][short-and-long-orders].*

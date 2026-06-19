@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-give
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # GIVE
 
 ` `**`GIVE`**` `*`unit_ID amount item`*  

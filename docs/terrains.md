@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: terrain-types
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Terrain types
 
 [](){ #desert-id }

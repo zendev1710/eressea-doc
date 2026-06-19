@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: optimize-learning-chains
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Optimization of learning chains
 
 ## Preliminary considerations

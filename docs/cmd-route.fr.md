@@ -2,8 +2,7 @@
 # cSpell:locale fr
 alias: cmd-route-fr
 ---
-<!-- disable MD052 because of mkdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # ROUTE
 
 *Ordre [long][ordres-courts-et-longs].*  
@@ -47,7 +46,7 @@ Et finalement, l'ordre devient identique à l'ordre initial.
 
 ## Voir aussi
 
-- [[deplacements]]
+- [Déplacements][deplacements]
 - [`MOVE`][cmd-move-fr]
 - [`FOLLOW`][cmd-follow-fr]
 

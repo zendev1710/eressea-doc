@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: befehl
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Befehl
 
 ## Konventionen

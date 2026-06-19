@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: cmd-claim
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # CLAIM
 
 **`CLAIM`**` `*`Number Item`*

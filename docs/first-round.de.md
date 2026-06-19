@@ -2,12 +2,12 @@
 # cSpell:locale de
 alias: der-erste-zug
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Der erste Zug
 
 ## Der erste Report
 
+```text
 Hier ist ein Beispiel, wie der erste Report (1-37wj.nr) aussehen kann, den du nach der Anmeldung vom Server bekommst:
 
                     Report für E3, Wednesday, 01. July 2009, 19:56
@@ -65,171 +65,174 @@ Hier ist ein Beispiel, wie der erste Report (1-37wj.nr) aussehen kann, den du na
       * Partei 37wj (37wj): drac@example.de; (null)
 
     ------------------------------------------------------------------------------
+```
 
 ## Beispiel für eine Befehlsdatei
 
 Diese Befehlsdatei wurde in einer leicht veränderten Version tatsächlich als erster Zug in einem Spiel (für E3!) verwendet. Ob es ein besonders schlauer Anfang war, weiß ich selber auch nicht. Man beachte, dass Befehle über mehr als eine Zeile (hier die BESCHREIBE-Befehle mit einem \\ (Backslash) "verlängert" wurden. Falls du [Magellan][magellan-de-id] für deine Befehle benutzt, musst du dir darüber allerdings keine Gedanken machen.
 
-     ERESSEA 37wj "pwpw42"
-     ; du muss natürlich oben dein eigenes Passwort einsetzen
-     REGION 0,0 ; Cabyn
-     EINHEIT vdko;       Entdecker [1,5000$]
-       BENENNE EINHEIT "Dracheneinreiter"
-       ;
-       ; Das ist im Moment unsere erste und einzige Einheit,
-       ; erstmal ein paar grundsätzliche Einstellungen
-       BENENNE PARTEI "Der Drachenclan"
-       NUMMER PARTEI drac ; hoffentlich noch frei
-       OPTION PUNKTE ; Wird erst ab Runde 13 angezeigt
-       OPTION TALENTVERSCHIEBUNG
-       PRÄFIX Nebel
-       BANNER "Immer schön eines zu haben"
-       PASSWORT "Setze das Passwort nie in öffentliche Dokumente"
-       ; wir haben schon eine Burg!
-       BENENNE BURG "Drachenhort"
-       BESCHREIBE BURG "Am Fuße eines Kliffs, das auf das Meer hinausblickt, ist \
-       eine Höhle in den Fels gehauen. Eine kleine Mauer mit einem niedrigen Wacht\
-       urm schützt das Innere. Der schmale Eingang ist von zwei aufgespießten Schä\
-       deln flankiert. Sie sagen: Hier haust der Drachenclan!"
-       BENENNE REGION "Drachental"
-       ;
-       ; das kann nicht schaden...
-       LERNE Pferdedressur
-       ; Burgenbesitzer setze ich gerne auf KÄMPFE NICHT, damit sie die Burg nicht 
-       ; aus Versehen bei der Flucht verlassen ...
-       KÄMPFE NICHT
-       ;
-       ; Zeit für die erste neue Einheit
-       ; Rekrutierungssilber sollte besser übergeben werden
-       ; Lernkosten und Einheitenunterhalt holt sie sich notfalls aus dem Pool
-       GIB TEMP dr01 460 Silber
-       MACHE TEMP dr01
-         BENENNE EINHEIT "prismatischer Drache"
-         REKRUTIERE 1 Dämon
-         LERNE Magie "Illaun"
-         KÄMPFE FLIEHE
-         // Bei Gelegenheit KÄMPFE HINTEN
-       ENDE
-       ;
-       ; Man muss sich genau überlegen, ob man im ersten Zug schon genug Geld für
-       ; drei Magier hat. Eigentlich lohnen sich Magier aber immer, besonders
-       ;  Dämonen. Zur Not haben sie einen Zauber, mit dem sie Geld verdienen können
-       ; -- und dabei lernen sie sogar noch was dazu!
-       GIB TEMP dr02 460 Silber
-       GIB TEMP dr03 460 Silber
-       MACHE TEMP dr02
-         BENENNE EINHEIT "prismatischer Drache"
-         REKRUTIERE 1 Dämon
-         LERNE Magie "Illaun"
-         KÄMPFE FLIEHE
-       ENDE
-       ;
-       MACHE TEMP dr03
-         BENENNE EINHEIT "prismatischer Drache"
-         REKRUTIERE 1 Dämon
-         LERNE Magie "Illaun"
-         KÄMPFE FLIEHE
-       ENDE
-       ;
-       ; wird es sich lohnen, sich so früh schon Elitekämpfer (Helden!) zu leisten?
-       GIB TEMP dr05 720 Silber
-       MACHE TEMP dr05
-         BENENNE EINHEIT "Schattendrache"
-         REKRUTIERE 2 Dämon
-         LERNE Stangenwaffen
-         // Held?
-         ; wir sind zwar noch unbewaffnet, aber bevor wir es später vergessen
-         KÄMPFE AGGRESSIV
-       ENDE
-       ;
-       ; wenn er das Mindesttalent erreicht hat, produzieren wir hoffentlich schon
-       ; Holz oder Eisen
-       GIB TEMP dr06 66 Silber
-       MACHE TEMP dr06
-         BENENNE EINHEIT "grauer Drache"
-         REKRUTIERE 1
-         LERNE Waffenbau
-         KÄMPFE FLIEHE
-       ENDE
-       ;
-       ; Burgen kontrollieren in E3 Regionen, deshalb sind sie schon früh wichtig!
-       GIB TEMP dr07 66 Silber
-       MACHE TEMP dr07
-         BENENNE EINHEIT "grauer Drache"
-         REKRUTIERE 1
-         LERNE Burgenbau
-         KÄMPFE FLIEHE
-       ENDE
-       ;
-       ; evtl. wollen wir hier noch mehr Burgenbauer...
-       ;
-       ; Holz ist am Anfang super wichtig für Waffen und Wachposten,
-       ; später für Gebäude, Schiffe
-       GIB TEMP dr08 180 Silber
-       MACHE TEMP dr08
-         BENENNE EINHEIT "grüner Drache"
-         REKRUTIERE 3
-         LERNE Holzfällen
-         KÄMPFE FLIEHE
-       ENDE
-       ;
-       ; Wollen wir uns auf Nahkampf oder Fernkampf, Bögen oder Armbrüste
-       ; spezialisieren? Evtl. ist es gefährlich, das zu früh zu tun.
-       GIB TEMP dr10 660 Silber
-       MACHE TEMP dr10
-         BENENNE EINHEIT "Drachenflügel"
-         REKRUTIERE 10
-         LERNE Armbrustschießen
-         KÄMPFE FLIEHE
-       ENDE
-       ;
-       ; Eisen zu finden ist auch wichtig
-       GIB TEMP dr11 180 Silber
-       MACHE TEMP dr11
-         BENENNE EINHEIT "Höhlendrache"
-         REKRUTIERE 3
-         LERNE Bergbau
-         // als Späher in Nachbarregionen
-         KÄMPFE FLIEHE
-       ENDE
-       ;
-       ; ...ebenso wie Steine für Burgen
-       GIB TEMP dr12 180 Silber
-       MACHE TEMP dr12
-         BENENNE EINHEIT "Höhlendrache"
-         REKRUTIERE 3
-         LERNE Steinbau
-         KÄMPFE FLIEHE
-       ENDE
-       ;
-       ; Wir brauchen Späher, vermutlich mindestens einen für jede Himmelsrichtung
-       ; Wichtig: Unterhaltssilber nicht vergessen!
-       GIB TEMP drr1 260 Silber
-       MACHE TEMP drr1
-         BENENNE EINHEIT "kleiner Drachenreiter"
-         REKRUTIERE 1
-         NACH sw
-         // Stein- und Bergbauer machen
-         KÄMPFE FLIEHE
-       ENDE
-       ;
-       GIB TEMP drr2 260 Silber
-       MACHE TEMP drr2
-         BENENNE EINHEIT "kleiner Drachenreiter"
-         REKRUTIERE 1
-         NACH so
-         // Stein- und Bergbauer machen
-         KÄMPFE FLIEHE
-       ENDE
-       ;
-       ;
-       ; in E2 müssten wir jetzt noch unbedingt Unterhalter rekrutieren!
-       ; ...
-       ; Vielleicht sollten wir auch noch Reiter (Steintransport!), Wagenbauer,
-       ; Rüstungsbauer oder noch mehr Soldaten ausbilden? Andererseits sollte man 
-       ; sich am Anfang nicht übernehmen und sehr genau aufpassen, dass man nicht
-       ; plötzlich pleite ist!
-     NÄCHSTER
+```text
+ERESSEA 37wj "pwpw42"
+; du muss natürlich oben dein eigenes Passwort einsetzen
+REGION 0,0 ; Cabyn
+EINHEIT vdko;       Entdecker [1,5000$]
+    BENENNE EINHEIT "Dracheneinreiter"
+    ;
+    ; Das ist im Moment unsere erste und einzige Einheit,
+    ; erstmal ein paar grundsätzliche Einstellungen
+    BENENNE PARTEI "Der Drachenclan"
+    NUMMER PARTEI drac ; hoffentlich noch frei
+    OPTION PUNKTE ; Wird erst ab Runde 13 angezeigt
+    OPTION TALENTVERSCHIEBUNG
+    PRÄFIX Nebel
+    BANNER "Immer schön eines zu haben"
+    PASSWORT "Setze das Passwort nie in öffentliche Dokumente"
+    ; wir haben schon eine Burg!
+    BENENNE BURG "Drachenhort"
+    BESCHREIBE BURG "Am Fuße eines Kliffs, das auf das Meer hinausblickt, ist \
+    eine Höhle in den Fels gehauen. Eine kleine Mauer mit einem niedrigen Wacht\
+    urm schützt das Innere. Der schmale Eingang ist von zwei aufgespießten Schä\
+    deln flankiert. Sie sagen: Hier haust der Drachenclan!"
+    BENENNE REGION "Drachental"
+    ;
+    ; das kann nicht schaden...
+    LERNE Pferdedressur
+    ; Burgenbesitzer setze ich gerne auf KÄMPFE NICHT, damit sie die Burg nicht 
+    ; aus Versehen bei der Flucht verlassen ...
+    KÄMPFE NICHT
+    ;
+    ; Zeit für die erste neue Einheit
+    ; Rekrutierungssilber sollte besser übergeben werden
+    ; Lernkosten und Einheitenunterhalt holt sie sich notfalls aus dem Pool
+    GIB TEMP dr01 460 Silber
+    MACHE TEMP dr01
+        BENENNE EINHEIT "prismatischer Drache"
+        REKRUTIERE 1 Dämon
+        LERNE Magie "Illaun"
+        KÄMPFE FLIEHE
+        // Bei Gelegenheit KÄMPFE HINTEN
+    ENDE
+    ;
+    ; Man muss sich genau überlegen, ob man im ersten Zug schon genug Geld für
+    ; drei Magier hat. Eigentlich lohnen sich Magier aber immer, besonders
+    ;  Dämonen. Zur Not haben sie einen Zauber, mit dem sie Geld verdienen können
+    ; -- und dabei lernen sie sogar noch was dazu!
+    GIB TEMP dr02 460 Silber
+    GIB TEMP dr03 460 Silber
+    MACHE TEMP dr02
+        BENENNE EINHEIT "prismatischer Drache"
+        REKRUTIERE 1 Dämon
+        LERNE Magie "Illaun"
+        KÄMPFE FLIEHE
+    ENDE
+    ;
+    MACHE TEMP dr03
+        BENENNE EINHEIT "prismatischer Drache"
+        REKRUTIERE 1 Dämon
+        LERNE Magie "Illaun"
+        KÄMPFE FLIEHE
+    ENDE
+    ;
+    ; wird es sich lohnen, sich so früh schon Elitekämpfer (Helden!) zu leisten?
+    GIB TEMP dr05 720 Silber
+    MACHE TEMP dr05
+        BENENNE EINHEIT "Schattendrache"
+        REKRUTIERE 2 Dämon
+        LERNE Stangenwaffen
+        // Held?
+        ; wir sind zwar noch unbewaffnet, aber bevor wir es später vergessen
+        KÄMPFE AGGRESSIV
+    ENDE
+    ;
+    ; wenn er das Mindesttalent erreicht hat, produzieren wir hoffentlich schon
+    ; Holz oder Eisen
+    GIB TEMP dr06 66 Silber
+    MACHE TEMP dr06
+        BENENNE EINHEIT "grauer Drache"
+        REKRUTIERE 1
+        LERNE Waffenbau
+        KÄMPFE FLIEHE
+    ENDE
+    ;
+    ; Burgen kontrollieren in E3 Regionen, deshalb sind sie schon früh wichtig!
+    GIB TEMP dr07 66 Silber
+    MACHE TEMP dr07
+        BENENNE EINHEIT "grauer Drache"
+        REKRUTIERE 1
+        LERNE Burgenbau
+        KÄMPFE FLIEHE
+    ENDE
+    ;
+    ; evtl. wollen wir hier noch mehr Burgenbauer...
+    ;
+    ; Holz ist am Anfang super wichtig für Waffen und Wachposten,
+    ; später für Gebäude, Schiffe
+    GIB TEMP dr08 180 Silber
+    MACHE TEMP dr08
+        BENENNE EINHEIT "grüner Drache"
+        REKRUTIERE 3
+        LERNE Holzfällen
+        KÄMPFE FLIEHE
+    ENDE
+    ;
+    ; Wollen wir uns auf Nahkampf oder Fernkampf, Bögen oder Armbrüste
+    ; spezialisieren? Evtl. ist es gefährlich, das zu früh zu tun.
+    GIB TEMP dr10 660 Silber
+    MACHE TEMP dr10
+        BENENNE EINHEIT "Drachenflügel"
+        REKRUTIERE 10
+        LERNE Armbrustschießen
+        KÄMPFE FLIEHE
+    ENDE
+    ;
+    ; Eisen zu finden ist auch wichtig
+    GIB TEMP dr11 180 Silber
+    MACHE TEMP dr11
+        BENENNE EINHEIT "Höhlendrache"
+        REKRUTIERE 3
+        LERNE Bergbau
+        // als Späher in Nachbarregionen
+        KÄMPFE FLIEHE
+    ENDE
+    ;
+    ; ...ebenso wie Steine für Burgen
+    GIB TEMP dr12 180 Silber
+    MACHE TEMP dr12
+        BENENNE EINHEIT "Höhlendrache"
+        REKRUTIERE 3
+        LERNE Steinbau
+        KÄMPFE FLIEHE
+    ENDE
+    ;
+    ; Wir brauchen Späher, vermutlich mindestens einen für jede Himmelsrichtung
+    ; Wichtig: Unterhaltssilber nicht vergessen!
+    GIB TEMP drr1 260 Silber
+    MACHE TEMP drr1
+        BENENNE EINHEIT "kleiner Drachenreiter"
+        REKRUTIERE 1
+        NACH sw
+        // Stein- und Bergbauer machen
+        KÄMPFE FLIEHE
+    ENDE
+    ;
+    GIB TEMP drr2 260 Silber
+    MACHE TEMP drr2
+        BENENNE EINHEIT "kleiner Drachenreiter"
+        REKRUTIERE 1
+        NACH so
+        // Stein- und Bergbauer machen
+        KÄMPFE FLIEHE
+    ENDE
+    ;
+    ;
+    ; in E2 müssten wir jetzt noch unbedingt Unterhalter rekrutieren!
+    ; ...
+    ; Vielleicht sollten wir auch noch Reiter (Steintransport!), Wagenbauer,
+    ; Rüstungsbauer oder noch mehr Soldaten ausbilden? Andererseits sollte man
+    ; sich am Anfang nicht übernehmen und sehr genau aufpassen, dass man nicht
+    ; plötzlich pleite ist!
+NÄCHSTER
+```
 
 ## Siehe auch
 

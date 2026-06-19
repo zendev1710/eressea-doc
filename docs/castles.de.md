@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: burgen
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD052 -->
+
 # Burgen
 
 Burgen erhöhen den Verdienst der Bauern, sie ermöglichen den Handel mit Luxusgütern und schließlich bieten sie ihren Insassen Schutz bei Angriffen.  

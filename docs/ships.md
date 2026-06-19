@@ -2,8 +2,7 @@
 # cSpell:locale en
 alias: ships
 ---
-<!-- disable some rules due to autorefs plugin usage -->
-<!-- markdownlint-disable MD041 MD042 MD052 -->
+
 [](){ #ships-id }
 
 # Ships

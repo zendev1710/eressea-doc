@@ -2,8 +2,7 @@
 # cSpell:locale de
 alias: kriegstabellen
 ---
-<!-- properdocs autorefs plugin usage -->
-<!-- markdownlint-disable MD042 MD052 -->
+
 # Kriegstabellen
 
 Auf dieser Seite sind kampfrelevante Eigenschaften von Waffen, Rüstungen und Rassen aufgeführt.

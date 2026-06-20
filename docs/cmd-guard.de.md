@@ -7,13 +7,16 @@ alias: bef-bewache
 
 **`BEWACHE`**`[NICHT]`  
 
-Einheiten können ihre Region bewachen. Dazu muss die Einheit mit mindestens einer [Waffe][waffeneigenschaften] [bewaffnet][bewaffnet] sein und das passende Waffentalent haben. Ozeanregionen können nicht bewacht werden.
+Einheiten können ihre Region bewachen.  
+Dazu muss die Einheit mit mindestens einer [Waffe][waffeneigenschaften] [bewaffnet][bewaffnet] sein und das passende Waffentalent haben.  
+Ozeanregionen können nicht bewacht werden.
 
 Wenn eine Partei eine Region bewacht, gelten für Einheiten, die mit ihr nicht [alliiert][allianz] sind ([`HELFE BEWACHE`][bef-helfe] oder [`KONTAKTIERE`][bef-kontaktiere]), folgende Einschränkungen:
 
 - Sie können in dieser Region keine Steuern mehr eintreiben, Rohstoffe abbauen, [handel][handel] oder Bauern rekrutieren.
 - Sie werden auf der Durchreise mit einer gewissen Wahrscheinlichkeit gestoppt.
-- Befinden sie sich auf einem Schiff, so können sie nicht [`ARBEITE`][bef-arbeite]`,`[[bef-unterhalte]]`,`[[bef-attackiere]] oder sofort über Land weiterziehen. Um die Aktionen in der Folgewoche ausführen zu können, müssen sie das Schiff erst [`VERLASSE`][bef-verlasse] haben.
+- Befinden sie sich auf einem Schiff, so können sie nicht [`ARBEITE`][bef-arbeite]`,`[[bef-unterhalte]]`,`[[bef-attackiere]] oder sofort über Land weiterziehen.  
+  Um die Aktionen in der Folgewoche ausführen zu können, müssen sie das Schiff erst [`VERLASSE`][bef-verlasse] haben.
 
 Wenn die Einheit nicht gesehen wird, beispielsweise weil sie ein höheres Tarnungstalent hat als das beste Wahrnehmungstalent der bewachenden Partei in der Region ist, so gelten die ersten beiden Beschränkungen nicht.
 
@@ -32,8 +35,9 @@ Mit `BEWACHE NICHT` wird der Bewachungsstatus einer Einheit aufgelöst.
 Das passiert außerdem, wenn sich die Einheit fortbewegt.  
 Einheiten mit dem Kampfstatus [KÄMPFE FLIEHE][bef-kampfe-id] können nicht bewachen und Einheiten, aus denen im Kampf alle überlebenden Personen fliehen, beenden ebenfalls das Bewachen.
 
-Wenn eine Einheit durch eine Region reist, die von mindestens einer nicht verbündeten Partei bewacht wird, hängt die Chance, dass sie aufgehalten wird von mehreren Faktoren ab: Sie wird vergrößert durch die Anzahl der feindlichen Bewacher, den Regionstyp (es wird schwerer in Sümpfen, Gletschern, Bergen und Vulkanen), das Wahrnehmungstalent der feindlichen Bewacher, Amulette des Wahren Sehens, sowie die Größe der Burg des Regionsbesitzers, falls dieser nicht verbündet ist.  
-Sie wird verringert durch die Anzahl der verbündeten Bewacher und das Tarnungstalent der Einheit, sowie [[ring-der-unsichtbarkeit]].
+Wenn eine Einheit durch eine Region reist, die von mindestens einer nicht verbündeten Partei bewacht wird, hängt die Chance, dass sie aufgehalten wird von mehreren Faktoren ab:
+Sie wird vergrößert durch die Anzahl der feindlichen Bewacher, den Regionstyp (es wird schwerer in Sümpfen, Gletschern, Bergen und Vulkanen), das Wahrnehmungstalent der feindlichen Bewacher, Amulette des Wahren Sehens, sowie die Größe der Burg des Regionsbesitzers, falls dieser nicht verbündet ist.  
+Sie wird verringert durch die Anzahl der verbündeten Bewacher und das Tarnungstalent der Einheit, sowie [Ring der Unsichtbarkeit][ring-der-unsichtbarkeit-id].
 
 Hinweis: [Monster][monster] Einheiten der Partei (ii) gelten durch ihre Klauen, Zähne, Krallen und sonstige Extremitäten prinzipiell als bewaffnet, auch wenn sie keine sichtbare Waffe tragen.  
 Dies gilt auch für von Spielern magisch beschworene Monster.

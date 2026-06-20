@@ -1,15 +1,17 @@
 ---
 # cSpell:locale fr
 alias: ecoles-de-magie
+title: Écoles de Magie
 ---
 
+<!-- markdownlint-disable MD025 -->
 [](){ #ecoles-de-magie-id }
 
 # Écoles de Magie
 
 Il existe cinq Écoles de Magie dans Eressea.  
 
-Chaque faction doit en choisir une lors de son premier apprentissage de la [[magie]];  
+Chaque faction doit en choisir une lors de son premier apprentissage de la [magie][magie];  
 **une fois choisie, l'École de Magie n'est plus modifiable**.  
 
 Avant de choisir ton École de Magie, n'hésite pas à consulter la [liste des sorts][liste-des-sorts] !  

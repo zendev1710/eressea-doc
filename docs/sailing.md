@@ -67,7 +67,7 @@ Ships capacities are shown in the table above and are always displayed in the re
 
 See also :
 
-- [Items and their weights][items]
+- [Items and their weights][items-id]
 - [Weights and Capacities of persons according to their race][travel-by-land-or-by-sea]
 
 It is possible to group together several ships in a [convoy][convoy-id].  

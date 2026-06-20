@@ -19,7 +19,7 @@ The description of a spell can be shown again using the [`SHOW`][cmd-show] order
 
 ## See also
 
-- [[magic]]
+- [Magic][magic-id]
 - [`CAST`][cmd-cast]
 
 <!-- From [https://wiki.eressea.de/index.php?title=COMBATSPELL&oldid=16818] -->

@@ -15,7 +15,7 @@ Pour cela, elles doivent être [armées et prêtes au combat][arme-et-pret-au-co
 
 ## Garde d'une région par une faction non alliée
 
-Lorsqu'une faction garde une région, les unités qui ne lui sont pas alliées sont soumises aux [alliances][alliances] ([`HELP GUARD`][cmd-help-fr] ou [`CONTACT`][cmd-contact-fr]).  
+Lorsqu'une faction garde une région, les unités qui ne lui sont pas alliées sont soumises aux [alliances][alliances-fr-id] ([`HELP GUARD`][cmd-help-fr] ou [`CONTACT`][cmd-contact-fr]).  
 Ainsi, si tes unités sont dans cette situation (non alliées), les restrictions suivantes s'appliquent :
 
 1. Il n'est plus possible de collecter les taxes, d'extraire des matières premières, de [faire du commerce][le-commerce] ou de recruter des agriculteurs dans cette région
@@ -73,7 +73,7 @@ Au cours des [premières semaines][puppy-protection], une faction ne peut pas en
 ## Voir aussi
 
 - [`HELP GUARD`][cmd-help-fr]
-- [Les alliances][alliances]
+- [Les alliances][alliances-fr-id]
 - [`CONTACT`][cmd-contact-fr]
 
 <!-- From [https://wiki.eressea.de/index.php?title=GUARD&oldid=16839] -->

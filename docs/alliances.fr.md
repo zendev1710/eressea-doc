@@ -3,6 +3,8 @@
 alias: alliances-fr
 ---
 
+[](){ #alliances-fr-id }
+
 # Alliances
 
 Les alliances constituent l'épine dorsale du monde, que ce soit en temps de guerre, de commerce ou de simple coopération pacifique.  

@@ -55,7 +55,7 @@ Exemple d'unités :
 ```
 
 Vos propres unités sont marquées du caractère '*'.  
-Les unités des autres factions sont marquées d'un '-', ou '+' si vous [êtes allié][alliances] à cette faction.
+Les unités des autres factions sont marquées d'un '-', ou '+' si vous [êtes allié][alliances-fr-id] à cette faction.
 
 Chaque unité possède un identifiant unique (ID) attribué par le système et utilisé pour tous les ordres.  
 Dans le premier cas ici l'ID est ***tb2***.  

@@ -189,7 +189,7 @@ Spielererfahrung (Solthar):
 Ist es möglich, `DEFAULT`-Befehle zu schachteln, um für mehrere Wochen im Voraus Befehle zu machen?
 Nun, so etwas wie `DEFAULT "DEFAULT 'LERNE Ausdauer'"` funktioniert anscheinend, wie man es erwarten würde, aber die Spielleitung möchte lieber keine Garantien dafür abgeben.
 Bitte schicke keine Bugreports ein, falls so etwas nicht so klappt, wie du erwartet hast.
-Für solche Vorhaben sind Scriptsprachen wie [[vorlage]], [[extendedcommands]] oder [fftools][fftools-de-id] besser geeignet.
+Für solche Vorhaben sind Scriptsprachen wie [Vorlage][vorlage-de-id], [[extendedcommands]] oder [fftools][fftools-de-id] besser geeignet.
 
 ## Siehe auch
 

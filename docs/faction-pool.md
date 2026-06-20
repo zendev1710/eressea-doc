@@ -29,7 +29,7 @@ Some items that have been placed in the faction pool so far:
 !!! note
     The faction pool should not be confused with the [[items-pool]] and the [silver pool][the-silver-pool], which virtually contain all of the unit items or silver of a faction in a region.
 
-Continue reading: [l'argent][argent].
+Continue reading: [money][money].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Parteipool&oldid=14411] -->
 

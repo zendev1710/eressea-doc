@@ -21,7 +21,7 @@ A faction starts a game with one **unit** consisting of one person with 2500 sil
     if you do not know what you have there, try the order [`SHOW "`*`Item`*`"`][cmd-show].
 
 This first person is not special in any way; they are just the first person belonging to your new faction.  
-You can [recruit][recruiting] new persons, and eventually produce [items][items], and build [[buildings]] and [ships][ships-id], tame [horses][horse-and-carriage], forge [weapons][war-tables] and so on.
+You can [recruit][recruiting] new persons, and eventually produce [items][items-id], and build [buildings][buildings-id] and [ships][ships-id], tame [horses][horse-and-carriage], forge [weapons][war-tables] and so on.
 
 New units are created by generating them with an existing unit using the [MAKE TEMP][cmd-make] order.  
 A new unit has no people, yet: you first have to [transfer][cmd-give] them from another unit or recruit them, which requires [money][expenses].  
@@ -52,7 +52,7 @@ Here is an example for units:
 ```
 
 Your own units are marked with a '\*'.  
-Units of other factions are marked with '-', or '+' if you [help][alliances] that faction.
+Units of other factions are marked with '-', or '+' if you [help][alliances-id] that faction.
 
 Each unit has a unique computer-generated number, which is used as in identifier in all orders, in this example it is tb2.  
 You may find the term "number" strange, but in Eressea units are given "base 36" numbers: along with the digits 0–9, the letters a–z are also valid "digits" here.  

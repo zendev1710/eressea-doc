@@ -76,7 +76,7 @@ Wird eine solche Einheit attackiert, werden keine anderen Einheiten in den Kampf
 Dies gilt natürlich nur, wenn nicht zusätzlich andere Einheiten ohne einen solchen Status attackiert werden.
 
 Die eigene Partei ist immer dann involviert, wenn sie angreift, oder wenn sie oder eine Partei, der sie hilft, angegriffen wird.
-Weitere Details unter [`HELFE`][bef-helfe] und in den Kapiteln [Kampf][krieg] und [Allianz][alliances].
+Weitere Details unter [`HELFE`][bef-helfe] und in den Kapiteln [Kampf][krieg] und [Allianz][allianz].
 
 <!-- From [https://wiki.eressea.de/index.php?title=KÄMPFE&oldid=7216] -->
 

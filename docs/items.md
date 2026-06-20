@@ -44,13 +44,13 @@ Weight, skill and raw material requirements.
 | [cart][cart]                         |     40 | [cartmaking][cartmaking]         |    1 |               5 wood |
 | [catapult][weapon-catapult-id]       |    100 | [cartmaking][cartmaking]         |    5 |              10 wood |
 | [spear][spear]                       |      1 | [weaponsmithing][weaponsmithing] |    2 |               1 wood |
-| [bow][bow-id]                        |      1 | [weaponsmithing][weaponsmithing] |    2 |               1 wood |
+| [bow][weapon-bow-id]                 |      1 | [weaponsmithing][weaponsmithing] |    2 |               1 wood |
 | [lance][lance-id]                    |      2 | [weaponsmithing][weaponsmithing] |    2 |               2 wood |
 | [sword][sword]                       |      1 | [weaponsmithing][weaponsmithing] |    3 |               1 iron |
-| [crossbow][crossbow-id]              |      1 | [weaponsmithing][weaponsmithing] |    3 |               1 wood |
+| [crossbow][weapon-crossbow-id]       |      1 | [weaponsmithing][weaponsmithing] |    3 |               1 wood |
 | [axe][axe]                           |      2 | [weaponsmithing][weaponsmithing] |    3 |       1 iron, 1 wood |
 | [halberd][halberd]                   |      2 | [weaponsmithing][weaponsmithing] |    3 |       1 iron, 2 wood |
-| [claymore][claymore-id]              |      2 | [weaponsmithing][weaponsmithing] |    4 |               2 iron |
+| [claymore][weapon-claymore-id]       |      2 | [weaponsmithing][weaponsmithing] |    4 |               2 iron |
 | [mallorn bow][mallorn-bow]           |      1 | [weaponsmithing][weaponsmithing] |    5 |            1 mallorn |
 | [mallorn crossbow][mallorn-crossbow] |      1 | [weaponsmithing][weaponsmithing] |    5 |            1 mallorn |
 | [mallorn spear][mallorn-spear]       |      1 | [weaponsmithing][weaponsmithing] |    5 |            1 mallorn |
@@ -74,7 +74,7 @@ Weight, skill and raw material requirements.
 - [These examples][production-id]
 - [Resources][resources]
 - [Roads][roads-id]
-- [Buildings][buildings]
+- [Buildings][buildings-id]
 - [War tables][war-tables]
 
 Continue reading: [roads][roads-id].

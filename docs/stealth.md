@@ -1,8 +1,10 @@
 ---
 # cSpell:locale en
 alias: stealth
+title: Stealth
 ---
 
+<!-- markdownlint-disable MD025 -->
 [](){ #stealth-id }
 
 # Stealth

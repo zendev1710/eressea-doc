@@ -19,7 +19,7 @@ Une unité peut apprendre une ou plusieurs des compétences décrites ci-dessous
 *Alchemy (EN), Alchemie (DE)*.
 <!-- cspell:enable -->
 
-Cette compétence permet de concocter des [potions][potions-fr-id] à partir de [plantes][plantes]{title="Herbs"}.  
+Cette compétence permet de concocter des [potions][potions-fr-id] à partir de [plantes][plantes-id]{title="Herbs"}.  
 
 L'apprentissage de l'alchimie coûte 200 silver par tour et par personne.  
 
@@ -235,7 +235,7 @@ Permet la fabrication de chariots et de catapultes avec du bois.
 5 bois sont nécessaires pour fabriquer un chariot.  
 Une unité peut fabriquer un chariot par personne et niveau de compétence.  
 
-À partir du niveua **5**, il faudra 10 bois pour fabriquer une catapulte.
+À partir du niveau **5**, il faudra 10 bois pour fabriquer une catapulte.
 
 ## Herboristerie
 

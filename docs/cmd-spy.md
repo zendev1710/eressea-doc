@@ -10,7 +10,7 @@ alias: cmd-spy
 **`SPY`**` `*`unit-id`*
 
 Espionage allows you to spy on units of another faction.  
-The spy's espionage skill is compared with the target unit's [stealth][stealth] skill.  
+The spy's espionage skill is compared with the target unit's [stealth][skill-stealth-id]] skill.  
 
 The basic chance of a successful espionage attempt is 10%.  
 For each skill level that the espionage skill exceeds the victim's stealth skill, this increases by 5%.  

@@ -3,6 +3,8 @@
 alias: alliances
 ---
 
+[](){ #alliances-id }
+
 # Alliances
 
 Alliances form the backbone of the world, be it in war, trade or just peaceful cooperation.
@@ -56,7 +58,7 @@ this covers all the above areas in one order.
 - [`GUARD`][cmd-guard]
 - [`CONTACT`][cmd-contact]
 
-Continue reading: [Magic][magic].
+Continue reading: [Magic][magic-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Allianz/en&oldid=16781] -->
 

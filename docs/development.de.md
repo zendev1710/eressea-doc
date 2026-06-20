@@ -15,7 +15,7 @@ Ein guter Anlaufpunkt für Diskussionen ist die [E-Client Liste] und die Magella
 
 - [Magellan]
 - [CSMapFx]
-- [Vorlage]
+- [Vorlage][vorlage-ext]
 - [crtools]
 
 ### Interessante Entwicklungs-Plugins
@@ -38,7 +38,7 @@ Natürlich sind aber auch Links auf (toolspezifische) Skriptsammlungen hilfreich
 
 ### Skriptsammlungen
 
-- [Skriptsammlung] für [[vorlage-de]] auf der Vorlage Homepage
+- [Skriptsammlung] für [Vorlage][vorlage-de-id] auf der Vorlage Homepage
 
 ### Wiederkehrende Fragestellungen
 
@@ -66,7 +66,7 @@ Für (angehende) Informatiker genau das richtige sich in der Praxis mit Alorithm
 [E-Client Liste]: http://groups.google.com/group/eressea-client
 [Magellan]: http://magellan-client.sf.net
 [CSMapFx]: https://github.com/ennorehling/csmapfx
-[Vorlage]: https://gulrak.de/pbemtools/
+[vorlage-ext]: https://gulrak.de/pbemtools/
 [crtools]: http://sourceforge.net/project/showfiles.php?group_id=91825&package_id=128120
 [ExtendedCommands Plugin]: http://magellan.log-out.net/extcmds/
 [FFTools 2]: http://fftools2.fietefietz.de/

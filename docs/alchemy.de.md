@@ -1,8 +1,10 @@
 ---
 # cSpell:locale de
 alias: alchemie
+title: Alchemie
 ---
 
+<!-- markdownlint-disable MD025 -->
 [](){ #alchemie-id }
 
 # Alchemie

@@ -41,12 +41,12 @@ and of course, tax collectors need the appropriate weapon skill ([tax collection
 
 [Perception][skill-perception-id] is a very important skill that is often underestimated by beginners.
 Only tax collectors are able to see camouflaged units and prevent them from [stealing][stealing-the-dishonest-way]! It's therefore worthwhile to recruit and train at least one Perceiver for each of your home regions right from the start.
-It's also advisable to build [castles][castles] early, at least at level 2, and "trading posts" (required skills: [masonry][masonry] and [mining] for the stone and [castles building][buildings]) so that [trade][silver-trade-id] can be conducted.
+It's also advisable to build [castles][castles] early, at least at level 2, and "trading posts" (required skills: [masonry][masonry] and [mining] for the stone and [castles building][buildings-id]) so that [trade][silver-trade-id] can be conducted.
 Of course, training the necessary merchants and transports (usually cavalry) and equipping them with [horses and wagons][horse-and-carriage] is also essential.
 Understanding trade isn't easy for beginners, but it's worth the effort.
 
-Units with expensive skills like [Tacticians][tactics], [Alchemists][list-of-skills], etc., should only be trained later, as their training consumes a great deal of silver (200 silver per turn).
-Training [Mages][magic] costs even more silver, but a mage with combat spells can provide significant advantages in conflict.
+Units with expensive skills like [Tacticians][tactics-id], [Alchemists][list-of-skills], etc., should only be trained later, as their training consumes a great deal of silver (200 silver per turn).
+Training [Mages][magic-id] costs even more silver, but a mage with combat spells can provide significant advantages in conflict.
 And mages of all schools of magic can cast a spell to earn silver very early on, making an early investment worthwhile (especially for races with +1 in Magic).
 
 It would also be advisable to have some precautions in case the neighbors aren't very peaceful.
@@ -129,7 +129,7 @@ Don't let yourselves get annoyed or be carried away by rash decisions – the pl
 
 - [Tips and tricks][tips-and-tricks]
 - [Hints][hints]
-- [The first round][first-round]
+- [The first round][first-round-id]
 - [Basics][basics]
 
 Continue reading: [Xontormia Express][xontormia-express-id].

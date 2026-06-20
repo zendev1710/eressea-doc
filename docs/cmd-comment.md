@@ -23,7 +23,7 @@ UNIT ub2;    Handyman [3,30$]
     // LEARN Shipbuilding AT T2 or T3
 ```
 
-If you use the [[vorlage]] program to create an orders template, a variety of information is transmitted to the player via these comments:
+If you use the [Vorlage][vorlage-id] program to create an orders template, a variety of information is transmitted to the player via these comments:
 
 ```text
 REGION 85,-48 ; Darkland (Plain, 290 people, $4270 Silver)

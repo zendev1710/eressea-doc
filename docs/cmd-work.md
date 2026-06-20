@@ -1,8 +1,10 @@
 ---
 # cSpell:locale en
 alias: cmd-work
+title: "`WORK`"
 ---
 
+<!-- markdownlint-disable MD025 -->
 [](){ #cmd-work-id }
 
 # WORK

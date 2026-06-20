@@ -15,7 +15,7 @@ Les listes de diffusion [E-Client] et Développement Magellan constituent un bon
 
 - [Magellan][magellan-fr-id]
 - [CSMapFx][csmap-fr-id]
-- [Vorlage]
+- [Vorlage][vorlage-ext]
 - [crtools]
 
 ### Plugins de développement intéressants
@@ -40,7 +40,7 @@ Bien entendu, les liens vers des collections de scripts (spécifiques à l’out
 
 ### Collections de scripts
 
-- [collection de scripts] pour [[vorlage]] sur la page d'accueil de Vorlage
+- [collection de scripts] pour [Vorlage][vorlage-fr-id] sur la page d'accueil de Vorlage
 
 ### Questions récurrentes
 
@@ -66,7 +66,7 @@ C’est exactement ce qu’il faut pour que les (futurs) informaticiens puissent
 <!-- From [https://wiki.eressea.de/index.php?title=Entwicklung&oldid=8216] -->
 
 [E-Client]: http://groups.google.com/group/eressea-client
-[Vorlage]: https://gulrak.de/pbemtools/
+[vorlage-ext]: https://gulrak.de/pbemtools/
 [crtools]: http://sourceforge.net/project/showfiles.php?group_id=91825&package_id=128120
 [Plugin ExtendedCommands]: http://magellan.log-out.net/extcmds/
 [FFTools 2]: http://fftools2.fietefietz.de/

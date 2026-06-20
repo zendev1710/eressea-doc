@@ -2,7 +2,7 @@
 # cSpell:locale de
 alias: talente
 ---
->
+
 # Talente
 
 Eine der wesentlichen Eigenschaften, die [Einheiten] in Eressea definieren, sind ihre Talente.  

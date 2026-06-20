@@ -34,8 +34,8 @@ Les détails peuvent être trouvés dans le chapitre sur [l'alchimie][alchimie].
 
 ### Plantes
 
-Les plantes sont produites avec l'ordre `MAKE HERBS` par des unités maîtrisant l'[herboristerie].
-Pour plus de détails, voir le chapitre sur les [plantes][plantes-fr-id].
+Les plantes sont produites avec l'ordre `MAKE HERBS` par des unités maîtrisant l'[herboristerie][herboristerie]{title="Herbalism"}.  
+Pour plus de détails, voir le chapitre sur les [plantes][plantes-id].
 
 ## Unités
 

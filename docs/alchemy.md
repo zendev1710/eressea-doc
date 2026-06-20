@@ -3,6 +3,8 @@
 alias: alchemy
 ---
 
+[](){ #alchemy-id }
+
 # Alchemy
 
 In Eressea, alchemy is the art of transforming natural substances (herbs) into potions.
@@ -356,7 +358,7 @@ Continue reading: [herbs][herbs-id].
 [^1]: Acts on the unit, but all the faction's demons in the region use it if there are any left.  
 So you only need to equip one unit (per region), as long as it drinks enough peasant blood for all the demons.  
 [^2]: You can apply it to a unit with the order `USE Duncebun <unit−id>`.  
-The application of the potion fails if the [[stealth]] skill of the acting unit is **less or equal** to the victim's **[perception][skill-perception-id] level + 2**.
+The application of the potion fails if the [stealth][skill-stealth-id] skill of the acting unit is **less or equal** to the victim's **[perception][skill-perception-id] level + 2**.
 In this case, you get an error message and the [duncebun] is not used up (thus it remains to the unit).
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tränke/en&oldid=16929] -->

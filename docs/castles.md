@@ -88,7 +88,7 @@ Building castles - building material, minimum Masonry skill level, wage bonus (i
 ## See also
 
 - [[other-buildings]]
-- [[buildings]]
+- [Buildings][buildings-id]
 - [Bonuses and penalties][bonuses-and-mali]
 - [Income][income]
 

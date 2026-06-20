@@ -112,7 +112,7 @@ The capacity refers only to the persons who can benefit from the building.
 
 **Example:**
 
-With [water of life][alchemy] you can create wood with a sawmill.
+With [water of life][water-of-life] you can create wood with a sawmill.
 With [USE 1 "water of life"][cmd-use] you can create 10 saplings using 10 wood.
 You can then immediately cut them with a sawmill, producing 20 wood.
 
@@ -289,7 +289,7 @@ You can then immediately cut them with a sawmill, producing 20 wood.
 
 ## See also
 
-- [Buildings][buildings]
+- [Buildings][buildings-id]
 - [Castles][castles]
 - [Production][production-id]
 

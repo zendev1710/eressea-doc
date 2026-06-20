@@ -108,7 +108,7 @@ Votre propre faction est toujours impliquée lorsqu'elle attaque, ou lorsqu'elle
 Plus de détails sur [`HELP`][cmd-help-fr] :
 
 - [La guerre][guerre]
-- [Les alliance][alliances]
+- [Les alliance][alliances-fr-id]
 
 L'ordre `COMBAT HELP` réactive le statut qui permet à l'unité d'être aidée en cas d'attaque.
 

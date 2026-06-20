@@ -178,7 +178,7 @@ alias: cerddorzauber
 
 `ZAUBERE 'Erschaffe ein Amulett des wahren Sehens'`  
 
-### Erschaffe einen [Ring der Unsichtbarkeit][ring-der-unsichtbarkeit]
+### Erschaffe einen [Ring der Unsichtbarkeit][ring-der-unsichtbarkeit-id]
 
 :   Mit diesem Spruch kann der Zauberer einen Ring der Unsichtbarkeit erschaffen.  
     Der Träger des Ringes wird für alle Einheiten anderer Parteien unsichtbar, egal wie gut ihre Wahrnehmung auch sein mag.  

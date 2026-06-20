@@ -12,16 +12,16 @@ This is just a short overview, all details are given in the respective chapters.
 
 [](){ #skill-alchemy-id }
 
-## Alchemy
+## [Alchemy][alchemy-id]
 
-Make [potions][alchemy] from [herbs][herbs-id].  
+Make [potions][potions-id] from [herbs][herbs-id].  
 Learning costs 200 silver per person. There can be no more than three alchemists per faction.
 
 [](){ #skill-armoursmithing-id }
 
 ## Armoursmithing
 
-Produce iron, laen, and adamantium plates (see [items][items]).
+Produce iron, laen, and adamantium plates (see [items][items-id]).
 
 [](){ #skill-bow-id }
 
@@ -76,7 +76,7 @@ Felling trees to make wood or mallorn (see [resources][deep-in-the-forest]).
 
 ## Herbalism
 
-Find [herbs][herbs-id] to make [potions][alchemy]. Learning cost is 200 Silver per week.  
+Find [herbs][herbs-id] to make [potions][potions-id]. Learning cost is 200 Silver per week.  
 With a high level you can give the orders [`RESEARCH HERBS`][cmd-research], [`MAKE SEEDS`][cmd-make] (see [production][production-id]) and [`PLANT`][cmd-plant].  
 Despite high skill level, you may sometimes find few or no herbs.
 
@@ -84,13 +84,13 @@ Despite high skill level, you may sometimes find few or no herbs.
 
 ## [Magic][magic-id]
 
-This allows you to cast combat spells and other types spells. Learning magic [costs silver][magic] depending on the level.
+This allows you to cast combat spells and other types spells. Learning magic [costs silver][magic-id] depending on the level.
 
 [](){ #skill-masonry-id }
 
 ## Masonry
 
-Build [castles and other buildings][buildings].
+Build [castles and other buildings][buildings-id].
 
 [](){ #skill-melee-id }
 
@@ -144,7 +144,7 @@ With a [horse][horse-and-carriage]: Starting from riding 1 faster movement; star
 
 ## Roadwork
 
-Building [roads][roads] from stones. One stone can be built per person and skill level.
+Building [roads][roads-id] from stones. One stone can be built per person and skill level.
 
 [](){ #skill-sailing-id }
 
@@ -166,7 +166,7 @@ The unit is always cloaked and only visible to units with the same or greater pe
 
 [](){ #skill-tactics-id }
 
-## [Tactics][tactics]
+## [Tactics][tactics-id]
 
 In combat, the side with the best tactician has extra attacks (see [mustering][to-arms]). Learning costs 200 silver per person.
 
@@ -205,7 +205,7 @@ It is only available for monsters and other special races where it works like a 
 
 ## Weaponsmithing
 
-Produce weapons from wood and metals (see [items][items]).
+Produce weapons from wood and metals (see [items][items-id]).
 
 Continue reading: [stealth][stealth-id].
 

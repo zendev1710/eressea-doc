@@ -27,7 +27,7 @@ alias: tables-potions-and-herbs
 In order to create a potion, you need an alchemy skill equal to twice the potion level.
 Potions that affect a unit's items expire if they cannot be used because the unit no longer has these items.
 
-See [[alchemy]].
+See [Alchemy][alchemy-id].
 
 List of herbs and their distribution.
 <!-- TODO: bad list -->
@@ -40,6 +40,6 @@ List of herbs and their distribution.
 | Stonebiter, cleavage wax, cave glow                                                | Mountains    |
 | Ice Flower, White Rager, Snow Crystal                                              | Glacier      |
 
-See [[alchemy]].
+See [Alchemy][alchemy-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Tabellen:\_Tränke\_und\_Kräuter&oldid=16926] -->

@@ -5,7 +5,10 @@ alias: bef-kommentar
 
 # KOMMENTAR (;)
 
-Das Semikolon ";" dient in Eressea-Befehlen der Markierung (temporärer) Kommentare. Einige dieser Kommentare werden "automatisch" eingefügt. Die Standard-[Zugvorlage][befehl] enthält zum Beispiel immer die Namen von Regionen und Einheiten, die Anzahl der Personen und deren Silbervorrat als Kommentar. Außerdem werden Kommentare auch genutzt, um dem Programm [[echeck]] bestimmte Informationen mitzuteilen, wie etwa den Lohn in einer Region.
+Das Semikolon ";" dient in Eressea-Befehlen der Markierung (temporärer) Kommentare.  
+Einige dieser Kommentare werden "automatisch" eingefügt.  
+Die Standard-[Zugvorlage][befehl] enthält zum Beispiel immer die Namen von Regionen und Einheiten, die Anzahl der Personen und deren Silbervorrat als Kommentar.  
+Außerdem werden Kommentare auch genutzt, um dem Programm [Echeck][echeck-de-id] bestimmte Informationen mitzuteilen, wie etwa den Lohn in einer Region.
 
 ```text
 ERESSEA abcd "hier_passwort_eintragen"
@@ -20,7 +23,7 @@ EINHEIT ub2;    Handwerker [3,30$]
     // LERNEN Schiffbau AUF T2 oder 3
 ```
 
-Verwendet man das Programm [[vorlage]] zur Erzeugung einer Zugvorlage, so werden über diese Kommentare vielfältige Informationen an den Spieler übermittelt:
+Verwendet man das Programm [Vorlage][vorlage-de-id] zur Erzeugung einer Zugvorlage, so werden über diese Kommentare vielfältige Informationen an den Spieler übermittelt:
 
 ```text
 REGION 85,-48 ; Dunkelland (Ebene, 290 Personen, 4270$ Silber)

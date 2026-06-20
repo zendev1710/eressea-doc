@@ -15,7 +15,7 @@ A good starting point for discussions is the [E-Client List] and the Magellan De
 
 - [Magellan]
 - [CSMapFx]
-- [Vorlage]
+- [Vorlage][vorlage-ext]
 - [crtools]
 
 ### Interesting development plugins
@@ -38,7 +38,7 @@ Of course, links to (tool-specific) script collections are also helpful.
 
 ### Script collections
 
-- [Script collection] for [[vorlage]] on the Vorlage homepage
+- [Script collection] for [Vorlage][vorlage-id] on the Vorlage homepage
 
 ### Recurring questions
 
@@ -66,7 +66,7 @@ This is exactly the right thing for (prospective) computer scientists to deal wi
 [E-Client List]: http://groups.google.com/group/eressea-client
 [Magellan]: http://magellan-client.sf.net
 [CSMapFx]: https://github.com/ennorehling/csmapfx
-[Vorlage]: https://gulrak.de/pbemtools/
+[vorlage-ext]: https://gulrak.de/pbemtools/
 [crtools]: http://sourceforge.net/project/showfiles.php?group_id=91825&package_id=128120
 [ExtendedCommands Plugin]: http://magellan.log-out.net/extcmds/
 [FFTools 2]: http://fftools2.fietefietz.de/

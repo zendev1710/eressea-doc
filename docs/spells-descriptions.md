@@ -609,7 +609,7 @@ And if you have done everything to please them, they will send one of their own 
 
 :   The spell allows a magician to create an [Amulet of True Sight][amulet-of-true-sight-id].  
     The amulet allows the wearer to see all units protected by a ring of invisibility.  
-    However, units that use their [[stealth]] skill to hide still remain undetected.
+    However, units that use their [stealth][skill-stealth-id] skill to hide still remain undetected.
 
 |  Sc.   | Components                             | Lvl |   Type | Rank | Ship                         | Dist. |
 |:------:|----------------------------------------|----:|-------:|:----:|:-----------------------------|:------|

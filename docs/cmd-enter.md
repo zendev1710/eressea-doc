@@ -8,7 +8,7 @@ alias: cmd-enter
 **`ENTER`**` BUILDING `*`building-id`*  
 **`ENTER`**` SHIP `*`ship-id`*  
 
-Enter the specified [building][buildings] or [ship][ships-id].  
+Enter the specified [building][buildings-id] or [ship][ships-id].  
 
 The unit [in command][units-and-buildings] of the building or ship must allow entry.
 She does this if she belongs to her own faction, has set [`HELP GUARD`][cmd-help] for her own faction or gives the [`CONTACT`][cmd-contact] order for the unit this round.

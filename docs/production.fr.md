@@ -15,7 +15,7 @@ Pour pouvoir produire, il faut posséder les compétences appropriées.
 La plupart des productions s"effectuent avec l'ordre [`MAKE`*`<number>`*` `*`item`*][cmd-make-fr], par exemple `MAKE Iron`, `MAKE Sword` ou `MAKE 15 Elvenbow`.  
 
 Selon l'objet, un niveau de compétence différent est requis pour pouvoir le produire.  
-La majorité des ressources][ressources] ne nécessitent qu'une connaissance de base des compétences correspondantes (niveau 1), tandis que la plupart des [objets][objets] nécessitent des niveaux de compétence plus élevés.  
+La majorité des [ressources][ressources] ne nécessitent qu'une connaissance de base des compétences correspondantes (niveau 1), tandis que la plupart des [objets][objets] nécessitent des niveaux de compétence plus élevés.  
 Pour les objets avec des valeurs de compétence minimales élevées, vous ne pouvez en fabriquer que quelques-uns.
 Dans tous les cas, **par unité et sur un tour**, vous ne pouvez produire qu’un seul type d’objet ou de ressource et travailler sur un seul bâtiment ou bateau.  
 
@@ -71,10 +71,10 @@ Pour faciliter la collecte, il existe une [réserve d'objets][reserve-d-objets-i
 ## Voir aussi
 
 - [Ressources][ressources]
-- [Goods][items]
+- [Goods][items-id]
 - [Routes][routes-id]
 - [Bateaux][bateaux-id]
-- [[buildings]]
+- [Bâtiments][batiments-id]
 - [Réserve de faction][reserve-de-faction]
 
 Poursuivre la lecture : [ressources][ressources].

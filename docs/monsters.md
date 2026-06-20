@@ -108,7 +108,7 @@ In combat, they possess various special attacks and immunities.
 They can attack with their bare hands (and are still considered [[armed]]), but they can also carry weapons.  
 
 !!! note "Note"
-    Some [mages][magic] are able to control the undead.  
+    Some [mages][magic-id] are able to control the undead.  
 
 Until now, seven types of Undead are known.
 

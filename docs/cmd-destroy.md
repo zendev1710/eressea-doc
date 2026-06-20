@@ -10,7 +10,7 @@ alias: cmd-destroy
 **`DESTROY [<level>]`**  
 **`DESTROY [<level>] STREET <direction>`**  
 
-A unit in command of a [ship][ships-id] or [building][buildings] can shrink or destroy it at any time using this order.  
+A unit in command of a [ship][ships-id] or [building][buildings-id] can shrink or destroy it at any time using this order.  
 She doesn't need any skill for that.  
 
 For **buildings**, the *level* parameter denotes the **size points** by which the building should be reduced in size.  

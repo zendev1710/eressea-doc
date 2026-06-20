@@ -98,7 +98,7 @@ alias: draigzauber
 ### Erschaffe ein [Amulett des wahren Sehens][amulett-des-wahren-sehens]
 
 :   Der Spruch ermöglicht es einem Magier, ein Amulett des Wahren Sehens zu erschaffen.  
-    Das Amulett erlaubt es dem Träger, alle Einheiten, die durch einen [Ring der Unsichtbarkeit][ring-der-unsichtbarkeit] geschützt sind, zu sehen.  
+    Das Amulett erlaubt es dem Träger, alle Einheiten, die durch einen [Ring der Unsichtbarkeit][ring-der-unsichtbarkeit-id] geschützt sind, zu sehen.  
     Einheiten allerdings, die sich mit ihrem Tarnungs-Talent verstecken, bleiben weiterhin unentdeckt.  
 
 |               Komponenten               | Stufe |  Art   | Rang |            Schiff            | Fern. |

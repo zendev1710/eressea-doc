@@ -476,7 +476,7 @@ Avec le temps, elles guérissent.
 Elles régénèrent généralement 5 % (certains peuples [davantage][modificateurs-de-competences-id]) de leurs points de vie maximum par tour, mais au moins un point par individu.  
 Les unités mortes-vivantes ne se régénèrent pas.
 
-Si la région où les combats ont eu lieu était [gardée][alliances] **au début du combat** par une unité amie ou une unité ayant activé l'ordre [`HELP GUARD`][cmd-help-fr] pour les forces amies, toutes les unités participant au combat (celles figurant dans le rapport de bataille) peuvent exécuter des ordres longs.  
+Si la région où les combats ont eu lieu était [gardée][alliances-fr-id] **au début du combat** par une unité amie ou une unité ayant activé l'ordre [`HELP GUARD`][cmd-help-fr] pour les forces amies, toutes les unités participant au combat (celles figurant dans le rapport de bataille) peuvent exécuter des ordres longs.  
 Ceci est valable même si des troupes ennemies gardent également la région.  
 Cela fonctionne aussi si tu as attaqué toi-même (c'est-à-dire si tu as donné toi-même l'ordre `ATTACK`).
 
@@ -491,7 +491,7 @@ Après une bataille en mer, vous pouvez toujours exécuter des ordres longs.
 - [Tactique][tactique]
 - [[war-tables]]
 
-Poursuivre la lecture : [[alliances]].
+Poursuivre la lecture : [alliances][alliances-fr-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg/fr&oldid=16966] -->
 

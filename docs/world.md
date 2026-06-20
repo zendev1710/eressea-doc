@@ -85,14 +85,14 @@ Larger [castles][castles] give a small bonus to the silver earned through work i
 Furthermore, no more player units can work in this region if all workplaces are occupied.  
 
 The terrain type also determines which [herbs][herbs-id] can grow in the region.  
-An alchemist will be able to brew helpful [potions][alchemy] from different ingredients.  
+An alchemist will be able to brew helpful [potions][potions-id] from different ingredients.  
 Some herbs only thrive in deserts, others need the swampy climate of a bog, so there are herbs for every terrain that can only grow there.  
 However, the herbs that grow there cannot be changed.  
 Even if all herbs have been plucked from the region, only the herb that originally grew there can be [replanted][cmd-plant].  
 If in doubt, you must try out which herb has originally grown here.  
 Herbs never grow in volcanoes.  
 
-In each region, [[roads]] can be built.  
+In each region, [roads][roads-id] can be built.  
 The costs vary depending on the terrain.  
 In addition, roads can be built in glaciers, swamps and deserts only if there are [[other-buildings]].  
 
@@ -152,7 +152,7 @@ There are currently 22 stones at quarrying level 3.
 To discover this stone deposit, a quarryman with at least quarrying level 2 is required (note: with quarrying level 2, you can see stone deposits up to a maximum of quarrying level 4).  
 However, to actually extract stones, the unit must have quarrying level 3.  
 
-In principle, you can build [[roads]] in any land region to increase your traveling speed over land.  
+In principle, you can build [roads][roads-id] in any land region to increase your traveling speed over land.  
 For the Vîpot desert, you need 100 stones to build a road in one of the 6 cardinal directions (W, NW, NE, E, SE, SW).  
 In addition, there must also be a developed road in the neighboring region in the direction of Vîpot so that there is a closed road connection.  
 However, since Vîpot is a desert, you also need a fully developed [caravanserai][caravanserai].  

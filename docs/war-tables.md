@@ -13,7 +13,7 @@ This page lists combat-relevant properties of weapons, armor, and races.
 
 ### Axe
 
-[](){ #bow-id }
+[](){ #weapon-bow-id }
 
 ### Bow
 
@@ -21,11 +21,11 @@ This page lists combat-relevant properties of weapons, armor, and races.
 
 ### Catapult
 
-[](){ #claymore-id }
+[](){ #weapon-claymore-id }
 
 ### Claymore
 
-[](){ #crossbow-id }
+[](){ #weapon-crossbow-id }
 
 ### Crossbow
 

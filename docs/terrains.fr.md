@@ -55,7 +55,7 @@ Les plantes qui poussent sur les hauts-plateaux sont le [champignon des fjords][
 *Swamp (EN), Sumpf (DE).*
 <!-- cspell:enable -->
 
-Les plantes qui poussent dans les marais sont l'[herbe-de-clairon]{title="Bugleweed"}, la [morille][morille]{title="Bubblemorel"} et la [racine de nœud][racine-de-nud]{title="Knotroot"}.  
+Les plantes qui poussent dans les marais sont l'[herbe de clairon][herbe-de-clairon]{title="Bugleweed"}, la [morille][morille]{title="Bubblemorel"} et la [racine de nœud][racine-de-nud]{title="Knotroot"}.  
 
 ## Montagne
 

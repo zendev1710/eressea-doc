@@ -17,8 +17,8 @@ Herbs grow back like trees;
 if you are not careful, you can pick all the herbs in a region and then have to plant some again using [`GROW HERBS`][cmd-grow].  
 If in doubt, you have to try out which herb has ever grown here.  
 
-Herbs are mainly used for [alchemy][alchemy].  
-Some [spells][magic] also need herbs as components.  
+Herbs are mainly used for [alchemy][alchemy-id].  
+Some [spells][magic-id] also need herbs as components.  
 
 With [`RESEARCH HERBS`][cmd-research] you can find out approximately how many herbs grow in the region;  
 this requires herbalism level 7 or higher.  

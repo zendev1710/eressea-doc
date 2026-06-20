@@ -158,7 +158,7 @@ A unit of 10 people with 10 swords and 10 axes will fight with swords, because t
 
 ## Tactician's round
 
-Before the battle, the best [Tactician][tactics] of all participating units is chosen.  
+Before the battle, the best [Tactician][tactics-id] of all participating units is chosen.  
 A tactician fighting in the 1st row receives a +1 bonus to his "tactics" skill.  
 If he is in the 3rd or 4th row, his level is reduced by 1.  
 In order to leave an element of "form of the day" and luck, each tactician also receives a random bonus which starts at 0 and which, in pure theory, can become very significant, the probability being lower and lower as the bonus increases.
@@ -401,7 +401,7 @@ After the battle, it is possible for the units to carry out further long orders.
 
 If a ship is involved in a battle, it takes 5% damage per battle round if at least one person takes damage that is on the ship or was on the ship at the start of the round.  
 It therefor does not help to leave the ship before the battle begins.  
-The [tactics round][tactics] and the first round are not counted, so the maximum possible damage is 20%.  
+The [tactics round][tactics-id] and the first round are not counted, so the maximum possible damage is 20%.  
 
 More damage can occur if sea serpents are involved in the battle.  
 These monsters, like some familiars, have an attack that can cause structural damage to ships every combat round.  
@@ -449,7 +449,7 @@ Injured units will recover over time.
 Units normally regenerate 5% (some [races][skills-modifiers] more) of their maximum hit points per round, but at least one point per person in the unit.  
 Undead units do not regenerate.
 
-If the region being fought in was [guarded][alliances] **at the beginning of the battle** by a friendly unit or by a unit that has set a [`HELP GUARD`][cmd-help] to its own faction ‘'at the start of the battle’', all units participating in the battle (i.e. appearing in the battle report) can still execute a long order.  
+If the region being fought in was [guarded][alliances-id] **at the beginning of the battle** by a friendly unit or by a unit that has set a [`HELP GUARD`][cmd-help] to its own faction ‘'at the start of the battle’', all units participating in the battle (i.e. appearing in the battle report) can still execute a long order.  
 This works even if enemy troops are also guarding the region.  
 It also works if you have attacked yourself (i.e. you have set the `ATTACK` order yourself).
 
@@ -461,10 +461,10 @@ After sea battles on oceans you can always execute long orders.
 
 ## See also
 
-- [[tactics]]
+- [Tactics][tactics-id]
 - [[war-tables]]
 
-Continue reading: [[alliances]].
+Continue reading: [alliances][alliances-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg/en&oldid=16626] -->
 

@@ -3,6 +3,8 @@
 alias: tactics
 ---
 
+[](){ #tactics-id }
+
 # Tactics
 
 Before the battle, the best tactician of all participating units is determined.  

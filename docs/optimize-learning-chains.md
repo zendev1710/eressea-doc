@@ -181,7 +181,7 @@ Production units want to have a lot of time to work and only learn when it is re
 1. All units take the same amount of time to reach the next level.
     In fact, there are random fluctuations in the learning time to the next level and teachers have to learn slightly more than students because they are at a higher skill level.
 2. Time can be divided into any fine detail.
-    In fact, you can only teach weekly./cmd-learn.md.
+    In fact, you can only teach weekly.
     In practice, this division is also fine enough.
 3. “Teaching” and “being taught” do not interfere with each other.
     Situations such as: S2 could learn from S1, but also teach S3; S1 cannot learn from L and S3 cannot teach S4.

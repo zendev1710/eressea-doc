@@ -15,7 +15,7 @@ alias: cmd-help
 This order allows a faction to set different levels of support for another faction.
 The counterparty does not learn about a change in status and does not have to have the same status.
 
-The individual modes are explained in the section about [[alliances]].
+The individual modes are explained in the section about [alliances][alliances-id].
 
 Example:
 

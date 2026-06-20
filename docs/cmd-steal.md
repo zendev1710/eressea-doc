@@ -11,7 +11,7 @@ alias: cmd-steal
 
 This order attempts to steal from the specified unit.  
 
-If the perpetrators' [stealth][stealth] skill is higher than the victims' [perception][skill-perception-id] skill (this counts the perception skill of the best unit in the region), the victims only notice that they have been stolen from, not by whom.  
+If the perpetrators' [stealth][skill-stealth-id] skill is higher than the victims' [perception][skill-perception-id] skill (this counts the perception skill of the best unit in the region), the victims only notice that they have been stolen from, not by whom.  
 The perpetrators steal 50 silver per person and skill level difference.  
 
 If the perception of the victims and the concealment of the perpetrators are equally high, the theft will not be successful and the victims will become suspicious.  
@@ -27,6 +27,6 @@ If the perception of the victims is even higher than the concealment of the perp
 ## See also
 
 - [[money]]
-- [[stealth]]
+- [Stealth][stealth-id]
 
 <!-- From [https://wiki.eressea.de/index.php?title=STEAL&oldid=16749] -->

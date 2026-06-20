@@ -160,6 +160,6 @@ alias: list-of-spells
 |    |    |  5 |    |    | [Whirlwind][whirlwind-id]                                             | Pre-c.  |  5   | 15 aura                                                                          |                |
 |    |  6 |    |    |    | [Winds of Rust][winds-of-rust-id]                                     | Combat  |  5   | 2 x T aura                                                                       |                |
 
-Continue reading: [Potions][alchemy].
+Continue reading: [Potions][potions-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Zauberliste\_E2&oldid=15782] -->

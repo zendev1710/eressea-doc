@@ -16,7 +16,7 @@ alias: cmd-help-fr
 Cet ordre permet à une faction d'attribuer différents niveaux de soutien à une autre faction.
 Cette dernière ne sera pas informée de ce changement de statut et n'est pas tenue d'avoir le même statut.
 
-Plus d'information sur les différents modes : [les alliances][alliances].
+Plus d'information sur les différents modes : [les alliances][alliances-fr-id].
 
 Exemple :
 

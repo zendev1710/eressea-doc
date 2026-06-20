@@ -16,9 +16,11 @@ alias: cmd-make
 The `MAKE` order is the general production order.
 To find out more, see the [Production][production-id] chapter.
 
+[](){ #make-items-id }
+
 ## Items
 
-[Items][items] and [raw materials][resources] are created with `MAKE [`*`number`*`]`*`item`*` `.  
+[Items][items-id] and [raw materials][resources] are created with `MAKE [`*`number`*`]`*`item`*` `.  
 Depending on the item, a certain skill and perhaps also certain raw materials are required.  
 Without specifying *number*, the unit will produce as many items as people, skill and possibly raw materials allow it to.  
 
@@ -27,11 +29,15 @@ Without specifying *number*, the unit will produce as many items as people, skil
 ### Potions
 
 Creating a potion is very complex and can only be done by particularly talented alchemists.  
-Details can be found in the [Alchemy chapter][alchemy].
+Details can be found in the [Alchemy chapter][alchemy-id].
+
+[](){ #make-herbs-id }
 
 ### Herbs
 
 Herbs are produced with the `MAKE HERBS` order by units with the [herbalism][herbalism] skill. For details, see the chapter on [herbs][herbs-id].
+
+[](){ #make-units-id }
 
 ## Units
 
@@ -83,15 +89,19 @@ UNIT 17;    Fighters [15,700$]
     END
 ```
 
+[](){ #make-buildings-id }
+
 ## Buildings
 
-To erect a new building, use the order `MAKE [`*`levels`*`]`*`building_type`* (see [[buildings]]).  
+To erect a new building, use the order `MAKE [`*`levels`*`]`*`building_type`* (see [Buildings][buildings-id]).  
 To continue building, the order is `MAKE [levels]`*`building_type`*` `*`building_id`*.  
 The *building type* can also be replaced by CASTLE when continuing to build, even if it is a different type of building.  
 
 Castles and many other buildings can be enlarged as much as you want.  
 In order to build castles, the unit must have the masonry skill and stones;
 other buildings usually also require wood, iron, and silver in various quantities.
+
+[](){ #make-ships-id }
 
 ## Ships
 
@@ -110,7 +120,7 @@ With buildings as well as ships you can specify with *levels* how many size poin
 ## Roads
 
 To make it easier to travel through a region with roads and bridges, use `MAKE ROAD`*`direction`*.  
-To build [roads][roads-id], the unit needs the skill [roadwork][roadwork] and [stones][items].  
+To build [roads][roads-id], the unit needs the skill [roadwork][roadwork] and [stones][stone].  
 In glaciers, it needs a [tunnel][tunnel-id] beforehand, in deserts a [caravanserai][caravanserai] and in swamps a [dam][dam].  
 One stone is used per skill point of road construction.
 Between 50 and 250 stones are required for each desired direction, depending on the [[terrain-types]].  
@@ -146,6 +156,6 @@ MAKE building xyz ; wrong: only CASTLE or building type is allowed
 ## See also
 
 - [Production][production-id]
-- [Alchemy][alchemy]
+- [Alchemy][alchemy-id]
 
 <!-- From [https://wiki.eressea.de/index.php?title=MAKE/en&oldid=16445] -->

@@ -13,7 +13,7 @@ To do so, the unit must be [[armed]] with at least one [weapon][weapons-summary-
 !!! note
     Ocean regions cannot be guarded.
 
-When a faction is guarding a region, units that are not allied with it are subject to [alliances][alliances] ([`HELP GUARD`][cmd-help] or [`CONTACT`][cmd-contact]), with the following restrictions:
+When a faction is guarding a region, units that are not allied with it are subject to [alliances][alliances-id] ([`HELP GUARD`][cmd-help] or [`CONTACT`][cmd-contact]), with the following restrictions:
 
 1. You can no longer collect taxes, mine raw materials, [trade][silver-trade-id] or recruit farmers in this region
 2. There is a certain probability that you will be stopped in transit
@@ -61,8 +61,8 @@ In the [first few weeks][puppy-protection] a faction cannot guard yet.
 
 ## See also
 
+- [Alliances][alliances-id]
 - [`HELP GUARD`][cmd-help]
-- [[alliances]]
 - [`CONTACT`][cmd-contact]
 
 <!-- From [https://wiki.eressea.de/index.php?title=GUARD&oldid=16839] -->

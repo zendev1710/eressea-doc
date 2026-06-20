@@ -1,8 +1,10 @@
 ---
 # cSpell:locale fr
 alias: magie
+title: Magie
 ---
 
+<!-- markdownlint-disable MD025 -->
 [](){ #magie-fr-id }
 
 # Magie

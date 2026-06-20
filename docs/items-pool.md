@@ -12,7 +12,7 @@ The silver pool takes over the distribution of money when playing, so that for e
 Nevertheless, it is stated throughout the instructions that units must have enough money with them.  
 This is just to avoid forgetting it.
 
-Likewise, [[buildings]] are supplied from the pool if the silver is present in the region at the start of the round.  
+Likewise, [buildings][buildings-id] are supplied from the pool if the silver is present in the region at the start of the round.  
 If the entity that owns the building cannot pay for it out of their own pocket or from the pool, the building cannot function.  
 At the end of the round, the unit will try again to pay for the building from its own silver reserves or from its own faction's pool.  
 

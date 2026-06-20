@@ -7,7 +7,7 @@ alias: resources
 
 Raw materials can be obtained without other ingredients from the region without further ingredients.  
 However, the deposits are limited and regenerate only slowly or not at all.
-The necessary skill can be looked up in the section about [goods][items].
+The necessary skill can be looked up in the section about [goods][items-id].
 
 ## Raw materials
 
@@ -50,7 +50,7 @@ There's barely one Adamantium per round, assuming there is any Adamantium in the
 ## Extraction of Raw Materials
 
 When exploiting resources, it is important to consider that units [on guard][cmd-guard] prevent non-allied factions - having neither [`HELP GUARD`][cmd-help] nor [`HELP ALL`][cmd-help] to your faction and not [contacting][cmd-contact] your unit or faction - from exploiting them.
-This does not apply if the guarding faction does not see the producer, for example because they are [cloaked][stealth].
+This does not apply if the guarding faction does not see the producer, for example because they are [cloaked][stealth-id].
 
 ### About Mining
 
@@ -116,11 +116,11 @@ See the [list of herbs][list-of-herbs].
 ## See also
 
 - [Production][production-id]
-- [Goods][items]
-- [[roads]]
-- [[buildings]]
+- [Goods][items-id]
+- [Roads][roads-id]
+- [Buildings][buildings-id]
 
-Continue reading: [Goods][items].
+Continue reading: [Goods][items-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Rohstoffe/en&oldid=16867] -->
 

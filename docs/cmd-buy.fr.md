@@ -29,7 +29,7 @@ UNIT hndl;     Barker [1, $1000]
     BUY 10 Incense
 ```
 
-Ce marchand achètera 10 encens et vendra un total de 20 bijoux et de l'huile.  
+Ce marchand achètera 10 [encens][encens]{title="Incense"} et vendra un total de 20 bijoux et de l'huile.  
 Donc aléatoirement entre 5 et 15 par objet d'échange s'il en a.  
 
 Un seul ordre apparaît dans le rapport standard (NR).  

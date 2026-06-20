@@ -28,7 +28,7 @@ Here is a list of the most famous ones:
 - [Magellan][magellan-id]
   - [[extended-commands]]
   - [fftools][fftools-id]
-- [[vorlage]]
+- [Vorlage][vorlage-id]
 
 ## How to submit orders, and what you get in return
 
@@ -192,7 +192,7 @@ The date of the email (Date: header) is used as the order.
 ## See also
 
 - [The World of Eressea][world]
-- [The first round][first-round]
+- [The first round][first-round-id]
 - [[orders]]
 
 Continue reading: [hints][hints].

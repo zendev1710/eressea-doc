@@ -28,7 +28,7 @@ Voici une liste des plus utilisés :
 - [Magellan][magellan-fr-id]
   - [[extended-commands]]
   - [fftools][fftools-id]
-- [[vorlage]]
+- [Vorlage][vorlage-fr-id]
 
 ## Comment soumettre des ordres et ce que vous obtenez en retour
 

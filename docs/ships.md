@@ -1,8 +1,10 @@
 ---
 # cSpell:locale en
 alias: ships
+title: Ships
 ---
 
+<!-- markdownlint-disable MD025 -->
 [](){ #ships-id }
 
 # Ships
@@ -148,7 +150,7 @@ GIVE 123 ALL MEN
 - [[movement]]
 - [`GIVE`][cmd-give]
 
-Continue reading: [[buildings]].
+Continue reading: [Buildings][buildings-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Schiff/fr&oldid=16676] -->
 

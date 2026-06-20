@@ -21,6 +21,8 @@ alias: cmd-give
 
 The unit transfers items, command of ships or buildings, persons, ships or even itself to other units.
 
+[](){ #give-items-id }
+
 ## Items
 
 With `GIVE` units can give all the goods they own to other units.
@@ -135,7 +137,7 @@ Boats cannot form convoys and the ships must be on the same coast.
 - [`RESERVE`][cmd-reserve]
 - [[items-pool]]
 - [Ships][ships-id]
-- [[buildings]]
+- [Buildings][buildings-id]
 
 <!-- From [https://wiki.eressea.de/index.php?title=GIVE/en&oldid=15995] -->
 

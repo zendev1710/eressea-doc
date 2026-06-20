@@ -442,6 +442,8 @@ This earthquake will damage all buildings in the region.
 
 ## Level 15
 
+[](){ #g-maelstrom-id }
+
 ### Maelstrom
 
 :   This ritual summons a mighty water elemental from the depths of the ocean.  

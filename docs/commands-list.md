@@ -165,7 +165,7 @@ More information: [orders][orders].
 - [Orders][orders]
 - [Orders sequence][orders-sequence]
 
-Continue reading: [the first round][first-round].
+Continue reading: [the first round][first-round-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kurzbeschreibung&oldid=16741] -->
 

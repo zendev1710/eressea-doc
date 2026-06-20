@@ -496,7 +496,7 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 
 [](){ #erschaffe-einen-ring-der-unsichtbarkeit-id }
 
-### Erschaffe einen [Ring der Unsichtbarkeit][ring-der-unsichtbarkeit]
+### Erschaffe einen [Ring der Unsichtbarkeit][ring-der-unsichtbarkeit-id]
 
 :   Mit diesem Spruch kann der Zauberer einen Ring der Unsichtbarkeit erschaffen.  
     Der Träger des Ringes wird für alle Einheiten anderer Parteien unsichtbar, egal wie gut ihre Wahrnehmung auch sein mag.  

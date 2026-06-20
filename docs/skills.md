@@ -84,7 +84,7 @@ Unit s2 is only half taught in endurance and therefore only learns 50% faster.
     Avec l'ordre [`LEARN-AUTO`][cmd-learn-auto], le serveur tente d'automatiser l'apprentissage et l'enseignement dans une région.  
     Cependant, comme cela est dû à une simple heuristique, il n’est pas garanti qu’une chaîne d’apprentissage optimale (à long terme) soit créée.  
 
-[[magic]], [alchemy][skill-alchemy-id], [herbalism][herbalism], [espionage][skill-espionage-id] et [[tactics]] sont particulièrement difficiles et coûteuses.
+[magic][skill-magic-id], [alchemy][skill-alchemy-id], [herbalism][herbalism], [espionage][skill-espionage-id] et [tactics][skill-tactics-id] sont particulièrement difficiles et coûteuses.
 Apprendre l'espionnage coûte 100 Silver par personne et par tour.
 200 Silver par personne et par semaine pour l'alchimie, l'herboristerie et la tactique.
 Apprendre la magie coûte facilement plusieurs milliers de Silver à des niveaux élevés (voir [ce tableau][magic]).
@@ -146,7 +146,7 @@ alchemy, mining, masonry, forestry, herbalism, taming, armoursmithing, shipcraft
 
 Il s'agit du plus grand groupe de compétences.
 Elles permettent de fabriquer certains objets, bâtiments, bateaux ou routes.
-Elles sont expliquées plus en détail dans les chapitres [production][production-id] et [alchemy][alchemy].
+Elles sont expliquées plus en détail dans les chapitres [production][production-id] et [alchemy][alchemy-id].
 
 ### Skills for making money
 
@@ -155,7 +155,7 @@ Pour en savoir plus, consultez le chapitre sur [l'argent][money].
 
 ### Concealment & Co
 
-[espionage][skill-espionage-id], [stealth][stealth] et [perception][skill-perception-id] sont centrés sur la dissimulation.
+[espionage][skill-espionage-id], [stealth][skill-stealth-id] et [perception][skill-perception-id] sont centrés sur la dissimulation.
 Elles ont leur propre chapitre.
 
 ### For travel
@@ -167,24 +167,24 @@ riding est également abordé dans le chapitre des [combats][war-tables].
 
 ### Magic
 
-[[magic]] est une compétence aux pouvoirs particulièrement puissants qui occupe tout un chapitre.
+[Magic][magic-id] est une compétence aux pouvoirs particulièrement puissants qui occupe tout un chapitre.
 
 ### Combat skills
 
 Les compétences de maniement des armes sont les suivantes :
 
-- [catapult][catapult]
-- [bow][bow]
-- [crossbow][crossbow]
-- [melee][melee]
-- [polearm][polearm]
-- [unarmed combat][unarmed-combat]
+- [Bow][skill-bow-id]
+- [Catapult][skill-catapult-id]
+- [Crossbow][skill-crossbow-id]
+- [Melee][melee]
+- [Polearm][polearm]
+- [Unarmed combat][unarmed-combat]
 
 Les autres compétences essentielles au combat sont :
 
-- [endurance][skill-endurance-id]
-- [riding][riding]
-- [tactics][tactics]
+- [Endurance][skill-endurance-id]
+- [Riding][riding]
+- [Tactics][tactics-id]
 
 Toutes ces compétences sont particulièrement importantes dans les [batailles][war], que ce soit contre d'autres factions ou des monstres.
 

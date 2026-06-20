@@ -7,7 +7,7 @@ alias: schools-of-magic
 
 There are five Schools of Magic in Eressea.  
 
-Each faction must choose one the first time they learn [[magic]];  
+Each faction must choose one the first time they learn [magic][magic-id];  
 **once chosen, the School of Magic cannot be changed**.  
 
 Before choosing your School of Magic, don't hesitate to consult the [list of spells]!  

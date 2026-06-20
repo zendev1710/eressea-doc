@@ -9,7 +9,7 @@ alias: cmd-research
 
 **`RESEARCH HERBS`**  
 
-With this order the unit tries to find out which [herb][herbs] grows in a region and approximately how much of it is present.  
+With this order the unit tries to find out which [herb][herbs-id] grows in a region and approximately how much of it is present.  
 
 To do this, the unit must have at least [herbalism][herbalism] **T7**.  
 

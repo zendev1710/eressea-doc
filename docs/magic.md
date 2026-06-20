@@ -1,8 +1,10 @@
 ---
 # cSpell:locale en
 alias: magic
+title: Magic
 ---
 
+<!-- markdownlint-disable MD025 -->
 [](){ #magic-id }
 
 # Magic
@@ -197,7 +199,7 @@ With these variable spells you can specify a level at which the spell should be 
 This must be equal to or lower than the unit's magic skill, but it can be higher or lower than the spell's normal level.  
 This allows you to cast the spell at a lower level than your own skill.
 
-Using a [Ring of Power][ring-of-power-id], [Mage Tower][mage-tower-id] or [Bless Stone Circle][bless-stone-circle], the strength can be increased by an additional point.  
+Using a [Ring of Power][ring-of-power-id], [Mage Tower][mage-tower-id] or [Bless Stone Circle][g-bless-stone-circle-id] spell, the strength can be increased by an additional point.  
 This bonus is added to the specified level.
 
 If the level is omitted, the spell is cast at the maximum possible level, i.e. the unit's skill value (modifications such as racial bonuses or special bonuses such as those for insects in deserts are taken into account).  

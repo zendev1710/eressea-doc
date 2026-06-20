@@ -91,7 +91,7 @@ Une unité peut augmenter sa capacité de transport grâce aux [chevaux et chari
 Le poids des objets les plus courants est répertorié dans le [tableau récapitulatif des objets].  
 
 !!! note "Note"
-    Les [potions][potions-fr-id], [plantes][plantes]{title="Herbs"} et la plupart des objets magiques (anneaux, amulettes...) ne pèsent rien.
+    Les [potions][potions-fr-id], [plantes][plantes-id]{title="Herbs"} et la plupart des objets magiques (anneaux, amulettes...) ne pèsent rien.
 
 ## Déplacement par voie terrestre
 

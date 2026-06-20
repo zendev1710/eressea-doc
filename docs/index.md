@@ -27,7 +27,7 @@ This site reproduces the rules of the game described in the wiki, **fully transl
 ## Noteworthy pages
 
 - [Orders sequence][orders-sequence] - the most important rules page
-- [Tactics][tactics] - How many tacticians for which bonus
+- [Tactics][tactics-id] - How many tacticians for which bonus
 - [Familiars][familiars] - All about those magical creatures
 - [Development][development] of tools or tool-based scripts
 - [Xontormia Express] - a gazette and its [archived issues]

@@ -320,7 +320,7 @@ Durant ce mois, les tempêtes sont les plus fréquentes.
 
 Premier mois de l'hiver, qui en compte trois.
 
-Les [plantes][plantes]{title="Herbs"} cessent de croître, jusqu'au retour du printemps.  
+Les [plantes][plantes-id]{title="Herbs"} cessent de croître, jusqu'au retour du printemps.  
 
 ### Vent des Glaces
 

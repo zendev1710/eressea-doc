@@ -89,14 +89,12 @@ copyright: Copyright &copy; 2025 Cyril Guillon
 
 plugins:
   # - categories
-  - alias:
-      # open_tag: "[$"
-      # close_tag: "$]"
+  - alias
+
   - privacy
   - redirects
   - search :
       enabled: true
-      lang: en, fr, de
   - table-reader
   - autorefs:
       # for french markdown pages anchors, I want a tooltiphaving the english translation.

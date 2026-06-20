@@ -37,7 +37,7 @@ Garder empêche le recrutement (sauf en cas d'utilisation de `HELP`).
 
 Chaque joueur et chaque paysan a besoin de 10 Silver à chaque tour pour pouvoir acheter sa nourriture.  
 Les unités d'une même faction dans la même région s'aident cependant mutuellement, c'est-à-dire qu'il suffit en principe qu'une unité ait assez de Silver pour toutes les personnes présentes (ce qui peut toutefois être fatal en cas d'erreur, si personne d'autre n'a de silvers !)  
-Si votre propre faction n'a pas assez d'argent, d'autres factions qui ont mis [`HELP SILVER`][cmd-help-fr] avec votre faction aident aussi (voir [[alliances]]).  
+Si votre propre faction n'a pas assez d'argent, d'autres factions qui ont mis [`HELP SILVER`][cmd-help-fr] avec votre faction aident aussi (voir [Alliances][alliances-fr-id]).  
 Les unités qui se déplacent doivent être ravitaillées là où elles arrivent.  
 Pour l'entretien des unités, on utilise aussi des silver, qui a été préalablement [réservé][cmd-reserve-fr].  
 Sans suffisamment de silvers, les gens souffrent de la faim (voir ci-dessous).  
@@ -192,15 +192,15 @@ Le prix revient à la normale au tour suivant, les produits étant à nouveau di
 
 *Prix de base des biens de luxe.*
 
-| Produits de luxe | Prix de base | Poids (lbs) |
-|------------------|:------------:|:-----------:|
-| [baume][baume]   |      4       |      2      |
-| [encens][encens] |      4       |      2      |
-| [gemme][gemme]   |      7       |      1      |
-| [huile][huile]   |      3       |      3      |
-| [myrrhe][myrrhe] |      5       |      2      |
-| [soie][soie]     |      6       |      3      |
-| [épice][epice]   |      5       |      2      |
+| Produits de luxe                  | Prix de base | Poids |
+|-----------------------------------|:------------:|:-----:|
+| [Baume][baume]{title="Balm"}      |      4       | 2 lbs |
+| [Encens][encens]{title="Incense"} |      4       | 2 lbs |
+| [Gemme][gemme]{title="Gem"}       |      7       | 1 lbs |
+| [Huile][huile]{title="Oil"}       |      3       | 3 lbs |
+| [Myrrhe][myrrhe]{title="Myrrh"}   |      5       | 2 lbs |
+| [Soie][soie]{title="Silk"}        |      6       | 3 lbs |
+| [Épice][epice]{title="Spice"}     |      5       | 2 lbs |
 
 Le prix de vente d'un produit de luxe est un multiple du prix de base et est indiqué dans le rapport de la région.  
 Dès que plus d'1% des paysans ont acheté un produit au cours d'un tour, le prix de vente diminue du prix de base et n'augmente à nouveau que lentement au cours des semaines suivantes.  
@@ -217,7 +217,7 @@ La hausse ou la baisse des prix affecte donc de manière égale tous ceux qui ac
 Exemple :
 
 - Supposons une région comptant 8 000 paysans.
-  Elle propose de l'[encens] à 4 Silver et demande des [épices][epice] à 15 Silver.
+  Elle propose de l'[encens][encens]{title="Incense"} à 4 Silver et demande des [épices][epice]{title="Spice"} à 15 Silver.
   1 % des paysans correspond à 80.
   Si un commerçant vend 200 épices, les 80 premières épices seront vendues à 15 Silver, les 80 suivantes à 10 Silver et les 40 restantes à 5 Silver.
   La semaine suivante, les épices ne pourront plus être vendues qu'à 5 Silver.
@@ -303,7 +303,7 @@ Pour une unité `TEMP` (particulièrement pertinente lors du recrutement), l'uni
 - [`RESERVE`][cmd-reserve-fr]
 - [`RECRUIT`][cmd-recruit-fr]
 - [La réserve d'objets][reserve-d-objets-id]
-- [stealth]
+- [Discrétion][discretion-id]
 - [`GUARD`][cmd-guard-fr]
 
 Poursuivre la lecture : [la réserve d'objets][reserve-d-objets-id].

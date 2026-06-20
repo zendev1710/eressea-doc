@@ -34,7 +34,7 @@ Recruitment is prevented by guarding.
 ### Upkeep costs
 
 Every person of a faction and each peasant require 10 silver each turn to buy themselves the supplies needed to survive.  
-Units of a faction help each other with silver when staying in the same region, i.e. it is basically enough if one unit has enough silver for all persons present (which can lead to catastrophes when done wrong and nobody else has any silver!). If your own faction does not have enough silver, other factions that have set [HELP SILVER][cmd-help] to your own faction will also help (see [[alliances]]).  
+Units of a faction help each other with silver when staying in the same region, i.e. it is basically enough if one unit has enough silver for all persons present (which can lead to catastrophes when done wrong and nobody else has any silver!). If your own faction does not have enough silver, other factions that have set [HELP SILVER][cmd-help] to your own faction will also help (see [Alliances][alliances-id]).  
 Units that move must be supplied where they arrive.  
 Silver, which was previously [reserved], is also used for unit maintenance.  
 Without enough silver, people will starve (see below).
@@ -42,7 +42,7 @@ Without enough silver, people will starve (see below).
 Some buildings also require a weekly maintenance cost in order to function.  
 These maintenance costs are incurred at the start of the round, i.e. they must be collected in the preliminary round and are due as soon as the building has been started (i.e. even for half-finished buildings).  
 If there is not enough silver available, the function of the building cannot be used.  
-More details can be found in the chapter on [buildings][buildings].
+More details can be found in the chapter on [buildings][buildings-id].
 
 ## Starvation
 

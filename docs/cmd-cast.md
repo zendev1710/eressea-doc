@@ -17,7 +17,7 @@ REGION can only be used with [ranged spells][ranged-spells], and LEVEL only make
 !!! note
     Some spells have additional parameters.
 
-The use of the spells is explained in more detail in the [[magic]] chapter, and can also be found in the spell description itself.  
+The use of the spells is explained in more detail in the [Magic][magic-id] chapter, and can also be found in the spell description itself.  
 You get this when you get the spell again and can use it with [`SHOW ALL SPELLS`][cmd-show] display again.  
 
 Combat spells cannot simply be cast.  

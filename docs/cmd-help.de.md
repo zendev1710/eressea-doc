@@ -3,7 +3,7 @@
 alias: bef-helfe
 ---
 
-# HELFE
+# `HELFE`
 
 **`HELFE`**` `*`partei-nr`*`GIB [NICHT]`  
 **`HELFE`**` `*`partei-nr`*`KÄMPFE [NICHT]`  

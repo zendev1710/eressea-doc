@@ -43,6 +43,8 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 ### Docteur Miracle
 
+[](){ #t-spell-docteur-miracle-id }
+
 <!-- cspell:disable -->
 *Miracle Doctor (EN), Wunderdoktor (DE)*.
 <!-- cspell:enable -->
@@ -92,7 +94,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 `COMBATSPELL [LEVEL n] "Save Spoils"`  
 
-[](){ t-spell-resistance-a-la-magie-id }
+[](){ #t-spell-resistance-a-la-magie-id }
 
 ### Résistance à la magie
 

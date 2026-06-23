@@ -3,7 +3,7 @@
 alias: cmd-move
 ---
 
-# MOVE
+# `MOVE`
 
 *[long order][short-and-long-orders].*  
 

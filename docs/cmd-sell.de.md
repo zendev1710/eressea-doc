@@ -3,7 +3,7 @@
 alias: bef-verkaufe
 ---
 
-# VERKAUFE
+# `VERKAUFE`
 
 *`VERKAUFE` ist wie [`KAUFE`][bef-kaufe] ein ["pseudolanger" Befehl][kurze-und-lange-befehle].[^1]*
 

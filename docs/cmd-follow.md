@@ -2,7 +2,7 @@
 # cSpell:locale en
 alias: cmd-follow
 ---
-# FOLLOW
+# `FOLLOW`
 
 **`FOLLOW`**` UNIT `*`unit-ID`*  
 **`FOLLOW`**` SHIP `*`ship-ID`*`[`*`speed`*`]`  

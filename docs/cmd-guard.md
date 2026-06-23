@@ -3,7 +3,7 @@
 alias: cmd-guard
 ---
 
-# GUARD
+# `GUARD`
 
 **`GUARD`**`[NOT]`
 

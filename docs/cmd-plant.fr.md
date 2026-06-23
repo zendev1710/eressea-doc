@@ -3,7 +3,7 @@
 alias: cmd-plant-fr
 ---
 
-# PLANT
+# `PLANT`
 
 *Ordre [long][ordres-courts-et-longs].*  
 

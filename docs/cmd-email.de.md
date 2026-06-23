@@ -2,7 +2,7 @@
 # cSpell:locale de
 alias: bef-email
 ---
-# EMAIL
+# `EMAIL`
 
 **`EMAIL`**`"`*`adresse@example.com`*`"`  
 

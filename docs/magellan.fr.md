@@ -33,7 +33,7 @@ Les fonctionnalités incluent :
 - Interface de programmation de commandes étendues pour automatiser les ordres comme vous le souhaitez
 - Des plugins qui peuvent étendre encore plus les possibilités
 
-Veuillez signaler les rapports de bugs et les demandes de fonctionnalités pour Magellan sur notre [bug tracker].
+Si vous rencontrez un problème dans Magellan : [signaler un bug][magellan-github-issues-ext].
 
 Magellan offre la possibilité d'envoyer des ordres directement depuis le programme.  
 Ce qui doit être fait, en fonction du fournisseur, est expliqué dans l'[envoi des ordres depuis Magellan][sending-orders-from-magellan].  
@@ -47,13 +47,13 @@ La dernière version de Magellan est disponible sur cette [page de téléchargem
 
 - [Magellan][magellan-ext]
 - [Page de téléchargement de Magellan][page de téléchargement]
-- [Bug tracker pour Magellan][bug tracker]
+- [Problèmes et demandes d'évolution][magellan-github-issues-ext]
 - [Code source de Magellan (pour les développeurs)]
 - [Magellan dans SourceForge (**obsolète**)][Magellan 1]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Magellan&oldid=7285] -->
 
-[bug tracker]: https://magellan2.github.io/bugs/
+[magellan-github-issues-ext]: https://github.com/magellan2/magellan2/issues
 [page de téléchargement]: https://magellan2.github.io/en/download/
 [magellan-ext]: https://magellan2.github.io/en
 [Code source de Magellan (pour les développeurs)]: https://github.com/magellan2

@@ -2,7 +2,7 @@
 # cSpell:locale en
 alias: cmd-number
 ---
-# NUMBER
+# `NUMBER`
 
 **`NUMBER UNIT`**`[`*`new number-id`*`]`  
 **`NUMBER FACTION`**`[`*`new number-id`*`]`  

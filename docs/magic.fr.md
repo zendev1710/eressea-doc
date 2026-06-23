@@ -161,7 +161,7 @@ L'aura est le pouvoir magique que les mages utilisent pour accomplir leur magie.
 L'aura est consommée en lançant des sorts et se régénère au fil du temps.  
 Un mage peut absorber une quantité maximale d’aura, déterminée par son niveau de compétence en magie.  
 
-Les déttails pour chaque unité de mage sont présents dans le rapport, mais, en règle générale, le maximum d'aura absorbée est d'au maximum *niveau magie* puissance 2, et en moyenne environ *niveau de magie* de l'aura est régénérée par semaine.  
+Les détails pour chaque unité de mage sont présents dans le rapport, mais, en règle générale, le maximum d'aura absorbée est d'au maximum *niveau magie* puissance 2, et en moyenne environ *niveau de magie* de l'aura est régénérée par semaine.  
 Mais cela peut varier entre presque rien et le niveau en magie.  
 Les peuples magiques régénèrent l'aura plus rapidement, les peuples non magiques beaucoup plus lentement.  
 
@@ -192,7 +192,7 @@ La valeur spécifiée comme "niveau" est initialement le niveau minimum auquel l
 Certains sorts ont des effets et des coûts fixes.  
 Ils sont toujours lancés au niveau du sort et ne peuvent pas être modifiés par des paramètres.  
 Cela peut toujours être important pour des choses comme la [résistance à la magie][magic-resistance-a-la-magie-id].  
-Le sort **Create A Ring of Invisibility** est toujours lancé au niveau 6 et produit exactement un anneau.  
+Le sort **[Créer un anneau d'Invisibilité][creer-un-anneau-d-invisibilite-id]{title="Create A Ring of Invisibility"}** est toujours lancé au niveau 6 et produit exactement un anneau.  
 
 De nombreux sorts ont des effets et des coûts qui dépendent du niveau.  
 Leur effet dépend du niveau auquel le sort a été lancé.  
@@ -217,20 +217,20 @@ COMBATSPELL LEVEL 2 "Song of Fear"
 
 Ceci peut être utile, par exemple, lorsque vous souhaitez conserver de l'aura pour un sort d'après-combat.
 
-**Example:**
+**Exemple :**
 
 ```text
 CAST LEVEL 4 "Miracle doctor"
 ```
 
-Ce sort coûtera 4 aura et rapportera 200 silver.  
-Avec un anneau de Pouvoir, cela coûte toujours 4 aura mais rapporte 250 silver.
+Ce sort [Tybied][tybied] coûtera 4 aura et rapportera 200 silver.  
+Avec un [anneau de Pouvoir][anneau-de-pouvoir-id]{title="Ring of Power'}, cela coûtera toujours 4 auras, mais rapportera 250 silver.
 
 ### Composants
 
 S'il est simplement indiqué le nombre d'aura, cela signifie que les coûts sont fixes : **Créer un Anneau d'invisibilité** coûte toujours 50 aura.  
 Si les composants d'in sort indiquent par exemple `3 Aura * Level`, cela signifie que pour lancer un sort une fois, le coût de l'aura est de 3 aura multiplié par le niveau auquel le sort est lancé.  
-Ainsi, **Miracle Doctor** coûte 1 aura lorsqu'il est lancé au niveau 1, et 30 aura lorsqu'il est lancé au niveau 30.  
+Ainsi, le sort [**Docteur Miracle**][t-spell-docteur-miracle-id]{title="Miracle Doctor"} coûte 1 aura lorsqu'il est lancé au niveau 1, 30 aura lorsqu'il est lancé au niveau 30.  
 
 Si le sort nécessite une aura permanente, l'aura maximale de l'unité est définitivement réduite de cette valeur.  
 D'autres composants peuvent inclure des plantes, des matières premières, de l'argent, des potions ou même des objets rares ou bien des agriculteurs.  
@@ -314,13 +314,13 @@ Les sorts de même rang sont lancés dans l'ordre spécifié lors du tour.
 
 **Exemple :**
 
-Soit trois sorts, appelés "Aaa", "Bee" et "Cee" :
+Soit trois sorts appelés `Aaaa`, `Beee` et `Ceee` :
 
-- "Aaaa" est de rang 5 et coûte 10 aura
-- "Beee" est de rang 2 et coûte 20 aura
-- "Ceee" est de rang 5 et coûte 5 aura
+- `Aaaa` est de rang 5 et coûte 10 aura
+- `Beee` est de rang 2 et coûte 20 aura
+- `Ceee` est de rang 5 et coûte 5 aura
 
-En supposant que l'unité passe les ordres :
+En supposant que l'unité passe les ordres avec cette séquence :
 
 ```text
 CAST "Ceee"
@@ -328,13 +328,11 @@ CAST "Beee"
 CAST "Aaaa"
 ```
 
-dans cet ordre.
-
-« Beee » est lancé en premier, car le sort est de rang 2.
-C'est le premier sort de l'unité cette semaine, il coûte donc 20 aura.
-Ensuite, "Ceee" est lancé, car "Aaaa" et "Ceee" ont le même rang et "Ceee" vient avant "Aaaa".
-"Ceee" est le deuxième sort, il coûte donc 5*2^1=10 aura. Vient maintenant « Aaaa ».
-"Aaaa" est le troisième sort, il coûte donc 10*2^2=40 aura.
+`Beee` est lancé en premier, car le sort est de rang 2.  
+C'est le premier sort de l'unité cette semaine, il coûte donc 20 aura.  
+Ensuite, `Ceee` est lancé, car `Aaaa` et `Ceee` ont le même rang et `Ceee` vient avant `Aaaa`.  
+`Ceee` est le deuxième sort, il coûte donc 5 X 2^1 = 10 aura. Vient ensuite `Aaaa`.  
+`Aaaa` est le troisième sort, il coûte donc  10 X 2^2 = 40 aura.
 
 ## Gaffe
 
@@ -343,15 +341,15 @@ En général, de nombreuses paroles contiennent des risques directs ou indirects
 Un mage peut aussi rater un sort.
 
 Ainsi, un sort peut tout simplement échouer, même si tous les composants sont réellement là et que l’aura d’unité est suffisante.  
-Ce n'est pas un bug, un message tout à fait normal est présent dans le rapport ("The spell fails.").  
-Si des composants ou une aura manquent, cela sera également mentionné dans le message.
+Dans ce cas, un message indiquant que le sort a échoué est présent dans le rapport.  
+Si des composants ou une aura manquent, cela sera également mentionné spécifiquement dans le message.
 
 La probabilité d'une erreur dépend de nombreux facteurs, parmi lesquels le niveau, la difficulté du sort par rapport au niveau auquel le sort est lancé par le mage, l' École de Magie, le sort, l'environnement, la cible, etc.  
 
 Les erreurs peuvent avoir des effets secondaires extrêmement désagréables !  
 Cependant, si l’unité survit à une erreur, celle-ci n’est généralement pas permanente.
 
-Experience de jeu (Solthar) :
+Expérience de jeu (Solthar) :
 
 Un sort lancé au niveau maximum possible a environ 20 % de chances d'échec; à mi-niveau, il y a 0 % de chance.  
 Pour les mages Draig, c'est 10 % de plus.
@@ -391,7 +389,7 @@ Sinon, seules la protection magique et l’armure naturelle fonctionnent contre 
 Même la « matière inanimée » (c'est-à-dire les régions, les bateaux, les bâtiments...), a parfois une résistance magique.  
 Il peut également être renforcé par certains sorts.  
 
-**Exemples:**
+**Exemples :**
 
 La chance de base est de 0 % pour les humains, de 10 % pour les [elfes][modificateurs-de-competences-id], et de -5 % pour les [gobelins][modificateurs-de-competences-id].  
 

@@ -3,7 +3,7 @@
 alias: bef-treibe
 ---
 
-# TREIBE
+# `TREIBE`
 
 *[Langer Befehl][kurze-und-lange-befehle].*
 

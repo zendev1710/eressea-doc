@@ -3,7 +3,7 @@
 alias: bef-default
 ---
 
-# DEFAULT
+# `DEFAULT`
 
 **`DEFAULT`**`"`*`befehl`*`"`
 

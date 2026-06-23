@@ -5,7 +5,7 @@ alias: bef-zerstoere
 
 [](){ #bef-zerstore-id }
 
-# ZERSTÖRE
+# `ZERSTÖRE`
 
 *[Langer Befehl][kurze-und-lange-befehle].*  
 

@@ -46,7 +46,7 @@ Un jour
 
 - Les [peuples][peuples] sont introduits dans le jeu
 - Seuls les humains peuvent désormais recevoir des migrants, les migrants des autres peuples sont convertis dans le peuple du propriétaire, tout en conservant leur niveau de compétence
-- Elves lose their +1 bonuses in entertainment and lumbering <!-- TODO : translate -->
+- Les elfes perdent leurs bonus de +1 en divertissement et en exploitation forestière
 
 27.08.1996
 
@@ -124,7 +124,7 @@ Un jour
   Aujourd’hui, cependant, presque personne ne doute de la justesse de ce changement, qui signifie que chaque région a 6 régions voisines au lieu de 4.
   Les sentiers deviennent également plus courts car on peut désormais marcher en diagonale.
   Cela signifie qu’il se passe beaucoup de choses en termes de portée.
-- Les chevaux ne doublent plus leur déplaement, mais donnent à la place un +1 à la portée.
+- Les chevaux ne doublent plus leur déplacement, mais donnent à la place un +1 à la portée.
   Cela signifie qu'un passager sur route ne parcourt plus 4 régions, mais seulement 3 régions.
 - Tous les bateaux perdent un point de portée
 - Le bonus des Aquariens sur la vitesse du bateau est réduit de moitié à +1
@@ -189,7 +189,7 @@ La grande majorité de ces changements concerne les peuples et les règles de co
   - Les Orcs obtiennent T4 dans toutes les compétences d'armes
   - Les Chats reçoivent un RdU
   - Les Gobelins reçoivent une unité de départ de 10 personnes et pas seulement une, ainsi qu'un RdU
-  - Les Insectes reçoivent neuf potions de nest warming, suffisamment pour recruter pour un hiver
+  - Les Insectes reçoivent 9 potions [Chaleur du nid][chaleur-du-nid]{title="Potion of nest warmth"}, suffisamment pour recruter pour un hiver
   - Les Aquariens reçoivent un bateau et 30 jours d'apprentissage de la voile
   - Les Humains obtiennent une fortification (à cette époque elle n'était composée que de 2 pierres)
   - Les halfelins reçoivent 1 chariot, 2 chevaux, 5 objets de luxe de chaque type et un cheval T1
@@ -199,12 +199,12 @@ La grande majorité de ces changements concerne les peuples et les règles de co
 
 ### La "Réforme Magique" 08.04.2000 (Tour 184)
 
-- L'école de magie jusqu'ici universelle Lirpa (le nom vient à l'origine d'un poisson d'avril, mais après l'introduction des nouvelles Écoles de Mahie, il est rapidement devenu un nom commun pour « l'ancienne magie ») est remplacée par Draig, Illaun, Tybied, Gwyrrd et Cerddor.
+- L'école de magie jusqu'ici universelle Lirpa (le nom vient à l'origine d'un poisson d'avril, mais après l'introduction des nouvelles Écoles de Magie, il est rapidement devenu un nom commun pour « l'ancienne magie ») est remplacée par Draig, Illaun, Tybied, Gwyrrd et Cerddor.
   La Réforme implique un affaiblissement drastique de la magie, notamment en supprimant le sort Feu du Solzil, dont l'effet ne peut être comparé à aucun sort de combat connu aujourd'hui.
 - `RESEARCH` selon la rumeur est supprimé. Un mage peut lancer tous les sorts de son école de magie d'un niveau inférieur ou égal à son niveau en magie.
 - L'apprentissage de la magie devient nettement plus coûteux (50 + 50 X (1 + niveau) X Niveau / 2), surtout à des niveaux élevés. Auparavant, cela coûtait toujours 200 silver
 - Au lieu d'un sort par tour, l'aura est introduit. Cela signifie qu'il est désormais possible de lancer plusieurs sorts en une semaine, avec une augmentation significative des coûts d'aura
-- Seuls les mages du même domaine magique peuvent s'enseigner entre eux
+- Seuls les mages de la même école de magie peuvent s'enseigner entre eux
 - Lorsque vous apprenez la magie pour la première fois, vous devez choisir une école de magie avec `LEARN MAGIC "<Magic School>"`
 - Les points de vie de toutes les unités sont doublés
 - Les dégâts des armes normales sont augmentés d'environ 25 %.
@@ -227,7 +227,7 @@ La grande majorité de ces changements concerne les peuples et les règles de co
 ### "Réforme des matières premières" - Date et tour inconnus
 
 La Réforme des matières premières, certainement le plus grand ensemble de changements de grande envergure après la Réforme Magique, est intervenu après l'arrêt du développement d'Eressea annoncé publiquement.  
-Annoncé comme le tout dernier changement de règle (si vous pensez au fromage maintenant, c’est que vosu faites partie des vrais anciens d’Eressea 😃).  
+Annoncé comme le tout dernier changement de règle (si vous pensez au fromage maintenant, c’est que vous faites partie des vrais anciens d’Eressea 😃).  
 Cependant, de nombreux autres changements, plus ou moins importants, ont prouvé par la suite le contraire.  
 
 - Le lissage des agriculteurs est une tentative de répartir plus équitablement les matières premières importantes entre les agriculteurs.
@@ -238,8 +238,8 @@ Cependant, de nombreux autres changements, plus ou moins importants, ont prouvé
   Le lissage des paysans a été annoncé dans un bref délai, mais la formule exacte ne l’a pas été.
   Ce changement provoque également beaucoup d'émoi parmi les joueurs, car beaucoup se sentent traités injustement (à cause de tous les paysans perdus)
 - Parallèlement au lissage des paysans, les Orcs ont perdu leur taux de reproduction de 5 %
-  Toutes les unités Orc existantes ont été converties en Snootlings; ils ne peuvent apprendre que des compétences pertinentes pour le combat jusqu'au niveau T7.
-  Depuis le changement, les Orcs ne sont soustraits aux agriculteurs que 1 contre 2 lors du recrutement et remis aux agriculteurs 2 contre 1, les Snootlings n'apportent aucun paysan lorsqu'ils sont remis à 0 (est-ce vrai ?).
+  Toutes les unités Orc existantes ont été converties en Snotlings; ils ne peuvent apprendre que des compétences pertinentes pour le combat jusqu'au niveau T7.
+  Depuis le changement, les Orcs ne sont soustraits aux agriculteurs que 1 contre 2 lors du recrutement et remis aux agriculteurs 2 contre 1, les Snotlings n'apportent aucun paysan lorsqu'ils sont remis à 0 (est-ce vrai ?).
   La remise des anciens Orcs aux agriculteurs a eu lieu dans la séquence des ordres AVANT le lissage des paysans afin d'empêcher les Orcs de tricher pour obtenir un avantage.
   Bien sûr, de nombreux joueurs ont ignoré cette annonce et il y a eu ici aussi beaucoup de controverses.
   Les plaintes persistantes des joueurs concernant ces changements de règles sont généralement considérées comme la raison du départ de Corwin d'Eressea et de l'annonce du gel du développement, qui n'a jamais été respecté.
@@ -275,22 +275,22 @@ Cependant, la plupart des nouveaux joueurs, qualifiés de manière désobligeant
 
 05.05.2002
 
-<!-- TODO translated from english -->
-- Guarding units prevent recruitment and the extraction of all limited resources from the region.
-  In this context there is a small additional change: In the future, `GUARD` will no longer work if the person guarding does not see the producer.
-  As a special case, for an empty `TEMP` unit, the creating unit is used as the visibility reference.
-  In other words: What is crucial in this case is whether the unit that created the `TEMP` unit is seen.
-- The available amount of resources is initially halved.
-  This is an adjustment to the lower number of farmers and the expected significantly smaller faction sizes.
-  For renewable resources, the growth rate has simply been reduced;
-  for non-renewable resources, such as iron, fewer new resources are now added when a new 'mining stage' is reached.
-- The proportion of farmers that can be recruited per turn is reduced from 20% to 5% of the farmer population.
-  This makes the driver ant strategy less attractive.
-- Catapults now only have 6 attacks instead of the previous 10.
-  In addition, her skill penalty is now 4 instead of 1.
-  Its weight is reduced from 120 to 100 lbs.
-- Catapult ammunition can be produced (the change on June 2nd, 2002).
-  Until the evaluation on June 2nd, all catapults still fire without ammunition, with the evaluation on June 2nd, catapults must be supplied with ammunition!
+- Les unités de garde empêchent le recrutement et l'extraction de toutes les ressources limitées de la région.  
+  Dans ce contexte, il y a un petit changement supplémentaire : à l'avenir, `GUARD`ne fonctionnera plus si la personne qui surveille ne voit pas le producteur.  
+  Comme cas particulier, pour une unité `TEMP` vide, l’unité de création est utilisée comme référence de visibilité.  
+  En d’autres termes : ce qui est crucial dans ce cas est de savoir si l’unité qui a créé l'unité `TEMP` est visible.
+- La quantité de ressources disponibles est initialement réduite de moitié.  
+  Il s’agit d’un ajustement au nombre inférieur d’agriculteurs et à la taille des factions nettement plus petite attendue.  
+  Pour les ressources renouvelables, le taux de croissance a simplement été réduit;  
+  Pour les ressources non renouvelables, comme le fer, moins de nouvelles ressources sont désormais ajoutées lorsqu'une nouvelle « étape d'exploitation minière » est atteinte.
+- La proportion d'agriculteurs pouvant être recrutés par tour est réduite de 20 % à 5 % de la population agricole.  
+  Cela rend la stratégie des fourmis conductrices moins attrayante.
+- Les catapultes n'ont désormais plus que 6 attaques au lieu de 10 auparavant.  
+  De plus, son malus de compétence est désormais de 4 au lieu de 1.  
+  Son poids est réduit de 120 à 100 lbs.
+- Des munitions pour catapulte peuvent être produites (changement le 2 juin 2002).  
+  Jusqu'à l'évaluation du 2 juin, toutes les catapultes tirent encore sans munitions;  
+  avec l'évaluation du 2 juin, les catapultes doivent être approvisionnées en munitions !
 
 02.06.2002
 
@@ -299,7 +299,7 @@ Cependant, la plupart des nouveaux joueurs, qualifiés de manière désobligeant
   Une unité de munition correspond à une volée de 6 coups.
 - Les unités dans l'Astral coûtent une maintenance normale (auparavant, il n'y avait pas de maintenance dans l'Astral)
 
-Date unknown.
+Date inconnue.
 
 - Les coordonnées ne sont plus absolues mais relatives à la région de départ du joueur.
   Chaque joueur commence désormais aux coordonnées (0,0)
@@ -371,7 +371,7 @@ Peu de temps après, les inscriptions seront à nouveau possibles contre un don 
 - Les batailles dans d'autres régions sont courtes si une unité amie garde la région
 - Les bateaux subissent des dégâts dès le 2ème tour de combat si au moins une personne à bord subit des dégâts
 - Les unités en fuite restent dans la région et ne perdent aucun objet
-- Les ynités avec `COMBAT FLEE` peuvent encore bouger
+- Les unités avec `COMBAT FLEE` peuvent encore bouger
 - Avant, les règles étaient : un combat était long s’il durait plus d’un tour (de combat).
   Les unités en fuite jetaient presque tous leurs objets et fuyaient vers une région voisine au hasard.
 
@@ -379,9 +379,9 @@ Peu de temps après, les inscriptions seront à nouveau possibles contre un don 
 
 - Les rapports sont convertis en encodage UTF-8 (anciennement ISO-8895-15)
 
-11.02.2008 - Réserves dobjet et d'argent
+11.02.2008 - Réserves d'objets et d'argent
 
-- Les réserves dobjet et d'argent sont actives pour toutes les factions (auparavant, elles étaient facultatives)
+- Les réserves d'objets et d'argent sont actives pour toutes les factions (auparavant, elles étaient facultatives)
 
 02.03.2008 - Xontormia Express
 

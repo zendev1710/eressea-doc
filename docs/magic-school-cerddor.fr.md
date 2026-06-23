@@ -487,7 +487,7 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 *Quick Fingers (EN), Miriams flinke Finger (DE)*.
 <!-- cspell:enable -->
 
-:   La célèbre barde Miriam Bhean'Meddaf était connue pour son extraordinaire talent avec la harpe.  
+:   La célèbre barde Miriam Bhean'Meddaf était connue pour sa virtuosité extraordinaire à la harpe.  
     On disait que ses doigts se déplaçaient si rapidement sur les cordes qu'ils étaient pratiquement méconnaissables.  
     Ce sort, assez simple à lancer dans une bague en argent, permet de décupler la dextérité et l'agilité des doigts.  
     On dit qu’elle a également exploité cela ailleurs; sa réputation de tricheuse de cartes était notoire.  

@@ -8,7 +8,7 @@ alias: naviguer
 Seuls les [bateaux][bateaux-id] permettent de quitter son île et ainsi, par exemple, d'ouvrir de nouveaux marchés ou d'établir un contact direct avec d'autres factions.  
 Avec un bateau, on peut naviguer jusqu'à 7 régions, et même plus loin avec des capitaines aquariens ou de la magie.  
 
-Tous les bateaux plus grands qu'un boat (et cela inclut les longboats) ne peuvent accoster que dans les plaines et les forêts.  
+Tous les bateaux plus grands qu'une [barque][barque]{title="Boat"} (et cela inclut les [chaloupes][chaloupe]{title="Longboat"}) ne peuvent accoster que dans les plaines et les forêts.  
 Tous les autres types de régions (par exemple les montagnes, les hauts-plateaux, les marais, etc.) ont besoin d'un **[port][port]** pour que les bateaux puissent accoster.  
 Si un bateau tente d'accoster dans une région inappropriée, il subit des [dommages][dommages-aux-bateaux].  
 Les bateaux peuvent cependant appareiller n'importe où, on peut donc construire des bateaux dans toutes les régions côtières et les mettre à l'eau.  
@@ -21,17 +21,17 @@ Cependant, si une région dispose d'un port, les bateaux du propriétaire du por
 En haute mer - cad des régions océaniques qui ne sont pas bordées par une région terrestre - les bateaux peuvent dériver vers une région voisine et subir des dommages à cause de tempêtes.  
 Cela ne s'applique pas aux bateaux qui ordonnent des [`FOLLOW`][cmd-follow-fr] ou [piraterie][piraterie-fr-id].  
 
-Pour pouvoir naviguer sur un bateau, il faut un équipage formé, c'est-à-dire des unités qui ont appris la compétence sailing.  
-Dans le tableau suivant, le niveau de compétence en sailing du capitaine (la première unité sur le bateau dans le rapport) est indiqué sous "Capitaine".  
-De plus, il faut un certain niveau global en sailing pour piloter le bateau.  
-Pour cela, les niveaux de compétence sailing de toutes les personnes à bord sont additionnés, y compris ceux de l'unité du capitaine et des unités de factions "étrangères".  
+Pour pouvoir naviguer sur un bateau, il faut un équipage formé, c'est-à-dire des unités qui ont appris la [voile][skill-voile-id]{title="Sailing"}.  
+Dans le tableau suivant, le niveau de compétence en voile{title="Sailing"} du capitaine (la première unité sur le bateau dans le rapport) est indiqué sous "Capitaine".  
+De plus, il faut un certain niveau global en voile pour piloter le bateau.  
+Pour cela, les niveaux de compétence en voile de toutes les personnes à bord sont additionnés, y compris ceux de l'unité du capitaine et des unités de factions "étrangères".  
 La valeur requise est indiquée dans le tableau sous "Équipage".  
 La portée indiquée dans le tableau est valable par tour, c'est-à-dire qu'un bateau peut naviguer au maximum de cette distance par tour.  
 Les bateaux pilotés par une unité d'aquariens d'une faction d'aquariens (les aquariens migrants d'une faction d'humains ne comptent donc pas) peuvent naviguer d'une case de plus.  
 
 **Exemple :**
 
-- Une trirème peut être pilotée par une unité de 30 personnes avec sailing 4 ou par une unité d'une personne de niveau 4 et une unité de 58 personnes de niveau 2.
+- Une trirème peut être pilotée par une unité de 30 personnes avec voile T4 ou par une unité d'une personne de niveau 4 et une unité de 58 personnes de niveau 2.
   Dans tous les cas, elle navigue sur 7 régions par tour (8 pour les aquariens) et peut emporter 2 000 lbs, dont le poids de l'équipage est bien sûr déduit.
 - Un dragonship avec une unité de 25 personnes de niveau 2 se déplace 5 régions.
   Cependant, avec 3 personnes de niveau 20, il peut se déplacer de 7 régions.
@@ -80,10 +80,10 @@ Néanmoins, toutes les unités à bord du bateau consomment l'entretien hebdomad
 
 Lorsque le bateau est à terre, toutes les unités à bord peuvent faire quelque chose ; elles vont pour ainsi dire à terre pour travailler.  
 Elles peuvent le faire même si le bateau part au cours du même tour.  
-Mais si la région est gardée par une faction non alliée, en addition aux conséquences habituelles de l'ordre GUARD, elles ne peuvent pas non plus [gagner d'argent][argent] avec `WORK`, `ENTERTAIN` ou `SELL`, comme elles pourraient le faire autrement.  
+Mais si la région est gardée par une faction non alliée, en addition aux conséquences habituelles de l'ordre `GUARD`, elles ne peuvent pas non plus [gagner d'argent][argent] avec `WORK`, `ENTERTAIN` ou `SELL`, comme elles pourraient le faire autrement.  
 
 Si des unités veulent quitter un bateau, elles doivent d'abord le faire avec [`LEAVE`][cmd-leave-fr].  
-Si la région n'est pas gardée par une faction non alliée, les unités peuvent se déplacer immédiatement avec MOVE, sinon elles ne pourront le faire qu'au tour suivant l'ordre LEAVE.  
+Si la région n'est pas gardée par une faction non alliée, les unités peuvent se déplacer immédiatement avec `MOVE`, sinon elles ne pourront le faire qu'au tour suivant l'ordre `LEAVE`.  
 Cela s'applique bien sûr aussi à [`RIDE`][cmd-ride-fr] et [`CARRY`][cmd-carry-fr].  
 
 ## Nager
@@ -111,7 +111,7 @@ Si un bateau subit 100% de dégâts, il coule avec son équipage et ses passager
 
 Lors des événements suivants, un bateau subit des dommages :
 
-- le bateau est engagé dans un combat : 0%-20% de dommages (voir [combat naval][combats-a-bord-et-depuis-les-navires])
+- le bateau est engagé dans un combat : 0%-20% de dommages (voir [combat naval][combats-a-bord-et-depuis-les-bateaux])
 - le bateau est endommagé par un sort puissant (jusqu'à 90 %)
 - le bateau subit des dommages à cause des raz-de-marée (50 %)
 - si le bateau heurte des écueils, il subit 10% de dégâts (heurter des écueils : tenter d'accoster dans une région inadaptée)

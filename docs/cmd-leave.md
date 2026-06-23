@@ -3,7 +3,7 @@
 alias: cmd-leave
 ---
 
-# LEAVE
+# `LEAVE`
 
 **`LEAVE`**  
 

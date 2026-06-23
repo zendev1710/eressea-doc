@@ -3,7 +3,7 @@
 alias: cmd-quit
 ---
 
-# QUIT
+# `QUIT`
 
 **`QUIT`**`"<password>"`  
 
@@ -40,7 +40,7 @@ If the target faction has fewer than the maximum permitted number of units with 
 Units with limited skills that can no longer be transferred will be deleted.  
 If you want to control this precisely, you should let the unwanted units forget about the corresponding skill in the QUIT week at the latest.  
 
-Magicians are only handed over if both factions have the same Magic School.  
+Mages are only handed over if both factions have the same Magic School.  
 Familiars are deleted because they do not belong to the faction race.  
 Heroes are demoted by surrender.  
 

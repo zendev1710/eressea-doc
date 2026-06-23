@@ -2,7 +2,7 @@
 # cSpell:locale en
 alias: cmd-combatspell
 ---
-# COMBATSPELL
+# `COMBATSPELL`
 
 **`COMBATSPELL`**` [LEVEL `*`n`*`] "<spell>"`  
 **`COMBATSPELL`**`["<spell>"] NOT`  

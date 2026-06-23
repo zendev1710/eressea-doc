@@ -3,7 +3,7 @@
 alias: cmd-show-fr
 ---
 
-# SHOW
+# `SHOW`
 
 **`SHOW "<sort>"`**  
 **`SHOW "<item>"`**  

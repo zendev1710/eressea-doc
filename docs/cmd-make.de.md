@@ -3,7 +3,7 @@
 alias: bef-mache
 ---
 
-# MACHE
+# `MACHE`
 
 *[Langer Befehl][kurze-und-lange-befehle].*
 

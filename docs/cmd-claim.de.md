@@ -3,7 +3,7 @@
 alias: bef-beanspruche
 ---
 
-# BEANSPRUCHE
+# `BEANSPRUCHE`
 
 **`BEANSPRUCHE`**` `*`anzahl gegenstand`*  
 

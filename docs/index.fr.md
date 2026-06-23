@@ -53,7 +53,7 @@ Sur E3, tu peux consulter la documentation suivante :
 
 - [Aperçu de nos réflexions concernant les peuples]
 - [Ensemble des modifications des règles par rapport au jeu Eressea original][le-troisieme-age]
-- [Annonces de la liste de diffusion e3-announce]
+- [Annonces E3]
 
 #### Deveron (abandonné)
 
@@ -81,7 +81,7 @@ Un jeu lancé par Solthar en 2017, basé sur les règles d'E3, avec 3 tours par 
 - [Eressea sur Wikipedia]
 - La fameuse [carte du monde connu]
 - [Le *Who's Who* d'Eressea (Internet Archive, en allemand)]
-- [Un génerateur de casus belli]
+- [Un générateur de casus belli]
 
 Poursuivre la lecture : [les règles][regles].
 
@@ -95,7 +95,7 @@ Poursuivre la lecture : [les règles][regles].
 [numéros archivés]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express (wiki)"
 [annonces]: https://wiki.eressea.de/Ankündigungen "Ankündigungen (wiki)"
 [Aperçu de nos réflexions concernant les peuples]: https://wiki.eressea.de/Rassen_im_dritten_Zeitalter "Les peuples au Troisième Âge (wiki)"
-[Annonces de la liste de diffusion e3-announce]: https://wiki.eressea.de/Ankündigungen_(E3) "Annonces E3 (wiki)"
+[Annonces E3]: https://wiki.eressea.de/Ankündigungen_(E3) "Annonces E3 (wiki)"
 [Patreon-Förderer]: https://www.patreon.com/enno
 [Discussion sur le forum]: https://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4170
 [Règles]: https://paper.dropbox.com/doc/Drachensgrab-Testspiel-xD9tI7HrmF91J3Dp7t5cc
@@ -107,4 +107,4 @@ Poursuivre la lecture : [les règles][regles].
 [Eressea sur Wikipedia]: https://en.wikipedia.org/wiki/Eressea_(video_game)
 [carte du monde connu]: https://karten.adi.tz-o.de/Inselnamen.jpg
 [Le *Who's Who* d'Eressea (Internet Archive, en allemand)]: https://web.archive.org/web/20100201233418/http://whoiswho.draig.de/
-[Un génerateur de casus belli]: https://www.eressea.kn-bremen.de/eressea/reason.php/
+[Un générateur de casus belli]: https://www.eressea.kn-bremen.de/eressea/reason.php/

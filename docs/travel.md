@@ -118,9 +118,10 @@ On horseback, you can move two regions without a road, and three regions with ro
 
 A skill level 2 per 2 horses is required to ride. The unit rides automatically if it has enough riding levels for all the horses it owns and if the unit is not overloaded. If the unit is too heavily laden to ride, but not too heavily laden to move on foot, the unit moves through a single region (without roads). The unit is considered to be leading the horses by the bridle.
 
-**Horses'** have a capacity of 20 WU/lbs.
+**Horses'** have a capacity of 20 lbs.
 
-Carts have a capacity of 100 lbs/WU. They must be pulled by 2 horses (per cart). But carts can also be transported as freight, for example on a boat or if the unit does not have enough horses with it; they have a weight of 40 UW/lbs.
+Carts have a capacity of 100 lbs. They must be pulled by 2 horses (per cart).  
+But carts can also be transported as freight, for example on a ship or if the unit does not have enough horses with it; they have a weight of 40 lbs.
 
 Four trolls can also pull a cart without horses, but only to one region. Only trolls can use cart without horses.
 

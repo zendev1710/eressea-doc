@@ -95,8 +95,8 @@ Maintain contact with many factions; this makes the game exciting and will help 
 If you get into conflicts, it's good to know you're not alone.
 Contacts allow you to exchange information, such as map data; they enable you to share experiences and tips, and mutual learning is especially helpful.
 
-To contact other factions, obtain a list of them in your region using [`OPTION`][cmd-option] ADDRESSES and contact them directly.
-Use the [`MESSAGE`][cmd-message] REGION order to alert other factions to your presence.
+To contact other factions, obtain a list of them in your region using [`OPTION ADDRESSES`][cmd-option] and contact them directly.
+Use the [`MESSAGE REGION`][cmd-message] order to alert other factions to your presence.
 
 To achieve your goals, you shouldn't skimp on expenses.
 The starting capital is intended for investment.

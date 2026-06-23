@@ -3,7 +3,7 @@
 alias: cmd-move-fr
 ---
 
-# MOVE
+# `MOVE`
 
 *Ordre [long][ordres-courts-et-longs].*  
 

@@ -3,7 +3,7 @@
 alias: bef-kontaktiere
 ---
 
-# KONTAKTIERE
+# `KONTAKTIERE`
 
 **`KONTAKTIERE`**` EINHEIT `*`einheit-nr`*  
 **`KONTAKTIERE`**` PARTEI `*`partei-nr`*  

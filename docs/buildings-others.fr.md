@@ -7,7 +7,7 @@ alias: batiments-speciaux
 
 Les bâtiments construits dans une région **procurent des avantages** importants aux unités qui les occupent.
 
-Ils sont construits avec l'ordre [MAKE "type de bâtiment"][cmd-make-fr] et peuvent être agrandis avec l'ordre [MAKE "type de bâtiment" ID-bâtiment][cmd-make-fr].
+Ils sont construits avec l'ordre [`MAKE <type de bâtiment>`][cmd-make-fr] et peuvent être agrandis avec l'ordre [`MAKE <type de bâtiment> <id bâtiment>`][cmd-make-fr].
 
 Exemple : `MAKE`&nbsp;[Lighthouse] (création) ou `MAKE`&nbsp;[Harbour]&nbsp;`xyz` (agrandissement).
 

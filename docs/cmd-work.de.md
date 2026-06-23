@@ -3,7 +3,7 @@
 alias: bef-arbeite
 ---
 
-# ARBEITE
+# `ARBEITE`
 
 **`ARBEITE`**  
 

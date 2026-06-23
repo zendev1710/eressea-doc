@@ -3,7 +3,7 @@
 alias: cmd-origin
 ---
 
-# ORIGIN
+# `ORIGIN`
 
 **`ORIGIN`**` `*`x y`*  
 

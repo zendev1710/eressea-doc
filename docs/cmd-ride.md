@@ -3,7 +3,7 @@
 alias: cmd-ride
 ---
 
-# RIDE
+# `RIDE`
 
 *`RIDE` is a [long order][short-and-long-orders].  
 *`CARRY` is a short one, but of course only makes sense if the unit executes a (long) movement order.*  

@@ -2,7 +2,7 @@
 # cSpell:locale en
 alias: cmd-reserve
 ---
-# RESERVE
+# `RESERVE`
 
 **`RESERVE`**` `*`number`*` `*`Item`*  
 **`RESERVE`**` ALL `*`Item`*  

@@ -5,7 +5,7 @@ alias: cmd-hide-fr
 
 [](){ #cmd-hide-fr-id }
 
-# HIDE
+# `HIDE`
 
 **`HIDE`**`[`*`niveau`*`]`  
 **`HIDE`**`FACTION [NOT]`  

@@ -3,7 +3,7 @@
 alias: cmd-quit-fr
 ---
 
-# QUIT
+# `QUIT`
 
 **`QUIT`**` ``"<mot de passe>"`  
 

@@ -2,7 +2,7 @@
 # cSpell:locale en
 alias: cmd-show
 ---
-# SHOW
+# `SHOW`
 
 **`SHOW "<Spell>"`**  
 **`SHOW "<Item>"`**  

@@ -88,7 +88,7 @@ Draiochean heard soft, sustaining singing that sounded to her ears like the rust
 The singing grew louder and the elves in the clearing began to dance.
 Very slowly, very carefully, at first, then a little faster.
 Suddenly the singing stopped and the dance ended.
-The magician shouted arcane words loudly into the forest.
+The mage shouted arcane words loudly into the forest.
 Draiochean and Llyfr's hearts beat faster and he tentatively took her hand as something ancient and large grabbed the two of them and lifted them into the air...
 </div>
 

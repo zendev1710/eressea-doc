@@ -33,7 +33,7 @@ Your own combat-ready units (except those with `COMBAT FLEE` or `COMBAT NOT`) wi
 
 Help the allied faction [supporting][upkeep-costs] their units if you have silver left after paying for your own support.
 If the units of the allied faction do not have enough silver to feed themselves, your units will give them silver.
-No HELP GIVE is required by the receiving faction for this kind of transfer.
+No `HELP GIVE` is required by the receiving faction for this kind of transfer.
 
 ## `HELP GUARD`
 

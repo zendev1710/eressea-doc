@@ -32,7 +32,7 @@ Um sich gemeinsam gegen Angreifer zu wehren, müssen sich die verteidigenden Par
 
 Prinzipiell gilt jeder als alliiert, dem [`HELFE KÄMPFE`] gesetzt wurde, und der niemanden attackiert hat, dem [`HELFE KÄMPFE`][bef-helfe] gesetzt wurde.
 
-**Beispiel 1:** A hilft B und C. C attackiert B, deshalb greift A in den Kampf mit ein: B ist alliiert.   
+**Beispiel 1:** A hilft B und C. C attackiert B, deshalb greift A in den Kampf mit ein: B ist alliiert.  
 Partei C gilt nicht als alliiert, weil sie einen Alliierten angreift.  
 Wer kämpft nun gegen wen?  
 Ich kämpfe gegen meine Feinde. Meine Feinde sind Parteien, die mich angreifen, die ich angreife, oder die einen Alliierten (nach der Definition von eben) angreifen.

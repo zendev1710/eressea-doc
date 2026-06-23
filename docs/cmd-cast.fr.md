@@ -3,7 +3,7 @@
 alias: cmd-cast-fr
 ---
 
-# CAST
+# `CAST`
 
 *Ordre [court][ordres-courts-et-longs] [^1].*
 

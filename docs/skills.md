@@ -6,122 +6,110 @@ alias: skills
 # Skills
 <!-- TODO: translate page in english -->
 
-Les compétences sont un élément essentiel qui définit une [unité][cmd-unit] dans Eressea.
-Toutes les personnes d'une unité ont les mêmes compétences.
-Elles doivent d'abord les apprendre.
-Pour être précis, avec l'ordre [`LEARN`][cmd-learn], une unité peut faire une tentative par tour pour gagner un nouveau niveau.
+Skills are an essential element that defines a [unit][cmd-unit] in Eressea.  
+All people in a unit have the same skills. They have to learn them first.
+To be precise, with the [`LEARN`][cmd-learn] order, a unit can make one attempt per turn to gain a new level.
 
-Certaines compétences s'améliorent également en les utilisant.
-Si l'unité utilise la compétence, il y a 1/3 de chances qu'elle gagne de l'expérience (2/3 de chances qu'elle n'en gagne pas).
-Donc en exerçant une compétence une unité progresse à environ 1/3 de la vitesse d'apprentissage (de LEARN).
-Les compétences qui *ne s'améliorent pas* en les exerçant sont les suivantes :
+## Progression by use
 
-- toutes les compétences d'armes
-- l'[endurance][skill-endurance-id]
-- perception
-- tactics
-- taxation
+Some skills also improve by using them. If the unit uses the skill, there is a 1/3 chance it will gain experience (2/3 chance it will not gain experience).  
+So by exercising a skill a unit progresses statistically at around 1/3 of the learning speed (by `LEARN`).  
 
-Dans la plupart des cas, la valeur de compétence affichée dans le rapport est à celle à utiliser.
-Elle inclut les bonus raciaux, régionaux et des éléments comme la famine ou la magie, qui modifient la valeur de la compétence.
-Mais parfois, la valeur de compétence "brute" sans bonus est également nécessaire, notamment pour calculer les coûts d'apprentissage de la magie et les temps d'apprentissage.
+Skills that **do not improve** by **practicing** include the following:
 
-## Terminology
+- All weapon skills
+- [Endurance][skill-endurance-id]
+- [Perception][skill-perception-id]
+- [Tactics][skill-tactics-id]
+- [Taxation][skill-taxation-id]
 
-On dira d'une unité qu'ell est compétente (ou maîtrise la compétence) si elle a [acquis][cmd-learn]{title="LEARN"} la compétence concernée.  
-
-Au premier succès d'un ordre d'apprentissage `LEARN`, l'unité apprenante sera, dans cette compétence, de niveau 1, noté **T1**.  
+In most cases, the skill value displayed in the report is the one to use.  
+It includes racial bonuses, regional bonuses and elements like famine or magic, which modify the value of the skill.  
+But sometimes the "raw" skill value without bonus is also needed, especially for calculating magic learning costs and learning times.
 
 ## Learn skills
 
-Atteindre un nouveau niveau de compétence devient de plus en plus difficile à chaque niveau.
-En moyenne, la progression vers un nouveau niveau de compétence avec la commande [`LEARN`][cmd-learn] prend environ un nombre de semaines égal au niveau de compétence visé, sans tenir compte des modifications apportées par la [race][races] ou le terrain.
-Le temps d'apprentissage minimal est d'1 semaine.
-La durée maximale d'apprentissage ne dépasse pas (2 x nouveau niveau − 1).
-Les valeurs extrêmes sont moins fréquentes que la valeur moyenne.
-Ainsi, passer du niveau 3 au niveau 4 peut prendre jusqu'à 7 semaines, mais prendra en moyenne 4 semaines.
-Il faut en moyenne deux semaines à un [nain][dwarves] pour passer du niveau 3 au niveau 4 dans la compétence Mining, car les nains ont un modificateur de +2 pour cette compétence (4-2=2).
+Reaching a new skill level becomes more and more difficult with each level.  
+On average, progressing to a new skill level with the [`LEARN`][cmd-learn] order takes approximately a number of weeks equal to the targeted skill level, regardless of changes made by [race][races] or terrain.
+The minimum learning time is 1 week. The maximum learning time does not exceed (2 x new level − 1).
+Extreme values ​​are less frequent than the average value. So moving from level 3 to level 4 can take up to 7 weeks, but will take an average of 4 weeks.  
+It takes an average of two weeks for a [dwarf][dwarves] to go from level 3 to level 4 in the Mining skill, as dwarves have a +2 modifier for this skill (4-2=2).
 
 **Examples:**
 
-Moving up from Level 3 to Level 4 takes an average of 4 weeks, but sometimes as little as a week and sometimes up to 7 weeks.
-A [dwarven unit][dwarves] with mining 3 in the report is actually level 1 "raw", since dwarves have a modifier of +2 on mining.
+Moving up from Level 3 to Level 4 takes an average of 4 weeks, but sometimes as little as a week and sometimes up to 7 weeks.  
+A [dwarven unit][dwarves] with mining 3 in the report is actually level 1 "raw", since dwarves have a modifier of +2 on mining.  
 It takes an average of two weeks to advance in the mining skill from level 3 to level 4.
 
-Pour réduire le temps nécessaire à l'apprentissage d'une compétence, une seconde unité, plus expérimentée que la première, peut [enseigner][cmd-teach] la compétence.
-Cette unité doit avoir au moins 2 niveaux de plus que l'élève dans la compétence.
-L'unité élève apprend deux fois plus vite que si elle apprenait sans professeur.
-L'unité enseignante, elle, n'en tire aucune expérience.
-Un apprentissage dans une [academy][academy] permet d'apprendre en plus rapidement.
+To reduce the time required to learn a skill, a second unit, more experienced than the first, can [teach][cmd-teach] the skill.  
+This unit must be at least 2 levels higher than the student in the skill.  
+The student unit learns twice as fast as if it learned without a teacher. The teaching unit does not gain any experience from it.  
+Learning in an [academy][academy] allows you to learn more quickly.
 
-Un enseignant peut avoir jusqu'à 10 élèves.
-Une unité enseignante peut contenir autant de personnes que souhaité.
-Si l'"unité d'élèves" a trop de personnes, cela sera pris en compte dans les chances d'apprentissage.
-Une unité peut enseigner à plusieurs unités, de même qu'une unité d'élèves peut apprendre de plusieurs unités de professeurs, chaque élève ne pouvant bien sûr tirer bénéfice que d'un seul enseignement.
+A teacher can have up to 10 students. A teaching unit can contain as many people as desired.  
+If the "student unit" has too many people, this will be taken into account in the learning chances.  
+A unit can teach several units, just as a unit of students can learn from several units of teachers, each student of course only being able to benefit from a single teaching.
 
 **Example:**
-<!-- TODO: replace Slashing weapons -->
+
 ```text
 Unit l1; 1 Person, Endurance 3
 TEACH s1
-Unit l2; 1 Person, Slashing weapons 3, Endurance 3
+Unit l2; 1 Person, Melee 3, Endurance 3
 TEACH s1 s2
 Unit s1; 15 Persons, Endurance 1
 LEARN Endurance
-Unit s2; 10 Persons, Slashing weapons 1
-LEARN Slashing weapons
+Unit s2; 10 Persons, Melee 1
+LEARN Melee
 ```
 
-Result: Unit l1 teaches 10 people from unit s1 in endurance.
-Unit l2 teaches the remaining 5 people from s1 in endurance and 5 people from unit s2 in cutting weapons.
-Unit s1 is taught by l1 and l2 and learns twice as fast as normal.
-Unit s2 is only half taught in endurance and therefore only learns 50% faster.
+Result: Unit l1 teaches 10 people from unit s1 in endurance.  
+Unit l2 teaches the remaining 5 people from s1 in endurance and 5 people from unit s2 in cutting weapons.  
+Unit s1 is taught by l1 and l2 and learns twice as fast as normal.  
+Unit s2 is only half taught in endurance and therefore only learns 50% faster.  
 
 !!! warning "Attention"
-    Si plusieurs unités de professeurs enseignent à plusieurs unités d'élèves dans différentes compétences ou niveaux de compétence, il est possible que certains élèves n'aient pas de professeur ou ne reçoivent pas le bon professeur.  
-    Il n'est pas possible de faire autrement en raison de l'organisation interne d'Eressea.  
-    Dans ce cas, vous devez créer des « relations claires » en restructurant les unités pédagogiques.  
-    Avec l'ordre [`LEARN-AUTO`][cmd-learn-auto], le serveur tente d'automatiser l'apprentissage et l'enseignement dans une région.  
-    Cependant, comme cela est dû à une simple heuristique, il n’est pas garanti qu’une chaîne d’apprentissage optimale (à long terme) soit créée.  
+    If multiple units of teachers teach multiple units of students in different skills or skill levels, some students may not have a teacher or receive the wrong teacher.  
+    IIt is not possible to do otherwise due to the internal organization of Eressea.  
+    In this case, you need to create “clear relationships” by restructuring the teaching units.  
+    With the [`LEARN-AUTO`][cmd-learn-auto] command, the server attempts to automate learning and teaching in a region.  
+    However, as this is due to a simple heuristic, it is not guaranteed that an optimal (long-term) learning chain is created.  
 
-[magic][skill-magic-id], [alchemy][skill-alchemy-id], [herbalism][herbalism], [espionage][skill-espionage-id] et [tactics][skill-tactics-id] sont particulièrement difficiles et coûteuses.
-Apprendre l'espionnage coûte 100 Silver par personne et par tour.
-200 Silver par personne et par semaine pour l'alchimie, l'herboristerie et la tactique.
-Apprendre la magie coûte facilement plusieurs milliers de Silver à des niveaux élevés (voir [ce tableau][magic]).
-L'unité qui apprend une de ces compétences doit avoir en sa possession cette somme.
-Le fait que l'unité reçoive ou non un enseignement n'a aucune incidence sur le coût.
-Si l'unité est dans une [academy][academy], le coût d'apprentissage des compétences payantes est doublé.
+[magic][skill-magic-id], [alchemy][skill-alchemy-id], [herbalism][herbalism], [espionage][skill-espionage-id] and [tactics][skill-tactics-id] are particularly difficult and expensive.  
+Learning espionage costs 100 Silver per person per turn; 200 Silver per person per week for Alchemy, Herbalism and Tactics.  
+Learning magic easily costs several thousand Silver at high levels (see [this table][magic]).  
+The unit that learns one of these skills must have this amount in its possession.  
+Whether or not the unit receives instruction has no bearing on the cost.  
+If the unit is in an [academy][academy], the cost of learning paid skills is doubled.  
 
-Si l'unité en apprentissage ne dispose pas de suffisamment au moment du paiement, elle apprendra au prorata de la quantité de Silver dont elle dispose;
-par exemple si elle n'a que 500 Silver sur 550, ses chances d'apprendre diminueront d'environ 10%.
+If the unit being trained does not have enough at the time of payment, it will learn in proportion to the amount of Silver it has;  
+for example if she only has 500 Silver out of 550, her chances of learning will decrease by around 10%.
 
-Dans de rares cas, une unité peut vouloir se débarrasser d'une compétence.
-Ceci est possible avec l'ordre [`FORGET`][cmd-forget].
+In rare cases, a unit may want to get rid of a skill. This is possible with the [`FORGET`][cmd-forget] command.
 
 ## Mixing skills
 
-Lorsque des personnes sont transférées ou recrutées dans une unité existante, les nouveaux niveaux de compétences sont calculés en fonction du nombre de semaines d'apprentissage que les deux unités ont eu.
-Il peut arriver que des semaines d'apprentissage soient "perdues" en raison des effets d'arrondi.
-Tu devrais donc éviter autant que possible de fusionner inutilement des unités.
+When people transfer or are recruited into an existing unit, new skill levels are calculated based on the number of weeks of training both units have had.  
+It may happen that weeks of learning are "lost" due to rounding effects.  
+You should therefore avoid unnecessarily merging units as much as possible.
 
-**Exemple :**
+**Example:**
 
-Une unité de deux personnes avec "melee" 5 recrute un paysan.
-Les deux personnes ont chacune étudié environ 15 semaines (à savoir 1+2+3+4+5) avant de passer au niveau 5.
-Les paysans n'ont pas de compétence, on ajoute donc 0.
-La nouvelle unité a donc environ 30 semaines d'apprentissage.
-Cela correspond à 3 personnes avec "melee" 4 (1+2+3+4=10 semaines par personne).
-La nouvelle unité est donc de niveau 4.
+A two-person unit with [melee][skill-melee-id] T5 recruits a peasant.  
+The two people each studied for approximately 15 weeks (i.e. 1+2+3+4+5) before progressing to level 5.  
+The farmers have no skills, so we add 0. The new unit therefore has approximately 30 weeks of training.  
+This corresponds to 3 people with melee T4 (1+2+3+4=10 weeks per person).  
+The new unit is therefore level 4.
 
-Pour le calcul des semaines d'apprentissage, tout comme pour l'apprentissage, ce sont les valeurs de compétences "brutes" qui comptent, auxquelles sont d'abord soustraits tous les bonus et malus tels que les bonus raciaux.
+For the calculation of apprenticeship weeks, just as for apprenticeship, it is the "raw" skill values ​​that count, from which all bonuses and penalties such as racial bonuses are first subtracted.
 
-Expérience de jeu (Solthar):
+Player Experience (Solthar):
 
 In fact, the matter is more complicated.
 However, you can skip this if you are reading this guide for the first time.
 Each time a unit advances a level, a dice is rolled to determine how many weeks it will take to advance to the next level.
 This results in a value between 1 and (2 x new level − 1).
-A unit can therefore have a talent between (6,1) -this notation means level 6 and still a week until promotion -and (6,13).
+A unit can therefore have a skill between (6,1) -this notation means level 6 and still a week until promotion -and (6,13).
 This value is taken into account when mixing.
 For example, if you mix a person with (5.6) and a person with (1.2) -both of which correspond exactly to the average -they have a total of 16 weeks of learning.
 However, two people with (3.4) only correspond to 12 weeks of learning.
@@ -129,49 +117,71 @@ The difference of two weeks per person will be “credited” to the new unit.
 It therefore has (3.2) -a little better than average.
 
 If you mix (5,1) and (1,1), i.e. people who have almost made it to the next climb, you would even get (4,4).
-However, mixing (5,11) and (1,3) results in (3,5) as the new value. So it is not possible to accurately predict the talent value of a mixed unit.
+However, mixing (5,11) and (1,3) results in (3,5) as the new value. So it is not possible to accurately predict the skill value of a mixed unit.
 Only a minimum and maximum value can be specified.
 
 ## Use of skills
 
-Les compétences permettent aux unités de faire certaines choses.
-Parfois, c'est le niveau de compétence de l'unité qui rend possible une activité donnée.
-Parfois, le niveau de compétence total de l'unité joue également un rôle, c'est-à-dire le nombre de personnes \* le niveau de compétence.
+Skills allow units to do certain things.  
 
-Les compétences peuvent être divisées en plusieurs groupes.
+Sometimes it is the unit's skill level that makes a given activity possible.  
+Sometimes the total skill level (the number of people x the skill level) of the unit also plays a role.  
+
+Skills can be divided into several groups.
 
 ### Skills for production
 
 alchemy, mining, masonry, forestry, herbalism, taming, armoursmithing, shipcraft, quarrying, roadwork, weaponsmithing, cartmaking
 
-Il s'agit du plus grand groupe de compétences.
-Elles permettent de fabriquer certains objets, bâtiments, bateaux ou routes.
-Elles sont expliquées plus en détail dans les chapitres [production][production-id] et [alchemy][alchemy-id].
+This is the largest group of skills.  
+These skills allow you to craft objects, buildings, boats or roads.  
+The production skills are as follows :
+
+- [Alchemy][skill-alchemy-id] (potion making)
+- [Taming][taming] (obtaining horses)
+- [Shipcraft][shipcraft]
+- [Roadwork][roadwork]
+- [Quarrying][quarrying]
+- [Mining][mining] (production of iron, laen or adamantium)
+- [Weaponsmithing][weaponsmithing]
+- [Armoursmithing][armoursmithing]
+- [Cartmaking][cartmaking]
+- [Herbalism][herbalism] (harvesting plants)
+- [Masonry][masonry]
+- [Forestry][forestry] (wood and mallorn production)
+
+More information:
+
+- [Production][production-id]
+- [Alchemy][alchemy-id]
 
 ### Skills for making money
 
-Trade, taxation et entertainment sont nécessaires pour générer des Silver.
-Pour en savoir plus, consultez le chapitre sur [l'argent][money].
+[Trade][skill-trade-id], [taxation][skill-taxation-id] and [entertainment][skill-entertainment-id] allow you to earn money (silvers).
+
+More information: [money][money].
 
 ### Concealment & Co
 
-[espionage][skill-espionage-id], [stealth][skill-stealth-id] et [perception][skill-perception-id] sont centrés sur la dissimulation.
-Elles ont leur propre chapitre.
+[espionage][skill-espionage-id], [stealth][skill-stealth-id] and [perception][skill-perception-id] are focused on concealment.
 
-### For travel
+More information: [stealth][stealth-id].
 
-Sailing et riding sont expliquées dans le chapitre sur les [déplacements][movement].
-riding est également abordé dans le chapitre des [combats][war-tables].
+### Movement skills
+
+[Sailing][skill-sailing-id] and [riding][riding] are explained in the chapter on [movement].
+
+Riding is also covered in the [combat][war-tables] chapter.
 
 [](){ #skills-skill-magic-id }
 
 ### Magic
 
-[Magic][magic-id] est une compétence aux pouvoirs particulièrement puissants qui occupe tout un chapitre.
+[Magic][magic-id] is a skill with particularly powerful powers that takes up an entire chapter.
 
 ### Combat skills
 
-Les compétences de maniement des armes sont les suivantes :
+Weapon handling skills are as follows :
 
 - [Bow][skill-bow-id]
 - [Catapult][skill-catapult-id]
@@ -180,13 +190,13 @@ Les compétences de maniement des armes sont les suivantes :
 - [Polearm][polearm]
 - [Unarmed combat][unarmed-combat]
 
-Les autres compétences essentielles au combat sont :
+Other essential combat skills are:
 
 - [Endurance][skill-endurance-id]
 - [Riding][riding]
 - [Tactics][tactics-id]
 
-Toutes ces compétences sont particulièrement importantes dans les [batailles][war], que ce soit contre d'autres factions ou des monstres.
+All of these skills are particularly important in [battles][war], whether against other factions or monsters.
 
 Continue reading: [[list-of-skills]].
 

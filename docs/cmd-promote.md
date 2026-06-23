@@ -3,7 +3,7 @@
 alias: cmd-promote
 ---
 
-# PROMOTE
+# `PROMOTE`
 
 **`PROMOTE`**  
 

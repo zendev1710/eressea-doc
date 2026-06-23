@@ -20,7 +20,7 @@ Un calcul rapide montre qu'un guerrier équipé d'un bouclier, d'une armure et d
 C'est pourquoi, autrefois, les chevaliers avaient des écuyers – et dans Eressea, des chevaux.  
 
 Pour chaque tranche de 20 lbs de poids excédentaire, on équipe l'unité d'un cheval, et les troupes peuvent à nouveau se déplacer.  
-Comme mentionné [ici][il-nest-pas-toujours-necessaire-de-savoir-monter-a-cheval], il n'est même pas nécessaire de savoir monter à cheval.  
+Comme [déjà mentionné][il-nest-pas-toujours-necessaire-de-savoir-monter-a-cheval], il n'est même pas nécessaire de savoir monter à cheval.  
 On peut également équiper 100 hommes de 70 armure de plaques et de 30 [cotte de mailles]; l'équipement de l'unité pèse alors exactement 540 lbs, soit sa capacité de charge maximale.  
 
 !!! note
@@ -80,7 +80,7 @@ De plus, cela permet de visualiser en un coup d'œil les objets disponibles.
 
 ## Échapper à la mort par famine
 
-L'ordre d'affichage des unités d'une faction dans un rapport définit la priorité à s'accapparer la nourriture.  
+L'ordre d'affichage des unités d'une faction dans un rapport définit la priorité à s'accaparer la nourriture.  
 Les mages, les percepteurs, les tacticiens et autres unités importantes doivent donc être placés le plus haut possible.  
 L'argent est presque toujours distribué du haut vers le bas (bien que cela ne soit pas garanti par le Maître de Jeu !).  
 
@@ -94,8 +94,8 @@ Les unités peuvent être triées dans l'ordre souhaité à l'aide de l'ordre' [
 ## Routes maritimes sûres
 
 Avec de grandes factions, il est facile de perdre le fil dans la gestion de sa flotte.  
-Un oubli d'ordre ROUTE (ou NMR) peut facilement entraîner la poursuite du trajet d'un bateau déjà arrivé à destination, et qui finira par s'écraser contre une montagne au tour suivant.  
-Pour éviter cela, termine les ordres ROUTE par une double PAUSE, par exemple :
+Un oubli d'ordre [`ROUTE`][cmd-route-fr] (ou NMR) peut facilement entraîner la poursuite du trajet d'un bateau déjà arrivé à destination, et qui finira par s'échouer contre une montagne au tour suivant.  
+Pour éviter cela, termine les ordres [`ROUTE`][cmd-route-fr] par une double `PAUSE`, par exemple :
 
 `ROUTE NE NE NE NE E E E E E E NW NW NW SE PAUSE PAUSE`
 
@@ -135,4 +135,5 @@ Tout semble normal dans le rapport, mais l'unité surcharge le bateau en argent,
 <!-- From [https://wiki.eressea.de/index.php?title=Tipps\_und\_Tricks&oldid=6990] -->
 
 [cmd-reserve-fr]: [[cmd-reserve-fr]]
+[cmd-route-fr]: [[cmd-route-fr]
 [cmd-sort-fr]: [[cmd-sort-fr]]

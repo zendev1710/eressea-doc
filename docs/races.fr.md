@@ -5,7 +5,7 @@ alias: peuples-fr
 
 # Peuples
 
-En plus des [Humains][humains]title={"Humans"}, il existe beaucoup d'autres peuples (types de faction, ou peuples) dans Eressea.  
+En plus des [Humains][humains]{title="Humans"}, il existe beaucoup d'autres peuples (types de faction, ou peuples) dans Eressea.  
 Vous devrez en choisir une pour votre [faction][faction].  
 
 Chaque peuple a des avantages et des inconvénients qui se traduisent par des [bonus et malus][modificateurs-de-competences-id] dans certaines compétences, et parfois des capacités spéciales.  
@@ -173,7 +173,7 @@ Durant les **mois d'hiver** ([Feu du Foyer][feu-du-foyer]{title="Hearth Fire"}, 
 Il est cependant possible grâce à l'[alchimie][alchimie]{title="Alchemy"} de [créer][make-potions-fr-id] une [potion de chaleur du nid][chaleur-du-nid]{title="Potion of nest warmth"} qui permet de recruter dans d'autres types de région.
 
 Les insectes sont automatiquement protégés par leur armure naturelle de chitine.  
-Cette armure naturelle sera réduite de moitié si les insectes portent une armure additionnelle (voir [ici][peuples-et-leurs-caracteristiques]).  
+Cette [armure naturelle][peuples-et-leurs-caracteristiques] sera réduite de moitié si les insectes portent une armure additionnelle.  
 
 Les insectes obtiennent un bonus de [tactique][tactique] lorsqu'ils sont en nombre.  
 Un tacticien insecte obtient (log<sub>10</sub> (nombre de combattants dans son groupe))-1 en tactique.  
@@ -309,7 +309,8 @@ Ces rochers ambulants font partie des créatures les plus puissantes d'Eressea. 
 
 - Les trolls sont forts et peuvent porter deux fois plus que les autres (10,8 lbs), mais ils pèsent aussi deux fois plus (20 lbs).
 - Il n'y a pas de cavalerie troll, ce qui signifie que les trolls ne reçoivent pas de bonus de cheval. Cela n'a aucun effet sur le transport de marchandises et la vitesse de déplacement des trolls montés.
-- Les pierres extraites par les trolls ne sont déduites qu'à 75% de la "réserve de la région". Cet effet est cumulatif avec une carrière (voir [ici][cercle-de-pierres] et [ici][ressources-minieres]).
+- Les pierres extraites par les trolls ne sont déduites qu'à 75 % de la "réserve de la région".  
+  Cet effet est cumulatif avec une [carrière][carriere] (voir également : [Cercle de Piere][cercle-de-pierres]; [Ressource minières][ressources-minieres]).
 - Contre les trolls, la cavalerie ennemie n'a qu'un bonus de +1 au lieu du +2 habituel.
 - Les trolls sont le seul peuple capable d'utiliser des chariots sans chevaux. Les trolls peuvent tirer un chariot par quatre, mais ils ne peuvent se déplacer que d'une seule région (sauf route). Cela est expliqué plus en détail dans l'ordre [`RIDE`][cmd-ride-fr].
 - Les trolls non armés infligent de 2 à 6 points de dégâts.
@@ -331,7 +332,8 @@ Ces rochers ambulants font partie des créatures les plus puissantes d'Eressea. 
 
 Les Nains vivent dans les montagnes, leurs armes sont réputées et leurs forteresses sont connues pour leur solidité. En revanche, ils sont tout aussi sceptiques à l'égard de la magie que des chevaux, et leurs compétences en matière de navigation sont parmi les plus mauvaises du monde.
 
-- Le fer extrait par les nains n'est déduit qu'à 60% de la "réserve de la région". Cet effet est cumulatif avec une mine (voir [ici][mine-fr-id]{title="Mine"} et [ici][ressources-minieres]).
+- Le fer extrait par les nains n'est déduit qu'à 60 % de la "réserve de la région".  
+  Cet effet est cumulatif avec une [mine][mine-fr-id]{title="Mine"} (voir également : [les ressources minières][ressources-minieres]).
 - Dans les montagnes et les glaciers, les nains obtiennent un bonus de +1en [tactique][tactique]{title="Tactics"}.
 - Les [mages][magie] nains régénèrent leur aura beaucoup plus lentement que les autres.
 

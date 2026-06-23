@@ -20,7 +20,7 @@ alias: illaun-spells
 
 ### Dream
 
-:   The magician sends the target of the spell a dream.
+:   The mage sends the target of the spell a dream.
 
 | Components | Lvl |  Type  | Rank |             Ship             | Dist. |
 |:----------:|:---:|:------:|:----:|:----------------------------:|:-----:|
@@ -30,7 +30,7 @@ alias: illaun-spells
 
 ### Divination
 
-:   No one can interpret dreams as well as an Illaun magician.  
+:   No one can interpret dreams as well as an Illaun mage.  
     He is also familiar with the art of fortune telling, card reading and palm reading.  
     In return, the farmers pay him 50 silver per level.
 
@@ -153,7 +153,7 @@ alias: illaun-spells
 
 ### Create an [Amulet of True Sight][amulet-of-true-sight-id]
 
-:   The spell allows a magician to create an [Amulet of True Sight][amulet-of-true-sight-id].  
+:   The spell allows a mage to create an [Amulet of True Sight][amulet-of-true-sight-id].  
     The amulet allows the wearer to see all units protected by a ring of invisibility.  
     However, units that use their [stealth][skill-stealth-id] skill to hide still remain undetected.
 
@@ -166,7 +166,7 @@ alias: illaun-spells
 ### Create a [Ring of Invisibility][ring-of-invisibility-id]
 
 :   With this spell the wizard can create a [Ring of Invisibility][ring-of-invisibility-id].  
-    The bearer of the ring becomes invisible to all units of other parties, no matter how good their perception may be.  
+    The bearer of the ring becomes invisible to all units of other factions, no matter how good their perception may be.  
     In an invisible unit, each person must wear a ring.
 
 |               Components                | Lvl |  Type  | Rank |             Ship             | Dist. |
@@ -214,7 +214,7 @@ alias: illaun-spells
 
 ### Pleasant Dreams
 
-:   This spell allows the mentalist to influence the sleep of all allied units in a region in such a way that they will gain a bonus to all talents for some time.
+:   This spell allows the mentalist to influence the sleep of all allied units in a region in such a way that they will gain a bonus to all skills for some time.
 
 | Components | Lvl |  Type  | Rank | Ship |            Dist.             |
 |:----------:|:---:|:------:|:----:|:----:|:----------------------------:|
@@ -236,7 +236,7 @@ alias: illaun-spells
 
 ### Summon Familiar
 
-:   At some point in his wanderings, an experienced magician will encounter an unusual specimen of a species that will join the magician.
+:   At some point in his wanderings, an experienced mage will encounter an unusual specimen of a species that will join the mage.
 
 |         Components         | Lvl |  Type  | Rank | Ship | Dist. |
 |:--------------------------:|:---:|:------:|:----:|:----:|:-----:|
@@ -289,7 +289,7 @@ alias: illaun-spells
 
 ### Create a [Sphere of Invisibility][sphere-of-invisibility-id]
 
-:   With this spell the magician can create a [Sphere of Invisibility][sphere-of-invisibility-id].  
+:   With this spell the mage can create a [Sphere of Invisibility][sphere-of-invisibility-id].  
     The sphere renders its wielder and ninety-nine other people in the same unit invisible.
 
 |                Components                 | Lvl |  Type  | Rank |             Ship             | Dist. |

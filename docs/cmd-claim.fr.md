@@ -3,7 +3,7 @@
 alias: cmd-claim-fr
 ---
 
-# CLAIM
+# `CLAIM`
 
 **`CLAIM`**` `*`Qté <objet>`*
 
@@ -17,7 +17,7 @@ Les objets de la réserve de faction peuvent être réclamés par n'importe quel
 La réserve de faction est gérée par le Maître de Jeu, pour donner au(x) joueur(s) des objets spéciaux (sans les donner à une unité spécifique).  
 L'ordre `CLAIM` est un ordre utilisé peu fréquemment.  
 
-Les objets réclamés vont à l'unité qui a passé l'odre `CLAIM`.  
+Les objets réclamés vont à l'unité qui a passé l'ordre `CLAIM`.  
 L'objet peut être transmis directement au cours du même tour, mais il ne peut être [utilisé][cmd-use-fr] que la semaine suivante.  
 
 !!! warning "Attention"

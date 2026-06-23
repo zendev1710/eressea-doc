@@ -3,7 +3,7 @@
 alias: cmd-option-fr
 ---
 
-# OPTION
+# `OPTION`
 
 **OPTION**&nbsp;ADDRESSES|COMPUTER|PLAINTEXT|SCORE|SHOWSKCHANGE|STATISTICS|TEMPLATE&nbsp;&#91;NOT&#93;  
 **OPTION**&nbsp;ZIPPED|BZIP2  
@@ -13,6 +13,7 @@ Avec elles, vous contrôlez exactement à quoi ressemble l’évaluation.
 
 !!! info "Information"
     Les options et leur statut sont renseignés en allemand dans le rapport informatique (`.cr`) de l'évaluation :
+
     ```text
     OPTIONEN
     1;AUSWERTUNG

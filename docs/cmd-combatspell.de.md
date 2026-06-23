@@ -3,7 +3,7 @@
 alias: bef-kampfzauber
 ---
 
-# KAMPFZAUBER
+# `KAMPFZAUBER`
 
 **`KAMPFZAUBER`**` [STUFE `*`n`*`] "<Zauberspruch>"`  
 **`KAMPFZAUBER`**`["<Zauberspruch>"] NICHT`  

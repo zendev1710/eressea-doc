@@ -3,7 +3,7 @@
 alias: bef-stirb
 ---
 
-# STIRB
+# `STIRB`
 
 **`STIRB`**`"Passwort"`  
 

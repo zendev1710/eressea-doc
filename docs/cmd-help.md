@@ -2,7 +2,7 @@
 # cSpell:locale en
 alias: cmd-help
 ---
-# HELP
+# `HELP`
 
 <!-- TODO: replace PARTEITARNUNG -->
 **`HELP`**` `*`faction-id`*`GIVE [NOT]`  
@@ -25,7 +25,7 @@ HELP 7 GIVE NOT
 
 Player experience (Solthar):
 
-- `HELP`` `*`faction-id`* without parameters does the same as `HELP`` `*`faction-id`* ` ALL`
+- `HELP`` `*`faction-id`* without parameters does the same as `HELP`` `*`faction-id`*` ``ALL`
 - `HELP`` `*`faction-id`*` ``NOT` does the same thing as `HELP`` `*`faction-id`*` ``ALL NOT`
 
 <!-- From [https://wiki.eressea.de/index.php?title=HELP&oldid=7439] -->

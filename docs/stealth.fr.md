@@ -20,12 +20,12 @@ C'est la situation de départ lorsque l'on commence la partie, car toutes les no
 ## Contrecarrer la garde
 
 Les unités camouflées avec succès ne sont pas soumises aux conséquences de [`GUARD`][cmd-guard-fr].  
-Elles peuvent faire de l'entertain, collecter des impôts, extraire des ressources ou recruter des paysans.  
+Elles peuvent [divertir][cmd-entertain-fr], [collecter des impôts][cmd-tax-fr], extraire des ressources ou recruter des paysans.  
 
 ## Augmenter les chances de fuite
 
 La chance de fuite standard d'une unité en [combat][la-fuite] est de 25 % (50 % pour les [Halfelins][halfelins]).  
-À chaque niveau de stealth, les chances de fuite de l'unité augmentent de 5 %.  
+À chaque niveau de [discrétion][skill-discretion-id]{title="Stealth"}, les chances de fuite de l'unité augmentent de 5 %.  
 Qu'une unité sache ou non monter à cheval, en posséder un augmente ses chances de fuite d'un de ses membres de 10 % **une seule fois**;
 5 chevaux n'apportent donc **PAS** +50 % à une personne, mais seulement +10 %.  
 Les chances de fuite maximales sont de 75 % (90 % pour les Halfelins).  
@@ -37,16 +37,16 @@ Ici aussi, la perception la plus élevée de la faction volée dans la région c
 Par niveau de différence de compétence, chaque personne qui vole vole 50 Silver.  
 Dans ce cas, le vol se fait **toujours** dans la totalité de la réserve d'argent de la faction dans la région.  
 La faction volée reçoit un message indiquant qu'elle a été volée, mais pas par qui.  
-Si le niveau de stealth est seulement égal au niveau de perception, le vol échoue et la faction volée reçoit un rapport anonyme sur la tentative.  
-Si le niveau de stealth est trop bas, la faction qui devait être volée reçoit un message avec le nom des voleurs.  
+Si le niveau de [discrétion][skill-discretion-id]{title="Stealth"} est seulement égal au niveau de [perception][skill-perception-fr-id]{title="Perception"}, le vol échoue et la faction volée reçoit un rapport anonyme sur la tentative.  
+Si le niveau de discrétion{title="Stealth"} est trop bas, la faction qui devait être volée reçoit un message avec le nom des voleurs.  
 
-Les gobelins, s'ils ont appris stealth jusqu'au niveau 4 au moins, volent toujours au moins 50 Silver, même si leur niveau de stealth est inférieur à celui de perception.  
+Les gobelins, s'ils ont appris la discrétion{title="Stealth"} jusqu'au niveau 4 au moins, volent toujours au moins 50 Silver, même si leur niveau de discrétion est inférieur à celui de perception.  
 Un tel vol se remarque bien sûr et n'a donc de sens que dans certaines circonstances.  
 On entend dire que les armées gobelines ont déjà porté un coup décisif à leurs adversaires en les privant de nourriture.  
 
 Si l'on s'attend à être volé avec succès, la seule solution est d'apporter de l'argent dans la région concernée, car même les revenus provenant des divertissements, de la collecte des impôts, du travail et du commerce peuvent être volés (tous mes types de revenus).  
 
-Le vol constitue de temps en temps un moyen efficace de faire tomber des espions qui sont eux-mêmes bien camouflés, car ils ont de grandes chances de s'échapper en cas d'attaque grâce à leur stealth élevé.
+Le vol constitue de temps en temps un moyen efficace de faire tomber des espions qui sont eux-mêmes bien camouflés, car ils ont de grandes chances de s'échapper en cas d'attaque grâce à leur niveau de discrétion élevé.
 
 [](){ #espionnage-id }
 
@@ -88,6 +88,8 @@ Poursuivre la lecture : [Déplacements][deplacements].
 <!-- From [https://wiki.eressea.de/index.php?title=Tarnung/fr&oldid=16974] -->
 
 [cmd-combat-fr]: [[cmd-combat-fr]]
+[cmd-entertain-fr]: [[cmd-entertain-fr]]
 [cmd-guard-fr]: [[cmd-guard-fr]]
 [cmd-spy-fr]: [[cmd-spy-fr]]
 [cmd-steal-fr]: [[cmd-steal-fr]]
+[cmd-tax-fr]: [[cmd-tax-fr]]

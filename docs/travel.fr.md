@@ -15,7 +15,7 @@ Un déplacement n'est possible que dans les six directions suivantes : nord-est
 !!! note "Note"
     Il n'est pas possible de se déplacer directement vers le nord ou le sud.  
 
-Pour se déplacer, il faudra renseigner la direction -ou les directions consécutives- à prendre, au moyen des ordres [`MOVE`][cmd-move-fr] ou [`ROUTE`][cmd-route-fr] (déplacement planfié sur plusieurs tours).  
+Pour se déplacer, il faudra renseigner la direction -ou les directions consécutives- à prendre, au moyen des ordres [`MOVE`][cmd-move-fr] ou [`ROUTE`][cmd-route-fr] (déplacement planifié sur plusieurs tours).  
 
 La vitesse de déplacement se caractérise par le nombre de régions terrestres (ou de régions océaniques pour un bateau) que peut parcourir une unité en une seule fois.  
 

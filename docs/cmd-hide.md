@@ -3,7 +3,7 @@
 alias: cmd-hide
 ---
 
-# HIDE
+# `HIDE`
 
 **`HIDE`**`[`*`level`*`]`  
 **`HIDE`**`FACTION [NOT]`  

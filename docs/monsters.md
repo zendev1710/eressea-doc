@@ -65,7 +65,7 @@ Over time, dragons and wyrms begin to gather a retinue around themselves, called
 They are low, scaled, humanoid creatures who can fight with swords, spears or bows.  
 
 It is said that some mages can influence dragons.  
-However, it is doubtful that a fully grown dragon will really submit to the will of a magician, no matter how powerful.  
+However, it is doubtful that a fully grown dragon will really submit to the will of a mage, no matter how powerful.  
 
 There are different types of dragons, as described below.
 
@@ -93,7 +93,7 @@ They can hardly be counted as monsters
 ### Sea serpents
 
 The dragons are distant relatives **Sea serpents** that make the oceans unsafe and ambush passing ships.  
-However, boats should let them go in peace  
+However, ships should let them go in peace  
 
 ## Known Undead
 

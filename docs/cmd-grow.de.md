@@ -5,7 +5,7 @@ alias: bef-zuechte
 
 [](){ #bef-zuchte-id }
 
-# ZÜCHTE
+# `ZÜCHTE`
 
 *[Langer Befehl][kurze-und-lange-befehle].*  
 

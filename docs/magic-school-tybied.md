@@ -9,7 +9,7 @@ alias: tybied-spells
 
 ### Analyze Magic
 
-:   This spell allows the magician to attempt to detect the enchantments of a single specified object.  
+:   This spell allows the mage to attempt to detect the enchantments of a single specified object.  
     He will be able to get an impression of their effectiveness from all spells that do not exceed his own abilities.  
     With stronger spells he needs a little luck for a successful analysis.
 
@@ -31,10 +31,10 @@ alias: tybied-spells
 
 ### Miracle Doctor
 
-:   If the alchemist cannot help you, you go to the learned Tybied magician.  
+:   If the alchemist cannot help you, you go to the learned Tybied mage.  
     His potions and tinctures help against everything you can"t get otherwise.  
-    Whether the cryptic formula under the wooden shoe of the unfaithful husband really helped -well, the farmer who doesn't know how to read will never know.  
-    It definitely helps the magician...fill his wallet.  
+    Whether the cryptic formula under the wooden shoe of the unfaithful husband really helped -well, the farmer who does not know how to read will never know.  
+    It definitely helps the mage...fill his wallet.  
     You can earn 50 silver per level in a week.
 
 | Components | Lvl |  Type  | Rank |             Ship             | Dist. |
@@ -67,7 +67,7 @@ alias: tybied-spells
 
 :   This spell increases your natural resistance to magic.  
     A unit protected in this way is also less vulnerable to combat magic.  
-    Per level, the magician"s power is enough to protect 5 people.
+    Per level, the mage"s power is enough to protect 5 people.
 
 | Components | Lvl |  Type  | Rank |             Ship             | Dist. |
 |:----------:|:---:|:------:|:----:|:----------------------------:|:-----:|
@@ -77,9 +77,9 @@ alias: tybied-spells
 
 ### Astral Exit
 
-:   The magician concentrates on the structure of reality and can thus leave the Astral plane.  
+:   The mage concentrates on the structure of reality and can thus leave the Astral plane.  
     He can overall (Level-3)*Send 15 lbs through the briefly created gate.  
-    If the magician is experienced enough to cast the spell at levels 11 or more, he can force other units to the other level even against their will.
+    If the mage is experienced enough to cast the spell at levels 11 or more, he can force other units to the other level even against their will.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
@@ -89,9 +89,9 @@ alias: tybied-spells
 
 ### Astral Path
 
-:   Ancient arcane formulas allow the magician to send himself and others into the Astral plane.  
-    The magician can (level 3)*Send 15 lbs through the briefly created gate.  
-    If the magician is experienced enough to cast the spell at levels 11 or more, he can force other units to the other level even against their will.
+:   Ancient arcane formulas allow the mage to send himself and others into the Astral plane.  
+    The mage can (level 3)*Send 15 lbs through the briefly created gate.  
+    If the mage is experienced enough to cast the spell at levels 11 or more, he can force other units to the other level even against their will.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
@@ -101,7 +101,7 @@ alias: tybied-spells
 
 ### Antimagic
 
-:   With this spell the magician can create a zone of Astral weakening, a local imbalance in the Astral field.  
+:   With this spell the mage can create a zone of Astral weakening, a local imbalance in the Astral field.  
     This zone will strive to return to equilibrium.  
     To do this, it will remove part of the strength of every spell cast in this region and even completely absorb the weaker ones.
 
@@ -113,7 +113,7 @@ alias: tybied-spells
 
 ### Transfer Aura
 
-:   With the help of this spell, the magician can transfer his own aura to another magician of the same magic area at a ratio of 2:1 or to a magician of another magic area at a ratio of 3:1.
+:   With the help of this spell, the mage can transfer his own aura to another mage of the same magic area at a ratio of 2:1 or to a mage of another magic area at a ratio of 3:1.
 
 | Components | Lvl |  Type  | Rank |             Ship             | Dist. |
 |:----------:|:---:|:------:|:----:|:----------------------------:|:-----:|
@@ -123,7 +123,7 @@ alias: tybied-spells
 
 ### Destroy Magic
 
-:   This spell allows the magician to dispel enchantments on a unit, ship, building, or even region.
+:   This spell allows the mage to dispel enchantments on a unit, ship, building, or even region.
 
 | Components | Lvl |  Type  | Rank |             Ship             |            Dist.             |
 |:----------:|:---:|:------:|:----:|:----------------------------:|:----------------------------:|
@@ -144,9 +144,9 @@ alias: tybied-spells
 
 ### Astral Call
 
-:   A magician who is in the Astral plane can use this spell to bring other units to him.  
-    The magician can (level 3)*Send 15 lbs through the briefly created gate.  
-    If the magician is experienced enough to cast the spell at levels 13 or more, he can force other units to the other level even against their will.
+:   A mage who is in the Astral plane can use this spell to bring other units to him.  
+    The mage can (level 3)*Send 15 lbs through the briefly created gate.  
+    If the mage is experienced enough to cast the spell at levels 13 or more, he can force other units to the other level even against their will.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
@@ -156,7 +156,7 @@ alias: tybied-spells
 
 ### Create an [Amulet of True Sight][amulet-of-true-sight-id]
 
-:   The spell allows a magician to create an [Amulet of True Sight][amulet-of-true-sight-id].  
+:   The spell allows a mage to create an [Amulet of True Sight][amulet-of-true-sight-id].  
     The amulet allows the wearer to see all units protected by a ring of invisibility.  
     However, units that use their [stealth][skill-stealth-id] skill to hide still remain undetected.
 
@@ -169,7 +169,7 @@ alias: tybied-spells
 ### Create a [Ring of Invisibility][ring-of-invisibility-id]
 
 :   With this spell the wizard can create a ring of invisibility.  
-    The bearer of the ring becomes invisible to all units of other parties, no matter how good their perception may be.  
+    The bearer of the ring becomes invisible to all units of other factions, no matter how good their perception may be.  
     In an invisible unit, each person must wear a ring.
 
 |               Components                | Lvl |  Type  | Rank |             Ship             | Dist. |
@@ -179,8 +179,8 @@ alias: tybied-spells
 `CAST "Create A Ring of Invisibility"`  
 
 ### Airship
-
-:   These magic runes allow a boat with a capacity of up to 50 weight units to fly for a week and allow the boat to cross land.  
+<!-- TODO: check if it's for a ship or a boat -->
+:   These magic runes allow a ship with a capacity of up to 50 weight units to fly for a week and allow the ship to cross land.  
     The enchanted ink's components include a windbag and a snowcrystal petal.
 
 |                     Components                      | Lvl |  Type  | Rank |             Ship             | Dist. |
@@ -191,8 +191,8 @@ alias: tybied-spells
 
 ### Call of Reality
 
-:   A magician who is in the material world can use this spell to summon units from the adjacent Astral world.  
-    If the magician is experienced enough to cast the spell at levels of 13 or more, he can force other units into the material world against their will.
+:   A mage who is in the material world can use this spell to summon units from the adjacent Astral world.  
+    If the mage is experienced enough to cast the spell at levels of 13 or more, he can force other units into the material world against their will.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
@@ -202,7 +202,7 @@ alias: tybied-spells
 
 ### Steal Aura
 
-:   With the help of this spell, the magician can withdraw his aura from another magician against his will and supply it to himself.
+:   With the help of this spell, the mage can withdraw his aura from another mage against his will and supply it to himself.
 
 | Components | Lvl |  Type  | Rank | Ship |            Dist.             |
 |:----------:|:---:|:------:|:----:|:----:|:----------------------------:|
@@ -214,7 +214,7 @@ alias: tybied-spells
 
 ### Create an [Antimagic Crystal][antimagic-crystal]
 
-:   With the help of this spell, the magician drains a quartz crystal of all its magical energies.  
+:   With the help of this spell, the mage drains a quartz crystal of all its magical energies.  
     The crystal, when ground into a fine dust and dispersed, will absorb the magical energies released during casting and reduce the power of all spells cast in the region that week.
 
 |      Components       | Lvl |  Type  | Rank |             Ship             | Dist. |
@@ -225,7 +225,7 @@ alias: tybied-spells
 
 ### Negate Curse
 
-:   This spell allows the magician to specifically dispel a specific enchantment on a unit, ship, building or even the region.
+:   This spell allows the mage to specifically dispel a specific enchantment on a unit, ship, building or even the region.
 
 | Components | Lvl |  Type  | Rank |             Ship             |            Dist.             |
 |:----------:|:---:|:------:|:----:|:----------------------------:|:----------------------------:|
@@ -235,7 +235,7 @@ alias: tybied-spells
 
 ### Eternal Walls
 
-:   With this formula, the magician binds the forces of the earth into the walls of the building forever.  
+:   With this formula, the mage binds the forces of the earth into the walls of the building forever.  
     A building enchanted in this way is protected against the ravages of time and no longer requires any maintenance.
 
 |        Components         | Lvl |  Type  | Rank |             Ship             | Dist. |
@@ -249,7 +249,7 @@ alias: tybied-spells
 :   If you draw these runes on the walls of a building or on the planks of a ship, it will be more difficult to influence by magic.  
     Each ritual increases the building or ship"s resistance to enchantment by 20%.  
     If several protective spells are placed on top of each other, their effects are added together, but 100% protection cannot be achieved this way.  
-    The spell lasts at least three weeks, but depending on the magician"s skill it can last much longer.
+    The spell lasts at least three weeks, but depending on the mage"s skill it can last much longer.
 
 | Components | Lvl |  Type  | Rank |             Ship             | Dist. |
 |:----------:|:---:|:------:|:----:|:----------------------------:|:-----:|
@@ -262,7 +262,7 @@ alias: tybied-spells
 :   This spell can give the enemy a slightly different image of their own troops, just like the fish in the water is not where it seems to be.  
     In this way, half of the damage from each hit can be rendered harmless.  
     But the shield can only withstand a few hundred sword blows, after which it will disintegrate.  
-    The stronger the magician, the more damage the shield can withstand.
+    The stronger the mage, the more damage the shield can withstand.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
@@ -337,7 +337,7 @@ alias: tybied-spells
 
 ### Summon Familiar
 
-:   At some point in his wanderings, an experienced magician will encounter an unusual specimen of a species that will join the magician.
+:   At some point in his wanderings, an experienced mage will encounter an unusual specimen of a species that will join the mage.
 
 |         Components         | Lvl |  Type  | Rank | Ship | Dist. |
 |:--------------------------:|:---:|:------:|:----:|:----:|:-----:|
@@ -371,9 +371,9 @@ alias: tybied-spells
 `CAST [LEVEL n] "Astral Disruption"`  
 
 ### Sacrifice Strength
-
-:   This spell allows the magician to transfer part of his magical powers to another magician.  
-    Magicians of the seam school will receive half the power invested, magicians of other schoolsreceive receive one third.
+<!-- TODO: take from eressea server -->
+:   This spell allows the mage to transfer part of his magical powers to another mage.  
+    Mages of the seam school will receive half the power invested, mages of other schools receive one third.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|

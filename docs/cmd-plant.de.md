@@ -3,7 +3,7 @@
 alias: bef-pflanze
 ---
 
-# PFLANZE
+# `PFLANZE`
 
 *[Langer Befehl][kurze-und-lange-befehle].*  
 

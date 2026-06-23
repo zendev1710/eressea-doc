@@ -39,11 +39,11 @@ Les réserves ne sont valables que pour votre propre faction.
 Les objets doivent être explicitement remis à des unités étrangères.  
 
 Les réserves ne fonctionnent pas seulement en production (essentiellement avec l'ordre [`MAKE`][cmd-make-fr]), mais globalement pour tout, notamment pour les ordres [`RESERVE`][cmd-reserve-fr], [`GIVE`][cmd-give-fr], [`USE`][cmd-use-fr], [`CAST`][cmd-cast-fr] et [`RECRUIT`][cmd-recruit-fr].  
-Si l'unité ne dispose pas d'un item, elle le prélève dans la réseerve de matériaux pour le traiter, le remettre ou le réserver.  
+Si l'unité ne dispose pas d'un item, elle le prélève dans la réserve de matériaux pour le traiter, le remettre ou le réserver.  
 Cependant, si une unité a besoin d'armes pour une attaque ou pour collecter des impôts, celles-ci doivent être explicitement remises ou réservées, car la réserve de matériel ne s'applique pas pour cet usage.  
 
 **Les factions inexpérimentées doivent planifier soigneusement leur réserve de matériel**, car il peut facilement arriver de « voler » sans le vouloir des ressources à des unités;  
-ces unités léséees ne pourront alors pas produire (ou pas assez), tandis que l'unité avec surplus d'items aura utilisé plus de ressources et probablement produit plus que prévu.  
+ces unités lésées ne pourront alors pas produire (ou pas assez), tandis que l'unité avec surplus d'items aura utilisé plus de ressources et probablement produit plus que prévu.  
 
 ### Exemple 1
 
@@ -60,7 +60,7 @@ UNIT c; pour stockage, n'a pas de fer
     LEARN Stealth
 ```
 
-**Résultat de l'avaluation :**
+**Résultat de l'évaluation :**
 
 - L'unité b reçoit d'abord 10 fer de la réserve d'objets de a
 - L'unité a donne les 20 fer restants à c
@@ -70,7 +70,7 @@ UNIT c; pour stockage, n'a pas de fer
 - L'unité a possède finalement 20 fer
 - L'unité c possède finalement 20 fer
 
-## RESERVE et GIVE
+## `RESERVE` et `GIVE`
 
 Il y a quelques particularités à noter à propos de [`RESERVE`][cmd-reserve-fr] et [`GIVE`][cmd-give-fr], qui précèdent la plupart des autres ordres de la [[orders-sequence]].  
 Celles-ci s'appliquent autant à la réserve d'argent qu'à la réserve de matériaux.

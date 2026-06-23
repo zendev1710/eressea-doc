@@ -3,7 +3,7 @@
 alias: bef-lehre
 ---
 
-# LEHRE
+# `LEHRE`
 
 *[Langer Befehl][kurze-und-lange-befehle].*  
 

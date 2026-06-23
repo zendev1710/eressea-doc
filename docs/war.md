@@ -44,7 +44,7 @@ For the attacker, combat status is irrelevant for the purpose of joining the bat
 However, units that have set [`COMBAT NOT`][cmd-combat] or [`COMBAT FLEE`][cmd-combat] cannot attack.
 
 So, to jointly attack an enemy, each attacking faction must attack at least one of the enemy's units.  
-To defend together against attackers, all the defending factions do is assist each other (HELP).
+To defend together against attackers, all the defending factions do is assist each other (`HELP`).
 
 Basically anyone to whom [`HELP COMBAT`][cmd-help] has been assigned, and who has not attacked anyone to whom [`HELP COMBAT`][cmd-help] has also been assigned is considered an ally.
 
@@ -80,7 +80,7 @@ In this case they help each other against C (even if they are not allied), since
 Player experience:In fact, it's even more complicated.
 
 !!! warning
-    Badly specified help statuses or ATTACK orders have already led to battles with unexpected outcomes.  
+    Badly specified help statuses or `ATTACK` orders have already led to battles with unexpected outcomes.  
     Allies have stood by and done nothing or have even fought amongst themselves.  
 
 There are a few tips to help you **avoid the biggest blunders**:
@@ -89,12 +89,12 @@ There are a few tips to help you **avoid the biggest blunders**:
   `HELP ALL` is preferable for anyone you **might** fight.
   Mistrust often does damage here.
 - If possible, there should only be one [`GROUP`][cmd-group].
-- In your faction, either all the combat units should have the ATTACK order, or none at all.
+- In your faction, either all the combat units should have the `ATTACK` order, or none at all.
   If only some of your units attack, the rest may not take part in the combat if an ally is attacked.
 - It is recommended that you attack all enemy units.
-  You should attack *at least* one unit from each enemy faction.
+  You should attack **at least** one unit from each enemy faction.
 - Note also that faction stealth doesn't always make it clear who really belongs to which faction.
-  Another strategy might be to attack just one enemy unit at a time, hoping that the opponents' HELP statuses create some confusion.
+  Another strategy might be to attack just one enemy unit at a time, hoping that the opponents' help statuses create some confusion.
   We won't judge here whether this approach is honorable.
 
 ## The battle
@@ -125,7 +125,7 @@ Fleeing units naturally try to escape (see [fleeing][fleeing]).
 Units fighting in the 2nd row can only be attacked directly in close combat when they reach the 1st row (this can happen, for example, when the 1st row is overrun, see below).  
 Against opposing ranged attacks, they defend with their best combat skill.
 
-Magicians' combat spells can be cast from behind and from the front line; apart from that, they will arm themselves and fight like everyone else.
+Mages' combat spells can be cast from behind and from the front line; apart from that, they will arm themselves and fight like everyone else.
 
 ### Overrun
 
@@ -247,7 +247,7 @@ Units in the front row defend with their full skill level if the ranged combatan
     If they do not have this or cannot use it (i.e. their corresponding skill is less than 1), they defend themselves [unarmed][bonuses-and-mali]!
 
 Catapults require ammunition.  
-This can be produced from stones using [MAKE ammunition][cmd-make] by a mason with quarrying skill 3 and it weighs 10 weight units.  
+This can be produced from stones using [`MAKE ammunition`][cmd-make] by a mason with quarrying skill 3 and it weighs 10 weight units.  
 One unit of ammunition corresponds to one volley.
 
 *Ranged weapons - bonuses and time.*
@@ -388,7 +388,7 @@ If the unit was in a building or on a ship on land, it leaves this as soon as a 
     It may therefore be useful to order castle or ship occupants to re-enter their own ship, which they may be able to do after the battle.  
     It should be noted that the command should also be handed back to the correct unit with [`GIVE COMMAND`][cmd-give].
 
-Special rules apply to units with the FLEE status.  
+Special rules apply to units with the `FLEE` status.  
 These units can still move after combat, even if they would otherwise not be able to execute a long order.  
 Furthermore, these units cannot guard regions.  
 Any guarding performed is automatically canceled when the unit assumes the `FLEE` status.  
@@ -400,7 +400,7 @@ Sea battles are fought like land battles: The [ships][ships-id] board each other
 After the battle, it is possible for the units to carry out further long orders.
 
 If a ship is involved in a battle, it takes 5% damage per battle round if at least one person takes damage that is on the ship or was on the ship at the start of the round.  
-It therefor does not help to leave the ship before the battle begins.  
+It therefore does not help to leave the ship before the battle begins.  
 The [tactics round][tactics-id] and the first round are not counted, so the maximum possible damage is 20%.  
 
 More damage can occur if sea serpents are involved in the battle.  

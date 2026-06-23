@@ -3,7 +3,7 @@
 alias: cmd-recruit
 ---
 
-# RECRUIT
+# `RECRUIT`
 
 **`RECRUIT`**` `*`number`*  
 

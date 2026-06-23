@@ -14,7 +14,7 @@ alias: gwyrrd-spells
 Then you direct your strength towards the fine aura of life that is forming and form a housing for the unbound strength."
 </div>
 
-:   The more power the magician invests, the more golems can be created before the aura dissipates.  
+:   The more power the mage invests, the more golems can be created before the aura dissipates.  
     Each golem has a 10 percent chance of turning to dust each round.  
     If you give the golems the `MAKE CASTLE` or `MAKE STREET` orders, 4 stones are placed per golem and the golem dissolves.
 
@@ -37,10 +37,10 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ### Cattle Healing
 
-:   The Gwyrrd mages" livestock and healing skills are highly sought after by farmers.  
+:   The Gwyrrd mages livestock and healing skills are highly sought after by farmers.  
     Their services are often in high demand, especially in markets.  
-    Some people may also use their talent to sell an animal for a better price.  
-    The magician can earn 50 silver per level.
+    Some people may also use their skill to sell an animal for a better price.  
+    The mage can earn 50 silver per level.
 
 | Components | Lvl |  Type   | Rank | Ship | Dist. |
 |:----------:|:---:|:-------:|:----:|:----:|:-----:|
@@ -52,7 +52,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ### Create [Iron Golems][iron-golem]
 
-:   The more power the magician invests, the more golems can be created.  
+:   The more power the mage invests, the more golems can be created.  
     Each golem has a 15 percent chance of turning to dust each round.  
     If you give the golems the order `MAKE  SWORD/CLAYMORE` or `MAKE Shield/CHAIN​​​MAIL/PLATEMAIL`, 4 iron bars are installed per golem and the golem dissolves.
 
@@ -87,7 +87,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ### Firun's Coat
 
-:   This spell allows the magician to magically protect insects from the crippling cold of the glaciers.  
+:   This spell allows the mage to magically protect insects from the crippling cold of the glaciers.  
     You can enter glaciers and act normally there.  
     The saying works on a level*10 insects.  
     A Ring of Power increases the number of enchantable insects by an additional 10.
@@ -100,7 +100,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ### Hail
 
-:   In battle, the magician calls upon the elemental spirits of cold and binds them to himself.  
+:   In battle, the mage calls upon the elemental spirits of cold and binds them to himself.  
     He can then order them to attack the enemy with hailstones and chunks of ice.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
@@ -114,7 +114,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 :   This ritual conjures up a dark storm front that towers ominously over the region.  
     The magical rain will cause all ore to rust.  
     Iron weapons and armor become chipped and rusty.  
-    The destructive power of the rain depends on the power invested by the magician.  
+    The destructive power of the rain depends on the power invested by the mage.  
     Up to 10 iron weapons can be affected for each level.  
     A ring of power increases the effect like an additional level.
 
@@ -128,11 +128,11 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ### Magic Path
 
-:   By performing these rituals, the magician is able to summon a powerful earth elemental.  
+:   By performing these rituals, the mage is able to summon a powerful earth elemental.  
     As long as this is banished into the ground, no rain will soften the paths and no river will be able to destroy bridges.  
     This means that all travelers receive the same advantages that would otherwise only be offered by a developed paved road network.  
     Even swamps and glaciers can be enchanted this way.  
-    The more power the magician puts into the spell, the longer the road lasts.
+    The more power the mage puts into the spell, the longer the road lasts.
 
 |                Components                | Lvl |  Type  | Rank |             Ship             |            Dist.             |
 |:----------------------------------------:|:---:|:------:|:----:|:----------------------------:|:----------------------------:|
@@ -153,7 +153,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ### Summon Water Elemental
 
-:   With this ritual, the magician forces the elemental spirits of the water into his service and gets them to carry the specified ship through the water more quickly.  
+:   With this ritual, the mage forces the elemental spirits of the water into his service and gets them to carry the specified ship through the water more quickly.  
     In addition, the ship is not affected by unfavorable winds or currents.
 
 | Components | Lvl |  Type  | Rank |             Ship             | Dist. |
@@ -222,7 +222,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ### Create an [Amulet of True Sight][amulet-of-true-sight-id]
 
-:   The spell allows a magician to create an [Amulet of True Sight][amulet-of-true-sight-id].  
+:   The spell allows a mage to create an [Amulet of True Sight][amulet-of-true-sight-id].  
     The amulet allows the wearer to see all units protected by a [Ring of Invisibility][ring-of-invisibility-id].  
     However, units that use their [stealth][skill-stealth-id] skill to hide still remain undetected.
 
@@ -235,7 +235,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 ### Create a [Ring of Invisibility][ring-of-invisibility-id]
 
 :   With this spell the wizard can create a [Ring of Invisibility][ring-of-invisibility-id].  
-    The bearer of the ring becomes invisible to all units of other parties, no matter how good their perception may be.  
+    The bearer of the ring becomes invisible to all units of other factions, no matter how good their perception may be.  
     In an invisible unit, each person must wear a ring.
 
 |               Components                | Lvl |  Type  | Rank |             Ship             | Dist. |
@@ -246,7 +246,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ### Meditate
 
-:   With the help of this spell, the magician can transfer his own aura at a ratio of 2:1 to another magician of the same magic area.
+:   With the help of this spell, the mage can transfer his own aura at a ratio of 2:1 to another mage of the same magic area.
 
 | Components | Lvl |  Type  | Rank |             Ship             | Dist. |
 |:----------:|:---:|:------:|:----:|:----------------------------:|:-----:|
@@ -281,7 +281,7 @@ This earthquake will damage all buildings in the region.
 
 ### Homestone
 
-:   With this formula, the magician binds the forces of the earth forever into the walls of the castle in which he currently finds himself.  
+:   With this formula, the mage binds the forces of the earth forever into the walls of the castle in which he currently finds himself.  
     Walls that have been strengthened in this way cannot be destroyed either by magic or with heavy artillery, and age also affects them less.  
     The building also offers better protection against attacks with swords and magic.
 
@@ -318,7 +318,7 @@ This earthquake will damage all buildings in the region.
 ### Banish Spirits
 
 :   According to the ancient teachings of the Druids, what ordinary beings call magic consists of elemental spirits.  
-    The magician conjures and banishes these into a form to achieve the desired effect.  
+    The mage conjures and banishes these into a form to achieve the desired effect.  
     This ritual is able to drive away elemental spirits that have been summoned into this world in order to free an object from magic.
 
 | Components | Lvl |  Type  | Rank |             Ship             |            Dist.             |
@@ -329,7 +329,7 @@ This earthquake will damage all buildings in the region.
 
 ### Strong Wall And Sturdy Gate
 
-:   With this formula, at the beginning of a fight, the magician binds some elemental spirits of the rock into the walls of the building in which he is currently located.  
+:   With this formula, at the beginning of a fight, the mage binds some elemental spirits of the rock into the walls of the building in which he is currently located.  
     The building then offers better protection against attacks with the sword and magic.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
@@ -388,7 +388,7 @@ This earthquake will damage all buildings in the region.
 
 ### Summon Familiar
 
-:   At some point in his wanderings, an experienced magician will encounter an unusual specimen of a species that will join the magician.
+:   At some point in his wanderings, an experienced mage will encounter an unusual specimen of a species that will join the mage.
 
 |         Components         | Lvl |  Type  | Rank | Ship | Dist. |
 |:--------------------------:|:---:|:------:|:----:|:----:|:-----:|
@@ -417,7 +417,7 @@ This earthquake will damage all buildings in the region.
 
 ### Barkskin
 
-:   Performing this ritual before going into battle gives your troups an additional bonus to their armor.  
+:   Performing this ritual before going into battle gives your troops an additional bonus to their armor.  
     Every hit reduces the energy of the spell, dissolving it at some point during battle.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
@@ -459,7 +459,7 @@ This earthquake will damage all buildings in the region.
 
 ### Roots of Magic
 
-:   Through a elaborate ritual a druid permanently channels a fragment of his power into the soil and the forests of the region.  
+:   Through an elaborate ritual a druid permanently channels a fragment of his power into the soil and the forests of the region.  
     This forever changes the equilibrium of nature in the region.  
     From this point on only the fierce but strong mallorn trees will grow there.
 

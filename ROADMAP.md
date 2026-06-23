@@ -4,18 +4,41 @@ At this moment it's rather a TODO list.
 
 Features to be taken into account (no due date):
 
+- [x] Make internal links mkardown page location-independent (using autorefs plugin?)
+- [x] Fix all dead links
+- [x] Fix all warnings displayed on `properdocs build` commande
+- [x] Fix all markdown lint issues
+- [x] order keywords as top-level heading title are between backticks (\`...\`)
+- [x] order keywords as all mentioned between backticks (\`...\`)
+- [] Translate remainging paragraphs in french
+- [x] Fix all spell lint issues in french language
+- [x] Fix all spell issues in english language
+- [] Fix all spell issues in german language
+- [] Update all english magic spell descriptions with the ones in Eressea server source code .po files
+- [] Fix orders examples as block codes (especially in german language where it was missed)
 - [x] Lore dialogues and narrations as "parchment" style
 - [ ] Write formulas with katex
 - [ ] Compact tables when columns number is high
-- [ ] Add column sorting on tables when it would be useful
-- [ ] Add simple form in pages to test formulas when it would be useful
-- [ ] Make internal links not location-dependent (using autorefs plugin?)
+- [ ] Column sorting on tables when it would be useful
+- [ ] Simple form in pages to test formulas when it would be useful
+- [ ] Same page structure between french and english languages
+- [ ] Same page structure between english anf german languages
 - [ ] Redesign the sitemap (pages organization)
-- [ ] Add a complete contribution guide
-- [ ] Add a CI pipeline based on GitHub Actions triggered on a pull request before merging and deploy
-- [ ] Add icons, emoji and/or svg images
-- [ ] Review for all the documentation pages written in french and english languages
+- [ ] Complete contribution guide
+- [ ] CI pipeline based on GitHub Actions triggered on a pull request before merging and deploy
+- [ ] Review for all the documentation pages written in french language
+- [ ] Review for all the documentation pages written in english language
 - [ ] Review for all the documentation pages written in german - over time
+- [ ] Better tooltips (background color, frame color...)
+- [ ] Ony theme color by language
+- [ ] Being able to restrict search scope to current language
+- [ ] Documentation versioning
+- [ ] Icons, emoji and/or svg images
+- [ ] Configure markdown-link-check and fix all link lint issues
+- [ ] Generate the french documentation as a downloadable PDF
+- [ ] Generate the english documentation as a downloadable PDF
+- [ ] Generate the german documentation as a downloadable PDF
+- [ ] Update documentation with wiki site updates since 2025, 1st december
 
 *Note: These features won'be be necesseray implemented in the above defined order.*
 

@@ -23,7 +23,7 @@ En général, vous pouvez copier les scripts les uns après les autres, mais il 
 3. Configuration : cette étape nécessite une configuration manuelle
 4. Appels : ici, vous pouvez configurer le comportement de chaque appel
 
-Si vous souhaitez écrire votre propre code, vous trouveras toutes le sinformations nécessaires dans *`Desktop > Advanced Commands > Help.`*.  
+Si vous souhaitez écrire votre propre code, vous trouveras toutes les informations nécessaires dans *`Desktop > Advanced Commands > Help.`*.  
 Vous pouvez également consulter la page dans votre navigateur en cliquant sur le bouton « Navigateur ».  
 
 Voici les deux lignes pour l'importation :

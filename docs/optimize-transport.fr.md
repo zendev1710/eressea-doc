@@ -161,17 +161,17 @@ Règles de notation simples :
 
 Règles d'évaluation plus compliquées :
 
-- Il vaut mieux utiliser pleinement un moyen de transport que de le faire voyager avec beaucoup d'espace vide.
-  La distinction entre « bon » et « beaucoup » est ici la question la plus complexe.
-  Des objets de même valeur mais de poids différent supposent des approches différentes selon l'environnement.
-  Si le transport ne peut pas être utilisé à pleine capacité avec l'objet léger et qu'il n'y a pas d'autres marchandises à transporter, l'objet le plus lourd est préférable.
+- Il vaut mieux utiliser pleinement un moyen de transport que de le faire voyager avec beaucoup d'espace vide.  
+  La distinction entre « bon » et « beaucoup » est ici la question la plus complexe.  
+  Des objets de même valeur mais de poids différent supposent des approches différentes selon l'environnement.  
+  Si le transport ne peut pas être utilisé à pleine capacité avec l'objet léger et qu'il n'y a pas d'autres marchandises à transporter, l'objet le plus lourd est préférable.  
 - Les demandes groupées (colis) doivent arriver à destination en même temps (ou le plus tôt possible)
-- Il est préférable d'apporter quelque chose dans un centre de transbordement plutôt que de le laisser traîner, mais seulement si le centre de transbordement n'est pas plus éloigné et peut être atteint en une semaine. 
-- La priorité peut également être comprise selon deux dimensions : urgence et importance.
+- Il est préférable d'apporter quelque chose dans un centre de transbordement plutôt que de le laisser traîner, mais seulement si le centre de transbordement n'est pas plus éloigné et peut être atteint en une semaine.
+- La priorité peut également être comprise selon deux dimensions : urgence et importance.  
   Il faut cependant pouvoir comparer deux de ces points bidimensionnels.
-- Il est préférable de laisser un transport se diriger à vide vers une région ayant un besoin urgent de ravitaillement plutôt que vers une région de transbordement.
-  Mais cette dernière solution est toujours meilleure que simplement apprendre ou ne rien faire.
-- S'il n'y a pas de transport dans une source proche, qu'il y en a dans une source plus éloignée et que l'itinéraire passe par la source proche, le transport doit alors être arrêté si la source éloignée après le chargement aurait moins de marchandises que la source proche après le chargement.
+- Il est préférable de laisser un transport se diriger à vide vers une région ayant un besoin urgent de ravitaillement plutôt que vers une région de transbordement.  
+  Mais cette dernière solution est toujours meilleure que simplement apprendre ou ne rien faire.  
+- S'il n'y a pas de transport dans une source proche, qu'il y en a dans une source plus éloignée et que l'itinéraire passe par la source proche, le transport doit alors être arrêté si la source éloignée après le chargement aurait moins de marchandises que la source proche après le chargement.  
   - Exemple :
     - A a besoin de 100 pierres
     - En B, à un tour de A, il y a 1000 pierres. Il n'y a pas de transport disponible en B.

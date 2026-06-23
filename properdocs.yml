@@ -85,7 +85,7 @@ extra_javascript:
   - javascripts/formulas-try.js
   - javascripts/lore-dialogue.js
 
-copyright: Copyright &copy; 2025 Cyril Guillon
+copyright: Copyright &copy; 2025-2026 Cyril Guillon
 
 plugins:
   # - categories

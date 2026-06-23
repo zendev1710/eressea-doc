@@ -3,7 +3,7 @@
 alias: bef-rekrutiere
 ---
 
-# REKRUTIERE
+# `REKRUTIERE`
 
 **`REKRUTIERE`**` `*`anzahl`*  
 

@@ -2,7 +2,7 @@
 # cSpell:locale en
 alias: cmd-email
 ---
-# EMAIL
+# `EMAIL`
 
 **`EMAIL`**`"`*`my-email-address@example.com`*`"`  
 

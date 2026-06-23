@@ -3,7 +3,7 @@
 alias: cmd-research
 ---
 
-# RESEARCH
+# `RESEARCH`
 
 *[long order][short-and-long-orders].*  
 

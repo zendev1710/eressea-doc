@@ -3,7 +3,7 @@
 alias: bef-gruppe
 ---
 
-# GRUPPE
+# `GRUPPE`
 
 **`GRUPPE`**`["`*`name`*`"]`  
 

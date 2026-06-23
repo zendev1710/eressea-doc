@@ -3,7 +3,7 @@
 alias: cmd-use-fr
 ---
 
-# USE
+# `USE`
 
 **`USE`**`[`*`<quantité>`*`] "`*`<Potion>`*`" [`*`<unit-id>`*`]`  
 **`USE`**`[`*`<quantité>`*`] "`*`<Item>`*`" [...]`  

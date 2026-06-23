@@ -5,7 +5,7 @@ alias: bef-praefix
 
 [](){ #bef-prafix-id }
 
-# PRÄFIX
+# `PRÄFIX`
 
 **`PRÄFIX`**`[`*`präfix`*`]`  
 

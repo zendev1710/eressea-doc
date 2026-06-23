@@ -3,7 +3,7 @@
 alias: cmd-claim
 ---
 
-# CLAIM
+# `CLAIM`
 
 **`CLAIM`**` `*`Number Item`*
 

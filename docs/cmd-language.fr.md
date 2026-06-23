@@ -6,7 +6,7 @@ alias:
     - cmd-languagefr
 ---
 
-# LANGUAGE
+# `LANGUAGE`
 
 **`LANGUAGE`**`de`  
 **`LANGUAGE`**`en`  

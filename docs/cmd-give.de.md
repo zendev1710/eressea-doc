@@ -3,7 +3,7 @@
 alias: bef-gib
 ---
 
-# GIB
+# `GIB`
 
 ` `**`GIB`**` `*`einheit-nr anzahl gegenstand`*  
 **`GIB`**` `*`einheit-nr`*` JE `*`anzahl`*` `*`gegenstand`*  

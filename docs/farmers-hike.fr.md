@@ -10,9 +10,9 @@ Les agriculteurs migrants ne travaillent pas pendant la semaine de migration, ma
 
 Les agriculteurs migrent pour différentes raisons.
 
-## Fuite des monstres
+## Fuite devant les monstres
 
-Les paysans fuient les [[monstres]].  
+Les paysans fuient les [monstres][monstres].  
 
 Si des monstres apparaissent dans une région, ils chassent chaque semaine certains agriculteurs.  
 Le nombre d'agriculteurs déplacés dépend du type et du nombre de monstres.  
@@ -21,7 +21,7 @@ Les monstres invoqués par les joueurs peuvent également chasser les agriculteu
 ## Surpopulation
 
 Les agriculteurs émigrent à cause de la surpopulation.  
-S'il y a plus d'agriculteurs que d'emplois dans une région (voir [ici][cmd-work-fr]), une partie des chômeurs émigre vers les régions voisines.
+S'il y a plus d'agriculteurs que [d'emplois][cmd-work-fr] dans une région, une partie des chômeurs émigre vers les régions voisines.
 
 ## Pauvreté
 

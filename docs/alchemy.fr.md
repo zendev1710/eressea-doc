@@ -291,7 +291,7 @@ Plantes nécessaires pour concocter cette potion :
 [À l'utilisation][cmd-use-fr], l'effet de la potion peut durer jusqu'à **10 semaines** par personne.
 
 !!! note
-    Vous pouvez l'appliquer à une unité avec l'ordre `USE "Duncebun" <ID unité cible>`.  
+    Vous pouvez l'appliquer à une unité avec l'ordre `USE "Duncebun" <id unité cible>`.  
     L'effet de la potion échoue si le niveau de [discrétion][skill-discretion-id]{title="Stealth"} de l'unité agissante est inférieur ou égal **au niveau de [perception][skill-perception-fr-id]{title="Perception"} + 2** de la victime.  
     Dans ce cas, vous obtenez un message d'erreur et le [pain d'andouille][pain-dandouille]{title="Duncebun"} n'est pas consommé (il reste à l'unité).
 

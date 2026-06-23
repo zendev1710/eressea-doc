@@ -3,7 +3,7 @@
 alias: cmd-banner-fr
 ---
 
-# BANNER
+# `BANNER`
 
 **`BANNER "<texte>"`**  
 

@@ -2,7 +2,7 @@
 # cSpell:locale fr
 alias: cmd-forget-fr
 ---
-# FORGET
+# `FORGET`
 
 **`FORGET`**` `*`skill`*
 

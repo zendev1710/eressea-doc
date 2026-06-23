@@ -82,8 +82,7 @@ Les détails sont expliqués dans le chapitre sur la [guerre][guerre] dans la se
 Une unité peut garder une région (pour plus de détails sur les conséquences, voir [`GUARD`][cmd-guard-fr]).  
 Cela sera noté par "guards the region" dans le rapport.
 
-Enfin, une unité peut être blessée lors d'un [combat][guerre] ou d'une [famine][famine].  
-Elle sera notée *[`exhausted`][etat-de-sante]* (épuisée), *`wounded`* (blessée), ou même *`badly wounded`* (gravement blessée).
+Enfin, une unité peut [perdre en vitalité][etat-de-sante] lors d'un [combat][guerre] ou d'une [famine][famine].  
 
 L'unité suivante porte l'identifiant ***2ow***, est composée d'un nain, d'un cheval et d'une [bourse d'argent][bourse-d-argent-id]{title="Silverbag"}.  
 Cela signifie qu'elle possède au moins 500 Silver.  

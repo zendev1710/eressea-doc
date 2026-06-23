@@ -3,7 +3,7 @@
 alias: cmd-cast
 ---
 
-# CAST
+# `CAST`
 
 *[Short order][short-and-long-orders][^1].*  
 

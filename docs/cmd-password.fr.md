@@ -3,7 +3,7 @@
 alias: cmd-password-fr
 ---
 
-# PASSWORD
+# `PASSWORD`
 
 **`PASSWORD`**`["new-password"]`  
 

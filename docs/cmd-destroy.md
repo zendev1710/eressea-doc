@@ -3,7 +3,7 @@
 alias: cmd-destroy
 ---
 
-# DESTROY
+# `DESTROY`
 
 *[long order][short-and-long-orders].*
 

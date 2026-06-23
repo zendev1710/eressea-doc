@@ -2,7 +2,7 @@
 # cSpell:locale de
 alias: bef-einheit
 ---
-# EINHEIT
+# `EINHEIT`
 
 **`EINHEIT`**` `*`<einheit-nr>`*  
 

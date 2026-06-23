@@ -3,7 +3,7 @@
 alias: cmd-prefix
 ---
 
-# PREFIX
+# `PREFIX`
 
 **`PREFIX`**`[`*`prefix`*`]`  
 

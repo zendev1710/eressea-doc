@@ -3,7 +3,7 @@
 alias: cmd-buy-fr
 ---
 
-# BUY
+# `BUY`
 
 *`BUY` est, comme [`SELL`][cmd-sell-fr], un ordre [pseudo-long][ordres-courts-et-longs] [^1].*  
 

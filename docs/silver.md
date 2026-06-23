@@ -19,7 +19,7 @@ Silver has a weight: each 100 pieces of silver equal one unit of weight (UW/lbs)
 There is no rounding: even one piece of silver above your carrying limit can overload.
 
 Because persons (of most [[races]]) can carry 5.4 UW/lbs, they can carry up to 540 silver with them; when carrying 541 silver a single person is overloaded.  
-A boat (50 UW/lbs capacity), for example, can carry one person (10 lbs for most [[races]]) with 4000 Silver; even 4001 silver would be too much.
+A [boat][boat] (50 lbs capacity), for example, can carry one person (10 lbs for most [[races]]) with 4000 Silver; even 4001 silver would be too much.
 
 ## Expenses
 

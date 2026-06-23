@@ -37,8 +37,8 @@ The pools not only work in production (essentially for the [`MAKE`][cmd-make] or
 If the unit does not have an item, it takes it from the material pool in order to process it, hand it over or reserve it.  
 However, if a unit needs weapons for an attack or to collect taxes, these must be explicitly handed over or reserved, as the material pool does not apply here.
 
-Inexperienced factions should plan the material pool thoroughly, as it is easy to "steal" resources from units that were not expected;  
-thus "stealed" units cannot produce or not produce enough, while the other unit used more resources and produced more than intended.  
+Inexperienced factions should plan the material pool thoroughly, as it is easy to take resources from units that were not expected;  
+thus "stolen" units cannot produce or not produce enough, while the other unit used more resources and produced more than intended.  
 
 ### Example 1
 
@@ -65,7 +65,7 @@ UNIT c ; for storage, has no iron
 - Unit a has 20 iron
 - Unit c has 20 iron
 
-## RESERVE and GIVE
+## `RESERVE` and `GIVE`
 
 There are a few special things to note about [`RESERVE`][cmd-reserve] and [`GIVE`][cmd-give], which come before most other orders in the [[orders-sequence]].
 These apply equally to the silver and material pools:

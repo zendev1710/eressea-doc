@@ -2,7 +2,7 @@
 # cSpell:locale en
 alias: cmd-password
 ---
-# PASSWORD
+# `PASSWORD`
 
 **`PASSWORD`**`["new-password"]`  
 

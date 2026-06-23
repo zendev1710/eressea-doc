@@ -2,7 +2,7 @@
 # cSpell:locale fr
 alias: cmd-describe-fr
 ---
-# DESCRIBE
+# `DESCRIBE`
 
 **`DESCRIBE UNIT`**`"`*`text`*`"`  
 **`DESCRIBE BUILDING`**`"`*`text`*`"`  

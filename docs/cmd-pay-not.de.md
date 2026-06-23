@@ -2,7 +2,7 @@
 # cSpell:locale de
 alias: bef-bezahle-nicht
 ---
-# BEZAHLE NICHT
+# `BEZAHLE NICHT`
 
 **`BEZAHLE NICHT`**  
 **`BEZAHLE NICHT`**` `*`gebäude-nr`*  

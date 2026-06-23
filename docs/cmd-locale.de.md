@@ -2,7 +2,7 @@
 # cSpell:locale de
 alias: bef-locale
 ---
-# LOCALE
+# `LOCALE`
 
 **`LOCALE`**`en`  
 **`LOCALE`**`de`  

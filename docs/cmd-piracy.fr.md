@@ -3,7 +3,7 @@
 alias: cmd-piracy-fr
 ---
 
-# PIRACY
+# `PIRACY`
 
 *Ordre [long][ordres-courts-et-longs].*  
 

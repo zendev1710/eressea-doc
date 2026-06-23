@@ -3,7 +3,7 @@
 alias: cmd-contact-fr
 ---
 
-# CONTACT
+# `CONTACT`
 
 **`CONTACT`**` UNIT `*`unit-id`*  
 **`CONTACT`**` PARTEI `*`faction-id`*  
@@ -13,7 +13,7 @@ Vous n'êtes normalement pas autorisé à donner quoi que ce soit aux unités de
 
 Pour permettre cela ponctuellement, il existe l'ordre `CONTACT`.  
 Dans ce tour -et seulement dans ce tour- l'unité donnant l'ordre se comporte envers l'unité spécifiée comme si elle était alliée avec elle (voir aussi sous [`HELP`][cmd-help-fr]), c'est-à-dire qu'elle accepte des objets, de l'argent et des personnes.  
-Les factions non alliées peuvent également pénétrer dans les châteaux et les navires, recruter des personnes et extraire des ressources de cette manière.  
+Les factions non alliées peuvent également pénétrer dans les châteaux et les bateaux, recruter des personnes et extraire des ressources de cette manière.  
 
 `CONTACT UNIT`donne les droits à une seule unité, tandis que `CONTACT FACTION` autorise toutes les unités de la faction en question dans une région.  
 L' ordre `CONTACT <unit-id>` est autorisé pour des raisons historiques, mais devrait être remplacé par `CONTACT UNIT <unit-id>`.

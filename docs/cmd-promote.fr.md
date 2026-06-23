@@ -5,7 +5,7 @@ alias: cmd-promote-fr
 
 [](){ #cmd-promote-fr-id }
 
-# PROMOTE
+# `PROMOTE`
 
 **`PROMOTE`**  
 

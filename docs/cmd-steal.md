@@ -3,7 +3,7 @@
 alias: cmd-steal
 ---
 
-# STEAL
+# `STEAL`
 
 *[long order][short-and-long-orders].*
 

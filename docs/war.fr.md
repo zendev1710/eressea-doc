@@ -98,7 +98,7 @@ Une bataille dure cinq tours de combat, plus un éventuel tour de tactique.
 À chaque tour de combat, les combattants frappent dans un ordre aléatoire.  
 
 Notez que les personnes participant à un combat ( les personnes listées dans le rapport de combat c'est-à-dire attaquées ou attaquantes) ne peuvent en principe pas exécuter d'autres ordres longs.  
-Les exceptions sont [combat en mer][combats-a-bord-et-depuis-les-navires] et les combats dans des régions qui, *au début du combat*, sont gardées par au moins une unité de sa propre faction ou qui a mis [`HELP GUARD`][`HELP COMBAT`] avec celle du combattant.  
+Les exceptions sont [combat en mer][combats-a-bord-et-depuis-les-bateaux] et les combats dans des régions qui, *au début du combat*, sont gardées par au moins une unité de sa propre faction ou qui a mis [`HELP GUARD`][`HELP COMBAT`] avec celle du combattant.  
 Dans ce cas, d'autres ordres longs sont possibles.
 
 ### Lignes de combat
@@ -115,7 +115,7 @@ Pour plus d'informations sur les statuts de combat, voir [`COMBAT`][cmd-combat-f
 
 Seules les deux premières lignes de combat participent activement au combat, c'est-à-dire qu'elles peuvent frapper, tirer et être touchées.  
 Les unités qui ne sont pas combattantes et qui sont directement attaquées ne participent au combat que si la première ligne est débordée.  
-Les unités en fuite tentent naturellement de s'échapper (voir [ici][la-fuite]).  
+Les unités en fuite tentent naturellement de [s'échapper][la-fuite].  
 
 Les unités qui combattent en 2eme ligne ne peuvent être attaquées directement au corps à corps que lorsqu'elles arrivent en première ligne (cela peut arriver par exemple lorsque la 1re ligne est débordée, voir ci-dessous).  
 Contre les attaques à distance adverses, elles se défendent avec leur meilleure compétence de combat.
@@ -420,12 +420,12 @@ De plus, ces unités ne **peuvent pas garder** de régions.
 Toute garde est automatiquement annulée lorsque l'unité de garde passe au statut `FLEE`.  
 Cela se produit au début du tour, ce qui signifie que tous les effets de [`GUARD`][cmd-guard-fr] sont immédiatement annulés.
 
-## Combats à bord et depuis les navires
+## Combats à bord et depuis les bateaux
 
 Les batailles navales se déroulent comme des batailles terrestres : les [bateaux][bateaux-id] s'abordent et les unités s'affrontent.  
 Après la bataille, il est possible pour les unités d'exécuter d'autres ordres longs.
 
-Si un bateau est impliqué dans une bataille, il subit 5 % de dégâts par round de bataille si au moins une personne qui se trouve sur le navire ou qui s'y trouvait au début du tour subit des dégâts.  
+Si un bateau est impliqué dans une bataille, il subit 5 % de dégâts par round de bataille si au moins une personne qui se trouve sur le bateau ou qui s'y trouvait au début du tour subit des dégâts.  
 Il ne sert donc à rien de quitter le bateau avant le début de la bataille.  
 Le [tour de tactique][tour-du-tacticien] et le premier tour ne sont pas pris en compte, les dégâts maximum possibles sont donc de 20 %.  
 

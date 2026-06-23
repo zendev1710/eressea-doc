@@ -5,7 +5,7 @@ alias: bef-kaempfe
 
 [](){ #bef-kampfe-id }
 
-# KÄMPFE
+# `KÄMPFE`
 
 **`KÄMPFE`**`VORNE`  
 **`KÄMPFE`**`AGGRESSIV`  

@@ -35,7 +35,7 @@ alias: description-of-spells
 
 ### Airship
 
-:   These magic runes allow a boat with a capacity of up to 50 weight units to fly for a week and allow the boat to cross land.  
+:   These magic runes allow a ship with a capacity of up to 50 weight units to fly for a week and allow the ship to cross land.  
     The enchanted ink's components include a windbag and a snowcrystal petal.
 
 | Sc. | Components                                                              | Lvl |   Type | Rank | Ship                         | Dist. |
@@ -75,7 +75,7 @@ alias: description-of-spells
 
 ### Analyze Magic
 
-:   This spell allows the magician to attempt to detect the enchantments of a single specified object.  
+:   This spell allows the mage to attempt to detect the enchantments of a single specified object.  
     He will be able to get an impression of their effectiveness from all spells that do not exceed his own abilities.  
     With stronger spells he needs a little luck for a successful analysis.
 
@@ -105,7 +105,7 @@ alias: description-of-spells
 
 ### Animate Dead
 
-:   The black magician has to spend nights wandering through the cemeteries and burial grounds of the region in order to be able to revive the unearthed corpses.  
+:   The black mage has to spend nights wandering through the cemeteries and burial grounds of the region in order to be able to revive the unearthed corpses.  
     The undead will be at his service, but the uninformed be warned that summoning the forces of death can be a double-edged sword.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist.                        |
@@ -118,7 +118,7 @@ alias: description-of-spells
 
 ### Antimagic
 
-:   With this spell the magician can create a zone of Astral weakening, a local imbalance in the Astral field.  
+:   With this spell the mage can create a zone of Astral weakening, a local imbalance in the Astral field.  
     This zone will strive to return to equilibrium.  
     To do this, it will remove part of the strength of every spell cast in this region and even completely absorb the weaker ones.
 
@@ -134,7 +134,7 @@ alias: description-of-spells
 
 :   This song tames even the wildest orc and makes him peaceful and gentle.  
     Any thought of harming the singer will disappear.  
-    The magician can move to a neighboring region unmolested.
+    The mage can move to a neighboring region unmolested.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
@@ -146,9 +146,9 @@ alias: description-of-spells
 
 ### Astral Call
 
-:   A magician who is in the Astral plane can use this spell to bring other units to him.  
-    The magician can (level 3)*Send 15 lbs through the briefly created gate.  
-    If the magician is experienced enough to cast the spell at levels 13 or more, he can force other units to the other level even against their will.
+:   A mage who is in the Astral plane can use this spell to bring other units to him.  
+    The mage can (level 3)*Send 15 lbs through the briefly created gate.  
+    If the mage is experienced enough to cast the spell at levels 13 or more, he can force other units to the other level even against their will.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
@@ -160,7 +160,7 @@ alias: description-of-spells
 
 ### Astral Chaos
 
-:   This ritual, performed before battle, swirls the Astral energies on the battlefield, making it more difficult for enemy magicians to cast their spells.
+:   This ritual, performed before battle, swirls the Astral energies on the battlefield, making it more difficult for enemy mages to cast their spells.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
@@ -186,9 +186,9 @@ alias: description-of-spells
 
 ### Astral Exit
 
-:   The magician concentrates on the structure of reality and can thus leave the Astral plane.  
+:   The mage concentrates on the structure of reality and can thus leave the Astral plane.  
     He can overall (Level-3)*Send 15 lbs through the briefly created gate.  
-    If the magician is experienced enough to cast the spell at levels 11 or more, he can force other units to the other level even against their will.
+    If the mage is experienced enough to cast the spell at levels 11 or more, he can force other units to the other level even against their will.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
@@ -213,7 +213,7 @@ alias: description-of-spells
 
 ### Astral Leak
 
-:   With this dark ritual, the black magician can cause a rift in the fabric of magic, which will tear all magical power from the region.  
+:   With this dark ritual, the black mage can cause a rift in the fabric of magic, which will tear all magical power from the region.  
     All magically gifted people in the region will lose much of their aura.
 
 | Sc. | Components                            | Lvl |   Type | Rank | Ship | Dist. |
@@ -226,9 +226,9 @@ alias: description-of-spells
 
 ### Astral Path
 
-:   Ancient arcane formulas allow the magician to send himself and others into the Astral plane.  
-    The magician can (level 3)*Send 15 lbs through the briefly created gate.  
-    If the magician is experienced enough to cast the spell at levels 11 or more, he can force other units to the other level even against their will.
+:   Ancient arcane formulas allow the mage to send himself and others into the Astral plane.  
+    The mage can (level 3)*Send 15 lbs through the briefly created gate.  
+    If the mage is experienced enough to cast the spell at levels 11 or more, he can force other units to the other level even against their will.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
@@ -268,7 +268,7 @@ alias: description-of-spells
 ### Banish Spirits
 
 :   According to the ancient teachings of the Druids, what ordinary beings call magic consists of elemental spirits.  
-    The magician conjures and banishes these into a form to achieve the desired effect.  
+    The mage conjures and banishes these into a form to achieve the desired effect.  
     This ritual is able to drive away elemental spirits that have been summoned into this world in order to free an object from magic.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist.                        |
@@ -281,7 +281,7 @@ alias: description-of-spells
 
 ### Barkskin
 
-:   Performing this ritual before going into battle gives your troups an additional bonus to their armor.  
+:   Performing this ritual before going into battle gives your troops an additional bonus to their armor.  
     Every hit reduces the energy of the spell, dissolving it at some point during battle.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
@@ -348,7 +348,7 @@ alias: description-of-spells
 
 ### Blood Frenzy
 
-:   In this bloody ritual, the magician sacrifices a newborn baby in front of his army before battle.  
+:   In this bloody ritual, the mage sacrifices a newborn baby in front of his army before battle.  
     The blood spirits summoned in this way will take possession of the soldiers and send them into a bloodlust.
 
 | Sc. | Components           | Lvl |   Type | Rank | Ship | Dist. |
@@ -363,8 +363,8 @@ alias: description-of-spells
 
 ### Call of Reality
 
-:   A magician who is in the material world can use this spell to summon units from the adjacent Astral world.  
-    If the magician is experienced enough to cast the spell at levels of 13 or more, he can force other units into the material world against their will.
+:   A mage who is in the material world can use this spell to summon units from the adjacent Astral world.  
+    If the mage is experienced enough to cast the spell at levels of 13 or more, he can force other units into the material world against their will.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
@@ -377,7 +377,7 @@ alias: description-of-spells
 ### Calm Monster
 
 :   This mellifluous song can tame almost any intelligent monster.  
-    It will refrain from attacking the magician and will not touch its companions.  
+    It will refrain from attacking the mage and will not touch its companions.  
     But make no mistake, it will still remain an unpredictable creature.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
@@ -417,10 +417,10 @@ alias: description-of-spells
 
 ### Cattle Healing
 
-:   The Gwyrrd mages" livestock and healing skills are highly sought after by farmers.  
+:   The Gwyrrd mages livestock and healing skills are highly sought after by farmers.  
     Their services are often in high demand, especially in markets.  
-    Some people may also use their talent to sell an animal for a better price.  
-    The magician can earn 50 silver per level.
+    Some people may also use their skill to sell an animal for a better price.  
+    The mage can earn 50 silver per level.
 
 | Sc. | Components | Lvl |    Type | Rank | Ship | Dist. |
 |:---:|------------|----:|--------:|:----:|:-----|:------|
@@ -445,7 +445,7 @@ alias: description-of-spells
 
 ### Chaos Gate
 
-:   By sacrificing the lives of 200 peasants, the chaossorcerer is able to open a planar gate.  
+:   By sacrificing the lives of 200 peasants, the chaos sorcerer is able to open a planar gate.  
     This gate can be used during the following week to transfer units to the astral plane.  
     It dissipates at the end of the following week.
 
@@ -459,7 +459,7 @@ alias: description-of-spells
 
 ### Chaos Gift
 
-:   The magician opens his mind to the spheres of chaos and will thus have more magical power for some time.  
+:   The mage opens his mind to the spheres of chaos and will thus have more magical power for some time.  
     But the help of the Lords of the Spheres comes at a price, and so the phase of power is replaced by a phase of weakness.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
@@ -485,7 +485,7 @@ alias: description-of-spells
 ### Countersong
 
 :   This shrill chant echoes throughout the battlefield.  
-    The special dissonances in the melodies make it almost impossible for magicians to concentrate on their spells.
+    The special dissonances in the melodies make it almost impossible for mages to concentrate on their spells.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
@@ -566,7 +566,7 @@ And if you have done everything to please them, they will send one of their own 
 ### Create a [Ring of Invisibility][ring-of-invisibility-id]
 
 :   With this spell the wizard can create a ring of invisibility.  
-    The bearer of the ring becomes invisible to all units of other parties, no matter how good their perception may be.  
+    The bearer of the ring becomes invisible to all units of other factions, no matter how good their perception may be.  
     In an invisible unit, each person must wear a ring.
 
 |  Sc.   | Components                             | Lvl |   Type | Rank | Ship                         | Dist. |
@@ -579,7 +579,7 @@ And if you have done everything to please them, they will send one of their own 
 
 ### Create a [Sphere of Invisibility][sphere-of-invisibility-id]
 
-:   With this spell the magician can create a [Sphere of Invisibility][sphere-of-invisibility-id].  
+:   With this spell the mage can create a [Sphere of Invisibility][sphere-of-invisibility-id].  
     The sphere renders its wielder and ninety-nine other people in the same unit invisible.
 
 | Sc. | Components                               | Lvl |   Type | Rank | Ship                         | Dist. |
@@ -607,7 +607,7 @@ And if you have done everything to please them, they will send one of their own 
 
 ### Create an [Amulet of True Sight][amulet-of-true-sight-id]
 
-:   The spell allows a magician to create an [Amulet of True Sight][amulet-of-true-sight-id].  
+:   The spell allows a mage to create an [Amulet of True Sight][amulet-of-true-sight-id].  
     The amulet allows the wearer to see all units protected by a ring of invisibility.  
     However, units that use their [stealth][skill-stealth-id] skill to hide still remain undetected.
 
@@ -621,7 +621,7 @@ And if you have done everything to please them, they will send one of their own 
 
 ### Create an [Antimagic Crystal][antimagic-crystal]
 
-:   With the help of this spell, the magician drains a quartz crystal of all its magical energies.  
+:   With the help of this spell, the mage drains a quartz crystal of all its magical energies.  
     The crystal, when ground into a fine dust and dispersed, will absorb the magical energies released during casting and reduce the power of all spells cast in the region that week.
 
 | Sc. | Components           | Lvl |   Type | Rank | Ship                         | Dist. |
@@ -634,7 +634,7 @@ And if you have done everything to please them, they will send one of their own 
 
 ### Create [Iron Golems][iron-golem]
 
-:   The more power a magician invests, the more golems can be created before the aura dissipates.  
+:   The more power a mage invests, the more golems can be created before the aura dissipates.  
     Each golem has a 15% chance per week to turn to dust.  
     If you command a golem to `MAKE SWORD/CLAYMORE` or `MAKE SHIELD/CHAINMAIL/PLATEMAIL`, it will work 5 iron ingots and disintegrate afterwards.
 
@@ -653,7 +653,7 @@ And if you have done everything to please them, they will send one of their own 
 Then you direct your strength towards the fine aura of life that is forming and form a housing for the unbound strength."
 </div>
 
-:   The more power the magician invests, the more golems can be created before the aura dissipates.  
+:   The more power the mage invests, the more golems can be created before the aura dissipates.  
     Each golem has a 10% chance of turning to dust each round.  
     If you give the golems the `MAKE CASTLE` or `MAKE STREET` orders, 4 stones are placed per golem and the golem dissolves.
 
@@ -667,7 +667,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ### Curse of Pestilence
 
-:   In an elaborate ritual, the black magician sacrifices some peasants and then magically distributes the corpses into the region"s wells.
+:   In an elaborate ritual, the black mage sacrifices some peasants and then magically distributes the corpses into the region"s wells.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
@@ -681,7 +681,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ### Death Cloud
 
-:   By performing a gruesome ritual and sacrificing his own blood the Sorcerer conjurs up a spirit from the Elemental Plane of Poison.  
+:   By performing a gruesome ritual and sacrificing his own blood the Sorcerer conjures up a spirit from the Elemental Plane of Poison.  
     It will take the form of a green cloud of toxic gases that envelops a whole region and that will harm anyone within.
 
 | Sc. | Components     | Lvl |   Type | Rank | Ship | Dist.                        |
@@ -694,7 +694,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ### Destroy Magic
 
-:   This spell allows the magician to dispel enchantments on a unit, ship, building, or even region.
+:   This spell allows the mage to dispel enchantments on a unit, ship, building, or even region.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist.                        |
 |:---:|------------|----:|-------:|:----:|:-----------------------------|:-----------------------------|
@@ -706,7 +706,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ### Divination
 
-:   No one can interpret dreams as well as an Illaun magician.  
+:   No one can interpret dreams as well as an Illaun mage.  
     He is also familiar with the art of fortune telling, card reading and palm reading.  
     In return, the farmers pay him 50 silver per level.
 
@@ -733,7 +733,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ### Dragon Call
 
-:   With this dark ritual, the magician creates a lure that smells irresistible to [Dragons][known-dragons].  
+:   With this dark ritual, the mage creates a lure that smells irresistible to [Dragons][known-dragons].  
     It has not yet been possible to research whether the dragons come from the surrounding area or from the sphere of chaos.  
     Both are said to have already happened.  
     The bait lasts about 6 weeks, but must be placed in kite-friendly terrain.
@@ -760,7 +760,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ### Dream
 
-:   The magician sends the target of the spell a dream.
+:   The mage sends the target of the spell a dream.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
@@ -801,7 +801,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ### Eternal Walls
 
-:   With this formula, the magician binds the forces of the earth into the walls of the building forever.  
+:   With this formula, the mage binds the forces of the earth into the walls of the building forever.  
     A building enchanted in this way is protected against the ravages of time and no longer requires any maintenance.
 
 | Sc. | Components                | Lvl |   Type | Rank | Ship                         | Dist. |
@@ -855,7 +855,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ### Firun's Coat
 
-:   This spell allows the magician to magically protect insects from the crippling cold of the glaciers.  
+:   This spell allows the mage to magically protect insects from the crippling cold of the glaciers.  
     You can enter glaciers and act normally there.  
     The saying works on a level*10 insects.  
     A Ring of Power increases the number of enchantable insects by an additional 10.
@@ -885,7 +885,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ### Gaze Upon Reality
 
-:   With the help of this spell, the magician can look from the Astral plane into the material plane and recognize the regions and units precisely.
+:   With the help of this spell, the mage can look from the Astral plane into the material plane and recognize the regions and units precisely.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
@@ -926,7 +926,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ### Hail
 
-:   In battle, the magician calls upon the elemental spirits of cold and binds them to himself.  
+:   In battle, the mage calls upon the elemental spirits of cold and binds them to himself.  
     He can then order them to attack the enemy with hailstones and chunks of ice.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
@@ -973,7 +973,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 ### Hex
 
-:   The magician"s target is afflicted by a harmless curse.
+:   The mage"s target is afflicted by a harmless curse.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
@@ -1004,7 +1004,7 @@ From "Wanderings" by Firudin the Wise.
 
 ### Homestone
 
-:   With this formula, the magician binds the forces of the earth forever into the walls of the castle in which he currently finds himself.  
+:   With this formula, the mage binds the forces of the earth forever into the walls of the castle in which he currently finds himself.  
     Walls that have been strengthened in this way cannot be destroyed either by magic or with heavy artillery, and age also affects them less.  
     The building also offers better protection against attacks with swords and magic.
 
@@ -1018,7 +1018,7 @@ From "Wanderings" by Firudin the Wise.
 
 ### Hymn of Aura Sharing
 
-:   With the help of this spell, the magician can transfer his own aura at a ratio of 2:1 to another magician of the same magic area.
+:   With the help of this spell, the mage can transfer his own aura at a ratio of 2:1 to another mage of the same magic area.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
@@ -1062,8 +1062,8 @@ From "Wanderings" by Firudin the Wise.
 
 ### Lesser Sacrifice
 
-:   With this ritual the magician can sacrifice part of his life energy in order to gain magical power.  
-    Experienced ritual magicians report that the ritual, once initiated, is difficult to control and the amount of power gained varies greatly.  
+:   With this ritual the mage can sacrifice part of his life energy in order to gain magical power.  
+    Experienced ritual mages report that the ritual, once initiated, is difficult to control and the amount of power gained varies greatly.  
     So it is written in the "Book of Blood": "So let He establish the sign of the four elements in the circle of creation and decay and consecrate each one with a drop of blood.  
     Then let He go into the midst of the Eternal Four and let life pass away so that strength can be born."
 
@@ -1094,7 +1094,7 @@ From "Wanderings" by Firudin the Wise.
 
 ### Madness of War
 
-:   In front of the enemy soldiers, the black magician sacrifices the ten pawns in a bloody, cruel ritual and in this way summons spirits of madness over the enemy troops.  
+:   In front of the enemy soldiers, the black mage sacrifices the ten pawns in a bloody, cruel ritual and in this way summons spirits of madness over the enemy troops.  
     They will react confusedly in battle and be unable to follow the orders of their officers.
 
 | Sc. | Components            | Lvl |   Type | Rank | Ship | Dist. |
@@ -1120,11 +1120,11 @@ From "Wanderings" by Firudin the Wise.
 
 ### Magic Path
 
-:   By performing these rituals, the magician is able to summon a powerful earth elemental.  
+:   By performing these rituals, the mage is able to summon a powerful earth elemental.  
     As long as this is banished into the ground, no rain will soften the paths and no river will be able to destroy bridges.  
     This means that all travelers receive the same advantages that would otherwise only be offered by a developed paved road network.  
     Even swamps and glaciers can be enchanted this way.  
-    The more power the magician puts into the spell, the longer the road lasts.
+    The more power the mage puts into the spell, the longer the road lasts.
 
 | Sc. | Components                               | Lvl |   Type | Rank | Ship                         | Dist.                        |
 |:---:|------------------------------------------|----:|-------:|:----:|:-----------------------------|:-----------------------------|
@@ -1136,7 +1136,7 @@ From "Wanderings" by Firudin the Wise.
 
 ### Meditate
 
-:   With the help of this spell, the magician can transfer his own aura at a ratio of 2:1 to another magician of the same magic area.
+:   With the help of this spell, the mage can transfer his own aura at a ratio of 2:1 to another mage of the same magic area.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
@@ -1162,9 +1162,9 @@ From "Wanderings" by Firudin the Wise.
 [](){ #mind-probe-id }
 
 ### Mind Probe
-
+<!-- TODO: use orignial text from eressea server -->
 :   With this spell, the dream weaver penetrates the thoughts and dream world of his victim and can thus spy on his most intimate secrets.  
-    His abilities, possessions and party affiliation will no longer be uncertain.
+    His abilities, possessions and faction affiliation will no longer be uncertain.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
@@ -1179,7 +1179,7 @@ From "Wanderings" by Firudin the Wise.
 :   In the darker alleys they exist, the curses and hexes made to order.  
     But of course the disciple of Draig also offers counterspells.  
     Whether the neighbor"s son is to be drawn into a love spell or the rival is to get pimples and warts, no one likes to admit that they have resorted to such measures.  
-    For this service, the magician earns 50 silver per level.
+    For this service, the mage earns 50 silver per level.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
@@ -1191,10 +1191,10 @@ From "Wanderings" by Firudin the Wise.
 
 ### Miracle Doctor
 
-:   If the alchemist cannot help you, you go to the learned Tybied magician.  
+:   If the alchemist cannot help you, you go to the learned Tybied mage.  
     His potions and tinctures help against everything you can"t get otherwise.  
-    Whether the cryptic formula under the wooden shoe of the unfaithful husband really helped -well, the farmer who doesn"t know how to read will never know.  
-    It definitely helps the magician...fill his wallet.  
+    Whether the cryptic formula under the wooden shoe of the unfaithful husband really helped -well, the farmer who does not know how to read will never know.  
+    It definitely helps the mage...fill his wallet.  
     You can earn 50 silver per level in a week.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
@@ -1237,7 +1237,7 @@ From "Wanderings" by Firudin the Wise.
 
 ### Negate Curse
 
-:   This spell allows the magician to specifically dispel a specific enchantment on a unit, ship, building or even the region.
+:   This spell allows the mage to specifically dispel a specific enchantment on a unit, ship, building or even the region.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist.                        |
 |:---:|------------|----:|-------:|:----:|:-----------------------------|:-----------------------------|
@@ -1265,7 +1265,7 @@ From "Wanderings" by Firudin the Wise.
 
 ### Pentagram
 
-:   Exactly at midnight, when the powers of darkness are at their greatest, a black magician can also use his powers to remove enchantments.  
+:   Exactly at midnight, when the powers of darkness are at their greatest, a black mage can also use his powers to remove enchantments.  
     To do this, he draws a pentagram on the enchanted object and begins with an invocation to the lords of darkness.  
     The gentlemen will help him, but whether he succeeds in solving the spell depends solely on his own strength.
 
@@ -1279,7 +1279,7 @@ From "Wanderings" by Firudin the Wise.
 
 ### Pleasant Dreams
 
-:   This spell allows the mentalist to influence the sleep of all allied units in a region in such a way that they will gain a bonus to all talents for some time.
+:   This spell allows the mentalist to influence the sleep of all allied units in a region in such a way that they will gain a bonus to all skills for some time.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
 |:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
@@ -1307,7 +1307,7 @@ From "Wanderings" by Firudin the Wise.
 :   If you draw these runes on the walls of a building or on the planks of a ship, it will be more difficult to influence by magic.  
     Each ritual increases the building or ship"s resistance to enchantment by 20%.  
     If several protective spells are placed on top of each other, their effects are added together, but 100% protection cannot be achieved this way.  
-    The spell lasts at least three weeks, but depending on the magician"s skill it can last much longer.
+    The spell lasts at least three weeks, but depending on the mage"s skill it can last much longer.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
@@ -1355,7 +1355,7 @@ From "Wanderings" by Firudin the Wise.
 :   This ritual conjures up a dark storm front that towers ominously over the region.  
     The magical rain will cause all ore to rust.  
     Iron weapons and armor become chipped and rusty.  
-    The destructive power of the rain depends on the power invested by the magician.  
+    The destructive power of the rain depends on the power invested by the mage.  
     Up to 10 iron weapons can be affected for each level.  
     A ring of power increases the effect like an additional level.
 
@@ -1395,7 +1395,7 @@ From "Wanderings" by Firudin the Wise.
 
 :   This spell increases your natural resistance to magic.  
     A unit protected in this way is also less vulnerable to combat magic.  
-    Per level, the magician"s power is enough to protect 5 people.
+    Per level, the mage"s power is enough to protect 5 people.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
@@ -1422,7 +1422,7 @@ From "Wanderings" by Firudin the Wise.
 ### Riot
 
 :   By means of this magical chant the mage incites riots in a region.  
-    Rebelling peasant mobs prevent taxation and recruiting and almost noone will pay money for entertainment.  
+    Rebelling peasant mobs prevent taxation and recruiting and almost no one will pay money for entertainment.  
     After a few weeks the mob will calm down again.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
@@ -1481,8 +1481,8 @@ From "Wanderings" by Firudin the Wise.
 
 ### Sacrifice Strength
 
-:   This spell allows the magician to transfer part of his magical powers to another magician.  
-    Magicians of the seam school will receive half the power invested, magicians of other schoolsreceive receive one third.
+:   This spell allows the mage to transfer part of his magical powers to another mage.  
+    Mages of the seam school will receive half the power invested, mages of other schools receive one third.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
@@ -1523,7 +1523,7 @@ From "Wanderings" by Firudin the Wise.
 :   This spell can give the enemy a slightly different image of their own troops, just like the fish in the water is not where it seems to be.  
     In this way, half of the damage from each hit can be rendered harmless.  
     But the shield can only withstand a few hundred sword blows, after which it will disintegrate.  
-    The stronger the magician, the more damage the shield can withstand.
+    The stronger the mage, the more damage the shield can withstand.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
@@ -1681,7 +1681,7 @@ From "Wanderings" by Firudin the Wise.
 ### Song of Peace
 
 :   This powerful spell prevents any attacks.  
-    Noone in the entire region will be able to raise his weapon against another.  
+    No one in the entire region will be able to raise his weapon against another.  
     The effect can last for weeks.
 
 | Sc. | Components  | Lvl |   Type | Rank | Ship | Dist. |
@@ -1776,7 +1776,7 @@ From "Wanderings" by Firudin the Wise.
 
 ### Sound out
 
-:   If the unit succumbs to the spell, it will tell the magician everything it knows about the region in question.  
+:   If the unit succumbs to the spell, it will tell the mage everything it knows about the region in question.  
     If there is no one from her faction in the region, she has nothing to report.  
     She can also only tell what she could see herself.
 
@@ -1790,7 +1790,7 @@ From "Wanderings" by Firudin the Wise.
 
 ### Steal Aura
 
-:   With the help of this spell, the magician can withdraw his aura from another magician against his will and supply it to himself.
+:   With the help of this spell, the mage can withdraw his aura from another mage against his will and supply it to himself.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist.                        |
 |:---:|------------|----:|-------:|:----:|:-----|:-----------------------------|
@@ -1802,7 +1802,7 @@ From "Wanderings" by Firudin the Wise.
 
 ### Strong Wall And Sturdy Gate
 
-:   With this formula, at the beginning of a fight, the magician binds some elemental spirits of the rock into the walls of the building in which he is currently located.  
+:   With this formula, at the beginning of a fight, the mage binds some elemental spirits of the rock into the walls of the building in which he is currently located.  
     The building then offers better protection against attacks with the sword and magic.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
@@ -1828,7 +1828,7 @@ This earthquake will damage all buildings in the region.
 
 ### Summon Familiar
 
-:   At some point in his wanderings, an experienced magician will encounter an unusual specimen of a species that will join the magician.
+:   At some point in his wanderings, an experienced mage will encounter an unusual specimen of a species that will join the mage.
 
 |  Sc.   | Components                 |  Lvl |   Type | Rank | Ship | Dist. |
 |:------:|----------------------------|-----:|-------:|:----:|:-----|:------|
@@ -1854,7 +1854,7 @@ This earthquake will damage all buildings in the region.
 
 ### Summon Shadowdemons
 
-:   Using dark rituals, the magician summons demons from the sphere of shadows.  
+:   Using dark rituals, the mage summons demons from the sphere of shadows.  
     These feared creatures can move almost invisibly among the living, but their dark aura can be felt by everyone.  
     Shadow demons are feared opponents in battle.  
     They are difficult to hit and drain their opponent"s power.
@@ -1897,7 +1897,7 @@ This earthquake will damage all buildings in the region.
 
 ### Summon Water Elemental
 
-:   With this ritual, the magician forces the elemental spirits of the water into his service and gets them to carry the specified ship through the water more quickly.  
+:   With this ritual, the mage forces the elemental spirits of the water into his service and gets them to carry the specified ship through the water more quickly.  
     In addition, the ship is not affected by unfavorable winds or currents.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
@@ -1964,7 +1964,7 @@ This earthquake will damage all buildings in the region.
 
 ### Transfer Aura
 
-:   With the help of this spell, the magician can transfer his own aura to another magician of the same magic area at a ratio of 2:1 or to a magician of another magic area at a ratio of 3:1.
+:   With the help of this spell, the mage can transfer his own aura to another mage of the same magic area at a ratio of 2:1 or to a mage of another magic area at a ratio of 3:1.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
@@ -1976,7 +1976,7 @@ This earthquake will damage all buildings in the region.
 
 ### Transfer Power
 
-With the help of this spell, the magician can transfer his own aura at a ratio of 2:1 to another magician of the same magic area.
+With the help of this spell, the mage can transfer his own aura at a ratio of 2:1 to another mage of the same magic area.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----------------------------|:------|

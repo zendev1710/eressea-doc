@@ -8,7 +8,7 @@ The toad is one of Eressea's rarest breeds.
 
 It is rumored that it only appears magically.  
 
-An ancient treatise on magic from the library of the Academy of Xontormia theorizes that the toad could be the manifestation of an imploded magic field transferred into the magician's morphic field.  
+An ancient treatise on magic from the library of the Academy of Xontormia theorizes that the toad could be the manifestation of an imploded magic field transferred into the mage's morphic field.  
 Maybe that's why the toad is far more resistant to magic than the normal races of Eressea, but unfortunately also far less magical than them.  
 
 Due to its size and lack of hands, the toad has difficulty carrying out normal activities.  

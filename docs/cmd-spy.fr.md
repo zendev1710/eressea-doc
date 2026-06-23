@@ -3,7 +3,7 @@
 alias: cmd-spy-fr
 ---
 
-# SPY
+# `SPY`
 
 *Ordre [long][ordres-courts-et-longs]*.
 

@@ -27,6 +27,8 @@ alias: terrain-types
 
 ## Terrains - Summary
 
+<!-- TODO do not duplicate information -->
+
 | Terrain    | max. workers | min. workers[^1] | max. Trees | Stones for each road |
 |------------|-------------:|-----------------:|-----------:|---------------------:|
 | Desert     |          500 |               50 |         63 |                  100 |

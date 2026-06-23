@@ -34,12 +34,12 @@ The maximum escape chance is 75% (halflings 90%).
 ## Theft of Silver
 
 Successful stealers can steal silver from other units using the [`STEAL`][cmd-steal] command.  
-The highest Perception skill of the targeted party in the region determines the amount stolen.  
+The highest Perception skill of the targeted faction in the region determines the amount stolen.  
 For each skill level difference, each thief steals 50 silver.  
-The silver is **always** stolen from the entire silver pool of the targeted party in the region.  
-The targeted party receives a notification that they have been robbed, but not by whom.  
-If the stealth skill is only equal to the Perception skill, the theft fails, and the targeted party receives an anonymous notification of the attempt.  
-If the stealth is too poor, the targeted party receives a notification with the names of the thieves.  
+The silver is **always** stolen from the entire silver pool of the targeted faction in the region.  
+The targeted faction receives a notification that they have been robbed, but not by whom.  
+If the stealth skill is only equal to the Perception skill, the theft fails, and the targeted faction receives an anonymous notification of the attempt.  
+If the stealth is too poor, the targeted faction receives a notification with the names of the thieves.  
 
 Goblins, provided they have learned at least level 4 of stealth, always steal at least 50 silver, even if their stealth skill is lower than their Perception skill.  
 Such theft is, of course, noticeable and therefore only makes sense under certain circumstances.  

@@ -3,7 +3,7 @@
 alias: cmd-help-fr
 ---
 
-# HELP
+# `HELP`
 
 <!-- TODO: replace PARTEITARNUNG -->
 **`HELP`**` `*`faction-id`*`GIVE [NOT]`  

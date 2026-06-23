@@ -2,7 +2,7 @@
 # cSpell:locale de
 alias: bef-sprache
 ---
-# SPRACHE
+# `SPRACHE`
 
 **`SPRACHE`**`de`  
 **`SPRACHE`**`en`  

@@ -3,7 +3,7 @@
 alias: cmd-enter
 ---
 
-# ENTER
+# `ENTER`
 
 **`ENTER`**` BUILDING `*`building-id`*  
 **`ENTER`**` SHIP `*`ship-id`*  

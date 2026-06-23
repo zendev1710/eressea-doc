@@ -3,7 +3,7 @@
 alias: bef-beklaue
 ---
 
-# BEKLAUE
+# `BEKLAUE`
 
 *[Langer Befehl][kurze-und-lange-befehle].*
 

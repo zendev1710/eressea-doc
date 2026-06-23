@@ -3,7 +3,7 @@
 alias: bef-tarne
 ---
 
-# TARNE
+# `TARNE`
 
 **`TARNE`**`[`*`stufe`*`]`  
 **`TARNE`**`PARTEI [NICHT]`  

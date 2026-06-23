@@ -3,7 +3,7 @@
 alias: bef-banner
 ---
 
-# BANNER
+# `BANNER`
 
 **`BANNER`**`"`*`text`*`"`  
 

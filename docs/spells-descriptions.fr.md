@@ -600,7 +600,7 @@ Extrait de « Errants » de Firudin le Sage.
 <!-- cspell:enable -->
 
 :   Ce puissant sort prive la victime de son libre arbitre et la soumet aux ordres du barde.  
-    Pendant un certain temps, la victime se détournera complètement des siens et aura le sentiment d'appartenir à la faciton du barde.
+    Pendant un certain temps, la victime se détournera complètement des siens et aura le sentiment d'appartenir à la faction du barde.
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|
@@ -1111,7 +1111,7 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 *Quick Fingers (EN), Miriams flinke Finger (DE)*.
 <!-- cspell:enable -->
 
-:   La célèbre barde Miriam Bhean'Meddaf était connue pour son extraordinaire talent avec la harpe.  
+:   La célèbre barde Miriam Bhean'Meddaf était connue pour sa virtuosité extraordinaire à la harpe.  
     On disait que ses doigts se déplaçaient si rapidement sur les cordes qu'ils étaient pratiquement méconnaissables.  
     Ce sort, assez simple à lancer dans une bague en argent, permet de décupler la dextérité et l'agilité des doigts.  
     On dit qu’elle a également exploité cela ailleurs; sa réputation de tricheuse de cartes était notoire.  
@@ -1748,9 +1748,10 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 <!-- cspell:enable -->
 
 :   Ce sort permet au mage de protéger comme par magie les insectes du froid paralysant des glaciers.  
-    Vous pouvez entrer dans les glaciers et y agir normalement.  
-    Le dicton fonctionne au niveau*10 insectes.  
-    Un [Anneau de Pouvoir][anneau-de-pouvoir-id]{title="Ring of Power"} augmente le nombre d'insectes enchantables de 10 supplémentaires.
+    Les insectes soumis à l'enchantement peuvent entrer dans les glaciers et y agir normalement.  
+    Le nombre d'insectes concernés est de **10 par niveau**.  
+
+    Un [Anneau de Pouvoir][anneau-de-pouvoir-id]{title="Ring of Power"} augmente de 10 le nombre d'insectes supplémentaires soumis à l'enchantement.
 
 |  Éc.   | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
 |:------:|:----------:|:----:|:------:|:----:|:----------------------------:|:-----:|
@@ -2243,8 +2244,8 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *Roots of Magic (EN), Wurzeln der Magie (DE)*.
 <!-- cspell:enable -->
 
-:   À l'aide de ce rituel élaboré, le druide permet à une partie de son pouvoir de circuler en permanence dans les sols et les forêts de la région.  
-    Cela modifiera à jamais l’équilibre naturel de la région et, à l’avenir, seules les majornas exigeantes mais fortes prospéreront dans la région.
+:   À l'aide de ce rituel élaboré, le druide canalise de façon permanente une partie de son pouvoir dans le sol et les forêts de la région.  
+    Cela modifiera à jamais l’équilibre naturel de la région et, à l’avenir, seuls les arbres mallorns exigeants mais robustes pourront y prospérer.
 
 | Éc. |                        Composants                        | Niv. |  Type  | Rang | Bateau |              D               |
 |:---:|:--------------------------------------------------------:|:----:|:------:|:----:|:------:|:----------------------------:|

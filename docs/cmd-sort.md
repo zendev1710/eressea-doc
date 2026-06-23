@@ -3,7 +3,7 @@
 alias: cmd-sort
 ---
 
-# SORT
+# `SORT`
 
 **`SORT`**` BEFORE `*`unit-id`*  
 **`SORT`**` AFTER `*`unit-id`*  

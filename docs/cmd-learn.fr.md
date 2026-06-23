@@ -3,7 +3,7 @@
 alias: cmd-learn-fr
 ---
 
-# LEARN
+# `LEARN`
 
 *Ordre [long][ordres-courts-et-longs]*.
 

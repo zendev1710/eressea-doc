@@ -43,7 +43,7 @@ Donc, si vous avez commencé à construire un Drakkar, vous ne pouvez pas le tra
 Les bateaux nouvellement construits ne sont situés sur aucune côte et peuvent donc partir vers n'importe quelle région océanique voisine.
 
 ## Types de bateau
-
+<!-- TODO: add information  -->
 ### Barque
 
 <!-- cspell:disable -->
@@ -106,28 +106,28 @@ Vitesse du drakkar en fonction du niveau en compétence de voile du capitaine.
 
 ## Convoi
 
-De la même manière que l'on peut avoir plusieurs personnes dans une unité, les convois sont composés de plusieurs bateaux **du même type**, par exemple :
+De la même manière que l'on peut avoir plusieurs personnes dans une unité, les convois sont composés de plusieurs bateaux **du même type**.  
+Il n'est donc par exemple pas permis de former un convoi constitué de trirèmes et de caravelles.
 
-```text
-Karavelle (2seh), 73 Karavellen, (12776/85410), 61% damaged.
-```
+Pour constituer un convoi, on remet à l'unité propriétaire d'un bateau un ou plusieurs bateaux de même type avec l'ordre [`GIVE <target-captain-id> 1 SHIP`][cmd-give-fr].  
+L'unité cible devient le commandant d'un convoi.  
 
-Pour cela, on remet à l'unité propriétaire d'un bateau un ou plusieurs bateaux du même type avec l'ordre `GIVE`` `*`target-captain`*` ``1 SHIP`.
-L'unité cible devient le commandant d'un convoi.
-Les unité sources et cibles **doivent appartenir à la même faction**, les ordres `HELP ALL` ou `CONTACT` ne suffisent pas.
+Les unités source et cible de l'ordre **doivent appartenir à la même faction**.
 
-L'unité propriétaire d'un convoi dirige tous ses bateaux ensemble et doit pour cela :
+L'unité de commandement peut alors diriger tous les bateaux de son convoi, à condition qu'elle possède :
 
-- Avoir le niveau de compétence requis en [voile][voile]{title="Sailing"} pour le type de bateau
-- Avoir une personne par bateau
+- Le niveau de compétence requis en [voile][voile]{title="Sailing"} pour le type de bateau
+- Au moins autant de personnes que de bateaux du convoi
 
-Le compétence totale de l'équipage doit également être un multiple correspondant au nombre de bateaux.  
-La portée correspond à celle du type de bateau, les dégâts maximums et la charge utile augmentent en fonction du nombre de bateaux.  
+Le compétence totale de l'équipage en voile doit également être un multiple correspondant au nombre de bateaux.
 
-Exemple.
+La portée du convoi correspond à celle du type de bateau; les dégâts maximums et la charge utile augmentent en fonction du nombre de bateaux.  
 
-Un convoi de 3 caravelles nécessite un capitaine d'au moins 3 personnes avec [voile][voile]{title="Sailing"} T3 et un équipage avec 90 niveaux de compétence au total.
-Comme précédemment, elles ont une portée de 5 cases, mais une capacité de 9 000 lbs. La configuration suivante, par exemple, est donc autorisée et en état de naviguer :
+**Exemple :**
+
+Un convoi de 3 caravelles nécessite un capitaine d'au moins 3 personnes T3 en [voile][voile]{title="Sailing"}, et un équipage avec 90 niveaux de compétence au total.  
+Comme précédemment, elles ont une portée de 5 régions océaniques, mais une capacité de 9 000 lbs.  
+La configuration suivante, par exemple, est donc autorisée et en état de naviguer :
 
 ```text
 Caravel (2seh), 3 Caravels, (9000/9000).
@@ -136,21 +136,23 @@ Caravel (2seh), 3 Caravels, (9000/9000).
     * Horde (770L), 888 Humans.
 ```
 
-Comme on peut le voir, il est possible de déplacer de grandes unités dans un convoi sans les répartir sur des bateaux individuels.  
-Pour le reste, les convois se comportent comme un bateau normal.  
-Par exemple, le convoi entier part à la dérive ensemble, subit des dégâts dans son ensemble et le commandement peut être transféré.  
+Avec un convoi, il devient alors possible de déplacer de grandes unités sans devoir les répartir sur des bateaux individuels.  
+Pour le reste, un convoi se comporte comme un unique bateau.  
 
-Les [barques][barque] sont exclus de cette règle et les bateaux d'un convoi doivent être du même type.  
-Il n'est donc pas permis, par exemple, de mélanger des trirèmes et des caravelles.  
+Par exemple, le convoi entier part à la dérive ensemble, subit des dégâts dans son ensemble, et le commandement peut être transféré.  
 
-Les bateaux endommagés ou incomplets peuvent également être transférés, leur état se répercute alors proportionnellement sur le convoi.
-Si un bateau avec 8% de dommages est remis à un convoi de 3 bateaux, le convoi se compose ensuite de 4 bateaux avec 2% de dommages.
-Si un seul bateau en construction est remis, tout le convoi est ensuite en construction et ne peut naviguer qu'une fois terminé.
-Un bateau achevé à 50% (en construction) et un bateau achevé donne deux bateaux achevés à 75% (en construction).
+!!! note
+    Il n'est pas possible de former un convoi de [barques][barque].  
 
-Le même ordre permet également de détacher des bateaux d'un convoi.  
-Les bateaux ou les convois de l'unité donneuse et de l'unité réceptrice doivent se trouver sur la même côte ou sur l'océan.  
-L'unité réceptrice doit soit être capitaine d'un bateau — dans ce cas, le bateau est ajouté à son convoi — soit être sur le même bateau que l'unité donneuse, soit ne pas être dans un bateau ou dans un bâtiment.  
+Les bateaux endommagés ou incomplets peuvent également être transférés, leur état se répercute alors proportionnellement sur le convoi.  
+Si un bateau avec 8 % de dommages est remis à un convoi de 3 bateaux, le convoi se compose ensuite de 4 bateaux avec 2 % de dommages.  
+
+Si un seul bateau en construction est remis, tout le convoi est ensuite en construction et ne peut naviguer qu'une fois terminé.  
+Ainsi, en formant un convoi de 2 bateaux, dont l"un est achevé mais l'autre est en construction à 50 %, on obtient un convoi en cours de construction de 2 bateaux achevés à 75 %.
+
+L'ordre `GIVE <target-id> <nombre> SHIP` permet également de détacher des bateaux d'un convoi.  
+Les bateaux ou convois de l'unité cédante et de l'unité réceptrice doivent se trouver **sur la même côte** ou sur la même région océanique.  
+L'unité réceptrice doit soit être capitaine d'un bateau — dans ce cas, le bateau est ajouté à son convoi — soit être sur le même bateau que l'unité cédante, soit ne pas être dans un bateau ni dans un bâtiment.  
 
 On peut aussi donner des bateaux aux paysans : `GIVE 0 2 SHIP` crée un nouveau convoi avec 2 bateaux, sur lequel il n'y a personne.  
 À terre, un commandant de convoi ne peut pas remettre tous ses bateaux aux paysans, il doit toujours en garder au moins un.  

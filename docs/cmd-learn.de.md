@@ -3,7 +3,7 @@
 alias: bef-lerne
 ---
 
-# LERNE
+# `LERNE`
 
 *[Langer Befehl][kurze-und-lange-befehle].*
 

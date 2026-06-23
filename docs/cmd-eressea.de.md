@@ -2,7 +2,7 @@
 # cSpell:locale de
 alias: bef-eressea
 ---
-# ERESSEA
+# `ERESSEA`
 
 **`ERESSEA`**` `*`partei-nr`*`"`*`passwort`*`"`  
 

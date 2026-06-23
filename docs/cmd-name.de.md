@@ -2,7 +2,7 @@
 # cSpell:locale de
 alias: bef-benenne
 ---
-# BENENNE
+# `BENENNE`
 
 **`BENENNE`` ``EINHEIT "`*`name`*`"`**  
 **`BENENNE`` ``FREMDE EINHEIT <einheit-nr> "<name>"`  

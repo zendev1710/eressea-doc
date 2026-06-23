@@ -21,7 +21,7 @@ Monsters summoned by players can also drive away farmers.
 ## Overpopulation
 
 Farmers are emigrating because of overpopulation.  
-If there are more farmers than jobs in a region (see [here][cmd-work]), some of the unemployed emigrate to neighboring regions.  
+If there are more farmers than [jobs][cmd-work] in a region, some of the unemployed emigrate to neighboring regions.  
 
 ## Poverty
 

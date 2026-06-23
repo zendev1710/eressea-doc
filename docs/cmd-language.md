@@ -2,7 +2,7 @@
 # cSpell:locale en
 alias: cmd-language
 ---
-# LANGUAGE
+# `LANGUAGE`
 
 **`LANGUAGE`**`de`  
 **`LANGUAGE`**`en`  

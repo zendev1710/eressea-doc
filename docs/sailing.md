@@ -38,14 +38,14 @@ Ships piloted by a unit of aquarians from an aquarian faction (migrant aquarians
 - A dragonship with a level 2 unit of 25 persons moves 5 regions.  
   However, with 3 level 20 persons, it can move 7 regions.
 
-| Type       | Range | Capacity | Captain / Crew | Shipcraft lvl | Qty of wood |
-|------------|:-----:|---------:|---------------:|:-------------:|------------:|
-| Boat       |     2 |       50 |        1 /   2 |       1       |           5 |
-| Longboat   |     3 |      500 |        1 /  10 |       1       |          50 |
-| Dragonship | 5[^1] |     1000 |        2 /  50 |       2       |         100 |
-| Caravel    |     5 |     3000 |        3 /  30 |       3       |         250 |
-| Trireme    |     7 |     2000 |        4 / 120 |       4       |         200 |
-| Galleon    |     5 |    20000 |    5 / 250[^2] |       5       |        2000 |
+| Type                     | Range | Capacity | Captain / Crew | Shipcraft lvl | Qty of wood |
+|--------------------------|:-----:|---------:|---------------:|:-------------:|------------:|
+| [Boat][boat]             |   2   |       50 |        1 /   2 |       1       |           5 |
+| [Longboat][longboat]     |   3   |      500 |        1 /  10 |       1       |          50 |
+| [Dragonship][dragonship] | 5[^1] |     1000 |        2 /  50 |       2       |         100 |
+| [Caravel][caravel]       |   5   |     3000 |        3 /  30 |       3       |         250 |
+| [Trireme][trireme-id]    |   7   |     2000 |        4 / 120 |       4       |         200 |
+| [Galleon][galleon]       |   5   |    20000 |    5 / 250[^2] |       5       |        2000 |
 
 [^1]: Dragonship range depends on captain skill.
 [^2]: When calculating the Galleons crews total skill, only min. T2 crews are counting.
@@ -80,15 +80,15 @@ Nevertheless, all persons on the ship need the weekly upkeep, so it should alway
 
 When the ship is ashore, all the units on board can do something; they go ashore to work, so to speak.  
 They can do this even if the ship leaves during the same turn.  
-However, if the region is guarded by a non-allied faction, they cannot [earn silver][money] with WORK, ENTERTAIN or SELL.
+However, if the region is guarded by a non-allied faction, they cannot [earn silver][money] with `WORK`, `ENTERTAIN` or `SELL`.
 
 If units want to leave a ship, they must first do so with [`LEAVE`][cmd-leave].  
-If the region is not guarded by a non-allied faction, the units can move immediately with MOVE, otherwise they can only MOVE on the turn following the LEAVE order.  
+If the region is not guarded by a non-allied faction, the units can move immediately with `MOVE`, otherwise they can only move on the turn following the `LEAVE` order.  
 This also applies to [`RIDE`][cmd-ride] and [`CARRY`][cmd-carry].
 
 ## Swimming
 
-[Aquarians][aquarians] in a ship can swim from an ocean region onto a directly adjacent land region (with the MOVE order), but the reverse is not true.  
+[Aquarians][aquarians] in a ship can swim from an ocean region onto a directly adjacent land region (with the `MOVE` order), but the reverse is not true.  
 Aquarians can not swim from a land region onto any ocean region.  
 This works only if the unit isn’t overloaded.  
 Swimming aquarians can carry items, but not horses.  
@@ -105,7 +105,7 @@ Range, including all acceleration bonuses (aquarian, artefacts, spells), is also
 
 Example: A boat with an aquarian captain is 17% damaged.
 
-- This reduces the capacity to (50)\*0.83=41.5 (round down) 41 WU.
+- This reduces the capacity to (50)\*0.83=41.5 (round down) 41 lbs.
 - The range (1+2)\*0.83=2.49 (round up) therefore remains at 3.
 
 If the damage exceeds 100%, the ship will sink with all units on board.

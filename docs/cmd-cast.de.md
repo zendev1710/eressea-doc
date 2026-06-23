@@ -3,7 +3,7 @@
 alias: bef-zaubere
 ---
 
-# ZAUBERE
+# `ZAUBERE`
 
 *[kurzer befehl][kurze-und-lange-befehle][^1]*.  
 

@@ -17,15 +17,15 @@ Each faction must choose one of the five [[schools-of-magic]]: [Illaun][illaun-s
 
 The faction's magic area is determined by the very first unit that learns magic in the faction.
 This is done using the [`LEARN MAGIC "<magic school>"`][cmd-learn].  
-As a result, the order is now just called `LEARN MAGIC "<magic school>"` and all magicians of a [faction][factions] then automatically learn the magic school chosen by the faction.  
+As a result, the order is now just called `LEARN MAGIC "<magic school>"` and all mages of a [faction][factions] then automatically learn the magic school chosen by the faction.  
 However, it is possible to order multiple units to `LEARN MAGIC "<magic school>"` if you are unsure which unit will come first.  
 
 !!! note
     Once a magic school has been chosen, **it cannot be changed**.  
     Therefore, this decision needs to be carefully considered!
 
-There can be a **maximum of five magician units per faction**;
-only **elven factions** are allowed to have **6 magicians**.  
+There can be a **maximum of five mage units per faction**;
+only **elven factions** are allowed to have **6 mages**.  
 Mage units may only consist of one person.
 You cannot hand over people, even to empty `TEMP` units.  
 
@@ -37,7 +37,7 @@ Learning costs.
 |------------|-----|-----|-----|-----|-----|------|------|------|------|------|------|------|------|------|------|-----|-------|-----|-------|-----|-------|
 | Cost       | 100 | 200 | 350 | 550 | 800 | 1100 | 1450 | 1850 | 2300 | 2800 | 3350 | 3950 | 4600 | 5300 | 6050 | ... | 10550 | ... | 23300 | ... | 41050 |
 
-So an untrained magician pays 100 Silver for his first lessons;
+So an untrained mage pays 100 Silver for his first lessons;
 If he already has level 5 in magic skill, he has to pay 1100 Silver per week of learning.  
 
 !!! warning "Caution"
@@ -52,7 +52,7 @@ If he already has level 5 in magic skill, he has to pay 1100 Silver per week of 
     There is no way to know which of the two is true. So it's better to plan a little more generously.  
 
 Learning in an [Academy][academy] costs twice as much.
-Only magicians from the same area of ​​magic as the teacher can be taught.
+Only mages from the same area of ​​magic as the teacher can be taught.
 So a Draig Mage cannot teach an Illaun Mage.  
 
 If a mage unit does not have enough silver to learn, it will only learn in proportion to the amount of silver it can pay for each week.
@@ -156,7 +156,7 @@ A normal combat spell once per combat round. Of course, only under the condition
 
 ### Aura
 
-Aura is the magical power that magicians use to perform their magic.  
+Aura is the magical power that mages use to perform their magic.  
 Aura is consumed by casting spells and regenerates over time.  
 A mage unit can absorb a certain maximum amount of aura.  
 How much is determined -just like aura regeneration -by the unit's magical skill.  
@@ -288,7 +288,7 @@ Sayings that as **Sea magic** marked can also be cast by non-Aquarians on the oc
 ### Magic with people and objects
 
 Some spells can be used to magically influence people and objects.  
-It should be noted that the vast majority of spells to be cast on friendly units require that the target unit contact the magician with [`CONTACT`][cmd-contact].  
+It should be noted that the vast majority of spells to be cast on friendly units require that the target unit contact the mage with [`CONTACT`][cmd-contact].  
 Teleports and other enchantments can be well-intentioned, but can often be used for misdeeds, and with [`CONTACT`][cmd-contact] the target signals that they agree to the enchantment.  
 
 ### Rank
@@ -301,11 +301,11 @@ Spells of the same rank are cast in the order specified on the turn.
 
 **Example:**
 
-There would be three spells, called "Aaa", "Bee" and "Cee" :
+There would be three spells, called `Aaaa`, `Beee` and `Ceee` :
 
-- "Aaaa" is rank 5 and costs 10 aura
-- "Beee" is rank 2 and costs 20 aura
-- "Ceee" is rank 5 and costs 5 aura
+- `Aaaa` is rank 5 and costs 10 aura
+- `Beee` is rank 2 and costs 20 aura
+- `Ceee` is rank 5 and costs 5 aura
 
 Assuming the unit has the orders :
 
@@ -316,30 +316,30 @@ CAST "Aaaa"
 ```
 
 in that order.  
-“Beee” is cast first, because the spell has rank 2.  
+`Beee` is cast first, because the spell has rank 2.  
 It's the unit's first spell this week, so it costs 20 aura.  
-Then "Ceee" is cast, because "Aaaa" and "Ceee" have the same rank and "Ceee" comes before "Aaaa".  
-"Ceee" is the second spell, so it costs 5*2^1=10 aura. Now comes “Aaaa”.  
-"Aaaa" is the third spell, so it costs 10*2^2=40 aura.  
+Then `Ceee` is cast, because `Aaaa` and `Ceee` have the same rank and `Ceee` comes before `Aaaa`.  
+`Ceee` is the second spell, so it costs 5 x 2^1 = 10 aura. Then comes `Aaaa`.  
+`Aaaa` is the third spell, so it costs 10 x 2^2 = 40 aura.  
 
 ## Blunder
 
 There is a lot that is not obvious in the magic system and in the spells.  
 In general, many sayings contain direct or indirect risks.  
-A magician can also botch a spell.  
+A mage can also botch a spell.  
 
 A spell can simply fail like that, even if all the components are actually there and the aura of unity is sufficient.  
 This is not a bug and also gives a completely normal message in the report ("The spell fails.").  
 If components or aura are missing, this will also be mentioned in the message.  
 
-The probability of a blunder depends on many factors, including the level, difficulty of the spell relative to the level at which the spell is cast by the magician, the magic area, the spell, the environment, the target, etc.  
+The probability of a blunder depends on many factors, including the level, difficulty of the spell relative to the level at which the spell is cast by the mage, the magic area, the spell, the environment, the target, etc.  
 
 Mistakes can have extremely unpleasant side effects! However, if the unit survives a blunder, these are usually not permanent.  
 
 Player experience (Solthar):
 
 A spell that is cast at the maximum possible level has approximately 20% chance of failure; at half level there is 0% chance.  
-For draigmages it is 10% more. Possible consequences (in descending order of frequency):
+For Draig mages it is 10% more. Possible consequences (in descending order of frequency):
 
 - The spell works, but subsequent spells become much more expensive
 - All aura is lost, the spell works or not
@@ -378,7 +378,7 @@ The base chance is 0% for humans, 10% for [elves][skills-modifiers], for [goblin
 A Mining 10 unit has a 50% chance to resist a spell like [Chaos Curse][d-chaos-curse-id] cast by a Magic 10 unit.  
 If the magic skill is 12, the chance drops to 40%. If the target unit consists of goblins, the chance drops further to 35%.  
 <!-- TODO : check original -->
-For example, a fireball that would do 50 damage (5d10 + 15) only does 90% against an elf with [Laensword][war-tables-magic-resistance-id].*70% = 63% of that, so about 31 damage.
+For example, a fireball that would do 50 damage (5d10 + 15) only does 90% against an elf with [laen sword][war-tables-magic-resistance-id].*70% = 63% of that, so about 31 damage.
 
 ## Mage Tower
 
@@ -387,7 +387,7 @@ In addition, the likelihood of a spell failure is significantly reduced.
 
 ## Familiar
 
-Experienced magicians will at some point on their wanderings encounter an unusual specimen of a species that will join them.  
+Experienced mages will at some point on their wanderings encounter an unusual specimen of a species that will join them.  
 Which genus this creature belongs to depends primarily on the area of ​​magic and race.  
 
 More information about these creatures: [[familiars]].
@@ -423,7 +423,7 @@ This area is shaped like a parallelogram with four regions each extending in the
 The "reference point" is the southwest corner of it.  
 All regions in such an area lead to the same point when entering the astral world.  
 This connection is a prerequisite for most spells involving the astral space.  
-But it can also be disturbed, for example by blessed stonecircles that have recently been visited by a magician.  
+But it can also be disturbed, for example by blessed stonecircles that have recently been visited by a mage.  
 Depending on the spell used, additional restrictions may apply.  
 
 That's why caution is advised -because on the one hand you can see the schemes of real regions that are not connected to this point in the astral space, but on the other hand not all regions of the real world to which there is such a connection appear as schemes.  

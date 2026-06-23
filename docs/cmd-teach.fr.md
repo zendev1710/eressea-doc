@@ -3,7 +3,7 @@
 alias: cmd-teach-fr
 ---
 
-# TEACH
+# `TEACH`
 
 *Ordre [long][ordres-courts-et-longs].*
 

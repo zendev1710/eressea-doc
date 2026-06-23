@@ -3,21 +3,21 @@
 alias: cmd-give-fr
 ---
 
-# GIVE
+# `GIVE`
 
-**`GIVE`**` `*`ID-unité`*`HERBS`  
-**`GIVE`**` `*`ID-unité`*`COMMAND`  
-**`GIVE`**` `*`ID-unité`*`UNIT`  
-**`GIVE`**` `*`ID-unité quantité`*`MEN`  
-**`GIVE`**` `*`ID-unité quantité objet`*  
-**`GIVE`**` `*`ID-unité quantité SHIP`*  
-**`GIVE`**` `*`ID-unité`*`ALL MEN`  
-**`GIVE`**` `*`ID-unité`*`ALL`  
-**`GIVE`**` `*`ID-unité`*` ALL `*`objet`*  
-**`GIVE`**` `*`ID-unité`*` EACH `*`quantité`*` `*`objet`*  
-**`GIVE`**` 0 `*`quantité`*`MEN`  
-**`GIVE`**` 0 `*`quantité`*`SHIP`  
-**`GIVE`**` 0 `*`quantité objet`*  
+`GIVE <unit-id>  <quantité> <objet>`  
+`GIVE <unit-id> EACH <quantité> <objet>`  
+`GIVE <unit-id> ALL`  
+`GIVE <unit-id>  ALL <objet>`  
+`GIVE <unit-id> HERBS`  
+`GIVE <unit-id> <quantité> MEN`  
+`GIVE <unit-id> ALL MEN`  
+`GIVE <unit-id> UNIT`  
+`GIVE <unit-id> COMMAND`  
+`GIVE <unit-id> <quantité> SHIP`*  
+`GIVE 0 <quantité> MEN`  
+`GIVE 0 <quantité> SHIP`  
+`GIVE 0 <quantité> <objet>`  
 
 L'unité transfère des objets, le commandement de bateaux ou de bâtiments, des personnes, des bateaux ou même elle-même à d'autres unités.
 
@@ -34,7 +34,6 @@ Tous les autres objets disparaissent.
 L'unité donatrice et l'unité réceptrice doivent bien entendu se trouver dans la même région.
 Le transfert fonctionne également en haute mer, entre bateaux et de bateau à la terre ferme et inversement.  
 
-<!-- TODO: translate in french -->
 Au lieu d'une quantité, vous pouvez également utiliser le paramètre `ALL`.  
 `GIVE`*`unit-id`*`ALL Swords`, par exemple, remet toutes les épées que l'unité possède à ce moment-là.  
 `GIVE`*`unit-id`*`ALL` remet tous les objets, plantes, potions et argent, mais pas les personnes de l'unité.  
@@ -100,7 +99,7 @@ Les [compétences][competences] sont alors **mélangées**.
 Expérience de jeu (Solthar) :
 
 Si vous souhaitez confier des personnes à une unité **d’une autre faction**, un simple [`HELP GIVE`][cmd-help-fr] ne suffit pas !  
-**L'unité réceptrice doit également passer l'ordre [`CONTACT`][cmd-contact-fr]** sur l'unité transférante.  
+**L'unité réceptrice doit également passer l'ordre [`CONTACT`][cmd-contact-fr]** sur l'unité cédante.  
 
 De plus, si l’unité d’accueil est une [unité de migrants][humains], elle ne doit contenir personne au moment du transfert.  
 Idéalement, il devrait s'agir d'une unité `TEMP` vide, par exemple :
@@ -120,10 +119,10 @@ L'unité n'exécute plus d'ordres pendant le tour après ce `GIVE` !
 
 ## Transfert de commandement
 
-Si l'unité a également un navire ou un bâtiment sous son commandement - c'est-à-dire si elle est la première unité répertoriée dans le bateau ou bâtiment - elle peut également passer le commandement à une autre unité.  
+Si l'unité a également un bateau ou un bâtiment sous son commandement - c'est-à-dire si elle est la première unité répertoriée dans le bateau ou bâtiment - elle peut également passer le commandement à une autre unité.  
 L'unité aux commandes détermine quelles autres unités sont autorisées à entrer dans le bateau ou le bâtiment.
 
-`GIVE unit COMMAND` devrit toujours être utilisé, même si l'unité avec le commandement quitte le bateau ou le bâtiment et que l'unité suivante doit normalement recevoir le commandement.  
+`GIVE unit COMMAND` devrait toujours être utilisé, même si l'unité avec le commandement quitte le bateau ou le bâtiment et que l'unité suivante doit normalement recevoir le commandement.  
 L'ordre des unités lors de l'évaluation n'est pas toujours celui du rapport.  
 Les nouveaux propriétaires d'un bâtiment sont placés en première position dans le bâtiment **à la fin du tour**.  
 Ils ne peuvent donc bénéficier des avantages (bonus...) du bâtiment que **lors du tour suivant**.  
@@ -132,11 +131,13 @@ Le commandement ne peut pas être donné à des unités sans membre (par exemple
 
 ## Transfert de convoi
 
-Avec `GIVE`*`unit-id`*` `*`number`*`SHIP` le propriétaire d'un bateau ou d'un [convoi][convoi] remet le nombre de beteaux spécifié.  
-Les unités transférantes et réceptrices doivent appartenir à la même faction (`HELP ALL` et `CONTACT` ne le permmettent pas).  
+Avec `GIVE`*`unit-id`*` `*`number`*`SHIP` le propriétaire d'un bateau ou d'un [convoi][convoi] remet le nombre de bateaux spécifié.  
+Les unités cédantes et réceptrices doivent appartenir à la même faction (`HELP ALL` et `CONTACT` ne le permettent pas).  
 Si l'autre unité possède également un bateau, un [convoi][convoi] est formé.  
 Les convois sont toujours constitués de bateaux du même type.  
 Les barques ne peuvent pas former de convois et les bateaux doivent se trouver sur la même côte.  
+
+Plus d'information : [les convois][convoi].
 
 ## Voir aussi
 

@@ -3,7 +3,7 @@
 alias: cmd-make
 ---
 
-# MAKE
+# `MAKE`
 
 **`MAKE`**`[`*`amount`*`]`*`item`*  
 **`MAKE`**`[`*`amount`*`] HERBS`  
@@ -41,10 +41,15 @@ Herbs are produced with the `MAKE HERBS` order by units with the [herbalism][her
 
 ## Units
 
-When you create a new unit (`MAKE TEMP xy`), you assign it an alias number, because at that time you do not know yet, what the actual number will be. For all other order, you can reference the unit by this alias (including the word TEMP, for example `GIVE TEMP xy 100 silver`). When looking for a TEMP unit, your own faction is searched first, then other factions. So if you and another faction both have a unit with the ID *TEMP xy*, your own unit will always be chosen. So with a little coordination, TEMP units from other parties can also be addressed.
+When you create a new unit (`MAKE TEMP xy`), you assign it an alias number, because at that time you do not know yet, what the actual number will be.  
+For all other order, you can reference the unit by this alias (including the word TEMP, for example `GIVE TEMP xy 100 silver`).  
+When looking for a `TEMP` unit, your own faction is searched first, then other factions.  
+So if you and another faction both have a unit with the ID *TEMP xy*, your own unit will always be chosen.  
+So with a little coordination, `TEMP` units from other factions can also be addressed.
 
-The alias number will be used as the new number of the unit if it is not taken.
+The alias number will be used as the new number of the unit if it is not taken.  
 You can also assign a name to the new unit.
+
 The orders
 
 ```text
@@ -59,14 +64,14 @@ can be shortened to :
 MAKE TEMP funy "Clowns"
 ```
 
-A maximum of 2500 units are allowed per faction.
+A maximum of 2500 units are allowed per faction.  
 If the faction has 2500 or more units, no new units can be created with `MAKE TEMP`;  
 other units must first be deleted, e.g. by merging them.  
 As the deletion of empty units comes at the end of the command sequence, new `TEMP` units can only be created in the following week.  
 
 The orders following the `MAKE TEMP` order are assigned to the new unit up to the `END` order.  
 
-However, the new unit must still have members, otherwise it will be silently deleted at the end of the round!
+However, the new unit must still have members, otherwise it will be silently deleted at the end of the round!  
 It must therefore recruit or be given people.  
 If the new unit is to recruit new members, it must also receive enough money to do so.  
 If it does not receive this, the unit will not be able to recruit anyone and will be silently removed at the end of the week.  
@@ -105,8 +110,8 @@ other buildings usually also require wood, iron, and silver in various quantitie
 
 ## Ships
 
-With `MAKE`*`ship_type`* a unit starts building a new [ship][ships-id].
-This requires the shipcraft skill and wood. It can continue building with `MAKE [`*`levels`*`] SHIP`*`ship-nr`*.
+With `MAKE`*`ship_type`* a unit starts building a new [ship][ships-id].  
+This requires the shipcraft skill and wood. It can continue building with `MAKE [`*`levels`*`] SHIP`*`ship-nr`*.  
 Ships cannot be expanded like castles; the type is determined at the start of construction.  
 Ships can only be built up to the size specified by their type.
 
@@ -122,7 +127,7 @@ With buildings as well as ships you can specify with *levels* how many size poin
 To make it easier to travel through a region with roads and bridges, use `MAKE ROAD`*`direction`*.  
 To build [roads][roads-id], the unit needs the skill [roadwork][roadwork] and [stones][stone].  
 In glaciers, it needs a [tunnel][tunnel-id] beforehand, in deserts a [caravanserai][caravanserai] and in swamps a [dam][dam].  
-One stone is used per skill point of road construction.
+One stone is used per skill point of road construction.  
 Between 50 and 250 stones are required for each desired direction, depending on the [[terrain-types]].  
 Roads only work if they are complete.
 

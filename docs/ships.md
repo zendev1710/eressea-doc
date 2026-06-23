@@ -40,12 +40,12 @@ The captain determines which other units are allowed to board the ship.
 He may [rename][cmd-name] or [describe][cmd-describe] the ship, and also counts as crew.
 
 Unlike buildings, ships cannot be expanded.  
-So once you start building a longboat, you won't be able to convert it into a caravel later.
+So once you start building a [longboat][longboat], you won't be able to convert it into a [caravel][caravel] later.
 
 Newly built ships are not located on any coast and can therefore sail to any neighboring ocean region.
 
 ## Ship types
-
+<!-- TODO: add information  -->
 ### Boat
 
 ### Longboat
@@ -86,25 +86,28 @@ Dragon ship speed.
 
 ## Convoy
 
-<!-- TODO: translate from french -->
-De la même manière que l'on peut avoir plusieurs personnes dans une unité, les convois sont composés de plusieurs bateaux du même type, par exemple
+In the same way that you can have several people in a unit, convoys are made up of several ships **of the same type**.  
+It is therefore not permitted, for example, to form a convoy made up of triremes and caravels.
 
-```text
-Karavelle (2seh), 73 Karavellen, (12776/85410), 61% damaged.
-```
+To form a convoy, the unit owning a ship is given one or more ships of the same type with the [`GIVE <target-captain-id> 1 SHIP`][cmd-give] order.  
+The target unit becomes the commander of a convoy.  
 
-Pour cela, on remet à l'unité propriétaire d'un bateau un ou plusieurs bateaux du même type avec l'ordre GIVE capt 1 SHIP.
-L'unité cible devient le commandant d'un convoi.
-L'unité remettante et l'unité réceptrice doivent appartenir à la même faction, HELP ALL ou CONTACT ne suffisent pas.
-L'unité propriétaire d'un convoi commande tous ses bateaux ensemble et doit pour cela avoir le niveau de compétence minimum pour le type de bateau et une personne par bateau.
-La compétence totale de l'équipage doit également être un multiple correspondant au nombre de bateaux.
-La portée correspond à celle du type de bateau, les dégâts maximums et la charge utile augmentent en fonction du nombre de bateaux.
+Source and target units **must belong to the same faction**.
 
-Exemple :
+The command unit can then direct all the ships in its convoy, provided that it has:
 
-un convoi de 3 caravelles nécessite un capitaine d'au moins 3 personnes avec Sailing T3 et un équipage avec 90 niveaux de compétence au total.
-Comme précédemment, elles ont une portée de 5 cases, mais une capacité de 9000 lbs.
-La configuration suivante, par exemple, est donc autorisée et en état de naviguer :
+- The level of [sailing][skill-sailing-id] skill required for the type of ship
+- At least as many people as ships in the convoy
+
+The total crew sailing skill must also be a multiple corresponding to the number of ships.
+
+The range of the convoy corresponds to that of the ship type; Maximum damage and payload increase with the number of ships.
+
+**Example:**
+
+A convoy of 3 caravels requires a captain of at least 3 people T3 in [sailing][skill-sailing-id], and a crew with 90 skill levels in total.  
+As before, they have a range of 5 ocean regions, but a capacity of 9,000 lbs.  
+The following configuration, for example, is therefore authorized and safe to navigate:
 
 ```text
 Caravel (2seh), 3 Caravels, (9000/9000).
@@ -113,31 +116,34 @@ Caravel (2seh), 3 Caravels, (9000/9000).
     * Horde (770L), 888 Humans.
 ```
 
-Comme on peut le voir, il est donc possible de déplacer de grandes unités dans un convoi sans les répartir sur des bateaux individuels.
-Pour le reste, les convois se comportent comme un bateau normal.
-Par exemple, le convoi entier part à la dérive ensemble, subit des dégâts dans son ensemble et le commandement peut être transféré.
+With a convoy, it then becomes possible to move large units without having to distribute them on individual ships.  
+For the rest, a convoy behaves like a single ship.
 
-Les "boats" sont exclus de cette règle et les bateaux d'un convoi doivent être du même type, il n'est donc pas permis, par exemple, de mélanger des trirèmes et des caravelles.
+For example, the entire convoy drifts together, takes damage as a whole, and command can be transferred.
 
-Les bateaux endommagés ou incomplets peuvent également être transférés, leur état se répercute alors proportionnellement sur le convoi.
-Si un bateau avec 8% de dommages est remis à un convoi de 3 bateaux, le convoi se compose ensuite de 4 bateaux avec 2% de dommages.
-Si un seul bateau en construction est remis, tout le convoi est ensuite en construction et ne peut naviguer qu'une fois terminé.
-Un bateau achevé à 50% (en construction) et un bateau achevé donne deux bateaux achevés à 75% (en construction).
+!!! note
+   **It is not possible** to form a convoy of [**boats**][boat].
 
-Le même ordre permet également de détacher des bateaux d'un convoi.
-Les bateaux ou les convois de l'unité donneuse et de l'unité réceptrice doivent se trouver sur la même côte ou sur l'océan.
-L'unité réceptrice doit soit être capitaine d'un bateau — dans ce cas, le bateau est ajouté à son convoi — soit être sur le même bateau que l'unité donneuse, soit ne pas être dans un bateau ou dans un bâtiment.
+Damaged or incomplete ships can also be transferred, their condition then being reflected proportionally on the convoy.  
+If a ship with 8% damage is handed over to a convoy of 3 ships, the convoy then consists of 4 ships with 2% damage.
 
-On peut aussi donner des bateaux aux paysans : GIVE 0 2 SHIP crée un nouveau convoi avec 2 bateaux, sur lequel il n'y a personne.
-À terre, un commandant de convoi ne peut pas remettre tous ses bateaux aux paysans, il doit toujours en garder au moins un.
+If only one ship under construction is handed over, the entire convoy is then under construction and cannot sail until completed.  
+Thus, by forming a convoy of 2 ships, one of which is completed but the other is 50% under construction, we obtain a convoy under construction of 2 ships 75% complete.
 
-Si, après le transfert, l'unité transférée n'a plus de bateaux, toutes les unités qui l'accompagnaient auparavant passent automatiquement sur les bateaux de l'unité de destination.
+The `GIVE <target-id> <number> SHIP` order also allows ships to be detached from a convoy.  
+The ships or convoys of the giving unit and the receiving unit must be **on the same coast**or in the same ocean region.  
+The receiving unit must either be captain of a ship — in which case the ship is added to its convoy — or be on the same ship as the yielding unit, or not be in a ship or building.
 
-Les convois ne peuvent pas être enchantés, les bateaux enchantés ne peuvent pas être transférés et aucun bateau ne peut être transféré aux propriétaires de bateaux enchantés.
+You can also give ships to farmers: `GIVE 0 2 SHIP` creates a new convoy with 2 ships, on which there is no one.  
+On land, a convoy commander cannot hand over all his ships to the peasants, he must always keep at least one.
 
-Expérience de jeu (Solthar):
+If, after the transfer, the transferred unit no longer has any ships, all units that previously accompanied it automatically switch to the ships of the destination unit.
 
-An empty unit cannot hand over anything.
+Convoys cannot be enchanted, enchanted ships cannot be transferred, and no ships can be transferred to owners of enchanted ships.
+
+Player experience (Solthar) :
+
+An empty unit cannot hand over anything.  
 This is why the order of the following orders is important:
 
 ```text
@@ -145,7 +151,7 @@ GIVE 123 1 SHIP
 GIVE 123 ALL MEN
 ```
 
-## Voir aussi
+## See also
 
 - [[movement]]
 - [`GIVE`][cmd-give]

@@ -3,7 +3,7 @@
 alias: cmd-attack
 ---
 
-# ATTACK
+# `ATTACK`
 
 **`ATTACK <unit-id>`**  
 

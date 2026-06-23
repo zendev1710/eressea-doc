@@ -136,7 +136,7 @@ Pour la région suivante, les informations sont expliquées en détail :
 `Vîpot (3,-4), Desert, 0/1 Trees, 22 Stones/3, 190 Peasants, 5765 Silvers, 36 Horses.`
 
 La région porte le nom de "Vîpot" et a les coordonnées (3,-4) vues depuis les coordonnées d'[origine][cmd-origin-fr] de la faction.  
-Un autre joueur - avec une autre ORIGINE - connaît la même région sous le même nom mais avec des coordonnées différentes.  
+Un autre joueur - avec une autre origine - connaît la même région sous le même nom mais avec des coordonnées différentes.  
 La région est un désert.  
 Dans un désert, il y a au maximum 500 emplois libres.  
 Vîpot compte actuellement 190 paysans.  

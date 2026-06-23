@@ -3,7 +3,7 @@
 alias: bef-betrete
 ---
 
-# BETRETE
+# `BETRETE`
 
 **`BETRETE`**` BURG `*`gebäude-nr`*  
 **`BETRETE`**` SCHIFF `*`schiff-nr`*  

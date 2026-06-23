@@ -2,7 +2,7 @@
 # cSpell:locale de
 alias: bef-vergiss
 ---
-# VERGISS
+# `VERGISS`
 
 **`VERGISS`**` `*`talent`*  
 

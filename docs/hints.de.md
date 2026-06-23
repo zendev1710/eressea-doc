@@ -7,8 +7,7 @@ alias: hinweise
 
 ## Anmeldung
 
-Unter dem folgenden [Link] kann man sich wieder für Eressea anmelden, bzw.  
-für kommende Partien Eressea vormerken lassen.
+Unter dem folgenden [diesen Link] kann man sich wieder für Eressea anmelden, bzw. für kommende Partien Eressea vormerken lassen.
 
 ## Fehler im Spiel
 
@@ -117,7 +116,7 @@ Weiterlesen: [Anfängertipps][anfangertipps-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Hinweise&oldid=13366] -->
 
-[Link]: https://www.eressea.de/?page_id=186
+[diesen Link]: https://www.eressea.de/?page_id=186
 [Mantis]: http://bugs.eressea.de/
 [Discord]: https://discord.gg/KT5Fffh
 

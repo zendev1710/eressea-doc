@@ -3,7 +3,7 @@
 alias: cmd-make-fr
 ---
 
-# MAKE
+# `MAKE`
 
 **`MAKE TEMP`**` `*`unit-alias-id`*`["`*`nom`*`"]`  
 **`MAKE`**`[`*`niveau`*`]`*`type_batiment`*`[`*`id_batiment`*`]`  
@@ -95,7 +95,7 @@ UNIT 17;   Combattants [15,700$]
 ## Bâtiments
 
 Pour ériger un nouveau bâtiment, utilisez l'ordre `MAKE [`*`niveau`*`]`*`<type bâtiment>`* (voir [bâtiments][batiments-id]).  
-Pour continuer à construire (agrandir un batiment), l'ordre est `MAKE [levels]`*`<type bâtiment>`*` `*`building_id`*.  
+Pour continuer à construire (agrandir un bâtiment), l'ordre est `MAKE [levels]`*`<type bâtiment>`*` `*`building_id`*.  
 Le type de bâtiment peut être remplacé par `CASTLE` lors de la poursuite de la construction, même s'il s'agit d'un type de bâtiment différent.  
 
 Les châteaux et bien d’autres bâtiments peuvent être agrandis autant que vous le souhaitez.  

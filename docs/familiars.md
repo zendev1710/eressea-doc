@@ -7,24 +7,24 @@ alias: familiars
 
 Familiars are always particularly intelligent representatives of their species, but they are rarely gifted with magic on their own.  
 However, familiars are able to cast spells.  
-However, they always rely on the magician for both the spells and the aura and other components.  
-The maximum distance for spells cast in this manner corresponds to the magician's skill.  
+However, they always rely on the mage for both the spells and the aura and other components.  
+The maximum distance for spells cast in this manner corresponds to the mage's skill.  
 However, familiars have certain limitations when it comes to these spells.  
-The level of the spell cannot be greater than the familiar's magic skill or half the magician's skill.  
+The level of the spell cannot be greater than the familiar's magic skill or half the mage's skill.  
 The cost of the spell also doubles.  
 
 In rare cases, however, there can be magical beings who allow themselves to be bound as familiars and who, over time, learn their own spells which are then cast using the aura of the familiar itself.  
 These spells may be completely different from those mastered by their master.  
-However, such familiars also have the ability to access their magician's spells.  
+However, such familiars also have the ability to access their mage's spells.  
 
 In addition, many familiars can learn certain skills or have special abilities.  
 However, due to their fundamentally different perspective, they cannot pass on their knowledge through teaching.  
-The familiar gives the magician a bonus of half the skill value on each skill (excluding magic) that the familiar has mastered.  
-In any case, a magician is advised to remember these abilities of his familiar in detail using a [`SHOW`][cmd-show].  
+The familiar gives the mage a bonus of half the skill value on each skill (excluding magic) that the familiar has mastered.  
+In any case, a mage is advised to remember these abilities of his familiar in detail using a [`SHOW`][cmd-show].  
 
 ## Familiar breeds
 
-The world and magic of Eressea knows various races that can join a magician as familiars.
+The world and magic of Eressea knows various races that can join a mage as familiars.
 
 ### Eagle
 
@@ -69,7 +69,7 @@ Features of a Dolphin.
 ### Unicorn
 
 This mystical creature prefers to live in the deepest forests and is excellent at hiding from others' eyes.
-It is rare for a unicorn to join a magician, but when it does, it is a powerful ally who also has magic of its own.  
+It is rare for a unicorn to join a mage, but when it does, it is a powerful ally who also has magic of its own.  
 
 Features of an Unicorn.  
 
@@ -271,8 +271,8 @@ All known dragons of this species exhibit high intelligence and a high level of 
 Like their larger relatives, they have a breath of fire.
 They love the singing and the sumptuous meal.  
 
-From time to time they enter into a close magical bond with a magician.
-When this happens, the magician has an extremely loyal and rewarding confidant.  
+From time to time they enter into a close magical bond with a mage.
+When this happens, the mage has an extremely loyal and rewarding confidant.  
 
 Features of a Singing Dragon.  
 
@@ -423,20 +423,20 @@ If a field is empty, then the race cannot learn that skill or does not have that
 
 ## Assignment of Familiars
 
-Familiars of different races can join a magician at random -although not completely at random.  
+Familiars of different races can join a mage at random -although not completely at random.  
 The selection is determined by his magic area, his race and his magic level.  
 
 <!-- TODO: clarify this translation !? -->
-In the following table, the race of the magician who is trying to bind a familiar to himself can be found in the first column.  
+In the following table, the race of the mage who is trying to bind a familiar to himself can be found in the first column.  
 The second column contains the standard familiar race (primary familiar) that joins this mage race.  
-In the five following columns are the races that the magician prefers to join if he is knowledgeable in the respective School of M​magic.  
+In the five following columns are the races that the mage prefers to join if he is knowledgeable in the respective School of M​magic.  
 With 50%-100% (depending on level) the race of the magic area is chosen, with approximately level% any one, otherwise the primary race.  
 
 Player experience:
 
 The information on percentages **should be viewed with caution** and should be double-checked in the code!  
 
-An Elf magician with Tybied has the highest chance of getting an Owl (Magic School) or a Lynx (primary Familiar), but also a lower chance of getting a random race from the table.  
+An Elf mage with Tybied has the highest chance of getting an Owl (Magic School) or a Lynx (primary Familiar), but also a lower chance of getting a random race from the table.  
 
 | Race      | Primary Familiar | Illaun         | Tybied         | Cerddor        | Gwyrrd      | Draig        |
 |-----------|------------------|----------------|----------------|----------------|-------------|--------------|

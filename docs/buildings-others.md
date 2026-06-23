@@ -154,7 +154,7 @@ You can then immediately cut them with a sawmill, producing 20 wood.
 | Maximum size            | 25                                         |
 | Capacity                | persons according to size, unlimited ships |
 
-- Allows ships larger than a boat to land in regions which are not plains or forests.
+- Allows ships larger than a [boat][boat] to land in regions which are not plains or forests.
 - A region with a harbour can be used as a "canal region", i.e., a ship in the harbour can sail away in any direction with an ocean.
 - In both cases, the prerequisite is that the harbour owner is a member of the same faction or has [`HELP GUARD`][cmd-help] set to the captain's faction.
 - The owner of the harbour receives 10% of all the silver earned through trade, in addition to the possible income through castles.
@@ -281,7 +281,9 @@ You can then immediately cut them with a sawmill, producing 20 wood.
 | Maximum size            | 100                 |
 | Capacity                | 3 persons           |
 
-- A stonecircle can be blessed by [this powerful spell][g-bless-stone-circle-id]{title="Bless Stone Circle"} (Gwyrrd). This then develops some strange effects. Among other things, it seems to attract the extremely rare elf horses. In addition, magicians in the building can interrupt the connection between the Astral space and the real world
+- A stonecircle can be blessed by [this powerful spell][g-bless-stone-circle-id]{title="Bless Stone Circle"} (Gwyrrd).  
+  This then develops some strange effects. Among other things, it seems to attract the extremely rare elf horses.  
+  In addition, mages in the building can interrupt the connection between the Astral space and the real world
 - In a blessed stonecircle, a mage regenerates 50% more aura
 - The power of any spell cast in a blessed stonecircle increases as if the spell had been cast with one more level
 - Occupants have 30% extra magic resistance

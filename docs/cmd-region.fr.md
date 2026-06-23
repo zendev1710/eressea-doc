@@ -3,7 +3,7 @@
 alias: cmd-region-fr
 ---
 
-# REGION
+# `REGION`
 
 `REGION x,y; <Nom de la région>`  
 

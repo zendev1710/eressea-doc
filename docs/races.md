@@ -5,7 +5,7 @@ alias: races
 
 # Races
 
-As well as humans, there are many other races (faction types) in Eressea. You need to choose one for your faction. Each race has advantages and disadvantages which translate into [bonuses and penalties][skills-modifiers] in certain skills, and sometimes special abilities; each race has different [recruitment costs][skills-modifiers]. As a general rule, a person weighs 10 weight units (WU or lbs) and can carry 5.4 WU/lbs. Trolls, goblins and various monsters are exceptions.
+As well as humans, there are many other races (faction types) in Eressea. You need to choose one for your faction. Each race has advantages and disadvantages which translate into [bonuses and penalties][skills-modifiers] in certain skills, and sometimes special abilities; each race has different [recruitment costs][skills-modifiers]. As a general rule, a person weighs 10 weight units (lbs) and can carry 5.4 lbs. Trolls, goblins and various monsters are exceptions.
 
 At the start of the game, you must choose the race you want to play. This race is chosen when you register and cannot be changed afterwards. So think carefully before making your choice.
 
@@ -29,12 +29,12 @@ Demons are cruel and unpredictable. They devour the local peasants and always su
 
 ## Elves
 
-The magical people of the faery kingdom aren't built for heavy labor, but they have a knack for nature as well as hidden things, and their archers are almost as feared as their magicians.
+The magical people of the faery kingdom aren't built for heavy labor, but they have a knack for nature as well as hidden things, and their archers are almost as feared as their mages.
 
 - Green Thumb: Each elf (up to 1/8 of the [region's maximum][world] working population, e.g. 250 in a swamp) increases the chance of a tree (including mallorn trees) to drop a seed in a summer or autumn week. This can make quite a difference depending on the number of elves.
 - Forest Dwellers: In forest regions, elves have a skill bonus of +1 to stealth and perception, and +2 to tactics.
-- Magicians: Elf factions can have 1 additional [mages][magic-id], allowing them to have a maximum of 6.
-- Elf magicians regenerate aura 25% faster.
+- Mages: Elf factions can have 1 additional [mages][magic-id], allowing them to have a maximum of 6.
+- Elf mages regenerate aura 25% faster.
 - Expert Archers: Elves cause 1 additional damage point when using bows.
 - Only elves can build [elven bows][weapons-summary-table].
 
@@ -45,7 +45,7 @@ The magical people of the faery kingdom aren't built for heavy labor, but they h
 Goblins are small and weak on their own; they prefer to rely on cunning or superior numbers. Their motto is "quantity instead of quality".
 
 - Overpowering: When their numbers are ten times those of the opponent, goblins get a +1 attack bonus.
-- Midget: Goblins weigh only 6 WU/lbs, but they can carry only 4.4 WU/lbs.
+- Midget: Goblins weigh only 6 lbs, but they can carry only 4.4 lbs.
 - Master Thieves: Goblins with level 4 or higher in stealth will always [steal][stealth-id] at least 50 silver, even if they were discovered.
 - Unarmed Defense: Unarmed goblins do not get the usual -2 penalty on defense.
 - Stubborn: A wounded goblin will regenerate 10% of their hit points.
@@ -137,7 +137,7 @@ Orcs start their life as fighters, and usually end it as fighters. They intuitiv
 
 These walking boulders are among the strongest creatures of Eressea. They love to work with rocks, horses are afraid of them, and swimming has never been known as one of the troll's favorite pastimes.
 
-- Heavy Weights: Trolls are strong and they can lift up to 10.8 WU/lbs, but they also weigh 20 WU/lbs, twice as much as other races.
+- Heavy Weights: Trolls are strong and they can lift up to 10.8 lbs, but they also weigh 20 lbs, twice as much as other races.
 - Foot Soldiers: While technically trolls can ride, there is no troll cavalry, and thus no bonus for riding in combat (This has no effect on the transport of goods and the movement speed of mounted trolls).
 - Quarrying: Only 75% of the stones [quarried][about-mining] by trolls are subtracted from the amount of stones available in a region. This effect is cumulative with a [quarry][quarry].
 - The enemy's cavalry only gets a +1 bonus against trolls instead of the normal +2.

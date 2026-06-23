@@ -7,4 +7,6 @@ alias: sang-de-dragon
 
 Du sang de dragon peut être obtenu lorsqu'un dragon est tué.
 
-Le sang de dragon est un ingrédient 
+<!-- TODO complete page documentation -->
+
+Le sang de dragon est un ingrédient.

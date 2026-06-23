@@ -3,7 +3,7 @@
 alias: cmd-default-fr
 ---
 
-# DEFAULT
+# `DEFAULT`
 
 **`DEFAULT`**`"`*`order`*`"`  
 

@@ -23,7 +23,7 @@ Dans tous les cas, **par unité et sur un tour**, vous ne pouvez produire qu’u
 Pour obtenir du laen et de l'adamantium, vous avez besoin d'une [mine][mine-fr-id]{title="Mine"} et d'une compétence d'[extraction minière][extraction-miniere]{title="Mining"} de **7 pour le laen**, de **8 pour l'adamantium**, et d'une compétence de niveau 2 en [sylviculture][sylviculture]{title="Forestry"} pour le mallorn.
 
 Pour les objets ainsi que pour les bâtiments et les bateaux, les niveaux de compétence de toutes les personnes de l'unité sont additionnés et divisés par la compétence minimale requise en construction.  
-Pour chaque point ainsi calculé, un bâtiment ou un beateau peut être construit ou agrandi d'un point, ou un objet peut être produit.
+Pour chaque point ainsi calculé, un bâtiment ou un bateau peut être construit ou agrandi d'un point, ou un objet peut être produit.
 
 Une fois que la construction d'un bâtiment ou un bateau a débuté, vous pouvez continuer à le construire avec autant d'unités que vous le souhaitez.  
 Cependant, il n'est pas possible de construire plusieurs bâtiments ou bateaux en même temps avec une seule unité, même si les niveaux de compétences et les ressources le permettent théoriquement.
@@ -36,7 +36,7 @@ Permet à une unité de produire 10 boucliers, en supposant qu'elle :
 
 - possède 10 fer
 - soit au moins T2 en [fabrication d'armures][fabrication-darmures]{title="Armoursmithing"}
-- posssède un total de 20 niveaux de compétence (10 boucliers x compétence minimale 2 = 20)
+- possède un total de 20 niveaux de compétence (10 boucliers x compétence minimale 2 = 20)
 
 ## Exemple 2
 

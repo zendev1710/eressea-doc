@@ -54,13 +54,13 @@ More information: [orders][orders].
 | [GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; &lt;item&gt;]          | Hands over items                           | S      |
 | [GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; MEN]                   | Hands over people                          | S      |
 | [GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; SHIP]                  | Passes SHIP to form convoys                | S      |
-| [GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; SILVER]                | Hands over silver                          | S      |
+| [GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; silver]                | Hands over silver                          | S      |
 | [GIVE &lt;unit id&gt; herb]                                                | Gives a unit all herbs                     | S      |
 | [GIVE &lt;unit id&gt; COMMAND]                                             | Hands over command of ship/building        | S      |
 | [GIVE &lt;unit id&gt; UNIT]                                                | Transfers unit to foreign faction          | S      |
 | [GIVE 0 &lt;number&gt; &lt;item&gt;]                                       |                                            | S      |
 | [GIVE 0 &lt;number&gt; MEN]                                                |                                            | S      |
-| [GIVE 0 &lt;number&gt; SILVER]                                             | Gives items to the farmers                 | S      |
+| [GIVE 0 &lt;number&gt; silver]                                             | Gives items to the farmers                 | S      |
 | [GROUP &#91;"&lt;name&gt;"&#93;]                                           | Grouping units                             | S      |
 | [GROW HORSES]                                                              | Breed horses - only in horse breeding      | L      |
 | [GUARD &#91;NOT&#93;]                                                      | Guards the region                          | S      |
@@ -116,7 +116,7 @@ More information: [orders][orders].
 | [OPTION PUNKTE &#91;NOT&#93;]                                              |                                            | S      |
 | [OPTION SILBERPOOL &#91;NOT&#93;]                                          |                                            | S      |
 | [OPTION STATISTIK &#91;NOT&#93;]                                           |                                            | S      |
-| [OPTION TALENTVERSCHIEBUNG &#91;NOT&#93;]                                  |                                            | S      |
+| [OPTION SHOWSKCHANGE &#91;NOT&#93;]                                        |                                            | S      |
 | [OPTION ZIPPED &#91;NOT&#93;]                                              |                                            | S      |
 | [OPTION ZUGVORLAGE &#91;NOT&#93;]                                          |                                            | S      |
 | [ORIGIN x y]                                                               | Sets the coordinate origin                 | S      |
@@ -134,7 +134,7 @@ More information: [orders][orders].
 | [REGION x,y]                                                               | No function (only for tools)               | S      |
 | [RESEARCH HERBS]                                                           | Looking for herbs                          | L      |
 | [RESERVE &lt;number&gt; "&lt;item&gt;"]                                    | Gegenstände reservieren                    | S      |
-| [RESERVE &lt;number&gt; SILVER]                                            | Reserve silver                             | S      |
+| [RESERVE &lt;number&gt; silver]                                            | Reserve silver                             | S      |
 | [RIDE &lt;unit id&gt;]                                                     | Can be transported                         | L      |
 | [ROUTE direction &#91;direction&#93;...]                                   | Travel                                     | L      |
 | [SELL ALL &lt;luxury item&gt;]                                             |                                            |        |
@@ -204,13 +204,13 @@ Continue reading: [the first round][first-round-id].
 [GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; &lt;item&gt;]: [[cmd-give]]
 [GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; MEN]: [[cmd-give]]
 [GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; SHIP]: [[cmd-give]]
-[GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; SILVER]: [[cmd-give]]
+[GIVE &lt;unit id&gt; &#91;EACH&#93; &lt;number&gt; silver]: [[cmd-give]]
 [GIVE &lt;unit id&gt; COMMAND]: [[cmd-give]]
 [GIVE &lt;unit id&gt; UNIT]: [[cmd-give]]
 [GIVE &lt;unit id&gt; herb]: [[cmd-give]]
 [GIVE 0 &lt;number&gt; &lt;item&gt;]: [[cmd-give]]
 [GIVE 0 &lt;number&gt; MEN]: [[cmd-give]]
-[GIVE 0 &lt;number&gt; SILVER]: [[cmd-give]]
+[GIVE 0 &lt;number&gt; silver]: [[cmd-give]]
 [GROUP &#91;"&lt;name&gt;"&#93;]: [[cmd-group]]
 [GROW HORSES]: [[cmd-grow]]
 [GUARD &#91;NOT&#93;]: [[cmd-guard]]
@@ -263,7 +263,7 @@ Continue reading: [the first round][first-round-id].
 [OPTION PUNKTE &#91;NOT&#93;]: [[cmd-option]]
 [OPTION SILBERPOOL &#91;NOT&#93;]: [[cmd-option]]
 [OPTION STATISTIK &#91;NOT&#93;]: [[cmd-option]]
-[OPTION TALENTVERSCHIEBUNG &#91;NOT&#93;]: [[cmd-option]]
+[OPTION SHOWSKCHANGE &#91;NOT&#93;]: [[cmd-option]]
 [OPTION ZIPPED &#91;NOT&#93;]: [[cmd-option]]
 [OPTION ZUGVORLAGE &#91;NOT&#93;]: [[cmd-option]]
 [ORIGIN x y]: [[cmd-origin]]
@@ -279,7 +279,7 @@ Continue reading: [the first round][first-round-id].
 [REGION x,y]: [[cmd-region]]
 [RESEARCH HERBS]: [[cmd-research]]
 [RESERVE &lt;number&gt; "&lt;item&gt;"]: [[cmd-reserve]]
-[RESERVE &lt;number&gt; SILVER]: [[cmd-reserve]]
+[RESERVE &lt;number&gt; silver]: [[cmd-reserve]]
 [RIDE &lt;unit id&gt;]: [[cmd-ride]]
 [ROUTE direction &#91;direction&#93;...]: [[cmd-route]]
 [SELL &lt;amount&gt; &lt;luxury item&gt;]: [[cmd-sell]]

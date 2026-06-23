@@ -42,7 +42,7 @@ Lets the unit produce 10 shields, assuming :
 
 `MAKE 3 Boat`  
 
-Does not allow the unit to build three separate boats.  
+Does not allow the unit to build three separate [boats][boat].  
 but it defines only the appropriate amount of wood for the ship mentioned (here 3 out of 5 for one boat)
 
 ## Example 3

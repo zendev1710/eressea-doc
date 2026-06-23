@@ -3,7 +3,7 @@
 alias: cmd-default
 ---
 
-# DEFAULT
+# `DEFAULT`
 
 **`DEFAULT "<order>"`**  
 

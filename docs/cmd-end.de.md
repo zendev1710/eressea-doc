@@ -2,7 +2,7 @@
 # cSpell:locale de
 alias: bef-ende
 ---
-# ENDE
+# `ENDE`
 
 **`ENDE`**  
 

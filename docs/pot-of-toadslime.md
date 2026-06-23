@@ -3,6 +3,6 @@
 alias: pot-of-toadslime
 ---
 
-# Pot of toadslime
+# Pot of Toadslime
 
 <!-- TODO : fill info -->

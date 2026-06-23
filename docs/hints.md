@@ -41,7 +41,7 @@ Giving or acquiring the passwords of other players is prohibited and sending in 
 
 The only exception to the general ban on leading multiple factions: if you are really not busy with one faction, you are allowed to have one **second** Start a faction when his first faction is at least 150 rounds old.  
 
-In fairness, however, it must always be obvious that two factions are not run independently, and whenever two parties receive their orders from the same player, they must use the same email address.  
+In fairness, however, it must always be obvious that two factions are not run independently, and whenever two factions receive their orders from the same player, they must use the same email address.  
 The registered address must exist and the player must respond to emails from the game management to their address within 14 days if there are doubts about its authenticity.  
 
  **Failure to comply with these rules will result in the exclusion of all factions involved.**  

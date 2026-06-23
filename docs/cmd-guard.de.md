@@ -3,7 +3,7 @@
 alias: bef-bewache
 ---
 
-# BEWACHE
+# `BEWACHE`
 
 **`BEWACHE`**`[NICHT]`  
 

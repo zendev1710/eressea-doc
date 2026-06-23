@@ -3,7 +3,7 @@
 alias: bef-folge
 ---
 
-# FOLGE
+# `FOLGE`
 
 *[Kurzer Befehl][kurze-und-lange-befehle].*  
 

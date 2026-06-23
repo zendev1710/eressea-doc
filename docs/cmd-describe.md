@@ -2,13 +2,13 @@
 # cSpell:locale en
 alias: cmd-describe
 ---
-# DESCRIBE
+# `DESCRIBE`
 
-**`DESCRIBE UNIT`**`"`*`text`*`"`  
-**`DESCRIBE BUILDING `**`"`*`text`*`"`  
-**`DESCRIBE SHIP`**`"`*`text`*`"`  
-**`DESCRIBE REGION`**`"`*`text`*`"`  
-**`DESCRIBE PRIVATE`**`"`*`text`*`"`  
+**`DESCRIBE UNIT`**` ``"`*`text`*`"`  
+**`DESCRIBE BUILDING`` `**`"`*`text`*`"`  
+**`DESCRIBE SHIP`**` ``"`*`text`*`"`  
+**`DESCRIBE REGION`**` ``"`*`text`*`"`  
+**`DESCRIBE PRIVATE`**` ``"`*`text`*`"`  
 
 The description for the listed object is changed.
 This description is listed by object and can be up to 8191 characters long.  

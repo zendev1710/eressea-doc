@@ -52,24 +52,24 @@ En savoir plus : les [bâtiments][batiments-id].
 
 ### La Famine pour les unités des joueurs
 
-Les unités affamées subissent des dégâts, et donc perdent des points de vie.  
-Les [Halfelins][halfelins] affamés proportionnellement plus que les autres peuples.  
-La santé d'une unité apparaît dans le rapport.  
-L'unité sera exhausted, wounded ou badly wounded.  
-Cependant, une unité non déjà affaiblie ne mourra pas au cours de la première semaine.  
+Les unités affamées subissent des dégâts, et perdent donc des points de vie.  
+Les [Halfelins][halfelins] affamés en perdent proportionnellement plus que les autres peuples.  
+
+[L'état de santé][etat-de-sante] d'une unité affamée apparaît dans le rapport.  
+Cependant, une unité non déjà affaiblie ne mourra pas au cours de la première semaine de famine.  
 
 Une unité affamée ne peut pas donner de personnes à d'autres unités.  
-De plus, les unités affamées voient leur score de talent chuter de moitié, ne régénèrent pas de points de vie et apprennent beaucoup plus lentement que d'habitude.  
+De plus, les unités affamées voient leur niveau de compétence chuter de moitié, ne régénèrent pas de points de vie et apprennent beaucoup plus lentement que d'habitude.  
 Cependant, les unités affamées ou blessées peuvent encore exécuter des ordres longs.  
 
 Au fil du temps, les unités blessées se rétablissent.  
 Les unités régénèrent normalement 5 % de leurs points de vie maximum par tour (certains peuples davantage), avec un minimum d'un point par personne dans l'unité.  
 Les unités de Morts-vivants ne se régénèrent pas  
 
-La compétence Sailing n'est réduite que d'un niveau lorsque les unités sont affamées.  
+La compétence de [voile][skill-voile-id]{title="Sailing"} n'est réduite que d'un niveau lorsque les unités sont affamées.  
 Néanmoins, la famine en mer est une situation critique.  
 D'une part, personne d'autre que les [aquariens] ne peut y travailler, on dépend donc d'un apport extérieur de Silvers.  
-D'autre part, il peut arriver qu'en raison de la réduction de compétence, on n'ait plus assez de niveaux de Sailing pour manœuvrer le [bateau][bateaux-id], ce qui fait que ce dernier subit des dommages et dérive.  
+D'autre part, il peut arriver qu'en raison de la réduction de compétence, on n'ait plus assez de niveaux de [voile][skill-voile-id]{title="Sailing"} pour manœuvrer le [bateau][bateaux-id], ce qui fait que ce dernier subit des dommages et dérive.  
 
 La faim est presque mortelle au contact de l'ennemi, par exemple en cas de vol ou d'erreur de planification.  
 Les unités perdent des points de vie et se battent beaucoup moins bien ensuite lors d'un éventuel combat.  
@@ -124,20 +124,20 @@ Garder empêche la collecte des taxes (sauf en cas d'utilisation de `HELP`).
 ### Divertissement
 
 L'argent qui reste aux paysans après les impôts est ajouté aux réserves de la région (la réserve de silver des paysans).  
-Sur cette réserve, 5% peuvent être gagnés par le divertissement (Entertainment).  
+Sur cette réserve, 5 % peuvent être gagnés par le [divertissement][skill-divertissement-id]{title="Entertainment"}.  
 Les statistiques de la région indiquent également ce montant.  
-Chaque personne peut gagner jusqu'à 20 Silver par tour et niveau de compétence "entertainment" avec l'ordre [divertir][cmd-entertain-fr], si les paysans ont suffisamment d'argent à disposition.  
+Chaque personne peut gagner jusqu'à 20 Silver par tour et niveau de compétence en divertissement avec l'ordre [divertir][cmd-entertain-fr], si les paysans ont suffisamment d'argent à disposition.  
 
 ### Exemples de possibilités de rémunération
 
 *Revenus et frais d'entretien.*
 
-| Région | Arbres | Paysans | Max. travailleurs | Salaire | Revenu | Entretien | Surplus | Divertissement |
-|--------|:------:|:-------:|:-----------------:|:-------:|--------|:---------:|--------:|---------------:|
-| Plaine |  200   |  3 742  |       8 400       |   11    | 41 162 |  37 420   |   3 742 |            187 |
-| Plaine |  200   |  3 742  |       8 400       |   14    | 52 388 |  37 420   |  14 968 |            748 |
-| Forêt  |  818   |  3 742  |       3 456       |   11    | 38 016 |  37 420   |     596 |             29 |
-| Forêt  |  818   |  3 742  |       3 456       |   12    | 41 472 |  37 420   |   4 052 |            202 |
+| Région | Arbres | Paysans | Max. travailleurs | Salaire | Revenu | Entretien | Surplus | [Divertissement][skill-divertissement-id]{title="Entertainment"} |
+|--------|:------:|:-------:|:-----------------:|:-------:|--------|:---------:|--------:|-----------------------------------------------------------------:|
+| Plaine |  200   |  3 742  |       8 400       |   11    | 41 162 |  37 420   |   3 742 |                                                              187 |
+| Plaine |  200   |  3 742  |       8 400       |   14    | 52 388 |  37 420   |  14 968 |                                                              748 |
+| Forêt  |  818   |  3 742  |       3 456       |   11    | 38 016 |  37 420   |     596 |                                                               29 |
+| Forêt  |  818   |  3 742  |       3 456       |   12    | 41 472 |  37 420   |   4 052 |                                                              202 |
 
 Pour chaque arbre, le nombre maximum de paysans pouvant travailler est diminué de 8, pour chaque jeune arbre le nombre est diminué de 4.  
 
@@ -170,7 +170,7 @@ Ceux qui n'ont pas peur des risques liés aux voyages peuvent gagner beaucoup d'
 Pour faire du commerce, il faut être compétent en [commerce][commerce]{title="Trade"}.  
 Une personne (ou une unité) peut acheter et/ou vendre au maximum 10 produits de luxe par niveau de compétence, voir [`BUY`][cmd-buy-fr] et [`SELL`][cmd-sell-fr].  
 Les quantités respectives de biens échangés sont totalement arbitraires.  
-Par exemple, une unité composée d'une personne avec une compétence de niveau 4 en commerce peut acheter 20 Gems et vendre 12 Soies et 8 Baumes par tour.  
+Par exemple, une unité composée d'une personne avec une compétence de niveau 4 en commerce peut acheter 20 [gemmes][gemme]{title="Gem"} et vendre 12 Soies et 8 Baumes par tour.  
 
 De plus, il est nécessaire pour faire du commerce qu'il y ait dans la région un château au moins la taille d'un tradepost (comptoir commercial), dans lequel se déroule en quelque sorte le marché.  
 La faction propriétaire du château n'a pas d'importance pour le commerce - les propriétaires du château ne peuvent pas (selon les règles) empêcher le commerce dans la région.  
@@ -229,7 +229,7 @@ Exemple :
 L'argent dépensé par les commerçants pour acheter le bien de luxe disponible dans la région bénéficie aux vendeurs.  
 Malgré cela, la région ne perd pas d'argent car les agriculteurs possèdent des biens de luxe avec lesquels ils peuvent payer les impôts.  
 L'argent n'est pas créé à partir de rien - c'est la valeur des biens qui ont été produits dans une autre région.  
-En revanche, l'argent qui a été dépensé par BUY s'ajoute à la réserve de la région.  
+En revanche, l'argent qui a été dépensé avec l'ordre [`BUY`][cmd-buy-fr] s'ajoute à la réserve de la région.  
 Des gouvernants avisés peuvent le leur reprendre en les divertissant et en les taxant.  
 
 Il vaut la peine d'équiper un bateau et de prendre la mer.  
@@ -287,14 +287,14 @@ En revanche, si l'on revient d'une île étrangère avec une cargaison de marcha
 
 ## Concurrence entre différentes factions
 
-Lorsque plusieurs factions travaillent, divertissent, collectent des impôts ou font du commerce dans une région, les gains potentiels sont répartis le plus équitablement possible entre les unités.
+Lorsque plusieurs factions travaillent, divertissent, collectent des impôts ou font du commerce dans une région, les gains potentiels sont répartis le plus équitablement possible entre les unités.  
 Il est préférable de bien s'entendre avec tes colocataires s'ils sont amicaux.
 
-Si la région est gardée par une faction étrangère, aucune de nos propres unités ne peut collecter d'impôts ni recruter.
+Si la région est gardée par une faction étrangère, aucune de nos propres unités ne peut collecter d'impôts ni recruter.  
 Le travail, le divertissement et le commerce sont toutefois possibles, à moins que l'unité ne se trouve sur un bateau.
 
-Si toutes les factions qui gardent ont paramétré [`HELP GUARD`][cmd-help-fr] ou [`HELP ALL`][cmd-help-fr] avec notre faction ou un ordre [`CONTACT`][cmd-contact-fr] avec notre unité ou notre faction, alors la garde n'a pas d'effet.
-Cela s'applique également si notre unité n'est pas vue en raison d'un niveau de stealth suffisamment bon.
+Si toutes les factions qui gardent ont paramétré [`HELP GUARD`][cmd-help-fr] ou [`HELP ALL`][cmd-help-fr] avec notre faction ou un ordre [`CONTACT`][cmd-contact-fr] avec notre unité ou notre faction, alors la garde n'a pas d'effet.  
+Cela s'applique également si notre unité n'est pas vue en raison d'un niveau de [discrétion][skill-discretion-id]{title="Stealth"} suffisamment bon.  
 Pour une unité `TEMP` (particulièrement pertinente lors du recrutement), l'unité "mère" compte, c'est à dire l'unité qui donne l'ordre `MAKE TEMP`.
 
 ## Voir aussi

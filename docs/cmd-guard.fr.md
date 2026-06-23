@@ -3,7 +3,7 @@
 alias: cmd-guard-fr
 ---
 
-# GUARD
+# `GUARD`
 
 **`GUARD`**`[NOT]`
 
@@ -20,7 +20,7 @@ Ainsi, si tes unités sont dans cette situation (non alliées), les restrictions
 
 1. Il n'est plus possible de collecter les taxes, d'extraire des matières premières, de [faire du commerce][le-commerce] ou de recruter des agriculteurs dans cette région
 2. Il y a une certaine probabilité que tes unités en mouvement soient stoppées
-3. Si ton unité est sur un navire, elle ne pourra pas [travailler][cmd-work-fr], [divertir][cmd-entertain-fr], ou [attaquer][cmd-attack-fr], ni se déplacer immédiatement par voie terrestre.
+3. Si ton unité est sur un bateau, elle ne pourra pas [travailler][cmd-work-fr], [divertir][cmd-entertain-fr], ou [attaquer][cmd-attack-fr], ni se déplacer immédiatement par voie terrestre.
   Afin de pouvoir réaliser ces actions la semaine suivante, elle devra d'abord [quitter][cmd-leave-fr] le bateau
 
 Si l'unité n'est pas visible, parce qu'elle possède une compétence de [discrétion][skill-discretion-id]{title="Stealth"} de niveau supérieur à la meilleure compétence de perception de la faction de garde dans la région, les deux premières restrictions ne s'appliquent pas.

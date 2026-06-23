@@ -3,7 +3,7 @@
 alias: cmd-grow-fr
 ---
 
-# GROW
+# `GROW`
 
 *Ordre [long][ordres-courts-et-longs].*  
 

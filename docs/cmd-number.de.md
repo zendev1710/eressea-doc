@@ -2,7 +2,7 @@
 # cSpell:locale de
 alias: bef-nummer
 ---
-# NUMMER
+# `NUMMER`
 
 **`NUMMER EINHEIT`**`[`*`neue-nr`*`]`  
 **`NUMMER PARTEI`**`[`*`neue-nr`*`]`  

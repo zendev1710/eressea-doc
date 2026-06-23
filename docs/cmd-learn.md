@@ -3,7 +3,7 @@
 alias: cmd-learn
 ---
 
-# LEARN
+# `LEARN`
 
 *[long order][short-and-long-orders].*
 

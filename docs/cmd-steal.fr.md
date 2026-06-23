@@ -5,7 +5,7 @@ alias: cmd-steal-fr
 
 [](){ #cmd-steal-fr-id }
 
-# STEAL
+# `STEAL`
 
 *Ordre [long][ordres-courts-et-longs].*
 

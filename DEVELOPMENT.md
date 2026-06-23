@@ -40,6 +40,13 @@ On your computer, to get changes after browser page update: `properdocs serve --
 For an auto-reload much faster: `mkdocs serve --dirtyreload`.  
 -->
 
+## Before deploying on production site
+
+The linters should be launched to be sure there is no new "issues" in new code:
+
+- `task lint:md`
+- `task lint:spell` (just for french language: `task lint:spell-fr`)
+
 ## Deployment on GitHub
 
 `properdocs gh-deploy`:

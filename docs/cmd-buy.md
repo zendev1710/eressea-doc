@@ -3,7 +3,7 @@
 alias: cmd-buy
 ---
 
-# BUY
+# `BUY`
 
 *`BUY` is like [`SELL`][cmd-sell], a [pseudo-long order][short-and-long-orders][^1].*  
 

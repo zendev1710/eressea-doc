@@ -3,7 +3,7 @@
 alias: cmd-tax-fr
 ---
 
-# TAX
+# `TAX`
 
 *Ordre [long][ordres-courts-et-longs]*.
 

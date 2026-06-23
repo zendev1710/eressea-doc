@@ -3,7 +3,7 @@
 alias: bef-spioniere
 ---
 
-# SPIONIERE
+# `SPIONIERE`
 
 *[Langer Befehl][kurze-und-lange-befehle].*  
 

@@ -92,7 +92,7 @@ Un plus grand château améliore le revenu de la population : tous les ouvriers
 
 L'unité "Thors Baumeister" est composée de 20 personnes de niveau 1 en Maçonnerie, disposant de 100 pierres.  
 En raison de son niveau de compétence et du nombre de personnes de l'unité, elle dispose de 20 points de production (PP).  
-Cela lui permet de construire `PP / <niveau requis>` unités de taille du chateau chaque semaine.  
+Cela lui permet de construire `PP / <niveau requis>` unités de taille du château chaque semaine.  
 
 Lorsque cette unité commence à construire un nouveau château, elle peut construire 10 unités de taille au premier tour : pour les fondations et le poste de commerce, le niveau minimal en maçonnerie est de 1;  
 pour construire une unité de taille, il faut un point de production, donc l'unité construit d'abord le poste de commerce jusqu'à la taille 10, ce qui fait de ce bâtiment une fortification.  
@@ -100,7 +100,7 @@ Il reste alors 10 points de production, mais ils sont perdus parce que le niveau
 
 Si l'unité a un niveau 2 en maçonnerie, elle commence avec 40 points de production, dont 10 sont nécessaires pour une fortification.  
 Elle peut ensuite utiliser les 30 points de production restants pour améliorer la fortification dans le même tour.  
-Cependant, un talent minimum de 2 signifie également que 2 points de production doivent être dépensés par pierre.  
+Cependant, un niveau minimum de 2 signifie également que 2 points de production doivent être dépensés par pierre.  
 Ainsi, la fortification augmente de 15 pierres et une fortification de taille 25 est construite à la fin de la semaine.  
 
 Avec le niveau de compétence 2, les bâtisseurs vont, en l'espace de 2 tours supplémentaires, agrandir la fortification jusqu'à la taille 50, créant ainsi une tour (Tower) qu'ils ne pourront pas agrandir en raison du niveau minimal de 3 requis.  

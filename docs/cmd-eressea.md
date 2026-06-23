@@ -2,7 +2,7 @@
 # cSpell:locale en
 alias: cmd-eressea
 ---
-# ERESSEA
+# `ERESSEA`
 
 **`ERESSEA`**` `*`faction-id`*`"`*`passwort`*`"`  
 

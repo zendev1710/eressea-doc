@@ -3,7 +3,7 @@
 alias: bef-piraterie
 ---
 
-# PIRATERIE
+# `PIRATERIE`
 
 *[Langer Befehl][kurze-und-lange-befehle].*  
 

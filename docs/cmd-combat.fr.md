@@ -3,7 +3,7 @@
 alias: cmd-combat-fr
 ---
 
-# COMBAT
+# `COMBAT`
 
 **`COMBAT [FRONT]`**  
 **`COMBAT AGGRESSIVE`**  

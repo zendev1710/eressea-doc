@@ -2,7 +2,7 @@
 # cSpell:locale de
 alias: bef-beschreibe
 ---
-# BESCHREIBE
+# `BESCHREIBE`
 
 **`BESCHREIBE EINHEIT`**`"`*`text`*`"`  
 **`BESCHREIBE GEBÄUDE`**`"`*`text`*`"`  

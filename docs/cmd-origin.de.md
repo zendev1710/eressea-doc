@@ -3,7 +3,7 @@
 alias: bef-ursprung
 ---
 
-# URSPRUNG
+# `URSPRUNG`
 
 **`URSPRUNG`**` `*`x y`*  
 

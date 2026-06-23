@@ -134,7 +134,7 @@ The information for the following region is explained in detail:
 `Vîpot (3,-4), desert, 0/1 trees, 22 stones/3, 190 peasants, 5765 silver, 36 horses.`
 
 The region is called "Vîpot" and has the coordinates (3,-4) as seen from the [`ORIGIN`][cmd-origin] of the faction.  
-Another player - with a different ORIGIN - knows the same region under the same name but with different coordinates.  
+Another player - with a different origin - knows the same region under the same name but with different coordinates.  
 The region type is desert.  
 There is a maximum of 500 free jobs in a desert.  
 There are currently 190 peasants living in Vîpot.  

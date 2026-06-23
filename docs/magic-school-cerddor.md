@@ -11,7 +11,7 @@ alias: cerddor-spells
 
 :   This song tames even the wildest orc and makes him peaceful and gentle.  
     Any thought of harming the singer will disappear.  
-    The magician can move to a neighboring region unmolested.
+    The mage can move to a neighboring region unmolested.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
@@ -121,7 +121,7 @@ alias: cerddor-spells
 ### Countersong
 
 :   This shrill chant echoes throughout the battlefield.  
-    The special dissonances in the melodies make it almost impossible for magicians to concentrate on their spells.
+    The special dissonances in the melodies make it almost impossible for mages to concentrate on their spells.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
@@ -131,7 +131,7 @@ alias: cerddor-spells
 
 ### Hymn of Aura Sharing
 
-:   With the help of this spell, the magician can transfer his own aura at a ratio of 2:1 to another magician of the same magic area.
+:   With the help of this spell, the mage can transfer his own aura at a ratio of 2:1 to another mage of the same magic area.
 
 | Components | Lvl |  Type  | Rank |             Ship             | Dist. |
 |:----------:|:---:|:------:|:----:|:----------------------------:|:-----:|
@@ -168,7 +168,7 @@ alias: cerddor-spells
 
 ### Create an [Amulet of True Sight][amulet-of-true-sight-id]
 
-:   The spell allows a magician to create an [Amulet of True Sight][amulet-of-true-sight-id].  
+:   The spell allows a mage to create an [Amulet of True Sight][amulet-of-true-sight-id].  
     The amulet allows the wearer to see all units protected by a [Ring of Invisibility][ring-of-invisibility-id].  
     However, units that use their [stealth][skill-stealth-id] skill to hide still remain undetected.
 
@@ -180,7 +180,7 @@ alias: cerddor-spells
 
 ### Create a [Sphere of Invisibility][sphere-of-invisibility-id]
 
-:   With this spell the magician can create a [Sphere of Invisibility][sphere-of-invisibility-id].  
+:   With this spell the mage can create a [Sphere of Invisibility][sphere-of-invisibility-id].  
     The sphere renders its wielder and ninety-nine other people in the same unit invisible.
 
 |                Components                 | Lvl |  Type  | Rank |             Ship             | Dist. |
@@ -203,7 +203,7 @@ alias: cerddor-spells
 ### Calm Monster
 
 :   This mellifluous song can tame almost any intelligent monster.  
-    It will refrain from attacking the magician and will not touch its companions.  
+    It will refrain from attacking the mage and will not touch its companions.  
     But make no mistake, it will still remain an unpredictable creature.
 
 | Components | Lvl |  Type  | Rank |             Ship             | Dist. |
@@ -216,7 +216,7 @@ alias: cerddor-spells
 
 ### Sound out
 
-:   If the unit succumbs to the spell, it will tell the magician everything it knows about the region in question.  
+:   If the unit succumbs to the spell, it will tell the mage everything it knows about the region in question.  
     If there is no one from her faction in the region, she has nothing to report.  
     She can also only tell what she could see herself.
 
@@ -312,7 +312,7 @@ alias: cerddor-spells
 
 ### Summon Familiar
 
-:   At some point in his wanderings, an experienced magician will encounter an unusual specimen of a species that will join the magician.
+:   At some point in his wanderings, an experienced mage will encounter an unusual specimen of a species that will join the mage.
 
 |         Components         | Lvl |  Type  | Rank | Ship | Dist. |
 |:--------------------------:|:---:|:------:|:----:|:----:|:-----:|
@@ -379,7 +379,7 @@ alias: cerddor-spells
 ### Song of Peace
 
 :   This powerful spell prevents any attacks.  
-    Noone in the entire region will be able to raise his weapon against another.  
+    No one in the entire region will be able to raise his weapon against another.  
     The effect can last for weeks.
 
 | Components  | Lvl |  Type  | Rank | Ship | Dist. |
@@ -441,7 +441,7 @@ From "Wanderings" by Firudin the Wise.
 ### Riot
 
 :   By means of this magical chant the mage incites riots in a region.  
-    Rebelling peasant mobs prevent taxation and recruiting and almost noone will pay money for entertainment.  
+    Rebelling peasant mobs prevent taxation and recruiting and almost no one will pay money for entertainment.  
     After a few weeks the mob will calm down again.
 
 | Components | Lvl |  Type  | Rank | Ship |            Dist.             |

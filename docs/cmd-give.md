@@ -3,27 +3,27 @@
 alias: cmd-give
 ---
 
-# GIVE
+# `GIVE`
 
-` `**`GIVE`**` `*`unit_ID amount item`*  
-**`GIVE`**` `*`unit_ID`*` EACH `*`amount`*` `*`item`*  
-**`GIVE`**` `*`unit_ID`*`ALL`  
-**`GIVE`**` `*`unit_ID`*` ALL `*`item`*  
-**`GIVE`**` `*`unit_ID`*`HERBS`  
-**`GIVE`**` `*`unit_ID amount`*`MEN`  
-**`GIVE`**` `*`unit_ID`*`ALL MEN`  
-**`GIVE`**` `*`unit_ID`*`UNIT`  
-**`GIVE`**` `*`unit_ID`*`KOMMANDO`  
-**`GIVE`**` `*`unit_ID amount SHIP`*  
-**`GIVE`**` 0 `*`amount item`*  
-**`GIVE`**` 0 `*`amount`*`MEN`  
-**`GIVE`**` 0 `*`amount`*`SHIP`  
+`GIVE <unit-id> <amount> <item>`  
+`GIVE <unit-id> EACH <amount> <item>`  
+`GIVE <unit-id> ALL`  
+`GIVE <unit-id>  ALL <item>`  
+`GIVE <unit-id> HERBS`  
+`GIVE <unit-id> <amount> MEN`  
+`GIVE <unit-id> ALL MEN`  
+`GIVE <unit-id> UNIT`  
+`GIVE <unit-id> COMMAND`  
+`GIVE <unit-id> <amount> SHIP`  
+`GIVE 0 <amount> <item>`  
+`GIVE 0 <amount> MEN`  
+`GIVE 0 <amount> SHIP`  
 
 The unit transfers items, command of ships or buildings, persons, ships or even itself to other units.
 
 [](){ #give-items-id }
 
-## Items
+## Items transfer
 
 With `GIVE` units can give all the goods they own to other units.
 The condition is that the indicated unit accepts things.  
@@ -89,7 +89,7 @@ END
 ; GIVE TEMP 1 200 Silver  ;  or here!
 ```
 
-## People and units
+## People and units transfers
 
 If you want to bring people from different units together, this is done with `GIVE`*`unit-id`*`anzahl MEN`.  
 **The [[skills]] are then mixed up**, and you **shouldn't forget the items**, as they may go to the farmers if the unit runs out of people.
@@ -114,23 +114,25 @@ UNIT b; Faction Y
 With `GIVE`*`unit-id`*`UNIT` the complete unit with all items is given to another faciton, i.e. it switches to the faction of the recipient unit and is not added to the recipient unit!  
 The unit does not carry out any further orders during the turn!  
 
-## Command
+## Command transfer
 
 If the unit also has a ship or building under its command - i.e. if it is the first listed unit in the ship or building - it can also pass command to another unit.  
 The unit in command determines which other units are allowed to enter the ship or building.  
 
-`GIVE unit COMMAND` should always be used, even if the unit with the command leaves the ship or building and the following unit is to receive the command.  
+`GIVE <unit-id> COMMAND` should always be used, even if the unit with the command leaves the ship or building and the following unit is to receive the command.  
 The order of the units during the evaluation is not always that of the report.  
 New owners of a building are placed in the first position in the building at the end of the round and may therefore only benefit from the building in the following round (e.g. mining bonus).  
 The command cannot be given to units without people (e.g. after a battle, or to "empty" `TEMP` units).
 
-## Convoy
+## Convoy transfer
 
-With `GIVE`*`unit-id`*` `*`number`*`SHIP` the owner of a ship or [convoy][convoy-id] hands over the number of ships.  
+With `GIVE <unit-id> <number> SHIP` the owner of a ship or [convoy][convoy-id] hands over the number of ships.  
 The transferring and receiving units must belong to the same faction; `HELP ALL` or `CONTACT` is not sufficient.  
 If the other unit also owns a ship, a [convoy][convoy-id] is formed.  
 Convoys always consist of ships of the same type.  
-Boats cannot form convoys and the ships must be on the same coast.  
+[Boats][boat] cannot form convoys and the ships must be on the same coast.  
+
+More information: [convoys][convoy].
 
 ## See also
 

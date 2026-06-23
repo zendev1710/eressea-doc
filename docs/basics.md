@@ -20,7 +20,7 @@ The computer report (CR) is a file that is understood by tools such as [Magellan
 We recommend that beginners make their first moves with the normal report and a text editor.  
 The first few commands are rarely more than a dozen lines, and you don't need a tool like Magellan to create them.  
 
-On the contrary, because these tools are designed for managing large parties with hundreds of [units], they have a lot of features that tend to be confusing at first.
+On the contrary, because these tools are designed for managing large factions with hundreds of [units], they have a lot of features that tend to be confusing at first.
 It could distract from the important information that is easier to see in the normal report.  
 
 ## Long and short orders
@@ -49,7 +49,7 @@ Entertainment and taxes are learned quicker than trading, only do [`WORK`][cmd-w
 ## Mage
 
 Each Magic School has a spell at level 1 that produces 50 silver per caster level.  
-If your race does not have a penalty in magic, training magicians early can be worthwhile as an alternative source of income.  
+If your race does not have a penalty in magic, training mages early can be worthwhile as an alternative source of income.  
 But be careful - spells sometime fail.  
 
 <!-- TODO:
@@ -65,7 +65,7 @@ When something is used, for example to make an item or to recruit, who uses it a
 
 Please check the position of the `MOVE` order in the [order sequence][orders-sequence].  
 
-For example, the `ENTERTAIN` order executes before it; with the potential earnings, a boat or unit could be overloaded.  
+For example, the `ENTERTAIN` order executes before it; with the potential earnings, a ship or unit could be overloaded.  
 
 ## New units
 

@@ -72,13 +72,14 @@ Statistik für Cabyn (0,0):
 
 ## Example of an orders file
 
-This orders file, in a slightly modified version, was actually used as the first round in a game (for E3!).
+This orders file, in a slightly modified version, was actually used as the first round in a game (for E3!).  
 I don't know exactly when it started.
 
-Note that orders spanning more than one line.
-here the DESCRIBE order with backslash (//) were used.
+Note that orders spanning more than one line.  
+here the `DESCRIBE` order with backslash (//) were used.  
 However, if you're using [Magellan][magellan-id] for your orders, you don't need to worry about this.
 
+<!-- TODO: translate in english -->
 ```text
 ERESSEA 37wj "pwpw42"
 ; du muss natürlich oben dein eigenes Passwort einsetzen

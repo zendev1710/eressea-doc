@@ -3,7 +3,7 @@
 alias: bef-benutze
 ---
 
-# BENUTZE
+# `BENUTZE`
 
 **`BENUTZE`**`[`*`anzahl`*`] "`*`Trank`*`" [`*`einheit-nr`*`]`  
 **`BENUTZE`**`[`*`anzahl`*`] "`*`Gegenstand`*`" [...]`  

@@ -3,7 +3,7 @@
 alias: cmd-learn-auto
 ---
 
-# LEARN AUTO
+# `LEARN AUTO`
 
 **`LEARN AUTO`**` `*`skill`*  
 

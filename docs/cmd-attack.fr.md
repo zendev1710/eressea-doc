@@ -3,9 +3,9 @@
 alias: cmd-attack-fr
 ---
 
-# ATTACK
+# `ATTACK`
 
-**ATTACK**&nbps;&lt;unit-id&gt; [^1]  
+**ATTACK**&nbsp;&lt;unit-id&gt; [^1]  
 
 Ordre pseudo-long [^1].  
 

@@ -82,6 +82,7 @@ Herbs will rot with time.
 
 ## Herbs - Summary
 
+<!-- TODO: remove duplicate information with the one in potions-and-herbs.md -->
 *List of herbs and their distribution.*
 
 | Region                 | Herbs                                                                    |

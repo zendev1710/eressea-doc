@@ -2,7 +2,7 @@
 # cSpell:locale de
 alias: bef-passwort
 ---
-# PASSWORT
+# `PASSWORT`
 
 **`PASSWORT`**`["neues-passwort"]`
 

@@ -3,7 +3,7 @@
 alias: cmd-combat
 ---
 
-# COMBAT
+# `COMBAT`
 
 **`COMBAT`**`FRONT`  
 **`COMBAT`**`AGGRESSIVE`  
@@ -37,7 +37,7 @@ The unit attempts to flee when it has less than or equal to 20% of its hit point
 ## `COMBAT DEFENSIV`
 
 Like `COMBAT REAR`, but the unit will flee if it still has 90% of its hit points.  
-This is used with advantage for magicians.  
+This is used with advantage for mages.  
 
 ## `COMBAT NOT`
 
@@ -61,7 +61,7 @@ Units with the combat status can still move after combat (with [`MOVE`][cmd-move
 
 !!! warning "Caution"
     Units with `COMBAT FLEE` or `COMBAT NOT` will fight if they are attacked and the first two rows are overrun.  
-    That means magicians also do magic.  
+    That means mages also do magic.  
     Pre-and post-combat spells are (currently) cast even if the front lines are not overrun.  
     If you want to prevent this, you can deactivate the [combat spell status][cmd-combatspell].  
 

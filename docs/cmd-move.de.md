@@ -3,7 +3,7 @@
 alias: bef-nach
 ---
 
-# NACH
+# `NACH`
 
 *[Langer Befehl][kurze-und-lange-befehle].*
 

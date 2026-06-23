@@ -120,8 +120,10 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 <!-- cspell:enable -->
 
 :   Ce sort permet au mage de protéger comme par magie les insectes du froid paralysant des glaciers.  
-    Vous pouvez entrer dans les glaciers et y agir normalement. Le dicton fonctionne au niveau*10 insectes.  
-    Un anneau de pouvoir augmente le nombre d'insectes enchantables de 10 supplémentaires.
+    Les insectes soumis à l'enchantement peuvent entrer dans les glaciers et y agir normalement.  
+    Le nombre d'insectes concernés est de **10 par niveau**.  
+
+    Un [Anneau de Pouvoir][anneau-de-pouvoir-id]{title="Ring of Power"} augmente de 10 le nombre d'insectes supplémentaires soumis à l'enchantement.
 
 | Composants | Niv. |  Type  | Rang |              B               | D |
 |:----------:|:----:|:------:|:----:|:----------------------------:|:-:|
@@ -513,7 +515,7 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 `CAST [LEVEL n] "Awakening of the Ents"`  
 
-### Invocation du damilier
+### Invocation du familier
 
 <!-- cspell:disable -->
 *Summon Familiar (EN), Vertrauten rufen (DE)*.
@@ -609,8 +611,8 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 *Roots of Magic (EN), Wurzeln der Magie (DE)*.
 <!-- cspell:enable -->
 
-:   À l'aide de ce rituel élaboré, le druide permet à une partie de son pouvoir de circuler en permanence dans les sols et les forêts de la région.  
-    Cela modifiera à jamais l’équilibre naturel de la région et, à l’avenir, seules les majornas exigeantes mais fortes prospéreront dans la région.
+:   À l'aide de ce rituel élaboré, le druide canalise de façon permanente une partie de son pouvoir dans le sol et les forêts de la région.  
+    Cela modifiera à jamais l’équilibre naturel de la région et, à l’avenir, seuls les arbres mallorns exigeants mais robustes pourront y prospérer.
 
 |                       Composants                        | Niv. |  Type  | Rang | B |              D               |
 |:-------------------------------------------------------:|:----:|:------:|:----:|:-:|:----------------------------:|

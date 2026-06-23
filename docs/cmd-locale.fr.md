@@ -2,7 +2,7 @@
 # cSpell:locale fr
 alias: cmd-locale-fr
 ---
-# LOCALE
+# `LOCALE`
 
 **`LOCALE`**`en`  
 **`LOCALE`**`de`  

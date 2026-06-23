@@ -29,16 +29,19 @@ Potions that affect a unit's items expire if they cannot be used because the uni
 
 See [Alchemy][alchemy-id].
 
-List of herbs and their distribution.
-<!-- TODO: bad list -->
-| Herbs                                                                              | spread       |
-|------------------------------------------------------------------------------------|--------------|
-| Flachwurz, Spicy Daring, Owl's Eye, Green Spinnerich, Blauer Baumringel, Elfenlieb | Forest/plain |
-| Garglewort, Knotty Suckerwort, Bladder Morel                                       | swamp        |
-| Water finder, cactus sweat, sand rot                                               | desert       |
-| fjord fungus, mandrakes, windbag                                                   | Highlands    |
-| Stonebiter, cleavage wax, cave glow                                                | Mountains    |
-| Ice Flower, White Rager, Snow Crystal                                              | Glacier      |
+<!-- TODO: remove duplicate information with the one in herbs.md -->
+*List of herbs and their distribution.*
+
+| Region                 | Herbs                                                                    |
+|------------------------|--------------------------------------------------------------------------|
+| [Desert][desert-id]    | waterfinder, peyote, sand reeker                                         |
+| [Forest][forest]       | flatroot, tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
+| [Glacier][glacier-id]  | ice begonia, white hemlock, snowcrystal petal                            |
+| [Highlands][highlands] | windbag, fjord fungus, mandrake                                          |
+| [Mountain][mountain]   | rock weed, gapgrowth, cave lichen                                        |
+| [Plain][plain]         | flatroot, tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
+| [Swamp][swamp]         | bugleweed, knotroot, bubblemorel                                         |
+| [Volcano][volcano]     | --                                                                       |
 
 See [Alchemy][alchemy-id].
 

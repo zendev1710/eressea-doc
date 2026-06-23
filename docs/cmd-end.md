@@ -2,7 +2,7 @@
 # cSpell:locale en
 alias: cmd-end
 ---
-# END
+# `END`
 
 **`END`**
 

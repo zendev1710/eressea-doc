@@ -187,21 +187,21 @@ The vast majority includes races and combat rules.
   - Cats get an RdU
   - Goblins get a starting unit that is 10 and not just one person, as well as an RdU
   - Insects receive nine nest warming potions, enough to recruit for a winter
-  - Aquarians get a boat and 30 days of learning how to sail
+  - Aquarians get a [boat][boat] and 30 days of learning how to sail
   - Humans get a fortification (at that time it only consisted of 2 stones)
   - Halflings get a chariot, two horses, five luxury goods of each type and T1 riding
   - Trolls get 10 stones and Perception T3
   - Demons get T15 stamina
 - Firewalls are introduced as new region types
 
-### The "Magician Reform" 08.04.2000 (Round 184)
+### The "Mage Reform" 08.04.2000 (Round 184)
 
 - The hitherto universal magic area Lirpa (The name originally comes from an April Fool's joke announcement, but after the introduction of the new magic areas it quickly became a common name for 'the old magic') is replaced by Draig, Illaun, Tybied, Gwyrrd and Cerddor.  
   The reform means a drastic weakening of magic, especially by eliminating the spell Sunfire, whose effect cannot be compared to any combat spell known today.
-- `RESEARCH` according to sayings is omitted. A magician can cast all spells in his magic area with a level less than or equal to his magic talent
+- `RESEARCH` according to sayings is omitted. A mage can cast all spells in his magic area with a level less than or equal to his magic skill
 - Learning magic becomes significantly more expensive (50+50*(1+level)*Level/2), especially at high levels. Previously it always cost 200 silver
 - Instead of one spell per round, Aura is introduced. This means that it is now possible to cast several spells in a week, with a significant increase in aura costs
-- Only magicians of the same magic area can teach each other
+- Only mages of the same magic area can teach each other
 - When learning magic for the first time you have to choose an area with `LEARN MAGIC "<Magic School>"`
 - The hit points of all units are doubled
 - The weapon damage of normal weapons is increased by approximately 25%. Multi-component weapons and those made from rare raw materials increase their damage more
@@ -235,27 +235,27 @@ However, many other larger and smaller changes afterwards proved the opposite.
   The pawn smoothing was announced at short notice, but the exact formula was not.
   This change also causes a lot of turmoil among the players, as many (all the pawns lost) feel treated unfairly.
 - Along with the pawn smoothing, orcs lost their reproduction rate of 5%.
-  All existing Orc units have been converted into Snootlings; they can only learn combat-relevant talents up to t7.
+  All existing Orc units have been converted into Snootlings; they can only learn combat-relevant skills up to t7.
   Since the change, orcs are only subtracted 1 to 2 from the farmers when recruiting and handed over to the farmers 2 to 1, Snootlings do not bring any pawns when handed over to 0 (is that right?).
   The handover of the old orcs to the farmers took place in the order of command BEFORE the pawn smoothing in order to prevent orcs from cheating their way into an advantage.
   Of course, many players overlooked this announcement and there was a lot of controversy here too.
   The players' ongoing complaints about rule changes are generally considered to be the reason for Corwin's exit from Eressea and for the announcement of the development freeze, which was never adhered to.
-  In order to maintain a small degree of the skill dilution that was the case with the orc increase, from this point onwards orcs simply do not learn a non-combat talent with a 5% probability.
+  In order to maintain a small degree of the skill dilution that was the case with the orc increase, from this point onwards orcs simply do not learn a non-combat skill with a 5% probability.
   The tactics bonus of +1 for orcs remains despite the lack of dilution (In my opinion, a major oversight on the part of the game management, but no one asked me back then [Xolgrim])
 - Learning days are replaced by learning probabilities, watering down skills now has a drastically worse effect on the skills of the units (this part needs to be written in much more detail, but I don't have time for [Xolgrim] right now)
 - The wood growth is completely overturned and drastically reduced.
   Instead of a weekly tree increase of 5% (that was at least 30 wood in a 600-meter forest, with a sawmill 60 wood per week that could be cut down all year round), trees are divided into seeds, saplings and trees.
   Trees throw seeds in the spring and summer, these grow into saplings in the spring of the next year and then become trees the following spring.
 - Stone, iron and laen can now appear in all types of regions, no longer just in mountains and glaciers
-- Stones must be extracted in layers; the height of the layer that can be extracted corresponds to the skill of the quarrrying unit.
+- Stones must be extracted in layers; the height of the layer that can be extracted corresponds to the skill of the quarrying unit.
   The first layer always starts at level 1 in mountains and glaciers, but in other regions it can be higher.
   Stones used to not accumulate, you could mine 100 per level in a mountain (with a quarry 200, trolls more) per level, if you didn't do this the stones were lost.
   So it was more worthwhile to produce without a quarry than to wait until one was built.
-- Iron must be mined in layers; the height of the layer that can be mined corresponds to the talent of the mining unit.
+- Iron must be mined in layers; the height of the layer that can be mined corresponds to the skill of the mining unit.
   In mountains the first layer always starts at level 1, in other regions this can be higher.
   Iron didn't accumulate in the past, you could mine 50 per level in a mountain (with mines 100, dwarves more).
   If you didn't do this, the iron accumulated in the mountain and you could mine it later.
-- Laen must be mined in 'layers', the level of the layer that can be mined corresponds to the talent of the mining unit.
+- Laen must be mined in 'layers', the level of the layer that can be mined corresponds to the skill of the mining unit.
   The first layer always starts at level 7 in Bergen, but in other regions it can be higher.
   Laen did not accumulate in the past, a small amount that was subject to strong fluctuations could be mined in mountains.
   If this was not done, the laen accumulated and could be mined later.
@@ -292,7 +292,7 @@ However, most of the new players, disparagingly referred to as BRAVO kiddies by 
 
 02.06.2002
 
-- Catapult ammunition is introduced. This can be produced from stones using MAKE CATAPULT AMMUNITION by a stone builder with talent 3 and weighs 10 weight units. One ammunition unit corresponds to a volley of six shots
+- Catapult ammunition is introduced. This can be produced from stones using `MAKE CATAPULT AMMUNITION` by a stone builder with skill 3 and weighs 10 weight units. One ammunition unit corresponds to a volley of six shots
 - Units in the astral plane cost normal maintenance (previously there was no maintenance in the astral space)
 
 Date unknown.
@@ -305,9 +305,9 @@ Date unknown.
 - After a while, undead turn into super undead at a rate of 10 to 1.
   A little later the conversion ratio is set to 2 to 1
 - Tacticians now receive a random bonus to their skill
-- Dwarven recruitment costs increased from 90 to 110
+- Dwarves recruitment costs increased from 90 to 110
 - Volcanoes are introduced as new region types
-- The maximum talent level will be increased from 32 to 64 as units from the old world break this mark for the first time.
+- The maximum skill level will be increased from 32 to 64 as units from the old world break this mark for the first time.
   The programmers had not expected that a unit would ever reach such a high level.
 - The glacial barriers of the old worlds (first 1-3 then 4+5) are starting to melt.
   Icebergs break free from the glacier barriers and float around until they melt
@@ -323,14 +323,14 @@ October 2003 - Registration closed
 
 - The effects of skill differences are halved (hit chance +-5% instead of +-10%, +1 damage point instead of +2)
 - The cost of some powerful weapons will be increased. Elven bows now cost 2 mallorn instead of 1, halberds 2 wood and 1 iron instead of 1 wood and 1 iron
-- Demons now starve like other races (talent reduction and life points)
+- Demons now starve like other races (skill reduction and life points)
 - The 1st row becomes easier to overrun in combat. This now happens at a ratio of 3:1 (instead of the previous 10:1)
 - The regeneration of life points is slowed down
 - Swimming Aquarians can no longer transport other races
 - Heroes are introduced.
   A unit can use the `TRANSPORTATION` order be made into a hero unit.
   Heroes deal ten times more blows in combat, but otherwise behave normally and are indistinguishable from normal units to the enemy.
-  The number of heroes a party can have is severely limited and follows the same formula as migrants (log10(party size÷50)×20).
+  The number of heroes a faction can have is severely limited and follows the same formula as migrants (log10(faction size÷50)×20).
 
 17.04.2005 - RESTART, weights, etc.
 
@@ -351,7 +351,7 @@ October 2003 - Registration closed
 
 - Players from factions that are at least 150 rounds old are allowed to start a second faction
 - Faction handovers are prohibited.
-  This is a reaction to the fact that after faction surrenders there was often trouble (due to multiple play or the enemy taking over parties in an alliance), which meant work and frustration for the game management
+  This is a reaction to the fact that after faction surrenders there was often trouble (due to multiple play or the enemy taking over factions in an alliance), which meant work and frustration for the game management
 - Dying factions hand over their items to friendly factions (`HELP ALL`)
 
 13.09.2005 - Movement after fight
@@ -373,7 +373,7 @@ October 2003 - Registration closed
 
 11.02.2008 - Material und Silberpool
 
-- Material and silver pool are active for all parties (previously they were optional)
+- Material and silver pool are active for all factions (previously they were optional)
 
 02.03.2008 - After articles have only been published very irregularly in recent months, the last issue of [Xontormia Express][xontormia-express-id] is being published.
 

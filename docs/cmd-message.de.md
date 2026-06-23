@@ -2,7 +2,7 @@
 # cSpell:locale de
 alias: bef-botschaft
 ---
-# BOTSCHAFT
+# `BOTSCHAFT`
 
 **`BOTSCHAFT`**` EINHEIT `*`einh-nr`*`"`*`text`*`"`  
 **`BOTSCHAFT`**` PARTEI `*`partei-nr`*`"`*`text`*`"`  

@@ -12,13 +12,17 @@
 #!talent
 #!talents
 #!zone
+antimagiques
+aquarien
 Aquarien
 aquariens
 Aquariens
+arcaniques
 dracoïdes
 épicuticulaire
 Éresséen
 Éresséens
+halfelins
 Halfelins
 highlands
 Magistra

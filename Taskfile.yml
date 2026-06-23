@@ -54,16 +54,47 @@ tasks:
 
   # into a git bash or WSL shell
   lint:md:
+    desc: Lint all the markdown files with markdownlint
+    cmds:
+      - markdownlint-cli2 "docs/*.md"
+
+  lint:link:
+    desc: Lint all the markdown links with markdown-link-check
+    cmds:
+      - markdown-link-check --quiet docs
+
+  lint:spell:
+    desc: Spell check all the markdown files with cspell
+    cmds:
+      - cspell lint docs -c cspell.yml
+
+  lint:spell-fr:
+    desc: Spell check all the french markdown files with cspell
+    cmds:
+      - cspell lint docs/*.fr.md -c cspell.yml
+
+  lint:spell-de:
+    desc: Spell check all the german markdown files with cspell
+    cmds:
+      - cspell lint docs/*.de.md -c cspell.yml
+
+  lint:spell-en:
+    desc: Spell check all the english markdown files with cspell
+    cmds:
+      - cspell lint "docs/*.md" -c cspell.yml -e *.fr.md -e *.de.md
+
+  # into a git bash or WSL shell
+  lint:md-on-changes:
     desc: Lint the modified markdown files with markdownlint (exit status code 2 if no modified files, 1 for an error, 0 otherwise)
     cmds:
       - "if [[ -n \"{{.MODIFIED_FILES}}\" ]]; then markdownlint-cli2 {{.MODIFIED_FILES_INLINE}}; else echo 'no modified markdown, lint ignored'; exit 2; fi"
 
-  lint:spell:
+  lint:spell-changes:
     desc: Spell check the modified markdown files with cspell (exit status code 2 if no modified files, 1 for an error, 0 otherwise)
     cmds:
       - "if [[ -n \"{{.MODIFIED_FILES}}\" ]]; then echo \"{{.MODIFIED_FILES}}\" | cspell lint -c cspell.yml --file-list stdin; else echo 'no modified markdown, lint ignored'; exit 2; fi"
 
-  lint:link:
+  lint:link-changes:
     desc: Lint the modified markdown links with markdown-link-check (exit status code 2 if no modified files, 1 for an error, 0 otherwise)
     cmds:
       - "if [[ -n \"{{.MODIFIED_FILES}}\" ]]; then echo \"{{.MODIFIED_FILES}}\" | xargs -l1 markdown-link-check --quiet -c .markdown-link-check.json; else echo 'no modified markdown, lint ignored'; exit 2; fi"

@@ -3,7 +3,7 @@
 alias: bef-kommentar-mit-schraegstrichen
 ---
 
-# KOMMENTAR (//)
+# `//`
 
 **`//`**` `*`Kommentar`*
 

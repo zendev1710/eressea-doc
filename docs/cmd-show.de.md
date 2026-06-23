@@ -2,7 +2,7 @@
 # cSpell:locale de
 alias: bef-zeige
 ---
-# ZEIGE
+# `ZEIGE`
 
 **`ZEIGE`**`"Zauberspruch"`  
 **`ZEIGE`**`"Gegenstand"`  

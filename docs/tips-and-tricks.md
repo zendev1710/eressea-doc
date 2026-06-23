@@ -22,7 +22,7 @@ Un calcul rapide montre qu'un guerrier équipé d'un bouclier, d'une armure et d
 C'est pourquoi, autrefois, les chevaliers avaient des écuyers – et dans Eressea, des chevaux.
 
 Pour chaque tranche de 20 lbs de poids excédentaire, on équipe l'unité d'un cheval, et les troupes peuvent à nouveau se déplacer.
-Comme mentionné [ici](#you-dont-always-have-to-be-able-to-ride-a-horse), il n'est même pas nécessaire de savoir monter à cheval.
+Comme [déjà mentionné][you-dont-always-have-to-be-able-to-ride-a-horse], il n'est même pas nécessaire de savoir monter à cheval.
 On peut également équiper 100 hommes de 70 armure de plaques et de 30 [cotte de mailles]; l'équipement de l'unité pèse alors exactement 540 lbs, soit sa capacité de charge maximale.
 
 > Si l'adversaire inflige des dégâts très élevés par coup, il peut être préférable de remplacer l'armure de plates par une cotte de mailles, voire de l'omettre complètement, car sinon la probabilité de coup plus élevée n'est pas compensée par la protection de l'armure.
@@ -76,7 +76,7 @@ Il est important que l'entrepôt soit prioritaire car [`RESERVE`][cmd-reserve] p
 
 ## Escaping death by starvation
 
-L'ordre d'affichage des unités d'une faction dans un rapport définit la priorité à s'accapparer la nourriture.
+L'ordre d'affichage des unités d'une faction dans un rapport définit la priorité à s'accaparer la nourriture.
 Les mages, les percepteurs, les tacticiens et autres unités importantes doivent donc être placés le plus haut possible.
 L'argent est presque toujours distribué du haut vers le bas (bien que cela ne soit pas garanti par le Maître de Jeu !).
 
@@ -111,7 +111,7 @@ END
 GIVE neu COMMAND
 ```
 
-L'unité vide transmet fidèlement l'ordre à l'unité appropriée et la nouvelle unité TEMP prend le relais de l'ancienne (avec un nouvel identifiant).
+L'unité vide transmet fidèlement l'ordre à l'unité appropriée et la nouvelle unité `TEMP` prend le relais de l'ancienne (avec un nouvel identifiant).
 
 ## My ship can't sail even though it's not overloaded
 

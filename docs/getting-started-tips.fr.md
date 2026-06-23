@@ -107,12 +107,12 @@ Utilisez l'ordre [`MESSAGE REGION`][cmd-message-fr] pour signaler votre présenc
 Pour atteindre vos objectifs, ne lésinez pas sur les dépenses.  
 Le capital de départ est destiné à l'investissement.  
 Le premier mineur produit du fer à grande échelle, le deuxième forge des épées et le troisième entraîne des guerriers.  
-De plus, vous pouvez entreprendre diverses autres tâches : cartographier, former des mages, construire des navires, bâtir un château, fonder une guilde de voleurs, créer une petite caravane commerciale avec des chevaux et des chariots...  
+De plus, vous pouvez entreprendre diverses autres tâches : cartographier, former des mages, construire des bateaux, bâtir un château, fonder une guilde de voleurs, créer une petite caravane commerciale avec des chevaux et des chariots...  
 Pour ces tâches, vous pouvez créer de nouvelles unités.  
 
 Il faut éviter les guerres, surtout dans la phase initiale : les unités précieuses sont perdues trop rapidement, les revenus sont trop faibles ou les approvisionnements en matériaux s'épuisent.  
 
-Si vous êtes en contact avec une faction puissante, essauez de lui vendre quelque chose.  
+Si vous êtes en contact avec une faction puissante, essayez de lui vendre quelque chose.  
 Essayez d'abattre des arbres, d'extraire des pierres ou du fer.  
 Il est judicieux de localiser ou de construire deux châteaux pour commercer entre eux.  
 Pour cela, vous aurez besoin de marchands et de chariots.  

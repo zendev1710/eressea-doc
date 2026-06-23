@@ -3,7 +3,7 @@
 alias: bef-sortiere
 ---
 
-# SORTIERE
+# `SORTIERE`
 
 **`SORTIERE`**` VOR `*`einheit-nr`*  
 **`SORTIERE`**` HINTER `*`einheit-nr`*  

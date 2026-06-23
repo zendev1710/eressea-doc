@@ -2,7 +2,7 @@
 # cSpell:locale en
 alias: cmd-name
 ---
-# NAME
+# `NAME`
 
 **`NAME UNIT "<name>"`**  
 **`NAME FOREIGN UNIT <unit-id> "<name>"`**  

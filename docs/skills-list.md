@@ -27,7 +27,7 @@ Produce iron, laen, and adamantium plates (see [items][items-id]).
 
 ## Bow
 
-With a bow: fight. With the taxation skill: collect taxes (TAX).
+With a bow: fight. With the taxation skill: collect taxes (`TAX`).
 
 [](){ #skill-cartmaking-id }
 
@@ -45,7 +45,7 @@ With a catapult and ammunition: fight. Can't be used to collect taxes.
 
 ## Crossbow
 
-With a crossbow: fight. With the taxation skill: collect taxes (TAX).
+With a crossbow: fight. With the taxation skill: collect taxes (`TAX`).
 
 [](){ #skill-endurance-id }
 
@@ -96,7 +96,7 @@ Build [castles and other buildings][buildings-id].
 
 ## Melee
 
-With a "melee" weapon (sword, claymore, axe, laensword): fight. With the taxation skill: collect taxes (TAX).
+With a melee weapon (sword, claymore, axe, laen sword): fight. With the taxation skill: collect taxes (`TAX`).
 
 [](){ #skill-mining-id }
 
@@ -124,7 +124,7 @@ The unit is always on the lookout for camouflaged units. For example this allows
 
 ## Polearm
 
-With a polearm (spear, mallorn spear, lance, mallorn lance, halberd): fight. With the taxation skill: collect taxes (TAX).
+With a polearm (spear, mallorn spear, lance, mallorn lance, halberd): fight. With the taxation skill: collect taxes (`TAX`).
 
 [](){ #skill-quarrying-id }
 
@@ -150,7 +150,9 @@ Building [roads][roads-id] from stones. One stone can be built per person and sk
 
 ## Sailing
 
-With a ship: allows you to sail. All units on the ship with sailing skill count as crew.
+With a ship: allows you to [sail][sailing-id].  
+
+All units on the ship with sailing skill count as crew.  
 
 [](){ #skill-shipcraft-id }
 

@@ -68,29 +68,29 @@ Exemple :
 Il est préférable d'analyser le CR ligne par ligne.  
 Après avoir lu une ligne, on vérifie d'abord s'il s'agit d'un bloc : les blocs sont les seuls qui commencent par une lettre.  
 S'il ne s'agit pas d'un attribut mais qu'il commence par un `-` ou un nombre, il s'agit alors d'un attribut entier.  
-Si cela commence par un `"`, il s'agit d'une entrée de chaîne ou de liste.  
+Si cela commence par un `"`, il s'agit d'une entrée de chaîne ou de liste.
 
 ### À propos des blocs
 
 Vous analysez les blocs en lisant le nom du bloc (jusqu'au premier espace) puis les identifiants séparés par des espaces.  
-Faites attention aux éventuels commentaires (pour les CR Eressea antérieurs à la version 36) !  
+Faites attention aux éventuels commentaires (pour les CR Eressea antérieurs à la version 36) !
 
 ### Attributs de type Integer
 
 Identifiez le nombre en recherchant jusqu'à trouver un `;`.  
 Lisez ensuite le nom de la balise jusqu'à la fin de la ligne.  
-Veuillez noter qu'il peut encore y avoir des espaces à la fin de la ligne ou autour du `;` pourrait rester là.  
+Veuillez noter qu'il peut encore y avoir des espaces à la fin de la ligne ou autour du `;` pourrait rester là.
 
 ### À propos des entrées de liste
 
 Lisez jusqu'au prochain `"`.  
 Attention, il peut certainement y avoir des points-virgules dans la chaîne.  
-Si le `"` n'est plus suivi d'un point-virgule, c'est un élément de liste, sinon c'est un attribut de chaîne.  
+Si le `"` n'est plus suivi d'un point-virgule, c'est un élément de liste, sinon c'est un attribut de chaîne.
 
 ### Attributs de type String
 
 La chaîne a déjà été lue donc sautez le `;` , et trouvez le nom de la balise.  
-Encore une fois, faites attention aux espaces autour du point-virgule ou en fin de ligne.  
+Encore une fois, faites attention aux espaces autour du point-virgule ou en fin de ligne.
 
 ### Pièges à éviter
 

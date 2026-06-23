@@ -276,7 +276,7 @@ L'apprentissage de la magie [coûte de l'argent][magie] par personne et par tour
 *Melee (EN), Hiebwaffen (DE)*.
 <!-- cspell:enable -->
 
-Capacité à se battre avec une arme de mêlée (sword, claymore, axe, laensword).  
+Capacité à se battre avec une arme de mêlée (épée, claymore, hache de guerre, épée en laen).  
 
 Une unité ayant acquis cette compétence et équipée d'arme(s) de mêlée peut [collecter les impôts][cmd-tax-fr], à condition d'avoir également acquis la compétence de [taxation][skill-taxation-fr-id].  
 
@@ -355,7 +355,12 @@ Avec un bow (arc) : se battre. Avec en plus la compétence taxation : collecte
 *Catapult (EN), Katapultbedienung (DE)*.
 <!-- cspell:enable -->
 
-Avec une catapulte et des munitions : se battre. On ne peut pas taxer avec.
+Avec une catapulte et des munitions : se battre.  
+
+<!-- TODO ->
+<!-- Ma maîtrise de cette compétence associée à une catapulte ne permet pas de [collecter les impôts][skillètaxation-fr-id]. -->
+
+[](){ #skill-voile-id }
 
 ## Voile
 
@@ -365,9 +370,9 @@ Avec une catapulte et des munitions : se battre. On ne peut pas taxer avec.
 
 Capacité à naviguer.  
 
-Avec un bateau : permet de naviguer.  
+Avec un bateau : permet de [naviguer][naviguer]..  
 
-Toutes les unités sur le bateau ayant acquis cette compétence comptent dans l'équipage.
+Toutes les unités sur le bateau ayant acquis cette compétence comptent dans l'équipage.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente/fr&oldid=15211] -->
 

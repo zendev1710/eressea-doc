@@ -9,7 +9,7 @@ alias:
 
 [](){ #cmd-group-fr-id }
 
-# GROUP
+# `GROUP`
 
 **`GROUP`**`["`*`name`*`"]`  
 

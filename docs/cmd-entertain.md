@@ -3,7 +3,7 @@
 alias: cmd-entertain
 ---
 
-# ENTERTAIN
+# `ENTERTAIN`
 
 **`ENTERTAIN`**`[`*`Amount`*`]`  
 

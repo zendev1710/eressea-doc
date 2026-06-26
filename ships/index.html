@@ -1991,10 +1991,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#voir-aussi" class="md-nav__link">
+  <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Voir aussi
+        See also
       
     </span>
   </a>
@@ -7282,7 +7282,7 @@
   <span class="md-ellipsis">
     
   
-    Pot of toadslime
+    Pot of Toadslime
   
 
     
@@ -7868,10 +7868,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#voir-aussi" class="md-nav__link">
+  <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Voir aussi
+        See also
       
     </span>
   </a>
@@ -7988,9 +7988,10 @@ A unit can use per round this number of woods : <code>skill level X people / min
 The captain determines which other units are allowed to board the ship.<br />
 He may <a href="../cmd-name/">rename</a> or <a href="../cmd-describe/">describe</a> the ship, and also counts as crew.</p>
 <p>Unlike buildings, ships cannot be expanded.<br />
-So once you start building a longboat, you won't be able to convert it into a caravel later.</p>
+So once you start building a <a class="autorefs autorefs-internal" href="#longboat">longboat</a>, you won't be able to convert it into a <a class="autorefs autorefs-internal" href="#caravel">caravel</a> later.</p>
 <p>Newly built ships are not located on any coast and can therefore sail to any neighboring ocean region.</p>
 <h2 id="ship-types">Ship types<a class="headerlink" href="#ship-types" title="Permanent link">&para;</a></h2>
+<!-- TODO: add information  -->
 <h3 id="boat">Boat<a class="headerlink" href="#boat" title="Permanent link">&para;</a></h3>
 <h3 id="longboat">Longboat<a class="headerlink" href="#longboat" title="Permanent link">&para;</a></h3>
 <h3 id="dragonship">Dragonship<a class="headerlink" href="#dragonship" title="Permanent link">&para;</a></h3>
@@ -8087,47 +8088,52 @@ So once you start building a longboat, you won't be able to convert it into a ca
 </table>
 <p><a href="" id="convoy-id"></a></p>
 <h2 id="convoy">Convoy<a class="headerlink" href="#convoy" title="Permanent link">&para;</a></h2>
-<!-- TODO: translate from french -->
-<p>De la même manière que l'on peut avoir plusieurs personnes dans une unité, les convois sont composés de plusieurs bateaux du même type, par exemple</p>
-<div class="highlight"><pre><span></span><code>Karavelle (2seh), 73 Karavellen, (12776/85410), 61% damaged.
-</code></pre></div>
-<p>Pour cela, on remet à l'unité propriétaire d'un bateau un ou plusieurs bateaux du même type avec l'ordre GIVE capt 1 SHIP.
-L'unité cible devient le commandant d'un convoi.
-L'unité remettante et l'unité réceptrice doivent appartenir à la même faction, HELP ALL ou CONTACT ne suffisent pas.
-L'unité propriétaire d'un convoi commande tous ses bateaux ensemble et doit pour cela avoir le niveau de compétence minimum pour le type de bateau et une personne par bateau.
-La compétence totale de l'équipage doit également être un multiple correspondant au nombre de bateaux.
-La portée correspond à celle du type de bateau, les dégâts maximums et la charge utile augmentent en fonction du nombre de bateaux.</p>
-<p>Exemple :</p>
-<p>un convoi de 3 caravelles nécessite un capitaine d'au moins 3 personnes avec Sailing T3 et un équipage avec 90 niveaux de compétence au total.
-Comme précédemment, elles ont une portée de 5 cases, mais une capacité de 9000 lbs.
-La configuration suivante, par exemple, est donc autorisée et en état de naviguer :</p>
+<p>In the same way that you can have several people in a unit, convoys are made up of several ships <strong>of the same type</strong>.<br />
+It is therefore not permitted, for example, to form a convoy made up of triremes and caravels.</p>
+<p>To form a convoy, the unit owning a ship is given one or more ships of the same type with the <a href="../cmd-give/"><code>GIVE &lt;target-captain-id&gt; 1 SHIP</code></a> order.<br />
+The target unit becomes the commander of a convoy.  </p>
+<p>Source and target units <strong>must belong to the same faction</strong>.</p>
+<p>The command unit can then direct all the ships in its convoy, provided that it has:</p>
+<ul>
+<li>The level of <a class="autorefs autorefs-internal" href="../skills-list/#sailing">sailing</a> skill required for the type of ship</li>
+<li>At least as many people as ships in the convoy</li>
+</ul>
+<p>The total crew sailing skill must also be a multiple corresponding to the number of ships.</p>
+<p>The range of the convoy corresponds to that of the ship type; Maximum damage and payload increase with the number of ships.</p>
+<p><strong>Example:</strong></p>
+<p>A convoy of 3 caravels requires a captain of at least 3 people T3 in <a class="autorefs autorefs-internal" href="../skills-list/#sailing">sailing</a>, and a crew with 90 skill levels in total.<br />
+As before, they have a range of 5 ocean regions, but a capacity of 9,000 lbs.<br />
+The following configuration, for example, is therefore authorized and safe to navigate:</p>
 <div class="highlight"><pre><span></span><code>Caravel (2seh), 3 Caravels, (9000/9000).
     * Kapitänsteam (k29), 3 Humans, Skill: Sailing 3.
     * Besatzung (2ztf), 9 Humans, Skill: Sailing 9.
     * Horde (770L), 888 Humans.
 </code></pre></div>
-<p>Comme on peut le voir, il est donc possible de déplacer de grandes unités dans un convoi sans les répartir sur des bateaux individuels.
-Pour le reste, les convois se comportent comme un bateau normal.
-Par exemple, le convoi entier part à la dérive ensemble, subit des dégâts dans son ensemble et le commandement peut être transféré.</p>
-<p>Les "boats" sont exclus de cette règle et les bateaux d'un convoi doivent être du même type, il n'est donc pas permis, par exemple, de mélanger des trirèmes et des caravelles.</p>
-<p>Les bateaux endommagés ou incomplets peuvent également être transférés, leur état se répercute alors proportionnellement sur le convoi.
-Si un bateau avec 8% de dommages est remis à un convoi de 3 bateaux, le convoi se compose ensuite de 4 bateaux avec 2% de dommages.
-Si un seul bateau en construction est remis, tout le convoi est ensuite en construction et ne peut naviguer qu'une fois terminé.
-Un bateau achevé à 50% (en construction) et un bateau achevé donne deux bateaux achevés à 75% (en construction).</p>
-<p>Le même ordre permet également de détacher des bateaux d'un convoi.
-Les bateaux ou les convois de l'unité donneuse et de l'unité réceptrice doivent se trouver sur la même côte ou sur l'océan.
-L'unité réceptrice doit soit être capitaine d'un bateau — dans ce cas, le bateau est ajouté à son convoi — soit être sur le même bateau que l'unité donneuse, soit ne pas être dans un bateau ou dans un bâtiment.</p>
-<p>On peut aussi donner des bateaux aux paysans : GIVE 0 2 SHIP crée un nouveau convoi avec 2 bateaux, sur lequel il n'y a personne.
-À terre, un commandant de convoi ne peut pas remettre tous ses bateaux aux paysans, il doit toujours en garder au moins un.</p>
-<p>Si, après le transfert, l'unité transférée n'a plus de bateaux, toutes les unités qui l'accompagnaient auparavant passent automatiquement sur les bateaux de l'unité de destination.</p>
-<p>Les convois ne peuvent pas être enchantés, les bateaux enchantés ne peuvent pas être transférés et aucun bateau ne peut être transféré aux propriétaires de bateaux enchantés.</p>
-<p>Expérience de jeu (Solthar):</p>
-<p>An empty unit cannot hand over anything.
+<p>With a convoy, it then becomes possible to move large units without having to distribute them on individual ships.<br />
+For the rest, a convoy behaves like a single ship.</p>
+<p>For example, the entire convoy drifts together, takes damage as a whole, and command can be transferred.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+</div>
+<p><strong>It is not possible</strong> to form a convoy of <a class="autorefs autorefs-internal" href="#boat"><strong>boats</strong></a>.</p>
+<p>Damaged or incomplete ships can also be transferred, their condition then being reflected proportionally on the convoy.<br />
+If a ship with 8% damage is handed over to a convoy of 3 ships, the convoy then consists of 4 ships with 2% damage.</p>
+<p>If only one ship under construction is handed over, the entire convoy is then under construction and cannot sail until completed.<br />
+Thus, by forming a convoy of 2 ships, one of which is completed but the other is 50% under construction, we obtain a convoy under construction of 2 ships 75% complete.</p>
+<p>The <code>GIVE &lt;target-id&gt; &lt;number&gt; SHIP</code> order also allows ships to be detached from a convoy.<br />
+The ships or convoys of the giving unit and the receiving unit must be <strong>on the same coast</strong> or in the same ocean region.<br />
+The receiving unit must either be captain of a ship — in which case the ship is added to its convoy — or be on the same ship as the yielding unit, or not be in a ship or building.</p>
+<p>You can also give ships to farmers: <code>GIVE 0 2 SHIP</code> creates a new convoy with 2 ships, on which there is no one.<br />
+On land, a convoy commander cannot hand over all his ships to the peasants, he must always keep at least one.</p>
+<p>If, after the transfer, the transferred unit no longer has any ships, all units that previously accompanied it automatically switch to the ships of the destination unit.</p>
+<p>Convoys cannot be enchanted, enchanted ships cannot be transferred, and no ships can be transferred to owners of enchanted ships.</p>
+<p>Player experience (Solthar) :</p>
+<p>An empty unit cannot hand over anything.<br />
 This is why the order of the following orders is important:</p>
 <div class="highlight"><pre><span></span><code>GIVE 123 1 SHIP
 GIVE 123 ALL MEN
 </code></pre></div>
-<h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
+<h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../travel/">Movement</a></li>
 <li><a href="../cmd-give/"><code>GIVE</code></a></li>
@@ -8226,7 +8232,7 @@ GIVE 123 ALL MEN
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025 Cyril Guillon
+      Copyright &copy; 2025-2026 Cyril Guillon
     </div>
   
   

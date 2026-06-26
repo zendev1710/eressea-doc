@@ -3501,10 +3501,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#items" class="md-nav__link">
+  <a href="#items-transfer" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Items
+        Items transfer
       
     </span>
   </a>
@@ -3512,10 +3512,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#people-and-units" class="md-nav__link">
+  <a href="#people-and-units-transfers" class="md-nav__link">
     <span class="md-ellipsis">
       
-        People and units
+        People and units transfers
       
     </span>
   </a>
@@ -3523,10 +3523,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#command" class="md-nav__link">
+  <a href="#command-transfer" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Command
+        Command transfer
       
     </span>
   </a>
@@ -3534,10 +3534,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#convoy" class="md-nav__link">
+  <a href="#convoy-transfer" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Convoy
+        Convoy transfer
       
     </span>
   </a>
@@ -7218,7 +7218,7 @@
   <span class="md-ellipsis">
     
   
-    Pot of toadslime
+    Pot of Toadslime
   
 
     
@@ -7699,10 +7699,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#items" class="md-nav__link">
+  <a href="#items-transfer" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Items
+        Items transfer
       
     </span>
   </a>
@@ -7710,10 +7710,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#people-and-units" class="md-nav__link">
+  <a href="#people-and-units-transfers" class="md-nav__link">
     <span class="md-ellipsis">
       
-        People and units
+        People and units transfers
       
     </span>
   </a>
@@ -7721,10 +7721,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#command" class="md-nav__link">
+  <a href="#command-transfer" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Command
+        Command transfer
       
     </span>
   </a>
@@ -7732,10 +7732,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#convoy" class="md-nav__link">
+  <a href="#convoy-transfer" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Convoy
+        Convoy transfer
       
     </span>
   </a>
@@ -7839,23 +7839,23 @@
   
 
 
-<h1 id="give">GIVE<a class="headerlink" href="#give" title="Permanent link">&para;</a></h1>
-<p><code></code><strong><code>GIVE</code></strong><code></code><em><code>unit_ID amount item</code></em><br />
-<strong><code>GIVE</code></strong><code></code><em><code>unit_ID</code></em><code>EACH</code><em><code>amount</code></em><code></code><em><code>item</code></em><br />
-<strong><code>GIVE</code></strong><code></code><em><code>unit_ID</code></em><code>ALL</code><br />
-<strong><code>GIVE</code></strong><code></code><em><code>unit_ID</code></em><code>ALL</code><em><code>item</code></em><br />
-<strong><code>GIVE</code></strong><code></code><em><code>unit_ID</code></em><code>HERBS</code><br />
-<strong><code>GIVE</code></strong><code></code><em><code>unit_ID amount</code></em><code>MEN</code><br />
-<strong><code>GIVE</code></strong><code></code><em><code>unit_ID</code></em><code>ALL MEN</code><br />
-<strong><code>GIVE</code></strong><code></code><em><code>unit_ID</code></em><code>UNIT</code><br />
-<strong><code>GIVE</code></strong><code></code><em><code>unit_ID</code></em><code>KOMMANDO</code><br />
-<strong><code>GIVE</code></strong><code></code><em><code>unit_ID amount SHIP</code></em><br />
-<strong><code>GIVE</code></strong><code>0</code><em><code>amount item</code></em><br />
-<strong><code>GIVE</code></strong><code>0</code><em><code>amount</code></em><code>MEN</code><br />
-<strong><code>GIVE</code></strong><code>0</code><em><code>amount</code></em><code>SHIP</code>  </p>
+<h1 id="give"><code>GIVE</code><a class="headerlink" href="#give" title="Permanent link">&para;</a></h1>
+<p><code>GIVE &lt;unit-id&gt; &lt;amount&gt; &lt;item&gt;</code><br />
+<code>GIVE &lt;unit-id&gt; EACH &lt;amount&gt; &lt;item&gt;</code><br />
+<code>GIVE &lt;unit-id&gt; ALL</code><br />
+<code>GIVE &lt;unit-id&gt;  ALL &lt;item&gt;</code><br />
+<code>GIVE &lt;unit-id&gt; HERBS</code><br />
+<code>GIVE &lt;unit-id&gt; &lt;amount&gt; MEN</code><br />
+<code>GIVE &lt;unit-id&gt; ALL MEN</code><br />
+<code>GIVE &lt;unit-id&gt; UNIT</code><br />
+<code>GIVE &lt;unit-id&gt; COMMAND</code><br />
+<code>GIVE &lt;unit-id&gt; &lt;amount&gt; SHIP</code><br />
+<code>GIVE 0 &lt;amount&gt; &lt;item&gt;</code><br />
+<code>GIVE 0 &lt;amount&gt; MEN</code><br />
+<code>GIVE 0 &lt;amount&gt; SHIP</code>  </p>
 <p>The unit transfers items, command of ships or buildings, persons, ships or even itself to other units.</p>
 <p><a href="" id="give-items-id"></a></p>
-<h2 id="items">Items<a class="headerlink" href="#items" title="Permanent link">&para;</a></h2>
+<h2 id="items-transfer">Items transfer<a class="headerlink" href="#items-transfer" title="Permanent link">&para;</a></h2>
 <p>With <code>GIVE</code> units can give all the goods they own to other units.
 The condition is that the indicated unit accepts things.<br />
 This is the case if it belongs to the same faction or an allied faction (<code>HELP GIVE</code>), or if it has given this turn the <a href="../cmd-contact/"><code>CONTACT</code></a> order for the giving unit.<br />
@@ -7910,7 +7910,7 @@ MAKE TEMP 1
 END
 ; GIVE TEMP 1 200 Silver  ;  or here!
 </code></pre></div>
-<h2 id="people-and-units">People and units<a class="headerlink" href="#people-and-units" title="Permanent link">&para;</a></h2>
+<h2 id="people-and-units-transfers">People and units transfers<a class="headerlink" href="#people-and-units-transfers" title="Permanent link">&para;</a></h2>
 <p>If you want to bring people from different units together, this is done with <code>GIVE</code><em><code>unit-id</code></em><code>anzahl MEN</code>.<br />
 <strong>The <a href="../skills/">Skills</a> are then mixed up</strong>, and you <strong>shouldn't forget the items</strong>, as they may go to the farmers if the unit runs out of people.</p>
 <p>Player experience (Solthar):</p>
@@ -7929,19 +7929,20 @@ UNIT b; Faction Y
 <!-- TODO clarify -->
 <p>With <code>GIVE</code><em><code>unit-id</code></em><code>UNIT</code> the complete unit with all items is given to another faciton, i.e. it switches to the faction of the recipient unit and is not added to the recipient unit!<br />
 The unit does not carry out any further orders during the turn!  </p>
-<h2 id="command">Command<a class="headerlink" href="#command" title="Permanent link">&para;</a></h2>
+<h2 id="command-transfer">Command transfer<a class="headerlink" href="#command-transfer" title="Permanent link">&para;</a></h2>
 <p>If the unit also has a ship or building under its command - i.e. if it is the first listed unit in the ship or building - it can also pass command to another unit.<br />
 The unit in command determines which other units are allowed to enter the ship or building.  </p>
-<p><code>GIVE unit COMMAND</code> should always be used, even if the unit with the command leaves the ship or building and the following unit is to receive the command.<br />
+<p><code>GIVE &lt;unit-id&gt; COMMAND</code> should always be used, even if the unit with the command leaves the ship or building and the following unit is to receive the command.<br />
 The order of the units during the evaluation is not always that of the report.<br />
 New owners of a building are placed in the first position in the building at the end of the round and may therefore only benefit from the building in the following round (e.g. mining bonus).<br />
 The command cannot be given to units without people (e.g. after a battle, or to "empty" <code>TEMP</code> units).</p>
-<h2 id="convoy">Convoy<a class="headerlink" href="#convoy" title="Permanent link">&para;</a></h2>
-<p>With <code>GIVE</code><em><code>unit-id</code></em><code></code><em><code>number</code></em><code>SHIP</code> the owner of a ship or <a class="autorefs autorefs-internal" href="../ships/#convoy">convoy</a> hands over the number of ships.<br />
+<h2 id="convoy-transfer">Convoy transfer<a class="headerlink" href="#convoy-transfer" title="Permanent link">&para;</a></h2>
+<p>With <code>GIVE &lt;unit-id&gt; &lt;number&gt; SHIP</code> the owner of a ship or <a class="autorefs autorefs-internal" href="../ships/#convoy">convoy</a> hands over the number of ships.<br />
 The transferring and receiving units must belong to the same faction; <code>HELP ALL</code> or <code>CONTACT</code> is not sufficient.<br />
 If the other unit also owns a ship, a <a class="autorefs autorefs-internal" href="../ships/#convoy">convoy</a> is formed.<br />
 Convoys always consist of ships of the same type.<br />
-Boats cannot form convoys and the ships must be on the same coast.  </p>
+<a class="autorefs autorefs-internal" href="../ships/#boat">Boats</a> cannot form convoys and the ships must be on the same coast.  </p>
+<p>More information: <a class="autorefs autorefs-internal" href="../ships/#convoy">convoys</a>.</p>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../cmd-reserve/"><code>RESERVE</code></a></li>
@@ -8030,7 +8031,7 @@ Boats cannot form convoys and the ships must be on the same coast.  </p>
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025 Cyril Guillon
+      Copyright &copy; 2025-2026 Cyril Guillon
     </div>
   
   

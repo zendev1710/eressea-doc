@@ -8086,7 +8086,7 @@
 
 <h1 id="batiments-speciaux">Bâtiments spéciaux<a class="headerlink" href="#batiments-speciaux" title="Permanent link">&para;</a></h1>
 <p>Les bâtiments construits dans une région <strong>procurent des avantages</strong> importants aux unités qui les occupent.</p>
-<p>Ils sont construits avec l'ordre <a href="../cmd-make/">MAKE "type de bâtiment"</a> et peuvent être agrandis avec l'ordre <a href="../cmd-make/">MAKE "type de bâtiment" ID-bâtiment</a>.</p>
+<p>Ils sont construits avec l'ordre <a href="../cmd-make/"><code>MAKE &lt;type de bâtiment&gt;</code></a> et peuvent être agrandis avec l'ordre <a href="../cmd-make/"><code>MAKE &lt;type de bâtiment&gt; &lt;id bâtiment&gt;</code></a>.</p>
 <p>Exemple : <code>MAKE</code>&nbsp;[Lighthouse] (création) ou <code>MAKE</code>&nbsp;[Harbour]&nbsp;<code>xyz</code> (agrandissement).</p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
@@ -8420,8 +8420,8 @@
   Elle produit 8 fers et prélève 8 fers des ressources de la région.
   Dans une mine la même unité produit 10 fers (4+1x2) et prélève seulement 5 fers (10/2).</li>
 <li>1 unité de 2 nains niveau 4.
-  Elle produit 8 fers et prélève 5 fers des ressources de la région (don spécial des nains 60%).
-  Dans une mine la même unité de nains produit 10 fers (4+1x2) et prélève seulement 3 fers (10*60%/2).</li>
+  Elle produit 8 fers et prélève 5 fers des ressources de la région (don spécial des nains 60 %).
+  Dans une mine la même unité de nains produit 10 fers (4+1x2) et prélève seulement 3 fers (10 x 60 % / 2).</li>
 </ul>
 <h2 id="carriere">Carrière<a class="headerlink" href="#carriere" title="Permanent link">&para;</a></h2>
 <!-- cspell:disable -->
@@ -8552,7 +8552,7 @@ Vous les coupez instantanément dans la scierie, produisant ainsi 20 bois.</p>
   Pour cela l'unité doit maîtriser l'<a class="autorefs autorefs-internal" href="../skills-list/#apprivoisement" title="Taming">apprivoisement</a> et d'au moins 2 chevaux (en sa possession).</li>
 <li>La chance d'élever des chevaux correspond à la compétence de l'unité.
   De plus, l'unité dispose d'un nombre de tentatives égal à son niveau.
-  Si une unité est T5, il dispose de 5 tentatives à 5% chacune pour élever un cheval.</li>
+  Si une unité est T5, il dispose de 5 tentatives à 5 % chacune pour élever un cheval.</li>
 <li>Pour chaque tentative l'unité a besoin d'un cheval.
   Si le nombre de chevaux disponibles est insuffisant, les tentatives sont annulées.
   5 chevaux sont nécessaires dans l'exemple précédent.</li>
@@ -8587,10 +8587,10 @@ Vous les coupez instantanément dans la scierie, produisant ainsi 20 bois.</p>
 <li>Permet aux bateaux plus gros qu'une <a class="autorefs autorefs-internal" href="../ships/#barque" title="Boat">barque</a> d'accoster dans des régions qui ne sont ni des plaines ni des forêts.</li>
 <li>Une région avec un port peut être utilisée comme une « région canal », c'est-à-dire qu'un bateau dans le port peut naviguer dans n'importe quelle autre direction maritime.</li>
 <li>Dans les deux cas, la condition préalable est que le propriétaire du port soit membre de la même faction ou qu'il ait paramétré un ordre <a href="../cmd-help/"><code>HELP GUARD</code></a> avec la faction du Capitaine.</li>
-<li>Le propriétaire du port reçoit 10 % de tout l'argent gagné grâce au commerce, en plus des éventuels revenus provenant des châteaux.</li>
-<li>Le propriétaire reçoit également (2 x Trade)% de tous les biens de luxe qui se trouvent à bord des bateaux entrants.
+<li>Le propriétaire du port reçoit 10 % de tout l'argent gagné grâce au commerce, en plus des éventuels revenus provenant des châteaux.</li>
+<li>Le propriétaire reçoit également (2 x Trade) % de tous les biens de luxe qui se trouvent à bord des bateaux entrants.
   Sauf si l'unité qui transporte les marchandises a un niveau de dissimulation supérieur au niveau de perception du propriétaire du port, ou si le capitaine du bateau est allié avec le propriétaire du port.</li>
-<li>Dans une région dotée d'un port, les prix des biens de luxe augmenteront avec une probabilité de 20 % au lieu des 10 % normaux.</li>
+<li>Dans une région dotée d'un port, les prix des biens de luxe augmenteront avec une probabilité de 20 % au lieu des 10 % normaux.</li>
 <li>Un port ne fonctionnera que s’il est entièrement construit.
   Il ne peut y avoir qu'un seul port par région. Celui qui termine un port en premier en est le propriétaire.
   Un port à moitié terminé peut être détruit avec l'ordre <a href="../cmd-destroy/"><code>DESTROY</code></a>.</li>
@@ -8656,10 +8656,10 @@ Vous les coupez instantanément dans la scierie, produisant ainsi 20 bois.</p>
 </table>
 <p>Le coût <strong>total</strong> d'una académie (de taille 25) est de : 250 pierres, 150 bois, 150 fer, 100 mallorn, 100 laen, 25000 silver.  </p>
 <ul>
-<li>Dans une tour de mage, un mage régénère 75 % d'aura en plus.</li>
+<li>Dans une tour de mage, un mage régénère 75 % d'aura en plus.</li>
 <li>La puissance de chaque sort lancé à l’intérieur d’une tour de mage est augmentée comme si le sort était lancé d’un niveau supérieur.</li>
 <li>Les erreurs arrivent beaucoup moins souvent.</li>
-<li>Le bâtiment lui-même a une résistance à la magie augmentée de 40%.</li>
+<li>Le bâtiment lui-même a une résistance à la magie augmentée de 40 %.</li>
 <li>Une tour de mage ne fonctionnera que si elle est entièrement construite !</li>
 </ul>
 <h2 id="caravanserail">Caravansérail<a class="headerlink" href="#caravanserail" title="Permanent link">&para;</a></h2>
@@ -8787,7 +8787,7 @@ Vous les coupez instantanément dans la scierie, produisant ainsi 20 bois.</p>
 </tbody>
 </table>
 <ul>
-<li>Les unités à l'intérieur d'une auberge se régénèrent 50 % plus rapidement.</li>
+<li>Les unités à l'intérieur d'une auberge se régénèrent 50 % plus rapidement.</li>
 <li>Toutes les personnes à l'intérieur d'une auberge ont besoin de 14 silver par semaine pour vivre au lieu des 10 normales.</li>
 </ul>
 <p><a href="" id="monument-fr-id"></a></p>
@@ -8851,9 +8851,9 @@ Vous les coupez instantanément dans la scierie, produisant ainsi 20 bois.</p>
   Cela développe alors des effets étranges.
   Entre autres choses, il semble attirer les chevaux elfiques extrêmement rares.
   De plus, les mages présents dans le bâtiment peuvent interrompre la connexion entre l'Astral et le monde réel.</li>
-<li>Dans un Cercle de Pierres béni, un mage régénère 50 % d’aura en plus.</li>
+<li>Dans un Cercle de Pierres béni, un mage régénère 50 % d’aura en plus.</li>
 <li>La puissance de tout sort lancé dans un Cercle de Pierres béni augmente comme si le sort avait été lancé avec un niveau supplémentaire.</li>
-<li>Les occupants ont 30% de résistance à la magie supplémentaire.</li>
+<li>Les occupants ont 30 % de résistance à la magie supplémentaire.</li>
 <li>Un Cercle de Pierres ne fonctionnera que s’il est entièrement construit et béni !</li>
 </ul>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
@@ -8951,7 +8951,7 @@ Vous les coupez instantanément dans la scierie, produisant ainsi 20 bois.</p>
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025 Cyril Guillon
+      Copyright &copy; 2025-2026 Cyril Guillon
     </div>
   
   

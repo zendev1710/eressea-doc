@@ -8040,7 +8040,10 @@
 
 <h1 id="transport-optimise">Transport optimisé<a class="headerlink" href="#transport-optimise" title="Permanent link">&para;</a></h1>
 <h2 id="representant-de-commerce">Représentant de commerce<a class="headerlink" href="#representant-de-commerce" title="Permanent link">&para;</a></h2>
-<p>Comme dans Eressea nous ne traitons pas seulement quelques unités mais un grand nombre d'entre elles, le problème des vendeurs ambulants se pose moins, car les transports ne vont souvent pas dans plusieurs régions en cercle, mais les demandes sont plutôt traitées en parallèle avec de nombreux transports individuels.  </p>
+<p>Comme dans Eressea nous ne traitons pas seulement quelques unités mais un grand nombre d'entre elles,
+le problème des vendeurs ambulants se pose moins,
+car les transports ne vont souvent pas dans plusieurs régions en cercle,
+mais les demandes sont plutôt traitées en parallèle avec de nombreux transports individuels.</p>
 <h2 id="chargement-optimal">Chargement optimal<a class="headerlink" href="#chargement-optimal" title="Permanent link">&para;</a></h2>
 <p>Il est logique d'utiliser le problème du sac à dos lors du chargement d'un transport de marchandises.<br />
 Cependant, dans Eressea, vous tombez rapidement dans le piège d’essayer de charger trop d’éléments similaires.<br />
@@ -8078,7 +8081,7 @@ Cela ne vaut donc pas la peine d'étendre davantage "1 pierre".<br />
 À proprement parler, vous arrivez à cette conclusion une fois que vous avez développé 24 joyaux.  </p>
 <p>Ce type de calcul optimal est problématique car apparemment, tout nombre de rubis compris entre 0 et 100 est Pareto optimal.<br />
 Pire encore, toute combinaison de 1 à 6 pierres de 77 à 100 rubis et de 7 pierres de 77 à 80 rubis est Pareto optimale.<br />
-Malgré l'optimisation, nous devons étendre 100 + 6*24 + 4 = 248 états sur environ 900 états jusqu'à ce que nous puissions être sûrs de la solution que nous avons trouvée - ce qui n'est pas un bon résultat.  </p>
+Malgré l'optimisation, nous devons étendre 100 + 6 x 24 + 4 = 248 états sur environ 900 états jusqu'à ce que nous puissions être sûrs de la solution que nous avons trouvée - ce qui n'est pas un bon résultat.  </p>
 <p>Cependant, une autre optimisation est possible.<br />
 Nous pouvons limiter les quantités de transport utilisées.<br />
 Puisque les bijoux valent la peine tant qu'ils totalisent un nombre entier de pierres, le nombre de bijoux est compris entre 60 et 100.
@@ -8112,10 +8115,10 @@ La question de savoir si l’effort en vaut la peine reste discutable.  </p>
 <p>Les deux derniers groupes peuvent probablement être regroupés dans la pratique et très probablement ignorés.<br />
 Pour le premier groupe, cependant, une prime d’accomplissement est envisageable et pourrait également être prévue.  </p>
 <h2 id="recherche-multi-chemins">Recherche multi-chemins<a class="headerlink" href="#recherche-multi-chemins" title="Permanent link">&para;</a></h2>
-<p>Lors de la planification du transport, il peut arriver qu'un transport ait déjà une certaine cargaison et donc une région cible.
-Cependant, il existe encore de la capacité disponible pendant le transport qui pourrait être occupée par d'autres marchandises.
-Des options simples consistent désormais à distribuer uniquement les marchandises nécessaires aux points intermédiaires de l'itinéraire.
-Des techniques avancées chargent les marchandises, ce qui les rapproche un peu plus de leur objectif.</p>
+<p>Lors de la planification du transport, il peut arriver qu'un transport ait déjà une certaine cargaison et donc une région cible.<br />
+Cependant, il existe encore de la capacité disponible pendant le transport qui pourrait être occupée par d'autres marchandises.<br />
+Des options simples consistent désormais à distribuer uniquement les marchandises nécessaires aux points intermédiaires de l'itinéraire.<br />
+Des techniques avancées chargent les marchandises, ce qui les rapproche un peu plus de leur objectif.  </p>
 <p>Cependant, il me semble également possible d'adapter l'itinéraire de manière à ce qu'un itinéraire soit recherché avec la même durée vers la première destination, qui mène en même temps le plus près possible, voire sur la région de la deuxième destination.<br />
 Il est également envisageable d'optimiser l'itinéraire en le faisant passer par des « points de transbordement » afin que les marchandises destinées à la deuxième destination puissent ensuite également trouver un transport dans la région de la fourche.</p>
 <p>Alors, comment une telle recherche multi-chemins pourrait-elle fonctionner ?<br />
@@ -8135,9 +8138,9 @@ Mais bien sûr, il existe une telle limite.  </p>
 Si vous définissez suffisamment de points de transbordement, vous pouvez attribuer les transports comme points intermédiaires pour les itinéraires de plus d'une semaine <strong>toujours</strong> se rendre aux points de transbordement, ou du moins le faire lorsqu'une limite de capacité est dépassée ou que le point de transbordement ne nécessite pas de détour.  </p>
 <p>Le système de transport de l'ancienne CEE reconnaissait implicitement ce fait en étant organisé hiérarchiquement.<br />
 Les points de transbordement sont des régions qui ont des régions subordonnées.<br />
-Cependant, la hiérarchie implique souvent des détours.
-Le bon fonctionnement d’un tel système dépend également de la topologie de l’île.
-Les îles formant des anneaux sont particulièrement inadaptées à un système de transport strictement hiérarchique.</p>
+Cependant, la hiérarchie implique souvent des détours.<br />
+Le bon fonctionnement d’un tel système dépend également de la topologie de l’île.<br />
+Les îles formant des anneaux sont particulièrement inadaptées à un système de transport strictement hiérarchique.  </p>
 <h2 id="evaluation-function">Evaluation function<a class="headerlink" href="#evaluation-function" title="Permanent link">&para;</a></h2>
 <p>Divers algorithmes d'optimisation nécessitent une fonction d'évaluation pour évaluer les états intermédiaires et cibles possibles.  </p>
 <p>Trouver une telle fonction pour les « états logistiques » n’est pas facile à première vue.  </p>
@@ -8157,17 +8160,17 @@ Important : toutes les propriétés non mentionnées sont les mêmes.  </p>
 </ul>
 <p>Règles d'évaluation plus compliquées :</p>
 <ul>
-<li>Il vaut mieux utiliser pleinement un moyen de transport que de le faire voyager avec beaucoup d'espace vide.
-  La distinction entre « bon » et « beaucoup » est ici la question la plus complexe.
-  Des objets de même valeur mais de poids différent supposent des approches différentes selon l'environnement.
-  Si le transport ne peut pas être utilisé à pleine capacité avec l'objet léger et qu'il n'y a pas d'autres marchandises à transporter, l'objet le plus lourd est préférable.</li>
+<li>Il vaut mieux utiliser pleinement un moyen de transport que de le faire voyager avec beaucoup d'espace vide.<br />
+  La distinction entre « bon » et « beaucoup » est ici la question la plus complexe.<br />
+  Des objets de même valeur mais de poids différent supposent des approches différentes selon l'environnement.<br />
+  Si le transport ne peut pas être utilisé à pleine capacité avec l'objet léger et qu'il n'y a pas d'autres marchandises à transporter, l'objet le plus lourd est préférable.  </li>
 <li>Les demandes groupées (colis) doivent arriver à destination en même temps (ou le plus tôt possible)</li>
-<li>Il est préférable d'apporter quelque chose dans un centre de transbordement plutôt que de le laisser traîner, mais seulement si le centre de transbordement n'est pas plus éloigné et peut être atteint en une semaine. </li>
-<li>La priorité peut également être comprise selon deux dimensions : urgence et importance.
+<li>Il est préférable d'apporter quelque chose dans un centre de transbordement plutôt que de le laisser traîner, mais seulement si le centre de transbordement n'est pas plus éloigné et peut être atteint en une semaine.</li>
+<li>La priorité peut également être comprise selon deux dimensions : urgence et importance.<br />
   Il faut cependant pouvoir comparer deux de ces points bidimensionnels.</li>
-<li>Il est préférable de laisser un transport se diriger à vide vers une région ayant un besoin urgent de ravitaillement plutôt que vers une région de transbordement.
-  Mais cette dernière solution est toujours meilleure que simplement apprendre ou ne rien faire.</li>
-<li>S'il n'y a pas de transport dans une source proche, qu'il y en a dans une source plus éloignée et que l'itinéraire passe par la source proche, le transport doit alors être arrêté si la source éloignée après le chargement aurait moins de marchandises que la source proche après le chargement.</li>
+<li>Il est préférable de laisser un transport se diriger à vide vers une région ayant un besoin urgent de ravitaillement plutôt que vers une région de transbordement.<br />
+  Mais cette dernière solution est toujours meilleure que simplement apprendre ou ne rien faire.  </li>
+<li>S'il n'y a pas de transport dans une source proche, qu'il y en a dans une source plus éloignée et que l'itinéraire passe par la source proche, le transport doit alors être arrêté si la source éloignée après le chargement aurait moins de marchandises que la source proche après le chargement.  </li>
 <li>Exemple :<ul>
 <li>A a besoin de 100 pierres</li>
 <li>En B, à un tour de A, il y a 1000 pierres. Il n'y a pas de transport disponible en B.</li>
@@ -8190,12 +8193,12 @@ Une surévaluation pourrait autrement conduire à ce que l'argent destiné à l'
 L’urgence devrait pouvoir avoir un effet si fort que même les objets ayant une faible valeur de base deviennent suffisamment intéressants.<br />
 Une fonction exponentielle ou similaire sur l'urgence a donc du sens.  </p>
 <div class="highlight"><pre><span></span><code>f(arrondir jusqu&#39;à nécessaire) = ?
-f(0)=10000 % * Valeur sous-jacente
-f(1)=1000 % * Valeur sous-jacente
-f(2)=200 % * Valeur sous-jacente
-f(3)=50 % * Valeur sous-jacente
-f(4)=15 % * Valeur sous-jacente
-f(5)=8 % * Valeur sous-jacente
+f(0) = 10000 % * Valeur sous-jacente
+f(1) = 1000 % * Valeur sous-jacente
+f(2) = 200 % * Valeur sous-jacente
+f(3) = 50 % * Valeur sous-jacente
+f(4) = 15 % * Valeur sous-jacente
+f(5) = 8 % * Valeur sous-jacente
 f(un jour)=5 % * Valeur sous-jacente
 </code></pre></div>
 <p>Ce seraient des valeurs que j'ai en tête en ce moment et qui sont soit stockées dans une table de recherche, soit modélisées par une fonction.<br />
@@ -8296,7 +8299,7 @@ Toutefois, afin d'assurer une livraison à partir d'une source la plus proche po
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025 Cyril Guillon
+      Copyright &copy; 2025-2026 Cyril Guillon
     </div>
   
   

@@ -8047,21 +8047,21 @@ En termes de structure, ils sont équivalents aux attributs de chaîne, mais n'o
 <p>Il est préférable d'analyser le CR ligne par ligne.<br />
 Après avoir lu une ligne, on vérifie d'abord s'il s'agit d'un bloc : les blocs sont les seuls qui commencent par une lettre.<br />
 S'il ne s'agit pas d'un attribut mais qu'il commence par un <code>-</code> ou un nombre, il s'agit alors d'un attribut entier.<br />
-Si cela commence par un <code>"</code>, il s'agit d'une entrée de chaîne ou de liste.  </p>
+Si cela commence par un <code>"</code>, il s'agit d'une entrée de chaîne ou de liste.</p>
 <h3 id="a-propos-des-blocs">À propos des blocs<a class="headerlink" href="#a-propos-des-blocs" title="Permanent link">&para;</a></h3>
 <p>Vous analysez les blocs en lisant le nom du bloc (jusqu'au premier espace) puis les identifiants séparés par des espaces.<br />
-Faites attention aux éventuels commentaires (pour les CR Eressea antérieurs à la version 36) !  </p>
+Faites attention aux éventuels commentaires (pour les CR Eressea antérieurs à la version 36) !</p>
 <h3 id="attributs-de-type-integer">Attributs de type Integer<a class="headerlink" href="#attributs-de-type-integer" title="Permanent link">&para;</a></h3>
 <p>Identifiez le nombre en recherchant jusqu'à trouver un <code>;</code>.<br />
 Lisez ensuite le nom de la balise jusqu'à la fin de la ligne.<br />
-Veuillez noter qu'il peut encore y avoir des espaces à la fin de la ligne ou autour du <code>;</code> pourrait rester là.  </p>
+Veuillez noter qu'il peut encore y avoir des espaces à la fin de la ligne ou autour du <code>;</code> pourrait rester là.</p>
 <h3 id="a-propos-des-entrees-de-liste">À propos des entrées de liste<a class="headerlink" href="#a-propos-des-entrees-de-liste" title="Permanent link">&para;</a></h3>
 <p>Lisez jusqu'au prochain <code>"</code>.<br />
 Attention, il peut certainement y avoir des points-virgules dans la chaîne.<br />
-Si le <code>"</code> n'est plus suivi d'un point-virgule, c'est un élément de liste, sinon c'est un attribut de chaîne.  </p>
+Si le <code>"</code> n'est plus suivi d'un point-virgule, c'est un élément de liste, sinon c'est un attribut de chaîne.</p>
 <h3 id="attributs-de-type-string">Attributs de type String<a class="headerlink" href="#attributs-de-type-string" title="Permanent link">&para;</a></h3>
 <p>La chaîne a déjà été lue donc sautez le <code>;</code> , et trouvez le nom de la balise.<br />
-Encore une fois, faites attention aux espaces autour du point-virgule ou en fin de ligne.  </p>
+Encore une fois, faites attention aux espaces autour du point-virgule ou en fin de ligne.</p>
 <h3 id="pieges-a-eviter">Pièges à éviter<a class="headerlink" href="#pieges-a-eviter" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Un attribut de type entier peut être constitué de plusieurs nombres, comme des niveaux de compétences.
@@ -8176,7 +8176,7 @@ Encore une fois, faites attention aux espaces autour du point-virgule ou en fin 
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025 Cyril Guillon
+      Copyright &copy; 2025-2026 Cyril Guillon
     </div>
   
   

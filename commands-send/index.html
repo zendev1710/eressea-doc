@@ -7247,7 +7247,7 @@
   <span class="md-ellipsis">
     
   
-    Pot of toadslime
+    Pot of Toadslime
   
 
     
@@ -7976,7 +7976,7 @@ Such requests cause unnecessary traffic.  </p>
 </table>
 <h2 id="what-you-need-to-consider-when-entering-data">What you need to consider when entering data<a class="headerlink" href="#what-you-need-to-consider-when-entering-data" title="Permanent link">&para;</a></h2>
 <p>Each move must begin with the line <a href="../cmd-eressea/"><code>ERESSEA xxx "password"</code></a>. xxx is your own faction number, and "password" is the faction's password.<br />
-Each turn must be ended with the <a href="../cmd-next/">NEXT</a> keyword.  </p>
+Each turn must be ended with the <a href="../cmd-next/"><code>NEXT</code></a> keyword.  </p>
 <p>All orders are issued per unit, even if they are orders that affect the faction as a whole; someone has to do it.  </p>
 <p>If the option has been activated, a template for the next command file is always sent in a separate file.<br />
 Here is an example of such a move:  </p>
@@ -8000,15 +8000,15 @@ NEXT
 </code></pre></div>
 <p>The first line with the ECHECK is for the syntax checker.<br />
 It recognizes this line and uses the parameters of the line.<br />
-With the -z, the people and their assets from the comment behind the command <a href="../cmd-unit/">UNIT</a> are evaluated.
-Income with <a href="../cmd-work/"><code>WORK</code></a> (usually 11 silver each per person), <a href="../cmd-tax/">tax</a> and <a href="../cmd-entertain/">ENTERTAIN</a> (20 silver per person) are also taken into account.<br />
-Expensive skills such as <a href="../cmd-learn/"><code>LEARN MAGIC</code></a> and units that move silver with <a href="../cmd-move/">MOVE</a> are then evaluated and warnings are issued if there is too little silver.<br />
+With the -z, the people and their assets from the comment behind the command <a href="../cmd-unit/"><code>UNIT</code></a> are evaluated.
+Income with <a href="../cmd-work/"><code>WORK</code></a> (usually 11 silver each per person), <a href="../cmd-tax/">tax</a> and <a href="../cmd-entertain/"><code>ENTERTAIN</code></a> (20 silver per person) are also taken into account.<br />
+Expensive skills such as <a href="../cmd-learn/"><code>LEARN MAGIC</code></a> and units that move silver with <a href="../cmd-move/"><code>MOVE</code></a> are then evaluated and warnings are issued if there is too little silver.<br />
 The <code>-w4</code> is the “warning level”, 4 means being particularly picky.<br />
 And finally, the <code>-r100</code> says that the recruitment cost of this faction is 100 silver per person.  </p>
 <p>The line <code>; ECHECK WAGE 12</code> is also for ECheck and sets the wage for work in this region at 12 silver.  </p>
 <p>It can be seen that people from Unit 32 will starve: 30 silver is not enough for five people.<br />
 However, with the ECheck parameter <code>-z -w4</code> used above, ECheck will notice this and issue a warning.<br />
-The unit should either earn money (e.g. with <a href="../cmd-entertain/">ENTERTAIN</a> if it already has the entertainment skill, otherwise with <a href="../cmd-work/"><code>WORK</code></a>) or another unit with enough silver should move to region 5.3.</p>
+The unit should either earn money (e.g. with <a href="../cmd-entertain/"><code>ENTERTAIN</code></a> if it already has the entertainment skill, otherwise with <a href="../cmd-work/"><code>WORK</code></a>) or another unit with enough silver should move to region 5.3.</p>
 <p>All <a href="../commands/">Orders</a> can be abbreviated.<br />
 The computer simply takes the first word that corresponds to the order entered:</p>
 <ul>
@@ -8128,7 +8128,7 @@ The date of the email (Date: header) is used as the order.  </p>
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025 Cyril Guillon
+      Copyright &copy; 2025-2026 Cyril Guillon
     </div>
   
   

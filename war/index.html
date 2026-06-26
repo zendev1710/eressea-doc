@@ -7335,7 +7335,7 @@
   <span class="md-ellipsis">
     
   
-    Pot of toadslime
+    Pot of Toadslime
   
 
     
@@ -8093,7 +8093,7 @@ Attacked units defend themselves with all the units of the faction, unless they 
 For the attacker, combat status is irrelevant for the purpose of joining the battle: apart from defenders, only units that have given an <a href="../cmd-attack/"><code>ATTACK</code></a> order are engaged in combat.<br />
 However, units that have set <a href="../cmd-combat/"><code>COMBAT NOT</code></a> or <a href="../cmd-combat/"><code>COMBAT FLEE</code></a> cannot attack.</p>
 <p>So, to jointly attack an enemy, each attacking faction must attack at least one of the enemy's units.<br />
-To defend together against attackers, all the defending factions do is assist each other (HELP).</p>
+To defend together against attackers, all the defending factions do is assist each other (<code>HELP</code>).</p>
 <p>Basically anyone to whom <a href="../cmd-help/"><code>HELP COMBAT</code></a> has been assigned, and who has not attacked anyone to whom <a href="../cmd-help/"><code>HELP COMBAT</code></a> has also been assigned is considered an ally.</p>
 <p><strong>Example 1:</strong></p>
 <p>A helps B and C.<br />
@@ -8117,7 +8117,7 @@ In this case they help each other against C (even if they are not allied), since
 <p>Player experience:In fact, it's even more complicated.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Badly specified help statuses or ATTACK orders have already led to battles with unexpected outcomes.<br />
+<p>Badly specified help statuses or <code>ATTACK</code> orders have already led to battles with unexpected outcomes.<br />
 Allies have stood by and done nothing or have even fought amongst themselves.  </p>
 </div>
 <p>There are a few tips to help you <strong>avoid the biggest blunders</strong>:</p>
@@ -8126,12 +8126,12 @@ Allies have stood by and done nothing or have even fought amongst themselves.  <
   <code>HELP ALL</code> is preferable for anyone you <strong>might</strong> fight.
   Mistrust often does damage here.</li>
 <li>If possible, there should only be one <a href="../cmd-group/"><code>GROUP</code></a>.</li>
-<li>In your faction, either all the combat units should have the ATTACK order, or none at all.
+<li>In your faction, either all the combat units should have the <code>ATTACK</code> order, or none at all.
   If only some of your units attack, the rest may not take part in the combat if an ally is attacked.</li>
 <li>It is recommended that you attack all enemy units.
-  You should attack <em>at least</em> one unit from each enemy faction.</li>
+  You should attack <strong>at least</strong> one unit from each enemy faction.</li>
 <li>Note also that faction stealth doesn't always make it clear who really belongs to which faction.
-  Another strategy might be to attack just one enemy unit at a time, hoping that the opponents' HELP statuses create some confusion.
+  Another strategy might be to attack just one enemy unit at a time, hoping that the opponents' help statuses create some confusion.
   We won't judge here whether this approach is honorable.</li>
 </ul>
 <h2 id="the-battle">The battle<a class="headerlink" href="#the-battle" title="Permanent link">&para;</a></h2>
@@ -8156,7 +8156,7 @@ Units that are not combat ready and are directly attacked only really take part 
 Fleeing units naturally try to escape (see <a class="autorefs autorefs-internal" href="#fleeing">fleeing</a>).</p>
 <p>Units fighting in the 2<sup>nd</sup> row can only be attacked directly in close combat when they reach the 1<sup>st</sup> row (this can happen, for example, when the 1<sup>st</sup> row is overrun, see below).<br />
 Against opposing ranged attacks, they defend with their best combat skill.</p>
-<p>Magicians' combat spells can be cast from behind and from the front line; apart from that, they will arm themselves and fight like everyone else.</p>
+<p>Mages' combat spells can be cast from behind and from the front line; apart from that, they will arm themselves and fight like everyone else.</p>
 <h3 id="overrun">Overrun<a class="headerlink" href="#overrun" title="Permanent link">&para;</a></h3>
 <p>If a faction and its allies have more than three times as many persons in the front row as their opponents, the 1<sup>st</sup> row is overrun.<br />
 All opposing 2<sup>nd</sup> row units must move up to the first row.<br />
@@ -8249,7 +8249,7 @@ Units in the front row defend with their full skill level if the ranged combatan
 If they do not have this or cannot use it (i.e. their corresponding skill is less than 1), they defend themselves <a class="autorefs autorefs-internal" href="#bonuses-and-mali">unarmed</a>!</p>
 </div>
 <p>Catapults require ammunition.<br />
-This can be produced from stones using <a href="../cmd-make/">MAKE ammunition</a> by a mason with quarrying skill 3 and it weighs 10 weight units.<br />
+This can be produced from stones using <a href="../cmd-make/"><code>MAKE ammunition</code></a> by a mason with quarrying skill 3 and it weighs 10 weight units.<br />
 One unit of ammunition corresponds to one volley.</p>
 <p><em>Ranged weapons - bonuses and time.</em></p>
 <table>
@@ -8405,7 +8405,7 @@ If the unit was in a building or on a ship on land, it leaves this as soon as a 
 <p>It may therefore be useful to order castle or ship occupants to re-enter their own ship, which they may be able to do after the battle.<br />
 It should be noted that the command should also be handed back to the correct unit with <a href="../cmd-give/"><code>GIVE COMMAND</code></a>.</p>
 </div>
-<p>Special rules apply to units with the FLEE status.<br />
+<p>Special rules apply to units with the <code>FLEE</code> status.<br />
 These units can still move after combat, even if they would otherwise not be able to execute a long order.<br />
 Furthermore, these units cannot guard regions.<br />
 Any guarding performed is automatically canceled when the unit assumes the <code>FLEE</code> status.<br />
@@ -8414,7 +8414,7 @@ This happens at the beginning of the turn, which means that all effects of <a hr
 <p>Sea battles are fought like land battles: The <a class="autorefs autorefs-internal" href="../ships/#ships">ships</a> board each other and the units come at each other.<br />
 After the battle, it is possible for the units to carry out further long orders.</p>
 <p>If a ship is involved in a battle, it takes 5% damage per battle round if at least one person takes damage that is on the ship or was on the ship at the start of the round.<br />
-It therefor does not help to leave the ship before the battle begins.<br />
+It therefore does not help to leave the ship before the battle begins.<br />
 The <a class="autorefs autorefs-internal" href="../tactic/#tactics">tactics round</a> and the first round are not counted, so the maximum possible damage is 20%.  </p>
 <p>More damage can occur if sea serpents are involved in the battle.<br />
 These monsters, like some familiars, have an attack that can cause structural damage to ships every combat round.  </p>
@@ -8456,7 +8456,7 @@ This works even if enemy troops are also guarding the region.<br />
 It also works if you have attacked yourself (i.e. you have set the <code>ATTACK</code> order yourself).</p>
 <p>If you have no own or allied units guarding the region at the beginning of the battle, the units participating in the battle can no longer execute long orders after the battle.</p>
 <p>The only exception are units with the combat status <a href="../cmd-combat/"><code>COMBAT FLEE</code></a> and units at sea.<br />
-Units with the status <code>COMBAT FLEE</code> can move after a battle if the have set one of the following orders: <a href="../cmd-move/">MOVE</a>, <a href="../cmd-route/"><code>ROUTE</code></a> or <a href="../cmd-follow/"><code>FOLLOW SHIP</code></a>.<br />
+Units with the status <code>COMBAT FLEE</code> can move after a battle if the have set one of the following orders: <a href="../cmd-move/"><code>MOVE</code></a>, <a href="../cmd-route/"><code>ROUTE</code></a> or <a href="../cmd-follow/"><code>FOLLOW SHIP</code></a>.<br />
 After sea battles on oceans you can always execute long orders.</p>
 <h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
 <ul>
@@ -8545,7 +8545,7 @@ After sea battles on oceans you can always execute long orders.</p>
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025 Cyril Guillon
+      Copyright &copy; 2025-2026 Cyril Guillon
     </div>
   
   

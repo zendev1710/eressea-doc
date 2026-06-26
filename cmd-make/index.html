@@ -7268,7 +7268,7 @@
   <span class="md-ellipsis">
     
   
-    Pot of toadslime
+    Pot of Toadslime
   
 
     
@@ -7939,7 +7939,7 @@
   
 
 
-<h1 id="make">MAKE<a class="headerlink" href="#make" title="Permanent link">&para;</a></h1>
+<h1 id="make"><code>MAKE</code><a class="headerlink" href="#make" title="Permanent link">&para;</a></h1>
 <p><strong><code>MAKE</code></strong><code>[</code><em><code>amount</code></em><code>]</code><em><code>item</code></em><br />
 <strong><code>MAKE</code></strong><code>[</code><em><code>amount</code></em><code>] HERBS</code><br />
 <strong><code>MAKE TEMP</code></strong><code></code><em><code>unit-alias-id</code></em><code>["</code><em><code>name</code></em><code>"]</code><br />
@@ -7963,10 +7963,14 @@ Details can be found in the <a class="autorefs autorefs-internal" href="../alche
 <p>Herbs are produced with the <code>MAKE HERBS</code> order by units with the <a class="autorefs autorefs-internal" href="../skills-list/#herbalism">herbalism</a> skill. For details, see the chapter on <a class="autorefs autorefs-internal" href="../herbs/#herbs">herbs</a>.</p>
 <p><a href="" id="make-units-id"></a></p>
 <h2 id="units">Units<a class="headerlink" href="#units" title="Permanent link">&para;</a></h2>
-<p>When you create a new unit (<code>MAKE TEMP xy</code>), you assign it an alias number, because at that time you do not know yet, what the actual number will be. For all other order, you can reference the unit by this alias (including the word TEMP, for example <code>GIVE TEMP xy 100 silver</code>). When looking for a TEMP unit, your own faction is searched first, then other factions. So if you and another faction both have a unit with the ID <em>TEMP xy</em>, your own unit will always be chosen. So with a little coordination, TEMP units from other parties can also be addressed.</p>
-<p>The alias number will be used as the new number of the unit if it is not taken.
-You can also assign a name to the new unit.
-The orders</p>
+<p>When you create a new unit (<code>MAKE TEMP xy</code>), you assign it an alias number, because at that time you do not know yet, what the actual number will be.<br />
+For all other order, you can reference the unit by this alias (including the word TEMP, for example <code>GIVE TEMP xy 100 silver</code>).<br />
+When looking for a <code>TEMP</code> unit, your own faction is searched first, then other factions.<br />
+So if you and another faction both have a unit with the ID <em>TEMP xy</em>, your own unit will always be chosen.<br />
+So with a little coordination, <code>TEMP</code> units from other factions can also be addressed.</p>
+<p>The alias number will be used as the new number of the unit if it is not taken.<br />
+You can also assign a name to the new unit.</p>
+<p>The orders</p>
 <div class="highlight"><pre><span></span><code>MAKE TEMP 1
     NAME UNIT &quot;Clowns&quot;
     NUMBER UNIT funy
@@ -7974,12 +7978,12 @@ The orders</p>
 <p>can be shortened to :</p>
 <div class="highlight"><pre><span></span><code>MAKE TEMP funy &quot;Clowns&quot;
 </code></pre></div>
-<p>A maximum of 2500 units are allowed per faction.
+<p>A maximum of 2500 units are allowed per faction.<br />
 If the faction has 2500 or more units, no new units can be created with <code>MAKE TEMP</code>;<br />
 other units must first be deleted, e.g. by merging them.<br />
 As the deletion of empty units comes at the end of the command sequence, new <code>TEMP</code> units can only be created in the following week.  </p>
 <p>The orders following the <code>MAKE TEMP</code> order are assigned to the new unit up to the <code>END</code> order.  </p>
-<p>However, the new unit must still have members, otherwise it will be silently deleted at the end of the round!
+<p>However, the new unit must still have members, otherwise it will be silently deleted at the end of the round!<br />
 It must therefore recruit or be given people.<br />
 If the new unit is to recruit new members, it must also receive enough money to do so.<br />
 If it does not receive this, the unit will not be able to recruit anyone and will be silently removed at the end of the week.<br />
@@ -8009,8 +8013,8 @@ In order to build castles, the unit must have the masonry skill and stones;
 other buildings usually also require wood, iron, and silver in various quantities.</p>
 <p><a href="" id="make-ships-id"></a></p>
 <h2 id="ships">Ships<a class="headerlink" href="#ships" title="Permanent link">&para;</a></h2>
-<p>With <code>MAKE</code><em><code>ship_type</code></em> a unit starts building a new <a class="autorefs autorefs-internal" href="../ships/#ships">ship</a>.
-This requires the shipcraft skill and wood. It can continue building with <code>MAKE [</code><em><code>levels</code></em><code>] SHIP</code><em><code>ship-nr</code></em>.
+<p>With <code>MAKE</code><em><code>ship_type</code></em> a unit starts building a new <a class="autorefs autorefs-internal" href="../ships/#ships">ship</a>.<br />
+This requires the shipcraft skill and wood. It can continue building with <code>MAKE [</code><em><code>levels</code></em><code>] SHIP</code><em><code>ship-nr</code></em>.<br />
 Ships cannot be expanded like castles; the type is determined at the start of construction.<br />
 Ships can only be built up to the size specified by their type.</p>
 <p>With buildings as well as ships you can specify with <em>levels</em> how many size points you would like to add to the ship.  </p>
@@ -8023,7 +8027,7 @@ Ships can only be built up to the size specified by their type.</p>
 <p>To make it easier to travel through a region with roads and bridges, use <code>MAKE ROAD</code><em><code>direction</code></em>.<br />
 To build <a class="autorefs autorefs-internal" href="../roads/#roads">roads</a>, the unit needs the skill <a class="autorefs autorefs-internal" href="../skills-list/#roadwork">roadwork</a> and <a class="autorefs autorefs-internal" href="../resources/#stone">stones</a>.<br />
 In glaciers, it needs a <a class="autorefs autorefs-internal" href="../buildings-others/#tunnel">tunnel</a> beforehand, in deserts a <a class="autorefs autorefs-internal" href="../buildings-others/#caravanserai">caravanserai</a> and in swamps a <a class="autorefs autorefs-internal" href="../buildings-others/#dam">dam</a>.<br />
-One stone is used per skill point of road construction.
+One stone is used per skill point of road construction.<br />
 Between 50 and 250 stones are required for each desired direction, depending on the <a href="../terrains/">Terrain types</a>.<br />
 Roads only work if they are complete.</p>
 <p>Player experience (Solthar):</p>
@@ -8134,7 +8138,7 @@ MAKE building xyz ; wrong: only CASTLE or building type is allowed
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025 Cyril Guillon
+      Copyright &copy; 2025-2026 Cyril Guillon
     </div>
   
   

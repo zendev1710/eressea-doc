@@ -7343,7 +7343,7 @@
   <span class="md-ellipsis">
     
   
-    Pot of toadslime
+    Pot of Toadslime
   
 
     
@@ -8081,15 +8081,15 @@
 <p>Each faction must choose one of the five <a href="../magic-schools/">Schools of Magic</a>: <a class="autorefs autorefs-internal" href="../magic-school-illaun/#illaun-spells">Illaun</a>, <a class="autorefs autorefs-internal" href="../magic-school-tybied/#tybied-spells">Tybied</a>, <a class="autorefs autorefs-internal" href="../magic-school-gwyrrd/#gwyrrd-spells">Gwyrrd</a>, <a class="autorefs autorefs-internal" href="../magic-school-cerddor/#cerddor-spells">Cerddor</a> or <a class="autorefs autorefs-internal" href="../magic-school-draig/#draig-spells">Draig</a>.  </p>
 <p>The faction's magic area is determined by the very first unit that learns magic in the faction.
 This is done using the <a href="../cmd-learn/"><code>LEARN MAGIC "&lt;magic school&gt;"</code></a>.<br />
-As a result, the order is now just called <code>LEARN MAGIC "&lt;magic school&gt;"</code> and all magicians of a <a class="autorefs autorefs-internal" href="../factions/#factions">faction</a> then automatically learn the magic school chosen by the faction.<br />
+As a result, the order is now just called <code>LEARN MAGIC "&lt;magic school&gt;"</code> and all mages of a <a class="autorefs autorefs-internal" href="../factions/#factions">faction</a> then automatically learn the magic school chosen by the faction.<br />
 However, it is possible to order multiple units to <code>LEARN MAGIC "&lt;magic school&gt;"</code> if you are unsure which unit will come first.  </p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Once a magic school has been chosen, <strong>it cannot be changed</strong>.<br />
 Therefore, this decision needs to be carefully considered!</p>
 </div>
-<p>There can be a <strong>maximum of five magician units per faction</strong>;
-only <strong>elven factions</strong> are allowed to have <strong>6 magicians</strong>.<br />
+<p>There can be a <strong>maximum of five mage units per faction</strong>;
+only <strong>elven factions</strong> are allowed to have <strong>6 mages</strong>.<br />
 Mage units may only consist of one person.
 You cannot hand over people, even to empty <code>TEMP</code> units.  </p>
 <p>The skill to learn magic costs <code>50 + 25 * (1 + Level) * Level</code> Silver per person per round.</p>
@@ -8148,7 +8148,7 @@ You cannot hand over people, even to empty <code>TEMP</code> units.  </p>
 </tr>
 </tbody>
 </table>
-<p>So an untrained magician pays 100 Silver for his first lessons;
+<p>So an untrained mage pays 100 Silver for his first lessons;
 If he already has level 5 in magic skill, he has to pay 1100 Silver per week of learning.  </p>
 <div class="admonition warning">
 <p class="admonition-title">Caution</p>
@@ -8164,7 +8164,7 @@ In the latter case, however, the learning costs increase to 350 silver!<br />
 There is no way to know which of the two is true. So it's better to plan a little more generously.  </p>
 </div>
 <p>Learning in an <a class="autorefs autorefs-internal" href="../buildings-others/#academy">Academy</a> costs twice as much.
-Only magicians from the same area of ​​magic as the teacher can be taught.
+Only mages from the same area of ​​magic as the teacher can be taught.
 So a Draig Mage cannot teach an Illaun Mage.  </p>
 <p>If a mage unit does not have enough silver to learn, it will only learn in proportion to the amount of silver it can pay for each week.</p>
 <!-- TODO: clarify this not understable sentences -->
@@ -8176,6 +8176,7 @@ Of course, learning through application does not cost silver.  </p>
 There is currently one spell in each level, in exceptional cases several or none at all.
 Once you have reached a new level, the sayings are described in the evaluation.
 If you have forgotten the description, you can have it shown again using the <a href="../cmd-show/"><code>SHOW</code></a> command.</p>
+<!-- TODO: translate in english -->
 <div class="highlight"><pre><span></span><code>Eine so angezeigte Spruchbeschreibung sieht ungefähr so aus:
 
                                 Wunderdoktor
@@ -8250,7 +8251,7 @@ This can also happen even if he is set to <code>COMBAT NOT</code> or <code>FLEE<
 A normal combat spell once per combat round. Of course, only under the condition that the unit still has sufficient aura (see under <a class="autorefs autorefs-internal" href="#aura">Aura</a>) and that it is still alive.</p>
 <p><a href="" id="aura-id"></a></p>
 <h3 id="aura">Aura<a class="headerlink" href="#aura" title="Permanent link">&para;</a></h3>
-<p>Aura is the magical power that magicians use to perform their magic.<br />
+<p>Aura is the magical power that mages use to perform their magic.<br />
 Aura is consumed by casting spells and regenerates over time.<br />
 A mage unit can absorb a certain maximum amount of aura.<br />
 How much is determined -just like aura regeneration -by the unit's magical skill.<br />
@@ -8264,7 +8265,7 @@ This allows her to cast spells that cost more than her maximum aura. However, ex
 <p>There are also spells (and possibly other things) that cost mages permanent aura, such as "Create a Ring of Invisibility".<br />
 This means that the unit can now store less maximum aura.<br />
 These are usually very powerful spells or artifact magic that cause permanent effects.  </p>
-<p><a href="../cmd-cast/">CAST</a> is a pseudo-long command comparable to <a href="../cmd-attack/"><code>ATTACK</code></a>.<br />
+<p><a href="../cmd-cast/"><code>CAST</code></a> is a pseudo-long command comparable to <a href="../cmd-attack/"><code>ATTACK</code></a>.<br />
 A unit can therefore cast spells several times per round, but cannot carry out any other long command.<br />
 But there is a catch: the aura costs of the spells increase. The first spell the unit casts in a round costs the normal aura specified in the spell.<br />
 The second costs twice as much, the third four times as much, the fourth as eight times, etc.  </p>
@@ -8405,7 +8406,7 @@ The only exceptions are those <strong>Ship magic</strong> designated sayings.  <
 <p>Sayings that as <strong>Sea magic</strong> marked can also be cast by non-Aquarians on the ocean.  </p>
 <h3 id="magic-with-people-and-objects">Magic with people and objects<a class="headerlink" href="#magic-with-people-and-objects" title="Permanent link">&para;</a></h3>
 <p>Some spells can be used to magically influence people and objects.<br />
-It should be noted that the vast majority of spells to be cast on friendly units require that the target unit contact the magician with <a href="../cmd-contact/"><code>CONTACT</code></a>.<br />
+It should be noted that the vast majority of spells to be cast on friendly units require that the target unit contact the mage with <a href="../cmd-contact/"><code>CONTACT</code></a>.<br />
 Teleports and other enchantments can be well-intentioned, but can often be used for misdeeds, and with <a href="../cmd-contact/"><code>CONTACT</code></a> the target signals that they agree to the enchantment.  </p>
 <h3 id="rank">Rank<a class="headerlink" href="#rank" title="Permanent link">&para;</a></h3>
 <p>The order of normal spells is determined by the rank of the spell.<br />
@@ -8414,11 +8415,11 @@ Rank 1 is the lowest and rank 9 is the highest.<br />
 Most spells have a standard rank of 5, but antimagic spells almost all have a rank of 2, so they may be cast before normal spells.<br />
 Spells of the same rank are cast in the order specified on the turn.  </p>
 <p><strong>Example:</strong></p>
-<p>There would be three spells, called "Aaa", "Bee" and "Cee" :</p>
+<p>There would be three spells, called <code>Aaaa</code>, <code>Beee</code> and <code>Ceee</code> :</p>
 <ul>
-<li>"Aaaa" is rank 5 and costs 10 aura</li>
-<li>"Beee" is rank 2 and costs 20 aura</li>
-<li>"Ceee" is rank 5 and costs 5 aura</li>
+<li><code>Aaaa</code> is rank 5 and costs 10 aura</li>
+<li><code>Beee</code> is rank 2 and costs 20 aura</li>
+<li><code>Ceee</code> is rank 5 and costs 5 aura</li>
 </ul>
 <p>Assuming the unit has the orders :</p>
 <div class="highlight"><pre><span></span><code>CAST &quot;Ceee&quot;
@@ -8426,23 +8427,23 @@ CAST &quot;Beee&quot;
 CAST &quot;Aaaa&quot;
 </code></pre></div>
 <p>in that order.<br />
-“Beee” is cast first, because the spell has rank 2.<br />
+<code>Beee</code> is cast first, because the spell has rank 2.<br />
 It's the unit's first spell this week, so it costs 20 aura.<br />
-Then "Ceee" is cast, because "Aaaa" and "Ceee" have the same rank and "Ceee" comes before "Aaaa".<br />
-"Ceee" is the second spell, so it costs 5*2^1=10 aura. Now comes “Aaaa”.<br />
-"Aaaa" is the third spell, so it costs 10*2^2=40 aura.  </p>
+Then <code>Ceee</code> is cast, because <code>Aaaa</code> and <code>Ceee</code> have the same rank and <code>Ceee</code> comes before <code>Aaaa</code>.<br />
+<code>Ceee</code> is the second spell, so it costs 5 x 2^1 = 10 aura. Then comes <code>Aaaa</code>.<br />
+<code>Aaaa</code> is the third spell, so it costs 10 x 2^2 = 40 aura.  </p>
 <h2 id="blunder">Blunder<a class="headerlink" href="#blunder" title="Permanent link">&para;</a></h2>
 <p>There is a lot that is not obvious in the magic system and in the spells.<br />
 In general, many sayings contain direct or indirect risks.<br />
-A magician can also botch a spell.  </p>
+A mage can also botch a spell.  </p>
 <p>A spell can simply fail like that, even if all the components are actually there and the aura of unity is sufficient.<br />
 This is not a bug and also gives a completely normal message in the report ("The spell fails.").<br />
 If components or aura are missing, this will also be mentioned in the message.  </p>
-<p>The probability of a blunder depends on many factors, including the level, difficulty of the spell relative to the level at which the spell is cast by the magician, the magic area, the spell, the environment, the target, etc.  </p>
+<p>The probability of a blunder depends on many factors, including the level, difficulty of the spell relative to the level at which the spell is cast by the mage, the magic area, the spell, the environment, the target, etc.  </p>
 <p>Mistakes can have extremely unpleasant side effects! However, if the unit survives a blunder, these are usually not permanent.  </p>
 <p>Player experience (Solthar):</p>
 <p>A spell that is cast at the maximum possible level has approximately 20% chance of failure; at half level there is 0% chance.<br />
-For draigmages it is 10% more. Possible consequences (in descending order of frequency):</p>
+For Draig mages it is 10% more. Possible consequences (in descending order of frequency):</p>
 <ul>
 <li>The spell works, but subsequent spells become much more expensive</li>
 <li>All aura is lost, the spell works or not</li>
@@ -8475,12 +8476,12 @@ Otherwise, only magical protection and natural armor work against magical damage
 A Mining 10 unit has a 50% chance to resist a spell like <a class="autorefs autorefs-internal" href="../magic-school-draig/#chaos-curse">Chaos Curse</a> cast by a Magic 10 unit.<br />
 If the magic skill is 12, the chance drops to 40%. If the target unit consists of goblins, the chance drops further to 35%.  </p>
 <!-- TODO : check original -->
-<p>For example, a fireball that would do 50 damage (5d10 + 15) only does 90% against an elf with <a class="autorefs autorefs-internal" href="../war-tables/#magic-resistance">Laensword</a>.*70% = 63% of that, so about 31 damage.</p>
+<p>For example, a fireball that would do 50 damage (5d10 + 15) only does 90% against an elf with <a class="autorefs autorefs-internal" href="../war-tables/#magic-resistance">laen sword</a>.*70% = 63% of that, so about 31 damage.</p>
 <h2 id="mage-tower">Mage Tower<a class="headerlink" href="#mage-tower" title="Permanent link">&para;</a></h2>
 <p>A <a class="autorefs autorefs-internal" href="../buildings-others/#mage-tower">Mage Tower</a> increases aura regeneration by 75% and increases the effective level of any spell cast within them by 1, if applicable, in addition to a Ring of Power without increasing the cost.<br />
 In addition, the likelihood of a spell failure is significantly reduced.</p>
 <h2 id="familiar">Familiar<a class="headerlink" href="#familiar" title="Permanent link">&para;</a></h2>
-<p>Experienced magicians will at some point on their wanderings encounter an unusual specimen of a species that will join them.<br />
+<p>Experienced mages will at some point on their wanderings encounter an unusual specimen of a species that will join them.<br />
 Which genus this creature belongs to depends primarily on the area of ​​magic and race.  </p>
 <p>More information about these creatures: <a href="../familiars/">Familiars</a>.</p>
 <h2 id="the-astral-space">The Astral Space<a class="headerlink" href="#the-astral-space" title="Permanent link">&para;</a></h2>
@@ -8510,7 +8511,7 @@ This area is shaped like a parallelogram with four regions each extending in the
 The "reference point" is the southwest corner of it.<br />
 All regions in such an area lead to the same point when entering the astral world.<br />
 This connection is a prerequisite for most spells involving the astral space.<br />
-But it can also be disturbed, for example by blessed stonecircles that have recently been visited by a magician.<br />
+But it can also be disturbed, for example by blessed stonecircles that have recently been visited by a mage.<br />
 Depending on the spell used, additional restrictions may apply.  </p>
 <p>That's why caution is advised -because on the one hand you can see the schemes of real regions that are not connected to this point in the astral space, but on the other hand not all regions of the real world to which there is such a connection appear as schemes.<br />
 Only when travelers find their way around despite these differences will they realize that they can progress many times faster in the astral world.<br />
@@ -8606,7 +8607,7 @@ That's why there is now a <a href="../spells-list/">List of spells</a> and <a hr
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025 Cyril Guillon
+      Copyright &copy; 2025-2026 Cyril Guillon
     </div>
   
   

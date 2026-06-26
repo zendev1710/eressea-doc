@@ -7775,7 +7775,7 @@
 <h1 id="naviguer">Naviguer<a class="headerlink" href="#naviguer" title="Permanent link">&para;</a></h1>
 <p>Seuls les <a class="autorefs autorefs-internal" href="../ships/#bateaux">bateaux</a> permettent de quitter son île et ainsi, par exemple, d'ouvrir de nouveaux marchés ou d'établir un contact direct avec d'autres factions.<br />
 Avec un bateau, on peut naviguer jusqu'à 7 régions, et même plus loin avec des capitaines aquariens ou de la magie.  </p>
-<p>Tous les bateaux plus grands qu'un boat (et cela inclut les longboats) ne peuvent accoster que dans les plaines et les forêts.<br />
+<p>Tous les bateaux plus grands qu'une <a class="autorefs autorefs-internal" href="../ships/#barque" title="Boat">barque</a> (et cela inclut les <a class="autorefs autorefs-internal" href="../ships/#chaloupe" title="Longboat">chaloupes</a>) ne peuvent accoster que dans les plaines et les forêts.<br />
 Tous les autres types de régions (par exemple les montagnes, les hauts-plateaux, les marais, etc.) ont besoin d'un <strong><a class="autorefs autorefs-internal" href="../buildings-others/#port">port</a></strong> pour que les bateaux puissent accoster.<br />
 Si un bateau tente d'accoster dans une région inappropriée, il subit des <a class="autorefs autorefs-internal" href="#dommages-aux-bateaux">dommages</a>.<br />
 Les bateaux peuvent cependant appareiller n'importe où, on peut donc construire des bateaux dans toutes les régions côtières et les mettre à l'eau.  </p>
@@ -7785,16 +7785,16 @@ Un bateau venant de l'est (le rapport indique alors "côte est") peut donc parti
 Cependant, si une région dispose d'un port, les bateaux du propriétaire du port et des factions amies (voir <a href="../cmd-help/"><code>HELP</code></a>) peuvent aller dans d'autres directions à condition qu'il s'agisse de régions océaniques.  </p>
 <p>En haute mer - cad des régions océaniques qui ne sont pas bordées par une région terrestre - les bateaux peuvent dériver vers une région voisine et subir des dommages à cause de tempêtes.<br />
 Cela ne s'applique pas aux bateaux qui ordonnent des <a href="../cmd-follow/"><code>FOLLOW</code></a> ou <a class="autorefs autorefs-internal" href="../war/#piraterie">piraterie</a>.  </p>
-<p>Pour pouvoir naviguer sur un bateau, il faut un équipage formé, c'est-à-dire des unités qui ont appris la compétence sailing.<br />
-Dans le tableau suivant, le niveau de compétence en sailing du capitaine (la première unité sur le bateau dans le rapport) est indiqué sous "Capitaine".<br />
-De plus, il faut un certain niveau global en sailing pour piloter le bateau.<br />
-Pour cela, les niveaux de compétence sailing de toutes les personnes à bord sont additionnés, y compris ceux de l'unité du capitaine et des unités de factions "étrangères".<br />
+<p>Pour pouvoir naviguer sur un bateau, il faut un équipage formé, c'est-à-dire des unités qui ont appris la <a class="autorefs autorefs-internal" href="../skills-list/#voile" title="Sailing">voile</a>.<br />
+Dans le tableau suivant, le niveau de compétence en voile{title="Sailing"} du capitaine (la première unité sur le bateau dans le rapport) est indiqué sous "Capitaine".<br />
+De plus, il faut un certain niveau global en voile pour piloter le bateau.<br />
+Pour cela, les niveaux de compétence en voile de toutes les personnes à bord sont additionnés, y compris ceux de l'unité du capitaine et des unités de factions "étrangères".<br />
 La valeur requise est indiquée dans le tableau sous "Équipage".<br />
 La portée indiquée dans le tableau est valable par tour, c'est-à-dire qu'un bateau peut naviguer au maximum de cette distance par tour.<br />
 Les bateaux pilotés par une unité d'aquariens d'une faction d'aquariens (les aquariens migrants d'une faction d'humains ne comptent donc pas) peuvent naviguer d'une case de plus.  </p>
 <p><strong>Exemple :</strong></p>
 <ul>
-<li>Une trirème peut être pilotée par une unité de 30 personnes avec sailing 4 ou par une unité d'une personne de niveau 4 et une unité de 58 personnes de niveau 2.
+<li>Une trirème peut être pilotée par une unité de 30 personnes avec voile T4 ou par une unité d'une personne de niveau 4 et une unité de 58 personnes de niveau 2.
   Dans tous les cas, elle navigue sur 7 régions par tour (8 pour les aquariens) et peut emporter 2 000 lbs, dont le poids de l'équipage est bien sûr déduit.</li>
 <li>Un dragonship avec une unité de 25 personnes de niveau 2 se déplace 5 régions.
   Cependant, avec 3 personnes de niveau 20, il peut se déplacer de 7 régions.</li>
@@ -7905,9 +7905,9 @@ Sur une case d'océan (type de région océan) jusqu'à 100 aquariens embarqués
 Néanmoins, toutes les unités à bord du bateau consomment l'entretien hebdomadaire, il faut donc toujours embarquer suffisamment de Silver.  </p>
 <p>Lorsque le bateau est à terre, toutes les unités à bord peuvent faire quelque chose ; elles vont pour ainsi dire à terre pour travailler.<br />
 Elles peuvent le faire même si le bateau part au cours du même tour.<br />
-Mais si la région est gardée par une faction non alliée, en addition aux conséquences habituelles de l'ordre GUARD, elles ne peuvent pas non plus <a class="autorefs autorefs-internal" href="../silver/#argent">gagner d'argent</a> avec <code>WORK</code>, <code>ENTERTAIN</code> ou <code>SELL</code>, comme elles pourraient le faire autrement.  </p>
+Mais si la région est gardée par une faction non alliée, en addition aux conséquences habituelles de l'ordre <code>GUARD</code>, elles ne peuvent pas non plus <a class="autorefs autorefs-internal" href="../silver/#argent">gagner d'argent</a> avec <code>WORK</code>, <code>ENTERTAIN</code> ou <code>SELL</code>, comme elles pourraient le faire autrement.  </p>
 <p>Si des unités veulent quitter un bateau, elles doivent d'abord le faire avec <a href="../cmd-leave/"><code>LEAVE</code></a>.<br />
-Si la région n'est pas gardée par une faction non alliée, les unités peuvent se déplacer immédiatement avec MOVE, sinon elles ne pourront le faire qu'au tour suivant l'ordre LEAVE.<br />
+Si la région n'est pas gardée par une faction non alliée, les unités peuvent se déplacer immédiatement avec <code>MOVE</code>, sinon elles ne pourront le faire qu'au tour suivant l'ordre <code>LEAVE</code>.<br />
 Cela s'applique bien sûr aussi à <a href="../cmd-ride/"><code>RIDE</code></a> et <a href="../cmd-carry/"><code>CARRY</code></a>.  </p>
 <h2 id="nager">Nager<a class="headerlink" href="#nager" title="Permanent link">&para;</a></h2>
 <p>Les <a class="autorefs autorefs-internal" href="../races/#aquariens">aquariens</a> peuvent nager jusqu'à terre à partir d'un bateau qui se trouve dans une région océanique à côté de régions terrestres, mais pas l'inverse.<br />
@@ -7925,15 +7925,15 @@ La portée, y compris tous les bonus d'accélération (aquarien, artefacts, sort
 <li>La capacité est donc réduite (50 x 0,83 = 41,5 arrondir vers le bas) à 41 lbs</li>
 <li>La portée (1 + 2 x 0,83 = 2,49 arrondir à l'unité supérieure) reste donc à 3</li>
 </ul>
-<p>Si un bateau subit 100% de dégâts, il coule avec son équipage et ses passagers.  </p>
+<p>Si un bateau subit 100 % de dégâts, il coule avec son équipage et ses passagers.  </p>
 <p>Lors des événements suivants, un bateau subit des dommages :</p>
 <ul>
-<li>le bateau est engagé dans un combat : 0%-20% de dommages (voir <a class="autorefs autorefs-internal" href="../war/#combats-a-bord-et-depuis-les-navires">combat naval</a>)</li>
+<li>le bateau est engagé dans un combat : [0-20] % de dommages (voir <a class="autorefs autorefs-internal" href="../war/#combats-a-bord-et-depuis-les-bateaux">combat naval</a>)</li>
 <li>le bateau est endommagé par un sort puissant (jusqu'à 90 %)</li>
 <li>le bateau subit des dommages à cause des raz-de-marée (50 %)</li>
-<li>si le bateau heurte des écueils, il subit 10% de dégâts (heurter des écueils : tenter d'accoster dans une région inadaptée)</li>
+<li>si le bateau heurte des écueils, il subit 10 % de dégâts (heurter des écueils : tenter d'accoster dans une région inadaptée)</li>
 <li>en mer avec un équipage insuffisant, 30 % de dommages</li>
-<li>si le bateau est sans propriétaire, il subit 5% de dommages</li>
+<li>si le bateau est sans propriétaire, il subit 5 % de dommages</li>
 <li>Si le bateau dérive (comme suite à une tempête), il subit 2 % de dommages</li>
 </ul>
 <p>Un bateau peut être réparé avec l'ordre <a href="../cmd-make/"><code>MAKE</code>&nbsp;&#91;<code>level</code>&#93;&nbsp;<code>SHIP</code>&nbsp;&#91;<code>ship id</code>&#93;</a>, exactement comme lorsque sa construction n'était pas encore achevée.  </p>
@@ -8045,7 +8045,7 @@ La portée, y compris tous les bonus d'accélération (aquarien, artefacts, sort
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025 Cyril Guillon
+      Copyright &copy; 2025-2026 Cyril Guillon
     </div>
   
   

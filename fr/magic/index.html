@@ -8177,6 +8177,7 @@ Bien entendu, l’apprentissage par l’application ne coûte pas d’argent.</p
 Il y a actuellement un sort dans chaque niveau, dans des cas exceptionnels plusieurs voire aucun.<br />
 Une fois que vous avez atteint un nouveau niveau, les paroles sont décrites dans l'évaluation.<br />
 Si vous avez oublié la description, vous pouvez la faire afficher à nouveau à l'aide de l'ordre <a href="../cmd-show/"><code>SHOW</code></a>.</p>
+<!-- TODO: translate -->
 <div class="highlight"><pre><span></span><code>                                     Wunderdoktor
 
     Beschreibung:
@@ -8197,6 +8198,7 @@ Si vous avez oublié la description, vous pouvez la faire afficher à nouveau à
       CAST [LEVEL n] Wunderdoktor
 </code></pre></div>
 <p>ou alors</p>
+<!-- TODO: translate -->
 <div class="highlight"><pre><span></span><code>                        Erschaffe einen Ring der Unsichtbarkeit
 
     Beschreibung:
@@ -8252,7 +8254,7 @@ Un sort de combat normal une fois par round de combat, à condition que l'unité
 <p>L'aura est le pouvoir magique que les mages utilisent pour accomplir leur magie.<br />
 L'aura est consommée en lançant des sorts et se régénère au fil du temps.<br />
 Un mage peut absorber une quantité maximale d’aura, déterminée par son niveau de compétence en magie.  </p>
-<p>Les déttails pour chaque unité de mage sont présents dans le rapport, mais, en règle générale, le maximum d'aura absorbée est d'au maximum <em>niveau magie</em> puissance 2, et en moyenne environ <em>niveau de magie</em> de l'aura est régénérée par semaine.<br />
+<p>Les détails pour chaque unité de mage sont présents dans le rapport, mais, en règle générale, le maximum d'aura absorbée est d'au maximum <em>niveau magie</em> puissance 2, et en moyenne environ <em>niveau de magie</em> de l'aura est régénérée par semaine.<br />
 Mais cela peut varier entre presque rien et le niveau en magie.<br />
 Les peuples magiques régénèrent l'aura plus rapidement, les peuples non magiques beaucoup plus lentement.  </p>
 <p>L'aura maximale n'est pas immuable.</p>
@@ -8275,7 +8277,7 @@ Les <a class="autorefs autorefs-internal" href="#magie-a-distance">sorts à dist
 <p>Certains sorts ont des effets et des coûts fixes.<br />
 Ils sont toujours lancés au niveau du sort et ne peuvent pas être modifiés par des paramètres.<br />
 Cela peut toujours être important pour des choses comme la <a class="autorefs autorefs-internal" href="#resistance-a-la-magie">résistance à la magie</a>.<br />
-Le sort <strong>Create A Ring of Invisibility</strong> est toujours lancé au niveau 6 et produit exactement un anneau.  </p>
+Le sort <strong><a class="autorefs autorefs-internal" href="../spells-descriptions/#creer-un-anneau-dinvisibilite" title="Create A Ring of Invisibility">Créer un anneau d'Invisibilité</a></strong> est toujours lancé au niveau 6 et produit exactement un anneau.  </p>
 <p>De nombreux sorts ont des effets et des coûts qui dépendent du niveau.<br />
 Leur effet dépend du niveau auquel le sort a été lancé.<br />
 Les détails dépendent du sort en question.
@@ -8291,15 +8293,15 @@ Une raison pour laquelle cela n'est pas toujours souhaitable est que le niveau a
 <div class="highlight"><pre><span></span><code>COMBATSPELL LEVEL 2 &quot;Song of Fear&quot;
 </code></pre></div>
 <p>Ceci peut être utile, par exemple, lorsque vous souhaitez conserver de l'aura pour un sort d'après-combat.</p>
-<p><strong>Example:</strong></p>
+<p><strong>Exemple :</strong></p>
 <div class="highlight"><pre><span></span><code>CAST LEVEL 4 &quot;Miracle doctor&quot;
 </code></pre></div>
-<p>Ce sort coûtera 4 aura et rapportera 200 silver.<br />
-Avec un anneau de Pouvoir, cela coûte toujours 4 aura mais rapporte 250 silver.</p>
+<p>Ce sort <a class="autorefs autorefs-internal" href="../magic-schools/#tybied">Tybied</a> coûtera 4 aura et rapportera 200 silver.<br />
+Avec un <a class="autorefs autorefs-internal" href="../ring-of-power/#anneau-de-pouvoir" power_="Power'" of="of" title=""Ring">anneau de Pouvoir</a>, cela coûtera toujours 4 auras, mais rapportera 250 silver.</p>
 <h3 id="composants">Composants<a class="headerlink" href="#composants" title="Permanent link">&para;</a></h3>
 <p>S'il est simplement indiqué le nombre d'aura, cela signifie que les coûts sont fixes : <strong>Créer un Anneau d'invisibilité</strong> coûte toujours 50 aura.<br />
 Si les composants d'in sort indiquent par exemple <code>3 Aura * Level</code>, cela signifie que pour lancer un sort une fois, le coût de l'aura est de 3 aura multiplié par le niveau auquel le sort est lancé.<br />
-Ainsi, <strong>Miracle Doctor</strong> coûte 1 aura lorsqu'il est lancé au niveau 1, et 30 aura lorsqu'il est lancé au niveau 30.  </p>
+Ainsi, le sort <a class="autorefs autorefs-internal" href="../magic-school-tybied/#t-spell-docteur-miracle-id" title="Miracle Doctor"><strong>Docteur Miracle</strong></a> coûte 1 aura lorsqu'il est lancé au niveau 1, 30 aura lorsqu'il est lancé au niveau 30.  </p>
 <p>Si le sort nécessite une aura permanente, l'aura maximale de l'unité est définitivement réduite de cette valeur.<br />
 D'autres composants peuvent inclure des plantes, des matières premières, de l'argent, des potions ou même des objets rares ou bien des agriculteurs.  </p>
 <h3 id="magie-a-distance">Magie à distance<a class="headerlink" href="#magie-a-distance" title="Permanent link">&para;</a></h3>
@@ -8418,34 +8420,33 @@ Le rang 1 est le plus bas et le rang 9 est le plus élevé.<br />
 La plupart des sorts ont un rang standard de 5, mais les sorts antimagiques ont presque tous un rang de 2, ils peuvent donc être lancés avant les sorts normaux.<br />
 Les sorts de même rang sont lancés dans l'ordre spécifié lors du tour.</p>
 <p><strong>Exemple :</strong></p>
-<p>Soit trois sorts, appelés "Aaa", "Bee" et "Cee" :</p>
+<p>Soit trois sorts appelés <code>Aaaa</code>, <code>Beee</code> et <code>Ceee</code> :</p>
 <ul>
-<li>"Aaaa" est de rang 5 et coûte 10 aura</li>
-<li>"Beee" est de rang 2 et coûte 20 aura</li>
-<li>"Ceee" est de rang 5 et coûte 5 aura</li>
+<li><code>Aaaa</code> est de rang 5 et coûte 10 aura</li>
+<li><code>Beee</code> est de rang 2 et coûte 20 aura</li>
+<li><code>Ceee</code> est de rang 5 et coûte 5 aura</li>
 </ul>
-<p>En supposant que l'unité passe les ordres :</p>
+<p>En supposant que l'unité passe les ordres avec cette séquence :</p>
 <div class="highlight"><pre><span></span><code>CAST &quot;Ceee&quot;
 CAST &quot;Beee&quot;
 CAST &quot;Aaaa&quot;
 </code></pre></div>
-<p>dans cet ordre.</p>
-<p>« Beee » est lancé en premier, car le sort est de rang 2.
-C'est le premier sort de l'unité cette semaine, il coûte donc 20 aura.
-Ensuite, "Ceee" est lancé, car "Aaaa" et "Ceee" ont le même rang et "Ceee" vient avant "Aaaa".
-"Ceee" est le deuxième sort, il coûte donc 5*2^1=10 aura. Vient maintenant « Aaaa ».
-"Aaaa" est le troisième sort, il coûte donc 10*2^2=40 aura.</p>
+<p><code>Beee</code> est lancé en premier, car le sort est de rang 2.<br />
+C'est le premier sort de l'unité cette semaine, il coûte donc 20 aura.<br />
+Ensuite, <code>Ceee</code> est lancé, car <code>Aaaa</code> et <code>Ceee</code> ont le même rang et <code>Ceee</code> vient avant <code>Aaaa</code>.<br />
+<code>Ceee</code> est le deuxième sort, il coûte donc 5 X 2^1 = 10 aura. Vient ensuite <code>Aaaa</code>.<br />
+<code>Aaaa</code> est le troisième sort, il coûte donc  10 X 2^2 = 40 aura.</p>
 <h2 id="gaffe">Gaffe<a class="headerlink" href="#gaffe" title="Permanent link">&para;</a></h2>
 <p>Il y a beaucoup de choses qui ne sont pas évidentes dans le système de magie et dans les sorts.<br />
 En général, de nombreuses paroles contiennent des risques directs ou indirects.<br />
 Un mage peut aussi rater un sort.</p>
 <p>Ainsi, un sort peut tout simplement échouer, même si tous les composants sont réellement là et que l’aura d’unité est suffisante.<br />
-Ce n'est pas un bug, un message tout à fait normal est présent dans le rapport ("The spell fails.").<br />
-Si des composants ou une aura manquent, cela sera également mentionné dans le message.</p>
+Dans ce cas, un message indiquant que le sort a échoué est présent dans le rapport.<br />
+Si des composants ou une aura manquent, cela sera également mentionné spécifiquement dans le message.</p>
 <p>La probabilité d'une erreur dépend de nombreux facteurs, parmi lesquels le niveau, la difficulté du sort par rapport au niveau auquel le sort est lancé par le mage, l' École de Magie, le sort, l'environnement, la cible, etc.  </p>
 <p>Les erreurs peuvent avoir des effets secondaires extrêmement désagréables !<br />
 Cependant, si l’unité survit à une erreur, celle-ci n’est généralement pas permanente.</p>
-<p>Experience de jeu (Solthar) :</p>
+<p>Expérience de jeu (Solthar) :</p>
 <p>Un sort lancé au niveau maximum possible a environ 20 % de chances d'échec; à mi-niveau, il y a 0 % de chance.<br />
 Pour les mages Draig, c'est 10 % de plus.
 Conséquences possibles (par ordre décroissant de fréquence) :</p>
@@ -8467,7 +8468,7 @@ La résistance à la magie d'une unité s'obtient par l'addition de :</p>
 <li>Éventuellement un bonus ou un malus dû au <a class="autorefs autorefs-internal" href="../spells-list/#liste-des-sorts">sort</a> sur l'unité ou la région</li>
 <li>Éventuellement un bonus de <a class="autorefs autorefs-internal" href="../buildings-others/#cercle-de-pierres">bâtiment</a></li>
 </ul>
-<p>Le résultat ne peut jamais être supérieur à 90 %.  </p>
+<p>Le résultat ne peut jamais être supérieur à 90 %.  </p>
 <p>Pour certains enchantements directs, il est en outre influencé par l'expérience de l'unité.  </p>
 <ul>
 <li>50 % + 5 % * (valeur de compétence la plus élevée de l'unité enchantée - compétence magique de l'unité qui lance)</li>
@@ -8478,14 +8479,14 @@ La résistance à la magie d'une unité s'obtient par l'addition de :</p>
 Sinon, seules la protection magique et l’armure naturelle fonctionnent contre les dégâts de magie.  </p>
 <p>Même la « matière inanimée » (c'est-à-dire les régions, les bateaux, les bâtiments...), a parfois une résistance magique.<br />
 Il peut également être renforcé par certains sorts.  </p>
-<p><strong>Exemples:</strong></p>
-<p>La chance de base est de 0 % pour les humains, de 10 % pour les <a class="autorefs autorefs-internal" href="../skills-modifiers/#modificateurs-de-competences">elfes</a>, et de -5 % pour les <a class="autorefs autorefs-internal" href="../skills-modifiers/#modificateurs-de-competences">gobelins</a>.  </p>
+<p><strong>Exemples :</strong></p>
+<p>La chance de base est de 0 % pour les humains, de 10 % pour les <a class="autorefs autorefs-internal" href="../skills-modifiers/#modificateurs-de-competences">elfes</a>, et de -5 % pour les <a class="autorefs autorefs-internal" href="../skills-modifiers/#modificateurs-de-competences">gobelins</a>.  </p>
 <p>Une unité Mining 10 a 50 % de chances de résister à un sort comme <a class="autorefs autorefs-internal" href="../magic-school-draig/#malediction-du-chaos">Malédiction du Chaos</a> lancé par une unité de T10 en magie.<br />
 Si le niveau en magie est T12, les chances tombent à 40 %.<br />
 Si l'unité cible est composée de gobelins, les chances diminuent encore à 35 %.  </p>
 <p>Par exemple, une boule de feu qui ferait 50 dégâts (5d10 + 15) ne fait que (90 % contre un elfe équipé d'une <a class="autorefs autorefs-internal" href="../war-tables/#resistance-a-la-magie">épée en laen</a> * 70 %) = 63 % de cela, soit environ 31 dégâts.  </p>
 <h2 id="tour-des-mages">Tour des Mages<a class="headerlink" href="#tour-des-mages" title="Permanent link">&para;</a></h2>
-<p>Une <a class="autorefs autorefs-internal" href="../buildings-others/#tour-de-mage">Tour de Mage</a> augmente la régénération de l'aura de 75 % et augmente le niveau effectif de tout sort lancé en son sein de 1, le cas échéant, en plus d'un <a class="autorefs autorefs-internal" href="../ring-of-power/#anneau-de-pouvoir" title="Ring of Power">anneau de Pouvoir</a> sans augmenter le coût.<br />
+<p>Une <a class="autorefs autorefs-internal" href="../buildings-others/#tour-de-mage">Tour de Mage</a> augmente la régénération de l'aura de 75 % et augmente le niveau effectif de tout sort lancé en son sein de 1, le cas échéant, en plus d'un <a class="autorefs autorefs-internal" href="../ring-of-power/#anneau-de-pouvoir" title="Ring of Power">anneau de Pouvoir</a> sans augmenter le coût.<br />
 De plus, la probabilité d’un échec du sort est considérablement réduite.  </p>
 <p><a href="" id="magic-familiers-id"></a></p>
 <h2 id="familiers">Familiers<a class="headerlink" href="#familiers" title="Permanent link">&para;</a></h2>
@@ -8616,7 +8617,7 @@ C'est pourquoi il existe désormais une <a class="autorefs autorefs-internal" hr
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025 Cyril Guillon
+      Copyright &copy; 2025-2026 Cyril Guillon
     </div>
   
   

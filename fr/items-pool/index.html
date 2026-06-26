@@ -7979,10 +7979,10 @@ Les unités ne donnent pas l'argent dont elles ont besoin pour leur propre entre
 <p>Les réserves ne sont valables que pour votre propre faction.<br />
 Les objets doivent être explicitement remis à des unités étrangères.  </p>
 <p>Les réserves ne fonctionnent pas seulement en production (essentiellement avec l'ordre <a href="../cmd-make/"><code>MAKE</code></a>), mais globalement pour tout, notamment pour les ordres <a href="../cmd-reserve/"><code>RESERVE</code></a>, <a href="../cmd-give/"><code>GIVE</code></a>, <a href="../cmd-use/"><code>USE</code></a>, <a href="../cmd-cast/"><code>CAST</code></a> et <a href="../cmd-recruit/"><code>RECRUIT</code></a>.<br />
-Si l'unité ne dispose pas d'un item, elle le prélève dans la réseerve de matériaux pour le traiter, le remettre ou le réserver.<br />
+Si l'unité ne dispose pas d'un item, elle le prélève dans la réserve de matériaux pour le traiter, le remettre ou le réserver.<br />
 Cependant, si une unité a besoin d'armes pour une attaque ou pour collecter des impôts, celles-ci doivent être explicitement remises ou réservées, car la réserve de matériel ne s'applique pas pour cet usage.  </p>
 <p><strong>Les factions inexpérimentées doivent planifier soigneusement leur réserve de matériel</strong>, car il peut facilement arriver de « voler » sans le vouloir des ressources à des unités;<br />
-ces unités léséees ne pourront alors pas produire (ou pas assez), tandis que l'unité avec surplus d'items aura utilisé plus de ressources et probablement produit plus que prévu.  </p>
+ces unités lésées ne pourront alors pas produire (ou pas assez), tandis que l'unité avec surplus d'items aura utilisé plus de ressources et probablement produit plus que prévu.  </p>
 <h3 id="exemple-1">Exemple 1<a class="headerlink" href="#exemple-1" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>UNIT a ; mineur, possède 30 fer
     MAKE 20 iron
@@ -7995,7 +7995,7 @@ UNIT b ; fabricant d&#39;armes, n&#39;a pas de fer
 UNIT c; pour stockage, n&#39;a pas de fer
     LEARN Stealth
 </code></pre></div>
-<p><strong>Résultat de l'avaluation :</strong></p>
+<p><strong>Résultat de l'évaluation :</strong></p>
 <ul>
 <li>L'unité b reçoit d'abord 10 fer de la réserve d'objets de a</li>
 <li>L'unité a donne les 20 fer restants à c</li>
@@ -8005,7 +8005,7 @@ UNIT c; pour stockage, n&#39;a pas de fer
 <li>L'unité a possède finalement 20 fer</li>
 <li>L'unité c possède finalement 20 fer</li>
 </ul>
-<h2 id="reserve-et-give">RESERVE et GIVE<a class="headerlink" href="#reserve-et-give" title="Permanent link">&para;</a></h2>
+<h2 id="reserve-et-give"><code>RESERVE</code> et <code>GIVE</code><a class="headerlink" href="#reserve-et-give" title="Permanent link">&para;</a></h2>
 <p>Il y a quelques particularités à noter à propos de <a href="../cmd-reserve/"><code>RESERVE</code></a> et <a href="../cmd-give/"><code>GIVE</code></a>, qui précèdent la plupart des autres ordres de la <a href="../commands-sequence/">Orders sequence</a>.<br />
 Celles-ci s'appliquent autant à la réserve d'argent qu'à la réserve de matériaux.</p>
 <p>Premièrement, les items remis ou réservés ne sont plus disponibles dans la réserve.  </p>
@@ -8204,7 +8204,7 @@ Elles ne peuvent plus être désactivées.</p>
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025 Cyril Guillon
+      Copyright &copy; 2025-2026 Cyril Guillon
     </div>
   
   

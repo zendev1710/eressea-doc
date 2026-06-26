@@ -7191,7 +7191,7 @@
   <span class="md-ellipsis">
     
   
-    Pot of toadslime
+    Pot of Toadslime
   
 
     
@@ -7813,7 +7813,7 @@ Ships piloted by a unit of aquarians from an aquarian faction (migrant aquarians
 </thead>
 <tbody>
 <tr>
-<td>Boat</td>
+<td><a class="autorefs autorefs-internal" href="../ships/#boat">Boat</a></td>
 <td style="text-align: center;">2</td>
 <td style="text-align: right;">50</td>
 <td style="text-align: right;">1 /   2</td>
@@ -7821,7 +7821,7 @@ Ships piloted by a unit of aquarians from an aquarian faction (migrant aquarians
 <td style="text-align: right;">5</td>
 </tr>
 <tr>
-<td>Longboat</td>
+<td><a class="autorefs autorefs-internal" href="../ships/#longboat">Longboat</a></td>
 <td style="text-align: center;">3</td>
 <td style="text-align: right;">500</td>
 <td style="text-align: right;">1 /  10</td>
@@ -7829,7 +7829,7 @@ Ships piloted by a unit of aquarians from an aquarian faction (migrant aquarians
 <td style="text-align: right;">50</td>
 </tr>
 <tr>
-<td>Dragonship</td>
+<td><a class="autorefs autorefs-internal" href="../ships/#dragonship">Dragonship</a></td>
 <td style="text-align: center;">5<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
 <td style="text-align: right;">1000</td>
 <td style="text-align: right;">2 /  50</td>
@@ -7837,7 +7837,7 @@ Ships piloted by a unit of aquarians from an aquarian faction (migrant aquarians
 <td style="text-align: right;">100</td>
 </tr>
 <tr>
-<td>Caravel</td>
+<td><a class="autorefs autorefs-internal" href="../ships/#caravel">Caravel</a></td>
 <td style="text-align: center;">5</td>
 <td style="text-align: right;">3000</td>
 <td style="text-align: right;">3 /  30</td>
@@ -7845,7 +7845,7 @@ Ships piloted by a unit of aquarians from an aquarian faction (migrant aquarians
 <td style="text-align: right;">250</td>
 </tr>
 <tr>
-<td>Trireme</td>
+<td><a class="autorefs autorefs-internal" href="../ships/#trireme">Trireme</a></td>
 <td style="text-align: center;">7</td>
 <td style="text-align: right;">2000</td>
 <td style="text-align: right;">4 / 120</td>
@@ -7853,7 +7853,7 @@ Ships piloted by a unit of aquarians from an aquarian faction (migrant aquarians
 <td style="text-align: right;">200</td>
 </tr>
 <tr>
-<td>Galleon</td>
+<td><a class="autorefs autorefs-internal" href="../ships/#galleon">Galleon</a></td>
 <td style="text-align: center;">5</td>
 <td style="text-align: right;">20000</td>
 <td style="text-align: right;">5 / 250<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></td>
@@ -7905,25 +7905,25 @@ Up to 100 aquarians per ocean region can earn 10 silver each per turn with the <
 Nevertheless, all persons on the ship need the weekly upkeep, so it should always have enough silver on board.</p>
 <p>When the ship is ashore, all the units on board can do something; they go ashore to work, so to speak.<br />
 They can do this even if the ship leaves during the same turn.<br />
-However, if the region is guarded by a non-allied faction, they cannot <a class="autorefs autorefs-internal" href="../silver/#money">earn silver</a> with WORK, ENTERTAIN or SELL.</p>
+However, if the region is guarded by a non-allied faction, they cannot <a class="autorefs autorefs-internal" href="../silver/#money">earn silver</a> with <code>WORK</code>, <code>ENTERTAIN</code> or <code>SELL</code>.</p>
 <p>If units want to leave a ship, they must first do so with <a href="../cmd-leave/"><code>LEAVE</code></a>.<br />
-If the region is not guarded by a non-allied faction, the units can move immediately with MOVE, otherwise they can only MOVE on the turn following the LEAVE order.<br />
+If the region is not guarded by a non-allied faction, the units can move immediately with <code>MOVE</code>, otherwise they can only move on the turn following the <code>LEAVE</code> order.<br />
 This also applies to <a href="../cmd-ride/"><code>RIDE</code></a> and <a href="../cmd-carry/"><code>CARRY</code></a>.</p>
 <h2 id="swimming">Swimming<a class="headerlink" href="#swimming" title="Permanent link">&para;</a></h2>
-<p><a class="autorefs autorefs-internal" href="../races/#aquarians">Aquarians</a> in a ship can swim from an ocean region onto a directly adjacent land region (with the MOVE order), but the reverse is not true.<br />
+<p><a class="autorefs autorefs-internal" href="../races/#aquarians">Aquarians</a> in a ship can swim from an ocean region onto a directly adjacent land region (with the <code>MOVE</code> order), but the reverse is not true.<br />
 Aquarians can not swim from a land region onto any ocean region.<br />
 This works only if the unit isn’t overloaded.<br />
 Swimming aquarians can carry items, but not horses.<br />
 <a href="../cmd-carry/">transporting</a> units of other races is not possible in this way, but aquarians can transport each other.<br />
 This movement takes place before the movement of ships, so a ship can drop off units and then move on.<br />
-<a href="../cmd-leave/">LEAVE</a> is not necessary when swimming from a ship, but is not even a mistake.</p>
+<a href="../cmd-leave/"><code>LEAVE</code></a> is not necessary when swimming from a ship, but is not even a mistake.</p>
 <h2 id="damage-to-ships">Damage to Ships<a class="headerlink" href="#damage-to-ships" title="Permanent link">&para;</a></h2>
 <p>Travelling by sea is dangerous, and ships can be damaged on the high seas by storms, natural events or even creatures from the depths (or also if no one drives them).</p>
 <p>Damage is expressed as a percentage and reduces capacity in proportion to the damage indicated; round down.<br />
 Range, including all acceleration bonuses (aquarian, artefacts, spells), is also reduced in proportion; but in this case, always round up.</p>
 <p>Example: A boat with an aquarian captain is 17% damaged.</p>
 <ul>
-<li>This reduces the capacity to (50)*0.83=41.5 (round down) 41 WU.</li>
+<li>This reduces the capacity to (50)*0.83=41.5 (round down) 41 lbs.</li>
 <li>The range (1+2)*0.83=2.49 (round up) therefore remains at 3.</li>
 </ul>
 <p>If the damage exceeds 100%, the ship will sink with all units on board.</p>
@@ -8045,7 +8045,7 @@ Range, including all acceleration bonuses (aquarian, artefacts, spells), is also
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025 Cyril Guillon
+      Copyright &copy; 2025-2026 Cyril Guillon
     </div>
   
   

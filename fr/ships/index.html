@@ -7990,6 +7990,7 @@ Elle peut <a href="../cmd-name/">renommer</a> ou <a href="../cmd-describe/">déc
 Donc, si vous avez commencé à construire un Drakkar, vous ne pouvez pas le transformer en caravelle plus tard.</p>
 <p>Les bateaux nouvellement construits ne sont situés sur aucune côte et peuvent donc partir vers n'importe quelle région océanique voisine.</p>
 <h2 id="types-de-bateau">Types de bateau<a class="headerlink" href="#types-de-bateau" title="Permanent link">&para;</a></h2>
+<!-- TODO: add information  -->
 <h3 id="barque">Barque<a class="headerlink" href="#barque" title="Permanent link">&para;</a></h3>
 <!-- cspell:disable -->
 <p><em>Boat (EN), Boot (DE).</em></p>
@@ -8109,39 +8110,41 @@ Donc, si vous avez commencé à construire un Drakkar, vous ne pouvez pas le tra
 </tbody>
 </table>
 <h2 id="convoi">Convoi<a class="headerlink" href="#convoi" title="Permanent link">&para;</a></h2>
-<p>De la même manière que l'on peut avoir plusieurs personnes dans une unité, les convois sont composés de plusieurs bateaux <strong>du même type</strong>, par exemple :</p>
-<div class="highlight"><pre><span></span><code>Karavelle (2seh), 73 Karavellen, (12776/85410), 61% damaged.
-</code></pre></div>
-<p>Pour cela, on remet à l'unité propriétaire d'un bateau un ou plusieurs bateaux du même type avec l'ordre <code>GIVE``</code><em><code>target-captain</code></em><code>``1 SHIP</code>.
-L'unité cible devient le commandant d'un convoi.
-Les unité sources et cibles <strong>doivent appartenir à la même faction</strong>, les ordres <code>HELP ALL</code> ou <code>CONTACT</code> ne suffisent pas.</p>
-<p>L'unité propriétaire d'un convoi dirige tous ses bateaux ensemble et doit pour cela :</p>
+<p>De la même manière que l'on peut avoir plusieurs personnes dans une unité, les convois sont composés de plusieurs bateaux <strong>du même type</strong>.<br />
+Il n'est donc par exemple pas permis de former un convoi constitué de trirèmes et de caravelles.</p>
+<p>Pour constituer un convoi, on remet à l'unité propriétaire d'un bateau un ou plusieurs bateaux de même type avec l'ordre <a href="../cmd-give/"><code>GIVE &lt;target-captain-id&gt; 1 SHIP</code></a>.<br />
+L'unité cible devient le commandant d'un convoi.  </p>
+<p>Les unités source et cible de l'ordre <strong>doivent appartenir à la même faction</strong>.</p>
+<p>L'unité de commandement peut alors diriger tous les bateaux de son convoi, à condition qu'elle possède :</p>
 <ul>
-<li>Avoir le niveau de compétence requis en <a class="autorefs autorefs-internal" href="../skills-list/#voile" title="Sailing">voile</a> pour le type de bateau</li>
-<li>Avoir une personne par bateau</li>
+<li>Le niveau de compétence requis en <a class="autorefs autorefs-internal" href="../skills-list/#voile" title="Sailing">voile</a> pour le type de bateau</li>
+<li>Au moins autant de personnes que de bateaux du convoi</li>
 </ul>
-<p>Le compétence totale de l'équipage doit également être un multiple correspondant au nombre de bateaux.<br />
-La portée correspond à celle du type de bateau, les dégâts maximums et la charge utile augmentent en fonction du nombre de bateaux.  </p>
-<p>Exemple.</p>
-<p>Un convoi de 3 caravelles nécessite un capitaine d'au moins 3 personnes avec <a class="autorefs autorefs-internal" href="../skills-list/#voile" title="Sailing">voile</a> T3 et un équipage avec 90 niveaux de compétence au total.
-Comme précédemment, elles ont une portée de 5 cases, mais une capacité de 9 000 lbs. La configuration suivante, par exemple, est donc autorisée et en état de naviguer :</p>
+<p>Le compétence totale de l'équipage en voile doit également être un multiple correspondant au nombre de bateaux.</p>
+<p>La portée du convoi correspond à celle du type de bateau; les dégâts maximums et la charge utile augmentent en fonction du nombre de bateaux.  </p>
+<p><strong>Exemple :</strong></p>
+<p>Un convoi de 3 caravelles nécessite un capitaine d'au moins 3 personnes T3 en <a class="autorefs autorefs-internal" href="../skills-list/#voile" title="Sailing">voile</a>, et un équipage avec 90 niveaux de compétence au total.<br />
+Comme précédemment, elles ont une portée de 5 régions océaniques, mais une capacité de 9 000 lbs.<br />
+La configuration suivante, par exemple, est donc autorisée et en état de naviguer :</p>
 <div class="highlight"><pre><span></span><code>Caravel (2seh), 3 Caravels, (9000/9000).
     * Kapitänsteam (k29), 3 Humans, Skill: Sailing 3.
     * Besatzung (2ztf), 9 Humans, Skill: Sailing 9.
     * Horde (770L), 888 Humans.
 </code></pre></div>
-<p>Comme on peut le voir, il est possible de déplacer de grandes unités dans un convoi sans les répartir sur des bateaux individuels.<br />
-Pour le reste, les convois se comportent comme un bateau normal.<br />
-Par exemple, le convoi entier part à la dérive ensemble, subit des dégâts dans son ensemble et le commandement peut être transféré.  </p>
-<p>Les <a class="autorefs autorefs-internal" href="#barque">barques</a> sont exclus de cette règle et les bateaux d'un convoi doivent être du même type.<br />
-Il n'est donc pas permis, par exemple, de mélanger des trirèmes et des caravelles.  </p>
-<p>Les bateaux endommagés ou incomplets peuvent également être transférés, leur état se répercute alors proportionnellement sur le convoi.
-Si un bateau avec 8% de dommages est remis à un convoi de 3 bateaux, le convoi se compose ensuite de 4 bateaux avec 2% de dommages.
-Si un seul bateau en construction est remis, tout le convoi est ensuite en construction et ne peut naviguer qu'une fois terminé.
-Un bateau achevé à 50% (en construction) et un bateau achevé donne deux bateaux achevés à 75% (en construction).</p>
-<p>Le même ordre permet également de détacher des bateaux d'un convoi.<br />
-Les bateaux ou les convois de l'unité donneuse et de l'unité réceptrice doivent se trouver sur la même côte ou sur l'océan.<br />
-L'unité réceptrice doit soit être capitaine d'un bateau — dans ce cas, le bateau est ajouté à son convoi — soit être sur le même bateau que l'unité donneuse, soit ne pas être dans un bateau ou dans un bâtiment.  </p>
+<p>Avec un convoi, il devient alors possible de déplacer de grandes unités sans devoir les répartir sur des bateaux individuels.<br />
+Pour le reste, un convoi se comporte comme un unique bateau.  </p>
+<p>Par exemple, le convoi entier part à la dérive ensemble, subit des dégâts dans son ensemble, et le commandement peut être transféré.  </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Il n'est pas possible de former un convoi de <a class="autorefs autorefs-internal" href="#barque">barques</a>.  </p>
+</div>
+<p>Les bateaux endommagés ou incomplets peuvent également être transférés, leur état se répercute alors proportionnellement sur le convoi.<br />
+Si un bateau avec 8 % de dommages est remis à un convoi de 3 bateaux, le convoi se compose ensuite de 4 bateaux avec 2 % de dommages.  </p>
+<p>Si un seul bateau en construction est remis, tout le convoi est ensuite en construction et ne peut naviguer qu'une fois terminé.<br />
+Ainsi, en formant un convoi de 2 bateaux, dont l"un est achevé mais l'autre est en construction à 50 %, on obtient un convoi en cours de construction de 2 bateaux achevés à 75 %.</p>
+<p>L'ordre <code>GIVE &lt;target-id&gt; &lt;nombre&gt; SHIP</code> permet également de détacher des bateaux d'un convoi.<br />
+Les bateaux ou convois de l'unité cédante et de l'unité réceptrice doivent se trouver <strong>sur la même côte</strong> ou sur la même région océanique.<br />
+L'unité réceptrice doit soit être capitaine d'un bateau — dans ce cas, le bateau est ajouté à son convoi — soit être sur le même bateau que l'unité cédante, soit ne pas être dans un bateau ni dans un bâtiment.  </p>
 <p>On peut aussi donner des bateaux aux paysans : <code>GIVE 0 2 SHIP</code> crée un nouveau convoi avec 2 bateaux, sur lequel il n'y a personne.<br />
 À terre, un commandant de convoi ne peut pas remettre tous ses bateaux aux paysans, il doit toujours en garder au moins un.  </p>
 <p>Si, après le transfert, l'unité transférée n'a plus de bateaux, toutes les unités qui l'accompagnaient auparavant passent automatiquement sur les bateaux de l'unité de destination.  </p>
@@ -8251,7 +8254,7 @@ GIVE 123 ALL MEN
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025 Cyril Guillon
+      Copyright &copy; 2025-2026 Cyril Guillon
     </div>
   
   

@@ -5079,7 +5079,7 @@
   <span class="md-ellipsis">
     
   
-    ExtendedCommands
+    Extended Commands
   
 
     
@@ -7704,10 +7704,19 @@
 
 
 <h1 id="optimierung-produktion">Optimierung Produktion<a class="headerlink" href="#optimierung-produktion" title="Permanent link">&para;</a></h1>
-<p>Unter der Optimierung der Produktion verstehe ich hauptsächlich die sparsame Verwendung von Einheiten. D.h. Ich habe in einer Region eine Gruppe von Einheiten mit der gleichen Aufgabe und soll eine festgelegte Menge produzieren (Silber, Handel, Gegenstände, Schiffe und Gebäude).</p>
-<p>Relativ eindeutig handelt es sich dabei um das sogenannte Rucksackproblem. Dabei gilt es hier eher darum den Rucksack so gering wie möglich zu überladen, d.h. die Einheiten so zuzuordnen, dass sich möglichst wenig Personen nichts tun. Prinzipiell ist es auch denkbar eine minimale Auslastungsgrenze (für die letzte zugeordnete Einheit) festzulegen.</p>
-<p>Beim beladen eines Rucksackes zählt ja möglichst viel Wert auf den begrenzten Raum/Gewicht zu laden. Raum/Gewicht ist in unserem Fall die zu produzierende Menge. Einen Wert haben wir eher nicht, aber wir haben Kosten. Und die sind z.b. umso geringer je besser eine Einheit ausgebildet ist.</p>
-<p>Das Rucksack-Problem kann man für einzelne sich stark unterscheidende Gegenstände die man in den Rucksack packt, recht gut über Pareto-Optimale Punkte (zwischenzustände) lösen. Leider haben wir bei Eressea oft die Situation mit sehr vielen gleich gut ausgebildeten Einheiten zu hantieren. d.h. die Kosten pro Person sind die gleichen, lediglich die Grösse mag unterschiedlich sein. Dadurch liegen aber ziemlich viele Zustände auf einer Linie, d.h. es lassen sich kaum welche eliminieren.</p>
+<p>Unter der Optimierung der Produktion verstehe ich hauptsächlich die sparsame Verwendung von Einheiten.<br />
+D.h. Ich habe in einer Region eine Gruppe von Einheiten mit der gleichen Aufgabe und soll eine festgelegte Menge produzieren (Silber, Handel, Gegenstände, Schiffe und Gebäude).</p>
+<p>Relativ eindeutig handelt es sich dabei um das sogenannte Rucksackproblem.<br />
+Dabei gilt es hier eher darum den Rucksack so gering wie möglich zu überladen, d.h. die Einheiten so zuzuordnen, dass sich möglichst wenig Personen nichts tun.<br />
+Prinzipiell ist es auch denkbar eine minimale Auslastungsgrenze (für die letzte zugeordnete Einheit) festzulegen.</p>
+<p>Beim beladen eines Rucksackes zählt ja möglichst viel Wert auf den begrenzten Raum/Gewicht zu laden.<br />
+Raum/Gewicht ist in unserem Fall die zu produzierende Menge.<br />
+Einen Wert haben wir eher nicht, aber wir haben Kosten.<br />
+Und die sind z.b. umso geringer je besser eine Einheit ausgebildet ist.</p>
+<p>Das Rucksack-Problem kann man für einzelne sich stark unterscheidende Gegenstände die man in den Rucksack packt, recht gut über Pareto-Optimale Punkte (zwischenzustände) lösen.<br />
+Leider haben wir bei Eressea oft die Situation mit sehr vielen gleich gut ausgebildeten Einheiten zu hantieren.<br />
+d.h. die Kosten pro Person sind die gleichen, lediglich die Grösse mag unterschiedlich sein.<br />
+Dadurch liegen aber ziemlich viele Zustände auf einer Linie, d.h. es lassen sich kaum welche eliminieren.</p>
 <p>Wie geht man also prinzipiell vor:</p>
 <ol>
 <li>Sortieren der vorhandenen Einheiten nach Kosten pro Person (geringste zuerst) und dann nach Anzahl Personen (meiste zuerst)</li>
@@ -7719,7 +7728,10 @@
 </li>
 <li>Aus allen Zielzuständen den mit höchster Produktion und ggf. geringsten Kosten wählen</li>
 </ol>
-<p>Eine Methode die uns das Ergebnis der Optimierung ausrechnet, braucht also lediglich eine Liste der Einheiten, deren Kosten und deren Produktionsmenge. Ggf. werden Methode noch Nebenbedingungen mitgegeben. Solche Einheitenliste lässt sich unabhängig vom eigentlichen Ziel relativ schnell erstellen und mit den notwendigen Attributen versehen. Das Rucksackproblem lässt sich auf die Produktion angewandt also recht leicht verallgemeinert implementieren.</p>
+<p>Eine Methode die uns das Ergebnis der Optimierung ausrechnet, braucht also lediglich eine Liste der Einheiten, deren Kosten und deren Produktionsmenge.<br />
+Ggf. werden Methode noch Nebenbedingungen mitgegeben. 
+Solche Einheitenliste lässt sich unabhängig vom eigentlichen Ziel relativ schnell erstellen und mit den notwendigen Attributen versehen.<br />
+Das Rucksackproblem lässt sich auf die Produktion angewandt also recht leicht verallgemeinert implementieren.</p>
 <!-- From [https://wiki.eressea.de/index.php?title=Optimierung\_Produktion&oldid=2469] -->
 
 
@@ -7801,7 +7813,7 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025 Cyril Guillon
+      Copyright &copy; 2025-2026 Cyril Guillon
     </div>
   
   

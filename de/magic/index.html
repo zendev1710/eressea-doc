@@ -5294,7 +5294,7 @@
   <span class="md-ellipsis">
     
   
-    ExtendedCommands
+    Extended Commands
   
 
     
@@ -8181,8 +8181,9 @@ Also lieber etwas großzügiger planen.</p>
 <p>Lernen in einer <a class="autorefs autorefs-internal" href="../buildings-others/#akademie">Akademie</a> kostet das Doppelte.
 Unterrichtet werden können nur Magier des gleichen Magiegebietes wie der Lehrer.
 Ein Draig-Magier kann also keinen Illaun-Magier lehren.</p>
-<p>Hat eine Magiereinheit nicht genug Silber zum Lernen, lernt sie in der Woche nur anteilig entsprechend der Silbermenge, die sie bezahlen kann.
-Magie kann auch, durch [[Special:MyLanguage/Talente|Anwendung (ZAUBERE) gelernt werden.
+<p>Hat eine Magiereinheit nicht genug Silber zum Lernen, lernt sie in der Woche nur anteilig entsprechend der Silbermenge, die sie bezahlen kann.</p>
+<!-- TODO check abnd compare with original german page -->
+<p>Magie kann auch, durch Anwendung (ZAUBERE) gelernt werden.
 Dafür ist es egal ob die Einheit einen oder mehrere Zauber pro Runde spricht.
 Natürlich kostet Lernen durch Anwendung kein Silber.</p>
 <h2 id="spruche">Sprüche<a class="headerlink" href="#spruche" title="Permanent link">&para;</a></h2>
@@ -8278,7 +8279,7 @@ Dadurch kann sie Zauber wirken, deren Kosten über ihrer Maximalaura liegen.<br 
 <p>Außerdem gibt es Zauber (und möglicherweise andere Dinge), die Magier permanente Aura kosten, wie etwa "Erschaffe einen Ring der Unsichtbarkeit".<br />
 Das heißt, dass die Einheit fortan weniger maximale Aura speichern kann.<br />
 In der Regel sind das sehr mächtige Zaubersprüche oder Artefaktmagie, die permanente Effekte hervorrufen.</p>
-<p><a href="../cmd-cast/">ZAUBERE</a> ist ein pseudolanger Befehl vergleichbar mit <a href="../cmd-attack/"><code>ATTACKIERE</code></a>.<br />
+<p><a href="../cmd-cast/"><code>ZAUBERE</code></a> ist ein pseudolanger Befehl vergleichbar mit <a href="../cmd-attack/"><code>ATTACKIERE</code></a>.<br />
 Eine Einheit kann also mehrmals pro Runde zaubern, allerdings keinen anderen langen Befehl ausführen.<br />
 Das ganze hat aber einen Haken: Die Aura-Kosten der Zauber erhöhen sich.<br />
 Der erste Zauber, den die Einheit in einer Runde zaubert, kostet die normale, beim Zauber angegebene Aura.<br />
@@ -8408,22 +8409,30 @@ Dabei ist Rang 1 der niedrigste und Rang 9 der höchste.<br />
 Die meisten Zauber haben den Standardrang 5, Antimagiezauber aber haben fast alle Rang 2, werden also gegebenenfalls vor den normalen Zaubern gezaubert.<br />
 Zauber gleichen Rangs werden in der im Zug angegebenen Reihenfolge gezaubert.</p>
 <p><strong>Beispiel:</strong></p>
-<p>Es gäbe drei Zauber, genannt "Aaaa", "Beee" und "Ceee".</p>
-<p>"Aaaa" hat Rang 5 und kostet 10 Aura.</p>
-<p>"Beee" hat Rang 2 und kostet 20 Aura.</p>
-<p>"Ceee" hat Rang 5 und kostet 5 Aura.</p>
+<p>Es gäbe drei Zauber, genannt <code>Aaaa</code>, <code>Beee</code> und <code>Ceee</code>.  </p>
+<p><code>Aaaa</code> hat Rang 5 und kostet 10 Aura.<br />
+<code>Beee</code> hat Rang 2 und kostet 20 Aura.<br />
+<code>Ceee</code> hat Rang 5 und kostet 5 Aura.  </p>
 <p>Angenommen die Einheit hat die Befehle</p>
 <div class="highlight"><pre><span></span><code>ZAUBERE &quot;Ceee&quot;
 ZAUBERE &quot;Beee&quot;
 ZAUBERE &quot;Aaaa&quot;
 </code></pre></div>
-<p>in dieser Reihenfolge. Zuerst wird "Beee" gezaubert, denn der Zauber hat Rang 2. Es ist der erste Zauber der Einheit in dieser Woche, daher kostet er 20 Aura. Dann wird "Ceee" gezaubert, denn "Aaaa" und "Ceee" haben den selben Rang und "Ceee" steht vor "Aaaa". "Ceee" ist der zweite Zauber, er kostet also 5*2^1=10 Aura. Nun kommt noch "Aaaa". "Aaaa" ist der dritte Zauber, er kostet also 10*2^2=40 Aura.</p>
+<p>in dieser Reihenfolge. Zuerst wird <code>Beee</code> gezaubert, denn der Zauber hat Rang 2. Es ist der erste Zauber der Einheit in dieser Woche, daher kostet er 20 Aura.<br />
+Dann wird <code>Ceee</code> gezaubert, denn <code>Aaaa</code> und <code>Ceee</code> haben den selben Rang und <code>Ceee</code> steht vor <code>Aaaa</code>.<br />
+<code>Ceee</code> ist der zweite Zauber, er kostet also 5 x 2^1 = 10 Aura. Nun kommt noch <code>Aaaa</code>.<br />
+<code>Aaaa</code> ist der dritte Zauber, er kostet also 10 x 2^2 = 40 Aura.  </p>
 <h2 id="patzer">Patzer<a class="headerlink" href="#patzer" title="Permanent link">&para;</a></h2>
-<p>Es gibt viel Nichtoffensichtliches im Magiesystem und in den Sprüchen. Generell gilt: Viele Sprüche beinhalten direkte oder indirekte Risiken. Zudem kann ein Zauberer einen Spruch auch verpatzen.</p>
-<p>Ein Spruch kann also einfach so fehlschlagen, auch wenn eigentlich alle Komponenten vorhanden sind und die Aura der Einheit ausreicht. Das ist kein Bug und gibt auch eine ganz normale Meldung im Report ("Der Zauber schlägt fehl."). Fehlen Komponenten oder Aura wird dies in der Meldung auch erwähnt.</p>
+<p>Es gibt viel Nichtoffensichtliches im Magiesystem und in den Sprüchen.<br />
+Generell gilt: Viele Sprüche beinhalten direkte oder indirekte Risiken.<br />
+Zudem kann ein Zauberer einen Spruch auch verpatzen.</p>
+<p>Ein Spruch kann also einfach so fehlschlagen, auch wenn eigentlich alle Komponenten vorhanden sind und die Aura der Einheit ausreicht.<br />
+Das ist kein Bug und gibt auch eine ganz normale Meldung im Report ("Der Zauber schlägt fehl.").<br />
+Fehlen Komponenten oder Aura wird dies in der Meldung auch erwähnt.</p>
 <p>Die Wahrscheinlichkeit für einen Patzer hängt von vielen Faktoren ab, unter anderem von der Stufe, Schwierigkeitsgrad des Spruchs im Verhältnis zur Stufe, auf der der Spruch vom Magier gezaubert wird, dem Magiegebiet, dem Spruch, der Umgebung, dem Ziel usw.</p>
 <p>Patzer können äußerst unangenehme Nebenwirkungen haben! Überlebt die Einheit jedoch einen Patzer, sind diese normalerweise nicht permanent.</p>
-<p>Spielererfahrung: Solthar Ein Spruch, der auf der maximal möglichen Stufe gezaubert wird, hat ca 20% Patzerchance; auf der halben Stufe sind es 0% Chance. Für Draigmagier sind es 10% mehr. Mögliche Folgen (in absteigender Häufigkeit):</p>
+<p>Spielererfahrung: Solthar Ein Spruch, der auf der maximal möglichen Stufe gezaubert wird, hat ca 20% Patzerchance; auf der halben Stufe sind es 0% Chance.<br />
+Für Draigmagier sind es 10% mehr. Mögliche Folgen (in absteigender Häufigkeit):</p>
 <ul>
 <li>Der Zauber funktioniert, aber nachfolgende Sprüche werden viel teurer.</li>
 <li>Alle Aura geht verloren, der Zauber funktioniert oder auch nicht.</li>
@@ -8434,7 +8443,8 @@ ZAUBERE &quot;Aaaa&quot;
 <p><a class="autorefs autorefs-internal" href="../toad/#krote">Kröte</a>.</p>
 <p><a href="" id="magic-magieresistenz-id"></a></p>
 <h2 id="magieresistenz">Magieresistenz<a class="headerlink" href="#magieresistenz" title="Permanent link">&para;</a></h2>
-<p>Die Magieresistenz einer Person/Einheit ist die jeder Person innewohnende Fähigkeit, einem gegen sie gerichteten Zauber zu widerstehen, und wie stark eine Person von magischem Schaden im Kampf betroffen wird. Die Magieresistenz einer Einheit ist:</p>
+<p>Die Magieresistenz einer Person/Einheit ist die jeder Person innewohnende Fähigkeit, einem gegen sie gerichteten Zauber zu widerstehen, und wie stark eine Person von magischem Schaden im Kampf betroffen wird.<br />
+Die Magieresistenz einer Einheit ist:</p>
 <ul>
 <li>die natürliche Magieresistenz der <a class="autorefs autorefs-internal" href="../races/#rassen">Rassen</a></li>
 <li>plus 5% pro Magietalent</li>
@@ -8448,16 +8458,22 @@ ZAUBERE &quot;Aaaa&quot;
 <li>50% + 5% * (Höchster Talentwert der verzauberten Einheit - Magietalent der zaubernden Einheit)</li>
 <li>nie unter 2%, nie über 98%</li>
 </ul>
-<p>Gegen Kampfzauber wie Feuerbälle und als magisch geltende Waffen wirken stattdessen zusätzlich eventuelle Boni durch <a class="autorefs autorefs-internal" href="../war-tables/#magieresistenz">Waffen oder Rüstungen</a>. Gegen magischen Schaden wirken sonst nur magischer Schutz und die natürliche Rüstung.</p>
-<p>Auch "unbelebte Materie", also Regionen, Schiffe, Gebäude usw. haben bisweilen eine Magieresistenz. Auch sie kann durch bestimmte Zauber verstärkt werden.</p>
+<p>Gegen Kampfzauber wie Feuerbälle und als magisch geltende Waffen wirken stattdessen zusätzlich eventuelle Boni durch <a class="autorefs autorefs-internal" href="../war-tables/#magieresistenz">Waffen oder Rüstungen</a>.<br />
+Gegen magischen Schaden wirken sonst nur magischer Schutz und die natürliche Rüstung.</p>
+<p>Auch "unbelebte Materie", also Regionen, Schiffe, Gebäude usw. haben bisweilen eine Magieresistenz.<br />
+Auch sie kann durch bestimmte Zauber verstärkt werden.</p>
 <p><strong>Beispiele:</strong> Die Basischance ist 0% für Menschen, 10% für <a class="autorefs autorefs-internal" href="../skills-modifiers/#talentmodifikatoren">Elfen</a>, für <a class="autorefs autorefs-internal" href="../skills-modifiers/#talentmodifikatoren">Goblins</a> ist sie nur -5%.</p>
-<p>Eine Einheit mit Bergbau 10 hat eine 50%-ige Chance, einem Zauber wie <a class="autorefs autorefs-internal" href="../magic-school-draig/#chaosfluch">Chaosfluch</a> gezaubert von einer Einheit mit Magie 10 zu widerstehen. Ist das Magietalent 12, sinkt die Chance auf 40%. Besteht die Zieleinheit aus Goblins, sinkt die Chance weiter auf 35%.</p>
+<p>Eine Einheit mit Bergbau 10 hat eine 50%-ige Chance, einem Zauber wie <a class="autorefs autorefs-internal" href="../magic-school-draig/#chaosfluch">Chaosfluch</a> gezaubert von einer Einheit mit Magie 10 zu widerstehen.<br />
+Ist das Magietalent 12, sinkt die Chance auf 40%.<br />
+Besteht die Zieleinheit aus Goblins, sinkt die Chance weiter auf 35%.</p>
 <p>Ein Feuerball, der zum Beispiel 50 Schaden verursachen würde (5d10 + 15), macht gegen einen Elf mit <a class="autorefs autorefs-internal" href="../war-tables/#magieresistenz">Laenschwert</a> nur (90% * 70%) = 63% davon, also etwa 31 Schaden.</p>
 <p><a href="" id="magic-magierturm-id"></a></p>
 <h2 id="magierturm">Magierturm<a class="headerlink" href="#magierturm" title="Permanent link">&para;</a></h2>
-<p>Ein <a class="autorefs autorefs-internal" href="../buildings-others/#magierturm">Magierturm</a> erhöht die Aura-Regeneration um 75% und erhöht die effektive Stufe jedes Zaubers, der in ihnen gezaubert wird, um 1 — gegebenenfalls zusätzlich zu einem Ring der Macht — ohne die Kosten zu erhöhen. Außerdem wird die Wahrscheinlichkeit eines Zauberpatzers deutlich verringert.</p>
+<p>Ein <a class="autorefs autorefs-internal" href="../buildings-others/#magierturm">Magierturm</a> erhöht die Aura-Regeneration um 75% und erhöht die effektive Stufe jedes Zaubers, der in ihnen gezaubert wird, um 1 — gegebenenfalls zusätzlich zu einem Ring der Macht — ohne die Kosten zu erhöhen.<br />
+Außerdem wird die Wahrscheinlichkeit eines Zauberpatzers deutlich verringert.</p>
 <h2 id="vertraute">Vertraute<a class="headerlink" href="#vertraute" title="Permanent link">&para;</a></h2>
-<p>Erfahrenen Magiern wird irgendwann auf ihren Wanderungen ein ungewöhnliches Exemplar einer Gattung begegnen, welches sich ihnen anschließen wird. Welcher Gattung dieses Wesen angehört, hängt vor allem von Magiegebiet und Rasse ab. Mehr Details zu diesen Vertrauten kann man im Kapitel über <a class="autorefs autorefs-internal" href="#vertraute">Vertraute</a> finden.</p>
+<p>Erfahrenen Magiern wird irgendwann auf ihren Wanderungen ein ungewöhnliches Exemplar einer Gattung begegnen, welches sich ihnen anschließen wird.<br />
+Welcher Gattung dieses Wesen angehört, hängt vor allem von Magiegebiet und Rasse ab. Mehr Details zu diesen Vertrauten kann man im Kapitel über <a class="autorefs autorefs-internal" href="#vertraute">Vertraute</a> finden.</p>
 <h2 id="der-astralraum">Der Astralraum<a class="headerlink" href="#der-astralraum" title="Permanent link">&para;</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Hinweis</p>
@@ -8477,13 +8493,7 @@ Von jedem Punkt im Astralraum lassen sich bis zu 19 realweltliche Regionen schem
 Einige Zauber vermögen, diese Schemen genauer erscheinen zu lassen.<br />
 Im Beispielbild sind alle Regionen, die sich von einer Region erkennen lassen, rot umrandet.<br />
 Sechs Regionen, die von der roten Linien halbiert werden, sind sogar von je zwei Astralregionen sichtbar.</p>
-<!-- TODO: astral connection map 488X393 - should be where in the page ? -->
 <p><img alt="Astral space connection" src="../../assets/images/astral-space-connection.jpg" title="Astral space connection" /></p>
-<!--
-Illustration des Astralraums und der Geometrie seiner Verbindungen</span></a>
-<figcaption>Astralraumregionen sind die großen schwarzen Sechsecke, der Bezugspunkt ist grün, die Regionen, die mit der roten Astralraumregion in Verbindung stehen, sind gelb.</figcaption>
--->
-</figure>
 <p>Besonders verwirrend wird der Astralraum dadurch, dass diese Schemen nicht identisch sind mit den Regionen, die mit der Astralraumregion verbunden sind, von denen aus man also in die Astralregion gelangen kann und umgekehrt.<br />
 Stattdessen ist jeder Punkt im Astralraum mit einem Bereich in der normalen Welt verbunden, der je 16 Regionen umfasst (im Bild gelb).<br />
 Dieser Bereich ist wie ein Parallelogramm geformt mit je vier Regionen Ausdehnung in Richtung Ost-West und Südwest-Nordost.<br />
@@ -8586,7 +8596,7 @@ Deshalb gibt es nun eine <a class="autorefs autorefs-internal" href="../spells-l
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025 Cyril Guillon
+      Copyright &copy; 2025-2026 Cyril Guillon
     </div>
   
   

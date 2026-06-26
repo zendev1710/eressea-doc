@@ -94,7 +94,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#commentaire" class="md-skip">
+        <a href="#_1" class="md-skip">
           Aller au contenu
         </a>
       
@@ -7684,21 +7684,21 @@
   
 
 
-<h1 id="commentaire">Commentaire //<a class="headerlink" href="#commentaire" title="Permanent link">&para;</a></h1>
-<p><strong><code>//</code></strong><code></code><em><code>Comment</code></em>  </p>
-<p>Contrairement à un commentaire qui suit un <a href="../cmd-comment/">;</a> (point-virgule), ce commentaire est inclus dans le modèle <strong>d'évaluation du prochain tour</strong>.  </p>
+<h1 id="_1"><code>//</code><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p><strong><code>//</code></strong><code></code><em><code>&lt;commentaire&gt;</code></em>  </p>
+<p>Contrairement à un commentaire qui suit un <a href="../cmd-comment/"><code>;</code></a>, ce commentaire est inclus dans le <strong>modèle d'évaluation du prochain tour</strong>.  </p>
 <div class="highlight"><pre><span></span><code>UNIT 123; Cent vingt-trois [20,450$]
 // Entretien de la Tour des mages
-@GIVE 234 1000 SILVER
+@GIVE 234 1000 silver
 // Apprendre de temps en temps le combat à l&#39;arme d&#39;hast
 TAX
 </code></pre></div>
-<p><code>//</code> doit être traité comme un ordre, donc vous ne pouvez <strong>pas</strong> faire :</p>
-<div class="highlight"><pre><span></span><code>@GIVE 345 100 SILVER // à cause de la scierie
+<p><code>//</code> doit être traité comme un ordre; donc vous ne pouvez <strong>pas</strong> faire :</p>
+<div class="highlight"><pre><span></span><code>@GIVE 345 100 silver // pour la scierie
 </code></pre></div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Il doit également y avoir un espace après <code>//</code>.</p>
+<p>Un caractère d'espacement doit suivre l'instruction <code>//</code>.</p>
 </div>
 <!-- From  [https://wiki.eressea.de/index.php?title=KOMMENTAR&oldid=3993] -->
 
@@ -7781,7 +7781,7 @@ TAX
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025 Cyril Guillon
+      Copyright &copy; 2025-2026 Cyril Guillon
     </div>
   
   

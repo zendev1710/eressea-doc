@@ -7962,45 +7962,39 @@
 
 
 <h1 id="competences">Compétences<a class="headerlink" href="#competences" title="Permanent link">&para;</a></h1>
-<p>Les compétences sont un élément essentiel qui définit une <a href="../cmd-unit/">unité</a> dans Eressea.
-Toutes les personnes d'une unité ont les mêmes compétences.
-Elles doivent d'abord les apprendre.
+<p>Les compétences sont un élément essentiel qui définit une <a href="../cmd-unit/">unité</a> dans Eressea.<br />
+Toutes les personnes d'une unité ont les mêmes compétences. Elles doivent d'abord les apprendre.<br />
 Pour être précis, avec l'ordre <a href="../cmd-learn/"><code>LEARN</code></a>, une unité peut faire une tentative par tour pour gagner un nouveau niveau.</p>
 <h2 id="progression-par-usage">Progression par usage<a class="headerlink" href="#progression-par-usage" title="Permanent link">&para;</a></h2>
-<p>Certaines compétences s'améliorent également en les utilisant.
-Si l'unité utilise la compétence, il y a &#8531; de chances qu'elle gagne de l'expérience (et donc &#8532; de chances qu'elle n'en gagne pas).
-Ainsi, en exerçant une compétence, une unité progresse statistiquement à environ &#8531; de la vitesse d'apprentissage (par LEARN).</p>
+<p>Certaines compétences s'améliorent également en les utilisant. Si l'unité utilise la compétence, il y a &#8531; de chances qu'elle gagne de l'expérience (et donc &#8532; de chances qu'elle n'en gagne pas).<br />
+Ainsi, en exerçant une compétence, une unité progresse statistiquement à environ &#8531; de la vitesse d'apprentissage (par <code>LEARN</code>).</p>
 <p>Les compétences <strong>qui ne s'améliorent pas</strong> en les <strong>exerçant</strong> sont les suivantes :</p>
 <ul>
 <li>toutes les compétences d'armes</li>
 <li>l'<a class="autorefs autorefs-internal" href="../skills-list/#endurance" title="Endurance">endurance</a></li>
 <li>la perception</li>
-<li>la tacticque</li>
+<li>la tactique</li>
 <li>la taxation</li>
 </ul>
-<p>Dans la plupart des cas, la valeur de compétence affichée dans le rapport est à celle à utiliser.
-Elle inclut les bonus raciaux, régionaux et des éléments comme la famine ou la magie, qui modifient la valeur de la compétence.
+<p>Dans la plupart des cas, la valeur de compétence affichée dans le rapport est celle à utiliser.<br />
+Elle inclut les bonus des peuples, régionaux et des éléments comme la famine ou la magie, qui modifient la valeur de la compétence.<br />
 Mais parfois, la valeur de compétence "brute" sans bonus est également nécessaire, notamment pour calculer les coûts d'apprentissage de la magie et les temps d'apprentissage.</p>
 <h2 id="apprendre-des-competences">Apprendre des compétences<a class="headerlink" href="#apprendre-des-competences" title="Permanent link">&para;</a></h2>
-<p>Atteindre un nouveau niveau de compétence devient de plus en plus difficile à chaque niveau.
-En moyenne, la progression vers un nouveau niveau de compétence avec la commande <a href="../cmd-learn/"><code>LEARN</code></a> prend environ un nombre de semaines égal au niveau de compétence visé, sans tenir compte des modifications apportées par le <a class="autorefs autorefs-internal" href="../races/#peuples">peuple</a> ou le terrain.
-Le temps d'apprentissage minimal est d'1 semaine.
-La durée maximale d'apprentissage ne dépasse pas (2 x nouveau niveau − 1).
-Les valeurs extrêmes sont moins fréquentes que la valeur moyenne.
-Ainsi, passer du niveau 3 au niveau 4 peut prendre jusqu'à 7 semaines, mais prendra en moyenne 4 semaines.
+<p>Atteindre un nouveau niveau de compétence devient de plus en plus difficile à chaque niveau.<br />
+En moyenne, la progression vers un nouveau niveau de compétence avec la commande <a href="../cmd-learn/"><code>LEARN</code></a> prend environ un nombre de semaines égal au niveau de compétence visé, sans tenir compte des modifications apportées par le <a class="autorefs autorefs-internal" href="../races/#peuples">peuple</a> ou le terrain.<br />
+Le temps d'apprentissage minimal est d'1 semaine. La durée maximale d'apprentissage ne dépasse pas (2 x nouveau niveau − 1).<br />
+Les valeurs extrêmes sont moins fréquentes que la valeur moyenne. Ainsi, passer du niveau 3 au niveau 4 peut prendre jusqu'à 7 semaines, mais prendra en moyenne 4 semaines.<br />
 Il faut en moyenne deux semaines à un <a class="autorefs autorefs-internal" href="../races/#nains" title="Dwarves">nain</a> pour passer du niveau 3 au niveau 4 dans la compétence Mining, car les nains ont un modificateur de +2 pour cette compétence (4-2=2).</p>
 <p><strong>Exemples :</strong></p>
-<p>Passer du niveau 3 au niveau 4 prend en moyenne 4 semaines, mais parfois aussi peu qu'une semaine et parfois jusqu'à 7 semaines.
-Une <a class="autorefs autorefs-internal" href="../races/#nains" title="Dwarves">unité de nains</a> avec le minage 3 dans le rapport est en fait de niveau 1 "brut", puisque les nains ont un modificateur de +2 sur le minage.
+<p>Passer du niveau 3 au niveau 4 prend en moyenne 4 semaines, mais parfois aussi peu qu'une semaine et parfois jusqu'à 7 semaines.<br />
+Une <a class="autorefs autorefs-internal" href="../races/#nains" title="Dwarves">unité de nains</a> avec le minage 3 dans le rapport est en fait de niveau 1 "brut", puisque les nains ont un modificateur de +2 sur le minage.<br />
 Il faut en moyenne deux semaines pour progresser dans la compétence d'extraction minière du niveau 3 au niveau 4.</p>
-<p>Pour réduire le temps nécessaire à l'apprentissage d'une compétence, une seconde unité, plus expérimentée que la première, peut <a href="../cmd-teach/">enseigner</a> la compétence.
-Cette unité doit avoir au moins 2 niveaux de plus que l'élève dans la compétence.
-L'unité élève apprend deux fois plus vite que si elle apprenait sans professeur.
-L'unité enseignante, elle, n'en tire aucune expérience.
+<p>Pour réduire le temps nécessaire à l'apprentissage d'une compétence, une seconde unité, plus expérimentée que la première, peut <a href="../cmd-teach/">enseigner</a> la compétence.<br />
+Cette unité doit avoir au moins 2 niveaux de plus que l'élève dans la compétence.<br />
+L'unité élève apprend deux fois plus vite que si elle apprenait sans professeur. L'unité enseignante, elle, n'en tire aucune expérience.<br />
 Un apprentissage dans une <a class="autorefs autorefs-internal" href="../buildings-others/#academie" title="Academy">académie</a> permet d'apprendre plus rapidement.</p>
-<p>Un enseignant peut avoir jusqu'à 10 élèves.
-Une unité enseignante peut contenir autant de personnes que souhaité.
-Si l'"unité d'élèves" a trop de personnes, cela sera pris en compte dans les chances d'apprentissage.
+<p>Un enseignant peut avoir jusqu'à 10 élèves. Une unité enseignante peut contenir autant de personnes que souhaité.<br />
+Si l'"unité d'élèves" a trop de personnes, cela sera pris en compte dans les chances d'apprentissage.<br />
 Une unité peut enseigner à plusieurs unités, de même qu'une unité d'élèves peut apprendre de plusieurs unités de professeurs, chaque élève ne pouvant bien sûr tirer bénéfice que d'un seul enseignement.</p>
 <p><strong>Exemple :</strong></p>
 <div class="highlight"><pre><span></span><code>Unit l1; 1 Person, Endurance 3
@@ -8026,25 +8020,23 @@ Avec l'ordre <a href="../cmd-learn-auto/"><code>LEARN-AUTO</code></a>, le serveu
 Cependant, comme cela est dû à une simple heuristique, il n’est pas garanti qu’une chaîne d’apprentissage optimale (à long terme) soit créée.  </p>
 </div>
 <p><a class="autorefs autorefs-internal" href="../magic/#magie">La magie</a>, <a class="autorefs autorefs-internal" href="../alchemy/#alchimie" title="Alchemy">l'alchimie</a>, <a class="autorefs autorefs-internal" href="../skills-list/#herboristerie" title="Herbalism">l'herboristerie</a>, <a class="autorefs autorefs-internal" href="../skills-list/#espionnage" title="Espionage">l'espionnage</a> et <a class="autorefs autorefs-internal" href="../skills-list/#tactique">la tactique</a> sont des compétences particulièrement difficiles à acquérir et coûteuses.<br />
-Apprendre l'espionnage coûte 100 Silver par personne et par tour.<br />
-200 Silver par personne et par semaine pour l'alchimie, l'herboristerie et la tactique.<br />
+Apprendre l'espionnage coûte 100 Silver par personne et par tour; 200 Silver par personne et par semaine pour l'alchimie, l'herboristerie et la tactique.<br />
 Apprendre la magie coûte facilement plusieurs milliers de Silver à des niveaux élevés (voir ce <a class="autorefs autorefs-internal" href="../magic/#magie">tableau</a>).<br />
 L'unité qui apprend une de ces compétences doit avoir en sa possession cette somme.<br />
 Le fait que l'unité reçoive ou non un enseignement n'a aucune incidence sur le coût.<br />
 Si l'unité est dans une <a class="autorefs autorefs-internal" href="../buildings-others/#academie" title="Academy">académie</a>, le coût d'apprentissage des compétences payantes est doublé.  </p>
 <p>Si l'unité en apprentissage ne dispose pas de suffisamment au moment du paiement, elle apprendra au prorata de la quantité de Silver dont elle dispose;<br />
 par exemple si elle n'a que 500 Silver sur 550, ses chances d'apprendre diminueront d'environ 10 %.  </p>
-<p>Dans de rares cas, une unité peut vouloir se débarrasser d'une compétence.<br />
-Ceci est possible avec l'ordre <a href="../cmd-forget/"><code>FORGET</code></a>.</p>
+<p>Dans de rares cas, une unité peut vouloir se débarrasser d'une compétence. Ceci est possible avec l'ordre <a href="../cmd-forget/"><code>FORGET</code></a>.</p>
 <h2 id="melanger-les-competences">Mélanger les compétences<a class="headerlink" href="#melanger-les-competences" title="Permanent link">&para;</a></h2>
 <p>Lorsque des personnes sont transférées ou recrutées dans une unité existante, les nouveaux niveaux de compétences sont calculés en fonction du nombre de semaines d'apprentissage que les deux unités ont eu.<br />
 Il peut arriver que des semaines d'apprentissage soient "perdues" en raison des effets d'arrondi.<br />
-Tu devrais donc éviter autant que possible de fusionner inutilement des unités.  </p>
+Vous devriez donc éviter autant que possible de fusionner inutilement des unités.  </p>
 <p><strong>Exemple :</strong></p>
-<p>Une unité de deux personnes avec "melee" 5 recrute un paysan.<br />
+<p>Une unité de deux personnes avec <a class="autorefs autorefs-internal" href="../skills-list/#melee" title="Melee">mêlée</a> T5 recrute un paysan.<br />
 Les deux personnes ont chacune étudié environ 15 semaines (à savoir 1+2+3+4+5) avant de passer au niveau 5.<br />
 Les paysans n'ont pas de compétence, on ajoute donc 0. La nouvelle unité a donc environ 30 semaines d'apprentissage.<br />
-Cela correspond à 3 personnes avec "melee" 4 (1+2+3+4=10 semaines par personne).<br />
+Cela correspond à 3 personnes avec mêlée T4 (1+2+3+4=10 semaines par personne).<br />
 La nouvelle unité est donc de niveau 4.</p>
 <p>Pour le calcul des semaines d'apprentissage, tout comme pour l'apprentissage, ce sont les valeurs de compétences "brutes" qui comptent, auxquelles sont d'abord soustraits tous les bonus et malus tels que les bonus raciaux.</p>
 <p>Expérience de jeu (Solthar):</p>
@@ -8052,16 +8044,16 @@ La nouvelle unité est donc de niveau 4.</p>
 Cependant, vous pouvez ignorer cette étape si vous lisez ce guide pour la première fois.<br />
 Chaque fois qu'une unité avance d'un niveau, un dé est lancé pour déterminer combien de semaines il lui faudra pour passer au niveau suivant.<br />
 Cela donne une valeur comprise entre 1 et (2 x nouveau niveau − 1).<br />
-Une unité peut donc avoir un talent compris entre (6,1) -cette notation signifie niveau 6 et encore une semaine avant la promotion -et (6,13).<br />
+Une unité peut donc avoir un niveau compris entre (6,1) -cette notation signifie niveau 6 et encore une semaine avant la promotion -et (6,13).<br />
 Cette valeur est prise en compte lors du mélange.<br />
 Par exemple, si vous mélangez une personne avec (5,6) et une personne avec (1,2) – qui correspondent toutes deux exactement à la moyenne – elles auront un total de 16 semaines d’apprentissage.<br />
 Cependant, deux personnes avec (3,4) ne correspondent qu’à 12 semaines d’apprentissage.<br />
 La différence de deux semaines par personne sera « créditée » à la nouvelle unité.<br />
 Il a donc (3,2) - un peu mieux que la moyenne.  </p>
-<!-- TODO translate -->
-<p>If you mix (5,1) and (1,1), i.e. people who have almost made it to the next climb, you would even get (4,4).
-However, mixing (5,11) and (1,3) results in (3,5) as the new value. So it is not possible to accurately predict the talent value of a mixed unit.
-Only a minimum and maximum value can be specified.</p>
+<p>Si vous mélangez (5,1) et (1,1), c'est-à-dire des personnes qui ont presque atteint le prochain niveau, vous obtiendrez même (4,4).<br />
+Cependant, le mélange de (5,11) et (1,3) donne (3,5) comme nouvelle valeur.<br />
+Il n’est donc pas possible de prédire avec précision la valeur des compétences d’une unité mixte.<br />
+Seules une valeur minimale et maximale peut être spécifiée.</p>
 <h2 id="utilisation-des-competences">Utilisation des compétences<a class="headerlink" href="#utilisation-des-competences" title="Permanent link">&para;</a></h2>
 <p>Les compétences permettent aux unités de faire certaines choses.  </p>
 <p>Parfois, c'est le niveau de compétence de l'unité qui rend possible une activité donnée.<br />
@@ -8072,29 +8064,30 @@ Parfois, le niveau de compétence total (nombre de personnes x niveau de compét
 Ces compétences permettent de fabriquer des objets, des bâtiments, des bateaux ou des routes.<br />
 Les compétences de production sont les suivantes :</p>
 <ul>
-<li><a class="autorefs autorefs-internal" href="../alchemy/#alchimie" title="Alchemy">alchimie</a> (fabrication de potions)</li>
-<li><a class="autorefs autorefs-internal" href="../skills-list/#apprivoisement" title="Taming">apprivoisement</a>  (obtention de chevaux)</li>
-<li><a class="autorefs autorefs-internal" href="../skills-list/#construction-navale" title="Shipcraft">construction navale</a></li>
-<li><a class="autorefs autorefs-internal" href="../skills-list/#construction-de-routes" title="Roadwork">construction de routes</a></li>
-<li><a class="autorefs autorefs-internal" href="../skills-list/#extraction-de-pierres" title="Quarrying">extraction de pierres</a></li>
-<li><a class="autorefs autorefs-internal" href="../skills-list/#extraction-miniere" title="Mining">extraction minière</a> (production de fer, de laen ou d'adamantium)</li>
-<li><a class="autorefs autorefs-internal" href="../skills-list/#fabrication-darmes" title="Weaponsmithing">fabrication d'armes</a></li>
-<li><a class="autorefs autorefs-internal" href="../skills-list/#fabrication-darmures" title="Armoursmithing">fabrication d'armures</a></li>
-<li><a class="autorefs autorefs-internal" href="../skills-list/#fabrication-de-chariots" title="Cartmaking">fabrication de chariots et de catapultes</a></li>
-<li><a class="autorefs autorefs-internal" href="../skills-list/#herboristerie" title="Herbalism">herboristerie</a> (récolte de plantes)</li>
-<li><a class="autorefs autorefs-internal" href="../skills-list/#maconnerie" title="Masonry">maçonnerie</a></li>
-<li><a class="autorefs autorefs-internal" href="../skills-list/#sylviculture" title="Forestry">sylviculture</a> (production de bois et de mallorn)</li>
+<li><a class="autorefs autorefs-internal" href="../alchemy/#alchimie" title="Alchemy">Alchimie</a> (fabrication de potions)</li>
+<li><a class="autorefs autorefs-internal" href="../skills-list/#apprivoisement" title="Taming">Apprivoisement</a>  (obtention de chevaux)</li>
+<li><a class="autorefs autorefs-internal" href="../skills-list/#construction-navale" title="Shipcraft">Construction navale</a></li>
+<li><a class="autorefs autorefs-internal" href="../skills-list/#construction-de-routes" title="Roadwork">Construction de routes</a></li>
+<li><a class="autorefs autorefs-internal" href="../skills-list/#extraction-de-pierres" title="Quarrying">Extraction de pierres</a></li>
+<li><a class="autorefs autorefs-internal" href="../skills-list/#extraction-miniere" title="Mining">Extraction minière</a> (production de fer, de laen ou d'adamantium)</li>
+<li><a class="autorefs autorefs-internal" href="../skills-list/#fabrication-darmes" title="Weaponsmithing">Fabrication d'armes</a></li>
+<li><a class="autorefs autorefs-internal" href="../skills-list/#fabrication-darmures" title="Armoursmithing">Fabrication d'armures</a></li>
+<li><a class="autorefs autorefs-internal" href="../skills-list/#fabrication-de-chariots" title="Cartmaking">Fabrication de chariots et de catapultes</a></li>
+<li><a class="autorefs autorefs-internal" href="../skills-list/#herboristerie" title="Herbalism">Herboristerie</a> (récolte de plantes)</li>
+<li><a class="autorefs autorefs-internal" href="../skills-list/#maconnerie" title="Masonry">Maçonnerie</a></li>
+<li><a class="autorefs autorefs-internal" href="../skills-list/#sylviculture" title="Forestry">Sylviculture</a> (production de bois et de mallorn)</li>
 </ul>
-<p>Pour plus d'information, consulter les chapitres :</p>
+<p>Plus d'information :</p>
 <ul>
 <li><a class="autorefs autorefs-internal" href="../production/#production">Production</a></li>
 <li><a class="autorefs autorefs-internal" href="../alchemy/#alchimie">L'alchimie</a></li>
 </ul>
 <h3 id="competences-de-gain-dargent">Compétences de gain d'argent<a class="headerlink" href="#competences-de-gain-dargent" title="Permanent link">&para;</a></h3>
-<p>Le <a class="autorefs autorefs-internal" href="../skills-list/#commerce" title="Trade">commerce</a>, la <a class="autorefs autorefs-internal" href="../skills-list/#taxation" title="Taxation">taxation</a>, et le <a class="autorefs autorefs-internal" href="../silver/#divertissement" title="Entertainment">divertissement</a> permettent de gagner de l'argent (des silvers).</p>
+<p>Le <a class="autorefs autorefs-internal" href="../skills-list/#commerce" title="Trade">commerce</a>, la <a class="autorefs autorefs-internal" href="../skills-list/#taxation" title="Taxation">taxation</a>, et le <a class="autorefs autorefs-internal" href="../skills-list/#divertissement" title="Entertainment">divertissement</a> permettent de gagner de l'argent (des silvers).</p>
 <p>Plus d'information : <a class="autorefs autorefs-internal" href="../silver/#argent">l'argent</a>.</p>
 <h3 id="dissimulation">Dissimulation<a class="headerlink" href="#dissimulation" title="Permanent link">&para;</a></h3>
 <p><a class="autorefs autorefs-internal" href="../skills-list/#espionnage" title="Espionage">espionnage</a>, <a class="autorefs autorefs-internal" href="../skills-list/#discretion" title="Stealth">discrétion</a> et <a class="autorefs autorefs-internal" href="../skills-list/#perception" title="Perception">perception</a> sont centrés sur la dissimulation.</p>
+<p>Plus d'information: <a class="autorefs autorefs-internal" href="../skills-list/#discretion">la discrétion</a>.</p>
 <h3 id="competences-de-deplacements">Compétences de déplacements<a class="headerlink" href="#competences-de-deplacements" title="Permanent link">&para;</a></h3>
 <p>La <a class="autorefs autorefs-internal" href="../skills-list/#voile" title="Sailing">voile</a> et l'<a class="autorefs autorefs-internal" href="../skills-list/#equitation" title="Riding">équitation</a> sont des compétences expliquées dans le chapitre sur les <a class="autorefs autorefs-internal" href="../travel/#deplacements">déplacements</a>.  </p>
 <p>L'équitation est également abordée dans le chapitre des <a class="autorefs autorefs-internal" href="../war-tables/#tableaux-relatifs-a-la-guerre">combats</a>.</p>
@@ -8199,7 +8192,7 @@ Les compétences de production sont les suivantes :</p>
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025 Cyril Guillon
+      Copyright &copy; 2025-2026 Cyril Guillon
     </div>
   
   

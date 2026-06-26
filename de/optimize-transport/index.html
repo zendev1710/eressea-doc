@@ -5261,7 +5261,7 @@
   <span class="md-ellipsis">
     
   
-    ExtendedCommands
+    Extended Commands
   
 
     
@@ -8040,10 +8040,13 @@
 
 <h1 id="optimierung-transport">Optimierung Transport<a class="headerlink" href="#optimierung-transport" title="Permanent link">&para;</a></h1>
 <h2 id="handelsreisender">Handelsreisender<a class="headerlink" href="#handelsreisender" title="Permanent link">&para;</a></h2>
-<p>Da wir bei Eressea nicht mit wenigen sondern mit sehr vielen Einheiten hantieren, stellt sich die Problematik des Handelsreisenden weniger, da Transporte oft nicht mehrere Regionen im Kreis anfahren, sondern Bedarfe eher mit vielen einzelnen Transporten parallel bearbeitet werden.</p>
+<p>Da wir bei Eressea nicht mit wenigen sondern mit sehr vielen Einheiten hantieren,
+stellt sich die Problematik des Handelsreisenden weniger,
+da Transporte oft nicht mehrere Regionen im Kreis anfahren,
+sondern Bedarfe eher mit vielen einzelnen Transporten parallel bearbeitet werden.</p>
 <h2 id="optimale-beladung">Optimale Beladung<a class="headerlink" href="#optimale-beladung" title="Permanent link">&para;</a></h2>
-<p>Für die Beladung eines Transportes mit Waren liegt es nahe das Rucksackproblem anzuwenden.
-Allerdings läuft man in Eressea dabei schnell in die Falle zu viele gleichartige Gegenstände verladen zu wollen.
+<p>Für die Beladung eines Transportes mit Waren liegt es nahe das Rucksackproblem anzuwenden.<br />
+Allerdings läuft man in Eressea dabei schnell in die Falle zu viele gleichartige Gegenstände verladen zu wollen.<br />
 Optimierungen des Rucksackproblems kommen damit kaum klar.</p>
 <p>Ein einfaches Beispiel:</p>
 <p>Zu transportieren sind 10 Steine (je 60 GE) und 100 Juwelen (je 1 GE).
@@ -8060,66 +8063,75 @@ Ladung = 100 GE + 6 * 60 GE = 460 GE
 frei   = 40 GE
 </code></pre></div>
 <p>Versuchen wir es also mit den Steinen zuerst: 8 Steine, dann bleibt noch Platz für 20 Juwelen:</p>
-<div class="highlight"><pre><span></span><code>Wert   = 20 * 50 + 8 * 1200 = 10600
+<div class="highlight"><pre><span></span><code>    Wert   = 20 * 50 + 8 * 1200 = 10600
 </code></pre></div>
 <p>Das war offenbar nichts.
 Aber geht es doch noch irgendwie besser? Ja, 7 Steine und 80 Juwelen scheinen offenbar die Kapazität besser auszunutzen:</p>
-<div class="highlight"><pre><span></span><code>Wert   = 80 * 50 + 7 * 1200 = 12400
+<div class="highlight"><pre><span></span><code>    Wert   = 80 * 50 + 7 * 1200 = 12400
 </code></pre></div>
-<p>Der Weg dahin führt z.b. über greedy suche, also das durchsuchen sämtlicher Zustände.
-In dem Fall also 0 bis 8 Steine und 0 bis 100 Juwelen (manchmal weniger) macht also rund 900 Zustände die zu prüfen wären.
-Wenn man sich jetzt noch eine 3. oder 4.
-Ware vorstellt wird schnell klar, so kommen wir nicht zum Ergebnis.</p>
-<p>Normalerweise führt hier der schnelle Weg zum Ziel über sogenannte Pareto-optimale Zwischenzustände.
-Was solche Zwischenzustände sind lässt sich leichter anders rum erklären.
-Zustände die bei gleicher Beladung weniger Wert sind als ein anderer Zwischenzustand sind nicht Pareto-optimal.
-Diese braucht man nicht weiter zu verfolgen, da offenbar immer wieder nur nicht Pareto-optimale Zustände erreicht werden können.</p>
-<p>Vergleicht man also beispielsweise den Zustand "60 Juwelen" mit "1 Stein" so zeigt sich, das 60 Juwelen offenbar bei gleicher Beladung weit mehr Wert sind.
-Es lohnt also nicht "1 Stein" weiter zu expandieren.
-Genau genommen kommt man zu dieser Feststellung bereits wenn man 24 Juwelen expandiert hat.</p>
-<p>Problematisch ist diese Art der Optimumsberechnung nun, da offenbar jede Anzahl von Juwelen zwischen 0 und 100 pareto-optimal ist.
-Schlimmer noch auch jede Kombination aus 1-6 Steinen mit 77 bis 100 Juwelen und 7 Steinen mit 77 bis 80 Juwelen ist pareto-optimal.
-D.h. trotz Optimierung müssen wir 100 + 6 * 24 + 4 = 248 Zustände von ca. 900 Zuständen expandieren, bis wir uns der gefundenen Lösung sicher sein können - kein schönes Ergebnis.</p>
-<p>Allerdings bietet sich eine andere Optimierung an.
-Wir können die verwendeten Transportmengen einschränken.
-Da sich Juwelen so lange lohnen wie sie zusammen eine ganz Anzahl Steine ergeben, liegt die Juwelenzahl zwischen 60 und 100.
-Die Juwelen können jedoch nie die komplette Kapazität belegen, weshalb mindestens 6 Steine und maximal 8 mitgenommen werden können.
-Damit reduziert sich die Suche auf 41*3 oder mit Pareto-optimalen Zwischenzuständen auf 41 + 24 + 4 = 69 Zustände.</p>
-<p><em>Achtung: Priorisiert man die Waren, statt sie zu bewerten, dann lässt sich diese Art der Packung eher nicht anwenden. Dann gilt: Höchste Priorität zuerst...</em></p>
+<p>Der Weg dahin führt z.b. über greedy suche, also das durchsuchen sämtlicher Zustände.<br />
+In dem Fall also 0 bis 8 Steine und 0 bis 100 Juwelen (manchmal weniger) macht also rund 900 Zustände die zu prüfen wären.<br />
+Wenn man sich jetzt noch eine 3. oder 4. Ware vorstellt wird schnell klar, so kommen wir nicht zum Ergebnis.  </p>
+<p>Normalerweise führt hier der schnelle Weg zum Ziel über sogenannte Pareto-optimale Zwischenzustände.<br />
+Was solche Zwischenzustände sind lässt sich leichter anders rum erklären.<br />
+Zustände die bei gleicher Beladung weniger Wert sind als ein anderer Zwischenzustand sind nicht Pareto-optimal.<br />
+Diese braucht man nicht weiter zu verfolgen, da offenbar immer wieder nur nicht Pareto-optimale Zustände erreicht werden können.  </p>
+<p>Vergleicht man also beispielsweise den Zustand "60 Juwelen" mit "1 Stein" so zeigt sich, das 60 Juwelen offenbar bei gleicher Beladung weit mehr Wert sind.<br />
+Es lohnt also nicht "1 Stein" weiter zu expandieren.<br />
+Genau genommen kommt man zu dieser Feststellung bereits wenn man 24 Juwelen expandiert hat.  </p>
+<p>Problematisch ist diese Art der Optimumsberechnung nun, da offenbar jede Anzahl von Juwelen zwischen 0 und 100 pareto-optimal ist.<br />
+Schlimmer noch auch jede Kombination aus 1-6 Steinen mit 77 bis 100 Juwelen und 7 Steinen mit 77 bis 80 Juwelen ist pareto-optimal.<br />
+D.h. trotz Optimierung müssen wir 100 + 6 x 24 + 4 = 248 Zustände von ca. 900 Zuständen expandieren, bis wir uns der gefundenen Lösung sicher sein können - kein schönes Ergebnis.  </p>
+<p>Allerdings bietet sich eine andere Optimierung an.<br />
+Wir können die verwendeten Transportmengen einschränken.<br />
+Da sich Juwelen so lange lohnen wie sie zusammen eine ganz Anzahl Steine ergeben, liegt die Juwelenzahl zwischen 60 und 100.<br />
+Die Juwelen können jedoch nie die komplette Kapazität belegen, weshalb mindestens 6 Steine und maximal 8 mitgenommen werden können.<br />
+Damit reduziert sich die Suche auf 41*3 oder mit Pareto-optimalen Zwischenzuständen auf 41 + 24 + 4 = 69 Zustände.  </p>
+<div class="admonition warning">
+<p class="admonition-title">Achtung</p>
+<p>Priorisiert man die Waren, statt sie zu bewerten, dann lässt sich diese Art der Packung eher nicht anwenden.<br />
+Dann gilt: Höchste Priorität zuerst...</p>
+</div>
 <h3 id="pakete">Pakete<a class="headerlink" href="#pakete" title="Permanent link">&para;</a></h3>
-<p>Oftmals lohnt der Transport von Rohstoffen erst, wenn alle benötigten Rohstoffe das Ziel erreichen.
-Die Idee ist nun diese Rohstoffe zu paketieren.
-Das kann heissen diese entweder alle oder gar nicht zu verschicken, oder aber bei Erreichen der Paketgrösse einen Bonus aufzuschlagen.
-Da in Eressea die einzelnen Rohstoffe auf aus unterschiedlichen Regionen kommen, würde erstere Variante wohl dazu führen, dass gar nichts geliefert wird.
-Die zweite Variante wäre wünschenswert, torpediert aber leider die Optimierung mit Pareto-optimalen Zwischenzuständen.
-Was bleibt ist die erste Variante eingeschränkt auf einen Typ Gegenstand.
-Ob der Aufwand lohnt bleibt fraglich.</p>
-<p>Unabhängig davon ist es natürlich möglich und sinnvoll Gegenstände die zur Vollendung eines Ziels fehlen ein wenig höher zu bewerten.</p>
+<p>Oftmals lohnt der Transport von Rohstoffen erst, wenn alle benötigten Rohstoffe das Ziel erreichen.<br />
+Die Idee ist nun diese Rohstoffe zu paketieren.<br />
+Das kann heissen diese entweder alle oder gar nicht zu verschicken, oder aber bei Erreichen der Paketgrösse einen Bonus aufzuschlagen.<br />
+Da in Eressea die einzelnen Rohstoffe auf aus unterschiedlichen Regionen kommen, würde erstere Variante wohl dazu führen, dass gar nichts geliefert wird.<br />
+Die zweite Variante wäre wünschenswert, torpediert aber leider die Optimierung mit Pareto-optimalen Zwischenzuständen.<br />
+Was bleibt ist die erste Variante eingeschränkt auf einen Typ Gegenstand.<br />
+Ob der Aufwand lohnt bleibt fraglich.  </p>
+<p>Unabhängig davon ist es natürlich möglich und sinnvoll Gegenstände die zur Vollendung eines Ziels fehlen ein wenig höher zu bewerten.  </p>
 <p>Es macht ggf. sinn zwei bzw. drei Arten von Paketen zu unterscheiden:</p>
 <ol>
-<li>Gruppen von Gegenständen die nur in Summe überhaupt verwendet werden können, also z.b. einzelne Stufen eines Gebäudes, mehrere Komponenten für Tränke oder Waffen. Einzeln können diese Gegenstände am Ziel nicht verarbeitet werden, d.h. es muss gewartet werden, bis die letzte Komponente eingetroffen ist.</li>
-<li>Gruppen von Gegenständen oder Untergruppen der oberen Kategorie zur vollen Auslastung in der wöchentlichen Produktion nötig sind. Es kann jedoch auch ohne voll Auslastung produziert werden. Das reduziert nur die Zeit in der ggf. etwas anderes getan werden kann.</li>
-<li>Gruppen von Gegenständen oder Untergruppen der oberen Kategorien, die zur vollen Erfüllung eines Auftrags notwendig sind, d.h. Vollendung eines Schiffes oder Gebäudes, oder volle Ausstattung einer Einheit mit ihrer Ausrüstung. Es kann produziert werden, möglicherweise sogar voll ausgelastet. Es ist nur noch nicht sichergestellt, dass alle Komponenten zur Fertigstellung demnächst eintreffen.</li>
+<li>Gruppen von Gegenständen die nur in Summe überhaupt verwendet werden können, also z.b. einzelne Stufen eines Gebäudes, mehrere Komponenten für Tränke oder Waffen.<br />
+   Einzeln können diese Gegenstände am Ziel nicht verarbeitet werden, d.h. es muss gewartet werden, bis die letzte Komponente eingetroffen ist.</li>
+<li>Gruppen von Gegenständen oder Untergruppen der oberen Kategorie zur vollen Auslastung in der wöchentlichen Produktion nötig sind.<br />
+   Es kann jedoch auch ohne voll Auslastung produziert werden.<br />
+   Das reduziert nur die Zeit in der ggf. etwas anderes getan werden kann.</li>
+<li>Gruppen von Gegenständen oder Untergruppen der oberen Kategorien, die zur vollen Erfüllung eines Auftrags notwendig sind, d.h. Vollendung eines Schiffes oder Gebäudes, oder volle Ausstattung einer Einheit mit ihrer Ausrüstung.<br />
+   Es kann produziert werden, möglicherweise sogar voll ausgelastet.<br />
+   Es ist nur noch nicht sichergestellt, dass alle Komponenten zur Fertigstellung demnächst eintreffen.</li>
 </ol>
 <p>Die letzten beiden Gruppen können in der Praxis wohl zusammengefasst und höchstwahrscheinlich ignoriert werden.
 Für die erste Gruppe ist ein Erfüllungsbonus jedoch denkbar und liesse sich auch planen.</p>
 <h2 id="multiwegfindung">Multiwegfindung<a class="headerlink" href="#multiwegfindung" title="Permanent link">&para;</a></h2>
-<p>Bei der Transportplanung kann es aber durchaus vorkommen, dass ein Transport bereits etwas Ladung und dementsprechend eine Zielregion hat.
-Es steht aber auf dem Transport noch Kapazität bereit, die durch andere Waren belegt werden könnten.
-Einfache Möglichkeiten liegen nun darin nur Waren mitzugeben, die in den Zwischenpunkten der Route gebraucht werden.
-Fortgeschrittene Techniken laden Waren auf, die dadurch dem Ziel ein Stück näher kommen.</p>
-<p>Möglich scheint mir aber auch eine Anpassung der Route, dahingehend, dass bei gleicher Dauer zum ersten Ziel eine Route gesucht wird, die gleichzeitig möglichst nah oder sogar über die Region des 2. Zieles führt. Ebenso denkbar ist die Optimierung der Route, das diese über "Umschlagplätze" läuft, um sicherzustellen, dass die Waren für das 2. Ziel dann auch einen Transport in der Gabelregion finden.</p>
-<p>Wie also könnte eine solche Multiwegfindung laufen? Die Runden bis zur Ankunft bei Ziel 1 sind bekannt.
-Es kommen also nur Routen in Frage, die nicht länger dauern.
-Das erfährt man jedoch erst wenn eine Route gefunden wurde.
-Die minimale Entfernung zum Ziel 2 ist also zweites Kriterium bei der Routenbewertung und lässt die Routenberechnung ein wenig mehr "greedy" werden, da nun alle Regionen die im Kriterium 1 den gleichen Wert ergeben auf den 2. Wert getestet werden müssen.
-Glücklicherweise liefert auch hier die Schätzfunktion gute Dienste.</p>
+<p>Bei der Transportplanung kann es aber durchaus vorkommen, dass ein Transport bereits etwas Ladung und dementsprechend eine Zielregion hat.<br />
+Es steht aber auf dem Transport noch Kapazität bereit, die durch andere Waren belegt werden könnten.<br />
+Einfache Möglichkeiten liegen nun darin nur Waren mitzugeben, die in den Zwischenpunkten der Route gebraucht werden.<br />
+Fortgeschrittene Techniken laden Waren auf, die dadurch dem Ziel ein Stück näher kommen.  </p>
+<p>Möglich scheint mir aber auch eine Anpassung der Route, dahingehend, dass bei gleicher Dauer zum ersten Ziel eine Route gesucht wird, die gleichzeitig möglichst nah oder sogar über die Region des 2. Zieles führt.<br />
+Ebenso denkbar ist die Optimierung der Route, das diese über "Umschlagplätze" läuft, um sicherzustellen, dass die Waren für das 2. Ziel dann auch einen Transport in der Gabelregion finden.  </p>
+<p>Wie also könnte eine solche Multiwegfindung laufen? Die Runden bis zur Ankunft bei Ziel 1 sind bekannt.<br />
+Es kommen also nur Routen in Frage, die nicht länger dauern.<br />
+Das erfährt man jedoch erst wenn eine Route gefunden wurde.<br />
+Die minimale Entfernung zum Ziel 2 ist also zweites Kriterium bei der Routenbewertung und lässt die Routenberechnung ein wenig mehr "greedy" werden, da nun alle Regionen die im Kriterium 1 den gleichen Wert ergeben auf den 2. Wert getestet werden müssen.<br />
+Glücklicherweise liefert auch hier die Schätzfunktion gute Dienste.  </p>
 <h3 id="gleichwertige-ziele">gleichwertige Ziele<a class="headerlink" href="#gleichwertige-ziele" title="Permanent link">&para;</a></h3>
-<p>Sind mehrere Ziele gleichwertig, konkurrieren diese natürlich ab einem bestimmten Punkt um die weitere Route.
-Bis dahin kann man die Route prima auf das Minimum aus beiden Routen optimieren, d.h. man fährt zur näheren Region, und lädt die Waren für die andere Region ab, wenn man möglichst nah dran ist.</p>
-<p>Fügt man jedoch mehr und mehr Ziele hinzu, so wird aus dem Transport tatsächlich ein lokaler "Handelsreisender".
-Ob und wann es sich lohnt hier tatsächlich eine kleine Rundreise zu machen, habe ich noch nicht näher betrachtet.
-Sicher gibt es aber solche Grenze.</p>
+<p>Sind mehrere Ziele gleichwertig, konkurrieren diese natürlich ab einem bestimmten Punkt um die weitere Route.<br />
+Bis dahin kann man die Route prima auf das Minimum aus beiden Routen optimieren, d.h. man fährt zur näheren Region, und lädt die Waren für die andere Region ab, wenn man möglichst nah dran ist.  </p>
+<p>Fügt man jedoch mehr und mehr Ziele hinzu, so wird aus dem Transport tatsächlich ein lokaler "Handelsreisender".<br />
+Ob und wann es sich lohnt hier tatsächlich eine kleine Rundreise zu machen, habe ich noch nicht näher betrachtet.<br />
+Sicher gibt es aber solche Grenze.  </p>
 <h3 id="umschlagplatze">Umschlagplätze<a class="headerlink" href="#umschlagplatze" title="Permanent link">&para;</a></h3>
 <p>Die Multiwegfindung kann man sich aber auch wesentlich vereinfachen.
 Definiert man ausreichend Umschlagplätze, so kann man die Transporte anweisen bei Routen über einer Woche als Zwischenpunkte <strong>immer</strong> Umschlagplätze anzulaufen, oder dies zumindest dann zu tun, wenn eine Kapazitätsgrenze unterschritten ist, oder der Umschlagplatz keinen Umweg bedeutet.</p>
@@ -8158,7 +8170,7 @@ Wicht dabei: Alle nicht erwähnten Eigenschaften sind gleich.</p>
 <li>Es ist besser einen Transport leer in eine Region mit dringend benötigten Angeboten fahren zu lassen, als in eine Umschlagsregion.</li>
 <li>Letzteres ist aber immer noch besser als nur zu lernen oder nichts zu tun.</li>
 <li>Gibt es in einer nahen Quelle keinen Transport, in einer ferneren Quelle schon, und führt die Route über die nahe Quelle, so soll der Transport genau dann unterbleiben, wenn die ferne Quelle nach Beladung dann weniger von der Ware hätte als die Nahe Quelle nach Beladung.</li>
-<li>Beipiel:<ul>
+<li>Beispiel:<ul>
 <li>A hat 100 Steine Bedarf.</li>
 <li>In B, eine Runde von A entfernt, liegen 1000 Steine. Es gibt keinen verfügbaren Transport in B.</li>
 <li>In C, zwei Runden von A und eine von B entfernt, liegen 500 Steine. Transport verfügbar.</li>
@@ -8180,26 +8192,26 @@ Eine Überbewertung würde sonst möglicherweise dazu führen, dass Silber für 
 <p>Es ist daher klar, dass der Basiswert noch modifiziert werden muss.
 Dabei sollte die Dringlichkeit sich so stark auswirken können, dass selbst Gegenstände mit niedrigem Basiswert interessant genug werden.
 Eine exponentielle Funktion o.ä. auf die Dringlichkeit ist somit sinnvoll.</p>
-<div class="highlight"><pre><span></span><code>f(runden bis nötig)=?
-f(0)=10000%*Basiswert
-f(1)=1000%*Basiswert
-f(2)=200%*Basiswert
-f(3)=50%*Basiswert
-f(4)=15%*Basiswert
-f(5)=8%*Basiswert
-f(irgendwann)=5%*Basiswert
+<div class="highlight"><pre><span></span><code>    f(runden bis nötig)=?
+    f(0)=10000%*Basiswert
+    f(1)=1000%*Basiswert
+    f(2)=200%*Basiswert
+    f(3)=50%*Basiswert
+    f(4)=15%*Basiswert
+    f(5)=8%*Basiswert
+    f(irgendwann)=5%*Basiswert
 </code></pre></div>
-<p>Dies wären Werte die mir im Moment vorschweben und die entweder in einer Lookup Tabelle abgelegt werden, oder durch eine Funktion modelliert werden.
-Die Ausdehnung dieser Formel hängt im wesentlichen von der Bandbreite der verwendeten Basiswerte ab.
-Ein Flammenschwert, dass irgendwann benötig wird, mag einen Basiswert von 10000 haben, die 10 Silber die in einer anderen Region aber für Unterhalt dringend gebraucht werden, müssen dennoch zu einem Höheren Gesamtwert führen.
-Mit obiger Formel wäre das Flammenschwert 500 und die 10 Silber 100 wert - zu wenig also um geliefert zu werden.
-Daher sollten die Parameter der Dringlichkeitsfunktion anhand der min und max werte der Basiswerte berechnet werden.</p>
-<p>Ebenso kann natürlich die Wichtigkeit eines Gegenstandes lokal verschieden sein, da die Umgebungsbedingungen andere sind.</p>
+<p>Dies wären Werte die mir im Moment vorschweben und die entweder in einer Lookup Tabelle abgelegt werden, oder durch eine Funktion modelliert werden.<br />
+Die Ausdehnung dieser Formel hängt im wesentlichen von der Bandbreite der verwendeten Basiswerte ab.<br />
+Ein Flammenschwert, dass irgendwann benötig wird, mag einen Basiswert von 10000 haben, die 10 Silber die in einer anderen Region aber für Unterhalt dringend gebraucht werden, müssen dennoch zu einem Höheren Gesamtwert führen.<br />
+Mit obiger Formel wäre das Flammenschwert 500 und die 10 Silber 100 wert - zu wenig also um geliefert zu werden.<br />
+Daher sollten die Parameter der Dringlichkeitsfunktion anhand der min und max werte der Basiswerte berechnet werden.  </p>
+<p>Ebenso kann natürlich die Wichtigkeit eines Gegenstandes lokal verschieden sein, da die Umgebungsbedingungen andere sind.  </p>
 <h4 id="modifizierung-durch-entfernung">Modifizierung durch Entfernung<a class="headerlink" href="#modifizierung-durch-entfernung" title="Permanent link">&para;</a></h4>
-<p>Oft wird es vorkommen, dass eine Ware nicht vom Anbieter direkt zur Nachfrage geschafft werden kann, da beide Regionen zu weit auseinander sind.
-Damit jedoch eine Belieferung von einer möglichst nahegelegenen Quelle erfolgt, bietet es sich an die Teilausführung einer Nachfrage auf den unterschiedlichen Teilstücken auch unterschiedlich stark zu bewerten.</p>
+<p>Oft wird es vorkommen, dass eine Ware nicht vom Anbieter direkt zur Nachfrage geschafft werden kann, da beide Regionen zu weit auseinander sind.<br />
+Damit jedoch eine Belieferung von einer möglichst nahegelegenen Quelle erfolgt, bietet es sich an die Teilausführung einer Nachfrage auf den unterschiedlichen Teilstücken auch unterschiedlich stark zu bewerten.  </p>
 <h4 id="bewertung-von-leerfahrten">Bewertung von Leerfahrten<a class="headerlink" href="#bewertung-von-leerfahrten" title="Permanent link">&para;</a></h4>
-<p>Leerfahrten sind unter Umständen nötig, um nicht in Regionen hängen zu bleiben die lediglich als Senken funktionieren.</p>
+<p>Leerfahrten sind unter Umständen nötig, um nicht in Regionen hängen zu bleiben die lediglich als Senken funktionieren.  </p>
 <p>Für Leerfahrten kann es 2 verschieden motivierte Ziele geben:</p>
 <ol>
 <li>Ansteuern von Regionen mit dringend benötigten Gütern.</li>
@@ -8287,7 +8299,7 @@ Damit jedoch eine Belieferung von einer möglichst nahegelegenen Quelle erfolgt,
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025 Cyril Guillon
+      Copyright &copy; 2025-2026 Cyril Guillon
     </div>
   
   

@@ -7839,20 +7839,20 @@
   
 
 
-<h1 id="give">GIVE<a class="headerlink" href="#give" title="Permanent link">&para;</a></h1>
-<p><strong><code>GIVE</code></strong><code></code><em><code>ID-unité</code></em><code>HERBS</code><br />
-<strong><code>GIVE</code></strong><code></code><em><code>ID-unité</code></em><code>COMMAND</code><br />
-<strong><code>GIVE</code></strong><code></code><em><code>ID-unité</code></em><code>UNIT</code><br />
-<strong><code>GIVE</code></strong><code></code><em><code>ID-unité quantité</code></em><code>MEN</code><br />
-<strong><code>GIVE</code></strong><code></code><em><code>ID-unité quantité objet</code></em><br />
-<strong><code>GIVE</code></strong><code></code><em><code>ID-unité quantité SHIP</code></em><br />
-<strong><code>GIVE</code></strong><code></code><em><code>ID-unité</code></em><code>ALL MEN</code><br />
-<strong><code>GIVE</code></strong><code></code><em><code>ID-unité</code></em><code>ALL</code><br />
-<strong><code>GIVE</code></strong><code></code><em><code>ID-unité</code></em><code>ALL</code><em><code>objet</code></em><br />
-<strong><code>GIVE</code></strong><code></code><em><code>ID-unité</code></em><code>EACH</code><em><code>quantité</code></em><code></code><em><code>objet</code></em><br />
-<strong><code>GIVE</code></strong><code>0</code><em><code>quantité</code></em><code>MEN</code><br />
-<strong><code>GIVE</code></strong><code>0</code><em><code>quantité</code></em><code>SHIP</code><br />
-<strong><code>GIVE</code></strong><code>0</code><em><code>quantité objet</code></em>  </p>
+<h1 id="give"><code>GIVE</code><a class="headerlink" href="#give" title="Permanent link">&para;</a></h1>
+<p><code>GIVE &lt;unit-id&gt;  &lt;quantité&gt; &lt;objet&gt;</code><br />
+<code>GIVE &lt;unit-id&gt; EACH &lt;quantité&gt; &lt;objet&gt;</code><br />
+<code>GIVE &lt;unit-id&gt; ALL</code><br />
+<code>GIVE &lt;unit-id&gt;  ALL &lt;objet&gt;</code><br />
+<code>GIVE &lt;unit-id&gt; HERBS</code><br />
+<code>GIVE &lt;unit-id&gt; &lt;quantité&gt; MEN</code><br />
+<code>GIVE &lt;unit-id&gt; ALL MEN</code><br />
+<code>GIVE &lt;unit-id&gt; UNIT</code><br />
+<code>GIVE &lt;unit-id&gt; COMMAND</code><br />
+<code>GIVE &lt;unit-id&gt; &lt;quantité&gt; SHIP</code>*<br />
+<code>GIVE 0 &lt;quantité&gt; MEN</code><br />
+<code>GIVE 0 &lt;quantité&gt; SHIP</code><br />
+<code>GIVE 0 &lt;quantité&gt; &lt;objet&gt;</code>  </p>
 <p>L'unité transfère des objets, le commandement de bateaux ou de bâtiments, des personnes, des bateaux ou même elle-même à d'autres unités.</p>
 <h2 id="transfert-dobjets">Transfert d'objets<a class="headerlink" href="#transfert-dobjets" title="Permanent link">&para;</a></h2>
 <p>Avec <code>GIVE</code> les unités peuvent donner toutes les marchandises qu'elles possèdent à d'autres unités.
@@ -7864,7 +7864,6 @@ Les personnes, les silver et les chevaux augmentent respectivement la réserve d
 Tous les autres objets disparaissent.  </p>
 <p>L'unité donatrice et l'unité réceptrice doivent bien entendu se trouver dans la même région.
 Le transfert fonctionne également en haute mer, entre bateaux et de bateau à la terre ferme et inversement.  </p>
-<!-- TODO: translate in french -->
 <p>Au lieu d'une quantité, vous pouvez également utiliser le paramètre <code>ALL</code>.<br />
 <code>GIVE</code><em><code>unit-id</code></em><code>ALL Swords</code>, par exemple, remet toutes les épées que l'unité possède à ce moment-là.<br />
 <code>GIVE</code><em><code>unit-id</code></em><code>ALL</code> remet tous les objets, plantes, potions et argent, mais pas les personnes de l'unité.<br />
@@ -7920,7 +7919,7 @@ Les <a class="autorefs autorefs-internal" href="../skills/#competences">compéte
 </div>
 <p>Expérience de jeu (Solthar) :</p>
 <p>Si vous souhaitez confier des personnes à une unité <strong>d’une autre faction</strong>, un simple <a href="../cmd-help/"><code>HELP GIVE</code></a> ne suffit pas !<br />
-<strong>L'unité réceptrice doit également passer l'ordre <a href="../cmd-contact/"><code>CONTACT</code></a></strong> sur l'unité transférante.  </p>
+<strong>L'unité réceptrice doit également passer l'ordre <a href="../cmd-contact/"><code>CONTACT</code></a></strong> sur l'unité cédante.  </p>
 <p>De plus, si l’unité d’accueil est une <a class="autorefs autorefs-internal" href="../races/#humains">unité de migrants</a>, elle ne doit contenir personne au moment du transfert.<br />
 Idéalement, il devrait s'agir d'une unité <code>TEMP</code> vide, par exemple :</p>
 <div class="highlight"><pre><span></span><code>UNIT a; Faction X
@@ -7934,19 +7933,20 @@ UNIT b; Faction Y
 <p>Avec <code>GIVE</code><em><code>unit-id</code></em><code>UNIT</code> l'unité complète avec tous les objets est donnée à une autre faction, mais pas à l'unité d'identifiant spécifié !<br />
 L'unité n'exécute plus d'ordres pendant le tour après ce <code>GIVE</code> !</p>
 <h2 id="transfert-de-commandement">Transfert de commandement<a class="headerlink" href="#transfert-de-commandement" title="Permanent link">&para;</a></h2>
-<p>Si l'unité a également un navire ou un bâtiment sous son commandement - c'est-à-dire si elle est la première unité répertoriée dans le bateau ou bâtiment - elle peut également passer le commandement à une autre unité.<br />
+<p>Si l'unité a également un bateau ou un bâtiment sous son commandement - c'est-à-dire si elle est la première unité répertoriée dans le bateau ou bâtiment - elle peut également passer le commandement à une autre unité.<br />
 L'unité aux commandes détermine quelles autres unités sont autorisées à entrer dans le bateau ou le bâtiment.</p>
-<p><code>GIVE unit COMMAND</code> devrit toujours être utilisé, même si l'unité avec le commandement quitte le bateau ou le bâtiment et que l'unité suivante doit normalement recevoir le commandement.<br />
+<p><code>GIVE unit COMMAND</code> devrait toujours être utilisé, même si l'unité avec le commandement quitte le bateau ou le bâtiment et que l'unité suivante doit normalement recevoir le commandement.<br />
 L'ordre des unités lors de l'évaluation n'est pas toujours celui du rapport.<br />
 Les nouveaux propriétaires d'un bâtiment sont placés en première position dans le bâtiment <strong>à la fin du tour</strong>.<br />
 Ils ne peuvent donc bénéficier des avantages (bonus...) du bâtiment que <strong>lors du tour suivant</strong>.  </p>
 <p>Le commandement ne peut pas être donné à des unités sans membre (par exemple après une bataille, ou à des unités <code>TEMP</code> "vides").  </p>
 <h2 id="transfert-de-convoi">Transfert de convoi<a class="headerlink" href="#transfert-de-convoi" title="Permanent link">&para;</a></h2>
-<p>Avec <code>GIVE</code><em><code>unit-id</code></em><code></code><em><code>number</code></em><code>SHIP</code> le propriétaire d'un bateau ou d'un <a class="autorefs autorefs-internal" href="../ships/#convoi">convoi</a> remet le nombre de beteaux spécifié.<br />
-Les unités transférantes et réceptrices doivent appartenir à la même faction (<code>HELP ALL</code> et <code>CONTACT</code> ne le permmettent pas).<br />
+<p>Avec <code>GIVE</code><em><code>unit-id</code></em><code></code><em><code>number</code></em><code>SHIP</code> le propriétaire d'un bateau ou d'un <a class="autorefs autorefs-internal" href="../ships/#convoi">convoi</a> remet le nombre de bateaux spécifié.<br />
+Les unités cédantes et réceptrices doivent appartenir à la même faction (<code>HELP ALL</code> et <code>CONTACT</code> ne le permettent pas).<br />
 Si l'autre unité possède également un bateau, un <a class="autorefs autorefs-internal" href="../ships/#convoi">convoi</a> est formé.<br />
 Les convois sont toujours constitués de bateaux du même type.<br />
 Les barques ne peuvent pas former de convois et les bateaux doivent se trouver sur la même côte.  </p>
+<p>Plus d'information : <a class="autorefs autorefs-internal" href="../ships/#convoi">les convois</a>.</p>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../cmd-reserve/"><code>RESERVE</code></a></li>
@@ -8035,7 +8035,7 @@ Les barques ne peuvent pas former de convois et les bateaux doivent se trouver s
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025 Cyril Guillon
+      Copyright &copy; 2025-2026 Cyril Guillon
     </div>
   
   

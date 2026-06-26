@@ -68,7 +68,7 @@ MAKE TEMP 5
 END
 ```
 
-La nouvelle unité est d'abord créée, ne se bat pas, reçoit 300 Silver, recrute 1 personne et apprend finalement la [sylviculture]{title="Forestry"} - bien que cela ne corresponde pas à l'ordre dans lequel les ordres ont été saisis.
+La nouvelle unité est d'abord créée, ne se bat pas, reçoit 300 Silver, recrute 1 personne et apprend finalement la [sylviculture][sylviculture]{title="Forestry"} - bien que cela ne corresponde pas à l'ordre dans lequel les ordres ont été saisis.
 
 ## Notes explicatives
 

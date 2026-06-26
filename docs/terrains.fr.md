@@ -71,7 +71,7 @@ Les plantes qui poussent dans les montagnes sont la [cire fissurée][cire-fissur
 *Plain (EN), Ebene (DE).*
 <!-- cspell:enable -->
 
-Les plantes qui poussent dans les plaines sont l'[amour d'Elfes][amour-delfes]{title="Elvendear"}, le [champignon cobalt][champignon-cobalt]{title="Cobalt fungus"}, l'[œil de chouette][il-de-chouette]{title="Owlsgaze"}, le [lierre-daraignee]{title="Spider ivy"}, la [racine plate][racine-plate]{title="Flatroot"} et la [témérité piquante][temerite-piquante]{title="Tangy temerity"}.  
+Les plantes qui poussent dans les plaines sont l'[amour d'Elfes][amour-delfes]{title="Elvendear"}, le [champignon cobalt][champignon-cobalt]{title="Cobalt fungus"}, l'[œil de chouette][il-de-chouette]{title="Owlsgaze"}, le [lierre d'araignée][lierre-daraignee]{title="Spider ivy"}, la [racine plate][racine-plate]{title="Flatroot"} et la [témérité piquante][temerite-piquante]{title="Tangy temerity"}.  
 Ces mêmes plantes poussent dans les forêts.  
 
 ## Volcan

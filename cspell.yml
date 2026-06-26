@@ -47,8 +47,6 @@ dictionaries:
   - "!dart"
   - "!docker"
   - "!elixir"
-  #- "!en_us"
-  #- "!en-gb"
   - "!fonts"
   - "!fullstack"
   - "!golang"
@@ -98,8 +96,6 @@ ignorePaths:
   - ./node_modules
   - ./mkdocs.yml
   - ./Taskfile.yml
-  #- ./docs/*.fr.md
-  #- ./docs/*.de.md
 
 files:
   - ./docs/*.md

@@ -9,65 +9,68 @@ alias: first-round
 
 ## The first report
 
-<!-- TODO : find and copy here an english report extract -->
-Hier ist ein Beispiel, wie der erste Report (1-37wj.nr) aussehen kann, den du nach der Anmeldung vom Server bekommst:
+Here is an example of what the first report (named here `1-37wj.nr`) that you get from the server after subscribing might look like:
 
 ```text
-            Report für E3, Wednesday, 01. July 2009, 19:56
-Wir schreiben die erste Woche des Monats Feldsegen im Jahre 1 des dritten
-                    Zeitalters. Es ist Sommer.
+            Report for Eressea, Wednesday, 01. July 2026, 19:56
+it's the first week of the month of harvest moon in the 1. year of the second
+                        age. It's summer.
 
-    Partei 37wj (37wj), Goblins/Kein Magiegebiet (drac@example.de)
+    Faction 37wj (37wj), goblins/no magic school (drac@example.de)
+Remember to send your orders to eressea-server@kn-bremen.de with the subject
+                        ERESSEA 2 ORDERS.
 
-                    Dein Passwort lautet pwpw42.
+            Your faction has 1 person in 1 of 2500 possible units.
 
-    Bitte denke daran, deine Befehle mit dem Betreff ERESSEA 3 BEFEHLE an
-                eressea-server@eressea.kn-bremen.de zu senden.
+        Options: REPORT COMPUTER TEMPLATE STATISTICS ZIPPED ADDRESSES
 
-Die ersten beiden Züge mußt du abgeben, sonst wird deine Partei sofort
-                wieder gelöscht, um Karteileichen zu vermeiden.
+                                Notifications
 
-                Deine Partei hat 1 Personen in 1 Einheiten.
+Your faction will be protected against attacks for the next 6 weeks.
 
-    Optionen: AUSWERTUNG COMPUTER ZUGVORLAGE STATISTIK ZIPPED ADRESSEN
-                        TALENTVERSCHIEBUNGEN
+                                Events
 
-                            Ereignisse
+The password of this faction is 'pwpw42'.
 
-Das Passwort für diese Partei lautet pwpw42.
+                            Economy and Trade
 
-                            Aktueller Status
+Unit drac (drac) in Rivudrit (0,0) earns 10 silver.
+
+------------------------------------------------------------------------------
+
+Cabyn (0,0), Plain, 24/6 trees, 2308 peasants, 50000 Silver, 52 horses.
+To the northwest the ocean (-1,1), to the northeast the ocean (0,1), to the
+east the deserts of Budesodid (1,0), to the southeast the swamps of Bigecod
+(1,-1), to the southwest the highlands of Tavesrucal (0,-1) to the west the
+ocean (-1,0).
+
+The local market offers gem at a price of 5 silver. Traders can sell incense
+for 16 silver, silk for 6 silver, oil for 9 silver, myrrh for 10 silver, spice
+for 28 silver and balm for 12 silver.
+
+Statistics für Cabyn (0,0):
+
+  entertainment: max. 4198 silver
+  worker salary: 11 Silver
+  recruits: max. 57 peasants
+  people: 1
+  wood: 10
+  silver: 5000
+  stones: 10
+
+  Heimat (wvg3), size 10, Fortification.
+
+    * Unit vdko (vdko), 1 Goblin, aggressiv, has: 10 wood, 5000 silver,
+      10 stones, "WORK".
+------------------------------------------------------------------------------
+
+                             Political Status
 
 ------------------------------------------------------------------------------
 
-Cabyn (0,0), Ebene, 24/6 Bäume, 2308 zufriedene Bauern, 50000 Silber, 52
-Pferde. Die Region ist im Besitz von Partei 37wj (37wj). Im Nordwesten der
-Region liegt Ozean (-1,1), im Nordosten Ozean (0,1), im Osten die Wüste von
-Budesodid (1,0), im Südosten der Sumpf von Bigecod (1,-1), im Südwesten das
-Hochland von Tavesrucal (0,-1) und im Westen Ozean (-1,0)
+                                Addresses
 
-Auf dem Markt werden Juwelen und Flachwurz feilgeboten.
-
-Statistik für Cabyn (0,0):
-
-    Bauerneinnahmen: 11 Silber
-    Rekruten: max. 57 Bauern
-    Personen: 1
-    Holz: 10
-    Silber: 5000
-    Steine: 10
-
-    Heimat (wvg3), Größe 10, Befestigung.
-
-* Entdecker (vdko), 1 Goblin, aggressiv, hat: 10 Holz, 5000 Silber, 10
-    Steine, "ARBEITEN".
-
-------------------------------------------------------------------------------
-                        Liste aller Adressen
-
-    * Partei 37wj (37wj): drac@example.de; (null)
-
-------------------------------------------------------------------------------
+  * Faction 37wj (37wj): drac@example.de;
 ```
 
 ## Example of an orders file
@@ -79,167 +82,166 @@ Note that orders spanning more than one line.
 here the `DESCRIBE` order with backslash (//) were used.  
 However, if you're using [Magellan][magellan-id] for your orders, you don't need to worry about this.
 
-<!-- TODO: translate in english -->
 ```text
 ERESSEA 37wj "pwpw42"
-; du muss natürlich oben dein eigenes Passwort einsetzen
+; Of course you have to enter your own password above
 REGION 0,0 ; Cabyn
-UNIT vdko;       Entdecker [1,5000$]
-    NAME UNIT "Dracheneinreiter"
+UNIT vdko;       Explorer [$1,5000]
+    NAME UNIT “Dragon Rider”
     ;
-    ; Das ist im Moment unsere erste und einzige Einheit,
-    ; erstmal ein paar grundsätzliche Einstellungen
-    NAME FACTION "Der Drachenclan"
-    NUMBER FACTION drac ; hoffentlich noch frei
-    OPTION PUNKTE ; Wird erst ab Runde 13 angezeigt
+    ; This is our first and only unit at the moment,
+    ; First a few basic settings
+    NAME FACTION "The Dragon Clan"
+    NUMBER FACTION drac ; hopefully still free
+    OPTION SCORE; Only shown from round 13 onwards
     OPTION TALENTVERSCHIEBUNG
-    PREFIX Nebel
-    BANNER "Immer schön eines zu haben"
-    PASSWORD "Setze das Passwort nie in öffentliche Dokumente"
-    ; wir haben schon eine Burg!
-    NAME BURG "Drachenhort"
-    DESCRIBE BURG "Am Fuße eines Kliffs, das auf das Meer hinausblickt, ist \
-    eine Höhle in den Fels gehauen. Eine kleine Mauer mit einem niedrigen Wacht\
-    urm schützt das Innere. Der schmale Eingang ist von zwei aufgespießten Schä\
-    deln flankiert. Sie sagen: Hier haust der Drachenclan!"
-    NAME REGION "Drachental"
+    PREFIX Fog
+    BANNER "Always nice to have one"
+    PASSWORD "Never put the password in public documents"
+    ; we already have a castle!
+    NAME CASTLE "Dragon's Lair"
+    DESCRIBE CASTLE "At the foot of a cliff overlooking the sea is\
+    a cave carved into the rock. A small wall with a low guard\
+    urm protects the inside. The narrow entrance is surrounded by two impaled heads.
+    flanked by dolphins. They say: The Dragon Clan lives here!"
+    NAME REGION "Dragon Valley"
     ;
-    ; das kann nicht schaden...
-    LEARN Pferdedressur
-    ; Burgenbesitzer setze ich gerne auf COMBAT NOT, damit sie die Burg nicht 
-    ; aus Versehen bei der Flucht verlassen ...
+    ; that can't hurt...
+    LEARN Taming
+    ; I like to set castle owners to COMBAT NOT so that they can't take the castle
+    ; accidentally abandoned while escaping...
     COMBAT NOT
     ;
-    ; Zeit für die erste neue Einheit
-    ; Rekrutierungssilber sollte besser übergeben werden
-    ; Lernkosten und Einheitenunterhalt holt sie sich notfalls aus dem Pool
-    GIVE TEMP dr01 460 Silber
+    ; Time for the first new unit
+    ; Recruitment silver should be better handed over
+    ; If necessary, takes learning costs and unit maintenance out of the pool
+    GIVE TEMP dr01 460 Silver
     MAKE TEMP dr01
-        NAME UNIT "prismatischer Drache"
-        RECRUIT 1 Dämon
-        LEARN Magie "Illaun"
+        NAME UNIT "Prismatic Dragon"
+        RECRUIT 1 Demon
+        LEARN Magic "Illaun"
         COMBAT FLEE
-        // Bei Gelegenheit COMBAT REAR
+        // On occasion COMBAT REAR
     END
     ;
-    ; Man muss sich genau überlegen, ob man im ersten Zug schon genug Geld für
-    ; drei Magier hat. Eigentlich lohnen sich Magier aber immer, besonders
-    ;  Dämonen. Zur Not haben sie einen Zauber, mit dem sie Geld verdienen können
-    ; -- und dabei lernen sie sogar noch was dazu!
-    GIVE TEMP dr02 460 Silber
-    GIVE TEMP dr03 460 Silber
+    ; You have to think carefully about whether you have enough money for the first move
+    ; has three magicians. Actually, magicians are always worth it, especially Demons.
+    ; In a pinch, they have a spell they can use to make money
+    ; --and they even learn something new!
+    GIVE TEMP dr02 460 Silver
+    GIVE TEMP dr03 460 Silver
     MAKE TEMP dr02
-        NAME UNIT "prismatischer Drache"
-        RECRUIT 1 Dämon
-        LEARN Magie "Illaun"
+        NAME UNIT "Prismatic Dragon"
+        RECRUIT 1 Demon
+        LEARN Magic "Illaun"
         COMBAT FLEE
     END
     ;
     MAKE TEMP dr03
-        NAME UNIT "prismatischer Drache"
-        RECRUIT 1 Dämon
-        LEARN Magie "Illaun"
+        NAME UNIT "Prismatic Dragon"
+        RECRUIT 1 Demon
+        LEARN Magic "Illaun"
         COMBAT FLEE
     END
     ;
-    ; wird es sich lohnen, sich so früh schon Elitekämpfer (Helden!) zu leisten?
-    GIVE TEMP dr05 720 Silber
+    ; Will it be worth it to buy elite fighters (heroes!) so early?
+    GIVE TEMP dr05 720 Silver
     MAKE TEMP dr05
-        NAME UNIT "Schattendrache"
-        RECRUIT 2 Dämon
-        LEARN Stangenwaffen
-        // Held?
-        ; wir sind zwar noch unbewaffnet, aber bevor wir es später vergessen
+        NAME UNIT "Shadow Dragon"
+        RECRUIT 2 Demon
+        LEARN Polearm
+        // Hero?
+        ; We are still unarmed, but lest we forget it later
         COMBAT AGGRESSIVE
     END
     ;
-    ; wenn er das Mindesttalent erreicht hat, produzieren wir hoffentlich schon
-    ; Holz oder Eisen
-    GIVE TEMP dr06 66 Silber
+    ; If he has reached the minimum talent level, hopefully we will be producing
+    ; wood or iron
+    GIVE TEMP dr06 66 Silver
     MAKE TEMP dr06
-        NAME UNIT "grauer Drache"
+        NAME UNIT "Gray Dragon"
         RECRUIT 1
-        LEARN Waffenbau
+        LEARN Weaponsmithing
         COMBAT FLEE
     END
     ;
-    ; Burgen kontrollieren in E3 Regionen, deshalb sind sie schon früh wichtig!
-    GIVE TEMP dr07 66 Silber
+    ; Castles control regions in E3, so they're important early on!
+    GIVE TEMP dr07 66 Silver
     MAKE TEMP dr07
-        NAME UNIT "grauer Drache"
+        NAME UNIT "Gray Dragon"
         RECRUIT 1
-        LEARN Burgenbau
+        LEARN Masonry
         COMBAT FLEE
     END
     ;
-    ; evtl. wollen wir hier noch mehr Burgenbauer...
+    ; Maybe we want more castle builders here...
     ;
-    ; Holz ist am Anfang super wichtig für Waffen und Wachposten,
-    ; später für Gebäude, Schiffe
-    GIVE TEMP dr08 180 Silber
+    ; Wood is super important in the beginning for weapons and guard posts,
+    ; later for buildings, ships
+    GIVE TEMP dr08 180 Silver
     MAKE TEMP dr08
-        NAME UNIT "grüner Drache"
+        NAME UNIT "Green Dragon"
         RECRUIT 3
-        LEARN Holzfällen
+        LEARN Forestry
         COMBAT FLEE
     END
     ;
-    ; Wollen wir uns auf Nahkampf oder Fernkampf, Bögen oder Armbrüste
-    ; spezialisieren? Evtl. ist es gefährlich, das zu früh zu tun.
-    GIVE TEMP dr10 660 Silber
+    ; Do we want to focus on melee or ranged combat, bows or crossbows
+    ; specialize? It may be dangerous to do this too early.
+    GIVE TEMP dr10 660 Silver
     MAKE TEMP dr10
-        NAME UNIT "Drachenflügel"
+        NAME UNIT "Dragon Wings"
         RECRUIT 10
-        LEARN Armbrustschießen
+        LEARN Crossbow
         COMBAT FLEE
     END
     ;
-    ; Eisen zu finden ist auch wichtig
-    GIVE TEMP dr11 180 Silber
+    ; Finding iron is also important
+    GIVE TEMP dr11 180 Silver
     MAKE TEMP dr11
-        NAME UNIT "Höhlendrache"
+        NAME UNIT "Cave Dragon"
         RECRUIT 3
-        LEARN Bergbau
-        // als Späher in Nachbarregionen
+        LEARN Mining
+        // as a scout in neighboring regions
         COMBAT FLEE
     END
     ;
-    ; ...ebenso wie Steine für Burgen
-    GIVE TEMP dr12 180 Silber
+    ; ...eas well as stones for castles
+    GIVE TEMP dr12 180 Silver
     MAKE TEMP dr12
-        NAME UNIT "Höhlendrache"
+        NAME UNIT "Cave Dragon"
         RECRUIT 3
-        LEARN Steinbau
+        LEARN Quarrying
         COMBAT FLEE
     END
     ;
-    ; Wir brauchen Späher, vermutlich mindestens einen für jede Himmelsrichtung
-    ; Wichtig: Unterhaltssilber nicht vergessen!
-    GIVE TEMP drr1 260 Silber
+    ; We need scouts, probably at least one for each direction
+    ; Important: Don’t forget your maintenance silver!
+    GIVE TEMP drr1 260 Silver
     MAKE TEMP drr1
-        NAME UNIT "kleiner Drachenreiter"
+        NAME UNIT "Little Dragon rider"
         RECRUIT 1
         MOVE sw
-        // Stein- und Bergbauer machen
+        // Quarrying and mining
         COMBAT FLEE
     END
     ;
-    GIVE TEMP drr2 260 Silber
+    GIVE TEMP drr2 260 Silver
     MAKE TEMP drr2
-        NAME UNIT "kleiner Drachenreiter"
+        NAME UNIT "Little Dragon rider"
         RECRUIT 1
         MOVE so
-        // Stein- und Bergbauer machen
+        // Quarrying and mining
         COMBAT FLEE
     END
     ;
     ;
-    ;  in E2 müssten wir jetzt noch unbedingt Unterhalter rekrutieren!
+    ;  We still have to recruit entertainers!
     ; ...
-    ; Vielleicht sollten wir auch noch Reiter (Steintransport!), Wagenbauer,
-    ; Rüstungsbauer oder noch mehr Soldaten ausbilden? Andererseits sollte man 
-    ; sich am Anfang nicht übernehmen und sehr genau aufpassen, dass man nicht
-    ; plötzlich pleite ist!
+    ; Maybe we should also add riders (transporting stone!), cartmakers,
+    ; Armourers or training more soldiers? On the other hand, you should
+    ; Don't overdo it at the beginning and be very careful not to
+    ; suddenly broke!
 NEXT
 ```
 

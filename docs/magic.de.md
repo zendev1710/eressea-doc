@@ -49,7 +49,8 @@ Unterrichtet werden können nur Magier des gleichen Magiegebietes wie der Lehrer
 Ein Draig-Magier kann also keinen Illaun-Magier lehren.
 
 Hat eine Magiereinheit nicht genug Silber zum Lernen, lernt sie in der Woche nur anteilig entsprechend der Silbermenge, die sie bezahlen kann.
-Magie kann auch, durch \[\[Special:MyLanguage/Talente|Anwendung (ZAUBERE) gelernt werden.
+<!-- TODO check abnd compare with original german page -->
+Magie kann auch, durch Anwendung (ZAUBERE) gelernt werden.
 Dafür ist es egal ob die Einheit einen oder mehrere Zauber pro Runde spricht.
 Natürlich kostet Lernen durch Anwendung kein Silber.
 
@@ -279,13 +280,11 @@ Zauber gleichen Rangs werden in der im Zug angegebenen Reihenfolge gezaubert.
 
 **Beispiel:**
 
-Es gäbe drei Zauber, genannt "Aaaa", "Beee" und "Ceee".
+Es gäbe drei Zauber, genannt `Aaaa`, `Beee` und `Ceee`.  
 
-"Aaaa" hat Rang 5 und kostet 10 Aura.
-
-"Beee" hat Rang 2 und kostet 20 Aura.
-
-"Ceee" hat Rang 5 und kostet 5 Aura.
+`Aaaa` hat Rang 5 und kostet 10 Aura.  
+`Beee` hat Rang 2 und kostet 20 Aura.  
+`Ceee` hat Rang 5 und kostet 5 Aura.  
 
 Angenommen die Einheit hat die Befehle
 
@@ -295,19 +294,27 @@ ZAUBERE "Beee"
 ZAUBERE "Aaaa"
 ```
 
-in dieser Reihenfolge. Zuerst wird "Beee" gezaubert, denn der Zauber hat Rang 2. Es ist der erste Zauber der Einheit in dieser Woche, daher kostet er 20 Aura. Dann wird "Ceee" gezaubert, denn "Aaaa" und "Ceee" haben den selben Rang und "Ceee" steht vor "Aaaa". "Ceee" ist der zweite Zauber, er kostet also 5\*2^1=10 Aura. Nun kommt noch "Aaaa". "Aaaa" ist der dritte Zauber, er kostet also 10\*2^2=40 Aura.
+in dieser Reihenfolge. Zuerst wird `Beee` gezaubert, denn der Zauber hat Rang 2. Es ist der erste Zauber der Einheit in dieser Woche, daher kostet er 20 Aura.  
+Dann wird `Ceee` gezaubert, denn `Aaaa` und `Ceee` haben den selben Rang und `Ceee` steht vor `Aaaa`.  
+`Ceee` ist der zweite Zauber, er kostet also 5 x 2^1 = 10 Aura. Nun kommt noch `Aaaa`.  
+`Aaaa` ist der dritte Zauber, er kostet also 10 x 2^2 = 40 Aura.  
 
 ## Patzer
 
-Es gibt viel Nichtoffensichtliches im Magiesystem und in den Sprüchen. Generell gilt: Viele Sprüche beinhalten direkte oder indirekte Risiken. Zudem kann ein Zauberer einen Spruch auch verpatzen.
+Es gibt viel Nichtoffensichtliches im Magiesystem und in den Sprüchen.  
+Generell gilt: Viele Sprüche beinhalten direkte oder indirekte Risiken.  
+Zudem kann ein Zauberer einen Spruch auch verpatzen.
 
-Ein Spruch kann also einfach so fehlschlagen, auch wenn eigentlich alle Komponenten vorhanden sind und die Aura der Einheit ausreicht. Das ist kein Bug und gibt auch eine ganz normale Meldung im Report ("Der Zauber schlägt fehl."). Fehlen Komponenten oder Aura wird dies in der Meldung auch erwähnt.
+Ein Spruch kann also einfach so fehlschlagen, auch wenn eigentlich alle Komponenten vorhanden sind und die Aura der Einheit ausreicht.  
+Das ist kein Bug und gibt auch eine ganz normale Meldung im Report ("Der Zauber schlägt fehl.").  
+Fehlen Komponenten oder Aura wird dies in der Meldung auch erwähnt.
 
 Die Wahrscheinlichkeit für einen Patzer hängt von vielen Faktoren ab, unter anderem von der Stufe, Schwierigkeitsgrad des Spruchs im Verhältnis zur Stufe, auf der der Spruch vom Magier gezaubert wird, dem Magiegebiet, dem Spruch, der Umgebung, dem Ziel usw.
 
 Patzer können äußerst unangenehme Nebenwirkungen haben! Überlebt die Einheit jedoch einen Patzer, sind diese normalerweise nicht permanent.
 
-Spielererfahrung: Solthar Ein Spruch, der auf der maximal möglichen Stufe gezaubert wird, hat ca 20% Patzerchance; auf der halben Stufe sind es 0% Chance. Für Draigmagier sind es 10% mehr. Mögliche Folgen (in absteigender Häufigkeit):
+Spielererfahrung: Solthar Ein Spruch, der auf der maximal möglichen Stufe gezaubert wird, hat ca 20% Patzerchance; auf der halben Stufe sind es 0% Chance.  
+Für Draigmagier sind es 10% mehr. Mögliche Folgen (in absteigender Häufigkeit):
 
 - Der Zauber funktioniert, aber nachfolgende Sprüche werden viel teurer.
 - Alle Aura geht verloren, der Zauber funktioniert oder auch nicht.
@@ -322,7 +329,8 @@ Spezielle Effekte betreffen vor allem Gwyrrd (wütende Ents entstehen) und Draig
 
 ## Magieresistenz
 
-Die Magieresistenz einer Person/Einheit ist die jeder Person innewohnende Fähigkeit, einem gegen sie gerichteten Zauber zu widerstehen, und wie stark eine Person von magischem Schaden im Kampf betroffen wird. Die Magieresistenz einer Einheit ist:
+Die Magieresistenz einer Person/Einheit ist die jeder Person innewohnende Fähigkeit, einem gegen sie gerichteten Zauber zu widerstehen, und wie stark eine Person von magischem Schaden im Kampf betroffen wird.  
+Die Magieresistenz einer Einheit ist:
 
 - die natürliche Magieresistenz der [Rassen][rassen]
 - plus 5% pro Magietalent
@@ -336,13 +344,17 @@ Bei bestimmten direkten Verzauberungen wird sie zusätzlich von der Erfahrung de
 - 50% + 5% \* (Höchster Talentwert der verzauberten Einheit - Magietalent der zaubernden Einheit)
 - nie unter 2%, nie über 98%
 
-Gegen Kampfzauber wie Feuerbälle und als magisch geltende Waffen wirken stattdessen zusätzlich eventuelle Boni durch [Waffen oder Rüstungen][war-table-magieresistenz-id]. Gegen magischen Schaden wirken sonst nur magischer Schutz und die natürliche Rüstung.
+Gegen Kampfzauber wie Feuerbälle und als magisch geltende Waffen wirken stattdessen zusätzlich eventuelle Boni durch [Waffen oder Rüstungen][war-table-magieresistenz-id].  
+Gegen magischen Schaden wirken sonst nur magischer Schutz und die natürliche Rüstung.
 
-Auch "unbelebte Materie", also Regionen, Schiffe, Gebäude usw. haben bisweilen eine Magieresistenz. Auch sie kann durch bestimmte Zauber verstärkt werden.
+Auch "unbelebte Materie", also Regionen, Schiffe, Gebäude usw. haben bisweilen eine Magieresistenz.  
+Auch sie kann durch bestimmte Zauber verstärkt werden.
 
 **Beispiele:** Die Basischance ist 0% für Menschen, 10% für [Elfen][talentmodifikatoren], für [Goblins][talentmodifikatoren] ist sie nur -5%.
 
-Eine Einheit mit Bergbau 10 hat eine 50%-ige Chance, einem Zauber wie [Chaosfluch][chaosfluch] gezaubert von einer Einheit mit Magie 10 zu widerstehen. Ist das Magietalent 12, sinkt die Chance auf 40%. Besteht die Zieleinheit aus Goblins, sinkt die Chance weiter auf 35%.
+Eine Einheit mit Bergbau 10 hat eine 50%-ige Chance, einem Zauber wie [Chaosfluch][chaosfluch] gezaubert von einer Einheit mit Magie 10 zu widerstehen.  
+Ist das Magietalent 12, sinkt die Chance auf 40%.  
+Besteht die Zieleinheit aus Goblins, sinkt die Chance weiter auf 35%.
 
 Ein Feuerball, der zum Beispiel 50 Schaden verursachen würde (5d10 + 15), macht gegen einen Elf mit [Laenschwert][war-table-magieresistenz-id] nur (90% \* 70%) = 63% davon, also etwa 31 Schaden.
 
@@ -350,11 +362,13 @@ Ein Feuerball, der zum Beispiel 50 Schaden verursachen würde (5d10 + 15), macht
 
 ## Magierturm
 
-Ein [Magierturm][magierturm-id] erhöht die Aura-Regeneration um 75% und erhöht die effektive Stufe jedes Zaubers, der in ihnen gezaubert wird, um 1 — gegebenenfalls zusätzlich zu einem Ring der Macht — ohne die Kosten zu erhöhen. Außerdem wird die Wahrscheinlichkeit eines Zauberpatzers deutlich verringert.
+Ein [Magierturm][magierturm-id] erhöht die Aura-Regeneration um 75% und erhöht die effektive Stufe jedes Zaubers, der in ihnen gezaubert wird, um 1 — gegebenenfalls zusätzlich zu einem Ring der Macht — ohne die Kosten zu erhöhen.  
+Außerdem wird die Wahrscheinlichkeit eines Zauberpatzers deutlich verringert.
 
 ## Vertraute
 
-Erfahrenen Magiern wird irgendwann auf ihren Wanderungen ein ungewöhnliches Exemplar einer Gattung begegnen, welches sich ihnen anschließen wird. Welcher Gattung dieses Wesen angehört, hängt vor allem von Magiegebiet und Rasse ab. Mehr Details zu diesen Vertrauten kann man im Kapitel über [Vertraute][vertraute] finden.
+Erfahrenen Magiern wird irgendwann auf ihren Wanderungen ein ungewöhnliches Exemplar einer Gattung begegnen, welches sich ihnen anschließen wird.  
+Welcher Gattung dieses Wesen angehört, hängt vor allem von Magiegebiet und Rasse ab. Mehr Details zu diesen Vertrauten kann man im Kapitel über [Vertraute][vertraute] finden.
 
 ## Der Astralraum
 
@@ -378,13 +392,7 @@ Einige Zauber vermögen, diese Schemen genauer erscheinen zu lassen.
 Im Beispielbild sind alle Regionen, die sich von einer Region erkennen lassen, rot umrandet.  
 Sechs Regionen, die von der roten Linien halbiert werden, sind sogar von je zwei Astralregionen sichtbar.
 
-<!-- TODO: astral connection map 488X393 - should be where in the page ? -->
 ![Astral space connection](assets/images/astral-space-connection.jpg "Astral space connection")
-<!--
-Illustration des Astralraums und der Geometrie seiner Verbindungen</span></a>
-<figcaption>Astralraumregionen sind die großen schwarzen Sechsecke, der Bezugspunkt ist grün, die Regionen, die mit der roten Astralraumregion in Verbindung stehen, sind gelb.</figcaption>
--->
-</figure>
 
 Besonders verwirrend wird der Astralraum dadurch, dass diese Schemen nicht identisch sind mit den Regionen, die mit der Astralraumregion verbunden sind, von denen aus man also in die Astralregion gelangen kann und umgekehrt.  
 Stattdessen ist jeder Punkt im Astralraum mit einem Bereich in der normalen Welt verbunden, der je 16 Regionen umfasst (im Bild gelb).  

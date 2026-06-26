@@ -11,26 +11,37 @@ Du scheidest aus dem Spiel aus, wenn deine Partei keine Mitglieder mehr hat - we
 
 ## Einheiten
 
-Das Spiel beginnt die Partei mit einer **Einheit**, bestehend aus einer Person mit 2500 Silber, 10 Holz, 4 Steinen und einem [rassenspezifischen Startgeschenk][start-der-6-welt]. Ein Tip: Wenn du nicht weißt, was du da hast, probiere mal [`ZEIGE "`*`Gegenstand`*`"`]. Diese erste Person ist in keiner Weise speziell; es ist einfach die erste Person, die zur neuen Partei gehört. Du kannst nun weitere Personen [rekrutieren][rekrutieren], später dann [Gegenstände produzieren][waren], [Gebäude][gebaude-id] und [Schiffe][schiff] bauen, [Pferde][pferd-und-wagen] zähmen, [Waffen][kriegstabellen] schmieden und so weiter.
+Das Spiel beginnt die Partei mit einer **Einheit**, bestehend aus einer Person mit 2500 Silber, 10 Holz, 4 Steinen und einem [rassenspezifischen Startgeschenk][start-der-6-welt].  
+Ein Tip: Wenn du nicht weißt, was du da hast, probiere mal [`ZEIGE "`*`Gegenstand`*`"`].  
+Diese erste Person ist in keiner Weise speziell; es ist einfach die erste Person, die zur neuen Partei gehört.  
+Du kannst nun weitere Personen [rekrutieren][rekrutieren], später dann [Gegenstände produzieren][waren], [Gebäude][gebaude-id] und [Schiffe][schiff] bauen, [Pferde][pferd-und-wagen] zähmen, [Waffen][kriegstabellen] schmieden und so weiter.
 
-Neue Einheiten werden gemacht, indem du mit einer bestehenden Einheit eine neue generierst ([`MACHE TEMP`]). Eine neue Einheit enthält noch keine Leute; diese müssen entweder von einer bestehenden in die neue Einheit [transferiert][bef-gib] oder frisch rekrutiert werden, wozu die Einheit dann das notwendige [Geld][ausgaben] bekommen muss. Einheiten, die von Einheiten auf Schiffen oder in Gebäuden gemacht werden, starten dort, also auf dem Schiff bzw. in dem Gebäude.
+Neue Einheiten werden gemacht, indem du mit einer bestehenden Einheit eine neue generierst ([`MACHE TEMP`]).  
+Eine neue Einheit enthält noch keine Leute; diese müssen entweder von einer bestehenden in die neue Einheit [transferiert][bef-gib] oder frisch rekrutiert werden, wozu die Einheit dann das notwendige [Geld][ausgaben] bekommen muss.  
+Einheiten, die von Einheiten auf Schiffen oder in Gebäuden gemacht werden, starten dort, also auf dem Schiff bzw. in dem Gebäude.
 
-Eine Partei kann nicht mehr als eine bestimmte Zahl von Einheiten, bekannt als das **Einheitenlimit**, haben. Das liegt derzeit bei 2500 Einheiten und wird auch im Report angezeigt. Das Einheitenmlimit verhindert, dass neue Einheiten erzeugt werden. Es ist dafür unerheblich, ob vielleicht später im Zug Einheiten aufgelöst werden. Unter gewissen Umständen ist es möglich, dass eine Partei mehr Einheiten hat als das Einheitenlimit. Die überzähligen Einheiten werden nicht gelöscht; es können dann nur so lange keine neuen Einheiten mehr erzeugt werden, bis die Einheitenzahl wieder unter das Limit sinkt.
+Eine Partei kann nicht mehr als eine bestimmte Zahl von Einheiten, bekannt als das **Einheitenlimit**, haben.  
+Das liegt derzeit bei 2500 Einheiten und wird auch im Report angezeigt.  
+Das Einheitenmlimit verhindert, dass neue Einheiten erzeugt werden.  
+Es ist dafür unerheblich, ob vielleicht später im Zug Einheiten aufgelöst werden.  
+Unter gewissen Umständen ist es möglich, dass eine Partei mehr Einheiten hat als das Einheitenlimit.  
+Die überzähligen Einheiten werden nicht gelöscht; es können dann nur so lange keine neuen Einheiten mehr erzeugt werden, bis die Einheitenzahl wieder unter das Limit sinkt.
 
 Hier ein Beispiel für Einheiten:
 
-      * Konrad Rabenhelm (tb2), 1 Mensch, vorne, bewacht die Region, Talente:
-        Hiebwaffen 1, Steuereintreiben 2, hat: Schwert, 20 Silber, "TREIBEN";
-        Konrad Rabenhelm ist ein typischer Ritter seines Ordens. Der Orden der
-        Gerechtigkeit ist bekannt für seine düsteren und zurückhaltenden 
-        Mitglieder. Sie scheinen alle an einem finsteren Erlebnis zu nagen.
+```text
+  * Konrad Rabenhelm (tb2), 1 Mensch, vorne, bewacht die Region, Talente:
+    Hiebwaffen 1, Steuereintreiben 2, hat: Schwert, 20 Silber, "TREIBEN";
+    Konrad Rabenhelm ist ein typischer Ritter seines Ordens. Der Orden der
+    Gerechtigkeit ist bekannt für seine düsteren und zurückhaltenden 
+    Mitglieder. Sie scheinen alle an einem finsteren Erlebnis zu nagen.
        
-      - Botschafter des Clans (2ow), anonym, 1 Zwerg, hat: Pferd,
-        Silberbeutel; Der Botschafter ist auf der Suche nach befreundeten Völkern
-        und solchen, die es werden wollen.
+  - Botschafter des Clans (2ow), anonym, 1 Zwerg, hat: Pferd,
+    Silberbeutel; Der Botschafter ist auf der Suche nach befreundeten Völkern
+    und solchen, die es werden wollen.
        
-      + Kieselnasen (kies), Gesteinsfreunde (135), 4 Trolle, hat: 1 Wagen, 30
-        Juwelen.
+  + Kieselnasen (kies), Gesteinsfreunde (135), 4 Trolle, hat: 1 Wagen, 30 Juwelen.
+```
 
 Eigene Einheiten sind mit einem '\*' markiert, Einheiten anderer Parteien mit einem '-' oder einem '+', wenn man der Partei [hilft][allianz].
 

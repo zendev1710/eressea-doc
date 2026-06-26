@@ -114,8 +114,15 @@ Keine Informationen über diese Rasse verfügbar.
 
 ### Singdrache
 
-Singdrachen sind von der Größe eines ausgewachsenden Tigers. Ihre Färbung reicht von schillerndem Rot, über dunkles Grün bis hin zu tiefem Schwarz. Alle bekannten Drachen dieser Art weisen eine hohe Intelligenz und ein hohes Maß an magischen Fähigkeiten auf. Wie Ihre großen Verwandten verfügen sie über einen Feuerodem. Sie lieben den Gesang und das üppige Mahl. Von Zeit zu Zeit gehen sie eine engen magisches Bund zu einem Magier ein. Wenn dies geschieht, so steht dem Magier ein äußerst loyaler und lohnender Vertrauter zur Seite.
+Singdrachen sind von der Größe eines ausgewachsenden Tigers.  
+Ihre Färbung reicht von schillerndem Rot, über dunkles Grün bis hin zu tiefem Schwarz.  
+Alle bekannten Drachen dieser Art weisen eine hohe Intelligenz und ein hohes Maß an magischen Fähigkeiten auf.  
+Wie Ihre großen Verwandten verfügen sie über einen Feuerodem.  
+Sie lieben den Gesang und das üppige Mahl.  
+Von Zeit zu Zeit gehen sie eine engen magisches Bund zu einem Magier ein.  
+Wenn dies geschieht, so steht dem Magier ein äußerst loyaler und lohnender Vertrauter zur Seite.
 
+<!-- TODO : tables -->
 40 Trefferpunkte, Magieresistenz 99, Angriff: 3, Verteidigung: 1, Rüstung: 1. 5 Angriffe: ein magischer Angriff, ein unbewaffneter Angriff (2d4), ein unbewaffneter Angriff (2d4), ein unbewaffneter Angriff (2d4), ein magischer Angriff. Magie +1, Spionage +0, Tarnung +0, Wahrnehmung +0, Ausdauer +0 und Waffenloser Kampf +0
 
 ### Teufelchen
@@ -150,12 +157,12 @@ Keine Informationen über diese Rasse verfügbar.
 
 ## Talentmodifikation
 
-Vertraute sind sehr verschieden.
-Nicht alle Vertraute können alle Talente lernen und jede Rasse zeichnet sich durch spezielle Eigenschaften aus.
-Einige sind selbst magiebegabt und verfügen über eigene Aura.
-Andere sind Meereswesen und gute Schwimmer, wieder andere können fliegen und so ebenfalls Ozeane überqueren.
-Die folgende Tabelle soll eine bessere Übersicht über die einzelnen Vertrautenrassen geben.
-Wenn ein Feld leer ist, dann kann die Rasse dieses Talent nicht lernen, bzw. hat diese Fähigkeit nicht.
+Vertraute sind sehr verschieden.  
+Nicht alle Vertraute können alle Talente lernen und jede Rasse zeichnet sich durch spezielle Eigenschaften aus.  
+Einige sind selbst magiebegabt und verfügen über eigene Aura.  
+Andere sind Meereswesen und gute Schwimmer, wieder andere können fliegen und so ebenfalls Ozeane überqueren.  
+Die folgende Tabelle soll eine bessere Übersicht über die einzelnen Vertrautenrassen geben.  
+Wenn ein Feld leer ist, dann kann die Rasse dieses Talent nicht lernen, bzw. hat diese Fähigkeit nicht.  
 
 | Eigenschaft                 | Adler | Dämon | Delphin | Einhorn | Eule | Fee | Geist | Goblin | Höllenkatze | Krake | Luchs | Nymphe | Ratte | Riesenschildkröte | Singdrache | Teufelchen | Tiger | Traumkatze | Tunnelwurm | Wolf |
 |-----------------------------|-------|-------|---------|---------|------|-----|-------|--------|-------------|-------|-------|--------|-------|-------------------|------------|------------|-------|------------|------------|------|
@@ -209,7 +216,7 @@ In der zweiten Spalte findet sich die Standard-Vertrautenrasse (Primärvertraute
 In den fünf darauffolgenden Spalten, stehen die Rassen, die sich dem Magier bevorzugt anschließen, wenn er in dem jeweiligen Magiegebiet bewandert ist.
 Mit 50%-100% (je nach Stufe) wird die Rasse des Magiegebiets gewählt, mit ungefähr Stufe% eine beliebige, sonst die Primärrasse.
 
-Spielererfahrung:Die Angaben zu den Prozentzahlen sind mit Vorsicht zu genießen und sollten im Code nochmal gegengecheckt werden!
+Spielererfahrung: Die Angaben zu den Prozentzahlen sind mit Vorsicht zu genießen und sollten im Code nochmal gegengecheckt werden!
 
 Ein Elfenmagier mit Tybied hat also die größten Chancen auf eine Eule (Magiegebiet) oder einen Luchs (Primärvertrauter), aber eben auch eine geringere Chance eine zufällige Rasse aus der Tabelle zu bekommen.
 
@@ -227,9 +234,9 @@ Ein Elfenmagier mit Tybied hat also die größten Chancen auf eine Eule (Magiege
 | Zwerg      | Tunnelwurm        | Adler      | Eule              | Luchs      | Wolf       | Ratte       |
 | Ork        | Goblin            | Geist      | Teufelchen        | Ratte      | Wolf       | Dämon       |
 
-Spielererfahrung:Das Terrain in dem der Vertraute gerufen wird scheint keinen Einfluss auf die Vertrautenrasse zu haben.
+Spielererfahrung: Das Terrain in dem der Vertraute gerufen wird scheint keinen Einfluss auf die Vertrautenrasse zu haben.
 
-Spielererfahrung:Ein Meermensch sollte sich nicht unbedingt neben einen Binnensee stellen, da der sehr wahrscheinlich schwimmende Vertraute sonst eventuell in dem kleinen See gefangen sein könnte, ohne jegliche Chance in den Ozean zu reisen.
+Spielererfahrung: Ein Meermensch sollte sich nicht unbedingt neben einen Binnensee stellen, da der sehr wahrscheinlich schwimmende Vertraute sonst eventuell in dem kleinen See gefangen sein könnte, ohne jegliche Chance in den Ozean zu reisen.
 Allerdings ist bisher auch nicht gut verstanden, inwieweit man in einer Region ohne Zugang zu einem Ozeanfeld (See oder Meer) einen schwimmenden Vertrauten rufen kann, oder wie das die Chancen verändert eine andere Vertrautenrasse zu bekommen.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Vertraute&oldid=15826] -->

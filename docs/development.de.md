@@ -20,7 +20,7 @@ Ein guter Anlaufpunkt für Diskussionen ist die [E-Client Liste] und die Magella
 
 ### Interessante Entwicklungs-Plugins
 
-- [ExtendedCommands Plugin] für Magellan
+- [Extendedcommands Plugin] für Magellan
 - [FFTools 2] für Magellan
 
 ## Formate

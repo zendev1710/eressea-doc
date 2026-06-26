@@ -131,7 +131,7 @@ If only one ship under construction is handed over, the entire convoy is then un
 Thus, by forming a convoy of 2 ships, one of which is completed but the other is 50% under construction, we obtain a convoy under construction of 2 ships 75% complete.
 
 The `GIVE <target-id> <number> SHIP` order also allows ships to be detached from a convoy.  
-The ships or convoys of the giving unit and the receiving unit must be **on the same coast**or in the same ocean region.  
+The ships or convoys of the giving unit and the receiving unit must be **on the same coast** or in the same ocean region.  
 The receiving unit must either be captain of a ship — in which case the ship is added to its convoy — or be on the same ship as the yielding unit, or not be in a ship or building.
 
 You can also give ships to farmers: `GIVE 0 2 SHIP` creates a new convoy with 2 ships, on which there is no one.  

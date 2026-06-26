@@ -22,7 +22,7 @@ Das Spiel geht aber immer noch weiter.
   Entwickler von German Atlantis.
   Der Code von Atlantis 1.0 und German Atlantis ist frei erhältlich, im Gegensatz zum darauf basierenden Code von Eressea.
 - Christian Schlittchen ([Corwin][corwin-de-id])
-  entwickelte Eressa und betrieb lange Zeit (bis Runde 289, ca. Mitte 2002) das Spiel.
+  entwickelte Eressea und betrieb lange Zeit (bis Runde 289, ca. Mitte 2002) das Spiel.
 - Katja Zedel ([Katze (Designerin)][katja-zedel-de-id])
   war zusammen mit Corwin Entwicklerin und Spielleiterin von Eressea. Katjas grösstes Projekt war die Entwicklung der neuen Magie.
 - [Enno Rehling][enno-de-id]
@@ -89,7 +89,9 @@ Irgendwann
 
 27.04.1999
 
-- Enno schafft sich die Grundlage für viel Verzweifelung 9 Jahre später. Parteigetarnte Einheiten, die in Kämpfe verwickelt werden, werden nun als eigenständiges Heer angezeigt. Bei der Fehlersuche in großen Kämpfen, auch im Zusammenhang mit Gruppen (die es zum Zeitpunkt der Änderung noch nicht gibt), macht diese Änderung das Nachvollziehen beinahe unmöglich.
+- Enno schafft sich die Grundlage für viel Verzweifelung 9 Jahre später.  
+  Parteigetarnte Einheiten, die in Kämpfe verwickelt werden, werden nun als eigenständiges Heer angezeigt.  
+  Bei der Fehlersuche in großen Kämpfen, auch im Zusammenhang mit Gruppen (die es zum Zeitpunkt der Änderung noch nicht gibt), macht diese Änderung das Nachvollziehen beinahe unmöglich.
 
 09.04.1999
 
@@ -113,7 +115,9 @@ Irgendwann
 
 06.06.1999
 
-- Die vorher vorhandenen viereckigen Felder werden durch Hexfelder abgelöst, obwohl in einer Umfrage unter den Spielern die Mehrheit dagegen war. Diese Änderung sorgt für viel Ärger unter der Spielerschaft. Heute zweifelt jedoch wohl kaum noch einer an der Richtigkeit dieser Änderung, die bewirkte dass jede Region 6 anstelle von 4 Nachbarregionen hat. Auch werden die Wege kürzer da man nun diagonal gehen kann. Dies hat zur Folge, dass sich bei der Reichweite einiges tut.
+- Die vorher vorhandenen viereckigen Felder werden durch Hexfelder abgelöst, obwohl in einer Umfrage unter den Spielern die Mehrheit dagegen war.  
+  Diese Änderung sorgt für viel Ärger unter der Spielerschaft.  
+  Heute zweifelt jedoch wohl kaum noch einer an der Richtigkeit dieser Änderung, die bewirkte dass jede Region 6 anstelle von 4 Nachbarregionen hat. Auch werden die Wege kürzer da man nun diagonal gehen kann. Dies hat zur Folge, dass sich bei der Reichweite einiges tut.
 - Pferde verdoppeln die Bewegung nicht mehr, sondern geben ein +1 auf die Reichweite. D.h. ein Reiter auf Straßen kommt nicht mehr 4, sondern nur noch 3 Regionen weit.
 - Alle Schiffe verlieren einen Punkt ihrer Reichweite.
 - Der Meermenschbonus für Schiffsgeschwindigkeiten wird auf +1 halbiert.
@@ -146,7 +150,7 @@ Irgendwann
 
 01.02.2000
 
-- Die Merian-Karte (eine ASCII-Kartendarstellung der bekannten Welt als Teil des Reports) entfällt, da sie kaum genuzt wird.
+- Die Merian-Karte (eine ASCII-Kartendarstellung der bekannten Welt als Teil des Reports) entfällt, da sie kaum genutzt wird.
 
 20.2.2000
 
@@ -201,8 +205,13 @@ Mit diesen Worten beginnt am 8. April. 2000 das zweite Zeitalter. Einhergehend d
 - Pro Region wächst nur noch ein Kraut, welches nachwachsen muss und nicht mehr endlos vorhanden ist.
 - Der Befehl `ZÜCHTE KRÄUTER` wird eingeführt, alternativ funktioniert auch der Befehl `ZÜCHTE BLUMEN`
 - Die Universität wird in Akademie umbenannt.
-- Der Kalender wird verändert. Statt in Monaten wird nun in Wochen gerechnet. Ein Jahr besteht aus 9 Monaten mit je 3 Wochen. Die Monate sind: Eiswind, Schneebann, Blütenregen, Mond der milden Winde, Sonnenfeuer, Feldsegen, Nebeltage, Sturmmond und Herdfeuer. Als Winter (für die Insektenrekrutierung wichtig) gelten Herdfeuer, Eiswind und Schneebann. In den Monaten Schneebann, Nebeltage und Sturmmond toben die Stürme auf See besonders heftig. Die Auswirkung von Stürmen wird verändert: ein Schiff, welches in einen Sturm gerät, steht jetzt vor größeren Problemen als bisher.
-- Die Befehle `LIEFERE`, `RESERVIERE` und `//` werden nun solange ausgeführt bis gegenteilige Befehle für eine Einheit eingehen. Hat der Spieler also beispielsweise einen NMR werden diese Befehle trotzdem ausgeführt.
+- Der Kalender wird verändert. Statt in Monaten wird nun in Wochen gerechnet. Ein Jahr besteht aus 9 Monaten mit je 3 Wochen.  
+  Die Monate sind: Eiswind, Schneebann, Blütenregen, Mond der milden Winde, Sonnenfeuer, Feldsegen, Nebeltage, Sturmmond und Herdfeuer.  
+  Als Winter (für die Insektenrekrutierung wichtig) gelten Herdfeuer, Eiswind und Schneebann.  
+  In den Monaten Schneebann, Nebeltage und Sturmmond toben die Stürme auf See besonders heftig.  
+  Die Auswirkung von Stürmen wird verändert: ein Schiff, welches in einen Sturm gerät, steht jetzt vor größeren Problemen als bisher.
+- Die Befehle `LIEFERE`, `RESERVIERE` und `//` werden nun solange ausgeführt bis gegenteilige Befehle für eine Einheit eingehen.  
+  Hat der Spieler also beispielsweise einen NMR werden diese Befehle trotzdem ausgeführt.
 - Bauernblut wirkt auf 100 Dämonen in einer Region, nicht mehr nur auf eine Einheit.
 - Vertraute und der Astralraum werden eingeführt.
 
@@ -256,16 +265,16 @@ Welt jedoch nur wenige Wochen erhalten.
 
 05.05.2002
 
-- Bewachende Einheiten verhindern Rekrutierungen und den Abbau aller begrenzten Resourcen aus der Region.
+- Bewachende Einheiten verhindern Rekrutierungen und den Abbau aller begrenzten Ressourcen aus der Region.
   In diesem Kontext gibt es eine kleine zusätzliche Änderung: In Zukunft wirkt BEWACHE nicht mehr, wenn der Bewachende den 'Produzenten' nicht sieht.
   Als besonderer Fall gilt bei einer leeren TEMP-Einheit die erschaffende Einheit als Sichtbarkeitsreferenz.
   Anders ausgedrückt: Entscheidend ist in diesem Fall, ob die Einheit gesehen wird, welche die TEMP-Einheit erschaffen hat.
 
 <!-- -->
 
-- Die verfügbare Resourcenmenge wird zunächst halbiert.
+- Die verfügbare Ressourcenmenge wird zunächst halbiert.
   Dies ist eine Anpassung an die geringeren Bauernzahlen und die infolgedessen zu erwartenden erheblich kleineren Parteigrößen.
-  Bei den nachwachsenden Resourcen wurde einfach die Wachstumrate gesenkt, bei den nichtnachwachsenden wie Eisen kommen bei Erreichen einer neuen 'Abbaustufe' jetzt weniger neue Resoucen hinzu.
+  Bei den nachwachsenden Ressourcen wurde einfach die Wachstumrate gesenkt, bei den nichtnachwachsenden wie Eisen kommen bei Erreichen einer neuen 'Abbaustufe' jetzt weniger neue Ressourcen hinzu.
 
 <!-- -->
 
@@ -309,14 +318,18 @@ Zeitpunkt unbekannt
 - Taktiker bekommen nun einen vom Zufall abhängigen Bonus auf ihr Talent.
 - Die Rekrutierungskosten von Zwergen werden von 90 auf 110 angehoben.
 - Vulkane werden als neue Regionstypen eingeführt.
-- Die maximale Talentstufe wird von 32 auf 64 erhöht, da erstmals Einheiten aus der alten Welt diese Marke durchbrechen. Die Programmierer hatten nicht damt gerechnet, dass je eine Einheit solch eine hohe Stufe erreichen würde.
-- Die Gletscherbarrieren der alten Welten (erst 1-3 dann 4+5) fangen an zu schmelzen. Eisberge lösen sich aus den Gletscherbarrieren und treiben umher bis sie schmelzen.
+- Die maximale Talentstufe wird von 32 auf 64 erhöht, da erstmals Einheiten aus der alten Welt diese Marke durchbrechen.  
+  Die Programmierer hatten nicht damit gerechnet, dass je eine Einheit solch eine hohe Stufe erreichen würde.
+- Die Gletscherbarrieren der alten Welten (erst 1-3 dann 4+5) fangen an zu schmelzen.  
+  Eisberge lösen sich aus den Gletscherbarrieren und treiben umher bis sie schmelzen.
 - Die Menge der auferstehenden Untoten wird an das Regionsalter angepasst.
 - Einheiten die sich im Astralraum befinden verbrauchen wieder 10 Silber/Woche zum Unterhalt.
 
 Oktober 2003 -- Anmeldung geschlossen
 
-- Die Neuanmeldung für Eressea ist für deutschsprachige Spieler zunächst nicht mehr möglich. Ennos Begründung hierfür ist, dass er weniger Spaß an der Community und immer mehr Arbeit mit neuen Spielern habe. Kurze Zeit später wird die Anmeldung gegen eine Spende (für einen guten Zweck) wieder möglich.
+- Die Neuanmeldung für Eressea ist für deutschsprachige Spieler zunächst nicht mehr möglich.  
+  Ennos Begründung hierfür ist, dass er weniger Spaß an der Community und immer mehr Arbeit mit neuen Spielern habe.  
+  Kurze Zeit später wird die Anmeldung gegen eine Spende (für einen guten Zweck) wieder möglich.
 
 11.7.2004 -- Kampfregelreform (ab ca. Runde 390)
 
@@ -326,7 +339,9 @@ Oktober 2003 -- Anmeldung geschlossen
 - Die 1. Reihe wird im Kampf leichter zu überrennen. Dies geschieht nun schon bei einem Verhältnis von 3:1 (statt bisher 10:1).
 - Die Regeneration von Lebenspunkten wird verlangsamt.
 - Schwimmende Meermenschen können andere Rassen nicht mehr transportieren.
-- Helden werden eingeführt. Eine Einheit kann mit dem Befehl `BEFÖRDERUNG` zu einer Heldeneinheit gemacht werden. Helden teilen im Kampf zehnmal mehr Schläge aus, verhalten sich aber sonst normal und sind für den Gegner nicht von normalen Einheiten zu unterscheiden. Die Anzahl an Helden, die eine Partei besitzen darf, ist stark beschränkt und folgt der selben Formel wie die Migranten (log10(Parteigröße÷50)×20).
+- Helden werden eingeführt. Eine Einheit kann mit dem Befehl `BEFÖRDERUNG` zu einer Heldeneinheit gemacht werden.  
+  Helden teilen im Kampf zehnmal mehr Schläge aus, verhalten sich aber sonst normal und sind für den Gegner nicht von normalen Einheiten zu unterscheiden.  
+  Die Anzahl an Helden, die eine Partei besitzen darf, ist stark beschränkt und folgt der selben Formel wie die Migranten (log10(Parteigröße÷50)×20).
 
 17.4.2005 -- NEUSTART, Gewichte, etc.
 
@@ -391,7 +406,8 @@ Dezember 2008 -- Anmeldung (endgültig) geschlossen
 
 10.05.2009
 
-- Die Entwicklung von Eressea 1.5 wird aufgeschoben. Anstelle dessen trit des Projekts E3A. Zielsetzung ist es schnell eine spielbare Version zu erarbeiten die grosse Änderungen beinhaltet welche mit möglichst wenig Coding umgesezt werden können.
+- Die Entwicklung von Eressea 1.5 wird aufgeschoben.  
+  Anstelle dessen tritt des Projekts E3A. Zielsetzung ist es schnell eine spielbare Version zu erarbeiten die grosse Änderungen beinhaltet welche mit möglichst wenig Coding umgesetzt werden können.
 
 02.12.2017 - Warteliste wird erstmals wieder abgearbeitet
 
@@ -404,7 +420,7 @@ Eressea 2 ist seit Jahren geplant, mittlerweile ist sich Enno sicher, dass diese
 Dafür sind allerdings grundlegende Änderungen des Codes und des Spielprinzips nötig welche vorher in Eressea 1.5 getestet werden sollten.
 
 Um endlich wieder etwas neues für die Spielerschaft auf den Weg zu bringen und erste Erfahrungen mit einer vereinfachten Version von Eressea zu erlangen startet am 10.05.2009 die Entwicklung von Eressea 1.1 Arbeitstitel E2K9.
-Versionsnummer 1.5 wird nicht gewählt da E1.1 vorallem durch streichen etlicher Befehle und ändern vorhandener Parameter auskommen soll ohne grossen Programmieraufwand.
+Versionsnummer 1.5 wird nicht gewählt da E1.1 vor allem durch streichen etlicher Befehle und ändern vorhandener Parameter auskommen soll ohne grossen Programmieraufwand.
 Ursprünglich ist es als kleinerer Zwischenschritt zu E1.5 gedacht.
 
 Auf Grund der massiven Regeländerungen wird E1.1 in einer neuen Welt gestartet.

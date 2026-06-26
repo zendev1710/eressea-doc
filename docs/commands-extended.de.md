@@ -2,13 +2,14 @@
 # cSpell:locale de
 alias: extendedcommands
 ---
-# ExtendedCommands
+# Extended Commands
 
-ndedCommands sind ein Plugin für [Magellan], das im Standardlieferumfang enthalten ist und mit dem man Befehle automatisieren kann.
+`Extended Commands` sind ein Plugin für [Magellan], das im Standardlieferumfang enthalten ist und mit dem man Befehle automatisieren kann.
 
 Auf der [offiziellen Seite] gibt es eine Einführung und ein paar Beispielscripte.
 
-Die Script-Bibliothek versteckt sich im Magellan Menü: Plugins -&gt; Erweiterte Befehle -&gt; Bibliothek Bearbeiten... Es geht seitlich ein neuer View auf, mit einer grossen Textarea zum Code eingeben, sowie Buttons zum Ausführen und Speichern.
+Die Script-Bibliothek versteckt sich im Magellan Menü: Plugins -&gt; Erweiterte Befehle -&gt; Bibliothek Bearbeiten...  
+Es geht seitlich ein neuer View auf, mit einer grossen Textarea zum Code eingeben, sowie Buttons zum Ausführen und Speichern.
 
 Was folgt sind Metas Beispielskripte. Einen anderen Ansatz verfolgen der E3CommandParser von Solthar.
 
@@ -21,7 +22,8 @@ Generell kann man die Scripte einem nach dem anderen reinkopieren, aber ich hab 
 3. Konfiguration: Hier muss man etwas Hand anlegen
 4. Aufrufe: Da kann man halt jeweils einstellen was man tun will.
 
-Wenn man selber was schreiben will findet man unter Desktop-&gt;Erweiterte Befehle Hilfe alles was man braucht. Mittels Button "Browser" kann man sich die Seite auch im Browser anzeigen lassen.
+Wenn man selber was schreiben will findet man unter Desktop-&gt;Erweiterte Befehle Hilfe alles was man braucht.  
+Mittels Button "Browser" kann man sich die Seite auch im Browser anzeigen lassen.
 
 Achja, hier sind die 2 Zeilen für den Import:
 
@@ -234,7 +236,8 @@ metaFriendFoeCallback(HashMap tmpCallback){
 
 ### Meta's BefehlsChecker
 
-Auch das ist etwas komplizierter. Wird mittels metaBefehlChecker("partei#"); aufgerufen. Dadurch bekommen Einheiten die die Zeilen `// m/abbauen/stein` bzw. auch für eisen oder holz gesetzt haben, die entsprechenden Befehle.
+Auch das ist etwas komplizierter. Wird mittels `metaBefehlChecker("partei#");` aufgerufen.  
+Dadurch bekommen Einheiten die die Zeilen `// m/abbauen/stein` bzw. auch für eisen oder holz gesetzt haben, die entsprechenden Befehle.
 
 ```java
 /*********************************************

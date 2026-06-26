@@ -13,7 +13,7 @@ alias: cmd-destroy
 A unit in command of a [ship][ships-id] or [building][buildings-id] can shrink or destroy it at any time using this order.  
 She doesn't need any skill for that.  
 
-For **buildings**, the *level* parameter denotes the **size points** by which the building should be reduced in size.  
+For **buildings**, the **level** parameter denotes the **size points** by which the building should be reduced in size.  
 For **ships**, it denotes the **percentage** points.  
 
 If no parameter is specified, the structure is completely destroyed.  

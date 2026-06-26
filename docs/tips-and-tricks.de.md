@@ -20,7 +20,7 @@ Für je 20 GE Überlast gibt man der Einheit 1 Pferd und schon können sich die 
 Wie schon erwähnt, braucht man dafür nicht einmal reiten können.  
 Alternativ kann man pro 100 Personen auch 70 Plattenpanzer und 30 Kettenhemden ausrüsten, dann wiegt die Ausrüstung der Einheit genau 540 GE, also exakt so viel Gewicht wie sie maximal tragen kann.
 
-(Teilt der Gegner pro Treffer einen sehr hohen Schaden aus, so kann es besser sein, den Plattenpanzer durch ein Kettenhemd zu ersezten oder gar ganz wegzulassen, weil sonst die höhere Trefferwahrscheinlichkeit nicht durch den Rüstungsschutz kompensiert wird.)
+(Teilt der Gegner pro Treffer einen sehr hohen Schaden aus, so kann es besser sein, den Plattenpanzer durch ein Kettenhemd zu ersetzen oder gar ganz wegzulassen, weil sonst die höhere Trefferwahrscheinlichkeit nicht durch den Rüstungsschutz kompensiert wird.)
 
 ## Was sollen meine Truppen lernen?
 
@@ -74,7 +74,11 @@ Eine andere Theorie fordert ein hohes Wahrnehmungstalent, damit das Lager nur sc
 
 ## Dem Hungertode entrinnen
 
-Magier, Wahrnehmer, Taktiker und andere wichtige Einheiten sollten im NR so weit wie möglich oben stehen. Silber wird eigentlich immer (eine Garantie seitens der SL gibt es hierfür nicht!) von oben nach unten verteilt. Gibt es in einer Region durch eine Unachtsamkeit oder Diebstahl nicht genug Silber um alle Personen zu versorgen nehmen sich die oberen Einheiten zuerst das Essen und die unteren müssen (ver-)hungern. Hungert von einer Einheit auch nur eine einzelne Person so unterliegt die ganze Einheit dem Nachteil der Talenthalbierung. Die 100er Einheit Steuereintreiber ganz unten in der Region stehen zu haben ist also eventuell auch nicht so clever.
+Magier, Wahrnehmer, Taktiker und andere wichtige Einheiten sollten im NR so weit wie möglich oben stehen.  
+Silber wird eigentlich immer (eine Garantie seitens der SL gibt es hierfür nicht!) von oben nach unten verteilt.  
+Gibt es in einer Region durch eine Unachtsamkeit oder Diebstahl nicht genug Silber um alle Personen zu versorgen nehmen sich die oberen Einheiten zuerst das Essen und die unteren müssen (ver-)hungern.  
+Hungert von einer Einheit auch nur eine einzelne Person so unterliegt die ganze Einheit dem Nachteil der Talenthalbierung.  
+Die 100er Einheit Steuereintreiber ganz unten in der Region stehen zu haben ist also eventuell auch nicht so clever.  
 
 In die gewünschte Reihenfolge bekommt man die Einheiten mit dem Befehl [`SORTIERE`][bef-sortiere].
 
@@ -107,7 +111,12 @@ setzen; die leere Einheit übergibt brav das Kommando an die richtige Einheit un
 
 ## Warum kann mein Schiff nicht fahren, obwohl es nicht überladen ist
 
-Manchmal bekommst du die Meldung, dass ein Schiff wegen Überladung nicht ablegen konnte. Beim genaueren Nachsehen stellt sich aber heraus, dass das Schiff gar nicht überladen ist. Dies ist trotzdem meist kein Bug, sondern liegt daran, dass die überschüssige Ladung in Form von Silber aufgegessen wurde. Da NACH vor dem Einheitenunterhalt in der [Befehlsreihenfolge][befehlsreihenfolge] steht, war das Schiff bei der Bewegung noch überladen. Manchmal wird der Fehler auch durch Einheiten verursacht, die ARBEITEN. Im Report scheint alles okay, aber die Einheit überlädt das Schiff durch Silber, das sie nach der Bewegungsphase selber wieder aufisst.
+Manchmal bekommst du die Meldung, dass ein Schiff wegen Überladung nicht ablegen konnte.  
+Beim genaueren Nachsehen stellt sich aber heraus, dass das Schiff gar nicht überladen ist.  
+Dies ist trotzdem meist kein Bug, sondern liegt daran, dass die überschüssige Ladung in Form von Silber aufgegessen wurde.  
+Da NACH vor dem Einheitenunterhalt in der [Befehlsreihenfolge][befehlsreihenfolge] steht, war das Schiff bei der Bewegung noch überladen.  
+Manchmal wird der Fehler auch durch Einheiten verursacht, die ARBEITEN.  
+Im Report scheint alles okay, aber die Einheit überlädt das Schiff durch Silber, das sie nach der Bewegungsphase selber wieder aufisst.  
 
 ## Siehe auch
 

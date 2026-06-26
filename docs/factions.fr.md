@@ -38,20 +38,23 @@ Cela n'a pas d'importance si des unités sont dissoutes plus tard dans le tour.
 Dans certaines circonstances, il est possible qu'une faction ait plus d'unités que la limite d'unités.  
 Les unités en trop ne sont pas supprimées ; il n'est alors plus possible de créer de nouvelles unités jusqu'à ce que le nombre d'unités soit à nouveau inférieur à la limite.  
 
-Exemple d'unités :
+The ambassador is looking for friendly peoples and those who want to become friends
 
+Exemple d'unités :
+<!-- TODO translate comments in french -->
 ```text
-    * Konrad Rabenhelm (tb2), 1 human, front, guard the region, skills:
-        melee 1, taxation 2, has: sword, 20 silver, "TAX";
-        Konrad Rabenhelm ist ein typischer Ritter seines Ordens. Der Orden der
-        Gerechtigkeit ist bekannt für seine düsteren und zurückhaltenden
-        Mitglieder. Sie scheinen alle an einem finsteren Erlebnis zu nagen.
+  * Konrad Rabenhelm (tb2), 1 human, front, guard the region, skills:
+    melee 1, taxation 2, has: sword, 20 silver, "TAX";
+
+    Konrad Rabenhelm is a typical knight of his Order. The Order of the 
+    Justice is known for being dark and reserved
+    members. They all seem to be gnawing at a dark experience.
        
-      - Botschafter des Clans (2ow), anonymous, 1 dwarf, has: horse,
-        silverbag; Der Botschafter ist auf der Suche nach befreundeten Völkern
-        und solchen, die es werden wollen.
+  - Clan Ambassador (2ow), anonymous, 1 dwarf, has: horse,
+    silverbag; The ambassador is looking for friendly peoples
+    and those who want to become friends.
        
-      + Kieselnasen (kies), Gesteinsfreunde (135), 4 trolls, has: 1 cart, 30 gems.
+  + Pebble Noses (kies), Rock Friends (135), 4 trolls, has: 1 cart, 30 gems.
 ```
 
 Vos propres unités sont marquées du caractère '*'.  

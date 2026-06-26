@@ -11,7 +11,7 @@ Als allererstes sollte man sich bei der Optimierung von Lernketten im klaren sei
 Erst dann kann man entweder ein Regelwerk erstellen (sogenanntes Expertenwissen) oder einen Optimierungsalgorithmus schreiben, der den besten oder zumindest einen möglichst guten Zustand (Zuordnungen von Lehrern und Schülern) erzeugt.
 
 Alle anderen Ansätze die ich bisher gesehen habe, gehören eher in die Kategorie Expertenwissen.  
-Zu nennen seien hier das Techer-Plugin von Magellan oder auch die FF-Tools (2).  
+Zu nennen seien hier das Teacher-Plugin von Magellan oder auch die FF-Tools (2).  
 Die Einheiten werden nach einem Kriterium sortiert und anschliessend abgearbeitet  .
 Dabei werden Sukzessive die Zuordnungen erstellt.  
 Eine Bewertung bzw. Vergleich verschiedener Möglichkeiten findet wenn dann nur auf unterster Ebene statt.
@@ -89,7 +89,7 @@ Diese Zustände sind durch Kanten verbunden.
 Geht man eine Kante entlang verursacht man Kosten (oder erwirtschaftet Gewinn - je nach Betrachtung).  
 Es wird also ein Pfad im Zustandsgraphen gesucht, der minimale Kosten verursacht oder maximalen Gewinn.
 
-Die A\*Suche optimiert die Suche im Graphen dadurch, das sie nicht alle möglichen Pfade durchsucht, sondern zielgerichtet solche Pfade beschreitet, die geringe geschätze Kosten / hohen geschätzten Gewinn zum Ziel haben.  
+Die A\*Suche optimiert die Suche im Graphen dadurch, das sie nicht alle möglichen Pfade durchsucht, sondern zielgerichtet solche Pfade beschreitet, die geringe geschätzte Kosten / hohen geschätzten Gewinn zum Ziel haben.  
 
 Wie gut die A\*-Suche funktioniert, hängt daher stark von der Genauigkeit der Schätzfunktion ab.  
 Genauigkeit mein, wie nah der Schätzwert am tatsächlich optimalen Wert liegt.
@@ -143,7 +143,7 @@ Im folgenden werden einige typische Lehrer-Schüler-Ketten vorgestellt und bespr
 - **Pyramide mit Doppelspitze** -- Die Lehrer-Einheit an der Spitze einer Pyramide lernt mindestens zwei Drittel der Zeit und kann höchstens ein Drittel der Zeit lehren.
   Ideal wäre es hingegen, wenn die erste Schüler-Einheit die Hälfte der Zeit lernt (und in der anderen Hälfte ihr Wissen weitergibt).
   Das führt zu der Idee an der Spitze nicht nur eine Lehrer-Einheit sondern zwei zu verwenden.
-  Die Hoffnung zwei Lehrer könnten dann abwechselnd zwei Drittel der Zeit lehren, erweißt sich als trügerisch.
+  Die Hoffnung zwei Lehrer könnten dann abwechselnd zwei Drittel der Zeit lehren, erweist sich als trügerisch.
   Aber eine Erhöhung der Lerngeschwindigkeit erreicht man damit schon.
   Genauere Analysen zeigen, dass eine Pyramide mit Doppelspitze das selbe Lerntempo erreicht, wie eine normale Pyramide, die eine Schicht mehr hat.
   Die Pyramide mit Doppelspitze ist dabei zwar etwas weniger effizient (d.h. die Personen haben relativ gesehen weniger Zeit etwas anderes außer Lernen zu machen), funktioniert dafür aber mit weniger Personen.
@@ -246,7 +246,7 @@ Hier nun eine **Übersicht der Lernketten-Analyse** für die oben genannten Beis
 
 ### Weitere Einflüsse auf die Geschwindigkeit
 
-Die obigen Anaylsen zeigen wie man aus 100% Zeit mehr Zeit rausholen kann, indem man die lehren nutzt und dabei meist eine Reduzierung der Lerngeschwindigkeit in Kauf nimmt.  
+Die obigen Analysen zeigen wie man aus 100% Zeit mehr Zeit rausholen kann, indem man die lehren nutzt und dabei meist eine Reduzierung der Lerngeschwindigkeit in Kauf nimmt.  
 Für bestimmte Talente ist es aber von enormer Wichtigkeit diese möglichst gut zu beherrschen und trotzdem noch ausreichend Schüler lehren zu können.  
 Ziel ist daher die Lerngeschwindigkeit über 100% (= Immer lernen ohne Lehrer) zu heben.
 

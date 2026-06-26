@@ -40,7 +40,7 @@ Here is an example for units:
 * Konrad Rabenhelm (tb2), 1 human, front, guard the region, skills:
     melee 1, taxation 2, has: sword, 20 silver, "TAX";
 
-    Konrad Rabenhelm is a typical knight of his order. The Order of the
+    Konrad Rabenhelm is a typical knight of his Order. The Order of the
     Justice is known for being dark and reserved
     members. They all seem to be gnawing at a dark experience.
        

@@ -423,7 +423,7 @@ La sélection est déterminée par son École de Magie, son peuple et son niveau
 Dans le tableau suivant, le peuple du mage qui tente de lier un familier à lui-même se trouve dans la première colonne.  
 La deuxième colonne contient le peuple de familier standard (familier principal) qui rejoint ce peuple de mage.  
 Dans les cinq colonnes suivantes se trouvent les peuples de familier attachée au mage en fonction de l'École de Magie qu'il a rejoint.  
-Avec 50%-100% (selon le niveau) le peuple de l'École de Magie est choisi, avec approximativement un pourcentage qui augmente avec le niveau que ce soit n'importe quel familier, plutôt que le peuple principal.  
+Avec une probabilité entre 50 et 100 % (selon le niveau) le peuple de l'École de Magie est choisi, avec approximativement un pourcentage qui augmente avec le niveau que ce soit n'importe quel familier, plutôt que le peuple principal.  
 
 Expériences de jeu :
 

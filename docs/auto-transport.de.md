@@ -12,7 +12,7 @@ Die Logistikabläufe bei Eressea lassen sich grob diesen 3 Bereichen zuordnen:
 
 ## Handel
 
-Einen relativ geschlossenen und stabilen Kreisluaf bildet der Handelsbereich, da zumindest die Grössenordnung bei Angebot und Nachfrage übereinstimmt und eine regelmässige und Dauerhafte Lieferung notwendig ist. Feste Routen haben sich zumindest für die beiden handelbaren Güter als einfach und effektiv erwiesen. Dynamische Routen bieten jedoch den Vorteil auch externe Handelswaren gut zu verteilen und erlauben zudem die Transporte mit weniger Einheiten dafür mit mehr Kapazität durchzuführen.
+Einen relativ geschlossenen und stabilen Kreislauf bildet der Handelsbereich, da zumindest die Grössenordnung bei Angebot und Nachfrage übereinstimmt und eine regelmässige und Dauerhafte Lieferung notwendig ist. Feste Routen haben sich zumindest für die beiden handelbaren Güter als einfach und effektiv erwiesen. Dynamische Routen bieten jedoch den Vorteil auch externe Handelswaren gut zu verteilen und erlauben zudem die Transporte mit weniger Einheiten dafür mit mehr Kapazität durchzuführen.
 
 ## Rohstoffe
 

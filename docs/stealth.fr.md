@@ -53,7 +53,7 @@ Le vol constitue de temps en temps un moyen efficace de faire tomber des espions
 ## Espionnage
 
 Si une unité dotée de la compétence [Espionnage][skill-espionnage-id] donne l'ordre [`SPY`*`ID unité`*][cmd-spy-fr], sa compétence d'espionnage est comparée à la compétence de Discrétion de l'unité cible.  
-La chance de base de réussir une tentative d'espionnage est de 10%.  
+La chance de base de réussir une tentative d'espionnage est de 10 %.  
 Pour chaque niveau d'Espionnage dépassant le niveau de Discrétion de la victime, le vol augmente de 5 %.  
 Un niveau élevé en Discrétion permet donc à l'unité de rendre les tentatives d'espionnage plus difficiles.  
 Pour atteindre une chance de succès de 50 %, un espion doit être de 8 niveaux supérieurs.

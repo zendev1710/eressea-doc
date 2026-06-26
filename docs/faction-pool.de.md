@@ -5,7 +5,7 @@ alias: parteipool
 
 # Parteipool
 
-Der Parteipool enthält einige besondere Gegenständse, die in der Regel von der Spielleitung zu besonderen Anlässen (z.B. Weihnachten, Eresea-Jubiläen) dort abgelegt werden.  
+Der Parteipool enthält einige besondere Gegenständse, die in der Regel von der Spielleitung zu besonderen Anlässen (z.B. Weihnachten, Eressea-Jubiläen) dort abgelegt werden.  
 Mit dem Befehle [`BEANSPRUCHE`][bef-beanspruche] kann eine beliebige Einheit Gegenstände aus dem Parteipool entnehmen.  
 Ein Zurücklegen ist nicht möglich.
 

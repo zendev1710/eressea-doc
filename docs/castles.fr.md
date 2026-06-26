@@ -112,12 +112,12 @@ Construction de châteaux : type, niveau minimum de compétence en maçonnerie, 
 | Type              | Niv. | Bonus salaire | Part commerce | Bonus Défense |
 |-------------------|-----:|--------------:|--------------:|--------------:|
 | Fondation         |    1 |            -- |            -- |             0 |
-| Poste de commerce |    1 |            -- |            6% |             0 |
-| Fortification     |    2 |      1 silver |           12% |            +1 |
-| Tour              |    3 |      2 silver |           18% |            +2 |
-| Bastion           |    4 |      3 silver |           24% |            +3 |
-| Forteresse        |    5 |      4 silver |           30% |            +4 |
-| Citadelle         |    6 |      5 silver |           36% |            +5 |
+| Poste de commerce |    1 |            -- |           6 % |             0 |
+| Fortification     |    2 |      1 silver |          12 % |            +1 |
+| Tour              |    3 |      2 silver |          18 % |            +2 |
+| Bastion           |    4 |      3 silver |          24 % |            +3 |
+| Forteresse        |    5 |      4 silver |          30 % |            +4 |
+| Citadelle         |    6 |      5 silver |          36 % |            +5 |
 
 ## Voir aussi
 

@@ -10,14 +10,17 @@ Features to be taken into account (no due date):
 - [x] Fix all markdown lint issues
 - [x] order keywords as top-level heading title are between backticks (\`...\`)
 - [x] order keywords as all mentioned between backticks (\`...\`)
-- [] Translate remainging paragraphs in french
+- [x] Translate remainging paragraphs in french
+- [x] Translate remainging paragraphs in english
 - [x] Fix all spell lint issues in french language
 - [x] Fix all spell issues in english language
-- [] Fix all spell issues in german language
-- [] Update all english magic spell descriptions with the ones in Eressea server source code .po files
-- [] Fix orders examples as block codes (especially in german language where it was missed)
+- [x] Fix all spell issues in german language
+- [x] Fix orders examples as block codes (especially in german language where it was missed)
 - [x] Lore dialogues and narrations as "parchment" style
+- [ ] Update all english magic spell descriptions with the ones in Eressea server source code .po files
 - [ ] Write formulas with katex
+- [ ] Add a whitespace before `%` in french language
+- [ ] Replace whitespace by "insecable" whitespace (10 %) on "P %" expressions?
 - [ ] Compact tables when columns number is high
 - [ ] Column sorting on tables when it would be useful
 - [ ] Simple form in pages to test formulas when it would be useful

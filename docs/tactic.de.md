@@ -28,7 +28,8 @@ Insekten bekommen zudem einen zusätzlichen Bonus auf das Talent Taktik, wenn si
 
 ## Tagesform
 
-Um ein wenig "Tagesform" und Glück einfließen zu lassen, erhält jeder Taktiker einen zufälligen Bonus, der bei 0 startet und sehr groß werden kann, wobei die Wahrscheinlichkeit dafür immer geringer wird, je größer der Bonus ist. Besteht eine Taktiker-Einheit aus mehreren Personen, so wird für jede Person einmal gewürfelt.
+Um ein wenig "Tagesform" und Glück einfließen zu lassen, erhält jeder Taktiker einen zufälligen Bonus, der bei 0 startet und sehr groß werden kann, wobei die Wahrscheinlichkeit dafür immer geringer wird, je größer der Bonus ist.  
+Besteht eine Taktiker-Einheit aus mehreren Personen, so wird für jede Person einmal gewürfelt.  
 
 | Wahrscheinlichkeit | Bonus | Sonstiges       |
 |--------------------|-------|-----------------|
@@ -44,7 +45,8 @@ Daraus ergeben sich je nach Taktikeranzahl folgende mittleren Tagesform-Boni:
 |-----------------|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 | Mittlerer Bonus | 1,03 | 1,96 | 3,05 | 4,03 | 5,03 | 6,03 | 7,03 |
 
-Das bedeutet 12 Taktiker Stufe X erreichen im Mittel die gleiche Stufe wie ein Taktiker Stufe X+2. Man kann also (auch) bei Taktikern fehlende Klasse durch Masse ersetzen, allerdings wird es relativ schnell sehr teuer.
+Das bedeutet 12 Taktiker Stufe X erreichen im Mittel die gleiche Stufe wie ein Taktiker Stufe X+2.  
+Man kann also (auch) bei Taktikern fehlende Klasse durch Masse ersetzen, allerdings wird es relativ schnell sehr teuer.  
 
 ## Siehe auch
 

@@ -33,8 +33,8 @@ Eressea ist nicht fehlerfrei, doch es hat sehr wenige Fehler.
 Wenn man meint, einen Fehler gefunden zu haben, gehe man wie folgt vor:
 
 1. Überprüfe nochmal genau, ob der Fehler im Programm liegt. Manchmal hat man einfach eine Kleinigkeit übersehen.
-2. Lies die Mails in der Liste "E-Announce", die Bugreports in Mantis oder den Kanal \#general im [Discord]: manchmal wurde der Fehler schon gefunden, und deine Meldung wäre überflüssig.
-3. Überlege dir, wie es wohl zu dem Fehler kam. Stelle alles notwendige dafür zusammen. Starte einen neuen Bureport in [Mantis]. Er sollte folgendes enthalten:
+2. Lies die Mails in der Liste "E-Announce", die Bugreports in Mantis oder den Kanal \#General im [Discord]: manchmal wurde der Fehler schon gefunden, und deine Meldung wäre überflüssig.
+3. Überlege dir, wie es wohl zu dem Fehler kam. Stelle alles notwendige dafür zusammen. Starte einen neuen Bugreport in [Mantis]. Er sollte folgendes enthalten:
     1. Deine Parteinummer
     2. Nummern der betroffenen Einheiten, Schiffe oder anderer Objekte
     3. Meldungen aus dem Report, welche für das Ereignis relevant sind

@@ -7,7 +7,7 @@ alias: kriegstabellen
 
 Auf dieser Seite sind kampfrelevante Eigenschaften von Waffen, Rüstungen und Rassen aufgeführt.
 
-## Weapons
+## Waffen
 
 ### Adamantiumaxt
 
@@ -165,15 +165,14 @@ Rüstungen
 | Rostiges Kettenhemd    |         2 |          130% |
 | Rostiger Plattenpanzer |         3 |          145% |
 
-RüstungPanzerungChance NahfernPlattenpanzer3115%100%Kettenhemd2110%100%Schild090%90%Laenschild190%90%Laenkettenhemd3100%90%Turmschild085%75%Schuppenpanzer3110%105%Rostiger Schild095%100%Rostiges Kettenhemd1120%100%
-
 Es kann jeweils nur eine Rüstung benutzt werden, mehrere Rüstungen schützen nicht mehrfach.
 
 Nicht alle [Vertrautenrassen][vertraute] oder beschworene Monster können Rüstungen benutzen.
 
 Schilde können, obwohl sie als Rüstung zählen, zusammen mit einer Rüstung benutzt werden und wirken dann additiv zur Rüstung, aber auch nur jeweils ein Schild pro Person.
 
-Ein Plattenpanzer fängt also von jedem Treffer 5 Punkte ab, erhöht die Chance, selber getroffen zu werden, aber um 30%; ein Schild fängt einen Trefferpunkt ab und erniedrigt die Chance, getroffen zu werden, um 15%. Diese Werte werden **nicht** einfach zur Trefferchance des Gegners addiert! Sondern die Trefferchance wird um diesen Anteil ihrerselbst erhöht (siehe Beispiele unten).
+Ein Plattenpanzer fängt also von jedem Treffer 5 Punkte ab, erhöht die Chance, selber getroffen zu werden, aber um 30%; ein Schild fängt einen Trefferpunkt ab und erniedrigt die Chance, getroffen zu werden, um 15%. 
+Diese Werte werden **nicht** einfach zur Trefferchance des Gegners addiert! Sondern die Trefferchance wird um diesen Anteil ihrerselbst erhöht (siehe Beispiele unten).
 
 **Beispiel:**
 

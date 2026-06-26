@@ -45,23 +45,23 @@ L'adresse email à laquelle chaque joueur peut envoyer des articles est [[expres
 Un **Exemple d'article** pourrait ressembler à ceci :
 
 ```text
-    == 13. Welt ==
+== 13th World ==
 
-    === Krieg in der 13. Welt ===
+=== War in the 13th World ===
 
-    Skandal! Wilde Trolle überfallen Nifelheim
+Scandal! Wild trolls attack Nifelheim
 
-    Wir sind entsetzt! Heute haben 30.000 randalierende Trolle
-    von der Nachbarinsel Klumphausen unsere Festung in
-    Nifelheim überfallen. 3000 unserer Bauern wurden dabei
-    auf brutale Art erschlagen. Wir, die Schrumpfbauch-
-    Goblins schwören blutige Rache.
+We are horrified! Today there are 30,000 riotous trolls
+from the neighboring island of Klumphausen our fortress
+Nifelheim invaded. 3000 of our farmers were there
+brutally killed. We, the shrunken bellies
+Goblins swear bloody revenge.
 
-    Und in einem neuen Absatz wird die Geschichte weiter
-    geschrieben, aber im Beispiel gibt es keinen weiteren
-    Inhalt.
+And the story continues in a new paragraph
+written, but there is no other in the example
+Content.
 
-    Gibli der Schreiber-Goblin
+Gibli the Scribe Goblin
 ```
 
 ## Archives Xontormia Express

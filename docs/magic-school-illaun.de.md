@@ -288,7 +288,7 @@ alias: illaunzauber
 ### Erschaffe eine [Sphäre der Unsichtbarkeit]
 
 :   Mit diesem Spruch kann der Zauberer eine Sphäre der Unsichtbarkeit erschaffen.  
-    Die Späre macht ihren Träger sowie neunundneunzig weitere Personen in derselben Einheit unsichtbar.  
+    Die Sphäre macht ihren Träger sowie neunundneunzig weitere Personen in derselben Einheit unsichtbar.  
 
 |                Komponenten                | Stufe |  Art   | Rang |            Schiff            | Fern. |
 |:-----------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|

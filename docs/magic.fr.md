@@ -69,7 +69,7 @@ Bien entendu, l’apprentissage par l’application ne coûte pas d’argent.
 Il y a actuellement un sort dans chaque niveau, dans des cas exceptionnels plusieurs voire aucun.  
 Une fois que vous avez atteint un nouveau niveau, les paroles sont décrites dans l'évaluation.  
 Si vous avez oublié la description, vous pouvez la faire afficher à nouveau à l'aide de l'ordre [`SHOW`][cmd-show-fr].
-
+<!-- TODO: translate -->
 ```text
                                      Wunderdoktor
 
@@ -92,7 +92,7 @@ Si vous avez oublié la description, vous pouvez la faire afficher à nouveau à
 ```
 
 ou alors
-
+<!-- TODO: translate -->
 ```text
 
                         Erschaffe einen Ring der Unsichtbarkeit
@@ -375,7 +375,7 @@ La résistance à la magie d'une unité s'obtient par l'addition de :
 - Éventuellement un bonus ou un malus dû au [sort][liste-des-sorts] sur l'unité ou la région
 - Éventuellement un bonus de [bâtiment][cercle-de-pierres]
 
-Le résultat ne peut jamais être supérieur à 90 %.  
+Le résultat ne peut jamais être supérieur à 90 %.  
 
 Pour certains enchantements directs, il est en outre influencé par l'expérience de l'unité.  
 
@@ -391,7 +391,7 @@ Il peut également être renforcé par certains sorts.
 
 **Exemples :**
 
-La chance de base est de 0 % pour les humains, de 10 % pour les [elfes][modificateurs-de-competences-id], et de -5 % pour les [gobelins][modificateurs-de-competences-id].  
+La chance de base est de 0 % pour les humains, de 10 % pour les [elfes][modificateurs-de-competences-id], et de -5 % pour les [gobelins][modificateurs-de-competences-id].  
 
 Une unité Mining 10 a 50 % de chances de résister à un sort comme [Malédiction du Chaos][malediction-du-chaos] lancé par une unité de T10 en magie.  
 Si le niveau en magie est T12, les chances tombent à 40 %.  
@@ -401,7 +401,7 @@ Par exemple, une boule de feu qui ferait 50 dégâts (5d10 + 15) ne fait que (90
 
 ## Tour des Mages
 
-Une [Tour de Mage][tour-de-mage] augmente la régénération de l'aura de 75 % et augmente le niveau effectif de tout sort lancé en son sein de 1, le cas échéant, en plus d'un [anneau de Pouvoir][anneau-de-pouvoir-id]{title="Ring of Power"} sans augmenter le coût.  
+Une [Tour de Mage][tour-de-mage] augmente la régénération de l'aura de 75 % et augmente le niveau effectif de tout sort lancé en son sein de 1, le cas échéant, en plus d'un [anneau de Pouvoir][anneau-de-pouvoir-id]{title="Ring of Power"} sans augmenter le coût.  
 De plus, la probabilité d’un échec du sort est considérablement réduite.  
 
 [](){ #magic-familiers-id }

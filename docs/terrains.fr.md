@@ -101,7 +101,7 @@ Chaque paysan prend un emploi, chaque pousse d'arbre en prend 4, et chaque arbre
 
 Sous "max. arbres" est indiqué le nombre d'arbres/de pousses qui prendraient toute la place pour les "agriculteurs".  
 Mais même la forêt la plus dense produit suffisamment de fruits, de racines ou de champignons pour que quelques-uns puissent en vivre.  
-10 % des emplois d'une région, mais pas plus de 200, ne sont donc jamais bloqués par des arbres ou des pousses.  
+10 % des emplois d'une région, mais pas plus de 200, ne sont donc jamais bloqués par des arbres ou des pousses.  
 Si le nombre d'emplois disponibles est dépassé, les unités de joueurs ne peuvent plus travailler dans cette région.
 
 Dans les glaciers, les marais et les déserts, la construction de routes n'est possible que si des [bâtiments spéciaux][batiments-speciaux] s'y trouvent.  

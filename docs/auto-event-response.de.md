@@ -28,7 +28,7 @@ Hat man die Ereignisse priorisiert, geht es daran betroffene Einheiten zu ermitt
 eine Reaktion auf dieses Ereignis zu ermöglichen.
 Schwierig ist trotz Priorität die Reaktion auf mehrere Ereignisse, da möglicherweise durchaus auch sekundäre Ereignisse noch einen Einfluss auf die Befehle der Einheit haben können.
 
-<!-- TODO: replace outdaed example, the current remains here until a suitable alternative example is created -->
+<!-- TODO: replace outdated example, the current remains here until a suitable alternative example is created -->
 ***veraltet***: hungern verhindert lange befehle nicht mehr
 Beispiel:
 Eine Einheit hungert und es erscheinen Untote.

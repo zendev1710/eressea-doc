@@ -34,7 +34,7 @@ It cannot be ruled out that some participants took part in this battle under [fa
 The most likely candidate is the Mist Sea Man Gornt (mwq4), who posed as a dancer in the storm, but was most likely an Aquazone.  
 
 On pages **Tirawons** 15 peoples fought:  
-
+<!-- TODO: translate in english -->
 <!-- cspell:disable -->
 - Heer 0: Der Flammenorden (gLut) -- 5927 Dämonen
 - Heer 3: Garan-Elfen (ii) -- 32554 Elfen

@@ -56,7 +56,9 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 | etc   |             |            |
 
 - Ab einer Größe von 10 verhindert ein Leuchtturm im Umkreis von log10 (Leuchtturmgröße) + 1 Feldern das Abtreiben von Schiffen durch Stürme.
-- Ab einer Größe von 10 gibt ein Leuchtturm den Insassen (nur bis zu 4 Einheiten) Infos über Schiffsichtungen in allen Ozeanfeldern im Umkreis von 1 + log10 (Leuchtturmgröße) Feldern. Die Einheit muss dafür mindestens eine Wahrnehmung von Entfernung \* 3 haben. Einen Report einer drei Felder entfernten Ozeanregion bekommt man also nur, wenn der Leuchtturm mindestens Größe 100 und die Einheit mindestens Wahrnehmung 9 hat.
+- Ab einer Größe von 10 gibt ein Leuchtturm den Insassen (nur bis zu 4 Einheiten) Infos über Schiffsichtungen in allen Ozeanfeldern im Umkreis von 1 + log10 (Leuchtturmgröße) Feldern.  
+  Die Einheit muss dafür mindestens eine Wahrnehmung von Entfernung \* 3 haben.  
+  Einen Report einer drei Felder entfernten Ozeanregion bekommt man also nur, wenn der Leuchtturm mindestens Größe 100 und die Einheit mindestens Wahrnehmung 9 hat.
 
 ## Bergwerk
 

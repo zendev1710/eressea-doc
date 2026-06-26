@@ -91,8 +91,8 @@ Hiermit werden alle Dateien, die auch nach der regulären Auswertung verschickt 
 !!! warning "Achtung"
     Parteien mit Sonderzeichen im Passwort können keinen Report nachfordern!
 
-Bitte fordert nicht "mal eben schnell" den Report an, weil ihr ihn gerade nicht zur Hand habt.
-Derartige Anforderungen verursachen unnötigen Traffic.
+Bitte fordert nicht "mal eben schnell" den Report an, weil ihr ihn gerade nicht zur Hand habt.  
+Derartige Anforderungen verursachen unnötigen Datenverkehr.  
 
 Mails an Eressea
 
@@ -103,13 +103,13 @@ Mails an Eressea
 
 ## Was man bei der Eingabe beachten muss
 
-Jeder Zug muss mit der Zeile [ERESSEA xxx "passwort"] beginnen.
-xxx ist die eigene Parteinummer, und "passwort" ist das Passwort der Partei.
+Jeder Zug muss mit der Zeile [ERESSEA xxx "passwort"] beginnen.  
+xxx ist die eigene Parteinummer, und "passwort" ist das Passwort der Partei.  
 Jeder Zug muss mit dem Schlüsselwort [NÄCHSTER][bef-nachster-id] beendet werden.
 
 Alle Befehle werden pro Einheit abgegeben, auch wenn es Befehle sind, die die Partei als Ganzes betreffen; irgendjemand muss sie halt ausführen.
 
-In einer separaten Datei wird - sofern die Option aktiviert wurde - immer eine Vorlage für die nächste Befehlsdatei geschickt.
+In einer separaten Datei wird - sofern die Option aktiviert wurde - immer eine Vorlage für die nächste Befehlsdatei geschickt.  
 Hier ein Beispiel für so einen Zug:
 
 ```text

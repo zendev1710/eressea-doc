@@ -21,15 +21,14 @@ Une région ne peut être décrite que par le seigneur du château le plus puiss
 
 Avec `DESCRIBE PRIVATE` vous pouvez donner à l'unité passant l'ordre une description "privée" que seul le propriétaire de l'unité peut voir.  
 
-Les descriptions longues doivent être écrites avec le séparateur `\` (barre oblique inverse).
+Les descriptions longues doivent être écrites avec le séparateur `\` (barre oblique inverse).  
 La nouvelle ligne après un `\` ne doit pas commencer par des espaces.
 
-<!-- TODO: clarify text below -->
 ```text
-DESCRIBE UNIT "Leaf-cutting ants don't need one\
-Sleep and its workers are always focused on maximum efficiency\
-Everything they do and think under their black cover refers to\
-then it also das Kollektiv des Staates."
+DESCRIBE UNIT "Les fourmis coupeuses de feuilles n'ont pas besoin de\
+dormir et leurs ouvrières sont constamment concentrées sur une efficacité maximal\
+e. Tout ce qu'elles font et pensent sous leur exosquelette noir\
+est lié au collectif de la colonie."
 ```
 
 Il n'est actuellement pas possible d'insérer des paragraphes et des césures dans une description.

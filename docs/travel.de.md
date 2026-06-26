@@ -49,15 +49,21 @@ Gewichte und Kapazitäten
 
 ## Straßen
 
-Durch den Bau von [Straßen][strassen-id] kann die Reisegeschwindigkeit um eine Region erhöht werden. Dabei müssen alle Regionen, durch die man reist, ein komplettes Straßennetz aufweisen. Will man also zu Fuß in einer Woche zwei Regionen weit nach Osten reisen, benötigt die Startregion eine vollständige Straße nach Osten, die mittlere Region je eine vollständige Straßen nach Osten und Westen und die Zielregion eine vollständige Straße nach Westen.
+Durch den Bau von [Straßen][strassen-id] kann die Reisegeschwindigkeit um eine Region erhöht werden.  
+Dabei müssen alle Regionen, durch die man reist, ein komplettes Straßennetz aufweisen.  
+Will man also zu Fuß in einer Woche zwei Regionen weit nach Osten reisen, benötigt die Startregion eine vollständige Straße nach Osten, die mittlere Region je eine vollständige Straßen nach Osten und Westen und die Zielregion eine vollständige Straße nach Westen.
 
 ## Pferd und Wagen
 
-Die **Bewegungsgeschwindigkeit** zu Fuß beträgt ohne [Straße][strassen-id] eine Region pro Runde; mit Straße sind es zwei. Zu Pferd kann man sich ohne Straße zwei Regionen weit bewegen, mit Straßen drei. Pro 2 Pferde wird ein Talentpunkt benötigt um zu reiten. Die Einheit reitet automatisch, wenn für alle Pferde genug Reittalent vorhanden ist und die Einheit nicht überladen ist. Ist die Einheit zu schwer beladen um zu reiten, aber nicht zu schwer beladen um sich zu Fuß zu bewegen, bleibt die Einheit nicht ganz stehen, sondern bewegt sich eine Region weit (ohne Straße).
+Die **Bewegungsgeschwindigkeit** zu Fuß beträgt ohne [Straße][strassen-id] eine Region pro Runde; mit Straße sind es zwei.  
+Zu Pferd kann man sich ohne Straße zwei Regionen weit bewegen, mit Straßen drei. Pro 2 Pferde wird ein Talentpunkt benötigt um zu reiten.  
+Die Einheit reitet automatisch, wenn für alle Pferde genug Reittalent vorhanden ist und die Einheit nicht überladen ist.  
+Ist die Einheit zu schwer beladen um zu reiten, aber nicht zu schwer beladen um sich zu Fuß zu bewegen, bleibt die Einheit nicht ganz stehen, sondern bewegt sich eine Region weit (ohne Straße).
 
 **Pferde** haben eine Kapazität von 20GE.
 
-**Wagen** haben eine Kapazität von 100GE. Dazu müssen sie von 2 Pferden pro Wagen gezogen werden.  
+**Wagen** haben eine Kapazität von 100GE.  
+Dazu müssen sie von 2 Pferden pro Wagen gezogen werden.  
 Wagen können aber auch als Fracht transportiert werden, zum Beispiel auf einem Schiff oder wenn die Einheit zu wenige Pferde dabei hat; sie haben ein Gewicht von 40GE.
 
 Je 4 Trolle können auch ohne Pferde einen Wagen ziehen, allerdings nur eine Region weit.  
@@ -68,23 +74,26 @@ Zusätzlich kann jede Person pro Talentstufe Reiten vier Pferde führen (eine Pe
 Führen Trolle sowohl Pferde als auch Wagen mit sich, so ziehen bevorzugt die Pferde die Wagen.
 
 **Zu Pferd** kann jede Person pro Talentstufe Reiten zwei Pferde mitnehmen.  
-Dabei ist zu beachten, dass die Reiter selbst von der Kapazität des Gespanns abgezogen werden müssen.
+Dabei ist zu beachten, dass die Reiter selbst von der Kapazität des Gespanns abgezogen werden müssen.  
 
-Sind zu viele Pferde vorhanden, kann sich die Einheit nicht mehr bewegen.
+Sind zu viele Pferde vorhanden, kann sich die Einheit nicht mehr bewegen.  
 
 Sind in einer Einheit mehrere Pferde und Wagen, so wird deren Tragekapazität einfach addiert.  
-So passen z.B. auf drei Wagen sieben Steine, obwohl auf einen Wagen nur ein Stein (abgerundet) passt.
+So passen z.B. auf drei Wagen sieben Steine, obwohl auf einen Wagen nur ein Stein (abgerundet) passt.  
 
 **Beispiele** (wir nehmen hierfür an, dass es keine Straßen gibt)
 
-- Eine Einheit mit 4 Personen und Reiten 1 kann max. 20 Pferde (4 Pferde ohnehin, dazu 4 \* 4 Pferde durch Reiten 1) zu Fuß mitführen. Wenn sie nicht mehr als 8 Pferde dabei hat und nicht zu schwer, kann sie sich zwei Felder weit bewegen.
-- Wenn also dieselbe Einheit nur 8 Pferde und 2 Wagen mitnimmt, hat sie zu Pferd eine Kapazität von 320GE (2 \* 100GE für die Wagen + 8 \* 20GE für die Pferde − 4 \* 10GE für die Reiter). Ausnahme hierzu sind Rassen mit anderem Gewicht, wo natürlich das tatsächliche Gewicht des Reiters abgezogen wird.
+- Eine Einheit mit 4 Personen und Reiten 1 kann max. 20 Pferde (4 Pferde ohnehin, dazu 4 \* 4 Pferde durch Reiten 1) zu Fuß mitführen.  
+  Wenn sie nicht mehr als 8 Pferde dabei hat und nicht zu schwer, kann sie sich zwei Felder weit bewegen.
+- Wenn also dieselbe Einheit nur 8 Pferde und 2 Wagen mitnimmt, hat sie zu Pferd eine Kapazität von 320GE (2 \* 100GE für die Wagen + 8 \* 20GE für die Pferde − 4 \* 10GE für die Reiter).  
+  Ausnahme hierzu sind Rassen mit anderem Gewicht, wo natürlich das tatsächliche Gewicht des Reiters abgezogen wird.
 - Eine Einheit mit 5 Zwergen ohne Talent Reiten kann 5 Pferde eine Region weit führen und dabei 127GE transportieren (5,4GE pro Zwerg und 20GE pro Pferd).
 - Wenn die gleiche Einheit zusätzlich noch 3 Wagen hat, kann sie 287GE an anderen Gütern transportieren (5,4GE pro Zwerg, 20GE pro Pferd und 2 \* 100GE für die gezogenen Wagen minus 40GE für den Wagen der transportiert werden muss, weil 5 Pferde nur für 2 Wagen reichen).
 - Eine Einheit mit 4 Trollen ohne Talent Reiten und ohne Pferde kann einen Wagen eine Region (mit Straßen zwei Regionen) weit ziehen und dabei 143,2GE transportieren (10,8GE pro Troll und 100GE auf dem Wagen).
 - Eine Einheit mit 4 Trollen ohne Talent Reiten kann 4 Pferde und 3 Wagen (zwei hinter den Pferden und einer hinter den 4 Trollen) eine Region weit führen und dabei 423,2GE transportieren (10,8GE pro Troll, 300GE auf dem Wagen und je 20GE auf den 4 Pferden).
 - Eine Einheit mit 4 Trollen und Reiten 1 mit 4 Pferden und zwei Wagen kann mit 323.2GE eine Region weit gehen (10,8GE pro Troll, 20GE pro Pferd und 100GE pro Wagen) oder mit 200GE zwei Regionen weit reiten (20GE pro Pferd, 100GE pro Wagen minus 80 GE für die 4 Trolle).
-- Eine Einheit mit Reiten 1, einem Wagen und zwei Pferden kann 130 Schwerter zwei Regionen weit transportieren (der Fuhrmann wiegt 10 und muss von der Kapazität abgezogen werden, wenn er auf dem Wagen sitzt). Eine Einheit mit Reiten 1 und 4 Personen könnte 20 Pferde und 10 Wagen eine Region weit und 8 Pferde und vier Wagen zwei Regionen weit bewegen.
+- Eine Einheit mit Reiten 1, einem Wagen und zwei Pferden kann 130 Schwerter zwei Regionen weit transportieren (der Fuhrmann wiegt 10 und muss von der Kapazität abgezogen werden, wenn er auf dem Wagen sitzt).  
+  Eine Einheit mit Reiten 1 und 4 Personen könnte 20 Pferde und 10 Wagen eine Region weit und 8 Pferde und vier Wagen zwei Regionen weit bewegen.
 - Soll ein leerer Wagen mit zwei Pferden auf einem Schiff transportiert werden, muss das Schiff dafür eine Kapazität von 140GE (40GE für den Wagen und 2 \* 50GE für die Pferde) frei haben.
 
 ## Siehe auch

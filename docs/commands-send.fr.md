@@ -112,7 +112,8 @@ De telles demandes génèrent un trafic inutile.
 
 ## Ce que vous devez considérer lors de la saisie des ordres
 
-Chaque tour d'ordres doit commencer par la ligne [`ERESSEA xxx "<mot de passe>"`][cmd-eressea-fr]. *xxx* est l'identifiant de votre faction, et *mot de passe* est le mot de passe de la faction.  
+Chaque tour d'ordres doit commencer par la ligne [`ERESSEA xxx "<mot de passe>"`][cmd-eressea-fr].  
+*xxx* est l'identifiant de votre faction, et *mot de passe* est le mot de passe de la faction.  
 Chaque tour doit se terminer avec le mot-clé [`NEXT`][cmd-next-fr].  
 
 Tous les ordres sont émis par unité, même s'il s'agit d'ordres qui affectent la faction dans son ensemble; quelqu'un doit le faire.  
@@ -135,7 +136,7 @@ UNIT 35;        Esclaves zombies [10,110$]
     WORK
 REGION 5,3;     Grandola
 ; ECHECK WAGE 11
-UNIT 32;        Reiter der Verdammnis [5,30$]
+UNIT 32;        Les Cavaliers du Destin [5,30$]
     LEARN Entertainment
 NEXT
 ```

@@ -21,7 +21,7 @@ GIB einheit-nr [anzahl|ALLES] [gegenstand]
   Sie können also weggelassen werden, ändern dadurch aber die Bedeutung des Befehls.
   Alternativen sind dabei durch `|` getrennt.
 
-Obiges Beispiel lässt also `GIB 123 ALLES` oder auch `GIB abc 4 Schwert` zu.
+Obiges Beispiel lässt also `GIB 123 ALLES` oder auch `GIB abc 4 Schwert` zu.  
 
 ## Syntax
 
@@ -117,7 +117,7 @@ Näheres in der Beschreibung der einzelnen Befehle.
 
 Wird einer Einheit ein langer Befehl gegeben, wird sie diesen als Default-Befehl übernehmen und damit den vorherigen Default-Befehl ersetzen.  
 Der Default-Befehl steht in der [Zugvorlage] immer als Vorschlag für einen langen Befehl.  
-Du brauchst also einem Pferdedresseur nur einmal den Befehl MACHE pferd zu geben und dieser Befehl erscheint solange in der Zugvorlage, bis sie einen anderen langen Befehl erhält (z.B. LERNE Pferdedressur).  
+Du brauchst also einem Pferdedresseur nur einmal den Befehl `MACHE pferd` zu geben und dieser Befehl erscheint solange in der Zugvorlage, bis sie einen anderen langen Befehl erhält (z.B. LERNE Pferdedressur).  
 Sinnvollerweise werden nicht alle langen Befehle als Default-Befehle übernommen.  
 Das betrifft z.B. `NACH`, `ATTACKIERE` und `FOLGE`.  
 Weiteres zu Default-Befehlen auf der Seite zum Befehl [`DEFAULT`][bef-default].  

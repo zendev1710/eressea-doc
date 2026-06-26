@@ -43,7 +43,7 @@ Ils dévorent les paysans des environs et surprennent toujours par l'acquisition
 !!! note "Attention"
     Les démons ne sont pas conseillés aux joueurs inexpérimentés !
 
-- Volatilité : toutes les compétences ayant au moins un point de compétence (avant malus racial) ont 25 % de chances de changer de niveau.
+- Volatilité : toutes les compétences ayant au moins un point de compétence (avant malus racial) ont 25 % de chances de changer de niveau.
   La compétence peut perdre jusqu'à 3 semaines d'apprentissage (40 %) ou augmenter jusqu'à 3 semaines d'apprentissage (60 %).
   Il n'en résulte pas de valeurs négatives; aucune compétence ne peut descendre en dessous du niveau 0.
 - Les démons mangent des paysans à chaque tour.
@@ -118,7 +118,7 @@ Les gobelins sont petits et faibles lorsqu'ils sont seuls ; ils préfèrent com
 - Les gobelins ne pèsent que 6 lbs, mais leur capacité de transport (4,4 lbs) est également moindre.
 - Un gobelin au moins T4 en [discrétion][skill-discretion-id]{title="Stealth"} [dérobera][cmd-steal-fr-id] toujours au moins 50 Silver, même s'il est détecté.
 - Les gobelins non armés ont un bonus de +2 à leur défense.
-- Les gobelins blessés se régénèrent à hauteur de 10% de leurs points de vie.
+- Les gobelins blessés se régénèrent à hauteur de 10 % de leurs points de vie.
 
 ## Halfelins
 
@@ -136,7 +136,7 @@ Les gobelins sont petits et faibles lorsqu'ils sont seuls ; ils préfèrent com
 
 Les halfelins sont de petits compagnons aux pieds poilus. Ils sont de bons commerçants et savent divertir les paysans. Ce sont de bons bâtisseurs, mais ils préfèrent laisser les chevaux et les [bateaux][bateaux-id] aux autres. Le maniement des armes n'est pas leur point fort.
 
-- Les halfelins qui essaient de [fuir][la-fuite] un combat, ont une chance de base de 50% (25% pour les autres peuples). Leur chance maximale est de 90% (75% pour les autres, voir [`COMBAT FLEE`][cmd-combat-fr]).
+- Les halfelins qui essaient de [fuir][la-fuite] un combat, ont une chance de base de 50 % (25 % pour les autres peuples). Leur chance maximale est de 90 % (75 % pour les autres, voir [`COMBAT FLEE`][cmd-combat-fr]).
 - Les halfelins ont un bonus de +5 en attaque et dégâts lorsqu'ils affrontent des [dragons][dragons-connus].
 - Les halfelins sont bien plus sensibles que les autres à la famine. Ils perdent entre 8 and 17 points de vie (1d10+7).
 
@@ -314,7 +314,7 @@ Ces rochers ambulants font partie des créatures les plus puissantes d'Eressea. 
 - Contre les trolls, la cavalerie ennemie n'a qu'un bonus de +1 au lieu du +2 habituel.
 - Les trolls sont le seul peuple capable d'utiliser des chariots sans chevaux. Les trolls peuvent tirer un chariot par quatre, mais ils ne peuvent se déplacer que d'une seule région (sauf route). Cela est expliqué plus en détail dans l'ordre [`RIDE`][cmd-ride-fr].
 - Les trolls non armés infligent de 2 à 6 points de dégâts.
-- Les trolls blessés se régénèrent à hauteur de 7,5% de leurs points de vie.
+- Les trolls blessés se régénèrent à hauteur de 7,5 % de leurs points de vie.
 
 ## Nains
 

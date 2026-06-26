@@ -389,13 +389,13 @@ La résistance à la magie est un attribut spécial dépendant du peuple, de l'�
 Elle indique le pourcentage de dégâts magiques réduits par les sorts de combat.
 
 !!! note
-    Toutes les **armes en mallorn** augmentent la résistance magique de **15%**.  
-    Toutes les **armes et armures en laen** augmentent la résistance magique de **30%**.
+    Toutes les **armes en mallorn** augmentent la résistance magique de **15 %**.  
+    Toutes les **armes et armures en laen** augmentent la résistance magique de **30 %**.
 
 La combinaison de la résistance magique naturelle, de l'arme, de l'armure et du bouclier ne s'additionne pas simplement, mais se multiplie comme la modification des chances de toucher.
 
-Un elfe avec une épée longue et une armure complète d'épée longue (bouclier et cotte de mailles) n'a donc **pas*** 10 + 30 + 30 + 30 = 100% de résistance, mais :
+Un elfe avec une épée longue et une armure complète d'épée longue (bouclier et cotte de mailles) n'a donc **pas*** 10 + 30 + 30 + 30 = 100 % de résistance, mais :
 
-90% x 70% x 70% x 70% = 31% -> 69% de résistance magique.
+90 % x 70 % x 70 % x 70 % = 31 % -> 69 % de résistance magique.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Kriegstabellen&oldid=16872] -->

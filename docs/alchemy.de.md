@@ -30,7 +30,7 @@ Später kann man sie sich mit dem Befehl [`ZEIGE`][bef-zeige] anzeigen lassen.
 
 Um einen Trank herstellen zu können, muss die Stufe des Alchemisten **doppelt so hoch** sein wie die Stufe des Trankes.  
 
-Ein Alchemist kann jede Runde Talentstufe/(2\*Trankstufe) Tränke herstellen.  
+Ein Alchemist kann jede Runde Talentstufe/(2 x Trankstufe) Tränke herstellen.  
 
 Ein Alchemist der Stufe 6 kann also maximal einen Trank der Stufe 3, einen der zweiten Stufe oder drei Tränke der ersten Stufe herstellen.
 

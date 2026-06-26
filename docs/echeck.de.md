@@ -7,13 +7,15 @@ alias: echeck-de
 
 # ECheck
 
-**ECheck** ist der Zugchecker, der auch auf dem Eressea-Server seinen Dienst tut.
-ECheck ist nicht perfekt und nicht vollständig.
-Es kann sowohl falsch negative, als auch falsch positive Meldungen geben.
-Wenn ECheck also keine Fehler meldet, heißt das nicht zwingend, dass die Befehle korrekt sind.
-Wenn ECheck Fehler meldet, heißt das nicht zwingend, dass die Befehle ungültig sind.
-Besonders bei Regeländerungen oder seltenen Gegenständen, weiß ECheck nicht immer sofort Bescheid.
-ECheck ist vielmehr als Hilfestellung gedacht, um gegebenenfalls die Befehle noch einmal zu prüfen.
+**ECheck** ist der Zugchecker, der auch auf dem Eressea-Server seinen Dienst tut.  
+
+ECheck ist nicht perfekt und nicht vollständig.  
+Es kann sowohl falsch negative, als auch falsch positive Meldungen geben.  
+Wenn ECheck also keine Fehler meldet, heißt das nicht zwingend, dass die Befehle korrekt sind.  
+Wenn ECheck Fehler meldet, heißt das nicht zwingend, dass die Befehle ungültig sind.  
+
+Besonders bei Regeländerungen oder seltenen Gegenständen, weiß ECheck nicht immer sofort Bescheid.  
+ECheck ist vielmehr als Hilfestellung gedacht, um gegebenenfalls die Befehle noch einmal zu prüfen.  
 
 ECheck kann auf verschieden Arten aufgerufen werden:
 
@@ -26,12 +28,12 @@ ECheck kann auf verschieden Arten aufgerufen werden:
 - Auf der Kommandozeile (unter Windows Eingabeaufforderung ("cmd"), unter Linux in jedem Terminal).
   Dann muss man die unten aufgeführten Parameter mit angeben.
 
-Es gibt verschiedene Warnstufen, die durch Kommandozeilenparameter gesteuert werden.
-Mit `-w1` werden nur Syntaxfehler ausgegeben.
-Die Stufen `w2` bis `w4` geben zusätzliche Warnungen, zum Beispiel über Silberverbrauch, Lehrer oder Routen aus.
-Die `noxxx`-Parameter können außerdem bestimmte Warnungen unterdrücken.
-ECheck geht normalerweise davon aus, dass man deutsche Befehle für E2 eingibt.
-Englische Befehle kann man zum Beispiel mit dem Parameter -Len prüfen.
+Es gibt verschiedene Warnstufen, die durch Kommandozeilenparameter gesteuert werden.  
+Mit `-w1` werden nur Syntaxfehler ausgegeben.  
+Die Stufen `w2` bis `w4` geben zusätzliche Warnungen, zum Beispiel über Silberverbrauch, Lehrer oder Routen aus.  
+Die `noxxx`-Parameter können außerdem bestimmte Warnungen unterdrücken.  
+ECheck geht normalerweise davon aus, dass man deutsche Befehle für E2 eingibt.  
+Englische Befehle kann man zum Beispiel mit dem Parameter -Len prüfen.  
 
 ## Aufruf
 
@@ -66,9 +68,9 @@ Benutzung: ./echeck [Optionen] Befehlsdatei
     route kein Check auf zyklisches ROUTE
     lost  Einheit verliert Silber und Gegenstände
   -w[n]   Warnungen der Stufe n (default: 4)
-       1  hauptsächlich Syntaxfehler
-       4  fast alle Warnungen
-       5  Lehrer/Schüler
+     1    hauptsächlich Syntaxfehler
+     4    fast alle Warnungen
+     5    Lehrer/Schüler
   -x      Zeilenzählung ab PARTEI statt Dateianfang
   -Lloc   Stellt Locale loc ein
   -vm.l   Mainversion.Level - für Test, ob richtige ECheck-Version

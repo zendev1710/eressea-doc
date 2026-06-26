@@ -42,26 +42,26 @@ Thursday 2:00 p.m. is the deadline for articles to be published in the same week
 
 The email address to which each player can send articles is [[express@eressea.de](mailto:express@eressea.de)].
 
-A **Example article** could look like this:
+An **example article** could look like this:
 
 ```text
-== 13. Welt ==
+== 13th World ==
 
-=== Krieg in der 13. Welt ===
+=== War in the 13th World ===
 
-Skandal! Wilde Trolle überfallen Nifelheim
+Scandal! Wild trolls attack Nifelheim
 
-Wir sind entsetzt! Heute haben 30.000 randalierende Trolle
-von der Nachbarinsel Klumphausen unsere Festung in
-Nifelheim überfallen. 3000 unserer Bauern wurden dabei
-auf brutale Art erschlagen. Wir, die Schrumpfbauch-
-Goblins schwören blutige Rache.
+We are horrified! Today there are 30,000 riotous trolls
+from the neighboring island of Klumphausen our fortress
+Nifelheim invaded. 3000 of our farmers were there
+brutally killed. We, the shrunken bellies
+Goblins swear bloody revenge.
 
-Und in einem neuen Absatz wird die Geschichte weiter
-geschrieben, aber im Beispiel gibt es keinen weiteren
-Inhalt.
+And the story continues in a new paragraph
+written, but there is no other in the example
+Content.
 
-Gibli der Schreiber-Goblin
+Gibli the Scribe Goblin
 ```
 
 ## Xontormia Express Archives

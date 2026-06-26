@@ -39,9 +39,9 @@ Les espions avec Espionnage à 10 espionnent une unité de combat avec Furtivit�
 
 Ce qui suit est également intéressant (toujours contre le camouflage 1 de l'unité cible) :
 
-- 5 unités avec Espionnage 2 ont également 55 % de chances de succès
+- 5 unités avec Espionnage 2 ont également 55 % de chances de succès
 - 8 unités avec Espionnage 1 ont 57 % de chances de succès
-- 22 unités avec Espionnage 1 ont 90 % de chances de succès
+- 22 unités avec Espionnage 1 ont 90 % de chances de succès
 
 Les considérations de coût sont alors intéressantes :
 

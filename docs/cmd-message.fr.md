@@ -17,7 +17,7 @@ Si vous envoyez un message à une unité, le message est anonymisé si le destin
 
 Avec `MESSAGE BUILDING` et `MESSAGE SHIP`, le message est envoyé à toutes les unités du bâtiment ou du bateau, mais pour une seule unité par faction.  
 
-Comme tous les autres textes, le caractère `\` (barre oblique inversée) peut être utilisé dans le message !  
+Comme tous les autres textes, le caractère `\` (barre oblique inversée) peut être utilisé dans le message.  
 
 ```text
 MESSAGE UNIT z14 "Payez immédiatement Johan le collecteur d'impôts (9i6) 100 Silver chacun, \

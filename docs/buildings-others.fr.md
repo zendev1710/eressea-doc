@@ -103,8 +103,8 @@ Les avantages d'un phare :
   Elle produit 8 fers et prélève 8 fers des ressources de la région.
   Dans une mine la même unité produit 10 fers (4+1x2) et prélève seulement 5 fers (10/2).
 - 1 unité de 2 nains niveau 4.
-  Elle produit 8 fers et prélève 5 fers des ressources de la région (don spécial des nains 60%).
-  Dans une mine la même unité de nains produit 10 fers (4+1x2) et prélève seulement 3 fers (10\*60%/2).
+  Elle produit 8 fers et prélève 5 fers des ressources de la région (don spécial des nains 60 %).
+  Dans une mine la même unité de nains produit 10 fers (4+1x2) et prélève seulement 3 fers (10 x 60 % / 2).
 
 ## Carrière
 
@@ -177,7 +177,7 @@ Vous les coupez instantanément dans la scierie, produisant ainsi 20 bois.
   Pour cela l'unité doit maîtriser l'[apprivoisement][apprivoisement]{title="Taming"} et d'au moins 2 chevaux (en sa possession).
 - La chance d'élever des chevaux correspond à la compétence de l'unité.
   De plus, l'unité dispose d'un nombre de tentatives égal à son niveau.
-  Si une unité est T5, il dispose de 5 tentatives à 5% chacune pour élever un cheval.
+  Si une unité est T5, il dispose de 5 tentatives à 5 % chacune pour élever un cheval.
 - Pour chaque tentative l'unité a besoin d'un cheval.
   Si le nombre de chevaux disponibles est insuffisant, les tentatives sont annulées.
   5 chevaux sont nécessaires dans l'exemple précédent.
@@ -197,10 +197,10 @@ Le coût **total** d'un port (de taille 25) est de : 125 pierres, 125 bois, 6250
 - Permet aux bateaux plus gros qu'une [barque][barque]{title="Boat"} d'accoster dans des régions qui ne sont ni des plaines ni des forêts.
 - Une région avec un port peut être utilisée comme une « région canal », c'est-à-dire qu'un bateau dans le port peut naviguer dans n'importe quelle autre direction maritime.
 - Dans les deux cas, la condition préalable est que le propriétaire du port soit membre de la même faction ou qu'il ait paramétré un ordre [`HELP GUARD`][cmd-help-fr] avec la faction du Capitaine.
-- Le propriétaire du port reçoit 10 % de tout l'argent gagné grâce au commerce, en plus des éventuels revenus provenant des châteaux.
-- Le propriétaire reçoit également (2 x Trade)% de tous les biens de luxe qui se trouvent à bord des bateaux entrants.
+- Le propriétaire du port reçoit 10 % de tout l'argent gagné grâce au commerce, en plus des éventuels revenus provenant des châteaux.
+- Le propriétaire reçoit également (2 x Trade) % de tous les biens de luxe qui se trouvent à bord des bateaux entrants.
   Sauf si l'unité qui transporte les marchandises a un niveau de dissimulation supérieur au niveau de perception du propriétaire du port, ou si le capitaine du bateau est allié avec le propriétaire du port.
-- Dans une région dotée d'un port, les prix des biens de luxe augmenteront avec une probabilité de 20 % au lieu des 10 % normaux.
+- Dans une région dotée d'un port, les prix des biens de luxe augmenteront avec une probabilité de 20 % au lieu des 10 % normaux.
 - Un port ne fonctionnera que s’il est entièrement construit.
   Il ne peut y avoir qu'un seul port par région. Celui qui termine un port en premier en est le propriétaire.
   Un port à moitié terminé peut être détruit avec l'ordre [`DESTROY`][cmd-destroy-fr].
@@ -237,10 +237,10 @@ Le coût **total** d'una académie (de taille 25) est de : 125 pierres, 125 bois
 
 Le coût **total** d'una académie (de taille 25) est de : 250 pierres, 150 bois, 150 fer, 100 mallorn, 100 laen, 25000 silver.  
 
-- Dans une tour de mage, un mage régénère 75 % d'aura en plus.
+- Dans une tour de mage, un mage régénère 75 % d'aura en plus.
 - La puissance de chaque sort lancé à l’intérieur d’une tour de mage est augmentée comme si le sort était lancé d’un niveau supérieur.
 - Les erreurs arrivent beaucoup moins souvent.
-- Le bâtiment lui-même a une résistance à la magie augmentée de 40%.
+- Le bâtiment lui-même a une résistance à la magie augmentée de 40 %.
 - Une tour de mage ne fonctionnera que si elle est entièrement construite !
 
 ## Caravansérail
@@ -308,7 +308,7 @@ Le coût **total** d'un tunnel (de taille 100) est de : 1000 pierres, 500 bois, 
 |--------------------------------------|:-------------:|:----------------------------:|:-----------:|--------------------------|
 | 4 pierres, 3 bois, 1 fer, 200 silver |       2       | 5 silver par point de taille |     --      | *taille du bâtiment*     |
 
-- Les unités à l'intérieur d'une auberge se régénèrent 50 % plus rapidement.
+- Les unités à l'intérieur d'une auberge se régénèrent 50 % plus rapidement.
 - Toutes les personnes à l'intérieur d'une auberge ont besoin de 14 silver par semaine pour vivre au lieu des 10 normales.
 
 [](){ #monument-fr-id }
@@ -342,9 +342,9 @@ Le coût **total** d'un Cercle de Pierres (de taille 100) est de : 500 pierres, 
   Cela développe alors des effets étranges.
   Entre autres choses, il semble attirer les chevaux elfiques extrêmement rares.
   De plus, les mages présents dans le bâtiment peuvent interrompre la connexion entre l'Astral et le monde réel.
-- Dans un Cercle de Pierres béni, un mage régénère 50 % d’aura en plus.
+- Dans un Cercle de Pierres béni, un mage régénère 50 % d’aura en plus.
 - La puissance de tout sort lancé dans un Cercle de Pierres béni augmente comme si le sort avait été lancé avec un niveau supplémentaire.
-- Les occupants ont 30% de résistance à la magie supplémentaire.
+- Les occupants ont 30 % de résistance à la magie supplémentaire.
 - Un Cercle de Pierres ne fonctionnera que s’il est entièrement construit et béni !
 
 ## Voir aussi

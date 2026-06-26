@@ -215,7 +215,11 @@ The vast majority includes races and combat rules.
 - Only one herb grows per region, which has to grow back and is no longer available indefinitely
 - The command `GROW HERBS` is introduced, alternatively the command also works `GROW FLOWERS`
 - The university is renamed the academy
-- Der Kalender wird verändert. Statt in Monaten wird nun in Wochen gerechnet. Ein Jahr besteht aus 9 Monaten mit je 3 Wochen. Die Monate sind: Eiswind, Schneebann, Blütenregen, Mond der milden Winde, Sonnenfeuer, Feldsegen, Nebeltage, Sturmmond und Herdfeuer. Als Winter (für die Insektenrekrutierung wichtig) gelten Herdfeuer, Eiswind und Schneebann. In den Monaten Schneebann, Nebeltage und Sturmmond toben die Stürme auf See besonders heftig. Die Auswirkung von Stürmen wird verändert: ein Schiff, welches in einen Sturm gerät, steht jetzt vor größeren Problemen als bisher.
+- The calendar is changed. Instead of months, calculations are now made in weeks. A year consists of 9 months with 3 weeks each.
+  The [months][months] are: Icewind, Snowbane, Flowerrain, Mild Winds, Sunfire, Harvest Moon, Impenetrable Fog, Storm Moon and Hearth Fire.
+  Winter (important for insect recruitment) includes hearth fires, ice winds and snow bans.
+  In the months of snow bans, foggy days and storm moon, the storms at sea are particularly violent.
+  The impact of storms is changed: a ship caught in a storm now faces greater problems than before.
 - The orders `DELIVER` , `RESERVE` and `//` are now carried out until contrary orders are received for a unit. For example, if the player has an NMR, these commands will still be executed
 - Farmer's Blood affects 100 demons in a region, no longer just one unit
 - Familiars and the astral space are introduced

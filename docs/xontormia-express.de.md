@@ -31,6 +31,7 @@ Die Mailadresse, an die jeder Spieler Artikel schicken kann ist [express@eressea
 
 Ein **Beispielartikel** könnte so aussehen:
 
+```text
     == 13. Welt ==
 
     === Krieg in der 13. Welt ===
@@ -48,8 +49,9 @@ Ein **Beispielartikel** könnte so aussehen:
     Inhalt.
 
     Gibli der Schreiber-Goblin
+```
 
-## Archiv des Xontromia Express
+## Archiv des Xontormia Express
 
 Das Archiv der vergangenen Ausgaben befindet sich [an dieser Stelle][Archiv].
 

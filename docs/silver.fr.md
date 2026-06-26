@@ -63,7 +63,7 @@ De plus, les unités affamées voient leur niveau de compétence chuter de moiti
 Cependant, les unités affamées ou blessées peuvent encore exécuter des ordres longs.  
 
 Au fil du temps, les unités blessées se rétablissent.  
-Les unités régénèrent normalement 5 % de leurs points de vie maximum par tour (certains peuples davantage), avec un minimum d'un point par personne dans l'unité.  
+Les unités régénèrent normalement 5 % de leurs points de vie maximum par tour (certains peuples davantage), avec un minimum d'un point par personne dans l'unité.  
 Les unités de Morts-vivants ne se régénèrent pas  
 
 La compétence de [voile][skill-voile-id]{title="Sailing"} n'est réduite que d'un niveau lorsque les unités sont affamées.  
@@ -203,8 +203,8 @@ Le prix revient à la normale au tour suivant, les produits étant à nouveau di
 | [Épice][epice]{title="Spice"}     |      5       | 2 lbs |
 
 Le prix de vente d'un produit de luxe est un multiple du prix de base et est indiqué dans le rapport de la région.  
-Dès que plus d'1% des paysans ont acheté un produit au cours d'un tour, le prix de vente diminue du prix de base et n'augmente à nouveau que lentement au cours des semaines suivantes.  
-Chaque tour, il y a 10% de chances que le prix de vente de chaque produit de luxe augmente du prix de base.  
+Dès que plus de 1 % des paysans ont acheté un produit au cours d'un tour, le prix de vente diminue du prix de base et n'augmente à nouveau que lentement au cours des semaines suivantes.  
+Chaque tour, il y a 10 % de chances que le prix de vente de chaque produit de luxe augmente du prix de base.  
 Dans les régions où se trouve un [port][port], cette chance est de 20 %.  
 Si le prix de vente est déjà de 25 fois le prix de base, il n'augmentera pas davantage.  
 

@@ -20,7 +20,7 @@ alias: draigzauber
 
 `ZAUBERE [STUFE n] 'Kleine Flüche'`  
 
-### Verwünschun
+### Verwünschung
 
 :   Das Ziel des Zauberers wird von einer harmlosen Verwünschung heimgesucht.  
 

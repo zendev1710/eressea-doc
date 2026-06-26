@@ -445,7 +445,7 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 ### Erschaffe eine [Sphäre der Unsichtbarkeit][sphare-der-unsichtbarkeit-id]
 
 :   Mit diesem Spruch kann der Zauberer eine [Sphäre der Unsichtbarkeit][sphare-der-unsichtbarkeit-id] erschaffen.  
-    Die Späre macht ihren Träger sowie neunundneunzig weitere Personen in derselben Einheit unsichtbar.  
+    Die Sphäre macht ihren Träger sowie neunundneunzig weitere Personen in derselben Einheit unsichtbar.  
 
 | Mag. |                Komponenten                | Stufe |  Art   | Rang |            Schiff            | Fern. |
 |:----:|:-----------------------------------------:|:-----:|:------:|:----:|:----------------------------:|:-----:|
@@ -947,7 +947,7 @@ Und hast du alles zu ihrem Wohlgefallen getan, so werden sie einen niederen der 
 <div class="lore-dialogue">
 "In Weilersweide, nahe dem Wytharhafen, liegt ein kleiner Gasthof, der nur wenig besucht ist.
 Niemanden bekannt ist, das dieser Hof bis vor einigen Jahren die Bleibe des verbannten Wanderpredigers Grauwolf war.
-Nachdem er bei einer seiner berüchtigten flammenden Reden fast die gesammte Bauernschaft angeworben hatte, wurde er wegen Aufruhr verurteilt und verbannt.
+Nachdem er bei einer seiner berüchtigten flammenden Reden fast die gesamte Bauernschaft angeworben hatte, wurde er wegen Aufruhr verurteilt und verbannt.
 Nur zögerlich war er bereit mir das Geheimnis seiner Überzeugungskraft zu lehren."
 </div>
 
@@ -1009,7 +1009,7 @@ Aus 'Wanderungen' von Firudin dem Weisen.
 ### Kriegsgesang
 
 :   Wie viele magischen Gesänge, so entstammt auch dieser den altem Wissen der Katzen, die schon immer um die machtvolle Wirkung der Stimme wussten.  
-    Mit diesem Lied wird die Stimmung der Krieger aufgepeitscht, sie gar in wilde Raserrei und Blutrausch versetzt.  
+    Mit diesem Lied wird die Stimmung der Krieger aufgepeitscht, sie gar in wilde Raserei und Blutrausch versetzt.  
     Ungeachtet eigener Schmerzen werden sie kämpfen bis zum Tode und niemals fliehen.  
     Während ihre Attacke verstärkt ist achten sie kaum auf sich selbst.  
 

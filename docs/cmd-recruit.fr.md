@@ -5,7 +5,7 @@ alias: cmd-recruit-fr
 
 # `RECRUIT`
 
-**`RECRUIT`**` `*`number`*
+**`RECRUIT`**` `*`number`*  
 
 Cela implique l'embauche de nouvelles personnes parmi les agriculteurs de la région.  
 

@@ -5,7 +5,9 @@ alias: talentmodifikatoren
 
 # Talentmodifikatoren
 
-Die verschiedenen [Rassen][rassen] haben neben ihren Spezialfähigkeiten unterschiedliche Rekrutierungskosten und Modifikatoren auf [Talente][talente]. Diese sind in dieser Tabelle zusammengefasst. Im Report sind diese Modifikatoren bereits berücksichtigt, das heißt, es wird immer die effektive Stufe angezeigt.
+Die verschiedenen [Rassen][rassen] haben neben ihren Spezialfähigkeiten unterschiedliche Rekrutierungskosten und Modifikatoren auf [Talente][talente].  
+Diese sind in dieser Tabelle zusammengefasst.  
+Im Report sind diese Modifikatoren bereits berücksichtigt, das heißt, es wird immer die effektive Stufe angezeigt.  
 
 Rassenmodifikatoren
 

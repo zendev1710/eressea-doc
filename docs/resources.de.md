@@ -84,7 +84,7 @@ Bereits eingefangene Pferde vermehren sich nur, wenn eine Einheit mit dem Talent
 
 Spielererfahrung (Solthar):
 
-Diemaximale Anzahl Pferde in einer Region entspricht der Anzahl der [Arbeitsplätze] / 10.
+Die maximale Anzahl Pferde in einer Region entspricht der Anzahl der [Arbeitsplätze] / 10.
 
 In einer relativ leeren Region vermehren sie sich mit ca. 4%.
 Je näher sie dem Limit kommen, desto langsamer das Wachstum.

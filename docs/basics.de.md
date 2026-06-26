@@ -48,7 +48,7 @@ Unterhaltung und Steuern sind schneller gelernt als Handel, ARBEITE nur im Notfa
 
 Jedes Magiegebiet hat auf Stufe 1 einen Zauber der 50 Silber pro Zauberstufe erzeugt.
 Wenn deine Rasse keine Malus in Magie hat, kann sich das frühe ausbilden von Magiern als alternative Einnahmequelle lohnen.
-Doch vorsicht - Nicht jeder Zauber geligt auch.
+Doch vorsicht - Nicht jeder Zauber gelingt auch.
 
 ## Gegenstände und Silber benutzen
 

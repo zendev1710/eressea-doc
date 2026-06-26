@@ -77,12 +77,12 @@ Verhungerte Bauern können später als [Untote][untote] wiederauferstehen.
 
 ### Arbeiten
 
-Geld können Einheiten mit dem Befehl [`ARBEITE`][bef-arbeite] in der Landwirtschaft verdienen.
-Je größer allerdings die Wälder in einer Region sind, um so weniger bebaubare Fläche gibt es, und um so weniger Bauern (und auch Spielereinheiten) können arbeiten: pro Baum können acht Bauern oder Spieler nicht mehr arbeiten, jeder Schössling belegt 4 Arbeitsplätze.
-Wie viele Personen maximal, d.h. ohne jeglichen Wald, in einer Region arbeiten (nicht wohnen) können, hängt vom Terrain ab (siehe die Tabelle beim Befehl [`ARBEITE`][bef-arbeite]).
+Geld können Einheiten mit dem Befehl [`ARBEITE`][bef-arbeite] in der Landwirtschaft verdienen.  
+Je größer allerdings die Wälder in einer Region sind, um so weniger bebaubare Fläche gibt es, und um so weniger Bauern (und auch Spielereinheiten) können arbeiten: pro Baum können acht Bauern oder Spieler nicht mehr arbeiten, jeder Schössling belegt 4 Arbeitsplätze.  
+Wie viele Personen maximal, d.h. ohne jeglichen Wald, in einer Region arbeiten (nicht wohnen) können, hängt vom Terrain ab (siehe die Tabelle beim Befehl [`ARBEITE`][bef-arbeite]).  
 
 Ein Bauer verdient normalerweise 11 Silber pro Runde.  
-Dieser Lohn kann sich durch den Bonus einer Zitadelle bis auf 16 Silber pro Bauer und Runde erhöhen (s.a. die [Burgen-Tabelle][ubersicht]). Wird z.B. eine Zitadelle in einer Ebene errichtet und ist der Wald abgeholzt, können 10000 Bauern in einer Runde sich selber ernähren und weitere 60000 Silber werden dem Regionssilber hinzugefügt.
+Dieser Lohn kann sich durch den Bonus einer Zitadelle bis auf 16 Silber pro Bauer und Runde erhöhen (s.a. die [Burgen-Tabelle][ubersicht]). Wird z.B. eine Zitadelle in einer Ebene errichtet und ist der Wald abgeholzt, können 10000 Bauern in einer Runde sich selber ernähren und weitere 60000 Silber werden dem Regionssilber hinzugefügt.  
 
 Arbeitende Einheiten von Spielern verdienen jedoch weniger - schließlich sind sie nur Hilfsarbeiter.  
 Wie viel sie verdienen können (meist 1 Silber weniger als Bauern), ist zum einen im Report angegeben, zum anderen kann man das in der Tabelle beim Befehl [`ARBEITE`][bef-arbeite] nachlesen.

@@ -167,10 +167,11 @@ En contrepartie, un enseignant enseigne toujours 2 unités et dispose ainsi de 1
 
 ### Analyse de la chaîne d'apprentissage
 
-Quatre facteurs jouent un rôle lors de l’évaluation d’une chaîne d’apprentissage : Lequel*Vitesse*est-ce qu'elle apprend (mesurée en tentatives d'apprentissage/semaine) ? Comme*efficace*est-ce vrai, c'est-à-dire de combien de temps les gens disposent-ils pour faire autre chose que étudier ? Combien*Unités*as-tu besoin ? Combien*les gens*as-tu besoin ?
-Les jeunes partis, par exemple, ne peuvent pas construire de pyramides à cinq niveaux parce qu'ils n'ont pas beaucoup de monde.
-Les partis plus âgés doivent simplifier leurs chaînes en raison de la limite d'unités.
-Les unités de production veulent avoir beaucoup de temps pour travailler et n'apprendre que lorsque cela en vaut vraiment la peine, etc. Avec quelques simplifications et un peu de mathématiques, vous pouvez facilement analyser les chaînes d'apprentissage concernant ces quatre facteurs.
+Quatre facteurs jouent un rôle lors de l’évaluation d’une chaîne d’apprentissage : Lequel*Vitesse*est-ce qu'elle apprend (mesurée en tentatives d'apprentissage/semaine) ? Comme*efficace*est-ce vrai, c'est-à-dire de combien de temps les gens disposent-ils pour faire autre chose que étudier ? Combien*Unités*as-tu besoin ? Combien*les gens*as-tu besoin ?  
+Les jeunes partis, par exemple, ne peuvent pas construire de pyramides à cinq niveaux parce qu'ils n'ont pas beaucoup de monde.  
+Les partis plus âgés doivent simplifier leurs chaînes en raison de la limite d'unités.  
+Les unités de production veulent avoir beaucoup de temps pour travailler et n'apprendre que lorsque cela en vaut vraiment la peine, etc.  
+Avec quelques simplifications et un peu de mathématiques, vous pouvez facilement analyser les chaînes d'apprentissage concernant ces quatre facteurs.
 
  **Simplifications :**
 
@@ -247,33 +248,34 @@ Maintenant en voici un **Aperçu de l’analyse de la chaîne d’apprentissage*
 
 ### Autres influences sur la vitesse
 
-Les analyses ci-dessus montrent comment gagner plus de temps sur 100% en utilisant les leçons et en acceptant généralement une réduction de la vitesse d'apprentissage.
-Cependant, pour certaines compétences, il est extrêmement important de les maîtriser au mieux tout en étant capable d'enseigner à suffisamment d'élèves.
-L'objectif est donc d'augmenter la vitesse d'apprentissage au-dessus de 100 % (= toujours apprendre sans professeur).
+Les analyses ci-dessus montrent comment gagner plus de temps sur 100 % en utilisant les leçons et en acceptant généralement une réduction de la vitesse d'apprentissage.  
+Cependant, pour certaines compétences, il est extrêmement important de les maîtriser au mieux tout en étant capable d'enseigner à suffisamment d'élèves.  
+L'objectif est donc d'augmenter la vitesse d'apprentissage au-dessus de 100 % (= toujours apprendre sans professeur).  
 
-L'augmentation grâce à l'académie et à la cire cérébrale est connue.
-Ils ont chacun un effet d'un tiers lors de l'apprentissage sans professeur, c'est-à-dire que les deux aboutissent ensemble à une vitesse d'apprentissage de 166 %.
+L'augmentation grâce à l'académie et à la cire cérébrale est connue.  
+Ils ont chacun un effet d'un tiers lors de l'apprentissage sans professeur, c'est-à-dire que les deux aboutissent ensemble à une vitesse d'apprentissage de 166 %.  
 
-D'autres facteurs d'influence qui augmentent la vitesse d'apprentissage maximale sont les courses, le terrain et les familiers.
-Cela profite du fait que la compétence fluctue en fonction de la « condition » et qu'en changeant la condition, une unité peut passer d'un enseignant à un élève.
-Le meilleur exemple en est les insectes, qui peuvent développer toutes les compétences en combinaison avec d'autres peuples.
+D'autres facteurs d'influence qui augmentent la vitesse d'apprentissage maximale sont les courses, le terrain et les familiers.  
+Cela profite du fait que la compétence fluctue en fonction de la « condition » et qu'en changeant la condition, une unité peut passer d'un enseignant à un élève.  
+Le meilleur exemple en est les insectes, qui peuvent développer toutes les compétences en combinaison avec d'autres peuples.  
 
-Sans trop entrer dans les détails, notons que la vitesse d’apprentissage maximale des meilleures unités peut dépasser 100 %.
-Les considérations ci-dessus doivent donc être développées.
+Sans trop entrer dans les détails, notons que la vitesse d’apprentissage maximale des meilleures unités peut dépasser 100 %.  
+Les considérations ci-dessus doivent donc être développées.  
 
 #### 5 pyramide
 
-Supposons une académie et des ressources intellectuelles pour les 6 unités d'enseignants.
-On obtient donc 5/3=166%.
-Lors de l'enseignement il n'y a pas de progrès dans l'apprentissage (élèves non scolarisés) donc 0/3 = 0% dans ce cas.
-Un professeur enseigne, 5 apprentissage -> 1/6*0/3 + 5/6*5/3 = 0 + 25/18 = 139 %.
-Le niveau suivant comportant 3 unités d'enseignement est divisé en 2 apprentissages et 1 enseignement : 2/3*6/3 + 1/3*0% = 4/3 = 133% C'est légèrement plus lent, mais finalement plus rapide car chaque niveau a environ 10 % de moins à apprendre, comme mentionné ci-dessus.
-Un à deux niveaux intermédiaires supplémentaires sont possibles, chacun multipliant par cinq le nombre d'étudiants possibles.
+Supposons une académie et des ressources intellectuelles pour les 6 unités d'enseignants.  
+On obtient donc 5/3=166 %.  
+Lors de l'enseignement il n'y a pas de progrès dans l'apprentissage (élèves non scolarisés) donc 0/3 = 0 % dans ce cas.  
+Un professeur enseigne, 5 apprentissage -> 1/6 x 0/3 + 5/6 x 5/3 = 0 + 25/18 = 139 %.  
+Le niveau suivant comportant 3 unités d'enseignement est divisé en 2 apprentissages et 1 enseignement : 2/3 x 6/3 + 1/3 x 0 % = 4/3 = 133 %.  
+C'est légèrement plus lent, mais finalement plus rapide car chaque niveau a environ 10 % de moins à apprendre, comme mentionné ci-dessus.  
+Un à deux niveaux intermédiaires supplémentaires sont possibles, chacun multipliant par cinq le nombre d'étudiants possibles.  
 
-Si vous commencez avec deux unités au sommet, elles rempliront la moitié d’une académie – mais elles nécessitent également beaucoup de puissance cérébrale.
-Le premier niveau intermédiaire comprend alors 3 unités de 10 personnes chacune, le deuxième comporte 3 unités de 50 personnes chacune.
-Le troisième et sans doute dernier niveau intermédiaire compte 250 personnes par unité et peut donc former 2500 personnes d'un coup -à 200%, c'est à dire que les étudiants rattrapent leur retard.
-Sinon, il y en aurait 3750 qui pourraient être enseignés jusqu'à 133 %.
-c'est-à-dire qu'après avoir déduit quelques pourcentages pour les différences de niveaux, 4000 étudiants devraient être possibles.
+Si vous commencez avec deux unités au sommet, elles rempliront la moitié d’une académie – mais elles nécessitent également beaucoup de puissance cérébrale.  
+Le premier niveau intermédiaire comprend alors 3 unités de 10 personnes chacune, le deuxième comporte 3 unités de 50 personnes chacune.  
+Le troisième et sans doute dernier niveau intermédiaire compte 250 personnes par unité et peut donc former 2500 personnes d'un coup -à 200 %, c'est à dire que les étudiants rattrapent leur retard.  
+Sinon, il y en aurait 3750 qui pourraient être enseignés jusqu'à 133 %.  
+c'est-à-dire qu'après avoir déduit quelques pourcentages pour les différences de niveaux, 4000 étudiants devraient être possibles.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Optimierung\_Lernketten&oldid=3553] -->

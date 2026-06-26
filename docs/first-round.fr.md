@@ -7,65 +7,68 @@ alias: premier-tour
 
 ## Premier rapport
 
-<!-- TODO : find and copy here an english report extract -->
-Hier ist ein Beispiel, wie der erste Report (1-37wj.nr) aussehen kann, den du nach der Anmeldung vom Server bekommst:
+Voici ce à quoi pourrait ressembler un exemple de premier rapport (`1-37wj.nr`) envoyé par le serveur après inscription :
 
 ```text
-                Report für E2, Wednesday, 01. July 2009, 19:56
-   Wir schreiben die erste Woche des Monats Feldsegen im Jahre 1 des dritten
-                          Zeitalters. Es ist Sommer.
+            Report for Eressea, Wednesday, 01. July 2026, 19:56
+it's the first week of the month of harvest moon in the 1. year of the second
+                        age. It's summer.
 
-        Partei 37wj (37wj), Gobelins/Kein Magiegebiet (drac@example.de)
+    Faction 37wj (37wj), goblins/no magic school (drac@example.de)
+Remember to send your orders to eressea-server@kn-bremen.de with the subject
+                        ERESSEA 2 ORDERS.
 
-                          Dein Passwort lautet pwpw42.
+            Your faction has 1 person in 1 of 2500 possible units.
 
-        Bitte denke daran, deine Befehle mit dem Betreff ERESSEA 3 BEFEHLE an
-                     eressea-server@eressea.kn-bremen.de zu senden.
+        Options: REPORT COMPUTER TEMPLATE STATISTICS ZIPPED ADDRESSES
 
-   Die ersten beiden Züge mußt du abgeben, sonst wird deine Partei sofort
-               wieder gelöscht, um Karteileichen zu vermeiden.
+                                Notifications
 
-                  Deine Partei hat 1 Personen in 1 Einheiten.
+Your faction will be protected against attacks for the next 6 weeks.
 
-      Optionen: AUSWERTUNG COMPUTER ZUGVORLAGE STATISTIK ZIPPED ADRESSEN
-                             TALENTVERSCHIEBUNGEN
+                                Events
 
-                                  Ereignisse
+The password of this faction is 'pwpw42'.
 
-Das Passwort für diese Partei lautet pwpw42.
+                            Economy and Trade
 
-                               Aktueller Status
+Unit drac (drac) in Rivudrit (0,0) earns 10 silver.
+
+------------------------------------------------------------------------------
+
+Cabyn (0,0), Plain, 24/6 trees, 2308 peasants, 50000 Silver, 52 horses.
+To the northwest the ocean (-1,1), to the northeast the ocean (0,1), to the
+east the deserts of Budesodid (1,0), to the southeast the swamps of Bigecod
+(1,-1), to the southwest the highlands of Tavesrucal (0,-1) to the west the
+ocean (-1,0).
+
+The local market offers gem at a price of 5 silver. Traders can sell incense
+for 16 silver, silk for 6 silver, oil for 9 silver, myrrh for 10 silver, spice
+for 28 silver and balm for 12 silver.
+
+Statistics für Cabyn (0,0):
+
+  entertainment: max. 4198 silver
+  worker salary: 11 Silver
+  recruits: max. 57 peasants
+  people: 1
+  wood: 10
+  silver: 5000
+  stones: 10
+
+  Heimat (wvg3), size 10, Fortification.
+
+    * Unit vdko (vdko), 1 Goblin, aggressiv, has: 10 wood, 5000 silver,
+      10 stones, "WORK".
+------------------------------------------------------------------------------
+
+                             Political Status
 
 ------------------------------------------------------------------------------
 
-Cabyn (0,0), Ebene, 24/6 Bäume, 2308 zufriedene Bauern, 50000 Silver, 52
-Pferde. Die Region ist im Besitz von Partei 37wj (37wj). Im Nordwesten der
-Region liegt Ozean (-1,1), im Nordosten Ozean (0,1), im Osten die Wüste von
-Budesodid (1,0), im Südosten der Sumpf von Bigecod (1,-1), im Südwesten das
-Hochland von Tavesrucal (0,-1) und im Westen Ozean (-1,0)
+                                Addresses
 
-Auf dem Markt werden Juwelen und Flachwurz feilgeboten.
-
-Statistik für Cabyn (0,0):
-
-  Bauerneinnahmen: 11 Silver
-  Rekruten: max. 57 Bauern
-  Personen: 1
-  Holz: 10
-  Silver: 5000
-  Steine: 10
-
-  Heimat (wvg3), Größe 10, Befestigung.
-
-    * Entdecker (vdko), 1 Goblin, aggressiv, hat: 10 Holz, 5000 Silver, 10
-      Steine, "ARBEITEN".
-
-------------------------------------------------------------------------------
-                             Liste aller Adressen
-
-  * Partei 37wj (37wj): drac@example.de; (null)
-
-------------------------------------------------------------------------------
+  * Faction 37wj (37wj): drac@example.de;
 ```
 
 ## Exemple de fichier d'ordres
@@ -91,11 +94,11 @@ UNIT vdko;       Explorateur [1,5000$]
     NUMBER FACTION drac ; j'espère que l'id sera disponible
     OPTION SCORE; Affiché uniquement à partir du tour 13
     OPTION TALENTVERSCHIEBUNG
-    PREFIX Nebel
+    PREFIX Fog
     BANNER "C'est toujours agréable d'en avoir un."
     PASSWORD "Ne jamais consigner le mot de passe dans des documents publics"
     ; Nous avons déjà un château !
-    NAME BURG "Repaire du Dragon"
+    NAME CASTLE "Repaire du Dragon"
     DESCRIBE CASTLE "Au pied d'une falaise surplombant la mer, une \
     grotte creusée dans la roche. Un petit muret avec une tour de guet basse\
     protège l'intérieur. L'étroite entrée est flanquée de deux crânes empalés.\
@@ -103,8 +106,8 @@ UNIT vdko;       Explorateur [1,5000$]
     NAME REGION "Vallée du Dragon"
     ;
     ; Ça ne peut pas faire de mal...
-    LEARN Pferdedressur
-    ; j'aime paramétrer les propriétaires de châteaux sur « COMBAT NOT » 
+    LEARN Taming
+    ; j'aime paramétrer les propriétaires de châteaux sur « COMBAT NOT »
     ; pour qu'ils ne quittent pas accidentellement leur château en fuyant...
     COMBAT NOT
     ;
@@ -122,7 +125,7 @@ UNIT vdko;       Explorateur [1,5000$]
     END
     ;
     ; Il vous faut bien réfléchir avant d'engager trois mages, afin de vous assurer d'en avoir assez dès le premier tour.
-    ; Les mages sont généralement toujours un bon investissement, surtout les démons. 
+    ; Les mages sont généralement toujours un bon investissement, surtout les démons.
     ; Au besoin, ils disposent d'un sort pour gagner de l'argent, et ils apprennent même quelque chose au passage !
     GIVE TEMP dr02 460 Silver
     GIVE TEMP dr03 460 Silver
@@ -151,17 +154,17 @@ UNIT vdko;       Explorateur [1,5000$]
         COMBAT AGGRESSIVE
     END
     ;
-    ; Une fois qu'il aura atteint le niveau de compétence minimum, nous espérons déjà avoir commencé la production.
+    ; Une fois qu'il aura atteint le niveau de compétence minimum, espérons que la production aura commencé.
     ; bois ou fer
     GIVE TEMP dr06 66 Silver
     MAKE TEMP dr06
         NAME UNIT "Dragon gris"
         RECRUIT 1
-        LEARN Waffenbau
+        LEARN Weaponsmithing
         COMBAT FLEE
     END
     ;
-    ; Les châteaux contrôlent des régions, c'est pourquoi ils sont importants dès le début !
+    ; Les châteaux contrôlent des régions dans E3, c'est pourquoi ils sont importants dès le début !
     GIVE TEMP dr07 66 Silver
     MAKE TEMP dr07
         NAME UNIT "Dragon gris"
@@ -182,7 +185,7 @@ UNIT vdko;       Explorateur [1,5000$]
         COMBAT FLEE
     END
     ;
-    ; Souhaitons-nous nous spécialiser le combat au corps à corps ou à distance,
+    ; Souhaitons-nous nous spécialiser dans le combat au corps à corps ou à distance,
     ; les arcs ou les arbalètes ? Il pourrait être dangereux de le faire trop tôt.
     GIVE TEMP dr10 660 Silver
     MAKE TEMP dr10
@@ -197,7 +200,7 @@ UNIT vdko;       Explorateur [1,5000$]
     MAKE TEMP dr11
         NAME UNIT "Dragon des cavernes"
         RECRUIT 3
-        LEARN Mininh
+        LEARN Mining
         // comme éclaireurs dans les régions voisines
         COMBAT FLEE
     END
@@ -234,7 +237,7 @@ UNIT vdko;       Explorateur [1,5000$]
     ;
     ; Nous avons absolument besoin de recruter des artistes dès maintenant !
     ; ...
-    ; Peut-être devrions-nous aussi former de la cavalerie (pour le transport des pierres !), des charrons,
+    ; Peut-être devrions-nous aussi former de la cavalerie (pour le transport des pierres !), des chariots,
     ; des armuriers, voire davantage de soldats ? Par ailleurs, il ne faut pas
     ; se surestimer au début et veiller scrupuleusement à ne pas se retrouver soudainement en faillite !
 NEXT

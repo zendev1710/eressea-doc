@@ -23,7 +23,7 @@ Wenn die Einstellungen einmal vorgenommen wurden, kann man auch direkt über `Da
 **Benutzername:** Dein Benutzername beim Mailanbieter  
 **Passwort:** Passwort vom Mailanbieter, **nicht** das Eressea-Befehlspasswort  
 **Empfängeradresse:** <eressea-server@eressea.kn-bremen.de>  
-**Subject:** ERESSEA 2 BEFEHLE  
+**Betreff:** ERESSEA 2 BEFEHLE  
 **CC:** Optional, zum Beispiel die eigene Adresse  
 **Kopie an Absender:** Sendet die Befehle auch an Absendeadresse  
 **Verwende SSL/TLS:** Emailverschlüsselung; sollte möglichst ausgewählt werden, wenn vom Mailanbieter unterstützt (im Zweifel einfach ausprobieren)  
@@ -32,7 +32,7 @@ Authentifizierung verwenden
 in der Regel nötig  
 
 **immer nachfragen:** Fragt das Mailanbieter-Passwort bei jedem Senden ab, es muss dann auch nicht in Magellan gespeichert werden  
-**Verwende Werte vom CR:** Füllt Empfängeradresse und Subject automatisch, wenn die Daten im CR stehen
+**Verwende Werte vom CR:** Füllt Empfängeradresse und Betreff automatisch, wenn die Daten im CR stehen
 
 Für einige bekannte Mailanbieter folgen hier die benötigten Werte, soweit derzeit bekannt:
 

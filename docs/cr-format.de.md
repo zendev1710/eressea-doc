@@ -15,12 +15,12 @@ Je nach Spiel und Version können unterschiedliche Blocks in einer Datei enthalt
 Es ist durchaus legitim, eine Teilmenge der Blocks zu erzeugen, etwa um aus einem vollständigen Report 'nur' eine Karte zu machen.
 
 Blocks werden durch ein einzelnes, nur aus den Buchstaben A-Z bestehendes, groß geschriebenes Wort bezeichnet.  
-Blocks können eine Kennzeichnung haben, die aus einem oder mehreren vorzeichenbehafteten 32-bit integern besteht.  
+Blocks können eine Kennzeichnung haben, die aus einem oder mehreren vorzeichenbehafteten 32-Bit-Integern besteht.  
 Die ids sind eindeutig, jede darf in einem CR also pro Block nur einmal erscheinen.  
 Auf die id kann ein mit ';' abgetrennter Kommentar folgen, dies sollte jedoch vermieden werden.
 
 Blocks ohne id sind immer Subblocks des letzten vorangegangenen Blocks mit id.  
-Ein Block dieses Typs darf mehrfach vorkommen, jedoch nur einmal pro übergeordentem Block (Sie sind sozusagen eindeutig in Bezug auf die id des Oberblocks).
+Ein Block dieses Typs darf mehrfach vorkommen, jedoch nur einmal pro übergeordnetem Block (Sie sind sozusagen eindeutig in Bezug auf die id des Oberblocks).
 
 Beispiele:
 

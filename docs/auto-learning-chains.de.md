@@ -10,7 +10,7 @@ Details zur Bewertungsfunktion, Selektion, Rekombination oder Mutation sind nich
 
 [Teacher Plugin]
 
-Darüber hinaus gibt es andere oft Bündnissinterne Tools und Skriptsammlungen, die ebenfalls eine Automatisierung der Lehrer-Schüler Beziehungen vornehmen.
+Darüber hinaus gibt es andere, oft Bündnisinterne Tools und Skriptsammlungen, die ebenfalls eine Automatisierung der Lehrer-Schüler Beziehungen vornehmen.
 Dies geschieht meist nach "Zuordnungsregeln" oder mittels Suchverfahren wie A\*-Suche.
 Suchverfahren sind jedoch aufgrund der exponentiell wachsenden Zahl der Kombinationsmöglichkeiten nur bedingt geeignet und schneiden vermutlich hinsichtlich Performance schlechter ab als ein Genetischer Algorithmus
  Ein Vergleich der Qualität der gefundenen Lösungen steht noch aus.

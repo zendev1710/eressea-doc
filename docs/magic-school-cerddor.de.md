@@ -230,7 +230,7 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 ### Kriegsgesang
 
 :   Wie viele magischen Gesänge, so entstammt auch dieser den altem Wissen der Katzen, die schon immer um die machtvolle Wirkung der Stimme wussten.  
-    Mit diesem Lied wird die Stimmung der Krieger aufgepeitscht, sie gar in wilde Raserrei und Blutrausch versetzt.  
+    Mit diesem Lied wird die Stimmung der Krieger aufgepeitscht, sie gar in wilde Raserei und Blutrausch versetzt.  
     Ungeachtet eigener Schmerzen werden sie kämpfen bis zum Tode und niemals fliehen.  
     Während ihre Attacke verstärkt ist achten sie kaum auf sich selbst.  
 
@@ -421,7 +421,7 @@ Auch kann sie nur das erzählen, was sie selber sehen könnte.
 <div class="lore-dialogue">
 "In Weilersweide, nahe dem Wytharhafen, liegt ein kleiner Gasthof, der nur wenig besucht ist.  
 Niemanden bekannt ist, das dieser Hof bis vor einigen Jahren die Bleibe des verbannten Wanderpredigers Grauwolf war.  
-Nachdem er bei einer seiner berüchtigten flammenden Reden fast die gesammte Bauernschaft angeworben hatte, wurde er wegen Aufruhr verurteilt und verbannt.  
+Nachdem er bei einer seiner berüchtigten flammenden Reden fast die gesamte Bauernschaft angeworben hatte, wurde er wegen Aufruhr verurteilt und verbannt.  
 Nur zögerlich war er bereit mir das Geheimnis seiner Überzeugungskraft zu lehren."
 </div>
 

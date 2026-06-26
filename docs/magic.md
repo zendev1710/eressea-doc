@@ -67,7 +67,7 @@ With each level the unit gains in magic, it can gain new spells.
 There is currently one spell in each level, in exceptional cases several or none at all.
 Once you have reached a new level, the sayings are described in the evaluation.
 If you have forgotten the description, you can have it shown again using the [`SHOW`][cmd-show] command.
-
+<!-- TODO: translate in english -->
 ```text
 Eine so angezeigte Spruchbeschreibung sieht ungefähr so aus:
 

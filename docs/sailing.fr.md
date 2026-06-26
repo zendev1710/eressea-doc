@@ -107,16 +107,16 @@ Exemple : Un bateau avec une capitaine aquarien est endommagé à 17 %.
 - La capacité est donc réduite (50 x 0,83 = 41,5 arrondir vers le bas) à 41 lbs
 - La portée (1 + 2 x 0,83 = 2,49 arrondir à l'unité supérieure) reste donc à 3
 
-Si un bateau subit 100% de dégâts, il coule avec son équipage et ses passagers.  
+Si un bateau subit 100 % de dégâts, il coule avec son équipage et ses passagers.  
 
 Lors des événements suivants, un bateau subit des dommages :
 
-- le bateau est engagé dans un combat : 0%-20% de dommages (voir [combat naval][combats-a-bord-et-depuis-les-bateaux])
+- le bateau est engagé dans un combat : \[0-20\] % de dommages (voir [combat naval][combats-a-bord-et-depuis-les-bateaux])
 - le bateau est endommagé par un sort puissant (jusqu'à 90 %)
 - le bateau subit des dommages à cause des raz-de-marée (50 %)
-- si le bateau heurte des écueils, il subit 10% de dégâts (heurter des écueils : tenter d'accoster dans une région inadaptée)
+- si le bateau heurte des écueils, il subit 10 % de dégâts (heurter des écueils : tenter d'accoster dans une région inadaptée)
 - en mer avec un équipage insuffisant, 30 % de dommages
-- si le bateau est sans propriétaire, il subit 5% de dommages
+- si le bateau est sans propriétaire, il subit 5 % de dommages
 - Si le bateau dérive (comme suite à une tempête), il subit 2 % de dommages
 
 Un bateau peut être réparé avec l'ordre [`MAKE`&nbsp;&#91;`level`&#93;&nbsp;`SHIP`&nbsp;&#91;`ship id`&#93;][cmd-make-fr], exactement comme lorsque sa construction n'était pas encore achevée.  

@@ -11,21 +11,24 @@ Ein so großes und komplexes Programm wie Eressea beinhaltet unausweichlich Fehl
 
 **Wer damit nicht leben kann, sollte Eressea nicht spielen!**
 
-Es ist nicht möglich, für einen einzelnen Spielenden eine Runde nochmals auszuwerten. Eine neue Auswertung wird nur dann gemacht, wenn der Fehler viele Parteien schwerwiegend betraf.
+Es ist nicht möglich, für einen einzelnen Spielenden eine Runde nochmals auszuwerten.  
+Eine neue Auswertung wird nur dann gemacht, wenn der Fehler viele Parteien schwerwiegend betraf.  
 
-Ebenso ist es nicht immer möglich, durch Fehler aufgetretene Verluste u.ä. auszugleichen bzw. zu ersetzen, besonders dann nicht, wenn Personen oder Gegenstände wie Schiffe oder Gebäude verloren gingen.
+Ebenso ist es nicht immer möglich, durch Fehler aufgetretene Verluste u.ä. auszugleichen bzw. zu ersetzen, besonders dann nicht, wenn Personen oder Gegenstände wie Schiffe oder Gebäude verloren gingen.  
 
-Es liegt alleine im Ermessen der Spielleitung, betroffenen Spielern Ersatz, z.B. in Form von Silber, zu geben. Gerade kleinere Fehler betreffen oftmals viele Parteien, so dass es sich im Großen und Ganzen von alleine ausgleicht.
+Es liegt alleine im Ermessen der Spielleitung, betroffenen Spielern Ersatz, z.B. in Form von Silber, zu geben.  
+Gerade kleinere Fehler betreffen oftmals viele Parteien, so dass es sich im Großen und Ganzen von alleine ausgleicht.
 
-Alle Spielenden sind angehalten, auftretende Fehler der Spielleitung zu melden, auch und besonders dann, wenn sie davon Vorteile haben. Dazu eignet sich am best ein [Bugreport][bugreport] auf [Mantis] mit dem betreffenden Ausschnitt des Reports und einer Erklärung.
+Alle Spielenden sind angehalten, auftretende Fehler der Spielleitung zu melden, auch und besonders dann, wenn sie davon Vorteile haben.  
+Dazu eignet sich am best ein [Bugreport][bugreport] auf [Mantis] mit dem betreffenden Ausschnitt des Reports und einer Erklärung.  
 
 ## Bugreport
 
 Eressea ist nicht fehlerfrei, doch es hat sehr wenige Fehler. Wenn man meint, einen Fehler gefunden zu haben, gehe man wie folgt vor:
 
 1. Überprüfe nochmal genau, ob der Fehler im Programm liegt. Manchmal hat man einfach eine Kleinigkeit übersehen.
-2. Lies die Mails in der Liste "E-Announce", die Bugreports in Mantis oder den Kanal \#general im [Discord]: manchmal wurde der Fehler schon gefunden, und deine Meldung wäre überflüssig.
-3. Überlege dir, wie es wohl zu dem Fehler kam. Stelle alles notwendige dafür zusammen. Starte einen neuen Bureport in [Mantis]. Er sollte folgendes enthalten:
+2. Lies die Mails in der Liste "E-Announce", die Bugreports in Mantis oder den Kanal \#General im [Discord]: manchmal wurde der Fehler schon gefunden, und deine Meldung wäre überflüssig.
+3. Überlege dir, wie es wohl zu dem Fehler kam. Stelle alles notwendige dafür zusammen. Starte einen neuen Bugreport in [Mantis]. Er sollte folgendes enthalten:
     1. Deine Parteinummer
     2. Nummern der betroffenen Einheiten, Schiffe oder anderer Objekte
     3. Meldungen aus dem Report, welche für das Ereignis relevant sind

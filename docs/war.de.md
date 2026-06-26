@@ -44,7 +44,7 @@ Dann hilft A weder B noch C, denn keiner von ihnen gilt als alliiert, und keiner
 
 **Beispiel 4:** A und B attackieren C. Dann helfen sie sich gegen C (auch, wenn sie nicht alliiert sind), da sie ja einen gemeinsamen Feind haben.
 
-Spielererfahrung:Es ist eigentlich noch ein bisschen komplizierter.
+Spielererfahrung: Es ist eigentlich noch ein bisschen komplizierter.
 
 !!! warning "Achtung"
     Falsch gesetzte Helfe-Stati oder ATTACKIERE-Befehle haben schon so manchen Kampf ganz anders ausgehen lassen, als es erwartet wurde.  
@@ -75,7 +75,8 @@ Für weitere Informationen über die Kampfstati siehe [KÄMPFE][`KÄMPFE`].
 1. Reihe: Hier stehen alle Einheiten, die [`KÄMPFE`] oder [`KÄMPFE AGGRESSIV`][`KÄMPFE`] gesetzt haben.
 2. Reihe: Hier stehen alle Einheiten, die [`KÄMPFE HINTEN`][`KÄMPFE`] oder [`KÄMPFE DEFENSIV`][`KÄMPFE`] gesetzt haben.
 3. Reihe: Hier stehen alle Einheiten, die [`KÄMPFE NICHT`][`KÄMPFE`] gesetzt haben.
-4. Reihe: Hier stehen alle Einheiten, die gerade versuchen, zu fliehen. Also die, die [`KÄMPFE FLIEHE`][`KÄMPFE`] gesetzt haben und solche, die entsprechend viele Trefferpunkte verloren haben (siehe auch [Flucht][die-flucht]).
+4. Reihe: Hier stehen alle Einheiten, die gerade versuchen, zu fliehen.  
+   Also die, die [`KÄMPFE FLIEHE`][`KÄMPFE`] gesetzt haben und solche, die entsprechend viele Trefferpunkte verloren haben (siehe auch [Flucht][die-flucht]).
 
 Nur die ersten beiden Kampfreihen nehmen aktiv am Kampf teil, können also zuschlagen, schießen und getroffen werden.
 Nicht kampfbereite Einheiten, die direkt angegriffen werden, nehmen erst am Kampf teil, wenn eine der vorderen Reihen überrannt wird.
@@ -88,9 +89,10 @@ Kampfzauber von Magiern können hinter und an der Front gezaubert werden; davon 
 
 ### Überrennen
 
-Hat eine Partei und ihre Verbündeten mehr als dreimal so viele Personen in der Frontreihe, wie ihre Gegner gegenüber, dann müssen alle gegnerischen Einheiten aus der 2. Reihe aufrücken. Die 1. Reihe wurde überrannt
-Die 3. Reihe rückt dann in die 2. Reihe vor und nimmt am Kampf teil.
-Befinden sich dann immer noch zu wenig Personen in der 1.Reihe, rücken die folgenden Reihen auf, bis wieder genug Personen in der 1. Reihe sind. Dieses Verhältnis wird vor jeder Kampfrunde überprüft.
+Hat eine Partei und ihre Verbündeten mehr als dreimal so viele Personen in der Frontreihe, wie ihre Gegner gegenüber, dann müssen alle gegnerischen Einheiten aus der 2. Reihe aufrücken. Die 1. Reihe wurde überrannt  
+Die 3. Reihe rückt dann in die 2. Reihe vor und nimmt am Kampf teil.  
+Befinden sich dann immer noch zu wenig Personen in der 1.Reihe, rücken die folgenden Reihen auf, bis wieder genug Personen in der 1. Reihe sind.  
+Dieses Verhältnis wird vor jeder Kampfrunde überprüft.  
 
 ## Die Musterung der Einheiten
 

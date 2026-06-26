@@ -15,7 +15,8 @@ Magellan ist ein vollständiger Client für Eressea. Man kann damit seine Karte 
 - Anzeige von Karte, Einheiten, Regionsdetails, und allen anderen Reporteigenschaften. Dabei kann die Anordnung der verschiedenen Fenster frei angepasst werden.
 - Umfangreicher Befehlseditor mit Autovervollständigung und Syntaxcheck.
 - Umfangreiche Vorhersagefunktionen etwa für Übergabe von Gegenständen und Routen.
-- Weitgehende Überprüfung der Befehle und Anzeige "Offener Probleme". Macht zusätzliche Werkzeuge wie [ECheck][echeck-de-id] überflüssig.
+- Weitgehende Überprüfung der Befehle und Anzeige "Offener Probleme".  
+  Macht zusätzliche Werkzeuge wie [ECheck][echeck-de-id] überflüssig.
 - Versand der Befehle per Email direkt aus dem Programm heraus.
 - Im- und Export von (Teil-)Reports und Karten zum Austausch mit anderen Spielern.
 - Schnelle Navigation durch Tastenkürzel, Suche nach Einheiten, Lesezeichen, ...
@@ -23,14 +24,17 @@ Magellan ist ein vollständiger Client für Eressea. Man kann damit seine Karte 
 - Alchemieplaner zur Übersicht über Kräuter und Tränke.
 - Weitgehende Einstellungsmöglichkeiten, um Magellan an die eigenen Vorlieben anzupassen.
 - Möglichkeit, Karten nach frei zu definierenden Kriterien einzufärben und zu beschriften, um zum Beispiel Übersicht über Handelsgüterverteilung, Bauernwachstum, Rohstoffverteilung oder andere Parteien zu erhalten.
-- Programmierschnittstelle ExtendedCommands, um die Befehle beliebig zu automatisieren.
+- Programmierschnittstelle Extendedcommands, um die Befehle beliebig zu automatisieren.
 - Plugins, mit denen die Möglichkeiten noch mehr erweitert werden können.
 
 Bugreports und Featurerequests zu Magellan bitte bitte auf unserem [Bugtracker] melden.
 
-Magellan bietet die Möglichkeit, Befehle direkt aus dem Programm zu verschicken. Was dazu gemacht werden muss, abhängig vom Provider, erklärt [Befehle von Magellan verschicken][befehle-von-magellan-verschicken].
+Magellan bietet die Möglichkeit, Befehle direkt aus dem Programm zu verschicken.  
+Was dazu gemacht werden muss, abhängig vom Provider, erklärt [Befehle von Magellan verschicken][befehle-von-magellan-verschicken].
 
-Eine ältere Version von Magellan ("Magellan 1") wird nicht mehr weiterentwickelt. Es hat zwar einen stabilen Zustand erreicht, aber neuere Entwicklungen des Servers sind dort nicht berücksichtigt. Auf Sourceforge liegt die letzte verfügbare Version.
+Eine ältere Version von Magellan ("Magellan 1") wird nicht mehr weiterentwickelt.  
+Es hat zwar einen stabilen Zustand erreicht, aber neuere Entwicklungen des Servers sind dort nicht berücksichtigt.  
+Auf Sourceforge liegt die letzte verfügbare Version.
 
 ## Externe Links
 

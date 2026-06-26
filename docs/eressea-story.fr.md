@@ -63,7 +63,7 @@ Un jour
 
 13.12.1998
 
-- Les bateaux à la dérive en mer sans équipage suffisant ont 33 % de chances de couler
+- Les bateaux à la dérive en mer sans équipage suffisant ont 33 % de chances de couler
 - Les monuments sans dirigeant s’effondrent lentement
 
 18.12.1998
@@ -209,8 +209,8 @@ La grande majorité de ces changements concerne les peuples et les règles de co
 - Les points de vie de toutes les unités sont doublés
 - Les dégâts des armes normales sont augmentés d'environ 25 %.
   Les armes à plusieurs composants et celles fabriquées à partir de matières premières rares augmentent davantage les dégâts
-- Les effets d'armure sont également augmentés d'environ 25 %
-- Les combattants à distance ont une probabilité de 33 % de trouver une cible dans les première et deuxième lignes, et une probabilité de 67 % de trouver uniquement une cible dans la première rangée. Autrefois, seul la première ligne était attaquée
+- Les effets d'armure sont également augmentés d'environ 25 %
+- Les combattants à distance ont une probabilité de 33 % de trouver une cible dans les première et deuxième lignes, et une probabilité de 67 % de trouver uniquement une cible dans la première rangée. Autrefois, seul la première ligne était attaquée
 - Les monstres peuvent avoir plusieurs attaques par tour de combat, c'est-à-dire qu'ils peuvent lancer des sorts plusieurs fois ou attaquer de manière conventionnelle plusieurs fois
 - En plus des sorts, les monstres peuvent également avoir d'autres attaques spéciales
 - Le souffle du dragon ne peut plus être arrêté par des sorts d'antimagie, car les dragons ne représentent autrement que peu de menace
@@ -219,7 +219,12 @@ La grande majorité de ces changements concerne les peuples et les règles de co
 - Une seule herbe pousse par région, qui doit repousser et n'est plus disponible indéfiniment
 - L'ordre `GROW HERBS` est introduit, alternativement l'ordre `GROW FLOWERS` fonctionne également
 - L'université est rebaptisée Académie
-- Der Kalender wird verändert. Statt in Monaten wird nun in Wochen gerechnet. Ein Jahr besteht aus 9 Monaten mit je 3 Wochen. Die Monate sind: Eiswind, Schneebann, Blütenregen, Mond der milden Winde, Sonnenfeuer, Feldsegen, Nebeltage, Sturmmond und Herdfeuer. Als Winter (für die Insektenrekrutierung wichtig) gelten Herdfeuer, Eiswind und Schneebann. In den Monaten Schneebann, Nebeltage und Sturmmond toben die Stürme auf See besonders heftig. Die Auswirkung von Stürmen wird verändert: ein Schiff, welches in einen Sturm gerät, steht jetzt vor größeren Problemen als bisher.
+- Le calendrier est modifié.
+  Au lieu de mois, les calculs se font désormais en semaines. Une année comprend 9 mois de 3 semaines chacun.
+  Les [mois][mois-et-saisons] sont : [Vent des Glaces][vent-des-glaces]{title="Icewind"}, [Neiges Envoûtantes][neiges-envoutantes]{title="Snowbane"}, [Pluies de Fleurs][pluies-de-fleurs]{title="Flowerrain"}, [Vents Doux][vents-doux]{title="Mild Winds"}, [Feu du Soleil][feu-du-soleil]{title="Sunfire"}, [Lune des Récoltes][lune-des-recoltes]{title="Harvest Moon"}, [Brouillard Impénétrable][brouillard-impenetrable]{title="Impenetrable Fog"}, [Lune des Tempêtes][lune-des-tempetes]{title="Storm Moon"}  et [Feu du Foyer][feu-du-foyer]{title="Hearth Fire"}.
+  L'hiver (important pour le recrutement des insectes) comprend des incendies de foyer, des vents glacials et des interdictions de neige.
+  Durant les mois d'interdiction de neige, de jours de brouillard et de lune de tempête, les tempêtes en mer sont particulièrement violentes.
+  L'impact des tempêtes est modifié : un bateau pris dans une tempête est désormais confronté à des problèmes plus graves qu'auparavant.
 - Les ordres `DELIVER`, `RESERVE` et `//` sont désormais exécutés jusqu'à ce que des ordres contraires soient reçus pour une unité. Par exemple, si le joueur provoque un NMR, ces ordres seront toujours exécutés
 - Le sang de paysans affecte 100 démons dans une région, et non plus une seule unité
 - Les familiers et l'Astral sont introduits dans le jeu

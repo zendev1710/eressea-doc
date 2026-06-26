@@ -158,19 +158,19 @@ S'il se trouve en 3e ou 4e ligne, son niveau est réduit de 1.
 Afin de laisser une part de "forme du jour" et de chance, chaque tacticien reçoit également un bonus aléatoire qui commence à 0 et qui, en théorie pure, peut devenir très important, la probabilité étant de plus en plus faible à mesure que le bonus augmente.  
 
 Le camp avec la meilleure valeur de tactique peut attaquer au tour 0 (appelé "tour du tacticien") sans que l'ennemi ne puisse attaquer.  
-Le nombre de coups portés dépend de la différence entre la meilleure valeur de tactique du camp gagnant et celle du camp perdant : pour chaque point de différence, chaque personne a 10 % de chances d'attaquer lors du tour du tacticien.
+Le nombre de coups portés dépend de la différence entre la meilleure valeur de tactique du camp gagnant et celle du camp perdant : pour chaque point de différence, chaque personne a 10 % de chances d'attaquer lors du tour du tacticien.
 
 **Exemple :**
 
 Le camp A a une personne avec Tactique 4 en première ligne.  
 Le camp B a 10 personnes avec Tactique 4 en troisième ligne.  
 Donc, le camp A a effectivement 5 et le camp B 3.  
-Sans le bonus aléatoire, chaque personne du camp A aurait 20% de chances d'attaquer lors du tour du tacticien.  
+Sans le bonus aléatoire, chaque personne du camp A aurait 20 % de chances d'attaquer lors du tour du tacticien.  
 Si la personne du camp A obtient un 0 en bonus, il faut qu'au moins une personne du camp B obtienne un 2.  
 Sinon, le camp A a le tour du tacticien.  
 Supposons que le meilleur résultat obtenu au jet par le camp B soit un 5 (c'est peu probable, mais tout à fait possible).  
 La différence pour le camp B est donc de (3 + 5) - (5 + 0) = 3.  
-Chaque personne du camp B a alors 30% de chances de frapper au tour 0.  
+Chaque personne du camp B a alors 30 % de chances de frapper au tour 0.  
 Pour un groupe de 10, cela peut aller de 0 à 10 personnes, mais la moyenne est d'environ 3 attaques.  
 
 ## Héros
@@ -191,10 +191,10 @@ Dans chaque bataille, les armées s'affrontent personne par personne, quel que s
 - L'attaque de l'attaquant et la parade du défenseur sont (au départ) aussi élevées que leur niveau de compétence en armes.
 - Ajouter des bonus/malus : A l'attaque de l'attaquant et à la parade du défenseur, on ajoute les éventuels [bonus et malus][bonus-et-malus].
 - Si l'attaquant est un combattant à distance, la valeur de parade de son adversaire ainsi modifiée est divisée par deux.
-- Les probabilités de base de toucher (BT) d'un attaquant sont de 30%.
-- Soustraire les valeurs les unes des autres : Pour chaque point de différence entre l'attaque de l'attaquant et la parade du défenseur, le BT est maintenant augmenté ou diminué de 5%.
-  La probabilité réelle de toucher se calcule donc comme suit : (Attaque(attaquant)-Parade(défenseur)) \* 5% + 30%.
-- Chance du débutant : si l'attaque échoue, l'attaquant a en plus 10% de chances de transformer son attaque : Il peut frapper une deuxième fois, avec une chance de toucher augmentée de 90 à 99% (hasard).
+- Les probabilités de base de toucher (BT) d'un attaquant sont de 30 %.
+- Soustraire les valeurs les unes des autres : Pour chaque point de différence entre l'attaque de l'attaquant et la parade du défenseur, le BT est maintenant augmenté ou diminué de 5 %.
+  La probabilité réelle de toucher se calcule donc comme suit : (Attaque(attaquant)-Parade(défenseur)) x 5 % + 30 %.
+- Chance du débutant : si l'attaque échoue, l'attaquant a en plus 10 % de chances de transformer son attaque : Il peut frapper une deuxième fois, avec une chance de toucher augmentée de 90 à 99 % (hasard).
   Les combattants fortement désavantagés ont ainsi la possibilité d'obtenir au moins quelques coups aléatoires.
 
 Chaque personne attaque une fois par tour de combat (sauf les [Héros][heros] et certains monstres).
@@ -325,8 +325,8 @@ Après tout, l'attaquant se trouve dans une très mauvaise situation car le déf
 
 Supposons cette fois-ci que le défenseur n'est pas dans la citadelle.  
 
-Chance de base de l'attaquant -> BC = 30%.  
-Compétence de l'attaquant 3, compétence du défenseur 4 -> chance de toucher = 25 %.  
+Chance de base de l'attaquant -> BC = 30 %.  
+Compétence de l'attaquant 3, compétence du défenseur 4 -> chance de toucher = 25 %.  
 Attaquant avec bonus de cheval -> attaque +2 -> chance de toucher = 35 %.  
 
 **Exemple 3 :**
@@ -394,8 +394,8 @@ Ils le font avant chaque round de combat, ils devront donc peut-être subir (plu
 
 Les unités **touchées au combat** tentent également de fuir si :
 
-- Elles sont au statut [`COMBAT`][cmd-combat-fr] ou [`COMBAT REAR`][cmd-combat-fr] et qu'**il ne leur reste que 20%** de points de vie (PV)
-- Elles sont au statut [`COMBAT DEFENSIVE`][cmd-combat-fr] ou [`COMBAT NOT`][cmd-combat-fr] et qu'**il ne leur reste que 90%** de leurs PV
+- Elles sont au statut [`COMBAT`][cmd-combat-fr] ou [`COMBAT REAR`][cmd-combat-fr] et qu'**il ne leur reste que 20 %** de points de vie (PV)
+- Elles sont au statut [`COMBAT DEFENSIVE`][cmd-combat-fr] ou [`COMBAT NOT`][cmd-combat-fr] et qu'**il ne leur reste que 90 %** de leurs PV
 
 Les coups dont les points de dégâts ont été entièrement absorbés par l'armure et les tentatives de coup ratées comptent également.  
 Ceci a pour but d'empêcher les unités déjà endommagées avant la bataille de fuir même si elles n'étaient pas réellement en danger.  

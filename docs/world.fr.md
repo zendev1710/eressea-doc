@@ -63,8 +63,8 @@ Chaque paysan prend un emploi, chaque pousse d'arbre en prend quatre et chaque a
 Bien que les arbres puissent pousser à l'infini sur n'importe quel type de terrain, dans une région très boisée, il n'y aura quasiment plus d'emplois.  
 Dans un glacier, très peu d'arbres suffisent à occuper presque tous les emplois, dans une plaine, il peut y avoir quelques centaines d'arbres et quelques milliers de paysans travaillant dans les champs.  
 Mais même une région très densément boisée produit encore suffisamment de fruits, de racines ou de champignons pour que quelques paysans puissent en vivre.  
-Ainsi, une petite partie des paysans trouve toujours un emploi dans la région : 10% du nombre maximal d'emplois dans une région, mais pas plus de 200, ne sont donc jamais bloqués par des arbres ou des pousses d'arbres.  
-Par exemple, dans une montagne où il y a 150 arbres, 100 paysans trouvent encore un emploi (10% du nombre maximal d'emplois), bien qu'il n'y ait plus d'emplois disponibles en raison des nombreux arbres (150 arbres x 8 emplois occupés = 1200 emplois occupés &gt; 1000 emplois disponibles au maximum).  
+Ainsi, une petite partie des paysans trouve toujours un emploi dans la région : 10 % du nombre maximal d'emplois dans une région, mais pas plus de 200, ne sont donc jamais bloqués par des arbres ou des pousses d'arbres.  
+Par exemple, dans une montagne où il y a 150 arbres, 100 paysans trouvent encore un emploi (10 % du nombre maximal d'emplois), bien qu'il n'y ait plus d'emplois disponibles en raison des nombreux arbres (150 arbres x 8 emplois occupés = 1200 emplois occupés &gt; 1000 emplois disponibles au maximum).  
 
 La seule différence entre une plaine et une forêt est le nombre d'arbres et de pousses d'arbres dans la région.  
 À partir d'un total de 600 arbres et/ou pousses, une plaine est considérée comme une forêt.  
@@ -101,7 +101,7 @@ De plus, la construction de routes dans les glaciers, les marais et les déserts
 De plus, le type de terrain détermine quelles [ressources][ressources] peuvent être trouvées dans la région et avec quelle chance.  
 Ainsi, dans les montagnes et les glaciers où aucune ressource n'a encore été extraite, on trouve toujours du fer et des pierres dès le niveau d'extraction 1.  
 Les montagnes ont cependant toujours nettement plus de ressources qu'un glacier.  
-Dans un volcan, un tailleur de pierres a 50% de chances de trouver des pierres au niveau d'extraction 1, de même qu'un mineur n'aura que 50% de chances d'y trouver du fer au niveau 1.  
+Dans un volcan, un tailleur de pierres a 50 % de chances de trouver des pierres au niveau d'extraction 1, de même qu'un mineur n'aura que 50 % de chances d'y trouver du fer au niveau 1.  
 Un volcan peut donc fournir des pierres et du fer de la même manière qu'une montagne, ou seulement l'une des deux ressources, voire par malchance aucune.  
 L'exploitation d'un volcan est bien sûr beaucoup plus dangereuse, car celui-ci peut entrer en éruption de temps en temps et causer des dommages considérables aux personnes qui se trouvent dans la région.  
 En résumé, on peut retenir que dans ces trois types de régions (montagnes, glaciers et volcans), on trouvera toujours des pierres et/ou du fer au niveau 1 - si tant est qu'il y en ait dans la région.  
@@ -259,17 +259,17 @@ Jusque tard dans la soirée, les gardes du temple pouvaient les voir déambuler 
 
 Dans le monde d'Eressea, l'année est divisée en neuf mois de trois semaines chacun.  
 
-| Mois                                               | Saison    | Fréquence des tempêtes |
-|----------------------------------------------------|-----------|-----------------------:|
-| [Lune des Récoltes][lune-des-recoltes]             | Été       |                  0.5 % |
-| [Vents Doux][vents-doux]                           | Printemps |                  0.5 % |
-| [Vent des Glaces][vent-des-glaces]                 | Hiver     |                  1.5 % |
-| [Feu du Foyer][feu-du-foyer]                       | Hiver     |                  2.5 % |
-| [Brouillard Impénétrable][brouillard-impenetrable] | Automne   |                    3 % |
-| [Neiges Envoûtantes][neiges-envoutantes]           | Hiver     |                    3 % |
-| [Pluies de Fleurs][pluies-de-fleurs]               | Printemps |                    3 % |
-| [Feu du Soleil][feu-du-soleil]                     | Été       |                    3 % |
-| [Lune des Tempêtes][lune-des-tempetes]             | Automne   |                    4 % |
+| Mois                                                                         | Saison    | Fréquence des tempêtes |
+|------------------------------------------------------------------------------|-----------|-----------------------:|
+| [Lune des Récoltes][lune-des-recoltes]{title="Harvest Moon"}                 | Été       |                  0.5 % |
+| [Vents Doux][vents-doux]{title="Mild Winds"}                                 | Printemps |                  0.5 % |
+| [Vent des Glaces][vent-des-glaces]{title="Icewind"}                          | Hiver     |                  1.5 % |
+| [Feu du Foyer][feu-du-foyer]{title="Hearth Fire"}                            | Hiver     |                  2.5 % |
+| [Brouillard Impénétrable][brouillard-impenetrable]{title="Impenetrable Fog"} | Automne   |                    3 % |
+| [Neiges Envoûtantes][neiges-envoutantes]{title="Snowbane"}                   | Hiver     |                    3 % |
+| [Pluies de Fleurs][pluies-de-fleurs]{title="Flowerrain"}                     | Printemps |                    3 % |
+| [Feu du Soleil][feu-du-soleil]{title="Sunfire"}                              | Été       |                    3 % |
+| [Lune des Tempêtes][lune-des-tempetes]{title="Storm Moon"}                   | Automne   |                    4 % |
 
 Chaque tour du jeu correspond à une semaine dans le monde.  
 Pendant ce temps, on peut faire beaucoup de choses.  

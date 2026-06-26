@@ -6,7 +6,10 @@ alias: transport-optimise
 
 ## Représentant de commerce
 
-Comme dans Eressea nous ne traitons pas seulement quelques unités mais un grand nombre d'entre elles, le problème des vendeurs ambulants se pose moins, car les transports ne vont souvent pas dans plusieurs régions en cercle, mais les demandes sont plutôt traitées en parallèle avec de nombreux transports individuels.  
+Comme dans Eressea nous ne traitons pas seulement quelques unités mais un grand nombre d'entre elles,
+le problème des vendeurs ambulants se pose moins,
+car les transports ne vont souvent pas dans plusieurs régions en cercle,
+mais les demandes sont plutôt traitées en parallèle avec de nombreux transports individuels.
 
 ## Chargement optimal
 
@@ -63,7 +66,7 @@ Cela ne vaut donc pas la peine d'étendre davantage "1 pierre".
 
 Ce type de calcul optimal est problématique car apparemment, tout nombre de rubis compris entre 0 et 100 est Pareto optimal.  
 Pire encore, toute combinaison de 1 à 6 pierres de 77 à 100 rubis et de 7 pierres de 77 à 80 rubis est Pareto optimale.  
-Malgré l'optimisation, nous devons étendre 100 + 6*24 + 4 = 248 états sur environ 900 états jusqu'à ce que nous puissions être sûrs de la solution que nous avons trouvée - ce qui n'est pas un bon résultat.  
+Malgré l'optimisation, nous devons étendre 100 + 6 x 24 + 4 = 248 états sur environ 900 états jusqu'à ce que nous puissions être sûrs de la solution que nous avons trouvée - ce qui n'est pas un bon résultat.  
 
 Cependant, une autre optimisation est possible.  
 Nous pouvons limiter les quantités de transport utilisées.  
@@ -103,10 +106,10 @@ Pour le premier groupe, cependant, une prime d’accomplissement est envisageabl
 
 ## Recherche multi-chemins
 
-Lors de la planification du transport, il peut arriver qu'un transport ait déjà une certaine cargaison et donc une région cible.
-Cependant, il existe encore de la capacité disponible pendant le transport qui pourrait être occupée par d'autres marchandises.
-Des options simples consistent désormais à distribuer uniquement les marchandises nécessaires aux points intermédiaires de l'itinéraire.
-Des techniques avancées chargent les marchandises, ce qui les rapproche un peu plus de leur objectif.
+Lors de la planification du transport, il peut arriver qu'un transport ait déjà une certaine cargaison et donc une région cible.  
+Cependant, il existe encore de la capacité disponible pendant le transport qui pourrait être occupée par d'autres marchandises.  
+Des options simples consistent désormais à distribuer uniquement les marchandises nécessaires aux points intermédiaires de l'itinéraire.  
+Des techniques avancées chargent les marchandises, ce qui les rapproche un peu plus de leur objectif.  
 
 Cependant, il me semble également possible d'adapter l'itinéraire de manière à ce qu'un itinéraire soit recherché avec la même durée vers la première destination, qui mène en même temps le plus près possible, voire sur la région de la deuxième destination.  
 Il est également envisageable d'optimiser l'itinéraire en le faisant passer par des « points de transbordement » afin que les marchandises destinées à la deuxième destination puissent ensuite également trouver un transport dans la région de la fourche.
@@ -134,9 +137,9 @@ Si vous définissez suffisamment de points de transbordement, vous pouvez attrib
 
 Le système de transport de l'ancienne CEE reconnaissait implicitement ce fait en étant organisé hiérarchiquement.  
 Les points de transbordement sont des régions qui ont des régions subordonnées.  
-Cependant, la hiérarchie implique souvent des détours.
-Le bon fonctionnement d’un tel système dépend également de la topologie de l’île.
-Les îles formant des anneaux sont particulièrement inadaptées à un système de transport strictement hiérarchique.
+Cependant, la hiérarchie implique souvent des détours.  
+Le bon fonctionnement d’un tel système dépend également de la topologie de l’île.  
+Les îles formant des anneaux sont particulièrement inadaptées à un système de transport strictement hiérarchique.  
 
 ## Evaluation function
 
@@ -199,12 +202,12 @@ Une fonction exponentielle ou similaire sur l'urgence a donc du sens.
 
 ```text
 f(arrondir jusqu'à nécessaire) = ?
-f(0)=10000 % * Valeur sous-jacente
-f(1)=1000 % * Valeur sous-jacente
-f(2)=200 % * Valeur sous-jacente
-f(3)=50 % * Valeur sous-jacente
-f(4)=15 % * Valeur sous-jacente
-f(5)=8 % * Valeur sous-jacente
+f(0) = 10000 % * Valeur sous-jacente
+f(1) = 1000 % * Valeur sous-jacente
+f(2) = 200 % * Valeur sous-jacente
+f(3) = 50 % * Valeur sous-jacente
+f(4) = 15 % * Valeur sous-jacente
+f(5) = 8 % * Valeur sous-jacente
 f(un jour)=5 % * Valeur sous-jacente
 ```
 

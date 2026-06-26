@@ -255,17 +255,17 @@ Until late in the evenening, the guardians of the temple could see the two cats 
 
 Eressea's year is divided into nine months with three weeks in each.  
 
-| Month            | Season | Storm frequency |
-|------------------|--------|----------------:|
-| harvest moon     | summer |            0.5% |
-| impenetrable fog | autumn |              3% |
-| storm moon       | autumn |              4% |
-| hearth fire      | winter |            2.5% |
-| icewind          | winter |            1.5% |
-| snowbane         | winter |              3% |
-| flowerrain       | spring |              3% |
-| mild winds       | spring |            0.5% |
-| sunfire          | summer |              3% |
+| Month                                | Season | Storm frequency |
+|--------------------------------------|--------|----------------:|
+| [Harvest Moon][harvest-moon]         | summer |            0.5% |
+| [Impenetrable Fog][impenetrable-fog] | autumn |              3% |
+| [Storm Moon][storm-moon]             | autumn |              4% |
+| [Hearth Fire][hearth-fire]           | winter |            2.5% |
+| [Icewind][icewind]                   | winter |            1.5% |
+| [Snowbane][snowbane]                 | winter |              3% |
+| [Flowerrain][flowerrain]             | spring |              3% |
+| [Mild Winds][mild-winds]             | spring |            0.5% |
+| [Sunfire][sunfire]                   | summer |              3% |
 
 Every turn of the game corresponds to one week in Eressea's world.  
 Many things can be done in one week.  

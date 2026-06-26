@@ -27,7 +27,7 @@ Hier eine Auflistung der bekanntesten.
 - [ECheck][echeck-de-id]
 - [ehmv][ehmv-de-id]
 - [Magellan][magellan-web]
-  - [ExtendedCommands][extendedcommands]
+  - [[extended-commands-de]]
   - [FFTools2][fftools-de-id]
 - [Vorlage][vorlage-de-id]
 

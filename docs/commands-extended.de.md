@@ -1,6 +1,6 @@
 ---
 # cSpell:locale de
-alias: extendedcommands
+alias: extended-commands-de
 ---
 # Extended Commands
 

@@ -135,5 +135,5 @@ Tout semble normal dans le rapport, mais l'unité surcharge le bateau en argent,
 <!-- From [https://wiki.eressea.de/index.php?title=Tipps\_und\_Tricks&oldid=6990] -->
 
 [cmd-reserve-fr]: [[cmd-reserve-fr]]
-[cmd-route-fr]: [[cmd-route-fr]
+[cmd-route-fr]: [[cmd-route-fr]]
 [cmd-sort-fr]: [[cmd-sort-fr]]

@@ -17,9 +17,10 @@ Features to be taken into account (no due date):
 - [x] Fix all spell issues in german language
 - [x] Fix orders examples as block codes (especially in german language where it was missed)
 - [x] Lore dialogues and narrations as "parchment" style
+- [ ] TODO comments in pages
 - [ ] Update all english magic spell descriptions with the ones in Eressea server source code .po files
 - [ ] Write formulas with katex
-- [ ] Add a whitespace before `%` in french language
+- [x] Add a whitespace before `%` in french language
 - [ ] Replace whitespace by "insecable" whitespace (10 %) on "P %" expressions?
 - [ ] Compact tables when columns number is high
 - [ ] Column sorting on tables when it would be useful
@@ -33,7 +34,7 @@ Features to be taken into account (no due date):
 - [ ] Review for all the documentation pages written in english language
 - [ ] Review for all the documentation pages written in german - over time
 - [ ] Better tooltips (background color, frame color...)
-- [ ] Ony theme color by language
+- [ ] One theme color by language
 - [ ] Being able to restrict search scope to current language
 - [ ] Documentation versioning
 - [ ] Icons, emoji and/or svg images

@@ -78,7 +78,6 @@
 [misc/eressea/eressea-join.fr.md](./misc/eressea/eressea-join.fr.md)
 [misc/eressea/eressea-story.fr.md](./misc/eressea/eressea-story.fr.md)
 [misc/eressea/eressea.fr.md](./misc/eressea/eressea.fr.md)
-[misc/eressea/farmers-hike.fr.md](./misc/eressea/farmers-hike.fr.md)
 [misc/eressea/farmers-proliferation.fr.md](./misc/eressea/farmers-proliferation.fr.md)
 [misc/eressea/play-too-much-if.fr.md](./misc/eressea/play-too-much-if.fr.md)
 [misc/eressea/reports.fr.md](./misc/eressea/reports.fr.md)

@@ -97,10 +97,10 @@ plugins:
       enabled: true
   - table-reader
   - autorefs:
-      # for french markdown pages anchors, I want a tooltiphaving the english translation.
-      # so internal link_titles are disabled for that reason
+      # For french markdown pages anchors, tooltip having the english translation are wanted.
+      # Internal link_titles are disabled for that reason.
       link_titles: external
-      # recommended when used with i18n plugin to avoid multiple link warnings
+      # Recommended when used with i18n plugin to avoid multiple link warnings
       resolve_closest: true
   - i18n:
       languages:
@@ -122,8 +122,19 @@ plugins:
             Alchemy: Alchimie
             Orders: Ordres
             Misc: Divers
-            References: Références
+            Reference: Référence
+            Tools: Outils
+            Dev: Dév.
             Help: Aide
+            World: Monde
+            Quick start: Démarrage rapide
+            Economy: Économie
+            Combat: Combat
+            Index: Index
+            Potions and herbs: Potions et herbes
+            References: Références
+            War tables: Tables militaires
+            Creatures: Créatures
             # Getting-started submenu
             Rules: Règles
             Foreword: Avant-propos
@@ -134,7 +145,7 @@ plugins:
             Sending orders: Envoi des ordres
             Sending orders from Magellan: Envoi des ordres depuis Magellan
             Puppy protection: Protection du chiot
-            Hints: Compléments
+
             # Gameplay submenu
             The World: Le Monde d'Eressea
             Factions and units: Factions et unités
@@ -176,17 +187,18 @@ plugins:
             # Orders submenu
             Sequence: Séquence
             Detailed orders: Ordres détaillés
-            Development: Développement
-            Tools: Outils
             Events: Événements
             Weekly reports: Rapport hebdomadaire
-            Hints: Compléments
             # References submenu
+            # System submenu
+            Code of Conduct: Code de conduite
+
         - locale: de
           name: Deutsch
           build: true
           # GERMAN menus translations
           nav_translations:
+            # DE - main menu translations
             Home: Hauptseite
             Getting-started: Erste Schritte
             Rules: Regeln
@@ -201,8 +213,10 @@ plugins:
             Orders: Befehle
             Misc: Versch
             References: Referenzen
+            Dev: Entwicklung
+            Tools: Werkzeuge
             Help: Helfen
-            # GERMAN submenu item translations
+            # DE - items submenu translations
             Skills: Talente
             Overview: Überblick
             Modifiers: Modifikatoren
@@ -234,7 +248,6 @@ plugins:
             Sequence: Reihenfolge
             Detailed orders: Detaillierte Befehle
             Weekly reports: Wochenbericht
-            Hints: Hinweise
             Beginner tips: Anfängertipps
             Basics: Grundlagen
             Sending orders: Befehle einschicken
@@ -243,228 +256,233 @@ plugins:
             The World: Welt
             Factions and units: Parteien und einheiten
             Races: Rassen
-            Development: Entwicklung
-            Tools: Werkzeuge
             Events: Ereignisse
-          # GERMAN nav is needed here to reorganize (sort) cmd-*.md files in the right order
+            # System submenu
+            Code of Conduct: Verhaltenskodex
+            World: Welt
+            Quick start: Schnellstart
+            Mechanics: Spielmechanik
+            Economy: Wirtschaft
+            Combat: Kampf
+            Index: Index
+            Potions and herbs: Tränke und Kräuter
+            Reference: Referenz
+          # GERMAN nav is needed here to reorganize (sort) orders/*.md files in the right order
           nav:
             - Home: index.md
             - Getting-started:
-              - Rules: rules.md
-              - Foreword: eressea.md
-              - Introduction: introduction.md
-              - Beginner tips: getting-started-tips.md
-              - Basics: basics.md
-              - First round: first-round.md
-              - Sending orders: commands-send.md
-              - Sending orders from Magellan: commands-send-from-magellan.md
-              - Puppy protection: puppy-protection.md
-              - Hints: hints.md
-            - Gameplay:
-              - The World: world.md
-              - Factions and units: factions.md
-              - Races: races.md
-              - Skills:
-                - Overview: skills.md
-                - Modifiers: skills-modifiers.md
-                - Stealth: stealth.md
-            - Exploration:
-              - Travel: travel.md
-              - Sailing: sailing.md
-            - Production:
-              - Overview: production.md
-              - Resources: resources.md
-              - Items: items.md
-              - Infrastructure:
-                - Roads: roads.md
-                - Buildings: buildings.md
-                - Castles: castles.md
-                - Other buildings: buildings-others.md
-              - Logistics:
-                - Ships: ships.md
-                - Faction pool: faction-pool.md
-                - Silver: silver.md
-                - Items pool: items-pool.md
-            - War:
-              - war.md
-              - Alliances: alliances.md
-              - Tactic: tactic.md
-              - Armed unit: armed.md
+              - Rules: getting-started/rules.md # index
+              - Foreword: getting-started/eressea.md # content to be moved, and page to be removed
+              - Introduction: getting-started/introduction.md
+              - Factions and units: getting-started/factions.md
+              - Races: getting-started/races.md
+              - Quick start: getting-started/quickstart.md
+              # to move somewhere else
+              ###
+              - Beginner tips: getting-started/tips.md
+              - Basics: getting-started/basics.md
+              - First round: getting-started/first-round.md
+              - Sending orders: getting-started/commands-send.md
+              - Sending orders from Magellan: getting-started/commands-send-from-magellan.md
+              - Puppy protection: getting-started/puppy-protection.md
+              ###
+            - World:
+              - The World: world/world.md
+              - Terrains: world/terrains.md
+              - Calendar: world/calendar.md
+              - Events: world/events.md
+            - Movement:
+              - Travel: movement/travel.md
+              - Sailing: movement/sailing.md
+            - Skills:
+              - Overview: skills/skills.md
+              - Modifiers: skills/skills-modifiers.md
+              - List: skills/skills-list.md
+              - Stealth: skills/stealth.md
+            - Economy:
+              - Overview: economy/production.md
+              - Resources: economy/resources.md
+              - Silver: economy/silver.md
+              - Buildings: economy/buildings.md
+              - Castles: economy/castles.md
+              - Other buildings: economy/buildings-others.md
+              - Roads: economy/roads.md
+              - Ships: economy/ships.md
+              - Faction pool: economy/faction-pool.md
+              - Items pool: economy/items-pool.md
+            - Combat:
+              - Alliances: combat/alliances.md
+              - Armed unit: combat/armed.md
+              - War: combat/war.md
+              - Tactic: combat/tactic.md
             - Magic:
-              - Overview: magic.md
-              - Schools: magic-schools.md
-              - Familiars: familiars.md
+              - Overview: magic/magic.md
+              - Schools:
+                - Index: magic/schools/index.md
+                - Cerddor: magic/schools/cerddor.md
+                - Draig: magic/schools/draig.md
+                - Gwyrrd: magic/schools/gwyrrd.md
+                - Illaun: magic/schools/illaun.md
+                - Tybied: magic/schools/tybied.md
+              - Familiars: magic/familiars.md
               - Spells:
-                - List: spells-list.md
-                - Description: spells-descriptions.md
-              #- magical-herb-bag.md
+                - List: magic/spells/list.md
+                - Description: magic/spells/descriptions.md
             - Alchemy:
-              - Overview: alchemy.md
-              - Herbs: herbs.md
+              - Overview: alchemy/alchemy.md
+              - Herbs: alchemy/herbs.md
+              - Potions and herbs: alchemy/potions-and-herbs.md
             - Orders:
-              - Overview: commands.md
-              - Sequence: commands-sequence.md
-              - List: commands-list.md
+              - Overview: orders/index.md
+              - Sequence: orders/sequence.md
+              - List: orders/list.md
               - Detailed orders:
-              # - commands-send.md
-              # - Commands sorted by their GERMAN name
-                - ARBEITE: cmd-work.md
-                - ATTACKIERE: cmd-attack.md
-                - BANNER: cmd-banner.md
-                - BEANSPRUCHE: cmd-claim.md
-                - BEFÖRDERE: cmd-promote.md
-                - BEKLAUE: cmd-steal.md
-                - BENENNE: cmd-name.md
-                - BENUTZE: cmd-use.md
-                - BESCHREIBE: cmd-describe.md
-                - BETRETE: cmd-enter.md
-                - BEWACHE: cmd-guard.md
-                - BEZAHLE NICHT: cmd-pay-not.md
-                - BOTSCHAFT: cmd-message.md
-                - DEFAULT: cmd-default.md
-                - EINHEIT: cmd-unit.md
-                - EMAIL: cmd-email.md
-                - ENDE: cmd-end.md
-                - ERESSEA: cmd-eressea.md
-                - FAHRE: cmd-ride.md
-                - FOLGE: cmd-follow.md
-                - FORSCHE: cmd-research.md
-                - GIB: cmd-give.md
-                - GRUPPE: cmd-group.md
-                - HELFE: cmd-help.md
-                - KÄMPFE: cmd-combat.md
-                - KAMPFZAUBER: cmd-combatspell.md
-                - KAUFE: cmd-buy.md
-                - KOMMENTAR (;): cmd-comment.md
-                - KOMMENTAR (//): cmd-comment-slash.md
-                - KONTAKTIERE: cmd-contact.md
-                - LEHRE: cmd-teach.md
-                - LERNE AUTO: cmd-learn-auto.md
-                - LERNE: cmd-learn.md
-                - LOCALE: cmd-locale.md
-                - MACHE: cmd-make.md
-                - NACH: cmd-move.md
-                - NÄCHSTER: cmd-next.md
-                - NUMMER: cmd-number.md
-                - OPTION: cmd-option.md
-                - PASSWORT: cmd-password.md
-                - PFLANZE: cmd-plant.md
-                - PIRATERIE: cmd-piracy.md
-                - PRÄFIX: cmd-prefix.md
-                - REGION: cmd-region.md
-                - REKRUTIERE: cmd-recruit.md
-                - RESERVIERE: cmd-reserve.md
-                - ROUTE: cmd-route.md
-                - SORTIERE: cmd-sort.md
-                - SPIONIERE: cmd-spy.md
-                - SPRACHE: cmd-language.md
-                - STIRB: cmd-quit.md
-                - TARNE: cmd-hide.md
-                - TRANSPORTIERE: cmd-carry.md
-                - TREIBE: cmd-tax.md
-                - UNTERHALTE: cmd-entertain.md
-                - URSPRUNG: cmd-origin.md
-                - VERGISS: cmd-forget.md
-                - VERKAUFE: cmd-sell.md
-                - VERLASSE: cmd-leave.md
-                - ZAUBERE: cmd-cast.md
-                - ZEIGE: cmd-show.md
-                - ZERSTÖRE: cmd-destroy.md
-                - ZÜCHTE: cmd-grow.md
-              # - commands-extended.md
-              # - commands-list.md
-              # - commands-send-from-magellan.md
-              # - misc
-              # - weekly-report.md
+                # Commands sorted by their GERMAN name
+                - ARBEITE: orders/work.md
+                - ATTACKIERE: orders/attack.md
+                - BANNER: orders/banner.md
+                - BEANSPRUCHE: orders/claim.md
+                - BEFÖRDERE: orders/promote.md
+                - BEKLAUE: orders/steal.md
+                - BENENNE: orders/name.md
+                - BENUTZE: orders/use.md
+                - BESCHREIBE: orders/describe.md
+                - BETRETE: orders/enter.md
+                - BEWACHE: orders/guard.md
+                - BEZAHLE NICHT: orders/pay-not.md
+                - BOTSCHAFT: orders/message.md
+                - DEFAULT: orders/default.md
+                - EINHEIT: orders/unit.md
+                - EMAIL: orders/email.md
+                - ENDE: orders/end.md
+                - ERESSEA: orders/eressea.md
+                - FAHRE: orders/ride.md
+                - FOLGE: orders/follow.md
+                - FORSCHE: orders/research.md
+                - GIB: orders/give.md
+                - GRUPPE: orders/group.md
+                - HELFE: orders/help.md
+                - KÄMPFE: orders/combat.md
+                - KAMPFZAUBER: orders/combatspell.md
+                - KAUFE: orders/buy.md
+                - KOMMENTAR (;): orders/comment.md
+                - KOMMENTAR (//): orders/comment-slash.md
+                - KONTAKTIERE: orders/contact.md
+                - LEHRE: orders/teach.md
+                - LERNE AUTO: orders/learn-auto.md
+                - LERNE: orders/learn.md
+                - LOCALE: orders/locale.md
+                - MACHE: orders/make.md
+                - NACH: orders/move.md
+                - NÄCHSTER: orders/next.md
+                - NUMMER: orders/number.md
+                - OPTION: orders/option.md
+                - PASSWORT: orders/password.md
+                - PFLANZE: orders/plant.md
+                - PIRATERIE: orders/piracy.md
+                - PRÄFIX: orders/prefix.md
+                - REGION: orders/region.md
+                - REKRUTIERE: orders/recruit.md
+                - RESERVIERE: orders/reserve.md
+                - ROUTE: orders/route.md
+                - SORTIERE: orders/sort.md
+                - SPIONIERE: orders/spy.md
+                - SPRACHE: orders/language.md
+                - STIRB: orders/quit.md
+                - TARNE: orders/hide.md
+                - TRANSPORTIERE: orders/carry.md
+                - TREIBE: orders/tax.md
+                - UNTERHALTE: orders/entertain.md
+                - URSPRUNG: orders/origin.md
+                - VERGISS: orders/forget.md
+                - VERKAUFE: orders/sell.md
+                - VERLASSE: orders/leave.md
+                - ZAUBERE: orders/cast.md
+                - ZEIGE: orders/show.md
+                - ZERSTÖRE: orders/destroy.md
+                - ZÜCHTE: orders/grow.md
             - Misc:
-              - Development:
-                - development.md
-                - auto-event-response.md
-                - auto-learning-chains.md
-                - auto-trading.md
-                - auto-transport.md
-                - auto-way-finding.md
-                - optimize-learning-chains.md
-                - optimize-production.md
-                - optimize-transport.md
-                - optimize-way-finding.md
-                - commands-extended.md
-                - reports.md
-                - cr-format.md
-                - move-template.md
-              - Tools:
-                - magellan.md
-                - csmapfx.md
-                - echeck.md
-                - fftools.md
-                - vorlage.md
-                - atlantis.md
-                - ehmv.md
               - Events:
-                - birthday-cake.md
-                - christmas.md
-                - christmas-tree.md
-              # TODO: begin
+                - reference/items/birthday-cake.md
+                - scenarios/christmas.md
+                - reference/items/christmas-tree.md
+              # TODO: remove scenarios
               - Scenarios:
-                - farmers-hike.md
-                - farmers-proliferation.md
-                - plague.md
-              # - the-third-age.md
-              - Weekly reports: weekly-report.md
-              - xontormia-express.md
-              # TODO: end
+                # - farmers-hike.md # TODO: farmers-hike.md does not exist in docs/
+                - scenarios/farmers-proliferation.md
+              - Weekly reports: system/communication/weekly-report.md
+              - blog/xontormia-express.md
             - References:
-                - Terrains: terrains.md
-                - Skills: skills-list.md
-                - War tables: war-tables.md
-                - Potions and herbs: potions-and-herbs.md
-                - Magic:
-                  - magic-school-cerddor.md
-                  - magic-school-draig.md
-                  - magic-school-gwyrrd.md
-                  - magic-school-illaun.md
-                  - magic-school-tybied.md
-                - Creatures:
-                  - monsters.md
-                  - dream-eye.md
-                  - iron-golem.md
-                  - stone-golem.md
-                  - mountain-guard.md
-                  - mistletoe.md
-                  - snowman.md
-                  - toad.md
-                - Items:
-                  - amulet-of-true-sight.md
-                  - antimagic-crystal.md
-                  - belt-of-troll-strength.md
-                  - dragonblood.md
-                  - dragonhead.md
-                  - fairy-boots.md
-                  - flaming-sword.md
-                  - magical-herb-pouch.md
-                  - ring-of-invisibility.md
-                  - ring-of-power.md
-                  - sack-of-holding.md
-                  - sea-serpent-head.md
-                  - shell.md
-                  - silverbag.md
-                  - sphere-of-invisibility.md
-                  - stardust.md
-                  - solar-sail.md
-                  - pentagram-and-tirawon.md
-                  - pot-of-toadslime.md
-            - Help:
-              - tips-and-tricks.md
-              - tutorials.md
-              - faq.md
-              - troubleshootings.md
-              - play-too-much-if.md
-              - Credits:
-                - thanks.md
-                - contributors.md
-                - player-pages.md
-                - eressea-story.md
-                - the-third-age.md
+              - War tables: reference/war/war-tables.md
+              - Creatures:
+                - reference/creatures/monsters.md
+                - reference/creatures/dream-eye.md
+                - reference/creatures/iron-golem.md
+                - reference/creatures/mistletoe.md
+                - reference/creatures/mountain-guard.md
+                - reference/creatures/snowman.md
+                - reference/creatures/stone-golem.md
+                - reference/creatures/toad.md
+              - Items:
+                - Overview: reference/items/items.md
+                - reference/items/amulet-of-true-sight.md
+                - reference/items/antimagic-crystal.md
+                - reference/items/belt-of-troll-strength.md
+                - reference/items/birthday-cake.md
+                - reference/items/christmas-tree.md
+                - reference/items/dragonblood.md
+                - reference/items/dragonhead.md
+                - reference/items/fairy-boots.md
+                - reference/items/flaming-sword.md
+                - reference/items/magical-herb-pouch.md
+                - reference/items/ring-of-invisibility.md
+                - reference/items/ring-of-power.md
+                - reference/items/sack-of-holding.md
+                - reference/items/sea-serpent-head.md
+                - reference/items/shell.md
+                - reference/items/silverbag.md
+                - reference/items/sphere-of-invisibility.md
+                - reference/items/stardust.md
+                - reference/items/solar-sail.md
+                - reference/items/pot-of-toadslime.md
+            - Tools:
+              - tools/desktop/magellan.md
+              - tools/desktop/csmapfx.md
+              - tools/cli/echeck.md
+              - tools/cli/vorlage.md
+              - tools/cli/ehmv.md
+            - Dev:
+              - dev/extensions/extended-commands.md
+              - dev/extensions/fftools.md
+              - dev/development.md
+              - dev/algorithms/auto-event-response.md
+              - dev/algorithms/auto-learning-chains.md
+              - dev/algorithms/auto-trading.md
+              - dev/algorithms/auto-transport.md
+              - dev/algorithms/auto-way-finding.md
+              - dev/algorithms/optimize-learning-chains.md
+              - dev/algorithms/optimize-production.md
+              - dev/algorithms/optimize-transport.md
+              - dev/algorithms/optimize-way-finding.md
+              - dev/formats/cr.md
+              - dev/formats/nr.md
+              - dev/formats/reports.md
+              - dev/formats/move-template.md
+            - System:
+              - system/code-of-conduct.md
+              - system/play-too-much-if.md
+              - system/tips-and-tricks.md
+              - system/tutorials.md
+              - system/faq.md
+              - system/troubleshootings.md
+              - system/player-pages.md
+              - system/contributors.md
+              - system/thanks.md
+              - Archives:
+                - system/archives/eressea-story.md
+                - system/archives/the-third-age.md
+                - system/archives/atlantis.md
+                - system/archives/pentagram-and-tirawon.md
 
       docs_structure: suffix
       # build_only_locale: !ENV [BUILD_ONLY_LOCALE]
@@ -528,218 +546,214 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting-started:
-    - Rules: rules.md
-    - Foreword: eressea.md
-    - Introduction: introduction.md
-    - Beginner tips: getting-started-tips.md
-    - Basics: basics.md
-    - First round: first-round.md
-    - Sending orders: commands-send.md
-    - Sending orders from Magellan: commands-send-from-magellan.md
-    - Puppy protection: puppy-protection.md
-    - Hints: hints.md
-  - Gameplay:
-    - The World: world.md
-    - Factions and units: factions.md
-    - Races: races.md
-    - Skills:
-      - Overview: skills.md
-      - Modifiers: skills-modifiers.md
-      - Stealth: stealth.md
-  - Exploration:
-    - Travel: travel.md
-    - Sailing: sailing.md
-  - Production:
-    - Overview: production.md
-    - Resources: resources.md
-    - Items: items.md
-    - Infrastructure:
-      - Roads: roads.md
-      - Buildings: buildings.md
-      - Castles: castles.md
-      - Other buildings: buildings-others.md
-    - Logistics:
-      - Ships: ships.md
-      - Faction pool: faction-pool.md
-      - Silver: silver.md
-      - Items pool: items-pool.md
-  - War:
-    - war.md
-    - Alliances: alliances.md
-    - Tactic: tactic.md
-    - Armed unit: armed.md
+    - Rules: getting-started/rules.md
+    - Foreword: getting-started/eressea.md
+    - Introduction: getting-started/introduction.md
+    - Factions and units: getting-started/factions.md
+    - Races: getting-started/races.md
+    - Quick start: getting-started/quickstart.md
+    - Beginner tips: getting-started/tips.md
+    - Basics: getting-started/basics.md
+    - First round: getting-started/first-round.md
+    - Sending orders: getting-started/commands-send.md
+    - Sending orders from Magellan: getting-started/commands-send-from-magellan.md
+    - Puppy protection: getting-started/puppy-protection.md
+  - World:
+    - The World: world/world.md
+    - Terrains: world/terrains.md
+    - Calendar: world/calendar.md
+    - Events: world/events.md
+  - Movement:
+    - Travel: movement/travel.md
+    - Sailing: movement/sailing.md
+  - Skills:
+    - Overview: skills/skills.md
+    - Modifiers: skills/skills-modifiers.md
+    - List: skills/skills-list.md
+    - Stealth: skills/stealth.md
+  - Economy:
+    - Overview: economy/production.md
+    - Resources: economy/resources.md
+    - Silver: economy/silver.md
+    - Buildings: economy/buildings.md
+    - Castles: economy/castles.md
+    - Other buildings: economy/buildings-others.md
+    - Roads: economy/roads.md
+    - Ships: economy/ships.md
+    - Faction pool: economy/faction-pool.md
+    - Items pool: economy/items-pool.md
+  - Combat:
+    - Alliances: combat/alliances.md
+    - Armed unit: combat/armed.md
+    - War: combat/war.md
+    - Tactic: combat/tactic.md
   - Magic:
-    - Overview: magic.md
-    - Schools: magic-schools.md
-    - Familiars: familiars.md
+    - Overview: magic/magic.md
+    - Schools:
+      - Index: magic/schools/index.md
+      - Cerddor: magic/schools/cerddor.md
+      - Draig: magic/schools/draig.md
+      - Gwyrrd: magic/schools/gwyrrd.md
+      - Illaun: magic/schools/illaun.md
+      - Tybied: magic/schools/tybied.md
+    - Familiars: magic/familiars.md
     - Spells:
-      - List: spells-list.md
-      - Description: spells-descriptions.md
-    #- magical-herb-bag.md
+      - List: magic/spells/list.md
+      - Description: magic/spells/descriptions.md
   - Alchemy:
-    - Overview: alchemy.md
-    - Herbs: herbs.md
+    - Overview: alchemy/alchemy.md
+    - Herbs: alchemy/herbs.md
+    - Potions and herbs: alchemy/potions-and-herbs.md
   - Orders:
-    - Overview: commands.md
-    - Sequence: commands-sequence.md
-    - List: commands-list.md
+    - Overview: orders/index.md
+    - Sequence: orders/sequence.md
+    - List: orders/list.md
     - Detailed orders:
-    # - commands-send.md
-  # - Commands:
-      - ATTACK: cmd-attack.md
-      - BANNER: cmd-banner.md
-      - BUY: cmd-buy.md
-      - CARRY: cmd-carry.md
-      - CAST: cmd-cast.md
-      - CLAIM: cmd-claim.md
-      - COMBAT: cmd-combat.md
-      - COMBATSPELL: cmd-combatspell.md
-      - COMMENT (;): cmd-comment.md
-      - COMMENT (//): cmd-comment-slash.md
-      - CONTACT: cmd-contact.md
-      - DEFAULT: cmd-default.md
-      - DESCRIBE: cmd-describe.md
-      - DESTROY: cmd-destroy.md
-      - EMAIL: cmd-email.md
-      - END: cmd-end.md
-      - ENTER: cmd-enter.md
-      - ENTERTAIN: cmd-entertain.md
-      - ERESSEA: cmd-eressea.md
-      - FOLLOW: cmd-follow.md
-      - FORGET: cmd-forget.md
-      - GIVE: cmd-give.md
-      - GROUP: cmd-group.md
-      - GROW: cmd-grow.md
-      - GUARD: cmd-guard.md
-      - HELP: cmd-help.md
-      - HIDE: cmd-hide.md
-      - LANGUAGE: cmd-language.md
-      - LEARN AUTO: cmd-learn-auto.md
-      - LEARN: cmd-learn.md
-      - LEAVE: cmd-leave.md
-      - LOCALE: cmd-locale.md
-      - MAKE: cmd-make.md
-      - MESSAGE: cmd-message.md
-      - MOVE: cmd-move.md
-      - NAME: cmd-name.md
-      - NEXT: cmd-next.md
-      - NUMBER: cmd-number.md
-      - OPTION: cmd-option.md
-      - ORIGIN: cmd-origin.md
-      - PASSWORD: cmd-password.md
-      - PAY-NOT: cmd-pay-not.md
-      - PIRACY: cmd-piracy.md
-      - PLANT: cmd-plant.md
-      - PREFIX: cmd-prefix.md
-      - PROMOTE: cmd-promote.md
-      - QUIT: cmd-quit.md
-      - RECRUIT: cmd-recruit.md
-      - REGION: cmd-region.md
-      - RESEARCH: cmd-research.md
-      - RESERVE: cmd-reserve.md
-      - RIDING: cmd-ride.md
-      - ROUTE: cmd-route.md
-      - SELL: cmd-sell.md
-      - SHOW: cmd-show.md
-      - SORT: cmd-sort.md
-      - SPY: cmd-spy.md
-      - STEAL: cmd-steal.md
-      - TAX: cmd-tax.md
-      - TEACH: cmd-teach.md
-      - UNIT: cmd-unit.md
-      - USE: cmd-use.md
-      - WORK: cmd-work.md
-    # - commands-extended.md
-    # - commands-list.md
-    # - commands-send-from-magellan.md
-    # - misc
-    # - weekly-report.md
+      # Commands sorted by their ENGLISH name
+      - ATTACK: orders/attack.md
+      - BANNER: orders/banner.md
+      - BUY: orders/buy.md
+      - CARRY: orders/carry.md
+      - CAST: orders/cast.md
+      - CLAIM: orders/claim.md
+      - COMBAT: orders/combat.md
+      - COMBATSPELL: orders/combatspell.md
+      - COMMENT (;): orders/comment.md
+      - COMMENT (//): orders/comment-slash.md
+      - CONTACT: orders/contact.md
+      - DEFAULT: orders/default.md
+      - DESCRIBE: orders/describe.md
+      - DESTROY: orders/destroy.md
+      - EMAIL: orders/email.md
+      - END: orders/end.md
+      - ENTER: orders/enter.md
+      - ENTERTAIN: orders/entertain.md
+      - ERESSEA: orders/eressea.md
+      - FOLLOW: orders/follow.md
+      - FORGET: orders/forget.md
+      - GIVE: orders/give.md
+      - GROUP: orders/group.md
+      - GROW: orders/grow.md
+      - GUARD: orders/guard.md
+      - HELP: orders/help.md
+      - HIDE: orders/hide.md
+      - LANGUAGE: orders/language.md
+      - LEARN AUTO: orders/learn-auto.md
+      - LEARN: orders/learn.md
+      - LEAVE: orders/leave.md
+      - LOCALE: orders/locale.md
+      - MAKE: orders/make.md
+      - MESSAGE: orders/message.md
+      - MOVE: orders/move.md
+      - NAME: orders/name.md
+      - NEXT: orders/next.md
+      - NUMBER: orders/number.md
+      - OPTION: orders/option.md
+      - ORIGIN: orders/origin.md
+      - PASSWORD: orders/password.md
+      - PAY-NOT: orders/pay-not.md
+      - PIRACY: orders/piracy.md
+      - PLANT: orders/plant.md
+      - PREFIX: orders/prefix.md
+      - PROMOTE: orders/promote.md
+      - QUIT: orders/quit.md
+      - RECRUIT: orders/recruit.md
+      - REGION: orders/region.md
+      - RESEARCH: orders/research.md
+      - RESERVE: orders/reserve.md
+      - RIDING: orders/ride.md
+      - ROUTE: orders/route.md
+      - SELL: orders/sell.md
+      - SHOW: orders/show.md
+      - SORT: orders/sort.md
+      - SPY: orders/spy.md
+      - STEAL: orders/steal.md
+      - TAX: orders/tax.md
+      - TEACH: orders/teach.md
+      - UNIT: orders/unit.md
+      - USE: orders/use.md
+      - WORK: orders/work.md
   - Misc:
-    - Development:
-      - development.md
-      - auto-event-response.md
-      - auto-learning-chains.md
-      - auto-trading.md
-      - auto-transport.md
-      - auto-way-finding.md
-      - optimize-learning-chains.md
-      - optimize-production.md
-      - optimize-transport.md
-      - optimize-way-finding.md
-      - commands-extended.md
-      - reports.md
-      - cr-format.md
-      - move-template.md
-    - Tools:
-      - magellan.md
-      - csmapfx.md
-      - echeck.md
-      - fftools.md
-      - vorlage.md
-      - atlantis.md
-      - ehmv.md
     - Events:
-      - birthday-cake.md
-      - christmas.md
-      - christmas-tree.md
+      - reference/items/birthday-cake.md
+      - scenarios/christmas.md
+      - reference/items/christmas-tree.md
     # TODO: begin
     - Scenarios:
-      - farmers-hike.md
-      - farmers-proliferation.md
-      - plague.md
+      # - farmers-hike.md # TODO: farmers-hike.md does not exist in docs/
+      - scenarios/farmers-proliferation.md
     # - the-third-age.md
-    - Weekly reports: weekly-report.md
-    - xontormia-express.md
+    - Weekly reports: system/communication/weekly-report.md
+    - blog/xontormia-express.md
     # TODO: end
   - References:
-      - Terrains: terrains.md
-      - Skills: skills-list.md
-      - War tables: war-tables.md
-      - Potions and herbs: potions-and-herbs.md
-      - Magic:
-        - magic-school-cerddor.md
-        - magic-school-draig.md
-        - magic-school-gwyrrd.md
-        - magic-school-illaun.md
-        - magic-school-tybied.md
-      - Creatures:
-        - monsters.md
-        - dream-eye.md
-        - iron-golem.md
-        - stone-golem.md
-        - mountain-guard.md
-        - mistletoe.md
-        - snowman.md
-        - toad.md
-      - Items:
-        - amulet-of-true-sight.md
-        - antimagic-crystal.md
-        - belt-of-troll-strength.md
-        - dragonblood.md
-        - dragonhead.md
-        - fairy-boots.md
-        - flaming-sword.md
-        - magical-herb-pouch.md
-        - ring-of-invisibility.md
-        - ring-of-power.md
-        - sack-of-holding.md
-        - sea-serpent-head.md
-        - shell.md
-        - silverbag.md
-        - sphere-of-invisibility.md
-        - stardust.md
-        - solar-sail.md
-        - pentagram-and-tirawon.md
-        - pot-of-toadslime.md
-  - Help:
-    - tips-and-tricks.md
-    - tutorials.md
-    - faq.md
-    - troubleshootings.md
-    - play-too-much-if.md
-    - Credits:
-      - thanks.md
-      - contributors.md
-      - player-pages.md
-      - eressea-story.md
-      - the-third-age.md
+    - War tables: reference/war/war-tables.md
+    - Creatures:
+      - reference/creatures/monsters.md
+      - reference/creatures/dream-eye.md
+      - reference/creatures/iron-golem.md
+      - reference/creatures/mistletoe.md
+      - reference/creatures/mountain-guard.md
+      - reference/creatures/snowman.md
+      - reference/creatures/stone-golem.md
+      - reference/creatures/toad.md
+    - Items:
+      - Overview: reference/items/items.md
+      - reference/items/amulet-of-true-sight.md
+      - reference/items/antimagic-crystal.md
+      - reference/items/belt-of-troll-strength.md
+      - reference/items/birthday-cake.md
+      - reference/items/christmas-tree.md
+      - reference/items/dragonblood.md
+      - reference/items/dragonhead.md
+      - reference/items/fairy-boots.md
+      - reference/items/flaming-sword.md
+      - reference/items/magical-herb-pouch.md
+      - reference/items/ring-of-invisibility.md
+      - reference/items/ring-of-power.md
+      - reference/items/sack-of-holding.md
+      - reference/items/sea-serpent-head.md
+      - reference/items/shell.md
+      - reference/items/silverbag.md
+      - reference/items/sphere-of-invisibility.md
+      - reference/items/stardust.md
+      - reference/items/solar-sail.md
+      - reference/items/pot-of-toadslime.md
+  - Tools:
+    - tools/desktop/magellan.md
+    - tools/desktop/csmapfx.md
+    - tools/cli/echeck.md
+    - tools/cli/vorlage.md
+    - tools/cli/ehmv.md
+  - Dev:
+    - dev/extensions/extended-commands.md
+    - dev/extensions/fftools.md
+    - dev/development.md
+    - dev/algorithms/auto-event-response.md
+    - dev/algorithms/auto-learning-chains.md
+    - dev/algorithms/auto-trading.md
+    - dev/algorithms/auto-transport.md
+    - dev/algorithms/auto-way-finding.md
+    - dev/algorithms/optimize-learning-chains.md
+    - dev/algorithms/optimize-production.md
+    - dev/algorithms/optimize-transport.md
+    - dev/algorithms/optimize-way-finding.md
+    - dev/formats/cr.md
+    - dev/formats/nr.md
+    - dev/formats/reports.md
+    - dev/formats/move-template.md
+  - System:
+    - system/code-of-conduct.md
+    - system/play-too-much-if.md
+    - system/tips-and-tricks.md
+    - system/tutorials.md
+    - system/faq.md
+    - system/troubleshootings.md
+    - system/player-pages.md
+    - system/contributors.md
+    - system/thanks.md
+    - Archives:
+      - system/archives/eressea-story.md
+      - system/archives/the-third-age.md
+      - system/archives/atlantis.md
+      - system/archives/pentagram-and-tirawon.md

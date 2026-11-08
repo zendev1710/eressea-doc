@@ -54,6 +54,13 @@ The linters should be launched to be sure there is no new "issues" in new code:
 - site content is updated on the `gh-deploy` repository branch
 - Updated branch is deployed on <https://zendev1710.github.io/eressea-doc/>, which should be then updated
 
+In case of GitHub authentication problem:
+
+- Goto <https://github.com/settings/tokens/new>
+- Create a token (scopes: repo, workflow, gist)
+- $env:GH_TOKEN = "<token>"
+- gh auth status
+
 ## Python useful commands
 
 ### List of packages installed versions

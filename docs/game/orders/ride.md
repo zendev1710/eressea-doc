@@ -1,0 +1,48 @@
+---
+# cSpell:locale en
+alias: cmd-ride
+---
+
+# `RIDE`
+
+*`RIDE` is a [long order][short-and-long-orders].  
+*`CARRY` is a short one, but of course only makes sense if the unit executes a (long) movement order.*  
+
+**`RIDE`**` `*`unit-id`*  
+**`CARRY`**` `*`unit-id`*  
+
+With the `RIDE` order a unit joins a transporting unit and can be separated from it if it receives the order `CARRY` given for the traveling unit.  
+With this order it is possible to travel on horses or carts even without the riding skill.  
+The prerequisite for this is, of course, that the transporting unit has enough free capacity to charge the moving units and their objects.  
+
+```text
+Partei 125:
+    UNIT 311
+        RIDE 456 ; I want to go with you
+        CONTACT 456
+        [...]
+  
+Partei 300:
+    UNIT 777
+        RIDE 456 ; I want to go with you
+  
+Partei 300:
+    UNIT 456
+        CARRY 311 ; Let 311 come along for the ride
+        CARRY 777 ; and 777 is also taken
+        CONTACT 311
+```
+
+- [Aquarians][aquarians] cannot transport other races when [swimming][swimming], nor can they take horses or carts with them
+- [Insects][insects] can also be transported using `CARRY`, but cannot be brought into or through a glacier
+
+## See also
+
+- [[movement]]
+- [`MOVE`][cmd-move]
+- [`ROUTE`][cmd-route]
+
+<!-- From [https://wiki.eressea.de/index.php?title=RIDE&oldid=16721] -->
+
+[cmd-move]: [[cmd-move]]
+[cmd-route]: [[cmd-route]]

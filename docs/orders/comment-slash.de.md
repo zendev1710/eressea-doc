@@ -1,0 +1,31 @@
+---
+# cSpell:locale de
+alias: bef-kommentar-mit-schraegstrichen
+---
+
+# `//`
+
+**`//`**` `*`Kommentar`*
+
+Im Gegensatz zu einem Kommentar hinter einem [;][bef-kommentar] (Semikolon) wird dieser Kommentar mit in die Vorlage für den Zug der nächsten Runde mit aufgenommen.
+
+```text
+EINHEIT 123;     Hundertdreiundzwanzig [20,450$]
+    // Unterhalt Magierturm
+    @GIB 234 1000 SILBER
+    // Ab und an Stangenwaffen lernen
+    TREIBE Steuern ein
+```
+
+Das `//` muß wie ein Befehl behandelt werden, man darf also nicht
+
+```text
+@GIB 345 100 SILBER // wegen Sägewerk
+```
+
+!!! note "Hinweis"
+    Außerdem muß ein Leerzeichen hinter den `//` sein.
+
+<!-- From  [https://wiki.eressea.de/index.php?title=KOMMENTAR&oldid=3993] -->
+
+[bef-kommentar]: [[bef-kommentar]]

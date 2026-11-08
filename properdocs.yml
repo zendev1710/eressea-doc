@@ -275,7 +275,7 @@ plugins:
               - Foreword: getting-started/eressea.md # content to be moved, and page to be removed
               - Introduction: getting-started/introduction.md
               - Factions and units: getting-started/factions.md
-              - Races: getting-started/races/races.md
+              - Races: getting-started/races.md
               - Quick start: getting-started/quickstart.md
               # to move somewhere else
               ###
@@ -550,7 +550,7 @@ nav:
     - Foreword: getting-started/eressea.md
     - Introduction: getting-started/introduction.md
     - Factions and units: getting-started/factions.md
-    - Races: getting-started/races/races.md
+    - Races: getting-started/races.md
     - Quick start: getting-started/quickstart.md
     - Beginner tips: getting-started/tips.md
     - Basics: getting-started/basics.md

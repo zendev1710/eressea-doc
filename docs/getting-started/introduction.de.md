@@ -6,12 +6,12 @@ alias: einleitung
 # Einleitung
 
 <!-- TODO: logo 180X180 - should be to the left or right part of the page -->
-![Eressea logo](assets/images/logo.png "Map view")
+![Eressea logo](../assets/images/logo.png "Map view")
 
 In Eressea übernimmst du eine [Partei][parteien] von Personen einer bestimmten [Rasse][rassen], die du dir bei der [Anmeldung][anmeldung] aussuchen kannst. Du wirst dann mit einigen anderen gemeinsam in der Welt von Eressea ausgesetzt und kannst von dort aus mit der Erforschung der Umgebung und der ganzen Welt beginnen.
 
 <!-- TODO: icons 160X160 - should be to the left or right part of the page -->
-![Eressea icons](assets/images/fantasy-symbols.png "Fantasy symbols")
+![Eressea icons](../assets/images/fantasy-symbols.png "Fantasy symbols")
 
 Eressea ist eine fantastische Welt. Wesen wie [Elfen][elfen] und [Zwerge][zwerge] bevölkern die Welt, und [Magie][magie-de-id] gehört zum täglichen Geschehen. Sogar [Drachen][drachen] wurden schon gesichtet, große, mächtige und vor allem gefährliche [Monster][monster], die zu bekämpfen einige Hundertschaften von Soldaten benötigt, ebenso Seeschlangen, Ents und andere seltsame Kreaturen.
 
@@ -20,14 +20,14 @@ Eressea ist eine große Welt. Hunderte von Völkern leben auf den Inseln Eressea
 Eressea ist eine komplexe Welt. Ein Volk zu führen ist keine leichte Aufgabe. Vieles gilt es zu berücksichtigen, damit alles klappt und die Nachbarn mischen auch noch mit. Absprachen müssen getroffen werden, vielleicht kommt es zu Streitereien, gar zum [Krieg][krieg]. Und auch, wenn alles gut geht, beansprucht Eressea viel Zeit. Während man anfänglich kaum eine Stunde pro Woche braucht, kann das später auf zehn und mehr Stunden pro Woche anwachsen.
 
 <!-- TODO: NR report 160X160 - should be to the left or right part of the page -->
-![Eressea report](assets/images/nr-report.jpg "An NR report")
+![Eressea report](../assets/images/nr-report.jpg "An NR report")
 
 Es gibt kein eindeutiges Spielziel in Eressea, kein Ende, welches es zu erreichen gilt. Du kannst dir selbst "Etappenziele" setzen, die du erreichen möchtest, sei es der Aufbau eines Handelsimperiums, das Erobern einer kompletten Insel, das Erforschen möglichst vieler Regionen oder was auch immer. Was auch immer es ist, es wird Auswirkungen auf die Welt haben, die du beschreiben kannst und deren Geschicke du mitbestimmst.
 
 ## Wie das Spiel funktioniert
 
 <!-- TODO: orders 160X160 - should be to the left or right part of the page -->
-![Eressea orders](assets/images/orders-example.jpg "Eressea orders")
+![Eressea orders](../assets/images/orders-example.jpg "Eressea orders")
 
 In Eressea sendest du in regelmäßigen Abständen einen *Zug* ein.  
 Ein Zug besteht aus [Befehlen][befehl], die die Einheiten deiner Partei in der Welt so gut wie möglich auszuführen.  

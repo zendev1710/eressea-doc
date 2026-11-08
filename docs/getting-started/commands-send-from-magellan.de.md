@@ -54,7 +54,7 @@ Dies wird (inklusive Video) unter [https://hilfe.gmx.net/pop-imap/einschalten.ht
 ## Gmail
 
 <!-- TODO: - should be where in the page ? -->
-![Befehle mit Magellan Einsenden am Beispiel Gmail](./assets/images/orders-sending-gmail.png "Befehle mit Magellan Einsenden am Beispiel Gmail")
+![Befehle mit Magellan Einsenden am Beispiel Gmail](../assets/images/orders-sending-gmail.png "Befehle mit Magellan Einsenden am Beispiel Gmail")
 <!--
 Befehle mit Magellan Einsenden am Beispiel Gmail</span></a>
 <figcaption>Befehle mit Magellan Einsenden am Beispiel Gmail</figcaption>
@@ -89,7 +89,7 @@ Befehle mit Magellan Einsenden am Beispiel Gmail</span></a>
 ## Posteo
 
 <!-- TODO: orders sending with Posteo 400X159 - should be where in the page ? -->
-![Befehle mit Magellan Einsenden am Beispiel Posteo](./assets/images/orders-sending-posteo.png "Befehle mit Magellan Einsenden am Beispiel Posteo")
+![Befehle mit Magellan Einsenden am Beispiel Posteo](../assets/images/orders-sending-posteo.png "Befehle mit Magellan Einsenden am Beispiel Posteo")
 <!--
 title=Befehle mit Magellan Einsenden am Beispiel Posteo"Befehle mit Magellan Einsenden am Beispiel Posteo</span></a>
 <figcaption>Befehle mit Magellan Einsenden am Beispiel Posteo</figcaption>

@@ -8,12 +8,12 @@ alias: introduction
 # Introduction
 
 <!-- TODO: logo 180X180 - should be to the left or right part of the page -->
-![Eressea logo](assets/images/logo.png "Eressea map view")
+![Eressea logo](../assets/images/logo.png "Eressea map view")
 
 In Eressea, each player takes charge of a [faction][factions] of people of a certain [race][races] that they can choose at [sign up][registration]. Players are then dropped into the world of Eressea with a few others and can begin to explore the surrounding area and more from there.
 
 <!-- TODO: icons 160X160 - should be to the left or right part of the page -->
-![Eressea icons](assets/images/fantasy-symbols.png "Fantasy symbols")
+![Eressea icons](../assets/images/fantasy-symbols.png "Fantasy symbols")
 
 Eressea is a fantastic world. Creatures such as [elves] and [dwarves][dwarves] populate the world, and [magic][magic-id] is a daily occurrence. Even [dragons][dragons-id] have been sighted, large, powerful and above all dangerous [monsters][monsters] that require hundreds of soldiers to fight, as well as sea serpents, [ents][ents-id] and other strange creatures.
 
@@ -22,14 +22,14 @@ Eressea is a large world. Hundreds of peoples live on the islands of Eressea, an
 Eressea is a complex world. Leading a nation is no easy task. There is a lot to consider to ensure that everything runs smoothly, and the neighbors are also involved. Agreements have to be made, there may be quarrels, even [[war]]. And even if everything goes well, Eressea takes up a lot of time. Whilst you barely need an hour a week at the beginning, this can later increase to ten or more hours a week.
 
 <!-- TODO: icons 160X160 - should be to the left or right part of the page -->
-![Eressea report](assets/images/nr-report.jpg "An NR report")
+![Eressea report](../assets/images/nr-report.jpg "An NR report")
 
 There is no clear game objective in Eressea, no end that needs to be reached. Each player sets their own "milestones" that they want to achieve, be it building a trading empire, conquering an entire island, exploring as many regions as possible or whatever. Whatever it is, it will affect the world, which you can describe and whose fate you will help to determine.
 
 ## How the game works
 
 <!-- TODO: orders 160X160 - should be to the left or right part of the page -->
-![Eressea orders](assets/images/orders-example.jpg "Eressea orders")
+![Eressea orders](../assets/images/orders-example.jpg "Eressea orders")
 
 In Eressea, you send in a *turn* at regular intervals.  
 A turn consists of [orders][orders] that your party's units execute in the world as well as possible.  

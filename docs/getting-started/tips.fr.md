@@ -133,8 +133,8 @@ Ne vous laissez pas agacer ni emporter par des décisions hâtives : le joueur 
 
 ## Voir aussi
 
+- [Code de conduite][code-de-conduite]
 - [Trucs et astuces][trucs-et-astuces]
-- [Conseils][conseils]
 - [Premier tour][premier-tour]
 - [Les bases][bases]
 

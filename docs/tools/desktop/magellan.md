@@ -12,7 +12,7 @@ You can use it to display your map, search, give orders, and all you have to do 
 Almost. Magellan undergoes sporadic development, mainly when there are changes to the server.  
 
 <!-- TODO: magellan screenshot 400X309 - should be where in the page ? -->
-![Magellan 2 Screenshot](./assets/images/magellan-screenshot.png "Magellan 2 Screenshot")
+![Magellan 2 Screenshot](../../assets/images/magellan-screenshot.png "Magellan 2 Screenshot")
 
 Features include :
 

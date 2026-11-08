@@ -127,8 +127,8 @@ Don't let yourselves get annoyed or be carried away by rash decisions – the pl
 
 ## See also
 
+- [Code of Conduct][code-of-conduct]
 - [Tips and tricks][tips-and-tricks]
-- [Hints][hints]
 - [The first round][first-round-id]
 - [Basics][basics]
 

@@ -4,7 +4,7 @@ alias: tu-joues-trop-a-eressea-si
 ---
 # Tu joues trop à Eressea si
 
-- Tu commencez un courriel à ton boss par « Salutations ! »
+- Tu commences un courriel à ton boss par « Salutations ! »
 - Tu consultes des sites web sur l'« anachronisme créatif »
 - Tu parles couramment le Quenya, car tu en as besoin pour nommer tes unités et tes régions
 - La moitié de tes polices de caractères installées sont des runes

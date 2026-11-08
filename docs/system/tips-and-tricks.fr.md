@@ -57,14 +57,14 @@ Cependant, comme les unités vides ne sont dissoutes que peu de temps avant la f
 Parfois, avec une petite astuce, on peut faire les deux en un seul tour : l’unité A transfère tout son personnel à l’unité B. L’unité A, désormais vide, peut recruter immédiatement (après l’ordre `GIVE`).  
 La condition préalable est bien sûr de disposer de deux unités dans la région où l’on souhaite recruter et de pouvoir les combiner.  
 
-## Les agriculteurs comme éclaireurs
+## Les paysans comme éclaireurs
 
-Les [paysans nomades][deplacement-des-agriculteurs] apportent des informations précieuses des régions voisines.  
-Si le nombre de paysans dans une région augmente soudainement et bien plus vite que ne le permettrait la croissance naturelle de la population agricole, la cause est la [migration de paysans][proliferation-des-agriculteurs] venus des régions voisines.  
+Les [paysans nomades][migration-paysanne] apportent des informations précieuses des régions voisines.  
+Si le nombre de paysans dans une région augmente soudainement et bien plus vite que ne le permettrait la croissance naturelle de la population rurale, la cause est la [migration de paysans][proliferation-des-agriculteurs] venus des régions voisines.  
 Souvent, des monstres ayant élu domicile dans les environs et chassant les paysans en sont responsables.  
 Une autre possibilité est que certains paysans ne trouvent pas de travail dans leur région d'origine.  
 
-Conclusion : Quiconque s'intéresse aux tendances démographiques jette également un œil aux régions voisines.  
+Conclusion : quiconque s'intéresse aux tendances démographiques jette également un œil aux régions voisines.  
 
 ## Entrepôt
 

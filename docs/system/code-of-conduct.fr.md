@@ -1,8 +1,8 @@
 ---
-alias: conseils
+alias: code-de-conduite
 ---
 
-# Conseils
+# Code de conduite
 
 ## Inscription
 

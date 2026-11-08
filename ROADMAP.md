@@ -4,6 +4,12 @@ At this moment it's rather a TODO list.
 
 Features to be taken into account (no due date):
 
+- [x] Configure markdown-link-check
+- [x] Configure cspell
+- [ ] Better pagge reorganization
+- [ ] Add redirect links
+- [ ] Add a visual sitemap page
+- [ ] Rewrite home page using tiles (something like [Atlantis web site](https://atlantis-pbem.com/))
 - [x] Make internal links mkardown page location-independent (using autorefs plugin?)
 - [x] Fix all dead links
 - [x] Fix all warnings displayed on `properdocs build` commande
@@ -16,8 +22,9 @@ Features to be taken into account (no due date):
 - [x] Fix all spell issues in english language
 - [x] Fix all spell issues in german language
 - [x] Fix orders examples as block codes (especially in german language where it was missed)
+- [x] Fix all link lint issues
 - [x] Lore dialogues and narrations as "parchment" style
-- [ ] TODO comments in pages
+- [ ] Achieve TODO comments in pages
 - [ ] Update all english magic spell descriptions with the ones in Eressea server source code .po files
 - [ ] Write formulas with katex
 - [x] Add a whitespace before `%` in french language
@@ -34,11 +41,10 @@ Features to be taken into account (no due date):
 - [ ] Review for all the documentation pages written in english language
 - [ ] Review for all the documentation pages written in german - over time
 - [ ] Better tooltips (background color, frame color...)
-- [ ] One theme color by language
-- [ ] Being able to restrict search scope to current language
+- [ ] One theme color by language (light and dark modes)
+- [ ] Being able to restrict search scope to current language?
 - [ ] Documentation versioning
 - [ ] Icons, emoji and/or svg images
-- [ ] Configure markdown-link-check and fix all link lint issues
 - [ ] Generate the french documentation as a downloadable PDF
 - [ ] Generate the english documentation as a downloadable PDF
 - [ ] Generate the german documentation as a downloadable PDF
@@ -156,7 +162,6 @@ A page review is achieved when:
 | [factions]                   |    |    |    |
 | [familiars]                  |    |    |    |
 | [faq]                        |    |    |    |
-| [farmers-hike]               |    |    |    |
 | [fftools]                    |    |    |    |
 | [first-round]                |    |    |    |
 | [flaming-sword]              |    |    |    |
@@ -313,7 +318,6 @@ A page review is achieved when:
 [factions]: https://zendev1710.github.io/eressea-doc/factions "factions"
 [familiars]: https://zendev1710.github.io/eressea-doc/familiars "familiars"
 [faq]: https://wiki.eressea.de/faq "faq"
-[farmers-hike]: https://zendev1710.github.io/eressea-doc/farmers-hike "farmers-hike"
 [fftools]: https://zendev1710.github.io/eressea-doc/fftools "fftools"
 [flaming-sword]: https://zendev1710.github.io/eressea-doc/flaming-sword "flaming-sword"
 [getting-started-tips]: https://zendev1710.github.io/eressea-doc/getting-started-tips "getting-started-tips"

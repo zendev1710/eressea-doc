@@ -8,14 +8,14 @@ alias: introduction-fr
 # Introduction
 
 <!-- TODO: logo 180X180 - should be to the left or right part of the page -->
-![Eressea logo](assets/images/logo.png "Eressea map view")
+![Eressea logo](../assets/images/logo.png "Eressea map view")
 
 Dans Eressea, chaque joueur prend en charge une [faction][faction] de personnes d'un [peuple][peuples] donné, qu'il devra choisir lors de l'[inscription][inscription].  
 
 Les joueurs sont ensuite plongés avec quelques autres dans [le monde d'Eressea][le-monde-d-eressea-id] et peuvent alors commencer à explorer les alentours.
 
 <!-- TODO: icons 160X160 - should be to the left or right part of the page -->
-![Eressea icons](assets/images/fantasy-symbols.png "Fantasy symbols")
+![Eressea icons](../assets/images/fantasy-symbols.png "Fantasy symbols")
 
 Eressea est un monde fantastique.  
 
@@ -34,7 +34,7 @@ Même si tout se passe bien, gérer sa faction dans Eressea prendra beaucoup de 
 Alors qu'au début, une heure par semaine devrait suffire, cela peut monter à dix heures et plus par semaine.  
 
 <!-- TODO: NR report 160X160 - should be to the left or right part of the page -->
-![Eressea report](assets/images/nr-report.jpg "An NR report")
+![Eressea report](../assets/images/nr-report.jpg "An NR report")
 
 Il n'existe pas d'objectif de jeu prédéfini dans Eressea, pas de fin à atteindre.  
 Vous pouvez vous fixer des objectifs d'étape à atteindre : la construction d'un empire commercial, la conquête d'une île entière, l'exploration d'un maximum de régions ou tout autre objectif.  
@@ -44,7 +44,7 @@ Quoi qu'il en soit, vos décisions et vos actions auront un impact sur le monde 
 ## Comment fonctionne le jeu
 
 <!-- TODO: orders 160X160 - should be to the left or right part of the page -->
-![Eressea orders](assets/images/orders-example.jpg "Eressea orders")
+![Eressea orders](../assets/images/orders-example.jpg "Eressea orders")
 
 Dans Eressea, vous envoyez un lot d'**ordres** à intervalles réguliers.
 Un lot est composé d'[ordres][ordres] que les unités de votre faction exécuteront du mieux qu'elles pourront.  

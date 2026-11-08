@@ -13,7 +13,7 @@ Vous pouvez l'utiliser pour afficher votre carte, rechercher, donner des ordres,
 Magellan est en mode de développement modéré, et évolue principalement lors de modifications du serveur.  
 
 <!-- TODO: magellan screenshot 400X309 - should be where in the page ? -->
-![Capture d'écran Magellan 2](./assets/images/magellan-screenshot.png "Capture d'écran Magellan 2")
+![Capture d'écran Magellan 2](../../assets/images/magellan-screenshot.png "Capture d'écran Magellan 2")
 
 Les fonctionnalités incluent :
 

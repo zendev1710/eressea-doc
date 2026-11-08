@@ -1,9 +1,9 @@
 ---
 # cSpell:locale de
-alias: hinweise
+alias: verhaltenskodex
 ---
 
-# Hinweise
+# Verhaltenskodex
 
 ## Anmeldung
 

@@ -116,7 +116,6 @@ The project is deployed as the following GitHub Pages static site: [eressea-doc]
 | [familiars]             | X  | NT | X  | [vertraute]               |       |
 | [faq]                   | X  | N  | N  | [faq]                     |       |
 | [faq]                   | X  | NT | NT | [faq]                     |       |
-| [farmers-hike]          | X  | N  | N  | [Bauernwanderung]         |       |
 | [fftools]               | X  | N  | N  | [FFTools2]                |       |
 | [flaming-sword]         | X  | N  | N  | [Flammenschwert]          |       |
 | [getting-started-tips]  | X  | NT | NT | [anfängertipps]           |       |
@@ -218,7 +217,6 @@ Legend:
 [BEWACHE]: https://wiki.eressea.de/BEWACHE "BEWACHE"
 [BEZAHLE_NICHT]: https://wiki.eressea.de/BEZAHLE_NICHT "BEZAHLE_NICHT"
 [BOTSCHAFT]: https://wiki.eressea.de/BOTSCHAFT "BOTSCHAFT"
-[Bauernwanderung]: https://wiki.eressea.de/Bauernwanderung "Bauernwanderung"
 [CR_Format]: https://wiki.eressea.de/CR_Format "CR_Format"
 [CSMap]: https://wiki.eressea.de/CSMap "CSMap"
 [Cerddorzauber]: https://wiki.eressea.de/Cerddorzauber "Cerddorzauber"
@@ -288,7 +286,6 @@ Legend:
 [ZERSTÖRE]: https://wiki.eressea.de/ZERSTÖRE "ZERSTÖRE"
 [ZÜCHTE]: https://wiki.eressea.de/ZÜCHTE "ZÜCHTE"
 [adamantium]: https://wiki.eressea.de/adamantium "adamantium"
-[adamantiumrüstung]: https://wiki.eressea.de/adamantiumrüstung "adamantiumrüstung"
 [alchemy]: ./alchemy.md "alchemy"
 [alliances]: ./alliances.md "alliances"
 [allianz]: https://wiki.eressea.de/allianz "allianz"
@@ -408,7 +405,6 @@ Legend:
 [factions]: ./factions.md "factions"
 [familiars]: ./familiars.md "familiars"
 [faq]: https://wiki.eressea.de/faq "faq"
-[farmers-hike]: ./farmers-hike.md "farmers-hike"
 [fftools]: ./fftools.md "fftools"
 [flaming-sword]: ./flaming-sword.md "flaming-sword"
 [geburtstagstorte]: https://wiki.eressea.de/geburtstagstorte "geburtstagstorte"

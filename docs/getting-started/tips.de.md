@@ -127,8 +127,8 @@ Lasst euch nicht ärgern und zu unüberlegten Dingen hinreißen - wahrscheinlich
 
 ## Siehe auch
 
+- [Verhaltenskodex][verhaltenskodex]
 - [Tipps und Tricks]
-- [Hinweise][hinweise]
 - [Der erste Zug]
 - [Grundlagen][grundlagen]
 

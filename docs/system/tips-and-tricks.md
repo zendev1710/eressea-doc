@@ -56,7 +56,7 @@ Parfois, avec une petite astuce, on peut faire les deux en un seul tour : l’u
 
 ## Farmers as scouts
 
-Les [paysans nomades][farmers-hike] apportent des informations précieuses des régions voisines.
+Les [paysans nomades][peasants-hike] apportent des informations précieuses des régions voisines.
 Si le nombre de paysans dans une région augmente soudainement et bien plus vite que ne le permettrait la croissance naturelle de la population agricole, la cause est la [migration de paysans][farmers-proliferation] venus des régions voisines.
 Souvent, des monstres ayant élu domicile dans les environs et chassant les paysans en sont responsables.
 Une autre possibilité est que certains paysans ne trouvent pas de travail dans leur région d'origine.

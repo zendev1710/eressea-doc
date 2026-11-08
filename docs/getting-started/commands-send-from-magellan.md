@@ -53,7 +53,7 @@ This will be explained (including video) at [this other GMX Support link].
 ## Gmail
 
 <!-- TODO: - should be where in the page ? -->
-![Sending commands with Magellan using Gmail as an example](./assets/images/orders-sending-gmail.png "Sending commands with Magellan using Gmail as an example")
+![Sending commands with Magellan using Gmail as an example](../assets/images/orders-sending-gmail.png "Sending commands with Magellan using Gmail as an example")
 
 **Return address:** Your email on Gmail  
 **SMTP server:** smtp.googlemail.com  
@@ -85,7 +85,7 @@ This will be explained (including video) at [this other GMX Support link].
 ## Posteo
 
 <!-- TODO: orders sending with Posteo 400X159 - should be where in the page ? -->
-![Sending in commands with Magellan using Posteo as an example](./assets/images/orders-sending-posteo.png "Sending in commands with Magellan using Posteo as an example")
+![Sending in commands with Magellan using Posteo as an example](../assets/images/orders-sending-posteo.png "Sending in commands with Magellan using Posteo as an example")
 
 **Return address:** Your email at Posteo  
 **SMTP server:** posteo.de  

@@ -1,9 +1,9 @@
 ---
 # cSpell:locale en
-alias: hints
+alias: code-of-conduct
 ---
 
-# Hints
+# Code of Conduct
 
 ## Registration
 

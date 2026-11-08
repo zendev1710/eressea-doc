@@ -53,7 +53,7 @@ Dans l'interface GMX, il sera nécessaire d’accorder une autorisation externe 
 La configuration correspondante devrait ressembler à ceci :
 
 <!-- TODO: frame surrrounding the image -->
-![GMX - Autorisation](./img-gmx-enable-third-party-apps.png "Exemple de configuration d'autorisation dans GMX")
+![GMX - Autorisation](../img-gmx-enable-third-party-apps.png "Exemple de configuration d'autorisation dans GMX")
 
 Pour pouvoir renseigner la bonne configuration dans Magellan, vous pouvez consulter les pages d'aide GMX suivantes :
 
@@ -63,7 +63,7 @@ Pour pouvoir renseigner la bonne configuration dans Magellan, vous pouvez consul
 *Exemple de configuration GMX dans Magellan.*
 
 <!-- TODO: frame surrrounding the image -->
-![GMX - Configuration email](./img-gmx-email-settings.png "Exemple de configuration email GMX dans Magellan")
+![GMX - Configuration email](../img-gmx-email-settings.png "Exemple de configuration email GMX dans Magellan")
 
 <!-- cspell:disable -->
 **Sender's address:** votre adresse e-mail GMX (suffixée par @gmx.com)  
@@ -79,7 +79,7 @@ Pour pouvoir renseigner la bonne configuration dans Magellan, vous pouvez consul
 ### Gmail
 
 <!-- TODO: - should be where in the page ? -->
-![Sending commands with Magellan using Gmail as an example](./assets/images/orders-sending-gmail.png "Sending commands with Magellan using Gmail as an example")
+![Sending commands with Magellan using Gmail as an example](../assets/images/orders-sending-gmail.png "Sending commands with Magellan using Gmail as an example")
 
 <!-- cspell:disable -->
 **Sender's:** votre email sur Gmail  
@@ -115,7 +115,7 @@ Pour pouvoir renseigner la bonne configuration dans Magellan, vous pouvez consul
 ### Posteo
 
 <!-- TODO: orders sending with Posteo 400X159 - should be where in the page ? -->
-![Sending in commands with Magellan using Posteo as an example](./assets/images/orders-sending-posteo.png "Sending in commands with Magellan using Posteo as an example")
+![Sending in commands with Magellan using Posteo as an example](../assets/images/orders-sending-posteo.png "Sending in commands with Magellan using Posteo as an example")
 
 <!-- cspell:disable -->
 **Return address:** votre email Posteo  

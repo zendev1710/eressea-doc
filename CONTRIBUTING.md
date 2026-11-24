@@ -79,17 +79,22 @@ So we can write:
 Caution:
 
 - if `page-alias` is not a defined alias, `mkdocs serve` command could fail with a Python exception error.
-- anchor must be **slugifyied** (for german and french pages)
+- anchor must be **slugifyied** (in particular for german and french pages)
 
 Limitations:
 
 - ```[[page-alias|`MAKE [number] HORSE`]]``` is not converted in a link (due to `[` and `]` surrounding `number`)
 - `[[page-alias|text]]` cannot be a markdown table cell value (due to pipe charcater)
 
-When above limitation is encountered, ass a workaround, the link must be written without alias usage:
+When above limitation is encountered, as a workaround, the link must be written without alias usage:
 
 - `[text](link)`, or
 - `[text][footnote-link]` and `[footnote-link]: ./my-page.md#mu-anchor` (footnote pattern)
+
+Using `mkdocs-autorefs` plugin, write `[<text>][<slugifyied anchor>]` for any defined anchor in the documentation.  
+
+`[](){ #items-id }` written above an anchor allows to define an `items-id` alias referenced as `[<text>][items-id]`.  
+It's useful when some same anchors are defined in the documentation (e.g. `## Mine` in english and french pages).
 
 ### Use tooltips for french pages
 

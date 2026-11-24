@@ -81,18 +81,25 @@ extra_javascript:
   - javascripts/katex-init.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   # our own scripts
   - javascripts/formulas-try.js
   - javascripts/lore-dialogue.js
+  - javascripts/tablesort.js
 
 copyright: Copyright &copy; 2025-2026 Cyril Guillon
 
 plugins:
   # - categories
   - alias
-
   - privacy
-  - redirects
+  - redirects:
+      redirect_maps:
+        'flaming-sword.md': 'reference/items/flaming-sword.md'
+        'mine.md': 'economy/buildings-others.md#mine'
+        # does not work with other languages, see https://github.com/mkdocs/mkdocs-redirects/issues/33
+        #'fr/mine.md': 'economy/buildings-others.md#mine'
+        #'de/mine.md': 'economy/buildings-others.md#bergwerk'
   - search :
       enabled: true
   - table-reader
@@ -122,7 +129,7 @@ plugins:
             Alchemy: Alchimie
             Orders: Ordres
             Misc: Divers
-            Reference: Référence
+            Reference: Références
             Tools: Outils
             Dev: Dév.
             Help: Aide
@@ -175,7 +182,7 @@ plugins:
             #War: Guerre
             Alliances: Alliances
             Tactic: Tactique
-            Armed unit: Unité arméz
+            Armed unit: Unité armée
             # Magic submenu
             Schools: Écoles de magie
             Familiars: Familiers
@@ -311,10 +318,12 @@ plugins:
               - Faction pool: economy/faction-pool.md
               - Items pool: economy/items-pool.md
             - Combat:
-              - Alliances: combat/alliances.md
-              - Armed unit: combat/armed.md
               - War: combat/war.md
+              - Armed unit: combat/armed.md
               - Tactic: combat/tactic.md
+              - Weapons: combat/weapons.md
+              - Armour: combat/armour-and-shields.md
+              - Alliances: combat/alliances.md
             - Magic:
               - Overview: magic/magic.md
               - Schools:
@@ -583,10 +592,12 @@ nav:
     - Faction pool: economy/faction-pool.md
     - Items pool: economy/items-pool.md
   - Combat:
-    - Alliances: combat/alliances.md
-    - Armed unit: combat/armed.md
     - War: combat/war.md
+    - Armed unit: combat/armed.md
     - Tactic: combat/tactic.md
+    - Weapons: combat/weapons.md
+    - Armour: combat/armour-and-shields.md
+    - Alliances: combat/alliances.md
   - Magic:
     - Overview: magic/magic.md
     - Schools:

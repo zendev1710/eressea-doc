@@ -5,9 +5,6 @@ alias: objets
 
 # Objets
 
-<!-- TODO: improve below tables (no weight ? "min" as "min/needed skill"? sometimes another word for "production"?...) -->
-<!-- TODO: move some of these tables in skills page ? -->
-
 ## Production d'objets
 
 Les produits finis peuvent être fabriqués en n'importe quelle quantité.  
@@ -15,9 +12,11 @@ Les seules limites sont, d'une part, la matière première disponible et, d'autr
 
 Le tableau suivant montre les objets disponibles sur Eressea.  
 Ils ne peuvent être fabriqués que si l'unité concernée a également la compétence correspondante à un niveau suffisamment élevé.  
+
 Le total des niveaux de compétence est toujours divisé par le niveau de compétence requis pour la production de ces objets (voir [ces exemples][production-fr-id]).  
+
 Cela vaut également pour les matières premières !  
-Un mineur T4 en [extraction de pierres][extraction-de-pierres]{title="Quarrying"} dans une région avec "20 fer/4" peut extraire 4 fer par tour (et pas seulement 1 fer).  
+Ainsi, un [tailleur de pierres T4][extraction-de-pierres]{title="Quarrying"} dans une région avec "20 fer/4" peut extraire 4 fer par tour (et pas seulement 1 fer).  
 
 [](){ #production-d-armes-id }
 
@@ -25,25 +24,25 @@ Un mineur T4 en [extraction de pierres][extraction-de-pierres]{title="Quarrying"
 
 La compétence de [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"} permet de produire les **armes** suivantes.
 
-*Poids, niveau minimal requis dans la compétence et ressources nécessaires.*  
+*Niveau requis dans la compétence, ressources nécessaires à la production, poids.*  
 
-| Arme                                                                 | Poids | min. |           ressources |
-|----------------------------------------------------------------------|------:|-----:|---------------------:|
-| [Arc][arc]{title="Bow"}                                              |     1 |    2 |               1 bois |
-| [Javelot][javelot]{title="Spear"}                                    |     1 |    2 |               1 bois |
-| [Lance][lance-fr-id]{title="Lance"}                                  |     2 |    2 |               2 bois |
-| [Épée][epee]{title="Sword"}                                          |     1 |    3 |                1 fer |
-| [Arbalète][arbalete]{title="Crossbow"}                               |     1 |    3 |               1 bois |
-| [Hache de guerre][hache-de-guerre]{title="Axe"}                      |     2 |    3 |        1 fer, 1 bois |
-| [Hallebarde][hallebarde]{title="Halberd"}                            |     2 |    3 |        1 fer, 2 bois |
-| [Claymore][claymore-fr-id]{title="Claymore"}                         |     2 |    4 |                2 fer |
-| [Arbalète en mallorn][arbalete-en-mallorn]{title="Mallorn crossbow"} |     1 |    5 |            1 mallorn |
-| [Arc en mallorn][arc-en-mallorn]{title="Mallorn bow"}                |     1 |    5 |            1 mallorn |
-| [Javelot en mallorn][javelot-en-mallorn]{title="Mallorn spear"}      |     1 |    5 |            1 mallorn |
-| [Lance en mallorn][lance-en-mallorn]{title="Mallorn lance"}          |     1 |    5 |            2 mallorn |
-| [Arc elfique][arc-elfique]{title="Elven bow"}[^2]                    |     1 |    5 |            2 mallorn |
-| [épée en laen][epee-en-laen]{title="Laen sword"}                     |     1 |    8 |               1 laen |
-| [Hache en adamantium][hache-en-adamantium]{title="Adamantium axe"}   |     1 |    8 | 1 adamantium, 1 bois |
+| Arme                                                                 | Niv. |           Ressources | Poids |
+|----------------------------------------------------------------------|:----:|---------------------:|:-----:|
+| [Arbalète en mallorn][arbalete-en-mallorn]{title="Mallorn crossbow"} |  T5  |            1 mallorn | 1 lbs |
+| [Arbalète][arbalete]{title="Crossbow"}                               |  T3  |               1 bois | 1 lbs |
+| [Arc elfique][arc-elfique]{title="Elven bow"}[^2]                    |  T5  |            2 mallorn | 1 lbs |
+| [Arc en mallorn][arc-en-mallorn]{title="Mallorn bow"}                |  T5  |            1 mallorn | 1 lbs |
+| [Arc][arc]{title="Bow"}                                              |  T2  |               1 bois | 1 lbs |
+| [Claymore][claymore-fr-id]{title="Claymore"}                         |  T4  |               2 fers | 2 lbs |
+| [épée en laen][epee-en-laen]{title="Laen sword"}                     |  T8  |               1 laen | 1 lbs |
+| [Épée][epee]{title="Sword"}                                          |  T3  |               1  fer | 1 lbs |
+| [Hache de guerre][hache-de-guerre]{title="Axe"}                      |  T3  |        1 fer, 1 bois | 2 lbs |
+| [Hache en adamantium][hache-en-adamantium]{title="Adamantium axe"}   |  T8  | 1 adamantium, 1 bois | 1 lbs |
+| [Hallebarde][hallebarde]{title="Halberd"}                            |  T3  |        1 fer, 2 bois | 2 lbs |
+| [Javelot en mallorn][javelot-en-mallorn]{title="Mallorn spear"}      |  T5  |            1 mallorn | 1 lbs |
+| [Javelot][javelot]{title="Spear"}                                    |  T2  |               1 bois | 1 lbs |
+| [Lance en mallorn][lance-en-mallorn]{title="Mallorn lance"}          |  T5  |            2 mallorn | 1 lbs |
+| [Lance][lance-fr-id]{title="Lance"}                                  |  T2  |               2 bois | 2 lbs |
 
 [](){ #production-d-armures-id }
 
@@ -51,85 +50,113 @@ La compétence de [fabrication d'armes][fabrication-darmes]{title="Weaponsmithin
 
 La compétence de [fabrication d'armures][fabrication-darmures]{title="Armoursmithing"} permet de produire les **armures** suivantes.
 
-| Armure                                                                       | Poids | min. |   ressources |
-|------------------------------------------------------------------------------|------:|-----:|-------------:|
-| [Bouclier][bouclier]{title="Shield"}                                         |     1 |    2 |        1 fer |
-| [Cotte de mailles][cotte-de-mailles]{title="Chainmail"}                      |     2 |    3 |        3 fer |
-| [Armure de plaque][armure-de-plaque]{title="Platemail"}                      |     4 |    4 |        5 fer |
-| [Bouclier en laen][bouclier-en-laen]{title="Laen shield"}                    |     0 |    7 |       1 laen |
-| [Cotte de mailles en laen][cotte-de-mailles-en-laen]{title="Laen chainmail"} |     1 |    9 |       3 laen |
-| [Armure en adamantium][armure-en-adamantium]{title="Adamantium plate"}       |     1 |   10 | 3 adamantium |
+*Niveau requis dans la compétence, ressources nécessaires à la production, Poids.*  
 
-## Production des biens de luxe
+| Armure                                                                       | Niv. |   ressources | Poids |
+|------------------------------------------------------------------------------|-----:|-------------:|:-----:|
+| [Bouclier][bouclier]{title="Shield"}                                         |   T2 |       1  fer | 1 lbs |
+| [Cotte de mailles][cotte-de-mailles]{title="Chainmail"}                      |   T3 |       3  fer | 2 lbs |
+| [Armure de plaque][armure-de-plaque]{title="Platemail"}                      |   T4 |       5  fer | 4 lbs |
+| [Bouclier en laen][bouclier-en-laen]{title="Laen shield"}                    |   T7 |       1 laen | 0 lbs |
+| [Cotte de mailles en laen][cotte-de-mailles-en-laen]{title="Laen chainmail"} |   T9 |       3 laen | 1 lbs |
+| [Armure en adamantium][armure-en-adamantium]{title="Adamantium plate"}       |  T10 | 3 adamantium | 1 lbs |
 
-La compétence de [commerce][commerce]{title="Trade"} permet de produire les **biens de luxe**.  
-Aucune ressource n'est nécessaire pour produire un bien de luxe.
+[](){ #commerce-des-biens-de-luxe-id }
 
-*Poids, niveau minimal requis dans la compétence.*  
+## Commerce des biens de luxe
 
-| Bien de luxe                      | Poids | min. |
-|-----------------------------------|------:|-----:|
-| [Baume][baume]{title="Balm"}      |     2 |    1 |
-| [Encens][encens]{title="Incense"} |     2 |    1 |
-| [Gemme][gemme]{title="Gem"}       |     1 |    1 |
-| [Huile][huile]{title="Oil"}       |     3 |    1 |
-| [Myrrhe][myrrhe]{title="Myrrh"}   |     2 |    1 |
-| [Soie][soie]{title="Silk"}        |     3 |    1 |
-| [Épice][epice]{title="Spice"}     |     2 |    1 |
+La compétence de [commerce][commerce]{title="Trade"} permet d'acheter oude vendre les **biens de luxe**.  
+Aucune ressource n'est nécessaire pour cela.
+
+*Niveau requis dans la compétence, Poids.*  
+
+| Bien de luxe                      | Niv. | Poids |
+|-----------------------------------|:----:|:-----:|
+| [Baume][baume]{title="Balm"}      |  T1  | 2 lbs |
+| [Encens][encens]{title="Incense"} |  T1  | 2 lbs |
+| [Épice][epice]{title="Spice"}     |  T1  | 2 lbs |
+| [Gemme][gemme]{title="Gem"}       |  T1  | 1 lbs |
+| [Huile][huile]{title="Oil"}       |  T1  | 3 lbs |
+| [Myrrhe][myrrhe]{title="Myrrh"}   |  T1  | 2 lbs |
+| [Soie][soie]{title="Silk"}        |  T1  | 3 lbs |
+
+[](){ #production-des-matieres-premieres-id }
+
+## Production des matières premières
+
+*Compétence, niveau requis dans la compétence, ressources nécessaires à la production, poids.*  
+
+| Objet                                                         | compétence requise                                                | Niv. | ressources | Poids |
+|---------------------------------------------------------------|-------------------------------------------------------------------|-----:|-----------:|------:|
+| [Cheval][cheval]{title="Horse"}                               | [Apprivoisement][apprivoisement]{title="Taming"}                  |   T1 |          - |    50 |
+| [Bois][bois]{title="Wood"}                                    | [sylviculture][sylviculture]{title="Forestry"}                    |   T1 |          - |     5 |
+| [Mallorn][mallorn-fr-id]{title="Mallorn"}                     | [sylviculture][sylviculture]{title="Forestry"}                    |   T2 |          - |     5 |
+| [Fer][fer]{title="Iron"}                                      | [extraction minière][extraction-miniere]{title="Mining"}          |   T1 |          - |     5 |
+| [Laen][laen-fr-id]{title="Laen"}[^1]                          | [extraction minière][extraction-miniere]{title="Mining"}          |   T7 |          - |     2 |
+| [Adamantium][adamantium-fr-id]{title="Adamantium"}[^1]        | [extraction minière][extraction-miniere]{title="Mining"}          |   T8 |          - |     2 |
+| [Pierre][pierre]{title="Stone"}                               | [extraction de pierres][extraction-de-pierres]{title="Quarrying"} |   T1 |          - |    60 |
+| [Plantes][plantes-id]{title="Herbs"}                          | [herboristerie][herboristerie]{title="Herbalism"}                 |   T1 |          - |     0 |
+| [Graine][graines]{title="Seeds"}                              | [herboristerie][herboristerie]{title="Herbalism"}                 |   T3 |          - |   0,1 |
+| [Graine de mallorn][graines-de-mallorn]{title="Mallornseeds"} | [herboristerie][herboristerie]{title="Herbalism"}                 |   T4 |          - |   0,1 |
 
 ## Production des autres objets
 
-<!-- TODO -->
+| Objet                                                         | compétence requise                                | Niv. | ressources | Poids |
+|---------------------------------------------------------------|---------------------------------------------------|-----:|-----------:|------:|
+| [Silver]                                                      | -                                                 |    - |          - |  0,01 |
+| Potions                                                       | [Alchimie][alchimie]{title="Alchemy"}             |   T2 |    Plantes |     0 |
 
-## Tableau complet de production
+[](){ #production-des-objets-synthese-id }
 
-*Poids, compétence, niveau minimal requis dans la compétence et ressources nécessaires.*  
+## Production des objets - Synthèse
 
-| Objet                                                                        | Poids | compétence                                                             | min. |           ressources |
-|------------------------------------------------------------------------------|------:|------------------------------------------------------------------------|-----:|---------------------:|
-| [Silver]                                                                     |  0,01 | --                                                                     |   -- |                   -- |
-| [Baume][baume]{title="Balm"}                                                 |     2 | [commerce][commerce]{title="Trade"}                                    |    1 |                   -- |
-| [Encens][encens]{title="Incense"}                                            |     2 | [commerce][commerce]{title="Trade"}                                    |    1 |                   -- |
-| [Gemme][gemme]{title="Gem"}                                                  |     1 | [commerce][commerce]{title="Trade"}                                    |    1 |                   -- |
-| [Huile][huile]{title="Oil"}                                                  |     3 | [commerce][commerce]{title="Trade"}                                    |    1 |                   -- |
-| [Myrrhe][myrrhe]{title="Myrrh"}                                              |     2 | [commerce][commerce]{title="Trade"}                                    |    1 |                   -- |
-| [Soie][soie]{title="Silk"}                                                   |     3 | [commerce][commerce]{title="Trade"}                                    |    1 |                   -- |
-| [Épice][epice]{title="Spice"}                                                |     2 | [commerce][commerce]{title="Trade"}                                    |    1 |                   -- |
-| [Plantes][plantes-id]{title="Herbs"}                                         |     0 | [herboristerie][herboristerie]{title="Herbalism"}                      |    1 |                   -- |
-| [Graine][graines]{title="Seeds"}                                             |   0,1 | [herboristerie][herboristerie]{title="Herbalism"}                      |    3 |                   -- |
-| [Graine de mallorn][graines-de-mallorn]{title="Mallornseeds"}                |   0,1 | [herboristerie][herboristerie]{title="Herbalism"}                      |    4 |                   -- |
-| [Bois][bois]{title="Wood"}                                                   |     5 | [sylviculture][sylviculture]{title="Forestry"}                         |    1 |                   -- |
-| [Mallorn][mallorn-fr-id]{title="Mallorn"}                                    |     5 | [sylviculture][sylviculture]{title="Forestry"}                         |    2 |                   -- |
-| [Fer][fer]{title="Iron"}                                                     |     5 | [extraction minière][extraction-miniere]{title="Mining"}               |    1 |                   -- |
-| [Laen][laen-fr-id]{title="Laen"}[^1]                                         |     2 | [extraction minière][extraction-miniere]{title="Mining"}               |    7 |                   -- |
-| [Adamantium][adamantium-fr-id]{title="Adamantium"}[^1]                       |     2 | [extraction minière][extraction-miniere]{title="Mining"}               |    8 |                   -- |
-| [Pierre][pierre]{title="Stone"}                                              |    60 | [extraction de pierres][extraction-de-pierres]{title="Quarrying"}      |    1 |                   -- |
-| [Munition][munition]{title="Ammunition"}                                     |    10 | [extraction de pierres][extraction-de-pierres]{title="Quarrying"}      |    3 |             1 pierre |
-| [Cheval][cheval]{title="Horse"}                                              |    50 | [apprivoisement][apprivoisement]{title="Taming"}                       |    1 |                   -- |
-| [Chariot][chariot]{title="Cart"}                                             |    40 | [fabrication de chariots][fabrication-de-chariots]{title="Cartmaking"} |    1 |               5 bois |
-| [Catapulte][catapulte]{title="Catapult"}                                     |   100 | [fabrication de chariots][fabrication-de-chariots]{title="Cartmaking"} |    5 |              10 bois |
-| [Arc][arc]{title="Bow"}                                                      |     1 | [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |    2 |               1 bois |
-| [Javelot][javelot]{title="Spear"}                                            |     1 | [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |    2 |               1 bois |
-| [Lance][lance-fr-id]{title="Lance"}                                          |     2 | [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |    2 |               2 bois |
-| [Épée][epee]{title="Sword"}                                                  |     1 | [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |    3 |                1 fer |
-| [Arbalète][arbalete]{title="Crossbow"}                                       |     1 | [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |    3 |               1 bois |
-| [Hache de guerre][hache-de-guerre]{title="Axe"}                              |     2 | [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |    3 |        1 fer, 1 bois |
-| [Hallebarde][hallebarde]{title="Halberd"}                                    |     2 | [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |    3 |        1 fer, 2 bois |
-| [Claymore][claymore-fr-id]{title="Claymore"}                                 |     2 | [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |    4 |                2 fer |
-| [Arbalète en mallorn][arbalete-en-mallorn]{title="Mallorn crossbow"}         |     1 | [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |    5 |            1 mallorn |
-| [Arc en mallorn][arc-en-mallorn]{title="Mallorn bow"}                        |     1 | [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |    5 |            1 mallorn |
-| [Javelot en mallorn][javelot-en-mallorn]{title="Mallorn spear"}              |     1 | [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |    5 |            1 Mallorn |
-| [Lance en mallorn][lance-en-mallorn]{title="Mallorn lance"}                  |     1 | [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |    5 |            2 mallorn |
-| [Arc elfique][arc-elfique]{title="Elven bow"}[^2]                            |     1 | [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |    5 |            2 mallorn |
-| [épée en laen][epee-en-laen]{title="Laen sword"}                             |     1 | [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |    8 |               1 Laen |
-| [Hache en adamantium][hache-en-adamantium]{title="Adamantium axe"}           |     1 | [fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |    8 | 1 adamantium, 1 bois |
-| [Bouclier][bouclier]{title="Shield"}                                         |     1 | [fabrication d'armures][fabrication-darmures]{title="Armoursmithing"}  |    2 |                1 fer |
-| [Cotte de mailles][cotte-de-mailles]{title="Chainmail"}                      |     2 | [fabrication d'armures][fabrication-darmures]{title="Armoursmithing"}  |    3 |                3 fer |
-| [Armure de plaque][armure-de-plaque]{title="Platemail"}                      |     4 | [fabrication d'armures][fabrication-darmures]{title="Armoursmithing"}  |    4 |                5 fer |
-| [Bouclier en laen][bouclier-en-laen]{title="Laen shield"}                    |     0 | [fabrication d'armures][fabrication-darmures]{title="Armoursmithing"}  |    7 |               1 laen |
-| [Cotte de mailles en laen][cotte-de-mailles-en-laen]{title="Laen chainmail"} |     1 | [fabrication d'armures][fabrication-darmures]{title="Armoursmithing"}  |    9 |               3 laen |
-| [Armure en adamantium][armure-en-adamantium]{title="Adamantium plate"}       |     1 | [fabrication d'armures][fabrication-darmures]{title="Armoursmithing"}  |   10 |         3 adamantium |
-| Potions                                                                      |     0 | [alchimie][alchimie]{title="Alchemy"}                                  |    2 |              Plantes |
+*Compétence, niveau requis dans la compétence, ressources nécessaires à la production, poids.*  
+
+| Objet                                                                        | compétence                                                             | min. |           ressources | Poids |
+|------------------------------------------------------------------------------|------------------------------------------------------------------------|-----:|---------------------:|------:|
+| [Silver]                                                                     | -                                                                      |    - |                    - |  0,01 |
+| [Baume][baume]{title="Balm"}                                                 | [Commerce][commerce]{title="Trade"}                                    |   T1 |                    - |     2 |
+| [Encens][encens]{title="Incense"}                                            | [Commerce][commerce]{title="Trade"}                                    |   T1 |                    - |     2 |
+| [Gemme][gemme]{title="Gem"}                                                  | [Commerce][commerce]{title="Trade"}                                    |   T1 |                    - |     1 |
+| [Huile][huile]{title="Oil"}                                                  | [Commerce][commerce]{title="Trade"}                                    |   T1 |                    - |     3 |
+| [Myrrhe][myrrhe]{title="Myrrh"}                                              | [Commerce][commerce]{title="Trade"}                                    |   T1 |                    - |     2 |
+| [Soie][soie]{title="Silk"}                                                   | [Commerce][commerce]{title="Trade"}                                    |   T1 |                    - |     3 |
+| [Épice][epice]{title="Spice"}                                                | [Commerce][commerce]{title="Trade"}                                    |   T1 |                    - |     2 |
+| [Plantes][plantes-id]{title="Herbs"}                                         | [Herboristerie][herboristerie]{title="Herbalism"}                      |   T1 |                    - |     0 |
+| [Graine][graines]{title="Seeds"}                                             | [Herboristerie][herboristerie]{title="Herbalism"}                      |   T3 |                    - |   0,1 |
+| [Graine de mallorn][graines-de-mallorn]{title="Mallornseeds"}                | [Herboristerie][herboristerie]{title="Herbalism"}                      |   T4 |                    - |   0,1 |
+| [Bois][bois]{title="Wood"}                                                   | [Sylviculture][sylviculture]{title="Forestry"}                         |   T1 |                    - |     5 |
+| [Mallorn][mallorn-fr-id]{title="Mallorn"}                                    | [Sylviculture][sylviculture]{title="Forestry"}                         |   T2 |                    - |     5 |
+| [Fer][fer]{title="Iron"}                                                     | [Extraction minière][extraction-miniere]{title="Mining"}               |   T1 |                    - |     5 |
+| [Laen][laen-fr-id]{title="Laen"}[^1]                                         | [Extraction minière][extraction-miniere]{title="Mining"}               |   T7 |                    - |     2 |
+| [Adamantium][adamantium-fr-id]{title="Adamantium"}[^1]                       | [Extraction minière][extraction-miniere]{title="Mining"}               |   T8 |                    - |     2 |
+| [Pierre][pierre]{title="Stone"}                                              | [Extraction de pierres][extraction-de-pierres]{title="Quarrying"}      |   T1 |                    - |    60 |
+| [Munition][munition]{title="Ammunition"}                                     | [Extraction de pierres][extraction-de-pierres]{title="Quarrying"}      |   T3 |             1 pierre |    10 |
+| [Cheval][cheval]{title="Horse"}                                              | [Apprivoisement][apprivoisement]{title="Taming"}                       |   T1 |                    - |    50 |
+| [Chariot][chariot]{title="Cart"}                                             | [Fabrication de chariots][fabrication-de-chariots]{title="Cartmaking"} |   T1 |               5 bois |    40 |
+| [Catapulte][catapulte]{title="Catapult"}                                     | [Fabrication de chariots][fabrication-de-chariots]{title="Cartmaking"} |   T5 |              10 bois |   100 |
+| [Arc][arc]{title="Bow"}                                                      | [Fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |   T2 |               1 bois |     1 |
+| [Javelot][javelot]{title="Spear"}                                            | [Fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |   T2 |               1 bois |     1 |
+| [Lance][lance-fr-id]{title="Lance"}                                          | [Fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |   T2 |               2 bois |     2 |
+| [Épée][epee]{title="Sword"}                                                  | [Fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |   T3 |               1  fer |     1 |
+| [Arbalète][arbalete]{title="Crossbow"}                                       | [Fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |   T3 |               1 bois |     1 |
+| [Hache de guerre][hache-de-guerre]{title="Axe"}                              | [Fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |   T3 |        1 fer, 1 bois |     2 |
+| [Hallebarde][hallebarde]{title="Halberd"}                                    | [Fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |   T3 |        1 fer, 2 bois |     2 |
+| [Claymore][claymore-fr-id]{title="Claymore"}                                 | [Fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |   T4 |               2 fers |     2 |
+| [Arbalète en mallorn][arbalete-en-mallorn]{title="Mallorn crossbow"}         | [Fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |   T5 |            1 mallorn |     1 |
+| [Arc en mallorn][arc-en-mallorn]{title="Mallorn bow"}                        | [Fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |   T5 |            1 mallorn |     1 |
+| [Javelot en mallorn][javelot-en-mallorn]{title="Mallorn spear"}              | [Fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |   T5 |            1 Mallorn |     1 |
+| [Lance en mallorn][lance-en-mallorn]{title="Mallorn lance"}                  | [Fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |   T5 |            2 mallorn |     1 |
+| [Arc elfique][arc-elfique]{title="Elven bow"}[^2]                            | [Fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |   T5 |            2 mallorn |     1 |
+| [épée en laen][epee-en-laen]{title="Laen sword"}                             | [Fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |   T8 |               1 Laen |     1 |
+| [Hache en adamantium][hache-en-adamantium]{title="Adamantium axe"}           | [Fabrication d'armes][fabrication-darmes]{title="Weaponsmithing"}      |   T8 | 1 adamantium, 1 bois |     1 |
+| [Bouclier][bouclier]{title="Shield"}                                         | [Fabrication d'armures][fabrication-darmures]{title="Armoursmithing"}  |   T2 |               1  fer |     1 |
+| [Cotte de mailles][cotte-de-mailles]{title="Chainmail"}                      | [Fabrication d'armures][fabrication-darmures]{title="Armoursmithing"}  |   T3 |               3 fers |     2 |
+| [Armure de plaque][armure-de-plaque]{title="Platemail"}                      | [Fabrication d'armures][fabrication-darmures]{title="Armoursmithing"}  |   T4 |               5 fers |     4 |
+| [Bouclier en laen][bouclier-en-laen]{title="Laen shield"}                    | [Fabrication d'armures][fabrication-darmures]{title="Armoursmithing"}  |   T7 |               1 laen |     0 |
+| [Cotte de mailles en laen][cotte-de-mailles-en-laen]{title="Laen chainmail"} | [Fabrication d'armures][fabrication-darmures]{title="Armoursmithing"}  |   T9 |               3 laen |     1 |
+| [Armure en adamantium][armure-en-adamantium]{title="Adamantium plate"}       | [Fabrication d'armures][fabrication-darmures]{title="Armoursmithing"}  |  T10 |         3 adamantium |     1 |
+| Potions                                                                      | [Alchimie][alchimie]{title="Alchemy"}                                  |   T2 |              Plantes |     0 |
 
 [^1]: l'extraction du laen et de l'adamantium nécessitent une [mine][mine-fr-id]{title="Mine"}.
 [^2]: les Elven bows peuvent uniquement être fabriqués par des [elfes][elfes]{title="Elves"}.
@@ -140,6 +167,6 @@ Aucune ressource n'est nécessaire pour produire un bien de luxe.
 - [Ressources][ressources]
 - [Routes][routes-id]
 - [Bâtiments][batiments-id]
-- [Tables militaires][tableaux-relatifs-a-la-guerre]
+- [Tableaux de combat][tableaux-combat-fr-id]
 
 <!-- From [https://wiki.eressea.de/index.php?title=Waren/fr&oldid=16666] -->

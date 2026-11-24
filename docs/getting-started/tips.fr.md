@@ -37,7 +37,7 @@ Envoyez donc quelques unités composées d'un seul soldat et donnez-leur suffisa
 Créez davantage d'unités et apprenez certaines compétences dont vous pensez avoir besoin lors des trois ou quatre prochains tours.  
 
 Le [divertissement][cmd-entertain-fr] est essentiel pour gagner de l'argent.  
-Sans suffisamment d'argent, ta faction ne pourra pas se développer.  
+Sans suffisamment d'argent, votre faction ne pourra pas se développer.  
 Les [collecteurs d'impôts][cmd-tax-fr] constituent également une bonne source de revenus;  
 pour cela, il te faut, par exemple, des métaux ([exploitation minière][ressources-minieres]) ou du bois ([exploitation forestière][ressources-forestieres]) pour fabriquer des armes comme des épées ou des lances;  
 et bien sûr, les collecteurs d'impôts doivent posséder les compétences d'armes appropriées ([collecte d'impôts][collecter-les-impots], [compétences d'armes][competences-de-combat]).  
@@ -54,9 +54,9 @@ Entraîner des [Mages][magie] coûte encore plus cher, mais un mage maîtrisant 
 De plus, les mages de toutes les écoles de magie peuvent lancer un sort pour gagner de l'argent très tôt dans le jeu, ce qui rend un investissement initial rentable (surtout pour les peuples bénéficiant d'un bonus de +1 en Magie).  
 
 Il serait également conseillé de prendre certaines précautions au cas où les voisins ne seraient pas très paisibles.  
-En d'autres termes, un plan pour protéger ta faction contre les attaques une fois la période d'immunité initiale terminée.  
+En d'autres termes, un plan pour protéger votre faction contre les attaques une fois la période d'immunité initiale terminée.  
 
-Ajoute de nombreux commentaires à tes fichiers d'ordres afin de bien comprendre le but de chaque action lors des tours suivants.  
+Ajoutez de nombreux commentaires à vos fichiers d'ordres afin de bien comprendre le but de chaque action lors des tours suivants.  
 Il est conseillé de regrouper les ordres par région, en prévoyant quelques lignes de commentaires pour chaque région.  
 Un bon point de départ pour votre nouveau fichier d'ordres est le [modèle d'évaluation][ordres] ajouté à l'évaluation du tour suivant.  
 Pour chaque unité, vous pouvez également indiquer ce qu'elle produit, pour qui, sa destination ou le type d'échange commercial qu'elle effectue.  
@@ -84,8 +84,8 @@ après le nom de l'unité, entre crochets, figurent le nombre de personnes qui l
 
 Attention aux coûts d'entretien.  
 Les grandes unités consomment beaucoup d'argent, et sans ressources, la population mourra de faim.  
-Il suffit qu'une seule de tes unités dans une région dispose de suffisamment d'argent pour nourrir toutes les autres.  
-N'oublie pas les unités qui quittent la région !  
+Il suffit qu'une seule de vos unités dans une région dispose de suffisamment d'argent pour nourrir toutes les autres.  
+N'oubliez pas les unités qui quittent la région !  
 
 Durant les premiers tours, vous pouvez vivre de votre capital de départ, mais **vous aurez rapidement besoin d'un revenu régulier**.  
 Ce capital de départ est généralement épuisé après 4 à 6 tours.  

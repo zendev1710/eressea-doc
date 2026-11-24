@@ -31,21 +31,21 @@ On peut également équiper 100 hommes de 70 armure de plaques et de 30 [cotte d
 Les troupes apprennent l'[endurance][skill-endurance-fr-id]{title="Endurance"} et la [maîtrise des armes].  
 Selon le peuple, il arrive un moment où il est plus avantageux d'apprendre l'endurance que la maîtrise des armes.  
 Finalement, chaque nouveau niveau de maîtrise des armes coûte autant de temps d'apprentissage que plusieurs niveaux d'endurance.  
-Tu peux calculer quand ce point est atteint, ou te baser sur la maîtrise des armes de tes ennemis – car il est absolument crucial de ne pas prendre beaucoup de retard sur eux.  
+Vous pouvez calculer quand ce point est atteint, ou vous baser sur la maîtrise des armes de vos ennemis – car il est absolument crucial de ne pas prendre beaucoup de retard sur eux.  
 
 L'avantage de maîtriser deux compétences réside aussi dans le fait qu'il est plus facile d'avoir toujours des instructeurs disponibles, pour enseigner l'une ou l'autre compétence.  
 
 ## De quoi ai-je absolument besoin au premier tour ?
 
-Peu importe le peuple et le besoin qui en découle en artistes ou collecteurs d'impôts par exemple, tu dois absolument former au moins une unité en [perception][skill-perception-fr-id]{title="Perception"} et peut-être une unité en [discrétion][skill-discretion-id]{title="Stealth"} dès le premier tour pour éviter d'être distancé, car les peuples particulièrement doués en camouflage exploitent souvent leur capacité à voler lorsqu'elles en ont l'occasion.  
+Peu importe le peuple et le besoin qui en découle en artistes ou collecteurs d'impôts par exemple, vous devez absolument former au moins une unité en [perception][skill-perception-fr-id]{title="Perception"} et peut-être une unité en [discrétion][skill-discretion-id]{title="Stealth"} dès le premier tour pour éviter d'être distancé, car les peuples particulièrement doués en camouflage exploitent souvent leur capacité à voler lorsqu'elles en ont l'occasion.  
 
 ## Acheter de la marchandise
 
 Bien que l'achat excessif augmente temporairement le prix d'une marchandise, il est conseillé d'en acheter davantage tant que ce prix reste inférieur au prix de vente.  
-En général, une marchandise peut être vendue dans bien plus de régions que tu ne peux l'acheter, et les marchands peuvent vendre plusieurs marchandises différentes par tour.  
+En général, une marchandise peut être vendue dans bien plus de régions que vous ne pouvez l'acheter, et les marchands peuvent vendre plusieurs marchandises différentes par tour.  
 Il existe même des situations où il est judicieux d'acheter des marchandises à un prix supérieur au prix de vente maximal, mais c'est probablement aller trop loin.  
 
-Le commerce te permet de gagner d'importantes sommes d'argent créées « à partir de rien », c'est-à-dire sans puiser dans les ressources régionales des agriculteurs;  
+Le commerce te permet de gagner d'importantes sommes d'argent créées « à partir de rien », c'est-à-dire sans puiser dans les ressources régionales des paysans;  
 c'est une opportunité à ne surtout pas manquer.  
 
 ## Nombre maximal d'unités dans une faction
@@ -60,7 +60,7 @@ La condition préalable est bien sûr de disposer de deux unités dans la régio
 ## Les paysans comme éclaireurs
 
 Les [paysans nomades][migration-paysanne] apportent des informations précieuses des régions voisines.  
-Si le nombre de paysans dans une région augmente soudainement et bien plus vite que ne le permettrait la croissance naturelle de la population rurale, la cause est la [migration de paysans][proliferation-des-agriculteurs] venus des régions voisines.  
+Si le nombre de paysans dans une région augmente soudainement et bien plus vite que ne le permettrait la croissance naturelle de la population rurale, la cause est la [migration de paysans][proliferation-des-paysans] venus des régions voisines.  
 Souvent, des monstres ayant élu domicile dans les environs et chassant les paysans en sont responsables.  
 Une autre possibilité est que certains paysans ne trouvent pas de travail dans leur région d'origine.  
 
@@ -104,8 +104,8 @@ Un message d'erreur s'affiche alors, mais le bateau ne bouge plus.
 
 ## Unités `TEMP`
 
-Avec les unités `TEMP`, tu peux faire toutes sortes de choses et contourner les restrictions que le jeu impose par excès de prudence.  
-Par exemple, tu peux quitter un bâtiment ou un bateau et tu ne sais pas ce qui va se passer ? C'est très simple.  
+Avec les unités `TEMP`, vous pouvez faire toutes sortes de choses et contourner les restrictions que le jeu impose par excès de prudence.  
+Par exemple, vous pouvez quitter un bâtiment ou un bateau et vous ne savez pas ce qui va se passer ? C'est très simple.  
 
 ```text
 GIVE TEMP 123 ALL

@@ -14,9 +14,9 @@ Il existe cinq Écoles de Magie dans Eressea.
 Chaque faction doit en choisir une lors de son premier apprentissage de la [magie][magie];  
 **une fois choisie, l'École de Magie n'est plus modifiable**.  
 
-Avant de choisir ton École de Magie, n'hésite pas à consulter la [liste des sorts][liste-des-sorts] !  
+Avant de choisir votre École de Magie, n'hésitez pas à consulter la [liste des sorts][liste-des-sorts] !  
 
-Tu trouveras ci-dessous la description des cinq Écoles de Magie et des liens vers leurs sorts.  
+Vous trouverez ci-dessous la description des cinq Écoles de Magie et des liens vers leurs sorts.  
 
 ## Illaun
 

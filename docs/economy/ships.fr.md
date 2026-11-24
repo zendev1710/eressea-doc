@@ -29,7 +29,7 @@ Fierté des Sept Vents (18), Drakkar, (254/500). Ce magnifique
     des ordres aux marins. Il a tout sous contrôle.
 ```
 
-Pour tes propres bateaux, la charge et la capacité sont indiquées après le type de bateau (ici 254 unités de poids sur 500 possibles).
+Pour vos propres bateaux, la charge et la capacité sont indiquées après le type de bateau (ici 254 unités de poids sur 500 possibles).
 
 Dans le rapport, les unités qui se trouvent sur le bateau suivent la description du bateau.
 

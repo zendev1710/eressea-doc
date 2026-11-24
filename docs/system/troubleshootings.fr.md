@@ -27,24 +27,24 @@ Pour cela, il est préférable de publier un [rapport de bug][rapport-de-bug] su
 
 Eressea n'est pas exempt de défauts, mais il en a très peu. Si l'on pense avoir trouvé une erreur, il faut procéder comme suit :
 
-1. Vérifie encore une fois avec précision si l'erreur se trouve dans le programme. Parfois, on a simplement oublié un petit détail.
-2. Lis les mails dans la liste `E-Announce`, les rapports de bug dans Mantis ou le canal `#general` dans [Discord] : parfois le bug a déjà été trouvé et ton rapport serait superflu.
-3. Réfléchis à la manière dont l'erreur s'est produite. Rassemble tous les éléments nécessaires. Ouvre un nouveau rapport de bug dans [Mantis]. Il devrait contenir les éléments suivants :
-    1. Ton ID de Faction
+1. Vérifiez encore une fois avec précision si l'erreur se trouve dans le programme. Parfois, on a simplement oublié un petit détail.
+2. Lisez les mails dans la liste `E-Announce`, les rapports de bug dans Mantis ou le canal `#general` dans [Discord] : parfois le bug a déjà été trouvé et votre rapport serait superflu.
+3. Réfléchissez à la manière dont l'erreur s'est produite. Rassemblez tous les éléments nécessaires. Ouvrez un nouveau rapport de bug dans [Mantis]. Il devrait contenir les éléments suivants :
+    1. Votre ID de Faction
     2. Identifiants des unités, bateaux ou autres objets concernés
     3. Messages du rapport qui sont pertinents pour l'événement
     4. Noms et ID des régions où cela s'est produit
-    5. des extraits pertinents du rapport actuel et, le cas échéant, de rapports plus anciens
+    5. Des extraits pertinents du rapport actuel et, le cas échéant, de rapports plus anciens
     6. Extraits des fichiers d'ordres
     7. Version du serveur dans laquelle l'erreur est survenue
-    8. une description contenant toutes les informations nécessaires pour comprendre et suivre l'erreur, y compris
-    9. de la situation initiale
-    10. ce à quoi tu t'attendais
-    11. ce qui s'est réellement passé
-    12. S'il te plaît, ne joins pas ton rapport en entier si on ne te le demande pas ! Les rapports de bugs sont généralement publics.
-    13. Si tu dois envoyer ton rapport ou des informations que tes coéquipiers ne devraient pas avoir, ajoute une note au rapport et marque-la comme "privée".
+    8. Une description contenant toutes les informations nécessaires pour comprendre et suivre l'erreur, y compris
+    9. De la situation initiale
+    10. Ce à quoi vous vous attendiez
+    11. Ce qui s'est réellement passé
+    12. S'il vous plaît, ne joignez pas votre rapport en entier si on ne vous le demande pas ! Les rapports de bugs sont généralement publics.
+    13. Si vous devez envoyer votre rapport ou des informations que vos coéquipiers ne devraient pas avoir, ajoutez une note au rapport et marquez-la comme "privée".
 
-Ne t'impatiente pas si tu ne reçois pas de réponse immédiatement. Si tu as besoin d'une réponse rapide, pose une question sur [Discord].
+Ne vous impatientez pas si vous ne recevez pas de réponse immédiatement. Si vous avez besoin d'une réponse rapide, posez une question sur [Discord].
 
 En règle générale, les bugs corrigés ne sont pas directement intégrés dans la version actuelle du serveur, à moins qu'il ne s'agisse d'erreurs graves.
 Le nouveau code est d'abord testé, puis déployé une fois par trimestre après annonce préalable.

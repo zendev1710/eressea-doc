@@ -7,7 +7,7 @@ alias: protection-du-chiot
 
 En général, le premier rapport d'une faction contient un message (en anglais ou en allemand) du type : « Votre faction est immunisée contre les attaques pendant les 3 prochaines semaines ».
 
-Le message signifie que ta faction ne peut être ni [attaquée][cmd-attack-fr] ni [volée][cmd-steal-fr], et que tu ne peux pas encore [garder][cmd-guard-fr].
+Le message signifie que votre faction ne peut être ni [attaquée][cmd-attack-fr] ni [volée][cmd-steal-fr], et que vous ne pouvez pas encore [garder][cmd-guard-fr].
 
 Ce système vise à améliorer l'équilibre du jeu pour les factions débutantes.
 
@@ -17,7 +17,7 @@ Ce système vise à améliorer l'équilibre du jeu pour les factions débutantes
 *Note : Auparavant, le message indiquait : « Votre faction est immunisée contre les attaques pendant X semaines ».*
 
 !!! warning "Attention"
-    Si ton rapport indique « Votre groupe est immunisé pendant 1 semaine », cela signifie que tu peux déjà être victime de vols et d’attaques pendant la semaine pour laquelle tu soumets actuellement tes ordres !
+    Si votre rapport indique « Votre groupe est immunisé pendant 1 semaine », cela signifie que vous pouvez déjà être victime de vols et d’attaques pendant la semaine pour laquelle vous soumettez actuellement vos ordres !
 
 Poursuivre la lecture : [[sending-orders]].
 

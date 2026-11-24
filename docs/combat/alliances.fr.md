@@ -20,7 +20,7 @@ Les ordres qui suivent permettent de nouer des alliances de différents types.
 
 ## `HELP GIVE`
 
-Tes unités accepteront tous les objets et l'argent de l'autre faction.  
+Vos unités accepteront tous les objets et l'argent de l'autre faction.  
 Cela équivaut à un [`CONTACT`][cmd-contact-fr] permanent pour [`GIVE`][cmd-give-fr].  
 
 !!! warning "Attention !"
@@ -29,24 +29,24 @@ Cela équivaut à un [`CONTACT`][cmd-contact-fr] permanent pour [`GIVE`][cmd-giv
 
 ## `HELP COMBAT`
 
-Tes propres unités prêtes au combat (à l'exception de celles ayant `COMBAT FLEE` ou `COMBAT NOT`) [rejoindront un combat][guerre] si la faction alliée est attaquée.  
+Vos propres unités prêtes au combat (à l'exception de celles ayant `COMBAT FLEE` ou `COMBAT NOT`) [rejoindront un combat][guerre] si la faction alliée est attaquée.  
 
 ## `HELP SILVER`
 
-Aide la faction alliée en [soutenant][frais-dentretien] ses unités s'il te reste de l'argent après avoir payé ton propre soutien.  
-Si les unités de la faction alliée n'ont pas assez d'argent pour se nourrir, tes unités leur en fourniront.  
+Aide la faction alliée en [soutenant][frais-dentretien] ses unités s'il vous reste de l'argent après avoir payé votre propre soutien.  
+Si les unités de la faction alliée n'ont pas assez d'argent pour se nourrir, vos unités leur en fourniront.  
 La faction bénéficiaire n'a pas besoin de faire de don pour ce type de transfert.  
 
 ## `HELP GUARD`
 
 Lève toutes les restrictions de [`GUARD`][cmd-guard-fr] et étend certaines fonctions utiles à la faction ciblée.  
 Normalement, les factions de garde empêchent les autres factions de [lever des impôts][argent], de [recruter][recruter] ou de [produire][ressources] des ressources limitées;  
-Il arrive aussi que certaines unités soient empêchées de [traverser][cmd-guard-fr] ta région.  
+Il arrive aussi que certaines unités soient empêchées de [traverser][cmd-guard-fr] votre région.  
 Si ce statut d'aide est activé, les unités des autres factions sont autorisées à faire tout cela ; elles peuvent donc voyager, exploiter des ressources ou recruter librement.  
 
 De plus, la faction alliée peut recevoir des ordres de longue durée [après les combats][fin-du-combat] si vous défendez la région.  
 
-Enfin, les unités de la faction alliée peuvent [entrer][cmd-enter-fr] dans tes bâtiments et sur tes bateaux.  
+Enfin, les unités de la faction alliée peuvent [entrer][cmd-enter-fr] dans vos bâtiments et sur vos bateaux.  
 
 ## `HELP FACTIONSTEALTH`
 

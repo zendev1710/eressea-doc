@@ -25,7 +25,7 @@ La faction commence la partie avec une **unité**, composée d'une personne avec
 
 Cette première personne n'est en aucun cas spéciale;  
 il s'agit simplement de la première personne appartenant à votre nouvelle faction.  
-Vous pouvez [recruter][recruter] de nouvelles personnes, également [produire des objets][objets], construire des [bâtiments][batiments-id] ou des [bateaux][bateaux-id], capturer des [chevaux][chevaux-et-chariots], forger des [armes][tableaux-relatifs-a-la-guerre] et ainsi de suite.  
+Vous pouvez [recruter][recruter] de nouvelles personnes, également [produire des objets][objets], construire des [bâtiments][batiments-id] ou des [bateaux][bateaux-id], capturer des [chevaux][chevaux-et-chariots], forger des [armes][armes-id] et ainsi de suite.  
 
 Les nouvelles unités sont créées en les générant avec une unité existante à l'aide de l'ordre [`MAKE TEMP`][cmd-make-fr].  
 Une nouvelle unité n'a pas encore de personnes : vous devez d'abord y [transférer][cmd-give-fr] les personnes d'une autre unité ou en recruter, ce qui nécessite de [l'argent][depenses].  
@@ -72,7 +72,7 @@ Vous pouvez utiliser la langue qui vous convient pour nommer et décrire vos uni
 Cette première unité de l'exemple est l'unité de la faction qui a reçu ce rapport.  
 Elle est composée d'un Humain de sa propre faction (non affiché), possède 20 Silver et peut se battre en [mêlée][skill-melee-fr-id]{title="Melee"}, compétence dans laquelle l'unité est de niveau 1.  
 Il maîtrise [taxation][cmd-tax-fr] au niveau 2 (pour plus de détails : les [[competences]]).  
-Comme vous pouvez le voir, Konrad a également une [épée][tableaux-relatifs-a-la-guerre]{title="Sword"}.  
+Comme vous pouvez le voir, Konrad a également une [épée][epee]{title="Sword"}.  
 "`TAX`" est ce qu'on appelle un ordre par [défaut][cmd-default-fr].  
 Si l'unité ne reçoit pas de nouveaux ordres pour le prochain tour, elle continuera à collecter des taxes.  
 Un seul ordre par défaut est donné dans le NR, mais les unités peuvent parfois en avoir plus d'un.  

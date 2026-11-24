@@ -32,7 +32,7 @@ Ce site reprend les règles du jeu décrites dans le wiki, **entièrement tradui
 - [Xontormia Express] - La gazette et ses [numéros archivés]
 - Les archives des [annonces] des changements de règles
 - [Les pages des joueurs][joueurs]
-- [Tu joues trop à Eressea si ...][tu-joues-trop-a-eressea-si]
+- [Vous jouez trop à Eressea si ...][vous-jouez-trop-a-eressea-si]
 
 ## Les jeux
 
@@ -49,7 +49,7 @@ Il représente un monde nouveau, avec des règles du jeu qui ont évolué sur pl
 La simplification de la gestion et une séparation plus nette des peuples constituaient les deux principaux objectifs de conception d'E3.  
 
 La campagne de jeu s'est achevée le 11 août 2019, après 517 tours d'évaluation.  
-Sur E3, tu peux consulter la documentation suivante :
+Sur E3, vous pouvez consulter la documentation suivante :
 
 - [Aperçu de nos réflexions concernant les peuples]
 - [Ensemble des modifications des règles par rapport au jeu Eressea original][le-troisieme-age]
@@ -72,7 +72,7 @@ Un jeu lancé par Solthar en 2017, basé sur les règles d'E3, avec 3 tours par 
 
 - [Page d'accueil d'Eressea]
 - **[Inscription à Eressea] !**
-- Serveur [Discord] : tu pourras y trouver des joueurs sympas et des réponses à tes questions sur les règles, en Allemand, Anglais, Français et autres.
+- Serveur [Discord] : vous pourrez y trouver des joueurs sympas et des réponses à vos questions sur les règles, en Allemand, Anglais, Français et autres.
 - [Forum] d'Eressea (ancien)
 - [Mantis] - signaler des bugs
 - [Magellan][magellan-fr-id]

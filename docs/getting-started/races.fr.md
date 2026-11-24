@@ -15,7 +15,7 @@ Chaque peuple a des [coûts de recrutement][modificateurs-de-competences-id] dif
 En règle générale, une personne (un membre d'unité) **pèse 10** unités de poids (lbs) et **peut porter jusqu'à 5,4 lbs**.  
 Les [Trolls][trolls-fr-id]{title="Trolls"}, les [Gobelins][gobelins]title={"Goblins"} et divers monstres constituent des exceptions.
 
-Au début du jeu, lors de l'inscription, tu dois choisir le peuple que tu veux jouer.  
+Au début du jeu, lors de l'inscription, vous devez choisir le peuple que vous vouler jouer.  
 **Elle ne pourra plus être modifiée par la suite**.  
 Il convient donc de bien réfléchir avant de faire son choix.
 
@@ -46,7 +46,7 @@ Ils dévorent les paysans des environs et surprennent toujours par l'acquisition
 - Volatilité : toutes les compétences ayant au moins un point de compétence (avant malus racial) ont 25 % de chances de changer de niveau.
   La compétence peut perdre jusqu'à 3 semaines d'apprentissage (40 %) ou augmenter jusqu'à 3 semaines d'apprentissage (60 %).
   Il n'en résulte pas de valeurs négatives; aucune compétence ne peut descendre en dessous du niveau 0.
-- Les démons mangent des paysans à chaque tour.
+- Les démons dévorent des paysans à chaque tour.
   Un paysan nourrit 10 démons. Les démons qui ne reçoivent pas de nourriture (pas assez de paysans) perdent des points de vie et sont soumis à la réduction de compétences selon la règle normale de la [famine][famine].
   Les unités se nourrissent des paysans dans l'ordre où ils apparaissent dans le [rapport][cr-fr-id].
 - Les démons [recrutés][recruter] ne sont pas déduits de la réserve de paysans.
@@ -173,7 +173,7 @@ Durant les **mois d'hiver** ([Feu du Foyer][feu-du-foyer]{title="Hearth Fire"}, 
 Il est cependant possible grâce à l'[alchimie][alchimie]{title="Alchemy"} de [créer][make-potions-fr-id] une [potion de chaleur du nid][chaleur-du-nid]{title="Potion of nest warmth"} qui permet de recruter dans d'autres types de région.
 
 Les insectes sont automatiquement protégés par leur armure naturelle de chitine.  
-Cette [armure naturelle][peuples-et-leurs-caracteristiques] sera réduite de moitié si les insectes portent une armure additionnelle.  
+Cette [armure naturelle][peuples-et-leurs-caracteristiques-pour-le-combat] sera réduite de moitié si les insectes portent une armure additionnelle.  
 
 Les insectes obtiennent un bonus de [tactique][tactique] lorsqu'ils sont en nombre.  
 Un tacticien insecte obtient (log<sub>10</sub> (nombre de combattants dans son groupe))-1 en tactique.  
@@ -330,11 +330,12 @@ Ces rochers ambulants font partie des créatures les plus puissantes d'Eressea. 
 |:------:|:--------:|
 | 10 lbs | 5,4 lbs  |
 
-Les Nains vivent dans les montagnes, leurs armes sont réputées et leurs forteresses sont connues pour leur solidité. En revanche, ils sont tout aussi sceptiques à l'égard de la magie que des chevaux, et leurs compétences en matière de navigation sont parmi les plus mauvaises du monde.
+Les Nains vivent dans les montagnes, leurs armes sont réputées et leurs forteresses sont connues pour leur solidité.
+En revanche, ils sont tout aussi sceptiques à l'égard de la magie que des chevaux, et leurs compétences en matière de navigation sont parmi les plus mauvaises au monde.
 
 - Le fer extrait par les nains n'est déduit qu'à 60 % de la "réserve de la région".  
   Cet effet est cumulatif avec une [mine][mine-fr-id]{title="Mine"} (voir également : [les ressources minières][ressources-minieres]).
-- Dans les montagnes et les glaciers, les nains obtiennent un bonus de +1en [tactique][tactique]{title="Tactics"}.
+- Dans les montagnes et les glaciers, les nains obtiennent un bonus de +1 en [tactique][tactique]{title="Tactics"}.
 - Les [mages][magie] nains régénèrent leur aura beaucoup plus lentement que les autres.
 
 Poursuivre la lecture : [Modificateurs de compétences][modificateurs-de-competences-id].

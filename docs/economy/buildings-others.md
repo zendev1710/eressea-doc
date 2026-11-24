@@ -126,7 +126,7 @@ You can then immediately cut them with a sawmill, producing 20 wood.
 | Maximum size            | --                                  |
 | Capacity                | 1 person per 1 size                 |
 
-- Units only need half the normal amount of iron to make iron weapons and armor. Laen is not saved.
+- Units only need half the normal amount of iron to make iron weapons and armour. Laen is not saved.
 - Units inside a smithy receive a +1 modifier to their weaponsmithing and armoursmithing skills.
 
 ## Stable
@@ -209,7 +209,7 @@ You can then immediately cut them with a sawmill, producing 20 wood.
 | Capacity                | persons according to size               |
 
 - A caravanserai allows you to build roads in deserts. If the caravanserai is destroyed, half of the roads will also be destroyed. A completed road remains if the building maintenance is not paid.
-- In deserts, double the possible trade volume. The owner receives a part of the trade as in (see [castle rules table][castles-overview-id]).
+- In deserts, double the possible trade volume. The owner receives a part of the trade as in (see [castle rules table][castles-summary-table-id]).
 - A caravanserai will only work if it is completely built!
 
 ## Dam

@@ -326,7 +326,7 @@ alias: tybied-spells
 
 ### Shield Shine
 
-:   This ritual, to be performed before battle, gives the own troops an added bonus to their armor.  
+:   This ritual, to be performed before battle, gives the own troops an added bonus to their armour.  
     Every hit reduces the strength of the spell until it dissipates during battle.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |

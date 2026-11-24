@@ -140,7 +140,7 @@ alias: description-des-sorts
 <!-- cspell:enable -->
 
 :   À l’aide de ce chant magique, le mage peut calmer une région en ébullition.  
-    Les hordes d'agriculteurs vont se perdre et retourner dans leurs champs.
+    Les hordes de paysans vont se perdre et retourner dans leurs champs.
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:----------------------------:|
@@ -231,7 +231,7 @@ Extrait de « Errants » de Firudin le Sage.
 *Blessed Harvest (EN), Segen der Erde (DE)*.
 <!-- cspell:enable -->
 
-:   Ce rituel de récolte améliore les rendements des agriculteurs qui travaillent dans la région pour un silver de plus.  
+:   Ce rituel de récolte améliore les rendements des paysans qui travaillent dans la région pour un silver de plus.  
     Plus le druide investit de puissance, plus le sort dure longtemps.
 
 | Éc. | Composants | Niv. |  Type  | Rang |            Bateau            |              D               |
@@ -370,7 +370,7 @@ Extrait de « Errants » de Firudin le Sage.
 *Appeasing Song (EN), Friedenslied (DE)*.
 <!-- cspell:enable -->
 
-:   Cette chanson apprivoise même l'orque le plus sauvage et le rend paisible et doux.  
+:   Cette chanson apprivoise même l'orc le plus sauvage et le rend paisible et doux.  
     Toute idée de nuire au chanteur disparaîtra.  
     Le mage peut se déplacer sans encombre dans une région voisine.
 
@@ -547,7 +547,7 @@ Extrait de « Errants » de Firudin le Sage.
 *Song of Melancholy (EN), Gesang der Melancholie (DE)*.
 <!-- cspell:enable -->
 
-:   Avec cette chanson, le barde répand une ambiance mélancolique et triste parmi les agriculteurs.  
+:   Avec cette chanson, le barde répand une ambiance mélancolique et triste parmi les paysans.  
     Pendant quelques semaines, ils se retireront dans leurs huttes et ne laisseront aucune argenterie dans les théâtres et les tavernes.
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
@@ -924,7 +924,7 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 <!-- cspell:enable -->
 
 :   Cet ancien rituel de danse invoque les forces de vie et de fertilité.  
-    Les rendements des agriculteurs seront nettement meilleurs pendant plusieurs semaines.
+    Les rendements des paysans seront nettement meilleurs pendant plusieurs tours.
 
 | Éc. | Composants | Niv. |  Type  | Rang |            Bateau            |              D               |
 |:---:|:----------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
@@ -1094,7 +1094,7 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 :   Si l'alchimiste ne peut pas vous aider, vous vous adressez au savant mage Tybied.  
     Ses potions et teintures aident contre tout ce que vous ne pouvez pas obtenir autrement.  
-    Si la formule énigmatique sous le sabot du mari infidèle a vraiment aidé, eh bien, le fermier qui ne sait pas lire ne le saura jamais.  
+    Si la formule énigmatique sous le sabot du mari infidèle a vraiment aidé, eh bien, le paysan qui ne sait pas lire ne le saura jamais.  
     Cela aide certainement le mage... à remplir son portefeuille. Vous pouvez gagner 50 silver par niveau en une semaine.
 
 | Éc. | Composants | Niv. |  Type  | Rang |            Bateau            | Dist. |
@@ -1169,7 +1169,7 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 <!-- cspell:enable -->
 
 :   À l’aide de ce chant magique, le mage met toute une région en ébullition.  
-    Des hordes d’agriculteurs rebelles rendent toute taxation impossible, presque plus personne ne donne d’argent à des escroqueries et aucune nouvelle personne ne peut être recrutée.  
+    Des hordes de paysans rebelles rendent toute taxation impossible, presque plus personne ne donne d’argent à des escroqueries et aucune nouvelle personne ne peut être recrutée.  
     Après quelques semaines, la foule se calme à nouveau.
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
@@ -1328,7 +1328,7 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 
 :   Ce rituel puissant ouvre une porte vers le plan élémentaire de la chaleur.  
     Une grande sécheresse s'annonce dans le pays.  
-    Les agriculteurs, les animaux et les plantes de la région luttent pour leur survie, mais seulement la moitié de tous les êtres vivants peuvent survivre à une telle sécheresse.  
+    Les paysans, les animaux et les plantes de la région luttent pour leur survie, mais seulement la moitié de tous les êtres vivants peuvent survivre à une telle sécheresse.  
     La région pourrait être affectée par les conséquences d’une telle sécheresse pendant des années.
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau |              D               |
@@ -1362,7 +1362,7 @@ Et si vous avez tout fait pour leur plaire, ils enverront l'un des leurs pour im
 *Cattle Healing (EN), Viehheilung (DE)*.
 <!-- cspell:enable -->
 
-:   Les compétences d'élevage et de guérison des mages Gwyrrd sont très recherchées par les agriculteurs.  
+:   Les compétences d'élevage et de guérison des mages Gwyrrd sont très recherchées par les paysans.  
     Leurs services sont souvent très demandés, notamment sur les marchés.  
     Certaines personnes peuvent également utiliser leur compétence pour vendre un animal à un meilleur prix.  
     Le mage peut gagner 50 silver par niveau.
@@ -2261,10 +2261,10 @@ Les messieurs l'aideront, mais sa réussite à résoudre le sort dépend uniquem
 *Mob Rule (EN), Mob aufwiegeln (DE)*.
 <!-- cspell:enable -->
 
-:   À l'aide de ce chant magique, le mage convainc les agriculteurs de la région de le rejoindre.  
-    Cependant, les agriculteurs ne quitteront pas leur pays et ne céderont aucun de leurs biens.  
-    Chaque semaine, certains agriculteurs abandonneront également le charme et retourneront dans leurs champs.  
-    Le nombre d’agriculteurs qui rejoignent le mage dépend de la puissance de sa chanson.
+:   À l'aide de ce chant magique, le mage convainc les paysans de la région de le rejoindre.  
+    Cependant, les paysans ne quitteront pas leur pays et ne céderont aucun de leurs biens.  
+    Chaque semaine, certains paysans abandonneront également le charme et retourneront dans leurs champs.  
+    Le nombre de paysans qui rejoignent le mage dépend de la puissance de sa chanson.
 
 | Éc. | Composants | Niv. |  Type  | Rang | Bateau | Dist. |
 |:---:|:----------:|:----:|:------:|:----:|:------:|:-----:|

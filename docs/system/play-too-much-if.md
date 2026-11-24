@@ -23,7 +23,7 @@ alias: you-play-too-much-if
 - Whatever you want to do, you try to find someone who has a bonus on it
 - you count whether there are already more than 1000 units in your family (note the old unit limit)
 - When you hear “cheese” you think of a very, very, very last ultimatum
-- you wonder why the neighbor's cat doesn't wear plate armor
+- you wonder why the neighbor's cat doesn't wear plate armour
 - you start eating 2-euro pieces
 - you want to get by on 10 euros a week
 

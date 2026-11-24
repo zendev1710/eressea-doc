@@ -170,7 +170,7 @@ Plus d'information: [la discrétion][discretion].
 
 La [voile][voile]{title="Sailing"} et l'[équitation][equitation]{title="Riding"} sont des compétences expliquées dans le chapitre sur les [déplacements][deplacements].  
 
-L'équitation est également abordée dans le chapitre des [combats][tableaux-relatifs-a-la-guerre].
+L'équitation est également abordée dans [les tableaux de combat][tableaux-combat-fr-id].
 
 ### La magie
 

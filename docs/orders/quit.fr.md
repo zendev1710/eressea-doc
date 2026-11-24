@@ -16,8 +16,8 @@ La répartition sera effectuée en fonction du nombre de personnes dans la régi
 Seuls ceux qui ont reçu un [`HELP SILVER`][cmd-help-fr] sont considérés comme des amis ici, c'est-à-dire là où il y avait déjà une confiance de la part de la faction partante.  
 La faction qui reçoit doit avoir passé l'ordre `HELP GIVE` sur la faction mourante.  
 Les objets vont à la première unité de la faction dans la région.  
-S'il n'y a pas d'unité amie dans une région, tous les objets vont aux agriculteurs.  
-Les membres de la faction sont toujours remis aux agriculteurs (des exceptions s'appliquent aux [Orcs][orcs-fr-id], [Démons][demons-fr-id] et [Monstres][monstres]).  
+S'il n'y a pas d'unité amie dans une région, tous les objets vont aux paysans.  
+Les membres de la faction sont toujours remis aux paysans (des exceptions s'appliquent aux [Orcs][orcs-fr-id], [Démons][demons-fr-id] et [Monstres][monstres]).  
 
 **`QUIT`**` "<mot de passe>" FACTION `*`faction-id`*  
 

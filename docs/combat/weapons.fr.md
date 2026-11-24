@@ -3,10 +3,12 @@
 alias: armes
 ---
 
+[](){ #armes-id }
+
 # Armes
 
 Cette page répertorie les propriétés des armes individuelles.  
-Pour le tableau agrégé, voir [ce tableau][armes-tableau-de-synthese].
+Pour le tableau agrégé, voir [ce tableau][tableau-armes-fr-id].
 
 ## Armes de mêlée
 

@@ -67,7 +67,7 @@ Most insect warriors live in organized hives. They hate the cold and prefer the 
 - Cold Blooded: In deserts and swamps, insects get +1 on all skills they still have at least at 1, in mountains and glaciers they get -1.
 - Summer Creatures: Insects cannot enter glaciers and cannot be recruited there. Insects that nevertheless enter a glacier lose hit points and suffer skill halving according to the normal [starvation][starvation] rule.
 - Hibernation: During the winter months of hearth fire, icewind and snowbane, insects can only recruit in deserts. However, [alchemists][skill-alchemy-id] can [produce][make-potions-id] a [potion of nest warmth][potion-of-nest-warmth] that makes recruitment in other terrains possible.
-- Carapace Armor: Insects are protected by their natural armor. This natural armor will be halved if the insects are wearing additional armor. (see this [combat table][races-and-their-characteristics]).
+- Carapace armour: Insects are protected by their natural armour. This natural armour will be halved if the insects are wearing additional armour. (see this [combat table][races-and-their-characteristics]).
 - Tacticians: Insects get a bonus on the [tactics][skill-tactics-id] skill when appearing in large numbers. An insect tactician gets (log<sub>10</sub> (amount of fighters in their army)) - 1 to their tactics skill. This can also result in a penalty if there are very few fighters!  
   Mind that fighters in different [groups] usually appear in different armies!
 - Nomad Traders: Insects can [trade][silver-trade-id]  in deserts and swamps without needing castles.

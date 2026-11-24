@@ -27,7 +27,7 @@ De plus, certaines régions sont tellement inhospitalières qu'il faut au préal
 Celui-ci doit fonctionner au moment de la construction, c'est-à-dire qu'il doit être terminé et que son entretien doit être payé.  
 La route terminée fonctionne même sans que l'entretien soit payé.  
 
-**Exemple:**
+**Exemple :**
 
 Pour construire une route depuis la plaine en (0,0) jusqu'à la montagne en (1,1), en passant par le marais en (1,0), vous avez besoin de :
 

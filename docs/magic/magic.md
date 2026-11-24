@@ -367,8 +367,8 @@ For certain direct enchantments, it is additionally influenced by the unit's exp
 - 50% + 5%*(Highest skill value of the enchanted unit - magic skill of the casting unit)
 - Never below 2%, never above 98%
 
-Instead, additional bonuses from [Weapons or Armor][war-tables-magic-resistance-id] work against combat spells such as fireballs and weapons that are considered magical.  
-Otherwise, only magical protection and natural armor work against magical damage.  
+Instead, additional bonuses from [weapons or armour][war-tables-magic-resistance-id] work against combat spells such as fireballs and weapons that are considered magical.  
+Otherwise, only magical protection and natural armour work against magical damage.  
 
 Even "inanimate matter", i.e. regions, ships, buildings, etc., sometimes have magic resistance. It can also be strengthened by certain spells.  
 

@@ -23,6 +23,8 @@ Cette compétence permet de concocter des [potions][potions-fr-id] à partir de 
 
 L'apprentissage de l'alchimie coûte 200 silver par tour et par personne.  
 
+Une personne (ou unité) ayant acquis cette compétence est appelée un alchémiste.  
+
 !!! note "Important"
     Une [faction][faction] ne peut compter que **3 alchimistes** au plus.
 
@@ -47,6 +49,8 @@ Bien sûr, il n'est possible de capturer qu'au maximum le nombre de chevaux pré
 
 L'ordre [`GROW HORSES`][cmd-grow-fr], donné par une unité se trouvant dans un [haras][haras]{title="Stable"}, permet la reproduction de chevaux.  
 
+Une personne (ou unité) ayant acquis cette compétence est appelée un dresseur (de chevaux).  
+
 ## Combat à l'arme d'hast
 
 <!-- cspell:disable -->
@@ -69,6 +73,8 @@ Cette compétence **ne peut être acquise par aucune unité jouée**.
 
 Seuls les monstres et autres peuples spéciaux ont cette compétence de combat à main nue (sans armes).
 
+[](){ #skill-commerce-id }
+
 ## Commerce
 
 <!-- cspell:disable -->
@@ -79,9 +85,11 @@ Cette compétence permet d'acheter et de vendre des [biens de luxe][biens-de-lux
 
 10 biens de luxe peuvent être échangés par personne, niveau de compétence et tour.  
 
+Une personne (ou unité) ayant acquis cette compétence est appelée un marchand.
+
 Plus d'information :
 
-- Chapitre dédié : [le commerce][le-commerce]
+- [Le commerce][le-commerce]
 - Ordre [`BUY`][cmd-buy-fr]
 - Ordre [`SELL`][cmd-sell-fr]
 
@@ -134,6 +142,8 @@ Capacité à divertir la population.
 
 Si les paysans ont suffisamment d'argent, il est possible de gagner 20 Silver par personne, par niveau de compétence et par tour.
 
+Une personne (ou unité) ayant acquis cette compétence est appelée un artiste.  
+
 [](){ #skill-endurance-fr-id }
 
 ## Endurance
@@ -161,8 +171,10 @@ Une personne équipée d'un [cheval][cheval]{title="Horse"} :
 
 Par personne et par niveau de compétence, il est possible :
 
-- de mener `(4 X Niveau) + 1` chevaux sur une région (sur 2 régions avec une route praticable)
-- de monter `2 X Niveau` chevaux sur 2 régions (sur 3 régions avec une route praticable)
+- De mener `(4 X Niveau) + 1` chevaux sur une région (sur 2 régions avec une route praticable)
+- De monter `2 X Niveau` chevaux sur 2 régions (sur 3 régions avec une route praticable)
+
+Une personne (ou unité) ayant acquis cette compétence est appelée un cavalier.  
 
 [](){ #skill-espionnage-id }
 
@@ -174,7 +186,9 @@ Par personne et par niveau de compétence, il est possible :
 
 Nécessaire pour utiliser l'ordre [`SPY`][cmd-spy-fr] et ainsi obtenir des informations secrètes sur les unités des autres factions (compétences, véritable appartenance à une faction...).  
 
-Apprendre l'espionnage coûte 100 Silver par personne pour chaque tentative d'apprentissage.
+Apprendre l'espionnage coûte 100 Silver par personne pour chaque tentative d'apprentissage.  
+
+Une personne (ou unité) ayant acquis cette compétence est appelée un espion.  
 
 ## Extraction de pierres
 
@@ -189,7 +203,9 @@ Une pierre peut être extraite par personne, par niveau de compétence et par to
 À partir du niveau **3**, la compétence permet de produire des grosses pierres utilisées comme projectiles (munitions) de catapulte.
 
 Les gisements à exploiter sont limités par niveau (voir [ressources minières][ressources-minieres]) : on voit uniquement le nombre de pierres qui se trouvent dans la couche supérieure.  
-S'il n'y a pas de pierres dans la couche (niveau de compétence X 2), on ne voit rien.
+S'il n'y a pas de pierres dans la couche (niveau de compétence X 2), on ne voit rien.  
+
+Une personne (ou unité) ayant acquis cette compétence est appelée un carrier mais aussi un tailleur de pierre.  
 
 ## Extraction minière
 
@@ -208,13 +224,17 @@ Pour la prospection, on ne voit pas plus que la couche (niveau en extraction min
     L'extraction de [laen][laen-fr-id]{title="Laen"} nécessite une [mine][mine-fr-id]{title="Mine"} et une compétence de **niveau 7**.  
     L'extraction d'[adamantium][adamantium-fr-id] nécessite une [mine][mine-fr-id]{title="Mine"} et une compétence de **niveau 7**.
 
+Une personne (ou unité) ayant acquis cette compétence est appelée un mineur.  
+
 ## Fabrication d'armes
 
 <!-- cspell:disable -->
 *Weaponsmithing (EN), Waffenbau (DE)*.
 <!-- cspell:enable -->
 
-Permet la [fabrication d'armes][production-d-armes-id] en [bois][bois] et en [métal][fer].
+Permet la [fabrication d'armes][production-d-armes-id] en [bois][bois] et en [métal][fer].  
+
+Une personne (ou unité) ayant acquis cette compétence est appelée un forgeron d'armes mais aussi un armurier.  
 
 ## Fabrication d'armures
 
@@ -222,7 +242,9 @@ Permet la [fabrication d'armes][production-d-armes-id] en [bois][bois] et en [m�
 *Armoursmithing (EN), Rüstungsbau (DE)*.
 <!-- cspell:enable -->
 
-Permet la [fabrication d'armures][production-d-armures-id] en [fer][fer], en [laen][laen-fr-id]{title="Laen"} ou en [adamantium][adamantium-fr-id].
+Permet la [fabrication d'armures][production-d-armures-id] en [fer][fer], en [laen][laen-fr-id]{title="Laen"} ou en [adamantium][adamantium-fr-id].  
+
+Une personne (ou unité) ayant acquis cette compétence est appelée un forgeron d'armures mais aussi un heaumier.  
 
 ## Fabrication de chariots
 
@@ -230,12 +252,14 @@ Permet la [fabrication d'armures][production-d-armures-id] en [fer][fer], en [la
 *Cartmaking (EN), Wagenbau (DE)*.
 <!-- cspell:enable -->
 
-Permet la fabrication de chariots et de catapultes avec du bois.
+Permet la fabrication de chariots et de catapultes avec du bois.  
 
 5 bois sont nécessaires pour fabriquer un chariot.  
 Une unité peut fabriquer un chariot par personne et niveau de compétence.  
 
-À partir du niveau **5**, il faudra 10 bois pour fabriquer une catapulte.
+À partir du niveau **5**, il faudra 10 bois pour fabriquer une catapulte.  
+
+Une personne (ou unité) ayant acquis cette compétence est appelée un charron.  
 
 ## Herboristerie
 
@@ -245,10 +269,12 @@ Une unité peut fabriquer un chariot par personne et niveau de compétence.
 
 Permet de récolter des [plantes][plantes-id] pour concocter des [potions][alchimie].  
 
-Le coût d'apprentissage est de **200 silver par semaine et par personne**.
+Le coût d'apprentissage est de **200 silver par semaine et par personne**.  
 
 À un niveau élevé on peut aussi utiliser les ordres [`RESEARCH HERBS`][cmd-research-fr] et [`MAKE SEEDS`][cmd-make-fr] (voir [Production][production-fr-id]) et [`PLANT`][cmd-plant-fr].  
-Même avec un niveau élevé on peut ne trouver que peu ou pas de plantes.
+Même avec un niveau élevé on peut ne trouver que peu ou pas de plantes.  
+
+Une personne (ou unité) ayant acquis cette compétence est appelée un herboriste.  
 
 ## Maçonnerie
 
@@ -256,7 +282,9 @@ Même avec un niveau élevé on peut ne trouver que peu ou pas de plantes.
 *Masonry (EN), Burgenbau (DE)*.
 <!-- cspell:enable -->
 
-Permet de construire des [bâtiments spéciaux][batiments-speciaux] et des [châteaux][chateaux]{title="Castle"}.
+Permet de construire des [bâtiments spéciaux][batiments-speciaux] et des [châteaux][chateaux]{title="Castle"}.  
+
+Une personne (ou unité) ayant acquis cette compétence est appelée un maçon (ou bâtisseur).  
 
 ## [Magie][magie-fr-id]
 
@@ -266,7 +294,9 @@ Permet de construire des [bâtiments spéciaux][batiments-speciaux] et des [châ
 
 Permet de lancer des sorts de combat et d'autres types de sorts.  
 
-L'apprentissage de la magie [coûte de l'argent][magie] par personne et par tour, en fonction du niveau.
+L'apprentissage de la magie [coûte de l'argent][magie] par personne et par tour, en fonction du niveau.  
+
+Une personne (ou unité) ayant acquis cette compétence est appelée un mage.  
 
 [](){ #skill-melee-fr-id }
 
@@ -292,6 +322,8 @@ Capacité à détecter les unités [dissimulées][discretion-id].
 
 Cette compétence permet également d'éviter le [vol][vol-de-silver].  
 
+Une personne (ou unité) ayant acquis cette compétence est appelée un guetteur.  
+
 ## Sylviculture
 
 <!-- cspell:disable -->
@@ -302,6 +334,8 @@ Capacité à abattre des arbres et des mallorns pour faire du [bois][bois]{title
 
 !!! note "Note"
     Veillez à bien gérer les [ressources forestières][ressources-forestieres] des régions que vous [gardez][cmd-guard-fr].
+
+Une personne (ou unité) ayant acquis cette compétence est appelée un bûcheron.  
 
 ## [Tactique][tactique]
 
@@ -338,8 +372,10 @@ Cette compétence n'augmente pas en l'utilisant, pas plus que la compétence d'a
 *Crossbow (EN), Armbrustschießen (DE)*.
 <!-- cspell:enable -->
 
-Avec une arbalète : se battre.  
-Avec en plus la compétence taxation : collecter les impôts (TAX).
+Permet de combattre en deuxième ligne en tirant à l'arbalète.  
+Avec en plus la compétence taxation : collecte les impôts (TAX).  
+
+Une personne (ou unité) ayant acquis cette compétence est appelée un arbalétrier.  
 
 ## Tir à l'arc
 
@@ -347,7 +383,10 @@ Avec en plus la compétence taxation : collecter les impôts (TAX).
 *Bow (EN), Bogenschießen (DE)*.
 <!-- cspell:enable -->
 
-Avec un bow (arc) : se battre. Avec en plus la compétence taxation : collecter les impôts (TAX).
+Permet de combattre en deuxième ligne en tirant à l'arc.  
+Avec en plus la compétence taxation : collecter les impôts (TAX).  
+
+Une personne (ou unité) ayant acquis cette compétence est appelée un archer.  
 
 ## Tir à la catapulte
 
@@ -355,10 +394,12 @@ Avec un bow (arc) : se battre. Avec en plus la compétence taxation : collecte
 *Catapult (EN), Katapultbedienung (DE)*.
 <!-- cspell:enable -->
 
-Avec une catapulte et des munitions : se battre.  
+Permet de combattre en deuxième ligne en tirant à la catapulte (nécessite des munitions).  
+
+Une personne (ou unité) ayant acquis cette compétence est appelée un artilleur.  
 
 <!-- TODO ->
-<!-- Ma maîtrise de cette compétence associée à une catapulte ne permet pas de [collecter les impôts][skillètaxation-fr-id]. -->
+<!-- La maîtrise de cette compétence associée à une catapulte ne permet pas de [collecter les impôts][skillètaxation-fr-id]. -->
 
 [](){ #skill-voile-id }
 
@@ -372,7 +413,9 @@ Capacité à naviguer.
 
 Avec un bateau : permet de [naviguer][naviguer]..  
 
-Toutes les unités sur le bateau ayant acquis cette compétence comptent dans l'équipage.  
+Une personne (ou unité) ayant acquis cette compétence est appelée un marin.  
+
+Tous les marins sont pris en compte dans le calcul du niveau de compétence pour l'équipage.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Liste\_der\_Talente/fr&oldid=15211] -->
 

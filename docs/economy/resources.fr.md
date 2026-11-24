@@ -5,9 +5,10 @@ alias: ressources
 
 # Ressources
 
-Les matières premières peuvent être obtenues directement à partir des réserves des [régions][le-monde-d-eressea-id] sans aucun autre ingrédient.  
-Les ressources sont toutefois limitées et ne se régénèrent que lentement, voire pas du tout.  
-La compétence requise est indiquée dans le tableau de la section [objets].
+Les matières premières peuvent être obtenues directement à partir des réserves des [régions][regions-fr-id] sans aucun autre ingrédient.  
+Les ressources sont toutefois limitées et ne se régénèrent que lentement, parfois pas du tout.  
+
+La compétence requise pour obtenir chacune des ressources d'une région est indiquée dans ce tableau de la section [objets].
 
 ## Matières premières
 
@@ -103,7 +104,7 @@ Un cheval augmente également la vitesse de déplacement (d'une région supplém
 
 ## Exploitation des ressources
 
-Lors de l'exploitation des ressources, il est important de considérer que les unités en [garde][cmd-guard-fr] empêchent l'exploitation, si les factions en garde n'ont ni [`HELP GUARD`][cmd-help-fr] ni [`HELP ALL`][cmd-help-fr] avec ta faction, ou donné l'ordre [`CONTACT`][cmd-contact-fr] avec l'unité ou la faction qui exploite.  
+Lors de l'exploitation des ressources, il est important de considérer que les unités en [garde][cmd-guard-fr] empêchent l'exploitation, si les factions en garde n'ont ni [`HELP GUARD`][cmd-help-fr] ni [`HELP ALL`][cmd-help-fr] avec votre faction, ou donné l'ordre [`CONTACT`][cmd-contact-fr] avec l'unité ou la faction qui exploite.  
 Ceci ne s'applique pas si la faction en garde ne voit pas le producteur, par exemple parce qu'il est [dissimulé][discretion].  
 
 ### Ressources minières
@@ -111,7 +112,7 @@ Ceci ne s'applique pas si la faction en garde ne voit pas le producteur, par exe
 Le fer, la pierre, le laen et, dans les régions particulièrement anciennes, parfois même l'adamantium, peuvent être extraits des montagnes, des glaciers et parfois d'autres types de régions.  
 Le laen et l'adamantium nécessitent une mine et une compétence en Mining particulièrement élevée.
 Ces ressources peuvent être difficiles à extraire.
-Dans ton rapport tu peux le savoir suivant le nombre après le "/".  
+Dans votre rapport vous pouvez le savoir suivant le nombre après le "/".  
 Par exemple, si le rapport indique « 20 fer/4 », cela signifie que 20 fers avec un niveau de compétence 4 peuvent encore être extraits.
 Une fois ceux-ci extraits, les mineurs auront besoin d'être niveau 5 pour extraire du fer de la couche suivante (5).
 En général, les quantités pouvant être extraites augmentent à chaque nouvelle couche.

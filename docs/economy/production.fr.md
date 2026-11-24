@@ -7,7 +7,7 @@ alias: production-fr
 
 # Production
 
-Diverses choses peuvent être produites à Eressea.  
+Diverses choses peuvent être produites dans Eressea.  
 
 Il existe des [ressources][ressources] (par exemple le fer, les pierres, le bois, les chevaux) et des [produits finis][objets] : diverses armes et armures, des [bateaux][bateaux-id], des chariots, des [bâtiments][batiments-id], des [routes][routes-id] et des [potions][alchimie].  
 Pour pouvoir produire, il faut posséder les compétences appropriées.  

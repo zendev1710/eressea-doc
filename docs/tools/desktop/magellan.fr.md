@@ -29,7 +29,7 @@ Les fonctionnalités incluent :
 - Statistiques de faction avec affichage de tous les objets, compétences, revenus, etc.
 - Planificateur d'alchimie pour un aperçu des plantes et des potions
 - Options de réglage étendues pour adapter Magellan à vos propres préférences
-- Possibilité de colorer et d'étiqueter les cartes selon des critères librement définis, par exemple pour obtenir un aperçu de la répartition des marchandises commerciales, de la croissance des agriculteurs, de la répartition des matières premières ou d'autres factions
+- Possibilité de colorer et d'étiqueter les cartes selon des critères librement définis, par exemple pour obtenir un aperçu de la répartition des marchandises commerciales, de la croissance des paysans, de la répartition des matières premières ou d'autres factions
 - Interface de programmation de commandes étendues pour automatiser les ordres comme vous le souhaitez
 - Des plugins qui peuvent étendre encore plus les possibilités
 

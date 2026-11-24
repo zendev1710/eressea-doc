@@ -38,7 +38,7 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 *Blessed Harvest (EN), Segen der Erde (DE)*.
 <!-- cspell:enable -->
 
-:   Ce rituel de récolte améliore les rendements des agriculteurs qui travaillent dans la région pour un silver de plus.  
+:   Ce rituel de récolte améliore les rendements des paysans qui travaillent dans la région pour un silver de plus.  
     Plus le druide investit de puissance, plus le sort dure longtemps.
 
 | Composants | Niv. |  Type  | Rang |              B               |              D               |
@@ -53,7 +53,7 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 *Cattle Healing (EN), Viehheilung (DE)*.
 <!-- cspell:enable -->
 
-:   Les compétences d'élevage et de guérison des mages Gwyrrd sont très recherchées par les agriculteurs.  
+:   Les compétences d'élevage et de guérison des mages Gwyrrd sont très recherchées par les paysans.  
     Leurs services sont souvent très demandés, notamment sur les marchés.  
     Certaines personnes peuvent également utiliser leur compétence pour vendre un animal à un meilleur prix.  
     Le mage peut gagner 50 silver par niveau.
@@ -630,7 +630,7 @@ Ensuite, vous dirigez votre force vers la fine aura de vie qui se forme et forme
 
 :   Ce rituel puissant ouvre une porte vers le plan élémentaire de la chaleur.  
     Une grande sécheresse s'annonce dans le pays.  
-    Les agriculteurs, les animaux et les plantes de la région luttent pour leur survie, mais seulement la moitié de tous les êtres vivants peuvent survivre à une telle sécheresse.  
+    Les paysans, les animaux et les plantes de la région luttent pour leur survie, mais seulement la moitié de tous les êtres vivants peuvent survivre à une telle sécheresse.  
     La région pourrait être affectée par les conséquences d’une telle sécheresse pendant des années.
 
 | Composants | Niv. |  Type  | Rang | B |              D               |

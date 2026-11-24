@@ -233,7 +233,7 @@ Si les composants d'in sort indiquent par exemple `3 Aura * Level`, cela signifi
 Ainsi, le sort [**Docteur Miracle**][t-spell-docteur-miracle-id]{title="Miracle Doctor"} coûte 1 aura lorsqu'il est lancé au niveau 1, 30 aura lorsqu'il est lancé au niveau 30.  
 
 Si le sort nécessite une aura permanente, l'aura maximale de l'unité est définitivement réduite de cette valeur.  
-D'autres composants peuvent inclure des plantes, des matières premières, de l'argent, des potions ou même des objets rares ou bien des agriculteurs.  
+D'autres composants peuvent inclure des plantes, des matières premières, de l'argent, des potions ou même des objets rares ou bien des paysans.  
 
 ### Magie à distance
 
@@ -369,7 +369,7 @@ Les effets spéciaux affectent principalement Gwyrrd (des Ents enragés sont cr�
 La résistance à la magie d'une unité est la capacité inhérente de chaque personne à résister à un sort lancé contre elle et la gravité avec laquelle une personne est affectée par les dégâts de magie au combat.  
 La résistance à la magie d'une unité s'obtient par l'addition de :
 
-- la résistance naturelle à la magie des [peuples]
+- La résistance naturelle à la magie des [peuples]
 - +5 % par niveau de compétence en magie
 - *+10 % x Nombre de licornes* par personne
 - Éventuellement un bonus ou un malus dû au [sort][liste-des-sorts] sur l'unité ou la région

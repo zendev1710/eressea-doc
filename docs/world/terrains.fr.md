@@ -99,7 +99,7 @@ Ces mêmes plantes poussent dans les forêts.
 Le nombre d'emplois disponibles varie d'une région à l'autre.  
 Chaque paysan prend un emploi, chaque pousse d'arbre en prend 4, et chaque arbre en prend 8.  
 
-Sous "max. arbres" est indiqué le nombre d'arbres/de pousses qui prendraient toute la place pour les "agriculteurs".  
+Sous "max. arbres" est indiqué le nombre d'arbres/de pousses qui prendraient toute la place pour les paysans.  
 Mais même la forêt la plus dense produit suffisamment de fruits, de racines ou de champignons pour que quelques-uns puissent en vivre.  
 10 % des emplois d'une région, mais pas plus de 200, ne sont donc jamais bloqués par des arbres ou des pousses.  
 Si le nombre d'emplois disponibles est dépassé, les unités de joueurs ne peuvent plus travailler dans cette région.

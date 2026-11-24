@@ -113,7 +113,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 :   This ritual conjures up a dark storm front that towers ominously over the region.  
     The magical rain will cause all ore to rust.  
-    Iron weapons and armor become chipped and rusty.  
+    Iron weapons and armour become chipped and rusty.  
     The destructive power of the rain depends on the power invested by the mage.  
     Up to 10 iron weapons can be affected for each level.  
     A ring of power increases the effect like an additional level.
@@ -417,7 +417,7 @@ This earthquake will damage all buildings in the region.
 
 ### Barkskin
 
-:   Performing this ritual before going into battle gives your troops an additional bonus to their armor.  
+:   Performing this ritual before going into battle gives your troops an additional bonus to their armour.  
     Every hit reduces the energy of the spell, dissolving it at some point during battle.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |

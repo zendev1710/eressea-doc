@@ -7,7 +7,7 @@ alias: cmd-recruit-fr
 
 **`RECRUIT`**` `*`number`*  
 
-Cela implique l'embauche de nouvelles personnes parmi les agriculteurs de la région.  
+Cela implique l'embauche de nouvelles personnes parmi les paysans de la région.  
 
 Selon le [peuple][peuples] auquel appartient votre faction, vous devez dépenser entre 40 et 150 Silver en [coût de recrutement][modificateurs-de-competences-id] par personne embauchée.  
 L'unité qui recrute de nouveaux membres doit posséder cet argent.  
@@ -16,10 +16,10 @@ Si l'unité qui recrute n'a pas assez d'argent, elle l'obtient de la [réserve d
 
 Vous ne pouvez recruter que des personnes du peuple de votre faction.  
 Les unités de [migrants][humains] ne recrutent donc plus de migrants.  
-Les agriculteurs d'une région n'ont pas de peuple.  
+Les paysans d'une région n'ont pas de peuple.  
 Ils ne « décident » à quel peuple ils appartiennent qu’au moment de leur recrutement.  
 
-Seuls 2,5 % des agriculteurs d'une région peuvent être recrutés par tour.  
+Seuls 2,5 % des paysans d'une région peuvent être recrutés par tour.  
 Le nombre exact apparaît dans le rapport, dans les informations relatives à la région.  
 Si plusieurs factions recrutent, les recrues disponibles seront réparties « équitablement » entre elles.  
 Si plusieurs unités d'une faction recrutent, les recrues qui lui sont affectées seront affectées par ordre d'arrivée des unités dans la région.  
@@ -30,7 +30,7 @@ Cela signifie que les unités qui arrivent plus tard peuvent repartir les mains 
 Si l'une des conditions n'est pas remplie, l'ordre `QUIT` échoue et un message d'erreur apparaît.  
 La faction A passe l'ordre `RECRUIT 10`, la faction B passe l'ordre `RECRUIT 1`, la faction C compte deux unités chacune passant l'ordre `RECRUIT 2`.
 
-Il y a 160 agriculteurs dans la région, donc 4 recrues.  
+Il y a 160 paysans dans la région, donc 4 recrues.  
 Il y a 1 1/3 de recrues par faction.  
 La faction B en veut juste un et l’obtient.  
 Les factions A et C se battent pour les 3 recrues restantes.  

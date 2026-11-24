@@ -51,7 +51,7 @@ Les sorts de l'École de magie **Tybied** sont décrits ci-dessous par ordre de 
 
 :   Si l'alchimiste ne peut pas vous aider, vous vous adressez au savant mage Tybied.  
     Ses potions et teintures aident contre tout ce que vous ne pouvez pas obtenir autrement.  
-    Si la formule énigmatique sous le sabot du mari infidèle a vraiment aidé, eh bien, le fermier qui ne sait pas lire ne le saura jamais.  
+    Si la formule énigmatique sous le sabot du mari infidèle a vraiment aidé, eh bien, le paysan qui ne sait pas lire ne le saura jamais.  
     Cela aide certainement le mage... à remplir son portefeuille. Vous pouvez gagner 50 silver par niveau en une semaine.
 
 | Composants | Niv. |  Type  | Rang |              B               | D |

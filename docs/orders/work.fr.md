@@ -17,7 +17,7 @@ Salaire en fonction du type de château.
 | Salaire orcs |  10   |      11       |  11  |   12    |     12     |    13     |
 
 Différentes régions ont un nombre différent d'emplois disponibles.  
-Chaque **agriculteur** supprime **un** emploi, chaque **pousse** en supprime **4** et chaque **arbre** en supprime **8**.  
+Chaque **paysan** supprime **un** emploi, chaque **pousse** en supprime **4** et chaque **arbre** en supprime **8**.  
 
 Sous « nombre maximum d'arbres », il est indiqué combien d'arbres occuperaient l'espace total pour les « travailleurs de terrain ».  
 Mais même la forêt la plus dense produit suffisamment de fruits, de racines ou de champignons pour que quelques-uns puissent survivre.  
@@ -27,16 +27,16 @@ Si le nombre d'emplois disponibles est dépassé, les unités des joueurs ne peu
 Le nombre d’arbres pouvant se trouver dans une région n'a pas de limite.  
 
 <!-- TODO do not duplicate information -->
-| Terrain                                        | max. jobs d'agriculteurs | max. arbres | min. jobs d'agriculteurs |
-|------------------------------------------------|-------------------------:|------------:|-------------------------:|
-| [Désert][desert-fr-id]{title="Desert"}         |                      500 |          63 |                       50 |
-| [Forêt][foret]{title="Forest"}                 |                   10 000 |       1 250 |                      200 |
-| [Glacier][glacier-fr-id]{title="Glacier"}      |                      100 |          13 |                       10 |
-| [Haut-plateau][haut-plateau]{title="Highland"} |                    4 000 |         500 |                      200 |
-| [Marais][marais]{title="Swamp"}                |                    2 000 |         250 |                      200 |
-| [Montagne][montagne]{title="Mountain"}         |                    1 000 |         125 |                      100 |
-| [Plaine][plaine]{title="Plain"}                |                   10 000 |       1 250 |                      200 |
-| [Volcan][volcan]{title="Volcano"}              |                      500 |          63 |                       50 |
+| Terrain                                        | max. jobs de paysans | max. arbres | min. jobs de paysans |
+|------------------------------------------------|---------------------:|------------:|---------------------:|
+| [Désert][desert-fr-id]{title="Desert"}         |                  500 |          63 |                   50 |
+| [Forêt][foret]{title="Forest"}                 |               10 000 |       1 250 |                  200 |
+| [Glacier][glacier-fr-id]{title="Glacier"}      |                  100 |          13 |                   10 |
+| [Haut-plateau][haut-plateau]{title="Highland"} |                4 000 |         500 |                  200 |
+| [Marais][marais]{title="Swamp"}                |                2 000 |         250 |                  200 |
+| [Montagne][montagne]{title="Mountain"}         |                1 000 |         125 |                  100 |
+| [Plaine][plaine]{title="Plain"}                |               10 000 |       1 250 |                  200 |
+| [Volcan][volcan]{title="Volcano"}              |                  500 |          63 |                   50 |
 
 Les unités à bord des bateaux dans les régions gardées par des unités étrangères ne peuvent pas travailler ou s'entretenir elles-mêmes (voir [`GUARD`][cmd-guard-fr], [`HELP`][cmd-help-fr] et [`ENTERTAIN`][cmd-entertain-fr]).  
 

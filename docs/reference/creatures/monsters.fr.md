@@ -23,8 +23,8 @@ Les dragons font partie des unités de monstres les plus puissantes.
 Ils éclosent d'œufs en tant que jeunes dragons, se transforment plus tard en dragons et plus tard en Wyrms.  
 Des rumeurs courent selon lesquelles les dragons peuvent également atteindre Eressea depuis la Sphère du Chaos.  
 
-Les dragons sont particulièrement désagréables car ils chassent et mangent les agriculteurs.  
-Souvent, les agriculteurs ainsi tués reviennent plus tard sous forme de [Morts-Vivants][morts-vivants-connus].  
+Les dragons sont particulièrement désagréables car ils chassent et dévorent les paysans.  
+Souvent, les paysans ainsi tués reviennent plus tard sous forme de [Morts-Vivants][morts-vivants-connus].  
 
 Les dragons peuvent acquérir différentes compétences et devenir ainsi encore plus dangereux.  
 

@@ -164,7 +164,9 @@ Un désert n'est donc pas forcément le premier choix pour construire un réseau
 La ligne contient également le montant actuel de silvers dans la région (la réserve).  
 Ce montant est important pour estimer l'état de l'approvisionnement des paysans et combien les unités de joueurs peuvent avoir de [revenus][revenus] en divertissant ou en collectant des impôts.  
 
-## Les régions d'Eressea
+[](){ #regions-fr-id }
+
+## Les régions
 
 <div class="lore-dialogue">
 Selen montra du doigt la page ouverte.
@@ -172,7 +174,7 @@ Selen montra du doigt la page ouverte.
 Rahel regarda intensément un instant avant de commencer.
 </div>
 
-Dans le rapport, toutes les régions dans lesquelles tu as une unité, par lesquelles tu as voyagé ou les régions océaniques que tu as aperçues depuis un [phare][phare]{title="Lighthouse"} sont listées :
+Dans le rapport, toutes les régions dans lesquelles vous avez une unité, par lesquelles vous avez voyagé ou les régions océaniques que vous avez aperçues depuis un [phare][phare]{title="Lighthouse"} sont listées :
 
 `Tetos (−1,0), plain, 1042 peasants, 73/5 trees, 10953 silver, 132 horses. To the northwest lies the the forest of Faldorn (−2,1), to the northeast the plain of Litforuvys (−1,1), to the east the plain of Tumyvesfod (0,0), to the southeast the swamp of Titymovut (0,−1), to the southwest the plain of Livedfir (−1,−1) an to the west the mountain of Nipevan (−2,0).`
 

@@ -6,7 +6,7 @@ alias: armures-et-boucliers
 # Armures et boucliers
 
 Cette page répertorie les propriétés des armures et boucliers individuels.  
-Pour les règles de calcul, voir [Guerre][guerre] ; pour le tableau agrégé, voir [cette synthèse][armures-synthese].
+Pour les règles de calcul, voir [Guerre][guerre] ; pour le tableau agrégé, voir [cette synthèse][tableau-armures-et-boucliers-fr-id].
 
 ## Armures
 

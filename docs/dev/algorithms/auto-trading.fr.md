@@ -19,7 +19,7 @@ Habituellement, vous achèterez pour vos propres besoins sur les îles à 1 à 3
 Pour des raisons de minimisation des unités, les régions avec un volume d'échanges très faible peuvent également être évitées et doivent donc être exclues du calcul.  
 
 Le besoin de produits de luxe externes est souvent encore plus facile à déterminer.  
-C'est à peu près le nombre d'agriculteurs de l'île divisé par 100.  
+C'est à peu près le nombre de paysans de l'île divisé par 100.  
 Cependant, ce besoin sera rarement satisfait car les bateaux ont généralement des choses plus importantes à faire.  
 
 Le problème ici est plutôt ennuyeux ou ne peut pas être décrit comme un problème.  
@@ -41,7 +41,7 @@ Si vous attribuez désormais les transports par priorité, un stock minimum peut
 
 Plus vous contrôlez intelligemment le transport, moins vous aurez besoin de trajets à vide et donc de transport et de capacité de transport.  
 Il est donc important d’effectuer le moins de transports possible et le plus court possible.  
-Malheureusement, l’optimisation de ce problème est complexe : à mesure que le nombre de régions augmente et surtout le nombre d’agriculteurs très différent et certaines topologies insulaires, le nombre de combinaisons d’itinéraires de livraison possibles augmente de façon exponentielle.  
+Malheureusement, l’optimisation de ce problème est complexe : à mesure que le nombre de régions augmente et surtout le nombre de paysans très différent et certaines topologies insulaires, le nombre de combinaisons d’itinéraires de livraison possibles augmente de façon exponentielle.  
 Cela ne vaut probablement pas la peine de déterminer ici la combinaison optimale (cela revient généralement à rechercher toutes les combinaisons judicieuses).  
 Au lieu de cela, essayez simplement de trouver une bonne combinaison  
 Cela peut être fait à l’aide de diverses règles ou d’une « recherche ciblée ».  

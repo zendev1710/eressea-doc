@@ -56,7 +56,7 @@ Niolamel looked at the singer with fascination.
 The young elf could literally feel, even see, the power that emanated from his voice.
 She looked briefly at the rest of the audience.
 At the table next to her sat one of the burly mountain elves from the Dunfanaghy massif.
-What could have brought the heavily armed and armored man so far south?
+What could have brought the heavily armed and armoured man so far south?
 The elf, who belonged to a tribe that was decried as so wild and barbaric, sat there peacefully and listened pensively to the singer's voice.
 
 A table away sat an old man, a human in a tattered 13th Legion uniform jacket.

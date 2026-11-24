@@ -205,7 +205,7 @@ The vast majority includes races and combat rules.
 - When learning magic for the first time you have to choose an area with `LEARN MAGIC "<Magic School>"`
 - The hit points of all units are doubled
 - The weapon damage of normal weapons is increased by approximately 25%. Multi-component weapons and those made from rare raw materials increase their damage more
-- Armor effects are also increased by approximately 25%
+- Armour effects are also increased by approximately 25%
 - Ranged fighters have a 33% probability of finding a target from the first and second rows, and a 67% probability of only finding a target from the first row. In the past, only the first row was attacked
 - Monsters can have multiple attacks per round, i.e. they can cast spells several times or attack conventionally several times
 - In addition to spells, monsters can also have other special attacks
@@ -292,7 +292,7 @@ However, most of the new players, disparagingly referred to as BRAVO kiddies by 
 - Catapult ammunition can be produced (the change on June 2nd, 2002).
   Until the evaluation on June 2nd, all catapults still fire without ammunition, with the evaluation on June 2nd, catapults must be supplied with ammunition!
 - Crossbows and bows have so far been little differentiated; their effect is mathematically almost identical.  
-  For this reason, there is a change in crossbows: reloading will now take two rounds, but the opponent's armor protection will be halved and rounded down when a crossbow hit. The only exception to this is magical armor protection.
+  For this reason, there is a change in crossbows: reloading will now take two rounds, but the opponent's armour protection will be halved and rounded down when a crossbow hit. The only exception to this is magical armour protection.
 
 02.06.2002
 

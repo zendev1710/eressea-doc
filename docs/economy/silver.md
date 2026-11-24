@@ -97,7 +97,7 @@ However, the larger the forests in a region, the less arable land there is, and 
 The maximum number of people who can work (not live) in a region, i.e. without any forest, depends on the terrain (see the table in the [`WORK`][cmd-work] order page).
 
 A peasant normally earns 11 silver per turn.  
-This wage can be increased by the bonus of a citadel to up to 16 silver per peasant and week (see also the [castles table][castles-overview-id]).  
+This wage can be increased by the bonus of a citadel to up to 16 silver per peasant and week (see also the [castles table][castles-summary-table-id]).  
 If, for example, a citadel is built in a plain and the forest is cut down, 10000 peasants can feed themselves in one turn and another 60000 silver are added to the region silver.
 
 However, working units of players earn less - after all, they are only auxiliaries.  

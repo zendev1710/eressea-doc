@@ -94,7 +94,7 @@ Pour réunir des personnes de différentes unités, il faut utiliser l'ordre `GI
 Les [compétences][competences] sont alors **mélangées**.
 
 !!! warning "Attention"
-    **Pensez à gérer le transfert des objets**, qui pourraient aller vers les agriculteurs (donc être perdus) si l'unité cible manque de personnes.
+    **Pensez à gérer le transfert des objets**, qui pourraient aller vers les paysans (donc être perdus) si l'unité cible manque de personnes.
 
 Expérience de jeu (Solthar) :
 

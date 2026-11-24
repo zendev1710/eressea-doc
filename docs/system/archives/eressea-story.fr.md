@@ -131,7 +131,7 @@ Un jour
 - Les bateaux ne peuvent partir que dans la direction d'où ils viennent et dans les deux directions voisines, sauf s'il existe un port allié dans la région
 - Les bateaux peuvent désormais subir des dégâts et ne couleront plus simplement s'ils manquent d'équipage
 - Les bateaux endommagés perdent de leur capacité et éventuellement de leur vitesse
-- Les salaires des non-orques sont réduits au niveau actuel (salaire du fermier -1 ?)
+- Les salaires des non-orcs sont réduits au niveau actuel (salaire du paysan -1 ?)
 
 06.06.1999
 
@@ -215,7 +215,7 @@ La grande majorité de ces changements concerne les peuples et les règles de co
 - En plus des sorts, les monstres peuvent également avoir d'autres attaques spéciales
 - Le souffle du dragon ne peut plus être arrêté par des sorts d'antimagie, car les dragons ne représentent autrement que peu de menace
 - Les coûts de recrutement des Elfes, des Démons et des Insectes sont augmentés à 130, 150 et 80
-- Les unités affamées ne meurent plus avec 2/3 de chances mais subissent à la place des dégâts de famine; La même chose s'applique aux Démons qui ne peuvent pas manger d'agriculteurs
+- Les unités affamées ne meurent plus avec 2/3 de chances mais subissent à la place des dégâts de famine; La même chose s'applique aux Démons qui ne peuvent pas dévorer de paysans
 - Une seule herbe pousse par région, qui doit repousser et n'est plus disponible indéfiniment
 - L'ordre `GROW HERBS` est introduit, alternativement l'ordre `GROW FLOWERS` fonctionne également
 - L'université est rebaptisée Académie
@@ -235,17 +235,17 @@ La Réforme des matières premières, certainement le plus grand ensemble de cha
 Annoncé comme le tout dernier changement de règle (si vous pensez au fromage maintenant, c’est que vous faites partie des vrais anciens d’Eressea 😃).  
 Cependant, de nombreux autres changements, plus ou moins importants, ont prouvé par la suite le contraire.  
 
-- Le lissage des agriculteurs est une tentative de répartir plus équitablement les matières premières importantes entre les agriculteurs.
-  Les régions comptant de nombreux agriculteurs ont été supprimées et les régions qui en comptaient peu ont été comblées.
-  Le nombre d'agriculteurs dans Eressea est resté le même. Non seulement les agriculteurs mais aussi les acteurs de la région ont joué un rôle important dans la distribution.
-  Ainsi les gens qui avaient rassemblé 10 000 soldats dans une région centrale se retrouvaient, après lissage, dans une région vide d'agriculteurs, tout comme quand une armée d'invasion venait de débarquer sur une île.
+- Le lissage des paysans est une tentative de répartir plus équitablement les matières premières importantes entre les paysans.
+  Les régions comptant de nombreux paysans ont été supprimées et les régions qui en comptaient peu ont été comblées.
+  Le nombre d'paysans dans Eressea est resté le même. Non seulement les paysans mais aussi les acteurs de la région ont joué un rôle important dans la distribution.
+  Ainsi les gens qui avaient rassemblé 10 000 soldats dans une région centrale se retrouvaient, après lissage, dans une région vide d'paysans, tout comme quand une armée d'invasion venait de débarquer sur une île.
   D’un autre côté, si vous aviez votre armée sur l’océan, tout allait bien.
   Le lissage des paysans a été annoncé dans un bref délai, mais la formule exacte ne l’a pas été.
   Ce changement provoque également beaucoup d'émoi parmi les joueurs, car beaucoup se sentent traités injustement (à cause de tous les paysans perdus)
 - Parallèlement au lissage des paysans, les Orcs ont perdu leur taux de reproduction de 5 %
   Toutes les unités Orc existantes ont été converties en Snotlings; ils ne peuvent apprendre que des compétences pertinentes pour le combat jusqu'au niveau T7.
-  Depuis le changement, les Orcs ne sont soustraits aux agriculteurs que 1 contre 2 lors du recrutement et remis aux agriculteurs 2 contre 1, les Snotlings n'apportent aucun paysan lorsqu'ils sont remis à 0 (est-ce vrai ?).
-  La remise des anciens Orcs aux agriculteurs a eu lieu dans la séquence des ordres AVANT le lissage des paysans afin d'empêcher les Orcs de tricher pour obtenir un avantage.
+  Depuis le changement, les Orcs ne sont soustraits aux paysans que 1 contre 2 lors du recrutement et remis aux paysans 2 contre 1, les Snotlings n'apportent aucun paysan lorsqu'ils sont remis à 0 (est-ce vrai ?).
+  La remise des anciens Orcs aux paysans a eu lieu dans la séquence des ordres AVANT le lissage des paysans afin d'empêcher les Orcs de tricher pour obtenir un avantage.
   Bien sûr, de nombreux joueurs ont ignoré cette annonce et il y a eu ici aussi beaucoup de controverses.
   Les plaintes persistantes des joueurs concernant ces changements de règles sont généralement considérées comme la raison du départ de Corwin d'Eressea et de l'annonce du gel du développement, qui n'a jamais été respecté.
   Afin de maintenir un petit degré de dilution des compétences, ce qui était le cas avec l'augmentation des Orcs, à partir de ce moment, les Orcs n'apprennent tout simplement plus de compétence non liée au combat avec une probabilité de 5 %.
@@ -285,10 +285,10 @@ Cependant, la plupart des nouveaux joueurs, qualifiés de manière désobligeant
   Comme cas particulier, pour une unité `TEMP` vide, l’unité de création est utilisée comme référence de visibilité.  
   En d’autres termes : ce qui est crucial dans ce cas est de savoir si l’unité qui a créé l'unité `TEMP` est visible.
 - La quantité de ressources disponibles est initialement réduite de moitié.  
-  Il s’agit d’un ajustement au nombre inférieur d’agriculteurs et à la taille des factions nettement plus petite attendue.  
+  Il s’agit d’un ajustement au nombre inférieur de paysans et à la taille des factions nettement plus petite attendue.  
   Pour les ressources renouvelables, le taux de croissance a simplement été réduit;  
   Pour les ressources non renouvelables, comme le fer, moins de nouvelles ressources sont désormais ajoutées lorsqu'une nouvelle « étape d'exploitation minière » est atteinte.
-- La proportion d'agriculteurs pouvant être recrutés par tour est réduite de 20 % à 5 % de la population agricole.  
+- La proportion d'paysans pouvant être recrutés par tour est réduite de 20 % à 5 % de la population agricole.  
   Cela rend la stratégie des fourmis conductrices moins attrayante.
 - Les catapultes n'ont désormais plus que 6 attaques au lieu de 10 auparavant.  
   De plus, son malus de compétence est désormais de 4 au lieu de 1.  

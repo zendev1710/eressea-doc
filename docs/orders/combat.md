@@ -69,7 +69,7 @@ Operating [catapults][weapon-catapult-id] is a task that requires a lot of prepa
 
 !!! warning "Caution"
     People with low hit points who have not set `COMBAT FLEE` will only flee if they have taken a hit in combat.  
-    Hits whose damage points were completely stopped by the armor and failed hit attempts also count.  
+    Hits whose damage points were completely stopped by the armour and failed hit attempts also count.  
     Of course, people with `COMBAT FLEE` flee beforehand.  
 
 ## `COMBAT HELP`

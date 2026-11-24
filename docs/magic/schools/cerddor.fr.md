@@ -17,7 +17,7 @@ Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de
 *Appeasing Song (EN), Friedenslied (DE)*.
 <!-- cspell:enable -->
 
-:   Cette chanson apprivoise même l'orque le plus sauvage et le rend paisible et doux.  
+:   Cette chanson apprivoise même l'orc le plus sauvage et le rend paisible et doux.  
     Toute idée de nuire au chanteur disparaîtra.  
     Le mage peut se déplacer sans encombre dans une région voisine.
 
@@ -101,7 +101,7 @@ Les sorts de l'École de magie **Cerddor** sont décrits ci-dessous par ordre de
 <!-- cspell:enable -->
 
 :   Cet ancien rituel de danse invoque les forces de vie et de fertilité.  
-    Les rendements des agriculteurs seront nettement meilleurs pendant plusieurs semaines.
+    Les rendements des paysans seront nettement meilleurs pendant plusieurs tours.
 
 | Composants | Niv. |  Type  | Rang |              B               |              D               |
 |:----------:|:----:|:------:|:----:|:----------------------------:|:----------------------------:|
@@ -453,10 +453,10 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 *Mob Rule (EN), Mob aufwiegeln (DE)*.
 <!-- cspell:enable -->
 
-:   À l'aide de ce chant magique, le mage convainc les agriculteurs de la région de le rejoindre.  
-    Cependant, les agriculteurs ne quitteront pas leur pays et ne céderont aucun de leurs biens.  
-    Chaque semaine, certains agriculteurs abandonneront également le charme et retourneront dans leurs champs.  
-    Le nombre d’agriculteurs qui rejoignent le mage dépend de la puissance de sa chanson.
+:   À l'aide de ce chant magique, le mage convainc les paysans de la région de le rejoindre.  
+    Cependant, les paysans ne quitteront pas leur pays et ne céderont aucun de leurs biens.  
+    Chaque semaine, certains paysans abandonneront également le charme et retourneront dans leurs champs.  
+    Le nombre de paysans qui rejoignent le mage dépend de la puissance de sa chanson.
 
 | Composants | Niv. |  Type  | Rang | B | D |
 |:----------:|:----:|:------:|:----:|:-:|:-:|
@@ -472,7 +472,7 @@ Un dernier mot d'avertissement : cela prend beaucoup de temps, et si vous souhai
 *Song of Melancholy (EN), Gesang der Melancholie (DE)*.
 <!-- cspell:enable -->
 
-:   Avec cette chanson, le barde répand une ambiance mélancolique et triste parmi les agriculteurs.  
+:   Avec cette chanson, le barde répand une ambiance mélancolique et triste parmi les paysans.  
     Pendant quelques semaines, ils se retireront dans leurs huttes et ne laisseront aucune argenterie dans les théâtres et les tavernes.
 
 | Composants | Niv. |  Type  | Rang | B |              D               |
@@ -573,7 +573,7 @@ Extrait de « Errants » de Firudin le Sage.
 ### Apaisement des émeutes
 
 :   À l’aide de ce chant magique, le mage peut calmer une région en ébullition.  
-    Les hordes d'agriculteurs vont se perdre et retourner dans leurs champs.
+    Les hordes de paysans vont se perdre et retourner dans leurs champs.
 
 | Composants | Niv. |  Type  | Rang | B |              D               |
 |:----------:|:----:|:------:|:----:|:-:|:----------------------------:|
@@ -586,7 +586,7 @@ Extrait de « Errants » de Firudin le Sage.
 ### Émeutes
 
 :   À l’aide de ce chant magique, le mage met toute une région en ébullition.  
-    Des hordes d’agriculteurs rebelles rendent toute taxation impossible, presque plus personne ne donne d’argent à des escroqueries et aucune nouvelle personne ne peut être recrutée.  
+    Des hordes de paysans rebelles rendent toute taxation impossible, presque plus personne ne donne d’argent à des escroqueries et aucune nouvelle personne ne peut être recrutée.  
     Après quelques semaines, la foule se calme à nouveau.
 
 | Composants | Niv. |  Type  | Rang | B |              D               |

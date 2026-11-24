@@ -57,7 +57,7 @@ Plus d'information : [ordres][ordres].
 | [`GIVE <unit-id> UNIT`][cmd-give-fr]                                | Transfers unit to foreign faction                    | C      |
 | [`GIVE 0 <quantité> <item>`][cmd-give-fr]                           |                                                      | C      |
 | [`GIVE 0 <quantité> MEN`][cmd-give-fr]                              |                                                      | C      |
-| [`GIVE 0 <quantité> silver`][cmd-give-fr]                           | Donne des objets aux agriculteurs                    | C      |
+| [`GIVE 0 <quantité> silver`][cmd-give-fr]                           | Donne des objets aux paysans                         | C      |
 | [`GROUP ["<nom>"]`][cmd-group-fr]                                   | Regroupe des unités                                  | C      |
 | [`GROW HORSES`][cmd-grow-fr]                                        | Élève des chevaux - Seulement dans un haras          | L      |
 | [`GUARD [NOT]`][cmd-guard-fr]                                       | Garde la région                                      | C      |

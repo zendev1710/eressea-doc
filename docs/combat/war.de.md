@@ -122,11 +122,11 @@ Wie viele Schläge sie ausführen, hängt von der Differenz zwischen dem besten 
 
 **Beispiel:** Seite A hat eine Person mit Taktik 4 in der ersten Reihe.
 Seite B hat 10 Personen mit Taktik 4 in der dritten Reihe.
-Also hat Seite A effektiv Taktik 5 und Seite B Taktik 3. Wenn der zufällige Bonus nicht wäre, würde die eine Person von Seite A mit 20% Wahrscheinlichkeit in der Taktikerrunde angreifen.
+Also hat Seite A effektiv Taktik 5 und Seite B Taktik 3. Wenn der zufällige Bonus nicht wäre, würde die eine Person von Seite A mit 20 % Wahrscheinlichkeit in der Taktikerrunde angreifen.
 Wenn dagegen die Person von Seite A eine 0 als Bonus würfelt, muss mindestens eine Person von Seite B eine 2 würfeln.
 Andernfalls hat Seite A die Taktikerrunde.
 Nehmen wir an, das beste Würfelergebnis von Seite B ist eine 5 (das ist unwahrscheinlich, aber durchaus möglich).
-Die Differenz für Seite B ist also 3 + 5 - (5 + 0) = 3. Dann schlägt jede Person auf Seite B in Runde 0 mit 30% Wahrscheinlichkeit zu.
+Die Differenz für Seite B ist also 3 + 5 - (5 + 0) = 3. Dann schlägt jede Person auf Seite B in Runde 0 mit 30 % Wahrscheinlichkeit zu.
 Das können 0 bis 10 Personen sein, im langfristigen Mittel sind es aber etwa 3 Schläge.
 
 ## Helden
@@ -147,9 +147,9 @@ Dabei wird folgendermaßen vorgegangen:
 - Die Attacke des Angreifers und die Parade des Verteidigers sind (zunächst) so hoch, wie ihr Waffentalent.
 - Boni/Mali addieren: Zur Attacke des Angreifers und zur Parade des Verteidigers werden eventuelle [Boni und Mali] addiert.
 - Handelt es sich bei dem Angreifer um einen Fernkämpfer, wird der so modifizierte Paradewert seines Gegners halbiert.
-- Die Basis-Trefferchance (BT) eines Angreifers liegt grundsätzlich bei 30%.
-- Werte voneinander abziehen: Für jeden Punkt Differenz zwischen der Attacke des Angreifers und der Parade des Verteidigers wird jetzt die BT um 5% erhöht bzw erniedrigt. Die tatsächliche Trefferchance ergibt sich also aus folgender Formel: (Attacke(Angreifer)-Parade(Verteidiger)) \* 5% + 30%.
-- Anfängerglück: Schlägt der Angriff fehl, hat der Angreifer zusätzlich eine 10%ige Chance, seinen Angriff doch noch zu verwandeln: Er kann ein zweites Mal zuschlagen und zwar mit einer um 90 bis 99% (Zufall) erhöhten Trefferchance. Dadurch haben stark benachteiligte Kämpfer die Möglichkeit, zumindest einige Zufallstreffer zu landen.
+- Die Basis-Trefferchance (BT) eines Angreifers liegt grundsätzlich bei 30 %.
+- Werte voneinander abziehen: Für jeden Punkt Differenz zwischen der Attacke des Angreifers und der Parade des Verteidigers wird jetzt die BT um 5 % erhöht bzw erniedrigt. Die tatsächliche Trefferchance ergibt sich also aus folgender Formel: (Attacke(Angreifer)-Parade(Verteidiger)) \* 5 % + 30 %.
+- Anfängerglück: Schlägt der Angriff fehl, hat der Angreifer zusätzlich eine 10 %ige Chance, seinen Angriff doch noch zu verwandeln: Er kann ein zweites Mal zuschlagen und zwar mit einer um 90 bis 99 % (Zufall) erhöhten Trefferchance. Dadurch haben stark benachteiligte Kämpfer die Möglichkeit, zumindest einige Zufallstreffer zu landen.
 
 Jede Person attackiert einmal pro Kampfrunde (außer [Helden][bef-befordere-id] und einigen Monstern).
 
@@ -163,14 +163,57 @@ Daneben gibt es noch eine gewisse vom Talentunterschied abhängige Chance, dass 
 Hat eine Person mehr Schadenspunkte hinnehmen müssen, als sie "einstecken kann" (siehe [Rasseneigenschaften][rasseneigenschaften]; dabei addieren sich die verschiedenen Treffer im Kampf), so stirbt sie.
 
 Trägt ein Kämpfer eine Rüstung, so kann diese einen Teil (oder gar alle) der Schadenspunkte auffangen.
-Allerdings wird man durch Rüstung unbeweglicher, und im Gegenzug erhöht sich die Chance, überhaupt getroffen zu werden (siehe [diese][rustung] Tabelle).
+Allerdings wird man durch Rüstung unbeweglicher, und im Gegenzug **erhöht** sich die Chance, überhaupt getroffen zu werden; ein Schild **verringert** sie (siehe [diese Tabelle][tabelle-rustung-und-schield-id]).
 Gegen Armbrüste wirkt eine Rüstung nur zur Hälfte (abgerundet).
+
+Es kann jeweils nur eine Rüstung und ein Schild benutzt werden, mehrere Rüstungen schützen nicht mehrfach.
+Die Änderungen sind **relativ und multiplikativ**: `+15 %` bedeutet `× 1,15` (`−15 %` bedeutet `× 0,85`). Sie werden nicht addiert.
+Ein positiver Wert bedeutet, dass der Träger **häufiger** getroffen wird, ein negativer, dass er **seltener** getroffen wird.
+
+<!-- cspell:disable -->
+:   $$
+    P_{\text{endgültig}} = P_{\text{Grund}} \times \left(1 + \frac{v_{\text{Rüstung}}}{100}\right) \times \left(1 + \frac{v_{\text{Schild}}}{100}\right)
+    $$
+<!-- cspell:enable -->
+
+wobei `v` der im Tableau lesbare Wert ist (`+15` oder `−15`).
+
+**Beispiel:** eine Grundchance von 60 % steigt mit einem Kettenhemd auf `60 % × 1,15 = 69 %`, sinkt mit einem Schild auf `60 % × 0,85 = 51 %` und ergibt mit beiden `60 % × 1,15 × 0,85 = 58,65 %`, abgerundet `58 %`. Das Endergebnis wird immer abgerundet.
 
 Manche Wesen oder Waffen sind auch in der Lage magischen Schaden zu verursachen.
 Gegen magischen Schaden ist eine normale Rüstung wirkungslos.
-Es zählt nur die [Magieresistenz][war-table-magieresistenz-id] welche sich durch bestimmte Ausrüstungsgegenstände und Zauber steigern lässt.
+Es zählt nur die [Magieresistenz][war-table-magieresistenz-id], welche sich durch bestimmte Ausrüstungsgegenstände und Zauber steigern lässt (siehe unten).
 
-Außerdem gibt es noch das Talent Ausdauer, mit dem man seinen Körper stählt und so mehr Trefferpunkte erleiden kann, ohne daran zu sterben (siehe [diese Tabelle][table-endurance-fr-id]).
+Außerdem gibt es noch das Talent Ausdauer, mit dem man seinen Körper stählt und so mehr Trefferpunkte erleiden kann, ohne daran zu sterben (siehe [diese Tabelle][table-ausdauer-id]). Der HP-Bonus ist:
+
+<!-- cspell:disable -->
+:   $$
+    \text{HP-Bonus (in \%)} = \left(\frac{\text{Talent}}{2}\right)^{1.5} \times 0.20
+    $$
+<!-- cspell:enable -->
+
+??? tip "Bonusberechnung basiert auf Ausdauer"
+    <div class="md-typeset" style="margin-top: 1em;">
+        <label for="war-tables-compute-endurance-input" class="md-input-label">Talent:</label>
+        <input id="war-tables-compute-endurance-input" type="number" class="md-input" placeholder="niveau d'endurance">
+        <button id="war-tables-compute-endurance-btn" class="md-button md-button--primary" style="margin-top: 0.5em;">Berechnen</button>
+        <p style="margin-top: 1em;">Bonus: <strong id="war-tables-compute-endurance-result">---</strong></p>
+    </div>
+
+[](){ #war-table-magieresistenz-id }
+
+### Magieresistenz
+
+Die Magieresistenz ist eine besondere Eigenschaft, die sowohl durch Rasse und Ausrüstung als auch durch einige Zauber beeinflusst werden kann.  
+Sie gibt bei Kampfzaubern an, wie viel Prozent eines magischen Schadens abgezogen werden.  
+
+!!! note
+    Alle Mallornwaffen erhöhen die Magieresistenz um 15 %.  
+    Alle Laenwaffen und -rüstungen erhöhen die Magieresistenz um 30 %.
+
+Die Kombination aus natürlicher Magieresistenz, Waffe, Rüstung und Schild wird nicht einfach addiert, sondern wie die Änderung der Chance, getroffen zu werden, multipliziert.  
+
+Ein Elf mit Laenschwert und kompletter Laenrüstung (Schild + Kette) hat also *nicht* 10 + 30 + 30 + 30 = 100 % Resistenz, sondern `90 % × 70 % × 70 % × 70 % = 31 %`, also **69 %** Magieresistenz.
 
 ### Fernkampf
 
@@ -200,7 +243,7 @@ Eine Munitionseinheit entspricht dabei einer Salve.
 Schusswaffen - Proben, Zeitaufwand und Treffer
 
 | Waffe                             | Talent            | Offensivbonus | Nachladen |
-|-----------------------------------|-------------------|--------------:|----------:|
+| --------------------------------- | ----------------- | ------------: | --------: |
 | Armbrust / Mallornarmbrust        | Armbrustschießen  |             0 |         2 |
 | Katapult                          | Katapultbedienung |            -4 |         5 |
 | Bogen / Mallornbogen / Elfenbogen | Bogenschießen     |            -2 |         0 |
@@ -255,59 +298,59 @@ Wenn sie selbst nicht reitet und gegen einen Reiter kämpft, wird ihr Paradewert
 
 **Beispiele:**
 
-- Basiswert des Angreifers: BT = 30%  
+- Basiswert des Angreifers: BT = 30 %  
 
-Angreifer mit Talent 3, Verteidiger Talent 4 -&gt; Trefferchance=25%  
-Verteidiger steht in Zitadelle -&gt; Parade +5 -&gt; Trefferchance=0%  
-Der Angreifer hat also nur eine Chance von 10% ("Anfängerglück"), überhaupt noch einen zweiten Versuch zu bekommen, und dann nochmal eine 90 bis 99%ige den Treffer zu landen.
-Insgesamt hat er also lediglich 9 bis 9,9% Chance, den Verteidiger zu treffen.
+Angreifer mit Talent 3, Verteidiger Talent 4 -&gt; Trefferchance=25 %  
+Verteidiger steht in Zitadelle -&gt; Parade +5 -&gt; Trefferchance=0 %  
+Der Angreifer hat also nur eine Chance von 10 % ("Anfängerglück"), überhaupt noch einen zweiten Versuch zu bekommen, und dann nochmal eine 90 bis 99 %ige den Treffer zu landen.
+Insgesamt hat er also lediglich 9 bis 9,9 % Chance, den Verteidiger zu treffen.
 Er ist ja auch (durch die Zitadelle) wirklich stark im Nachteil.
 
 - Diesmal steht der Verteidiger nicht in der Zitadelle:  
 
-Basiswert des Angreifers -&gt; BT = 30%  
-Angreifer mit Talent 3, Verteidiger Talent 4 -&gt; Trefferchance = 25%  
-Angreifer mit Pferdebonus -&gt; Attacke +2 -&gt; Trefferchance = 35%
+Basiswert des Angreifers -&gt; BT = 30 %  
+Angreifer mit Talent 3, Verteidiger Talent 4 -&gt; Trefferchance = 25 %  
+Angreifer mit Pferdebonus -&gt; Attacke +2 -&gt; Trefferchance = 35 %
 
 - Eine Schwertkämpferin mit Hiebwaffen 3 gegen einen Reiter mit Reiten 1 und Stangenwaffen 2: Sie kämpft mit Attacke 3 (Talent 3) gegen Parade 2 (Talent 2, ohne Pferdebonus - der Reiter kann nicht gut genug reiten).  
 
-Die Angreiferin hat also eine Trefferchance von 35%.
+Die Angreiferin hat also eine Trefferchance von 35 %.
 
 - Ein Bogenschütze mit Talent 9 greift aus der 2. Reihe eine Lanzenreiterin mit Reiten 3 und Stangenwaffen 9 an. Er attackiert mit 7 (Malus von 2 durch den Bogen) gegen eine Parade von 5 (der Paradewert wird halbiert und abgerundet: Talent 9, +2 Pferdebonus -&gt; (9+2)/2=5).  
 
-Der Angreifer hat also eine Trefferchance von (7 - 5) \* 5% + 30% = 40%
+Der Angreifer hat also eine Trefferchance von (7 - 5) \* 5 % + 30 % = 40 %
 
 - Eine Lanzenreiterin mit Reiten 3 und Stangenwaffen 9 greift einen Bogenschützen mit Talent 9 in der 1. Reihe an.
   - Sie attackiert mit 12 (Talent 9, +2 Pferdebonus und +1 Lanzenbonus) gegen eine Parade von -2 (Schütze ohne Waffe für den Nahkampf).  
 
-Die Angreiferin hat eine Trefferchance von 100%; sie wird also in jedem Fall treffen...
+Die Angreiferin hat eine Trefferchance von 100 %; sie wird also in jedem Fall treffen...
 
 - Sie pariert mit ihrem vollen Paradewert (also Waffentalent + Pferdebonus = 11) gegen die Fernkampfwaffe, da der Schütze in der 1. Reihe steht, und der Schütze muss auf seinen Talentwert den Malus 2 (durch den Bogen) hinnehmen.  
 
 Der Schütze greift also effektiv mit einer Attacke von 7 gegen die Reiterin mit einer Parade von 11 an.
-Er hat also eine Trefferchance von (7 - 11) \* 5% + 30% = 10%.
+Er hat also eine Trefferchance von (7 - 11) \* 5 % + 30 % = 10 %.
 
 - Eine Speerträgerin mit Stangenwaffen 3 in einer Burg greift eine Reiterin mit Reiten 2 und Stangenwaffen 3 an.
   - Sie attackiert mit 3 (Talent 3, kein Pikenbonus bei der Attacke; kein Burgenbonus, da sie den Angriff begonnen hat) gegen 5 (Talent 3, +2 Pferdebonus, kein Lanzenbonus bei der Parade).  
 
-Die Angreiferin hat eine Trefferchance von (3-5)\*5%+30%=20%.
+Die Angreiferin hat eine Trefferchance von (3-5)\*5 %+30 %=20 %.
 
 - Sie pariert mit 4 (Talent 3, kein Burgenbonus, da sie selbst angegriffen hat; +1 Pikenbonus) gegen 6 (+2 Pferdebonus und +1 Lanzenbonus).  
 
-Die Angegriffene hat eine Trefferchance von (6 - 4) \* 5% + 30% = 40%.
+Die Angegriffene hat eine Trefferchance von (6 - 4) \* 5 % + 30 % = 40 %.
 
 - Ein Reiter mit Reiten 2 und Hiebwaffen 2 gegen einen Speerträger mit Stangenwaffen 3:
   - Er attackiert mit 4 (Talent 2, +2 Pferdebonus) gegen 4 (Talent 3 und +1 Pikenbonus).  
 
-Der Angreifer hat also eine Trefferchance von 30%.
+Der Angreifer hat also eine Trefferchance von 30 %.
 
 - Der Speerträger schlägt zurück mit 3 gegen 4 (der Pikenbonus gilt nur bei der Parade, nicht bei der Attacke).  
 
-Der Speerträger hat also eine Trefferchance von 25%.
+Der Speerträger hat also eine Trefferchance von 25 %.
 
 - Ein Lanzenreiter mit Reiten 2 und Stangenwaffen 3 greift eine gleich gute Kollegin an. Er kämpft mit 6 (Talent 3, +2 Pferdebonus, +1 Lanzenbonus) gegen 5 (Talent 3, +2 Pferdebonus)  
 
-Der Angreifer hat damit eine Trefferchance von 35%.
+Der Angreifer hat damit eine Trefferchance von 35 %.
 
 Hieraus folgt, dass man eine Burg relativ gut halten kann, dass man aber aus einer Burg heraus möglichst keine Angriffe starten sollte, denn damit verliert man seinen Bonus bei der Verteidigung.
 Hieraus folgt auch, dass Speerträger ein wenig wirksamer gegen berittene Truppen sind als Schwertträger.
@@ -317,11 +360,11 @@ Hieraus folgt auch, dass Speerträger ein wenig wirksamer gegen berittene Truppe
 Personen, die [KÄMPFE FLIEHE][`KÄMPFE`] gesetzt haben und [attackiert][bef-attackiere] werden, versuchen zu fliehen.
 Dies tun sie vor jeder Kampfrunde, es kann also sein, dass sie erst (weitere) Treffer hinnehmen müssen, bevor die Flucht gelingt.
 
-Personen mit [`KÄMPFE`] oder [`KÄMPFE HINTEN`][`KÄMPFE`], die nur noch 20% ihrer Trefferpunkte haben und Personen mit [`KÄMPFE DEFENSIV`][`KÄMPFE`] oder [`KÄMPFE NICHT`][`KÄMPFE`], die nur nur noch 90% ihrer Trefferpunkte haben, versuchen ebenfalls zu fliehen, aber erst, wenn sie im Kampf einen Treffer abbekommen haben.
+Personen mit [`KÄMPFE`] oder [`KÄMPFE HINTEN`][`KÄMPFE`], die nur noch 20 % ihrer Trefferpunkte haben und Personen mit [`KÄMPFE DEFENSIV`][`KÄMPFE`] oder [`KÄMPFE NICHT`][`KÄMPFE`], die nur nur noch 90 % ihrer Trefferpunkte haben, versuchen ebenfalls zu fliehen, aber erst, wenn sie im Kampf einen Treffer abbekommen haben.
 Dabei zählen auch Treffer, deren Schadenspunkte vollständig von der Rüstung aufgehalten wurden und fehlgeschlagene Trefferversuche.
 Das soll verhindern, dass Einheiten, die schon vor dem Kampf angeschlagen waren, fliehen, obwohl sie nicht tatsächlich in Gefahr waren.
 
-Die Grundchance für die Flucht beträgt 25% (50% für Halblinge), dazu kommen 10%, wenn man ein Pferd hat und je 5% pro Stufe im Talent Tarnung; der Maximalwert ist aber 75% (bzw. 90% für Halblinge).
+Die Grundchance für die Flucht beträgt 25 % (50 % für Halblinge), dazu kommen 10 %, wenn man ein Pferd hat und je 5 % pro Stufe im Talent Tarnung; der Maximalwert ist aber 75 % (bzw. 90 % für Halblinge).
 
 Fliehende Einheiten entziehen sich dem Kampf, verbleiben aber in sicherer Entfernung zum Kampfgeschehen in der Region.
 Befand sich die Einheit in einem Gebäude oder auf einem Schiff an Land, verlässt sie dieses, sobald eine Person aus der Einheit während des Kampfes geflohen ist.
@@ -340,9 +383,9 @@ Dies geschieht zu Beginn der Runde, womit alle Effekte von [`BEWACHE`][bef-bewac
 Seeschlachten werden wie Schlachten zu Land ausgefochten: Die [Schiffe][schiff] entern sich gegenseitig und die Einheiten fallen übereinander her.
 Nach der Schlacht ist es den Einheiten möglich, weitere lange Befehle auszuführen.
 
-Ist ein Schiff in eine Schlacht verwickelt, so bekommt es pro Kampfrunde 5% Schaden, wenn mindestens eine Person Schaden erleidet, die auf dem Schiff ist oder zu Beginn der Runde auf dem Schiff war.
+Ist ein Schiff in eine Schlacht verwickelt, so bekommt es pro Kampfrunde 5 % Schaden, wenn mindestens eine Person Schaden erleidet, die auf dem Schiff ist oder zu Beginn der Runde auf dem Schiff war.
 Es hilft also nicht, das Schiff vor Kampfbeginn zu verlassen.
-Die [Taktikrunde][taktik] und die erste Runde wird nicht mitgezählt, so dass es immer nur maximal 20% Schaden geben kann.
+Die [Taktikrunde][taktik] und die erste Runde wird nicht mitgezählt, so dass es immer nur maximal 20 % Schaden geben kann.
 
 Zu größeren Schäden kann es kommen, wenn Seeschlangen in den Kampf verwickelt sind.
 Diese Monster haben, wie auch einige Vertraute, einen Angriff der jede Kampfrunde Strukturschaden an Schiffen verursachen kann.
@@ -381,7 +424,7 @@ Nach der Schlacht werden die Toten gezählt, und alles brauchbare Material von a
 Einheiten, die im Kampf verletzt wurden, bleiben verletzt.
 Dies wird im Report mit angezeigt.
 Im Laufe der Zeit erholen sich die verletzten Einheiten wieder.
-Dabei regenerieren Einheiten normalerweise 5% (einige [rassen][talentmodifikatoren] mehr) ihrer maximalen Trefferpunkte pro Runde, mindestens aber je einen Punkt pro Person in der Einheit.
+Dabei regenerieren Einheiten normalerweise 5 % (einige [rassen][talentmodifikatoren] mehr) ihrer maximalen Trefferpunkte pro Runde, mindestens aber je einen Punkt pro Person in der Einheit.
 Untote Einheiten regenerieren nicht.
 
 Wenn die Region, in der gekämpft wurde, *bei Kampfbeginn* von einer eigenen Einheit oder von einer Einheit, die zur eigenen Partei ein [`HELFE BEWACHE`][bef-helfe] gesetzt hat, [bewacht][allianz] wurde, können alle Einheiten, die am Kampf teilnehmen (die also im Kampfreport auftauchen), noch einen langen Befehl ausführen.

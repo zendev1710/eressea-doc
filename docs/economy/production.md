@@ -9,7 +9,7 @@ alias: production
 
 Various things can be produced in Eressea.  
 
-There are [resources][resources] (e.g. iron, stones, wood, horses) and [finished products][items-id]: various weapons and armor, [ships][ships-id] and chariots, [Buildings][buildings-id] and [roads][roads-id] and alchemical [potions][potions-id].  
+There are [resources][resources] (e.g. iron, stones, wood, horses) and [finished products][items-id]: various weapons and armour, [ships][ships-id] and chariots, [Buildings][buildings-id] and [roads][roads-id] and alchemical [potions][potions-id].  
 In order to be able to produce things, you need the appropriate skill.  
 
 Most things are done with the order [`MAKE`*`<number>`*` `*`item`*][cmd-make], for example `MAKE Iron`, `MAKE Sword` or `MAKE 15 Elvenbow`.  

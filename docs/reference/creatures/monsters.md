@@ -140,9 +140,9 @@ Zombies mutate into [Juju Zombies][juju-zombies-id].
 
 ### Shadow Demons
 
-| Hit Points | Attack | Defense | Armor |
-|:----------:|:------:|:-------:|:-----:|
-|     50     |   8    |   11    |   3   |
+| Hit Points | Attack | Defense | Armour |
+|:----------:|:------:|:-------:|:------:|
+|     50     |   8    |   11    |   3    |
 
 Shadow Demons have magic resistance.  
 Successful attacks cause **panic** in enemies, which **reduces** their attack or defense value **by 1**.  
@@ -154,9 +154,9 @@ In combat, a Shadow Demon triggers **3** attacks: one magical attack, one unarme
 
 ### Shadow Masters
 
-| Hit Points | Attack | Defense | Armor |
-|:----------:|:------:|:-------:|:-----:|
-|    150     |   11   |   13    |   4   |
+| Hit Points | Attack | Defense | Armour |
+|:----------:|:------:|:-------:|:------:|
+|    150     |   11   |   13    |   4    |
 
 In combat, a Shadow Master triggers **4** attacks: one magical attack, one unarmed attack (2d4), two magical attacks again.  
 

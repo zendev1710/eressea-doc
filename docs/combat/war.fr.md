@@ -80,14 +80,14 @@ En fait, c'est encore un peu plus compliqué.
 
 Quelques astuces permettent d'éviter les plus grosses bourdes :
 
-- Tu devrais régulièrement vérifier les statuts d'aide pour tous tes alliés.
-  `HELP ALL` est préférable de pour tous ceux avec qui tu "pourrais" combattre.
+- Vous devriez régulièrement vérifier les statuts d'aide pour tous vos alliés.
+  `HELP ALL` est préférable pour tous ceux avec lesquels vous pourriez combattre.
   La méfiance fait souvent des dégâts à ce niveau.
 - Si possible, il ne devrait y avoir qu'un seul [groupe][cmd-group-fr-id].
-- Dans ta faction, il faudrait que soit toutes les unités de combattants aient l'ordre `ATTACK`, soit aucune.
-  Si seule une partie de tes unités attaque, il se peut que le reste ne participe pas au combat si un allié est attaqué.
+- Dans votre faction, il faudrait que soit toutes les unités de combattants aient l'ordre `ATTACK`, soit aucune.
+  Si seule une partie de vos unités attaque, il se peut que le reste ne participe pas au combat si un allié est attaqué.
 - Il est conseillé d'attaquer toutes les unités ennemies.
-  Tu devrais au moins attaquer une unité de chaque faction ennemie.
+  Vous devriez au moins attaquer une unité de chaque faction ennemie.
 - Notez également que le camouflage des factions ne permet pas toujours de savoir qui appartient vraiment à quelle faction.
   Une autre stratégie pourrait consister à n'attaquer qu'une seule unité ennemie à la fois, en espérant que les statuts `HELP` de l'adversaire créent une certaine confusion.
   Nous ne jugerons pas ici si cette approche est honorable.
@@ -169,7 +169,7 @@ Sans le bonus aléatoire, chaque personne du camp A aurait 20 % de chances d'att
 Si la personne du camp A obtient un 0 en bonus, il faut qu'au moins une personne du camp B obtienne un 2.  
 Sinon, le camp A a le tour du tacticien.  
 Supposons que le meilleur résultat obtenu au jet par le camp B soit un 5 (c'est peu probable, mais tout à fait possible).  
-La différence pour le camp B est donc de (3 + 5) - (5 + 0) = 3.  
+La différence pour le camp B est donc de (3 +5) - (5 +0) = 3.  
 Chaque personne du camp B a alors 30 % de chances de frapper au tour 0.  
 Pour un groupe de 10, cela peut aller de 0 à 10 personnes, mais la moyenne est d'environ 3 attaques.  
 
@@ -193,30 +193,73 @@ Dans chaque bataille, les armées s'affrontent personne par personne, quel que s
 - Si l'attaquant est un combattant à distance, la valeur de parade de son adversaire ainsi modifiée est divisée par deux.
 - Les probabilités de base de toucher (BT) d'un attaquant sont de 30 %.
 - Soustraire les valeurs les unes des autres : Pour chaque point de différence entre l'attaque de l'attaquant et la parade du défenseur, le BT est maintenant augmenté ou diminué de 5 %.
-  La probabilité réelle de toucher se calcule donc comme suit : (Attaque(attaquant)-Parade(défenseur)) x 5 % + 30 %.
+  La probabilité réelle de toucher se calcule donc comme suit : (Attaque(attaquant)-Parade(défenseur)) x 5 % +30 %.
 - Chance du débutant : si l'attaque échoue, l'attaquant a en plus 10 % de chances de transformer son attaque : Il peut frapper une deuxième fois, avec une chance de toucher augmentée de 90 à 99 % (hasard).
   Les combattants fortement désavantagés ont ainsi la possibilité d'obtenir au moins quelques coups aléatoires.
 
 Chaque personne attaque une fois par tour de combat (sauf les [Héros][heros] et certains monstres).
 
 Lorsqu'un combattant réussit à toucher son adversaire, il lui inflige des dégâts.  
-Les différentes armes infligent des dégâts différents (points de dégâts, voir [Caractéristiques des armes][armes-tableau-de-synthese]).  
+Les différentes armes infligent des dégâts différents (points de dégâts, voir [Caractéristiques des armes][tableau-armes-fr-id]).  
 Par ailleurs, il vaut la peine d'avoir des niveaux de compétences élevés en maîtrise des armes : si l'on a plus de niveaux de compétence que l'adversaire, les dégâts infligés lors d'un coup augmentent d'un point par différence de deux niveaux de compétence.  
 Seuls les niveaux de compétences sont pris en compte, les bonus apportés par les chevaux, les châteaux, etc. ne comptent pas.  
 Cela vaut aussi bien pour le combat à distance que pour le combat rapproché.  
 En outre, il y a une certaine chance, dépendant de la différence de niveau, de recevoir un coup critique qui peut causer jusqu'à cinq fois plus de dégâts.
 
-Si une personne a subi plus de points de dégâts qu'elle ne peut "en encaisser", elle meurt (voir [Modificateurs de compétences][peuples-et-leurs-caracteristiques] les différents coups portés pendant le combat s'additionnent).
+Si une personne a subi plus de points de dégâts qu'elle ne peut "en encaisser", elle meurt (voir [Modificateurs de compétences][peuples-et-leurs-caracteristiques-pour-le-combat] les différents coups portés pendant le combat s'additionnent).
 
 Lorsqu'un combattant porte une armure, celle-ci peut absorber une partie (voire la totalité) des points de dégâts.  
-Cependant, l'armure rend le combattant moins mobile et augmente ses chances d'être touché (voir [le tableau des armures][armures-synthese]).  
+Cependant, l'armure rend le combattant moins mobile et **augmente** la chance d'être touché, tandis qu'un bouclier la **réduit** (voir [le tableau des armures][tableau-armures-et-boucliers-fr-id]).  
 Contre les arbalètes, une armure n'est qu'à moitié efficace (arrondi à l'inférieur).
+
+On ne peut utiliser qu'une seule armure (et un seul bouclier) à la fois ; plusieurs armures ne se cumulent pas.  
+Les variations sont **relatives et multiplicatives** : `+15 %` signifie `× 1,15` (`−15 %` signifie `× 0,85`). Elles ne s'additionnent pas.  
+Une valeur positive signifie que le porteur est touché **plus** souvent ; une valeur négative, **moins** souvent.
+
+<!-- cspell:disable -->
+:   $$
+    P_{\text{finale}} = P_{\text{base}} \times \left(1 + \frac{v_{\text{armure}}}{100}\right) \times \left(1 + \frac{v_{\text{bouclier}}}{100}\right)
+    $$
+<!-- cspell:enable -->
+
+où `v` est la valeur lue dans le tableau (`+15` ou `−15`).
+
+**Exemple :** une chance de base de 60 % passe à `60 % × 1,15 = 69 %` avec une cotte de mailles, à `60 % × 0,85 = 51 %` avec un bouclier, et à `60 % × 1,15 × 0,85 = 58,65 %`, arrondi à `58 %`, avec les deux. Le résultat final est toujours arrondi à l'inférieur.
 
 Certaines créatures ou armes peuvent également infliger des dégâts magiques.  
 Une armure normale est inefficace contre les dégâts magiques.  
-Seule compte la [résistance à la magie][war-table-resistance-a-la-magie-id], qui peut être augmentée par certains équipements et sorts.  
+Seule compte la [résistance à la magie][war-table-resistance-a-la-magie-id], qui peut être augmentée par certains équipements et sorts (voir plus bas).
 
-La compétence d'[endurance][skill-endurance-fr-id]{title="Endurance"} permet d'endurcir son corps et de supporter plus de points de dégats avant de mourir (voir [ce tableau][table-endurance-fr-id]).
+La compétence d'[endurance][skill-endurance-fr-id]{title="Endurance"} permet d'endurcir son corps et de supporter plus de points de dégats avant de mourir (voir [ce tableau][table-endurance-fr-id]). Le bonus de PV est :
+
+<!-- cspell:disable -->
+:   $$
+    \text{bonus PV (en \%)} = \left(\frac{\text{niveau}}{2}\right)^{1.5} \times 0.20
+    $$
+<!-- cspell:enable -->
+
+??? tip "Calcul du bonus selon l'endurance"
+    <div class="md-typeset" style="margin-top: 1em;">
+        <label for="war-tables-compute-endurance-input" class="md-input-label">Niveau :</label>
+        <input id="war-tables-compute-endurance-input" type="number" class="md-input" placeholder="niveau d'endurance">
+        <button id="war-tables-compute-endurance-btn" class="md-button md-button--primary" style="margin-top: 0.5em;">Calculer</button>
+        <p style="margin-top: 1em;">Bonus : <strong id="war-tables-compute-endurance-result">---</strong></p>
+    </div>
+
+[](){ #war-table-resistance-a-la-magie-id }
+
+### Résistance à la magie
+
+La résistance à la magie est un attribut spécial dépendant du peuple, de l'équipement et de certains sorts.  
+Elle indique le pourcentage de dégâts magiques réduits par les sorts de combat.  
+
+!!! note
+    Toutes les **armes en mallorn** augmentent la résistance magique de **15 %**.  
+    Toutes les **armes et armures en laen** augmentent la résistance magique de **30 %**.
+
+La combinaison de la résistance magique naturelle, de l'arme, de l'armure et du bouclier ne s'additionne pas simplement, mais se multiplie comme les variations de la chance d'être touché.  
+
+Un elfe avec une épée en laen et une armure complète en laen (bouclier et cotte de mailles) n'a donc **pas** 10 +30 +30 +30 = 100 % de résistance, mais `90 % × 70 % × 70 % × 70 % = 31 %`, soit **69 %** de résistance magique.
 
 ### Combat à distance
 
@@ -247,10 +290,10 @@ Une unité de munitions correspond à une salve (6 cibles).
 *Armes de tir à distance - bonus et temps de rechargement.*
 
 | Arme                               | Compétence         | Bonus d'attaque | Rechargement |
-|------------------------------------|--------------------|:---------------:|:------------:|
-| Arc / Arc en mallorn / Arc elfique | Tir à l'arc        |       -2        |      0       |
-| Catapulte                          | Tir à la catapulte |       -4        |      5       |
-| Arbalète / Arbalète en mallorn     | Tir à l'arbalète   |        0        |      2       |
+| ---------------------------------- | ------------------ | --------------: | -----------: |
+| Arc / Arc en mallorn / Arc elfique | Tir à l'arc        |              -2 |            0 |
+| Catapulte                          | Tir à la catapulte |              -4 |            5 |
+| Arbalète / Arbalète en mallorn     | Tir à l'arbalète   |               0 |            2 |
 
 Le « Rechargement » indique le temps nécessaire pour que l'arme soit à nouveau prête à tirer.  
 Une catapulte ne peut donc être utilisée qu'une fois par combat.  
@@ -274,7 +317,7 @@ Voir aussi : [tables de combat][bonus-et-malus].
     Les combattants à distance qui entrent en combat au corps à corps et ne peuvent accéder à une arme de corps à corps (et à la compétence correspondante) se défendent avec un score de -2.  
     Ils peuvent toujours attaquer avec leur arme à distance.  
     Les gobelins se défendent avec +/-0.  
-    La compétence avec laquelle les orcs engagent le combat au corps à corps est déterminée par le niveau de leur meilleure compétence de corps à corps - 3.  
+    La compétence avec laquelle les orcs engagent le combat au corps à corps est déterminée par le niveau de leur meilleure compétence de corps à corps -3.  
     Certains peuples (généralement les familiers) peuvent apprendre le combat au corps à corps et ne subissent alors aucune pénalité lorsqu'ils combattent au corps à corps.  
 
 #### Bonus de château
@@ -303,7 +346,7 @@ Voir aussi : [tables de combat][bonus-et-malus].
 
 #### Modificateurs d'armes
 
-:   Les [Modificateurs d'armes][armes-tableau-de-synthese] sont également considérés comme des bonus et des malus.  
+:   Les [Modificateurs d'armes][tableau-armes-fr-id] sont également considérés comme des bonus et des malus.  
     Une unité de hallebardiers a donc (en plus de tout autre bonus ou malus éventuel) un bonus de +2 à sa parade.  
     Si elle n'est pas montée et qu'elle se bat contre un cavalier, sa valeur de parade est alors augmentée de +1.  
 
@@ -341,7 +384,7 @@ L'attaquant a une chance de toucher de 35 %.
 Un archer T9 attaque depuis la 2ème ligne contre un cavalier avec lance avec équitation T3 et combat à l'arme d'hast T9.  
 Il attaque avec 7 (malus de -2 à l'arc) contre une parade de 5 (compétence divisée par deux et arrondie à l'inférieur : compétence 9, +2 bonus cheval -> (9+2) /2 = 5).  
 
-L'attaquant a une chance de toucher de (7 -5) * 5 % + 30 % = 40 %  
+L'attaquant a une chance de toucher de (7 -5) * 5 % +30 % = 40 %  
 
 **Exemple 5 :**
 
@@ -353,18 +396,18 @@ L'attaquant a une chance de toucher de 100 %, il frappera donc toujours. Aïe...
 Elle pare avec toute sa valeur de parade (compétence arme + bonus cheval = 11), car ils sont en contact direct, contre une arme à distance (malus de 2 à cause de l'arc).
 
 Le tireur attaque efficacement avec un 7 contre le cavalier avec un 11.  
-La chance de succès de toucher qui en résulte est (7 -11) * 5 % + 30 % = 10 %.
+La chance de succès de toucher qui en résulte est (7 -11) * 5 % +30 % = 10 %.
 
 **Exemple 6 :**
 
 Un combattant à la lance avec des armes d'hast 3 dans un château attaque un cavalier avec une monture 2 et des armes d'hast 3.  
 Il attaque à 3 (compétence 3, pas de bonus de pique en attaque, pas de bonus de château non plus) contre 5 (compétence 3, +2 bonus de cheval, pas de bonus de lance en parant).  
 
-L'attaquant a une chance de toucher de (3 -5) * 5 % + 30 % = 20 %.  
+L'attaquant a une chance de toucher de (3 -5) * 5 % +30 % = 20 %.  
 
 Elle parera à 4 (compétence 3, pas de bonus de château car elle a attaqué, +1 bonus de pique) contre 6 (+2 bonus de cheval et +1 bonus de lance).  
 
-Le cavalier a une chance de toucher de (6 -4) x 5 % + 30 % = 40 %.
+Le cavalier a une chance de toucher de (6 -4) x 5 % +30 % = 40 %.
 
 **Exemple 7 :**
 
@@ -478,7 +521,7 @@ Les unités mortes-vivantes ne se régénèrent pas.
 
 Si la région où les combats ont eu lieu était [gardée][alliances-fr-id] **au début du combat** par une unité amie ou une unité ayant activé l'ordre [`HELP GUARD`][cmd-help-fr] pour les forces amies, toutes les unités participant au combat (celles figurant dans le rapport de bataille) peuvent exécuter des ordres longs.  
 Ceci est valable même si des troupes ennemies gardent également la région.  
-Cela fonctionne aussi si tu as attaqué toi-même (c'est-à-dire si tu as donné toi-même l'ordre `ATTACK`).
+Cela fonctionne aussi si vous avez attaqué vous-même (si vous avez donné l'ordre `ATTACK`).
 
 Si aucune unité amie ou alliée ne gardait la région au début du combat, les unités participantes ne pourront plus exécuter d'ordres longs après le combat.
 

@@ -6,7 +6,7 @@ alias: ruestungen-und-schilde
 # Rüstungen und Schilde
 
 Auf dieser Seite sind die Eigenschaften einzelner Rüstungen und Schilde aufgeführt.  
-Die Berechnungsregeln stehen unter [Krieg][krieg], die aggregierten Werte in der [Übersichtstabelle][rustung].
+Die Berechnungsregeln stehen unter [Krieg][krieg], die aggregierten Werte in der [Übersichtstabelle][tabelle-rustung-und-schield-id].
 
 ## Rüstungen
 

@@ -99,8 +99,8 @@ Une unité peut gagner de l'argent en travaillant dans l'agriculture (voir l'ord
 Cependant, plus les forêts sont denses dans une région, moins il y a de surface cultivable, et moins les paysans (et aussi les unités de joueurs) peuvent travailler : par arbre, huit paysans ou joueurs ne peuvent plus travailler et chaque pousse d'arbre occupe 4 emplois.  
 Le nombre maximal de personnes pouvant travailler (et non pas habiter) dans une région dépend également du type terrain (voir le tableau de la commande [`WORK`][cmd-work-fr]).  
 
-Un paysan gagne normalement 11 Silver par tour.  
-Ce salaire peut augmenter jusqu'à 16 Silver par paysan et par tour grâce au bonus d'une citadelle (voir aussi [ce tableau][apercu]).  
+Un paysan gagne normalement 11 silvers par tour.  
+Ce salaire peut augmenter jusqu'à 16 silvers par paysan et par tour grâce au bonus d'une citadelle (voir aussi [ce tableau][chateaux-tableau-synthese-fr-id]).  
 Par exemple, si une citadelle est construite dans une plaine et que la forêt est coupée, 10000 paysans peuvent se nourrir en un tour et 60000 Silver supplémentaires sont ajoutés aux réserves de la région.  
 
 Les unités des joueurs travaillant gagnent cependant moins - après tout, ce ne sont que des ouvriers auxiliaires.  
@@ -162,15 +162,19 @@ Plus d'information : [le camouflage et le vol][discretion-id].
 
 ## Le commerce
 
-Dans chaque région, les paysans fabriquent un produit de luxe.  
-Ce produit peut leur être acheté.  
-Dans toutes les régions qui ne produisent pas ce bien, il existe une demande toujours croissante pour ces produits.  
+Dans Eressea, le commerce repose sur l'achat de biens de luxe là où ils sont abondants et leur revente là où ils sont recherchés.
+
+Dans chaque région, les paysans produisent un bien de luxe donné, en quantité variable, qui peut leur être acheté par un marchand.  
+Pour tout bien de luxe non produit dans une région, il existe une demande toujours croissante.  
+
 Ceux qui n'ont pas peur des risques liés aux voyages peuvent gagner beaucoup d'argent grâce au commerce.  
 
-Pour faire du commerce, il faut être compétent en [commerce][commerce]{title="Trade"}.  
-Une personne (ou une unité) peut acheter et/ou vendre au maximum 10 produits de luxe par niveau de compétence, voir [`BUY`][cmd-buy-fr] et [`SELL`][cmd-sell-fr].  
+Seule une unité ayant acquis la compétence de [commerce][commerce]{title="Trade"} (marchand) peut faire du commerce.  
+
+Un marchand peut [acheter][cmd-buy-fr]{title="BUY"} (ordre `BUY`) et/ou [vendre][cmd-sell-fr]{title="SELL"} (ordre `SELL`) au maximum 10 biens de luxe par niveau de compétence.  
 Les quantités respectives de biens échangés sont totalement arbitraires.  
-Par exemple, une unité composée d'une personne avec une compétence de niveau 4 en commerce peut acheter 20 [gemmes][gemme]{title="Gem"} et vendre 12 Soies et 8 Baumes par tour.  
+
+Ainsi, une unité composée d'un marchand T4 peut acheter 20 [gemmes][gemme]{title="Gem"}, et vendre 12 [soies][soie]{title="Silk"} et 8 [baumes][baume]{title="Balm"} par tour.  
 
 De plus, il est nécessaire pour faire du commerce qu'il y ait dans la région un château au moins la taille d'un tradepost (comptoir commercial), dans lequel se déroule en quelque sorte le marché.  
 La faction propriétaire du château n'a pas d'importance pour le commerce - les propriétaires du château ne peuvent pas (selon les règles) empêcher le commerce dans la région.  
@@ -227,7 +231,7 @@ Exemple :
   Si les 100 encens ont été achetés par des unités de deux factions différentes, les deux paieront (aux effets d'arrondi près) 4,8 Silver par produit de luxe.
 
 L'argent dépensé par les commerçants pour acheter le bien de luxe disponible dans la région bénéficie aux vendeurs.  
-Malgré cela, la région ne perd pas d'argent car les agriculteurs possèdent des biens de luxe avec lesquels ils peuvent payer les impôts.  
+Malgré cela, la région ne perd pas d'argent car les paysans possèdent des biens de luxe avec lesquels ils peuvent payer les impôts.  
 L'argent n'est pas créé à partir de rien - c'est la valeur des biens qui ont été produits dans une autre région.  
 En revanche, l'argent qui a été dépensé avec l'ordre [`BUY`][cmd-buy-fr] s'ajoute à la réserve de la région.  
 Des gouvernants avisés peuvent le leur reprendre en les divertissant et en les taxant.  
@@ -288,7 +292,7 @@ En revanche, si l'on revient d'une île étrangère avec une cargaison de marcha
 ## Concurrence entre différentes factions
 
 Lorsque plusieurs factions travaillent, divertissent, collectent des impôts ou font du commerce dans une région, les gains potentiels sont répartis le plus équitablement possible entre les unités.  
-Il est préférable de bien s'entendre avec tes colocataires s'ils sont amicaux.
+Il est préférable de bien s'entendre avec vos colocataires s'ils sont amicaux.
 
 Si la région est gardée par une faction étrangère, aucune de nos propres unités ne peut collecter d'impôts ni recruter.  
 Le travail, le divertissement et le commerce sont toutefois possibles, à moins que l'unité ne se trouve sur un bateau.

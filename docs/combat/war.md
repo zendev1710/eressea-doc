@@ -138,13 +138,13 @@ This distribution is checked before each combat round.
 ## To arms
 
 Now, the units arm themselves.  
-Each person in a unit equips themselves with a melee weapon, a ranged weapon and armor, according to their skills.  
+Each person in a unit equips themselves with a melee weapon, a ranged weapon and armour, according to their skills.  
 They choose the weapons that give them the highest Attack and Parry scores.  
 Mages who have chosen a combat spell use it to attack.  
 However, for defense, they will need a weapon (and an appropriate combat skill), otherwise they will be considered [unarmed][bonuses-and-mali].
 
 !!! warning "Beware"
-    Unused weapons or armor are not automatically redistributed to unarmed or unequipped units.
+    Unused weapons or armour are not automatically redistributed to unarmed or unequipped units.
 
 During combat, you no longer change weapons, unless it is possible to take a better weapon from someone in the same unit who has already died (the surviving combatants each use the best weapon sets available).
 
@@ -214,15 +214,58 @@ In addition, there is a certain chance, depending on the level difference, of re
 
 If a person has received more damage than he can "take", he dies (see [races-and-their-characteristics] the different hits taken during the fight are added together).
 
-When a fighter wears armor, it can absorb some (or all) of the damage points.  
-However, armor makes the fighter less mobile and increases his chances of being hit (see [this armors table][armors-summary]).  
-Against crossbows, armor is only half effective (rounded down).
+When a fighter wears armour, it can absorb some (or all) of the damage points.  
+However, armour makes the fighter less mobile and **increases** the chance of being hit, while a shield **reduces** it (see [this armour table][armour-summary-table]).  
+Against crossbows, armour is only half effective (rounded down).
+
+Only one suit of armour (and one shield) can be used at a time; several suits do not stack.  
+The values in that table are **relative and multiplicative**: `+15%` means `×1.15` (`−15%` means `×0.85`). They are not added together.  
+A positive value means the wearer is hit **more** often; a negative value means **less** often.
+
+<!-- cspell:disable -->
+:   $$
+    P_{\text{final}} = P_{\text{base}} \times \left(1 + \frac{v_{\text{armour}}}{100}\right) \times \left(1 + \frac{v_{\text{shield}}}{100}\right)
+    $$
+<!-- cspell:enable -->
+
+where `v` is the value from the table (`+15` or `−15`).
+
+**Example:** a base chance of 60% becomes `60% × 1.15 = 69%` with chainmail, `60% × 0.85 = 51%` with a shield, and `60% × 1.15 × 0.85 = 58.65%`, rounded down to `58%`, with both. The final result is always rounded down.
 
 Some creatures or weapons are also able to cause magical damage.  
-Normal armor is ineffective against magical damage.  
-Only the [Magic Resistance][war-tables-magic-resistance-id] counts, which can be increased by specific items and spells.
+Normal armour is ineffective against magical damage.  
+Only [magic resistance][war-tables-magic-resistance-id] counts, which can be increased by specific items and spells (see below).
 
-[Endurance][skill-endurance-id] skill allows you to harden your body and take more damage before dying (see [this table][table-endurance-id]).
+[Endurance][skill-endurance-id] hardens the body and lets a fighter take more damage before dying (see [this table][table-endurance-id]). The HP bonus is:
+
+<!-- cspell:disable -->
+:   $$
+    \text{HP bonus (in \%)} = \left(\frac{\text{level}}{2}\right)^{1.5} \times 0.20
+    $$
+<!-- cspell:enable -->
+
+??? tip "Bonus calculation based on endurance"
+    <div class="md-typeset" style="margin-top: 1em;">
+        <label for="war-tables-compute-endurance-input" class="md-input-label">Level:</label>
+        <input id="war-tables-compute-endurance-input" type="number" class="md-input" placeholder="niveau d'endurance">
+        <button id="war-tables-compute-endurance-btn" class="md-button md-button--primary" style="margin-top: 0.5em;">Compute</button>
+        <p style="margin-top: 1em;">Bonus: <strong id="war-tables-compute-endurance-result">---</strong></p>
+    </div>
+
+[](){ #war-tables-magic-resistance-id }
+
+### Magic resistance
+
+Magic resistance is a special attribute that can be influenced by race and equipment, as well as by certain spells.  
+It indicates what percentage of magical damage is reduced by combat spells.  
+
+!!! note
+    All **Mallorn weapons** increase magic resistance by **15%**.  
+    All **Laen weapons and armour** increase magic resistance by **30%**.
+
+The combination of natural magic resistance, weapon, armour, and shield is not simply added together, but multiplied like the changes in the chance to be hit.  
+
+An elf with a laen sword and full laen armour (shield + chainmail) therefore does **not** have 10 + 30 + 30 + 30 = 100% resistance but `90% × 70% × 70% × 70% = 31%`, i.e. **69%** magic resistance.
 
 ### Ranged combat
 
@@ -232,7 +275,7 @@ There, they will be protected from your opponent's hand-to-hand combatants by yo
 Ranged fighters can also fire into the opposing second row.  
 They choose a target at random from among all the enemies in the first or second row.
 
-Crossbows can also pierce armor: against a crossbow shot, the armor is only half effective (rounded down).
+Crossbows can also pierce armour: against a crossbow shot, the armour is only half effective (rounded down).
 
 The table below shows the differences between ranged weapons.  
 Bows are very difficult to use (offensive bonus -2), but can be used in every round of combat.  
@@ -253,10 +296,10 @@ One unit of ammunition corresponds to one volley.
 *Ranged weapons - bonuses and time.*
 
 | Weapon                        | Skill    | Offensive bonus | Reloading |
-|-------------------------------|----------|----------------:|-----------|
-| crossbow / mallorn crossbow   | crossbow |               0 | 2         |
-| catapult                      | catapult |              -4 | 5         |
-| bow / mallorn bow / elven bow | bow      |              -2 | 0         |
+| ----------------------------- | -------- | --------------: | --------: |
+| crossbow / mallorn crossbow   | crossbow |               0 |         2 |
+| catapult                      | catapult |              -4 |         5 |
+| bow / mallorn bow / elven bow | bow      |              -2 |         0 |
 
 The time it takes to get the weapon ready to fire again is indicated under reloading.  
 A catapult can therefore only be used once in each battle.  
@@ -376,7 +419,7 @@ People who have set [`COMBAT FLEE`][cmd-combat] and are [attacked][cmd-attack] t
 They do this before each round of combat, so they may have to take (more) hits before they can escape.  
 
 Persons with [`COMBAT`][cmd-combat] or [`COMBAT REAR`][cmd-combat] with only 20% of their hit points left, and persons with [`COMBAT DEFENSIVE`][cmd-combat] or [`COMBAT NOT`][cmd-combat] with just 90% of their hit points left also attempt to flee, but only if they have taken a hit in combat.  
-Hits whose damage points have been completely absorbed by the armor and failed hit attempts also count.  
+Hits whose damage points have been completely absorbed by the armour and failed hit attempts also count.  
 This is to prevent units that were already damaged before the battle from fleeing even though they were not actually in danger.
 
 The basic chance of escape is 25% (50% for halflings), plus 10% if you have a horse and 5% per level in stealth skill; the maximum value is 75% (or 90% for halflings).

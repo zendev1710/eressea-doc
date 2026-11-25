@@ -31,7 +31,7 @@
       
       
       <link rel="icon" href="../../../assets/images/favicon.ico">
-      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.7.0">
+      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.7.1">
     
     
       
@@ -39,7 +39,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.618322db.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
       
         
         <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
@@ -414,7 +414,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../combat/alliances/" class="md-tabs__link">
+        <a href="../../../combat/war/" class="md-tabs__link">
           
   
   
@@ -1975,6 +1975,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -2027,14 +2031,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../combat/alliances/" class="md-nav__link">
+      <a href="../../../combat/war/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Alliances
+    War
   
 
     
@@ -2083,14 +2087,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../combat/war/" class="md-nav__link">
+      <a href="../../../combat/tactic/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    War
+    Tactic
   
 
     
@@ -2111,14 +2115,70 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../combat/tactic/" class="md-nav__link">
+      <a href="../../../combat/weapons/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Tactic
+    Weapons
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../combat/armour-and-shields/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Armour
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../combat/alliances/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alliances
   
 
     
@@ -6957,10 +7017,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#traveling-salesman" class="md-nav__link">
+  <a href="#travelling-salesman" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Traveling salesman
+        Travelling salesman
       
     </span>
   </a>
@@ -7799,10 +7859,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#traveling-salesman" class="md-nav__link">
+  <a href="#travelling-salesman" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Traveling salesman
+        Travelling salesman
       
     </span>
   </a>
@@ -8012,8 +8072,8 @@
 
 
 <h1 id="optimizing-transport">Optimizing transport<a class="headerlink" href="#optimizing-transport" title="Permanent link">&para;</a></h1>
-<h2 id="traveling-salesman">Traveling salesman<a class="headerlink" href="#traveling-salesman" title="Permanent link">&para;</a></h2>
-<p>Since we at Eressea don't deal with just a few units but with a lot of them, the problem of traveling salesmen is less of a problem, as transports often do not go to several regions in a circle, but rather requirements are processed in parallel with many individual transports.  </p>
+<h2 id="travelling-salesman">Travelling salesman<a class="headerlink" href="#travelling-salesman" title="Permanent link">&para;</a></h2>
+<p>Since we at Eressea don't deal with just a few units but with a lot of them, the problem of travelling salesmen is less of a problem, as transports often do not go to several regions in a circle, but rather requirements are processed in parallel with many individual transports.  </p>
 <h2 id="optimal-loading">Optimal loading<a class="headerlink" href="#optimal-loading" title="Permanent link">&para;</a></h2>
 <p>It makes sense to use the backpack problem when loading a transport with goods.<br />
 However, in Eressea you quickly fall into the trap of trying to load too many similar items.<br />
@@ -8078,12 +8138,12 @@ Whether the effort is worth it remains questionable.  </p>
 <li>Groups of items or subgroups of the upper category are necessary for full utilization in weekly production.
    However, production can also be carried out without full capacity.
    This just reduces the time in which something else can be done if necessary</li>
-<li>Groups of items or subgroups of the upper categories that are necessary for the full fulfillment of a mission, i.e. completing a ship or building, or fully equipping a unit with its equipment.
+<li>Groups of items or subgroups of the upper categories that are necessary for the full fulfilment of a mission, i.e. completing a ship or building, or fully equipping a unit with its equipment.
    It can be produced, possibly even at full capacity.
    It's just not certain that all components will arrive soon for completion.</li>
 </ol>
 <p>The last two groups can probably be grouped together in practice and most likely ignored.<br />
-For the first group, however, a fulfillment bonus is conceivable and could also be planned.  </p>
+For the first group, however, a fulfilment bonus is conceivable and could also be planned.  </p>
 <h2 id="multi-path-finding">Multi-path finding<a class="headerlink" href="#multi-path-finding" title="Permanent link">&para;</a></h2>
 <p>However, when planning transport, it can happen that a transport already has some cargo and therefore a target region.<br />
 However, there is still capacity available during transport that could be occupied by other goods.<br />
@@ -8100,7 +8160,7 @@ Value must be tested. Fortunately, the estimation function also provides good se
 <h3 id="equivalent-goals">Equivalent goals<a class="headerlink" href="#equivalent-goals" title="Permanent link">&para;</a></h3>
 <p>If several destinations are equivalent, they will of course compete for the next route from a certain point onwards.<br />
 Until then, you can easily optimize the route to the minimum of both routes, i.e. you drive to the closer region and unload the goods for the other region when you are as close as possible.  </p>
-<p>However, as more and more destinations are added, the transport actually becomes a local "traveling salesman".<br />
+<p>However, as more and more destinations are added, the transport actually becomes a local "travelling salesman".<br />
 I haven't yet taken a closer look at whether and when it's actually worth taking a short tour here.<br />
 But of course there is such a limit.  </p>
 <h3 id="transshipment-points">Transshipment points<a class="headerlink" href="#transshipment-points" title="Permanent link">&para;</a></h3>
@@ -8173,7 +8233,7 @@ f(4)=15% * Underlying value
 f(5)=8% * Underlying value
 f(sometime)=5% * Underlying value
 </code></pre></div>
-<p>These would be values ​​that I have in mind at the moment and that are either stored in a lookup table or are modeled by a function.<br />
+<p>These would be values ​​that I have in mind at the moment and that are either stored in a lookup table or are modelled by a function.<br />
 The extent of this formula essentially depends on the range of underlying assets used.<br />
 A flaming sword that is needed at some point may have a base value of 10,000, but the 10 silver that is urgently needed for maintenance in another region must still result in a higher total value.<br />
 With the above formula, the flaming sword would be worth 500 and the 10 silver would be worth 100 -too little to be delivered.<br />
@@ -8311,10 +8371,10 @@ However, in order to ensure delivery from a source that is as close as possible,
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
         <script src="../../../javascripts/katex-init.js"></script>
       
@@ -8322,9 +8382,13 @@ However, in order to ensure delivery from a source that is as close as possible,
       
         <script src="../../../assets/external/unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
       
+        <script src="../../../assets/external/unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
         <script src="../../../javascripts/formulas-try.js"></script>
       
         <script src="../../../javascripts/lore-dialogue.js"></script>
+      
+        <script src="../../../javascripts/tablesort.js"></script>
       
     
   </body>

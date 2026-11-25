@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://zendev1710.github.io/eressea-doc/magic/magic/">
       
       
-        <link rel="prev" href="../../combat/tactic/">
+        <link rel="prev" href="../../combat/alliances/">
       
       
         <link rel="next" href="../schools/">
@@ -31,7 +31,7 @@
       
       
       <link rel="icon" href="../../assets/images/favicon.ico">
-      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.7.0">
+      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.7.1">
     
     
       
@@ -39,7 +39,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
@@ -414,7 +414,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../combat/alliances/" class="md-tabs__link">
+        <a href="../../combat/war/" class="md-tabs__link">
           
   
   
@@ -1975,6 +1975,10 @@
       
         
       
+        
+      
+        
+      
     
     
     
@@ -2027,14 +2031,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../combat/alliances/" class="md-nav__link">
+      <a href="../../combat/war/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Alliances
+    War
   
 
     
@@ -2083,14 +2087,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../combat/war/" class="md-nav__link">
+      <a href="../../combat/tactic/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    War
+    Tactic
   
 
     
@@ -2111,14 +2115,70 @@
   
   
     <li class="md-nav__item">
-      <a href="../../combat/tactic/" class="md-nav__link">
+      <a href="../../combat/weapons/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Tactic
+    Weapons
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combat/armour-and-shields/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Armour
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combat/alliances/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alliances
   
 
     
@@ -8415,7 +8475,7 @@ This does not apply to other components; they are only increased by long-distanc
 </code></pre></div>
 <p>It is important that you first specify the region and then the level.</p>
 <p><strong>Example:</strong></p>
-<p>A unit in the region (1,1) casts "Blessing of the Earth" at level 3 in the neighboring region to the east as the first spell of the round (a = 1 field distance).<br />
+<p>A unit in the region (1,1) casts "Blessing of the Earth" at level 3 in the neighbouring region to the east as the first spell of the round (a = 1 field distance).<br />
 That costs 2*3 = 6 aura. The order for this spell is <code>CAST REGION 2 1 LEVEL 3 "Segen der Erde"</code>.  </p>
 <h3 id="ship-and-sea-magic">Ship and sea magic<a class="headerlink" href="#ship-and-sea-magic" title="Permanent link">&para;</a></h3>
 <p>In addition to long-distance spells, there are also two other classes of special spells.  </p>
@@ -8486,15 +8546,15 @@ A unit's magic resistance is:</p>
 <li>50% + 5%*(Highest skill value of the enchanted unit - magic skill of the casting unit)</li>
 <li>Never below 2%, never above 98%</li>
 </ul>
-<p>Instead, additional bonuses from <a class="autorefs autorefs-internal" href="../../reference/war/war-tables/#magic-resistance">Weapons or Armor</a> work against combat spells such as fireballs and weapons that are considered magical.<br />
-Otherwise, only magical protection and natural armor work against magical damage.  </p>
+<p>Instead, additional bonuses from <a class="autorefs autorefs-internal" href="../../combat/war/#magic-resistance">weapons or armour</a> work against combat spells such as fireballs and weapons that are considered magical.<br />
+Otherwise, only magical protection and natural armour work against magical damage.  </p>
 <p>Even "inanimate matter", i.e. regions, ships, buildings, etc., sometimes have magic resistance. It can also be strengthened by certain spells.  </p>
 <p><strong>Examples:</strong></p>
 <p>The base chance is 0% for humans, 10% for <a class="autorefs autorefs-internal" href="../../skills/skills-modifiers/#skills-modifiers">elves</a>, for <a class="autorefs autorefs-internal" href="../../skills/skills-modifiers/#skills-modifiers">goblins</a> it is only -5%.<br />
 A Mining 10 unit has a 50% chance to resist a spell like <a class="autorefs autorefs-internal" href="../schools/draig/#chaos-curse">Chaos Curse</a> cast by a Magic 10 unit.<br />
 If the magic skill is 12, the chance drops to 40%. If the target unit consists of goblins, the chance drops further to 35%.  </p>
 <!-- TODO : check original -->
-<p>For example, a fireball that would do 50 damage (5d10 + 15) only does 90% against an elf with <a class="autorefs autorefs-internal" href="../../reference/war/war-tables/#magic-resistance">laen sword</a>.*70% = 63% of that, so about 31 damage.</p>
+<p>For example, a fireball that would do 50 damage (5d10 + 15) only does 90% against an elf with <a class="autorefs autorefs-internal" href="../../combat/war/#magic-resistance">laen sword</a>.*70% = 63% of that, so about 31 damage.</p>
 <h2 id="mage-tower">Mage Tower<a class="headerlink" href="#mage-tower" title="Permanent link">&para;</a></h2>
 <p>A <a class="autorefs autorefs-internal" href="../../economy/buildings-others/#mage-tower">Mage Tower</a> increases aura regeneration by 75% and increases the effective level of any spell cast within them by 1, if applicable, in addition to a Ring of Power without increasing the cost.<br />
 In addition, the likelihood of a spell failure is significantly reduced.</p>
@@ -8505,7 +8565,7 @@ Which genus this creature belongs to depends primarily on the area of ​​magi
 <h2 id="the-astral-space">The Astral Space<a class="headerlink" href="#the-astral-space" title="Permanent link">&para;</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>You can also skip this section if you are reading the instructions for the first time -as it takes many weeks before a party can travel into the astral space -or if you prefer to figure out the complicated rules of the astral space yourself.</p>
+<p>You can also skip this section if you are reading the instructions for the first time -as it takes many weeks before a faction can travel into the astral space -or if you prefer to figure out the complicated rules of the astral space yourself.</p>
 </div>
 <p>Opinions on what this second plane of existence actually is vary as widely as the names given to it: some call it the <strong>world of spirits</strong>, others the <strong>Astral world</strong>, but the most well-known term is <strong>Astral plane</strong>.<br />
 Completely different laws of nature prevail in this other world.<br />
@@ -8525,14 +8585,14 @@ In the example image, all regions that can be identified from a region are outli
 <p><img alt="Astral space connection" src="../../assets/images/astral-space-connection.jpg" title="Astral space connection" /></p>
 <p>What makes the astral space particularly confusing is that these schemes are not identical to the regions that are connected to the astral region, from which one can get into the astral region and vice versa.<br />
 Instead, each point in the astral space is connected to an area in the normal world, each comprising 16 regions (yellow in the picture).<br />
-This area is shaped like a parallelogram with four regions each extending in the direction of east-west and southwest-northeast.<br />
-The "reference point" is the southwest corner of it.<br />
+This area is shaped like a parallelogram with four regions each extending in the direction of east-west and south-west-north-east.<br />
+The "reference point" is the south-west corner of it.<br />
 All regions in such an area lead to the same point when entering the astral world.<br />
 This connection is a prerequisite for most spells involving the astral space.<br />
 But it can also be disturbed, for example by blessed stonecircles that have recently been visited by a mage.<br />
 Depending on the spell used, additional restrictions may apply.  </p>
 <p>That's why caution is advised -because on the one hand you can see the schemes of real regions that are not connected to this point in the astral space, but on the other hand not all regions of the real world to which there is such a connection appear as schemes.<br />
-Only when travelers find their way around despite these differences will they realize that they can progress many times faster in the astral world.<br />
+Only when travellers find their way around despite these differences will they realize that they can progress many times faster in the astral world.<br />
 Because every step in the spirit world corresponds to 4 steps in the real world.  </p>
 <p>Only through magic can reality be changed in such a way that living beings enter the world of spirit beings.<br />
 Furthermore, you cannot take stones, horses, chariots or catapults into the world of spirits.<br />
@@ -8585,7 +8645,7 @@ That's why there is now a <a href="../spells/list/">List of spells</a> and <a hr
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../../combat/tactic/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Tactic">
+          <a href="../../combat/alliances/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Alliances">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -8595,7 +8655,7 @@ That's why there is now a <a href="../spells/list/">List of spells</a> and <a hr
                 Previous
               </span>
               <div class="md-ellipsis">
-                Tactic
+                Alliances
               </div>
             </div>
           </a>
@@ -8665,10 +8725,10 @@ That's why there is now a <a href="../spells/list/">List of spells</a> and <a hr
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
         <script src="../../javascripts/katex-init.js"></script>
       
@@ -8676,9 +8736,13 @@ That's why there is now a <a href="../spells/list/">List of spells</a> and <a hr
       
         <script src="../../assets/external/unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
       
+        <script src="../../assets/external/unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
         <script src="../../javascripts/formulas-try.js"></script>
       
         <script src="../../javascripts/lore-dialogue.js"></script>
+      
+        <script src="../../javascripts/tablesort.js"></script>
       
     
   </body>

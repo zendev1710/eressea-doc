@@ -28,8 +28,9 @@ tasks:
         npm install -g \
           markdownlint-cli2 \
           markdown-link-check \
-          cspell \
-          @cspell/dict-fr-fr
+          cspell
+      # Dictionaries imported by cspell.yml are resolved from ./node_modules
+      - npm install
 
   run:
     desc: Serve documentation
@@ -56,7 +57,7 @@ tasks:
   lint:md:
     desc: Lint all the markdown files with markdownlint
     cmds:
-      - markdownlint-cli2 "docs/*.md"
+      - markdownlint-cli2 "docs/**/*.md"
 
   lint:link:
     desc: Lint all the markdown links with markdown-link-check
@@ -66,22 +67,22 @@ tasks:
   lint:spell:
     desc: Spell check all the markdown files with cspell
     cmds:
-      - cspell lint docs -c cspell.yml
+      - cspell lint "docs/**/*.md" -c cspell.yml
 
   lint:spell-fr:
     desc: Spell check all the french markdown files with cspell
     cmds:
-      - cspell lint docs/*.fr.md -c cspell.yml
+      - cspell lint "docs/**/*.fr.md" -c cspell.yml
 
   lint:spell-de:
     desc: Spell check all the german markdown files with cspell
     cmds:
-      - cspell lint docs/*.de.md -c cspell.yml
+      - cspell lint "docs/**/*.de.md" -c cspell.yml
 
   lint:spell-en:
     desc: Spell check all the english markdown files with cspell
     cmds:
-      - cspell lint "docs/*.md" -c cspell.yml -e *.fr.md -e *.de.md
+      - cspell lint "docs/**/*.md" -c cspell.yml -e "docs/**/*.fr.md" -e "docs/**/*.de.md"
 
   # into a git bash or WSL shell
   lint:md-on-changes:

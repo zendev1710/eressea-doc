@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: auto-event-response
 ---
 # Automated event response

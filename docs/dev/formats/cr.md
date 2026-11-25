@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: cr-format
 ---
 # CR Format
@@ -122,7 +122,7 @@ Again, watch out for spaces around the semicolon or at the end of the line.
 
 ## See also
 
-- [CR-Format Details] (german web site), collected and prepared by *The White Wolf* (tww)
+- [CR-Format Details] (German web site), collected and prepared by *The White Wolf* (tww)
 
 <!-- From [https://wiki.eressea.de/index.php?title=CR\_Format&oldid=5847] -->
 

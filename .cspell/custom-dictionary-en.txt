@@ -1,5 +1,8 @@
 #!command
 #!commands
+!armor
+!defense
+!Defense
 !herbology
 !Herbology
 !magician
@@ -13,10 +16,14 @@
 
 #!talents
 #!Talents
+Analyze
 anonymization
 antimagic
 Antimagic
 aquarian
+aquarians
+Aquarians
+armour
 armoursmithing
 Barkskin
 berserkers
@@ -24,6 +31,8 @@ bloodlust
 braineaters
 Braineaters
 bubblemorel
+bugleweed
+Bugleweed
 busybeer
 Busybeer
 cartmaking
@@ -34,7 +43,9 @@ chainmails
 COMBATSPELL
 Countersong
 counterspells
+Defence
 Dragonblood
+Dragonhead
 dragonship
 Dragonslayers
 Dreamcat
@@ -61,6 +72,7 @@ knotroot
 longsword
 Mallornseeds
 MALLORNSEEDS
+morphic
 neighbouring
 Orks
 Otherlands
@@ -69,12 +81,14 @@ platemail
 Platemail
 polearm
 polearms
+reeker
 Regionsreihenfolge
 Shadowdemons
 Shadowmasters
 Shapeshift
 shipcraft
 Shipcraft
+Shockwave
 silverbag
 silverchest
 snowbane

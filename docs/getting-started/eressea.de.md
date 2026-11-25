@@ -1,3 +1,5 @@
+<!-- cSpell:locale de -->
+
 # Eressea
 
 Eressea ist ein rundenbasiertes Strategiespiel, das per E-Mail gespielt wird und in einer fiktiven Fantasy-Welt stattfindet.

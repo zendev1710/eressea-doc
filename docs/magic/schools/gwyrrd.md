@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: gwyrrd-spells
 ---
 
@@ -130,7 +130,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 
 :   By performing these rituals, the mage is able to summon a powerful earth elemental.  
     As long as this is banished into the ground, no rain will soften the paths and no river will be able to destroy bridges.  
-    This means that all travelers receive the same advantages that would otherwise only be offered by a developed paved road network.  
+    This means that all travellers receive the same advantages that would otherwise only be offered by a developed paved road network.  
     Even swamps and glaciers can be enchanted this way.  
     The more power the mage puts into the spell, the longer the road lasts.
 
@@ -154,7 +154,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 ### Summon Water Elemental
 
 :   With this ritual, the mage forces the elemental spirits of the water into his service and gets them to carry the specified ship through the water more quickly.  
-    In addition, the ship is not affected by unfavorable winds or currents.
+    In addition, the ship is not affected by unfavourable winds or currents.
 
 | Components | Lvl |  Type  | Rank |             Ship             | Dist. |
 |:----------:|:---:|:------:|:----:|:----------------------------:|:-----:|
@@ -377,7 +377,7 @@ This earthquake will damage all buildings in the region.
 
 ### Awakening of the [Ents][ents-id]
 
-:   With the help of this spell, the druid awakens the Ents slumbering in the forests of the region from their eons-long sleep.  
+:   With the help of this spell, the druid awakens the Ents slumbering in the forests of the region from their aeons-long sleep.  
     The wild tree creatures will join him and assist him, but after a while they will fall back into slumber.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |

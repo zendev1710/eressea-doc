@@ -72,7 +72,7 @@ Avec le niveau de compétence 2, les bâtisseurs vont, en l'espace de 2 tours su
 Château de taille 1.  
 Il faut être maçon T1 pour débuter la construction d'une fondation.  
 
-Une fondation ne procure aucun avantage réel. Il est conseillé d'augmenter la taille du chateau dès que possible.  
+Une fondation ne procure aucun avantage réel. Il est conseillé d'augmenter la taille du château dès que possible.  
 
 ## Comptoir commercial
 
@@ -81,7 +81,7 @@ Une fondation ne procure aucun avantage réel. Il est conseillé d'augmenter la 
 <!-- cspell:enable -->
 
 Château de taille 2 à 9.  
-Il faut être maçon T1 pour batir un poste de commerce.  
+Il faut être maçon T1 pour bâtir un poste de commerce.  
 
 Les [marchands][skill-commerce-id] peuvent pratiquer le [négoce][commerce-des-biens-de-luxe-id] dans la région.  
 Les marchands bénéficient d'une part de commerce de 6 %.  
@@ -93,7 +93,7 @@ Les marchands bénéficient d'une part de commerce de 6 %.
 <!-- cspell:enable -->
 
 Château de taille 10 à 49.  
-Il faut être maçon T2 pour batir une fortification.  
+Il faut être maçon T2 pour bâtir une fortification.  
 
 Les unités occupant la fortification bénéficient d'un bonus de défense de +1.  
 Le salaire de base des unités et paysans de la région est augmenté d'1 silver.  
@@ -106,7 +106,7 @@ Les marchands bénéficient d'une part de commerce de 12 %.
 <!-- cspell:enable -->
 
 Château de taille 50 à 249.  
-Il faut être maçon T3 pour batir une tour.  
+Il faut être maçon T3 pour bâtir une tour.  
 
 Les unités occupant la tour bénéficient d'un bonus de défense de +2.  
 Le salaire de base des unités et paysans de la région est augmenté de 2 silvers.  
@@ -119,7 +119,7 @@ Les marchands bénéficient d'une part de commerce de 18 %.
 <!-- cspell:enable -->
 
 Château de taille 250 à 1249.  
-Il faut être maçon T4 pour batir un bastion.  
+Il faut être maçon T4 pour bâtir un bastion.  
 
 Les unités occupant le bastion bénéficient d'un bonus de défense de +3.  
 Le salaire de base des unités et paysans de la région est augmenté de 3 silvers.  
@@ -132,7 +132,7 @@ Les marchands bénéficient d'une part de commerce de 24 %.
 <!-- cspell:enable -->
 
 Château de taille 1250 à 6249.  
-Il faut être maçon T5 pour batir une forteresse.  
+Il faut être maçon T5 pour bâtir une forteresse.  
 
 Les unités occupant la forteresse bénéficient d'un bonus de défense de +4.  
 Le salaire de base des unités et paysans de la région est augmenté de 4 silvers.  
@@ -145,7 +145,7 @@ Les marchands bénéficient d'une part de commerce de 30 %.
 <!-- cspell:enable -->
 
 Château de taille 6250 ou plus.  
-Il faut être maçon T6 pour batir une citadelle.  
+Il faut être maçon T6 pour bâtir une citadelle.  
 
 Les unités occupant la citadelle bénéficient d'un bonus de défense de +5.  
 Le salaire de base des unités et paysans de la région est augmenté de 5 silvers.  
@@ -153,7 +153,7 @@ Les marchands bénéficient d'une part de commerce de 36 %.
 
 [](){ #chateaux-tableau-synthese-fr-id }
 
-## Chateaux - Tableau de synthèse
+## Châteaux - Tableau de synthèse
 
 Le tableau ci-dessous définit pour chaque type de château :
 

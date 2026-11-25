@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: familiars
 ---
 
@@ -456,7 +456,7 @@ Player Experiences:
 
 The terrain in which the familiar is summoned does not seem to have any influence on the familiar race.  
 
-An Aquarian shouldn't necessarily stand next to an inland lake, otherwise the most likely swimming familiar could end up trapped in the small lake with no chance of traveling to the ocean.  
+An Aquarian shouldn't necessarily stand next to an inland lake, otherwise the most likely swimming familiar could end up trapped in the small lake with no chance of travelling to the ocean.  
 However, it is not yet well understood to what extent you can summon a floating familiar in a region without access to an ocean tile (lake or sea), or how this changes the chances of getting another familiar race.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Vertraute&oldid=15826] -->

@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: cmd-hide
 ---
 
@@ -19,7 +19,7 @@ With `HIDE FACTION` you can try to hide your faction affiliation.
 The faction affiliation is then displayed as **anonymous** to other players.  
 In contrast to the normal stealth/perception mechanism, the faction affiliation of such a unit can **only** be recognized **using [espionage][espionage-id]**.  
 
-With `HIDE FACTION NOT` this anonymization will be canceled again and other players will see the correct faction affiliation - if they have enough awareness and even see the unit in their report.  
+With `HIDE FACTION NOT` this anonymization will be cancelled again and other players will see the correct faction affiliation - if they have enough awareness and even see the unit in their report.  
 
 `HIDE FACTION NUMBER number` camouflages the unit with the specified faction number, so it can disguise itself as belonging to any other faction.  
 There is no easy way to see through this form of camouflage.  
@@ -32,7 +32,7 @@ So far, so simple.
 However, this camouflage comes with a few special features, which are listed here in no particular order:
 
 - The (apparent) race of the unit does not change as a result; a goblin remains a goblin, even if he claims to belong to the light elves faction
-- The units do not change their behavior due to the camouflage.
+- The units do not change their behaviour due to the camouflage.
   For example, they do not donate silver to the allies of the faction they disguise themselves as.
   So if you want to perfect the camouflage, you should form a group with the units and set appropriate help statuses for this group.
   Units cloaked in this way cannot suddenly enter buildings or ships that they are otherwise not allowed to enter, or collect taxes where they are normally prohibited from doing so

@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias:
     - war
 ---
@@ -141,7 +141,7 @@ Now, the units arm themselves.
 Each person in a unit equips themselves with a melee weapon, a ranged weapon and armour, according to their skills.  
 They choose the weapons that give them the highest Attack and Parry scores.  
 Mages who have chosen a combat spell use it to attack.  
-However, for defense, they will need a weapon (and an appropriate combat skill), otherwise they will be considered [unarmed][bonuses-and-mali].
+However, for defence, they will need a weapon (and an appropriate combat skill), otherwise they will be considered [unarmed][bonuses-and-mali].
 
 !!! warning "Beware"
     Unused weapons or armour are not automatically redistributed to unarmed or unequipped units.
@@ -410,7 +410,7 @@ The spear bearer has a hit chance of 25%.
 
 So the attacker has a hit chance of 35%.
 
-It follows from this that you can hold a castle relatively well, but that you should not launch attacks from a castle if possible, as you will lose your defense bonus.  
+It follows from this that you can hold a castle relatively well, but that you should not launch attacks from a castle if possible, as you will lose your defence bonus.  
 It also follows that spear fighters are slightly more effective against mounted troops than sword fighters.
 
 ## Fleeing
@@ -434,7 +434,7 @@ If the unit was in a building or on a ship on land, it leaves this as soon as a 
 Special rules apply to units with the `FLEE` status.  
 These units can still move after combat, even if they would otherwise not be able to execute a long order.  
 Furthermore, these units cannot guard regions.  
-Any guarding performed is automatically canceled when the unit assumes the `FLEE` status.  
+Any guarding performed is automatically cancelled when the unit assumes the `FLEE` status.  
 This happens at the beginning of the turn, which means that all effects of [`GUARD`][cmd-guard] are immediately negated.
 
 ## Combat on and with ships
@@ -463,7 +463,7 @@ Units on ships join the battle rows normally according to their `COMBAT` and [`H
 
 Every captain has the chance to win a prize by capturing ships in adjacent regions.
 
-The captain lies in wait for ships that end their movement in a neighboring region.  
+The captain lies in wait for ships that end their movement in a neighbouring region.  
 Once there, the crew can act as normal in the next round.  
 With the help of [`FOLLOW SHIP`][cmd-follow], for example, you could also just track your victims for the time being.
 

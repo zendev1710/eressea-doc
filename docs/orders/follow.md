@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: cmd-follow
 ---
 # `FOLLOW`
@@ -12,7 +12,7 @@ This can be used to follow units or ships.
 With `FOLLOW UNIT`*`unit-ID`* your own unit will "watch" the specified unit and follow it when it moves.  
 However, if the pursued unit is faster than the following unit, it escapes pursuit.  
 The pursuers follow the pursued unit as far as possible.  
-Units traveling by ship cannot be tracked with `FOLLOW UNIT`.  
+Units travelling by ship cannot be tracked with `FOLLOW UNIT`.  
 Nor can captains use this to move their ship.  
 Instead, they would abandon ship and follow the unit on foot if possible.  
 

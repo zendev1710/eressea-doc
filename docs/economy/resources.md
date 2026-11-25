@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: resources
 ---
 
@@ -94,7 +94,7 @@ Skills: forestry, herbalism
 
 You may capture wild horses as you like with [`MAKE horse`][cmd-make] by a unit with the [taming][taming] skill.
 Without help, only wild horses reproduce.
-They love space and freedom, which is why some of them migrate to neighboring regions when there are fewer horses there.
+They love space and freedom, which is why some of them migrate to neighbouring regions when there are fewer horses there.
 However, it is possible to breed captured horses in a [stable][stable] with the taming skill and the order [`BREED HORSES`][cmd-grow].
 
 Player experience (Solthar):

@@ -31,7 +31,8 @@ Wie geht man also prinzipiell vor:
 3. Aus allen Zielzuständen den mit höchster Produktion und ggf. geringsten Kosten wählen
 
 Eine Methode die uns das Ergebnis der Optimierung ausrechnet, braucht also lediglich eine Liste der Einheiten, deren Kosten und deren Produktionsmenge.  
-Ggf. werden Methode noch Nebenbedingungen mitgegeben. 
+Ggf. werden Methode noch Nebenbedingungen mitgegeben.  
+
 Solche Einheitenliste lässt sich unabhängig vom eigentlichen Ziel relativ schnell erstellen und mit den notwendigen Attributen versehen.  
 Das Rucksackproblem lässt sich auf die Produktion angewandt also recht leicht verallgemeinert implementieren.
 

@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: optimizing-way-finding
 ---
 # Optimizing way finding
@@ -26,7 +26,7 @@ hy = start.y - target.y
 Distance = max(abs(hx), abs(hy), abs(hx+hy))
 ```
 
-This estimated distance to the destination is added to the distance already traveled.  
+This estimated distance to the destination is added to the distance already travelled.  
 The regions that still need to be expanded are sorted according to this criterion.  
 If there are few obstacles on the map, the algorithm can reach its goal very quickly, even over long distances.  
 
@@ -36,7 +36,7 @@ Magellan has already built in a route finding function.
 In addition to distance, it also supports ships sailing along coasts.  
 
 Further secondary conditions can concern the safety of regions (sea serpents, opponents), the landing direction in the target region or the preferred stopover in land regions at the end of the round.  
-However, it is precisely such secondary conditions that are difficult or impossible to calculate using the estimation function, so that the behavior of the algorithm becomes more and more “greedy”.  
+However, it is precisely such secondary conditions that are difficult or impossible to calculate using the estimation function, so that the behaviour of the algorithm becomes more and more “greedy”.  
 The A*-Searching with an estimator that always returns 0 corresponds to the greedy search.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Optimierung\_Wegfindung&oldid=2478] -->

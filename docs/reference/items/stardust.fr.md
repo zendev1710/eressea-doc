@@ -1,11 +1,11 @@
 ---
 # cSpell:locale fr
-alias: poussiere-d-etoile
+alias: poussiere-d-etoiles
 ---
 
-[](){ #poussiere-d-etoile-id }
+[](){ #poussiere-d-etoiles-id }
 
-# Poussière d'étoile
+# Poussière d'étoiles
 
 <div class="lore-dialogue">
 Pendant deux ans, « l'Institut d’étude de la poussière d’étoiles », créé spécialement à cet effet, avait mené des recherches approfondies, des expériences, des discussions et des débats philosophiques.

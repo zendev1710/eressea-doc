@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: races
 ---
 
@@ -29,7 +29,7 @@ Demons are cruel and unpredictable. They devour the local peasants and always su
 
 ## Elves
 
-The magical people of the faery kingdom aren't built for heavy labor, but they have a knack for nature as well as hidden things, and their archers are almost as feared as their mages.
+The magical people of the faery kingdom aren't built for heavy labour, but they have a knack for nature as well as hidden things, and their archers are almost as feared as their mages.
 
 - Green Thumb: Each elf (up to 1/8 of the [region's maximum][world] working population, e.g. 250 in a swamp) increases the chance of a tree (including mallorn trees) to drop a seed in a summer or autumn week. This can make quite a difference depending on the number of elves.
 - Forest Dwellers: In forest regions, elves have a skill bonus of +1 to stealth and perception, and +2 to tactics.
@@ -47,7 +47,7 @@ Goblins are small and weak on their own; they prefer to rely on cunning or super
 - Overpowering: When their numbers are ten times those of the opponent, goblins get a +1 attack bonus.
 - Midget: Goblins weigh only 6 lbs, but they can carry only 4.4 lbs.
 - Master Thieves: Goblins with level 4 or higher in stealth will always [steal][stealth-id] at least 50 silver, even if they were discovered.
-- Unarmed Defense: Unarmed goblins do not get the usual -2 penalty on defense.
+- Unarmed Defence: Unarmed goblins do not get the usual -2 penalty on defence.
 - Stubborn: A wounded goblin will regenerate 10% of their hit points.
 
 ## Halflings
@@ -74,11 +74,11 @@ Most insect warriors live in organized hives. They hate the cold and prefer the 
 
 ## Cats
 
-Known for their enhanced senses, the cat people are excellent spies and master guards. But, like elves, they do not like heavy labor.
+Known for their enhanced senses, the cat people are excellent spies and master guards. But, like elves, they do not like heavy labour.
 
 - Seven Lives: When killed, cats have a 1/7 chance of surviving. By some miracle of nature, they will also be restored to full hit points.
 - Silent Hunters: Cats cannot use platemail.
-- Evasiveness: Cats receive a +1 bonus on defense.
+- Evasiveness: Cats receive a +1 bonus on defence.
 
 ## Aquarians
 
@@ -147,7 +147,7 @@ These walking boulders are among the strongest creatures of Eressea. They love t
 
 ## Dwarves
 
-Their homes are the mountains, their weapons are famous, and their fortresses are known for their strength. However, they treat magic and horses with equal skepticism, and their sailing skills are among the worst in the world.
+Their homes are the mountains, their weapons are famous, and their fortresses are known for their strength. However, they treat magic and horses with equal scepticism, and their sailing skills are among the worst in the world.
 
 - Efficient Miners: Dwarves are efficient miners. Fore every 5 iron mined by them, only 3 are subtracted in a region, or only 60%. This effect can be combined with that of a mine, dramatically increasing the output of a mountain (see [mine][mine-id] and [mining][about-mining]).
 - Mountain Dwellers: In mountains, glaciers and ice bergs, dwarves get +1 to their [tactics][skill-tactics-id] skill.

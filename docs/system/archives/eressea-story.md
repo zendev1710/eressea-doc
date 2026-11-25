@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: history-of-eressea
 ---
 
@@ -70,7 +70,7 @@ Sometime
 
 08.01.1999
 
-- The `SCHIFFSBAU` skill is renamed to `SCHIFFBAU` (in german language)
+- The `SCHIFFSBAU` skill is renamed to `SCHIFFBAU` (in German language)
 
 14.01.1999
 
@@ -118,14 +118,14 @@ Sometime
 06.06.1999
 
 - The previously existing square fields are being replaced by hex fields, although in a survey among players the majority were against it.
-  This change is causing a lot of anger among the players. Today, however, hardly anyone doubts the correctness of this change, which meant that each region has 6 neighboring regions instead of 4.
+  This change is causing a lot of anger among the players. Today, however, hardly anyone doubts the correctness of this change, which meant that each region has 6 neighbouring regions instead of 4.
   The paths also become shorter because you can now walk diagonally.
   This means that a lot is happening in terms of range.
 - Horses no longer double movement, but instead give a +1 to range.
   This means that a rider on roads no longer travels 4 regions, but only 3 regions.
 - All ships lose one point of range
 - The Aquarian bonus to ship speed is halved to +1
-- Ships can only leave in the direction from which they came and the two neighboring directions, unless there is an allied port in the region
+- Ships can only leave in the direction from which they came and the two neighbouring directions, unless there is an allied port in the region
 - Ships can now take damage and will no longer simply sink if they are undermanned
 - Damaged ships lose capacity and possibly speed
 - The wages for non-orcs are reduced to the current level ("current today" is so imprecise, I would write farmer's wage -1 if I were sure about it)
@@ -369,7 +369,7 @@ October 2003 - Registration closed
 - Ships receive damage from the 2nd round of combat if at least one person on the ship takes damage
 - Fleeing units remain in the region and do not lose any items
 - Units with `COMBAT FLEE` can still move
-- Before, the rule was: a fight was long if it lasted more than one round. Fleeing units threw away almost all items and fled to a random neighboring region
+- Before, the rule was: a fight was long if it lasted more than one round. Fleeing units threw away almost all items and fled to a random neighbouring region
 
 15.11.2007 - Unicode
 

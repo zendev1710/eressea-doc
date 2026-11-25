@@ -65,7 +65,7 @@ La compétence de [fabrication d'armures][fabrication-darmures]{title="Armoursmi
 
 ## Commerce des biens de luxe
 
-La compétence de [commerce][commerce]{title="Trade"} permet d'acheter oude vendre les **biens de luxe**.  
+La compétence de [commerce][commerce]{title="Trade"} permet d'acheter ou de vendre les **biens de luxe**.  
 Aucune ressource n'est nécessaire pour cela.
 
 *Niveau requis dans la compétence, Poids.*  

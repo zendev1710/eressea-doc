@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: orders
 ---
 # Orders
@@ -46,7 +46,7 @@ COMBAT REAR
 ```
 
 It is possible to use and combine single quotes (`'`).  
-It's better to try out what exactly comes out, because the exact behavior can always change.  
+It's better to try out what exactly comes out, because the exact behaviour can always change.  
 
 ```text
 MESSAGE REGION 'Say "Friend" and enter'

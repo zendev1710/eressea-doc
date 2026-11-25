@@ -1,4 +1,5 @@
 ---
+# cSpell:locale fr
 alias: code-de-conduite
 ---
 

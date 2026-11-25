@@ -15,7 +15,7 @@ Chaque peuple a des [coûts de recrutement][modificateurs-de-competences-id] dif
 En règle générale, une personne (un membre d'unité) **pèse 10** unités de poids (lbs) et **peut porter jusqu'à 5,4 lbs**.  
 Les [Trolls][trolls-fr-id]{title="Trolls"}, les [Gobelins][gobelins]title={"Goblins"} et divers monstres constituent des exceptions.
 
-Au début du jeu, lors de l'inscription, vous devez choisir le peuple que vous vouler jouer.  
+Au début du jeu, lors de l'inscription, vous devez choisir le peuple que vous voulez jouer.  
 **Elle ne pourra plus être modifiée par la suite**.  
 Il convient donc de bien réfléchir avant de faire son choix.
 

@@ -134,6 +134,8 @@ plugins:
             Dev: Dév.
             Help: Aide
             World: Monde
+            Movement: Déplacements
+            Calendar: Calendrier
             Quick start: Démarrage rapide
             Economy: Économie
             Combat: Combat
@@ -152,6 +154,7 @@ plugins:
             Sending orders: Envoi des ordres
             Sending orders from Magellan: Envoi des ordres depuis Magellan
             Puppy protection: Protection du chiot
+            System: Système
 
             # Gameplay submenu
             The World: Le Monde d'Eressea
@@ -160,7 +163,7 @@ plugins:
             Skills: Compétences
             Overview: Vue d'ensemble
             Modifiers: Modificateurs
-            Stealth: Stealth
+            Stealth: Discrétion
             # Exploration submenu
             Travel: Déplacement
             Sailing: Navigation
@@ -182,6 +185,8 @@ plugins:
             #War: Guerre
             Alliances: Alliances
             Tactic: Tactique
+            Weapons: Armes
+            Armor: Armures et boucliers
             Armed unit: Unité armée
             # Magic submenu
             Schools: Écoles de magie
@@ -197,8 +202,14 @@ plugins:
             Events: Événements
             Weekly reports: Rapport hebdomadaire
             # References submenu
+            Ring of invisibility: Anneau d'invisibilité
+            Ring of power: Anneau de pouvoir
+            Sphere of invisibility: Sphère d'invisibilité
+            Silverbag: Bourse d’argent
+            Stardust: Poussière d'étoiles
             # System submenu
             Code of Conduct: Code de conduite
+            Eressea story: Eressea depuis ses débuts
 
         - locale: de
           name: Deutsch

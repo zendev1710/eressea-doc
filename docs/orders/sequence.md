@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: orders-sequence
 ---
 
@@ -76,7 +76,7 @@ For example, first all GIVE orders of the first unit, then all `GIVE` orders of 
 The [items pool][items-pool] also usually works in this way: units higher up in the region are first "asked" if the can share a certain item.  
 However, this sequence can be changed by certain orders.  
 These include `ENTER, LEAVE, MAKE TEMP, GIVE CONTROL` and `GIVE SHIP`.  
-The exact behavior is not guaranteed! Therefore, if in doubt, give orders in such a way that the unit sequence does not matter.  
+The exact behaviour is not guaranteed! Therefore, if in doubt, give orders in such a way that the unit sequence does not matter.  
 
 For orders where the result has an upper limit, for example the maximum number of trees in the region for `MAKE wood`, the maximum number of recruits to `RECRUIT` or the region's money for `ENTERTAIN` and `TAX`, it may happen that several units are in competition.  
 In this case, we try to distribute the scarce good in proportion to the quantity that each unit could produce if it were unlimited.  

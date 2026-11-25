@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: castles
 ---
 
@@ -73,7 +73,7 @@ They will not be able to enlarge the tower, though, due to the new required mini
 
 ## Castles - Summary table
 
-Building castles: building material, required Masonry skill level, wage bonus (in silvers), trade share and defense bonus.  
+Building castles: building material, required Masonry skill level, wage bonus (in silvers), trade share and defence bonus.  
 
 | Type          | Lvl | Wage bonus | Trade share | Def. bonus |
 |---------------|:---:|:----------:|------------:|:----------:|

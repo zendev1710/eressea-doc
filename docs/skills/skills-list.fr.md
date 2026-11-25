@@ -23,7 +23,7 @@ Cette compétence permet de concocter des [potions][potions-fr-id] à partir de 
 
 L'apprentissage de l'alchimie coûte 200 silver par tour et par personne.  
 
-Une personne (ou unité) ayant acquis cette compétence est appelée un alchémiste.  
+Une personne (ou unité) ayant acquis cette compétence est appelée un alchimiste.  
 
 !!! note "Important"
     Une [faction][faction] ne peut compter que **3 alchimistes** au plus.

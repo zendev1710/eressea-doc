@@ -184,6 +184,7 @@ Laenausrüstung
 Laenkettenhemd
 Laenrüstung
 Laenschild
+Laenschildes
 Laenschwert
 Laenwaffen
 Lanzenbonus

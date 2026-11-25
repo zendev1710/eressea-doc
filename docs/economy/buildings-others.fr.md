@@ -350,7 +350,7 @@ Le tableau récapitulatif ci-dessous définit pour chaque type de bâtiment :
 | [Tour de mage][tour-de-mage]{title="Mage Tower"}[^1]        |   T5 |       5 |    3 |  3   |    500 |          50 |       2       |
 | [Tunnel][tunnel-fr-id]{title="Tunnel"}                      |   T6 |      10 |    5 |  1   |    300 |         100 |       -       |
 
-## Coûts de mainteance
+## Coûts de maintenance
 
 Le tableau récapitulatif ci-dessous définit les **coûts de maintenance par tour** pour chaque type de bâtiment.
 

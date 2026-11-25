@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: cmd-ride
 ---
 
@@ -11,7 +11,7 @@ alias: cmd-ride
 **`RIDE`**` `*`unit-id`*  
 **`CARRY`**` `*`unit-id`*  
 
-With the `RIDE` order a unit joins a transporting unit and can be separated from it if it receives the order `CARRY` given for the traveling unit.  
+With the `RIDE` order a unit joins a transporting unit and can be separated from it if it receives the order `CARRY` given for the travelling unit.  
 With this order it is possible to travel on horses or carts even without the riding skill.  
 The prerequisite for this is, of course, that the transporting unit has enough free capacity to charge the moving units and their objects.  
 

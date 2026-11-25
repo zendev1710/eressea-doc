@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: development
 ---
 
@@ -58,7 +58,7 @@ This is exactly the right thing for (prospective) computer scientists to deal wi
 
 - [Way finding / Route calculation][optimizing-way-finding] ([A* search algorithm])
 - [[optimize-learning-chains]] (A* search algorithm, [backpack problem])
-- [Transportation and trading systems][optimizing-transport] (traveling salesman, Backpack problem)
+- [Transportation and trading systems][optimizing-transport] (travelling salesman, Backpack problem)
 - [[optimize-production]] (backpack problem)
 
 <!-- From [https://wiki.eressea.de/index.php?title=Entwicklung&oldid=8216] -->

@@ -22,7 +22,7 @@ Voici quelques objets qui ont été placés dans la réserve de faction jusqu'à
 - [Armure en adamantium][armure-en-adamantium]{title="Adamantium plate"} (au tour 574)
 - [Gâteau d'anniversaire][gateau-d-anniversaire-id] (au tour 487, Le 20 août 2006, à l'occasion des 10 ans d'Eressea)
 - [Voile Solaire][voile-solaire] (au tour 407, Noël 2004)
-- [Poussière d'étoile][poussiere-d-etoile-id] (au tour 454, Noël 2005)
+- [Poussière d'étoile][poussiere-d-etoiles-id] (au tour 454, Noël 2005)
 - [Sapin de Noël][sapin-de-noel-id] (au tour 503, Noël 2006)
 - [Coquillage][coquillage] (accueil des personnes qui atteignent le Plateau des Coquillages pour la première fois, le 11 Décembre 2005)
 

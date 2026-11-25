@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: xontormia-express
 ---
 
@@ -52,7 +52,7 @@ An **example article** could look like this:
 Scandal! Wild trolls attack Nifelheim
 
 We are horrified! Today there are 30,000 riotous trolls
-from the neighboring island of Klumphausen our fortress
+from the neighbouring island of Klumphausen our fortress
 Nifelheim invaded. 3000 of our farmers were there
 brutally killed. We, the shrunken bellies
 Goblins swear bloody revenge.

@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: list-of-orders
 ---
 
@@ -25,7 +25,7 @@ More information: [orders][orders].
 | [CARRY &lt;unit id&gt;]                                                    | Take other units with you                  | S      |
 | [CAST &#91;REGION x y&#93; &#91;LEVEL n&#93; "&lt;spell&gt;"...]           | Magic                                      | PL[^4] |
 | [CLAIM &lt;number&gt; &lt;item&gt;]                                        | Retrieves items from faction pool          | S      |
-| [COMBAT][cmd-combat]                                                       | Sets behavior in combat                    | S      |
+| [COMBAT][cmd-combat]                                                       | Sets behaviour in combat                   | S      |
 | [COMBAT AGGRESSIVE]                                                        |                                            | S      |
 | [COMBAT DEFENSIVE]                                                         |                                            | S      |
 | [COMBAT FLEE]                                                              |                                            | S      |

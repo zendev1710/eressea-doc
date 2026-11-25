@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: skills
 ---
 
@@ -15,7 +15,7 @@ To be precise, with the [`LEARN`][cmd-learn] order, a unit can make one attempt 
 Some skills also improve by using them. If the unit uses the skill, there is a 1/3 chance it will gain experience (2/3 chance it will not gain experience).  
 So by exercising a skill a unit progresses statistically at around 1/3 of the learning speed (by `LEARN`).  
 
-Skills that **do not improve** by **practicing** include the following:
+Skills that **do not improve** by **practising** include the following:
 
 - All weapon skills
 - [Endurance][skill-endurance-id]

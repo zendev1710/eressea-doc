@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: cmd-default
 ---
 
@@ -54,7 +54,7 @@ The same applies to other invalid orders.
 
 ## The DEFAULT order
 
-The `DEFAULT` order changes this behavior by changing the default orders that come back from the server.  
+The `DEFAULT` order changes this behaviour by changing the default orders that come back from the server.  
 If the unit has received a `DEFAULT` order, its **long** orders will not be included in the template.  
 [long orders] with `//` and short `@` orders are accepted.
 The given orders are validated to a certain extent.

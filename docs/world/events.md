@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: events
 ---
 
@@ -26,7 +26,7 @@ Monsters summoned by mages can also drive away peasants.
 ### Overpopulation
 
 Peasants are emigrating because of overpopulation.  
-If there are more Peasants than [jobs][cmd-work] in a region, some of the unemployed emigrate to neighboring regions.  
+If there are more Peasants than [jobs][cmd-work] in a region, some of the unemployed emigrate to neighbouring regions.  
 
 ### Poverty
 

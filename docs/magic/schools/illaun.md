@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: illaun-spells
 ---
 
@@ -191,7 +191,7 @@ alias: illaun-spells
 ### Sleep
 
 :   This spell causes some enemy combatants to fall asleep.  
-    Sleeping fighters do not attack and have poorer defenses, but they wake up as soon as they are hit in combat.
+    Sleeping fighters do not attack and have poorer defences, but they wake up as soon as they are hit in combat.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|

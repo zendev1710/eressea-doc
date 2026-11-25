@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: magic
 title: Magic
 ---
@@ -273,7 +273,7 @@ It is important that you first specify the region and then the level.
 
 **Example:**
 
-A unit in the region (1,1) casts "Blessing of the Earth" at level 3 in the neighboring region to the east as the first spell of the round (a = 1 field distance).  
+A unit in the region (1,1) casts "Blessing of the Earth" at level 3 in the neighbouring region to the east as the first spell of the round (a = 1 field distance).  
 That costs 2*3 = 6 aura. The order for this spell is `CAST REGION 2 1 LEVEL 3 "Segen der Erde"`.  
 
 ### Ship and sea magic
@@ -395,7 +395,7 @@ More information about these creatures: [[familiars]].
 ## The Astral Space
 
 !!! note
-    You can also skip this section if you are reading the instructions for the first time -as it takes many weeks before a party can travel into the astral space -or if you prefer to figure out the complicated rules of the astral space yourself.
+    You can also skip this section if you are reading the instructions for the first time -as it takes many weeks before a faction can travel into the astral space -or if you prefer to figure out the complicated rules of the astral space yourself.
 
 Opinions on what this second plane of existence actually is vary as widely as the names given to it: some call it the **world of spirits**, others the **Astral world**, but the most well-known term is **Astral plane**.  
 Completely different laws of nature prevail in this other world.  
@@ -419,15 +419,15 @@ In the example image, all regions that can be identified from a region are outli
 
 What makes the astral space particularly confusing is that these schemes are not identical to the regions that are connected to the astral region, from which one can get into the astral region and vice versa.  
 Instead, each point in the astral space is connected to an area in the normal world, each comprising 16 regions (yellow in the picture).  
-This area is shaped like a parallelogram with four regions each extending in the direction of east-west and southwest-northeast.  
-The "reference point" is the southwest corner of it.  
+This area is shaped like a parallelogram with four regions each extending in the direction of east-west and south-west-north-east.  
+The "reference point" is the south-west corner of it.  
 All regions in such an area lead to the same point when entering the astral world.  
 This connection is a prerequisite for most spells involving the astral space.  
 But it can also be disturbed, for example by blessed stonecircles that have recently been visited by a mage.  
 Depending on the spell used, additional restrictions may apply.  
 
 That's why caution is advised -because on the one hand you can see the schemes of real regions that are not connected to this point in the astral space, but on the other hand not all regions of the real world to which there is such a connection appear as schemes.  
-Only when travelers find their way around despite these differences will they realize that they can progress many times faster in the astral world.  
+Only when travellers find their way around despite these differences will they realize that they can progress many times faster in the astral world.  
 Because every step in the spirit world corresponds to 4 steps in the real world.  
 
 Only through magic can reality be changed in such a way that living beings enter the world of spirit beings.  

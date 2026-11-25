@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: introduction
 ---
 
@@ -19,7 +19,7 @@ Eressea is a fantastic world. Creatures such as [elves] and [dwarves][dwarves] p
 
 Eressea is a large world. Hundreds of peoples live on the islands of Eressea, and many of them will probably never meet, as it can take years to bridge the distances.
 
-Eressea is a complex world. Leading a nation is no easy task. There is a lot to consider to ensure that everything runs smoothly, and the neighbors are also involved. Agreements have to be made, there may be quarrels, even [[war]]. And even if everything goes well, Eressea takes up a lot of time. Whilst you barely need an hour a week at the beginning, this can later increase to ten or more hours a week.
+Eressea is a complex world. Leading a nation is no easy task. There is a lot to consider to ensure that everything runs smoothly, and the neighbours are also involved. Agreements have to be made, there may be quarrels, even [[war]]. And even if everything goes well, Eressea takes up a lot of time. Whilst you barely need an hour a week at the beginning, this can later increase to ten or more hours a week.
 
 <!-- TODO: icons 160X160 - should be to the left or right part of the page -->
 ![Eressea report](../assets/images/nr-report.jpg "An NR report")
@@ -32,7 +32,7 @@ There is no clear game objective in Eressea, no end that needs to be reached. Ea
 ![Eressea orders](../assets/images/orders-example.jpg "Eressea orders")
 
 In Eressea, you send in a *turn* at regular intervals.  
-A turn consists of [orders][orders] that your party's units execute in the world as well as possible.  
+A turn consists of [orders][orders] that your faction's units execute in the world as well as possible.  
 A turn is similar to a computer program so that the *server*, the computer program that knows the state of the world, can evaluate it and the turns of all other players and calculate the new state of the world.  
 The turn cycle is one week, Due Date (ZAT in German for "move submission deadline") is Saturday evening 21:00 (CET).  
 In response to your turn you will receive a *report* containing the state of the world as far as it is known to your faction.  

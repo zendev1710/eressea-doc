@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: magical-herb-pouch
 ---
 # Magical herb pouch

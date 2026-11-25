@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: cmd-piracy
 ---
 
@@ -9,7 +9,7 @@ alias: cmd-piracy
 
 **`PIRACY`**`[`*`faction-id`*`[`*`faction-id`*`...]]`  
 
-With this order, the captain of a ship automatically lies in wait for ships that are in a neighboring region after their movement.  
+With this order, the captain of a ship automatically lies in wait for ships that are in a neighbouring region after their movement.  
 He will then automatically go there.  
 
 If faction numbers are provided, he will only respond to ships from the specified factions.  

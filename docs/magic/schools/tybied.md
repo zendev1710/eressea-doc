@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: tybied-spells
 ---
 
@@ -7,7 +7,7 @@ alias: tybied-spells
 
 ## Level 1
 
-### Analyze Magic
+### Analyse Magic
 
 :   This spell allows the mage to attempt to detect the enchantments of a single specified object.  
     He will be able to get an impression of their effectiveness from all spells that do not exceed his own abilities.  

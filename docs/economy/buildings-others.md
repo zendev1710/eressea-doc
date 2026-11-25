@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: other-buildings
 ---
 
@@ -192,7 +192,7 @@ You can then immediately cut them with a sawmill, producing 20 wood.
 | Capacity:                | 2 Persons                                                          |
 
 - In a mage tower, a mage regenerates 75% more aura.
-- The power of every spell casted inside a mage tower is increased as if the spell was cast one level higher.
+- The power of every spell cast inside a mage tower is increased as if the spell was cast one level higher.
 - Fizzles happen much less often.
 - The building itself has 40% extra magic resistance.
 - A mage tower will only work if it is completely built!

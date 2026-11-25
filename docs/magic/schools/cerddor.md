@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: cerddor-spells
 ---
 
@@ -11,7 +11,7 @@ alias: cerddor-spells
 
 :   This song tames even the wildest orc and makes him peaceful and gentle.  
     Any thought of harming the singer will disappear.  
-    The mage can move to a neighboring region unmolested.
+    The mage can move to a neighbouring region unmolested.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
@@ -34,8 +34,8 @@ alias: cerddor-spells
 
 ### Song of Generosity
 
-:   This cheerful song will spread like a rumor throughout the region and put the whole world in a celebratory mood.  
-    Taverns and theaters everywhere will be full and even the beggars will be fed.
+:   This cheerful song will spread like a rumour throughout the region and put the whole world in a celebratory mood.  
+    Taverns and theatres everywhere will be full and even the beggars will be fed.
 
 | Components | Lvl |  Type  | Rank |             Ship             |            Dist.             |
 |:----------:|:---:|:------:|:----:|:----------------------------:|:----------------------------:|
@@ -139,7 +139,7 @@ alias: cerddor-spells
 
 `CAST "Hymn of Aura Sharing" <unit-id> <Aura>`  
 
-### Analyze Song of Life
+### Analyse Song of Life
 
 :   All living beings have their own individual life song.  
     No two songs are alike, even if all songs of the same type are similar.  
@@ -156,7 +156,7 @@ alias: cerddor-spells
 ### Epic Heroes
 
 :   This ancient battle song raises the morale of your troops and also helps them to resist the frightening aura of demonic and undead beings.  
-    Such a solid warrior will not flee even in difficult situations and his considered behavior will give him many an advantage in defense.
+    Such a solid warrior will not flee even in difficult situations and his considered behaviour will give him many an advantage in defence.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
@@ -263,7 +263,7 @@ alias: cerddor-spells
 ### Song of Fear
 
 :   This war song sows panic in the enemy"s front lines and thus significantly weakens their fighting strength.  
-    Fear will weaken their sword arm and fear will paralyze their shield arm.
+    Fear will weaken their sword arm and fear will paralyse their shield arm.
 
 | Components | Lvl |  Type  | Rank | Ship | Dist. |
 |:----------:|:---:|:------:|:----:|:----:|:-----:|
@@ -324,7 +324,7 @@ alias: cerddor-spells
 
 ### Song of the Youthful Spirit
 
-:   This magical song, once performed with vigor, will propagate in the region by wandering from mouth to mouth.  
+:   This magical song, once performed with vigour, will propagate in the region by wandering from mouth to mouth.  
     It will be heard everywhere. How long the song will last in the public perception depends on the bard's skill.  
     Until it is gone it will give him and all his allies (`HELP GUARD`) a bonus of 15% to their natural resistance to magic.
 

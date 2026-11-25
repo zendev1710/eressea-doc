@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: first-round
 ---
 
@@ -202,7 +202,7 @@ UNIT vdko;       Explorer [$1,5000]
         NAME UNIT "Cave Dragon"
         RECRUIT 3
         LEARN Mining
-        // as a scout in neighboring regions
+        // as a scout in neighbouring regions
         COMBAT FLEE
     END
     ;

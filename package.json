@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "@cspell/dict-de-de": "^4.1.2",
-    "@cspell/dict-en-gb": "^5.0.20"
+    "@cspell/dict-en-gb": "^5.0.20",
+    "@cspell/dict-fr-fr": "^2.3.2"
   }
 }

@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: movement
 ---
 
@@ -81,7 +81,7 @@ On land, it is possible to travel a distance of one region, so a unit can more f
 If the unit has enough **horses** and the [Riding] skill, it can travel **one region further**.  
 If the regions are connected by [road][roads-id], it is possible to move up **to 2 regions on foot** or even up **to 3 regions on horseback**.  
 
-Movement is only possible in six directions: northeast (NE), northwest (NW), east (E), west (W), southeast (SE) and southwest (SW).  
+Movement is only possible in six directions: north-east (NE), north-west (NW), east (E), west (W), south-east (SE) and south-west (SW).  
 It is not possible to move straight north or south.  
 
 The order [`CARRY <passenger-unit>`][cmd-carry] allows units to transport other units while moving.  

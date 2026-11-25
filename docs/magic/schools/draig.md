@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: draig-spells
 ---
 
@@ -13,7 +13,7 @@ alias: draig-spells
 
 :   In the darker alleys they exist, the curses and hexes made to order.  
     But of course the disciple of Draig also offers counter spells.  
-    Whether the neighbor"s son is to be drawn into a love spell or the rival is to get pimples and warts, no one likes to admit that they have resorted to such measures.  
+    Whether the neighbour"s son is to be drawn into a love spell or the rival is to get pimples and warts, no one likes to admit that they have resorted to such measures.  
     For this service, the mage earns 50 silver per level.
 
 | Components | Lvl |  Type  | Rank |             Ship             | Dist. |

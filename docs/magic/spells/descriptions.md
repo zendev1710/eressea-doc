@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: description-of-spells
 ---
 
@@ -134,7 +134,7 @@ alias: description-of-spells
 
 :   This song tames even the wildest orc and makes him peaceful and gentle.  
     Any thought of harming the singer will disappear.  
-    The mage can move to a neighboring region unmolested.
+    The mage can move to a neighbouring region unmolested.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
@@ -240,7 +240,7 @@ alias: description-of-spells
 
 ### Awakening of the [Ents][ents-id]
 
-:   With the help of this spell, the druid awakens the Ents slumbering in the forests of the region from their eons-long sleep.  
+:   With the help of this spell, the druid awakens the Ents slumbering in the forests of the region from their aeons-long sleep.  
     The wild tree creatures will join him and assist him, but after a while they will fall back into slumber.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
@@ -775,7 +775,7 @@ Then you direct your strength towards the fine aura of life that is forming and 
 ### Epic Heroes
 
 :   This ancient battle song raises the morale of your troops and also helps them to resist the frightening aura of demonic and undead beings.  
-    Such a solid warrior will not flee even in difficult situations and his considered behavior will give him many an advantage in defense.
+    Such a solid warrior will not flee even in difficult situations and his considered behaviour will give him many an advantage in defence.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
@@ -1122,7 +1122,7 @@ From "Wanderings" by Firudin the Wise.
 
 :   By performing these rituals, the mage is able to summon a powerful earth elemental.  
     As long as this is banished into the ground, no rain will soften the paths and no river will be able to destroy bridges.  
-    This means that all travelers receive the same advantages that would otherwise only be offered by a developed paved road network.  
+    This means that all travellers receive the same advantages that would otherwise only be offered by a developed paved road network.  
     Even swamps and glaciers can be enchanted this way.  
     The more power the mage puts into the spell, the longer the road lasts.
 
@@ -1178,7 +1178,7 @@ From "Wanderings" by Firudin the Wise.
 
 :   In the darker alleys they exist, the curses and hexes made to order.  
     But of course the disciple of Draig also offers counterspells.  
-    Whether the neighbor"s son is to be drawn into a love spell or the rival is to get pimples and warts, no one likes to admit that they have resorted to such measures.  
+    Whether the neighbour"s son is to be drawn into a love spell or the rival is to get pimples and warts, no one likes to admit that they have resorted to such measures.  
     For this service, the mage earns 50 silver per level.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
@@ -1549,7 +1549,7 @@ From "Wanderings" by Firudin the Wise.
 ### Sleep
 
 :   This spell causes some enemy combatants to fall asleep.  
-    Sleeping fighters do not attack and have poorer defenses, but they wake up as soon as they are hit in combat.
+    Sleeping fighters do not attack and have poorer defences, but they wake up as soon as they are hit in combat.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
@@ -1628,7 +1628,7 @@ From "Wanderings" by Firudin the Wise.
 ### Song of Fear
 
 :   This war song sows panic in the enemy"s front lines and thus significantly weakens their fighting strength.  
-    Fear will weaken their sword arm and fear will paralyze their shield arm.
+    Fear will weaken their sword arm and fear will paralyse their shield arm.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----|:------|
@@ -1640,8 +1640,8 @@ From "Wanderings" by Firudin the Wise.
 
 ### Song of Generosity
 
-:   This cheerful song will spread like a rumor throughout the region and put the whole world in a celebratory mood.  
-    Taverns and theaters everywhere will be full and even the beggars will be fed.
+:   This cheerful song will spread like a rumour throughout the region and put the whole world in a celebratory mood.  
+    Taverns and theatres everywhere will be full and even the beggars will be fed.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist.                        |
 |:---:|------------|----:|-------:|:----:|:-----------------------------|:-----------------------------|
@@ -1747,7 +1747,7 @@ From "Wanderings" by Firudin the Wise.
 
 ### Song of the Youthful Spirit
 
-:   This magical song, once performed with vigor, will propagate in the region by wandering from mouth to mouth.  
+:   This magical song, once performed with vigour, will propagate in the region by wandering from mouth to mouth.  
     It will be heard everywhere. How long the song will last in the public perception depends on the bard's skill.  
     Until it is gone it will give him and all his allies (`HELP GUARD`) a bonus of 15% to their natural resistance to magic.
 
@@ -1898,7 +1898,7 @@ This earthquake will damage all buildings in the region.
 ### Summon Water Elemental
 
 :   With this ritual, the mage forces the elemental spirits of the water into his service and gets them to carry the specified ship through the water more quickly.  
-    In addition, the ship is not affected by unfavorable winds or currents.
+    In addition, the ship is not affected by unfavourable winds or currents.
 
 | Sc. | Components | Lvl |   Type | Rank | Ship                         | Dist. |
 |:---:|------------|----:|-------:|:----:|:-----------------------------|:------|
@@ -2059,6 +2059,6 @@ With the help of this spell, the mage can transfer his own aura at a ratio of 2:
 
 [^1]: this spell is avaialble for all Magic Schools
 [^2]: spell level depends on the Magic School. C: 9, D: 13, G: 10, I: 10, T: 12
-[^3]: the spell can be casted **on sea**.
+[^3]: the spell can be cast **on sea**.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Zauberbeschreibungen\_E2&oldid=9278] -->

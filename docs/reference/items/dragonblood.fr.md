@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale fr
 alias: sang-de-dragon
 ---
 

@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: world
 ---
 
@@ -9,14 +9,14 @@ alias: world
 
 <div class="lore-dialogue">
 Selen Ard'Ragorn calmly looked at the door when Rahel, her young novice, clumsily stumbled into the small chamber in the library wing of the temple.
-Slightly amused, she regarded the nervously twitching tail of the young cat, who desperately but unsuccessfully tried to straighten her disheveled robes.
+Slightly amused, she regarded the nervously twitching tail of the young cat, who desperately but unsuccessfully tried to straighten her dishevelled robes.
 "Come closer, my child", Selen asked.
 Rahel bashfully neared the decorated table where the abbess sat.
 As the young cat caught sight of the big parchment spread on the table, she meowed in astonishment.
 She saw a detailed, neatly drawn map of the whole known world.
 Information from all lands under the Gold−Eyed Cat's gaze had been collected and sketched in this map by skilled hands.
 Rahel discerned Andune, the little island almost divided into two, in the middle of the sea.
-Around Andune she saw the well−known contours of the neighboring islands, embedded as Andune itself in the seemingly endless ocean.
+Around Andune she saw the well−known contours of the neighbouring islands, embedded as Andune itself in the seemingly endless ocean.
 </div>
 
 The world of Eressea consists of many islands and continents with entirely different sizes.  
@@ -36,7 +36,7 @@ The novice contemplated the map intently. Apparently it was confined to the esse
 Rahel recognized forests and mountains, many swamps and some woodless plains.
 </div>
 
-In this example, a swamp is located at (0,0); in its northeast at (0,1) you can find a mountain.  
+In this example, a swamp is located at (0,0); in its north-east at (0,1) you can find a mountain.  
 Every faction in Eressea has its own coordinate system, which can be shifted with the order [`ORIGIN`][cmd-origin] in order to adjust it to the one of another faction.  
 
 <div class="lore-dialogue">
@@ -152,9 +152,9 @@ There are currently 22 stones at quarrying level 3.
 To discover this stone deposit, a quarryman with at least quarrying level 2 is required (note: with quarrying level 2, you can see stone deposits up to a maximum of quarrying level 4).  
 However, to actually extract stones, the unit must have quarrying level 3.  
 
-In principle, you can build [roads][roads-id] in any land region to increase your traveling speed over land.  
+In principle, you can build [roads][roads-id] in any land region to increase your travelling speed over land.  
 For the Vîpot desert, you need 100 stones to build a road in one of the 6 cardinal directions (W, NW, NE, E, SE, SW).  
-In addition, there must also be a developed road in the neighboring region in the direction of Vîpot so that there is a closed road connection.  
+In addition, there must also be a developed road in the neighbouring region in the direction of Vîpot so that there is a closed road connection.  
 However, since Vîpot is a desert, you also need a fully developed [caravanserai][caravanserai].  
 A desert is therefore not necessarily the first choice for building a road network, but can be a worthwhile investment depending on the geography of the island.  
 
@@ -169,7 +169,7 @@ Selen pointed to the open page.
 Rahel looked at the text intently before she began.
 </div>
 
-The report lists all regions in which you have a unit, through which you have traveled, or ocean regions that you have seen from a [lighthouse][lighthouse]:
+The report lists all regions in which you have a unit, through which you have travelled, or ocean regions that you have seen from a [lighthouse][lighthouse]:
 
 `Tetos (−1,0), plain, 1042 peasants, 73/5 trees, 10953 silver, 132 horses. To the northwest lies the the forest of Faldorn (−2,1), to the northeast the plain of Litforuvys (−1,1), to the east the plain of Tumyvesfod (0,0), to the southeast the swamps of Titymovut (0,−1), to the southwest the plain of Livedfir (−1,−1) an to the west the mountains of Nipevan (−2,0).`
 
@@ -209,7 +209,7 @@ swords: 2
 The young novice beamed proudly at her obviously satisfied teacher.
 — "This, Magistra, is further information that our scouts have discovered.
 Firstly, they seem to have looked around the market and noted the prices.
-The section below notes how much silver the inhabitants of the region are willing to spend on showmen and musicians, how much you can get for simple labor, how many peasants are willing to join a faction, and how many goods are sold at the market for the price listed above.
+The section below notes how much silver the inhabitants of the region are willing to spend on showmen and musicians, how much you can get for simple labour, how many peasants are willing to join a faction, and how many goods are sold at the market for the price listed above.
 The last lines then state how many of our people are there and what they are carrying."
 </div>
 

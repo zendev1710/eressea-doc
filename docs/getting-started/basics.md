@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: basics
 ---
 
@@ -70,14 +70,14 @@ For example, the `ENTERTAIN` order executes before it; with the potential earnin
 ## New units
 
 Units that have silver or are given silver always use this silver first before accessing the [[items-pool]].  
-If you create a new unit, recruit a cat (costs 90 silver) and let it run into the neighboring region (10 silver maintenance) in order to let it learn entertainment there the following week (another 10 silver maintenance) and then entertain it (from here on it takes care of itself) it is not enough to give it 20 silver for the travel time and the learning week, you also have to give it the 90 silver for your own recruiting.  
-Otherwise the unit will arrive in the neighboring region starving.
+If you create a new unit, recruit a cat (costs 90 silver) and let it run into the neighbouring region (10 silver maintenance) in order to let it learn entertainment there the following week (another 10 silver maintenance) and then entertain it (from here on it takes care of itself) it is not enough to give it 20 silver for the travel time and the learning week, you also have to give it the 90 silver for your own recruiting.  
+Otherwise the unit will arrive in the neighbouring region starving.
 
 ## Scout
 
 Scouts are a strategic investment.  
-Secure important neighboring regions, but only if you can afford it.  
-As a rule, it is not enough to place an entertainer unit in the neighboring mountain if it cannot guard it.  
+Secure important neighbouring regions, but only if you can afford it.  
+As a rule, it is not enough to place an entertainer unit in the neighbouring mountain if it cannot guard it.  
 
 <!-- From [https://wiki.eressea.de/index.php?title=Grundlagen&oldid=17000] -->
 

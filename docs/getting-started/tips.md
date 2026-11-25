@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: beginner-tips
 ---
 
@@ -23,7 +23,7 @@ Then there's [ECheck][echeck-id], a program that lets you check your moves for c
 ECheck is automatically run by the server on incoming moves and the result is sent back.
 Use ECheck at home with the -e option to check if your commands are being interpreted as expected.
 ECheck only checks the spelling of the commands and the order of the parameters.
-ECheck doesn't analyze the semantics (i.e., the meaning and logic of the commands), but it can perform various tests regarding silver when the server's [orders template][orders] is used.
+ECheck doesn't analyse the semantics (i.e., the meaning and logic of the commands), but it can perform various tests regarding silver when the server's [orders template][orders] is used.
 
 Set yourself several goals you want to achieve.
 One of your first goals should be exploring the surrounding area.
@@ -49,7 +49,7 @@ Units with expensive skills like [Tacticians][tactics-id], [Alchemists][list-of-
 Training [Mages][magic-id] costs even more silver, but a mage with combat spells can provide significant advantages in conflict.
 And mages of all schools of magic can cast a spell to earn silver very early on, making an early investment worthwhile (especially for races with +1 in Magic).
 
-It would also be advisable to have some precautions in case the neighbors aren't very peaceful.
+It would also be advisable to have some precautions in case the neighbours aren't very peaceful.
 In other words, a plan for how to protect your faction from attacks once the initial immunity period ends.
 
 Write plenty of comments in your orders files so you know what each action was for in the following rounds.

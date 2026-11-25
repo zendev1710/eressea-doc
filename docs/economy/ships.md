@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: ships
 title: Ships
 ---
@@ -42,7 +42,7 @@ He may [rename][cmd-name] or [describe][cmd-describe] the ship, and also counts 
 Unlike buildings, ships cannot be expanded.  
 So once you start building a [longboat][longboat], you won't be able to convert it into a [caravel][caravel] later.
 
-Newly built ships are not located on any coast and can therefore sail to any neighboring ocean region.
+Newly built ships are not located on any coast and can therefore sail to any neighbouring ocean region.
 
 ## Ship types
 <!-- TODO: add information  -->

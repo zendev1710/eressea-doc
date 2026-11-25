@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: cmd-combat
 ---
 
@@ -49,14 +49,14 @@ The unit attempts to flee when it still has 90% of its hit points.
 
 If a unit that is ready to [flee][fleeing] is involved in combat, it will attempt to flee before each round of combat.  
 <!-- TODO: find escape section and combat chapter -->
-For more information about "escape behavior", see the [Escape] section in the Combat chapter.  
+For more information about "escape behaviour", see the [Escape] section in the Combat chapter.  
 
 This combat status is used to advantage for almost all "civilians".  
 If even one person in a unit successfully escapes from a fight, they automatically leave buildings or land-based ships in which they are located.  
 It is therefore important to consider whether this status makes sense for building (or ship) occupants.  
 
 Units with this combat status also cannot [attack][cmd-attack] or [guard][cmd-guard].  
-If a guarding unit places `COMBAT FLEE`, the guarding is immediately canceled, with corresponding consequences.  
+If a guarding unit places `COMBAT FLEE`, the guarding is immediately cancelled, with corresponding consequences.  
 Units with the combat status can still move after combat (with [`MOVE`][cmd-move], [`ROUTE`][cmd-route], [`FOLLOW`][cmd-follow]).  
 
 !!! warning "Caution"

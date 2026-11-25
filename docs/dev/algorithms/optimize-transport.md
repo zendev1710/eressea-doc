@@ -1,12 +1,12 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: optimizing-transport
 ---
 # Optimizing transport
 
-## Traveling salesman
+## Travelling salesman
 
-Since we at Eressea don't deal with just a few units but with a lot of them, the problem of traveling salesmen is less of a problem, as transports often do not go to several regions in a circle, but rather requirements are processed in parallel with many individual transports.  
+Since we at Eressea don't deal with just a few units but with a lot of them, the problem of travelling salesmen is less of a problem, as transports often do not go to several regions in a circle, but rather requirements are processed in parallel with many individual transports.  
 
 ## Optimal loading
 
@@ -94,12 +94,12 @@ It may make sense to differentiate between two or three types of packages:
 2. Groups of items or subgroups of the upper category are necessary for full utilization in weekly production.
    However, production can also be carried out without full capacity.
    This just reduces the time in which something else can be done if necessary
-3. Groups of items or subgroups of the upper categories that are necessary for the full fulfillment of a mission, i.e. completing a ship or building, or fully equipping a unit with its equipment.
+3. Groups of items or subgroups of the upper categories that are necessary for the full fulfilment of a mission, i.e. completing a ship or building, or fully equipping a unit with its equipment.
    It can be produced, possibly even at full capacity.
    It's just not certain that all components will arrive soon for completion.
 
 The last two groups can probably be grouped together in practice and most likely ignored.  
-For the first group, however, a fulfillment bonus is conceivable and could also be planned.  
+For the first group, however, a fulfilment bonus is conceivable and could also be planned.  
 
 ## Multi-path finding
 
@@ -123,7 +123,7 @@ Value must be tested. Fortunately, the estimation function also provides good se
 If several destinations are equivalent, they will of course compete for the next route from a certain point onwards.  
 Until then, you can easily optimize the route to the minimum of both routes, i.e. you drive to the closer region and unload the goods for the other region when you are as close as possible.  
 
-However, as more and more destinations are added, the transport actually becomes a local "traveling salesman".  
+However, as more and more destinations are added, the transport actually becomes a local "travelling salesman".  
 I haven't yet taken a closer look at whether and when it's actually worth taking a short tour here.  
 But of course there is such a limit.  
 
@@ -210,7 +210,7 @@ f(5)=8% * Underlying value
 f(sometime)=5% * Underlying value
 ```
 
-These would be values ​​that I have in mind at the moment and that are either stored in a lookup table or are modeled by a function.  
+These would be values ​​that I have in mind at the moment and that are either stored in a lookup table or are modelled by a function.  
 The extent of this formula essentially depends on the range of underlying assets used.  
 A flaming sword that is needed at some point may have a base value of 10,000, but the 10 silver that is urgently needed for maintenance in another region must still result in a higher total value.  
 With the above formula, the flaming sword would be worth 500 and the 10 silver would be worth 100 -too little to be delivered.  

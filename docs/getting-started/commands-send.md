@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: sending-orders
 ---
 
@@ -71,7 +71,7 @@ However, if the orders were sent correctly to the server, they are usually proce
 For technical reasons, no confirmations will be sent on Saturdays between 8:45 p.m. and midnight.  
 **It is therefore advisable to send orders as early as possible before the ZAT at 21:00.**  
 
-If the evaluation is delayed due to technical problems or errors in the game, the evaluation in the following week will be canceled if the evaluation is not sent by 11:00 a.m. on Sunday morning at the latest.  
+If the evaluation is delayed due to technical problems or errors in the game, the evaluation in the following week will be cancelled if the evaluation is not sent by 11:00 a.m. on Sunday morning at the latest.  
 
 If no orders are received by the game leader over five rounds (so-called "NMR", No Moves Received), the faction automatically dissolves!  
 

@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: echeck
 ---
 
@@ -23,7 +23,7 @@ ECheck can be accessed in different ways:
 - In Magellan. Here you can set the options as desired.
   Magellan can also add the "meta commands" automatically.
   These are comments that help ECheck, for example, to check silver consumption.
-  However, there is actually no reason to use Magellan's ECheck anymore, since Magellan's own mechanisms (Syntax Check and "Open Problems") are more reliable and can do more
+  However, there is actually no reason to use Magellan's ECheck any more, since Magellan's own mechanisms (Syntax Check and "Open Problems") are more reliable and can do more
 - On the command line (command prompt “cmd” on Windows, in any terminal on Linux).
   Then you have to specify the parameters listed below.
 

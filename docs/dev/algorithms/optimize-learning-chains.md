@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: optimize-learning-chains
 ---
 
@@ -52,7 +52,7 @@ Then these limits, which unfortunately often have the opposite effect, must be i
 
 The first thing you should do is determine how many students a teacher should have at least, even if the skill difference is only 2 levels.  
 Furthermore, one should clarify up to which level recruits can be taught, i.e. whether T20s can also teach T0s.  
-More generally, one specifies up to which skill difference, depending on the teacher's skill, how many students must be taught at least so that this allocation is more favorable than letting teacher and student learn.  
+More generally, one specifies up to which skill difference, depending on the teacher's skill, how many students must be taught at least so that this allocation is more favourable than letting teacher and student learn.  
 The best thing to do here is to create a small diagram with the desired line/curve and then develop a function that covers it as well as possible.  
 
 I developed the following function for myself:
@@ -149,7 +149,7 @@ Some typical teacher-student chains are presented and discussed below.
   This leads to the idea of ​​using not just one teacher unit at the top but two.  
   The hope that two teachers could then take turns teaching two-thirds of the time turns out to be deceptive.  
   But you can achieve an increase in learning speed.  
-  More detailed analyzes show that a pyramid with a double top achieves the same learning speed as a normal pyramid that has one more layer.  
+  More detailed analyses show that a pyramid with a double top achieves the same learning speed as a normal pyramid that has one more layer.  
   The pyramid with a double top is somewhat less efficient (i.e. people have relatively less time to do anything other than study), but it works with fewer people.  
 - **Pyramid of 5** --The 5 pyramid works as the name suggests with a factor of 5 in unit sizes.  
   In return, a teacher always teaches 2 units and thus has 10 times the number of students.  
@@ -174,7 +174,7 @@ Some typical teacher-student chains are presented and discussed below.
 Four factors play a role when assessing a learning chain: Which one*Speed*is she learning (measured in learning attempts/week)? Like*effective*is it, i.e. how much time do people have to do something other than study? How many*Units*do you need? How many*people*do you need?  
 Young factions, for example, cannot build five-tier pyramids because they don't have that many people.  
 Older factions have to simplify their chains because of the unit limit.  
-Production units want to have a lot of time to work and only learn when it is really worth it, etc. With a few simplifications and a little mathematics, you can easily analyze learning chains regarding these four factors.  
+Production units want to have a lot of time to work and only learn when it is really worth it, etc. With a few simplifications and a little mathematics, you can easily analyse learning chains regarding these four factors.  
 
  **Simplifications:**
 
@@ -251,7 +251,7 @@ Now here's one **Overview of the learning chain analysis** for the above example
 
 ### Other influences on speed
 
-The above analyzes show how you can get more time out of 100% time by using the lessons and usually accepting a reduction in the learning speed.  
+The above analyses show how you can get more time out of 100% time by using the lessons and usually accepting a reduction in the learning speed.  
 For certain skills, however, it is extremely important to master them as well as possible and still be able to teach enough students.  
 The aim is therefore to increase the learning speed above 100% (= always learn without a teacher).  
 

@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: code-of-conduct
 ---
 
@@ -57,11 +57,11 @@ Taking over a faction for "liquidating" the faction is not a vacation replacemen
 
 Exploiting a bug to gain an advantage instead of reporting it to the game management is cheating.  
 
-### Anti-social Behavior of Players
+### Anti-social Behaviour of Players
 
 Please be nice to each other.  
 Even your most vicious enemy in the game is actually surely a nice person and does not deserve being spammed with hoax mails, nasty pictures or other things.  
-**Anti-social behavior will lead to exclusion from the game.**  
+**Anti-social behaviour will lead to exclusion from the game.**  
 
 Continue reading: [Tips for Beginners][beginner-tips].  
 

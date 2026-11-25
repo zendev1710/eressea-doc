@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: belt-of-troll-strength
 ---
 # Belt of Troll Strength

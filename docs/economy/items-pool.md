@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: items-pool
 ---
 # Items pool
@@ -81,7 +81,7 @@ Both the processing of the `RESERVE` orders and the retrieval of items are carri
 
 If a unit has multiple `RESERVE` orders for an item, this is not additive.
 Instead, all orders are executed in sequence.  
-However, this behavior is not guaranteed at the moment, so it is better for a unit to only have one `RESERVE` order per item.  
+However, this behaviour is not guaranteed at the moment, so it is better for a unit to only have one `RESERVE` order per item.  
 
 When `GIVE` is subsequently executed, items are also removed from the pool if necessary.
 Here too, the report order is followed.  

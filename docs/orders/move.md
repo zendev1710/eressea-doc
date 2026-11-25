@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: cmd-move
 ---
 
@@ -11,7 +11,7 @@ alias: cmd-move
 
 With the `MOVE` order the unit moves through the world of Eressea.
 
-The cardinal directions in Eressea are northeast, northwest, east, west, southeast and southwest.
+The cardinal directions in Eressea are north-east, north-west, east, west, south-east and south-west.
 
 | Direction   | Abbreviations  |
 |-------------|----------------|
@@ -25,7 +25,7 @@ The cardinal directions in Eressea are northeast, northwest, east, west, southea
 !!! note
     The coordinates (X, Y) are not used for this order.
 
-The order has a special behavior when it comes to [default orders], i.e. orders that the unit receives in the [move template][orders] the following week.
+The order has a special behaviour when it comes to [default orders], i.e. orders that the unit receives in the [move template][orders] the following week.
 The `MOVE` order is not included in the template.
 Instead, the long orders that the unit had in the template last week are adopted.  
 

@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: monsters
 ---
 
@@ -42,7 +42,7 @@ Sometimes it's good to just avoid them because they often calm down after a whil
 
 Igjarjuk is (or was?) an Ice Dragon, also called the **Great Wyrm**.  
 After its death, it evolved into an Undead Wyrm, a monster that intervened in the battle between [Pentagram and Tirawon][pentagram-and-tirawon] (and died a second time in the process).  
-According to rumors, Igjarjuk was last seen in the 13th World.  
+According to rumours, Igjarjuk was last seen in the 13th World.  
 
 Perhaps he has seven lives?  
 
@@ -50,7 +50,7 @@ Perhaps he has seven lives?
 
 Dragons are among the strongest monster units.  
 They hatch from eggs as young dragons, later develop into dragons and further into Wyrms.  
-There are rumors that dragons can also reach Eressea from the Sphere of Chaos.  
+There are rumours that dragons can also reach Eressea from the Sphere of Chaos.  
 
 Dragons are particularly unpleasant because they drive away and eat farmers.  
 Often the farmers killed in this way later return as [Undead][known-undead].  
@@ -140,12 +140,12 @@ Zombies mutate into [Juju Zombies][juju-zombies-id].
 
 ### Shadow Demons
 
-| Hit Points | Attack | Defense | Armour |
+| Hit Points | Attack | Defence | Armour |
 |:----------:|:------:|:-------:|:------:|
 |     50     |   8    |   11    |   3    |
 
 Shadow Demons have magic resistance.  
-Successful attacks cause **panic** in enemies, which **reduces** their attack or defense value **by 1**.  
+Successful attacks cause **panic** in enemies, which **reduces** their attack or defence value **by 1**.  
 
 In combat, a Shadow Demon triggers **3** attacks: one magical attack, one unarmed attack (2d3), one magical attack.
 
@@ -154,7 +154,7 @@ In combat, a Shadow Demon triggers **3** attacks: one magical attack, one unarme
 
 ### Shadow Masters
 
-| Hit Points | Attack | Defense | Armour |
+| Hit Points | Attack | Defence | Armour |
 |:----------:|:------:|:-------:|:------:|
 |    150     |   11   |   13    |   4    |
 

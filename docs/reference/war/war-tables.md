@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: war-tables
 ---
 
@@ -44,10 +44,10 @@ Aggregate combat values only. Rules and formulas are in [War][war].
 [^2]: crossbows only fire in the 1st and 4th rounds. A crossbow hit halves the opponent's armour protection.
 [^3]: specific features depending on the race:
 
-- [Goblins][goblins-id] do not have the -2 penalty to defense when unarmed
+- [Goblins][goblins-id] do not have the -2 penalty to defence when unarmed
 - [Trolls][trolls-id] deal more damage unarmed but cannot fight on horseback
 - [Orcs][orcs-id] fight with their best Melee skill at -3
-- [Cats][cats] receive their usual bonus, so they have -1 to Defense when unarmed
+- [Cats][cats] receive their usual bonus, so they have -1 to Defence when unarmed
 - Some races (generally only monsters and familiars) can learn the *Unarmed combat* skill and then have no penalty when fighting without a weapon
 
 *Legend:* `d` = dice (`1d11+1` = 2 to 12 damage). `⌀` is the average damage.  

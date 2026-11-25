@@ -4,7 +4,7 @@ version: '0.2'
 caseSensitive: true
 loadDefaultConfiguration: true
 
-language: "en, en-GB, fr-fr, fr_FR, de-de, de_DE"
+language: "en-GB, fr-FR, de-DE"
 
 dictionaryDefinitions:
   - name: custom-dictionary-en

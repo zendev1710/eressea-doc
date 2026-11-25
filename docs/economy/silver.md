@@ -1,5 +1,5 @@
 ---
-# cSpell:locale en
+# cSpell:locale en-GB
 alias: money
 ---
 
@@ -65,7 +65,7 @@ Undead units do not regenerate.
 The sailing skill is only reduced by one level when units are starving.  
 Nevertheless, starvation at sea is a critical situation.  
 On the one hand, nobody can work there except [aquarians][aquarians], so you are dependent on silver from outside.  
-Secondly, due to the reduction in skill, you may not be able to gather enough sailing levels to maneuver the ship, causing it to take [damage][ships-id] and drift away.
+Secondly, due to the reduction in skill, you may not be able to gather enough sailing levels to manoeuvre the ship, causing it to take [damage][ships-id] and drift away.
 
 Hunger is almost fatal if you come into contact with the enemy, e.g. due to theft or poor planning.  
 Units lose hit points and will be much weaker in any subsequent battle.  
@@ -82,7 +82,7 @@ Peasants also need sustenance, which they normally earn themselves and take from
   In the short term, the number of peasants can be higher as long as there is still enough silver in the region's supply.
 - The region is not overpopulated, but [working][cmd-work-id] player units occupy some of the jobs.
 - The peasants earn enough silver, but player units collect [taxes][cmd-tax] before the peasants can provide for themselves.
-- There are also rumors of special events that can temporarily or permanently reduce the fertility of a region, which means that the peasants can no longer earn their own living.
+- There are also rumours of special events that can temporarily or permanently reduce the fertility of a region, which means that the peasants can no longer earn their own living.
 
 Starved peasants can later be resurrected as [undead][undead].
 
@@ -230,7 +230,7 @@ It's worth equipping a ship and setting sail. Although it is possible to trade w
 ## Competition between different factions
 
 If several factions work, maintain, collect taxes or trade in a region, the possible income is divided as evenly as possible between the units.  
-It is best to consult with your neighbors, provided that they are friendly.
+It is best to consult with your neighbours, provided that they are friendly.
 
 If the region is guarded by a foreign faction, your own unit cannot collect taxes or recruit.  
 Work, entertainment and trade are possible, however, unless your own unit is on a ship.

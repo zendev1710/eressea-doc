@@ -27,6 +27,8 @@ But even the densest forest produces enough fruit, roots or mushrooms for a few 
 
 If the number of available jobs is exceeded, player units can no longer work in this region. There is no maximum for the number of trees that can be in a region.  
 
+<div class="sortable" markdown="1">
+
 | Terrain   | max. work farmers | max. trees | min. work farmers |
 |-----------|------------------:|-----------:|------------------:|
 | Desert    |               500 |         63 |                50 |
@@ -37,6 +39,8 @@ If the number of available jobs is exceeded, player units can no longer work in 
 | Plains    |             10000 |       1250 |               200 |
 | Swamp     |              2000 |        250 |               200 |
 | Volcano   |               500 |         63 |                50 |
+
+</div>
 
 Units on board ships in foreign-guarded regions cannot work or maintain themselves (see [`GUARD`][cmd-guard], [`HELP`][cmd-help] and [`ENTERTAIN`][cmd-entertain]).
 

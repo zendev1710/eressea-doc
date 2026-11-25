@@ -18,6 +18,8 @@ Building; see also table on [building castles][castles]
 
 The capacity refers only to the persons who can benefit from the building.  
 
+<div class="sortable" markdown="1">
+
 | Buildings                       | Building costs |      |      |        | Skill | Upkeep  |          | Max. | Capacity   |
 |---------------------------------|----------------|------|------|--------|-------|---------|----------|------|------------|
 |                                 | Stone          | Wood | Iron | Silver |       | Silver  | Resource |      |            |
@@ -37,9 +39,13 @@ The capacity refers only to the persons who can benefit from the building.
 | [Monument][monument-id]         | 1              | 1    | 1    | 400    | 4     | --      | --       | --   | size       |
 | [Stonecircle][stonecircle]      | 5              | 5    | --   | --     | 2     | --      | --       | 100  | 3 Persons  |
 
+</div>
+
 [^1]: also needs 2 Mallorn and 2 Laen per size point.
 
 ## Lighthouse
+
+<!-- TODO: add headers -->
 
 |                          |                                      |
 |--------------------------|--------------------------------------|
@@ -49,6 +55,8 @@ The capacity refers only to the persons who can benefit from the building.
 | Maximum size:            | --                                   |
 | Capacity:                | 4 units                              |
 
+<div class="sortable" markdown="1">
+
 | Size | Perception | Visibility |
 |-----:|-----------:|:----------:|
 |   10 |          3 |     1      |
@@ -56,6 +64,8 @@ The capacity refers only to the persons who can benefit from the building.
 |  100 |          9 |     3      |
 | 1000 |         12 |     4      |
 |  ... |            |            |
+
+</div>
 
 - Beginning from size 10, a lighthouse reduces the possibility that a ship drifts off.
   This effect extends 1+ log10(size of the lighthouse) regions around the building.

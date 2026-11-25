@@ -22,6 +22,8 @@ Doch selbst der dichteste Wald wirft für einige wenige genügend Früchte, Wurz
 Wird die Zahl vorhandener Arbeitsplätze überschritten, können auch keine Spieler-Einheiten in dieser Region mehr arbeiten.  
 Es gibt kein Maximum für die Anzahl Bäume die in einer Region stehen können.
 
+<div class="sortable" markdown="1">
+
 | Gelände   | max. arb. Bauern | max. Bäume | min. arb. Bauern |
 |-----------|-----------------:|-----------:|-----------------:|
 | Gebirge   |             1000 |        125 |              100 |
@@ -32,6 +34,8 @@ Es gibt kein Maximum für die Anzahl Bäume die in einer Region stehen können.
 | Wüste     |              500 |         63 |               50 |
 | Wald      |            10000 |       1250 |              200 |
 | Vulkan    |              500 |         63 |               50 |
+
+</div>
 
 Einheiten an Bord von Schiffen in fremd bewachten Regionen können weder arbeiten noch unterhalten (siehe [`BEWACHE`][bef-bewache], [HELFE][bef-helfe] und [`UNTERHALTE`][bef-unterhalte]).
 

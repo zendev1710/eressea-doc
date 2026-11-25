@@ -162,6 +162,8 @@ Le tableau ci-dessous définit pour chaque type de château :
 - La part du commerce
 - Le bonus de défense
 
+<div class="sortable" markdown="1">
+
 | Type                | Niv. | Bonus salaire | Part commerce | Bonus Défense |
 |---------------------|:----:|:-------------:|--------------:|:-------------:|
 | Fondation           |  T1  |       -       |             - |       -       |
@@ -171,6 +173,8 @@ Le tableau ci-dessous définit pour chaque type de château :
 | Bastion             |  T4  |  +3 silvers   |          24 % |      +3       |
 | Forteresse          |  T5  |  +4 silvers   |          30 % |      +4       |
 | Citadelle           |  T6  |  +5 silvers   |          36 % |      +5       |
+
+</div>
 
 ## Voir aussi
 

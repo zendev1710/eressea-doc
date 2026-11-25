@@ -132,12 +132,16 @@ Chaque personne peut gagner jusqu'à 20 Silver par tour et niveau de compétence
 
 *Revenus et frais d'entretien.*
 
+<div class="sortable" markdown="1">
+
 | Région | Arbres | Paysans | Max. travailleurs | Salaire | Revenu | Entretien | Surplus | [Divertissement][skill-divertissement-id]{title="Entertainment"} |
 |--------|:------:|:-------:|:-----------------:|:-------:|--------|:---------:|--------:|-----------------------------------------------------------------:|
 | Plaine |  200   |  3 742  |       8 400       |   11    | 41 162 |  37 420   |   3 742 |                                                              187 |
 | Plaine |  200   |  3 742  |       8 400       |   14    | 52 388 |  37 420   |  14 968 |                                                              748 |
 | Forêt  |  818   |  3 742  |       3 456       |   11    | 38 016 |  37 420   |     596 |                                                               29 |
 | Forêt  |  818   |  3 742  |       3 456       |   12    | 41 472 |  37 420   |   4 052 |                                                              202 |
+
+</div>
 
 Pour chaque arbre, le nombre maximum de paysans pouvant travailler est diminué de 8, pour chaque jeune arbre le nombre est diminué de 4.  
 
@@ -196,7 +200,9 @@ Le prix revient à la normale au tour suivant, les produits étant à nouveau di
 
 *Prix de base des biens de luxe.*
 
-| Produits de luxe                  | Prix de base | Poids |
+<div class="sortable" markdown="1">
+
+| Biens de luxe                     | Prix de base | Poids |
 |-----------------------------------|:------------:|:-----:|
 | [Baume][baume]{title="Balm"}      |      4       | 2 lbs |
 | [Encens][encens]{title="Incense"} |      4       | 2 lbs |
@@ -205,6 +211,8 @@ Le prix revient à la normale au tour suivant, les produits étant à nouveau di
 | [Myrrhe][myrrhe]{title="Myrrh"}   |      5       | 2 lbs |
 | [Soie][soie]{title="Silk"}        |      6       | 3 lbs |
 | [Épice][epice]{title="Spice"}     |      5       | 2 lbs |
+
+</div>
 
 Le prix de vente d'un produit de luxe est un multiple du prix de base et est indiqué dans le rapport de la région.  
 Dès que plus de 1 % des paysans ont acheté un produit au cours d'un tour, le prix de vente diminue du prix de base et n'augmente à nouveau que lentement au cours des semaines suivantes.  

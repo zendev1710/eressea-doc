@@ -13,6 +13,8 @@ Die folgende Tabelle zeigt die Gegenstände, die es auf Eressea gibt. Sie könne
 
 Gewicht, Talente und Materialbedarf
 
+<div class="sortable" markdown="1">
+
 | Gegenstand        | Gewicht | Talent        | min. | Rohstoffe            |
 |-------------------|---------|---------------|------|----------------------|
 | Silber            | 0,01    | --            | --   | --                   |
@@ -58,6 +60,8 @@ Gewicht, Talente und Materialbedarf
 | Schild            | 1       | Rüstungsbau   | 2    | 1 Eisen              |
 | Laenschild        | 0       | Rüstungsbau   | 7    | 1 Laen               |
 | Tränke            | 0       | Alchemie      | 2    | Kräuter              |
+
+</div>
 
 \* Laen und Adamantium benötigt ein Bergwerk zum Abbau.  
 

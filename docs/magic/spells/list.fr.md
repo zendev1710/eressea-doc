@@ -14,6 +14,8 @@ alias: liste-des-sorts
 
 **C** : [Cerddor][sorts-cerddor], **D** : [Draig][sorts-draig], **G** : [Gwyrrd][sorts-gwyrrd], **I** : [Illaun][sorts-illaun], **T** : [Tybied][sorts-tybied]  
 
+<div class="sortable" markdown="1">
+
 | Nom                                                                                                                       | École  | Composants                                                                                                                          | Niv. |    Type | Rang | B                                | D                            |
 |---------------------------------------------------------------------------------------------------------------------------|:------:|-------------------------------------------------------------------------------------------------------------------------------------|-----:|--------:|:----:|:---------------------------------|:-----------------------------|
 | [Accélération][acceleration]{title="Acceleration"}                                                                        |   T    | 5 x N aura                                                                                                                          |    9 |  Pré-c. |  5   |                                  |                              |
@@ -164,6 +166,8 @@ alias: liste-des-sorts
 | [Voie des Arbres][voie-des-arbres]{title="Path of Trees"}                                                                 |   G    | 3 x N aura                                                                                                                          |    9 |      -- |  7   |                                  |                              |
 | [Voie magique][voie-magique]{title=""Magic Path"}                                                                         |   G    | N aura, 1 [pierre][pierre]{title="Stone"}, 1 [bois][bois]{title="Wood"}                                                             |    4 |      -- |  5   | :material-check:{ .success }     | :material-check:{ .success } |
 | [Vol d'aura][vol-daura]{title="Steal aura"}                                                                               |   T    | 2 x N aura                                                                                                                          |    6 |      -- |  3   |                                  | :material-check:{ .success } |
+
+</div>
 
 Poursuivre la lecture : [potions][alchimie].
 

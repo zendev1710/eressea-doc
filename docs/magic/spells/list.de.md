@@ -9,6 +9,8 @@ alias: zauberliste
 
 **Legende:** **C** [Cerddor][cerddorzauber], **D** [Draig][draigzauber], **G** [Gwyrrd][gwyrrdzauber], **I** [Illaun][illaunzauber], **T** {[tybiedzauber|Tybied]}
 
+<div class="sortable" markdown="1">
+
 |  C |  D |  G |  I |  T | Name                                                                                           | Kurzbeschreibung                                                                                                                                                                                                       | Art             | Rang | Komponenten                                                                         | Modifikationen            |
 |---:|---:|---:|---:|---:|------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|------|-------------------------------------------------------------------------------------|---------------------------|
 |    |    |    |    |  5 | [Astrale Schwächezone][astrale-schwachezone]                                                   | Mit diesem Zauber kann der Magier eine Zone der astralen Schwächung erzeugen, ein lokales Ungleichgewicht im Astralen Feld.                                                                                            | Normaler Zauber | 2    | 3 aura x T                                                                          | Fernzauber                |
@@ -159,6 +161,8 @@ alias: zauberliste
 |    |    |    |    |  1 | [Wunderdoktor][wunderdoktor]                                                                   | Wenn einem der Alchemist nicht weiterhelfen kann, geht man zu dem gelehrten Tybiedmagier.                                                                                                                              | Normaler Zauber | 5    | 1 aura x T                                                                          | Schiffszauber             |
 |    |    | 16 |    |    | [Wurzeln der Magie][wurzeln-der-magie]                                                         | Mit Hilfe dieses aufwändigen Rituals läßt der Druide einen Teil seiner Kraft dauerhaft in den Boden und die Wälder der Region fliessen.                                                                                | Normaler Zauber | 5    | 250 aura, 10 permanente aura, 1 Tiegel mit Krötenschleim                            | Fernzauber                |
 |    |    |    |    | 11 | [Zeitdehnung][zeitdehnung]                                                                     | Diese praktische Anwendung des theoretischen Wissens um Raum und Zeit ermöglicht es, den Zeitfluß für einige Personen zu verändern.                                                                                    | Normaler Zauber | 5    | 5 aura x T                                                                          | Schiffszauber             |
+
+</div>
 
 Weiterlesen: [Tränke][tranke-id].
 

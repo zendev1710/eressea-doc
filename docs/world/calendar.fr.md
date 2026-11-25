@@ -95,6 +95,8 @@ Second mois d'été.
 
 Les chances de croiser une tempête en mer fluctuent au fil des mois et des saisons.
 
+<div class="sortable" markdown="1">
+
 | Mois                                                                         | Saison    | Fréquence des tempêtes |
 |------------------------------------------------------------------------------|-----------|-----------------------:|
 | [Lune des Récoltes][lune-des-recoltes]{title="Harvest Moon"}                 | Été       |                  0.5 % |
@@ -106,3 +108,5 @@ Les chances de croiser une tempête en mer fluctuent au fil des mois et des sais
 | [Pluies de Fleurs][pluies-de-fleurs]{title="Flowerrain"}                     | Printemps |                    3 % |
 | [Vents Doux][vents-doux]{title="Mild Winds"}                                 | Printemps |                  0.5 % |
 | [Feu du Soleil][feu-du-soleil]{title="Sunfire"}                              | Été       |                    3 % |
+
+</div>

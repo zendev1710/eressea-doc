@@ -75,6 +75,8 @@ Das Jahr beginnt mit einem Sommermonat.
 
 Die Wahrscheinlichkeit, auf See auf einen Sturm zu stoßen, schwankt im Laufe der Monate und Jahreszeiten.
 
+<div class="sortable" markdown="1">
+
 | Monat                                          | Jahreszeit | Sturmhäufigkeit |
 |------------------------------------------------|------------|----------------:|
 | [Feldsegen][feldsegen]                         | Sommer     |            0.5% |
@@ -86,3 +88,5 @@ Die Wahrscheinlichkeit, auf See auf einen Sturm zu stoßen, schwankt im Laufe de
 | [Blütenregen][blutenregen]                     | Frühling   |              3% |
 | [Mond der milden Winde][mond-der-milden-winde] | Frühling   |            0.5% |
 | [Sonnenfeuer][sonnenfeuer]                     | Sommer     |              3% |
+
+</div>

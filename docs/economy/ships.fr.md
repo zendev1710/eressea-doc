@@ -86,6 +86,8 @@ Les bateaux nouvellement construits ne sont situés sur aucune côte et peuvent 
 
 Bateaux - Type, portée, capacité, compétence de [voile][voile]{title="Sailing"} nécessaire, niveau de compétence de construction navale nécessaire, bois nécessaire.
 
+<div class="sortable" markdown="1">
+
 | Type      | Portée | Capacité | Capitaine/Équipage | Niv. construction |  Bois |
 |-----------|:------:|---------:|-------------------:|:-----------------:|------:|
 | Barque    |   2    |       50 |                1/2 |         1         |     5 |
@@ -94,6 +96,8 @@ Bateaux - Type, portée, capacité, compétence de [voile][voile]{title="Sailing
 | Caravelle |   5    |    3 000 |               3/30 |         3         |   250 |
 | Trirème   |   7    |    2 000 |              4/120 |         4         |   200 |
 | Galion    |   5    |   20 000 |          5/250[^2] |         5         | 2 000 |
+
+</div>
 
 [^1]: la vitesse du drakkar dépend de la compétence en voile du capitaine.  
 [^2]: pour un galion, le calcul de la compétence totale en voile ne prend en compte que les unités de niveau 2 ou plus.  

@@ -11,6 +11,8 @@ Im Report sind diese Modifikatoren bereits berücksichtigt, das heißt, es wird 
 
 Rassenmodifikatoren
 
+<div class="sortable" markdown="1">
+
 | Talent              | [Zwerge][zwerge] | [Orks][orks] | [Elfen][elfen] | [Katzen][katzen] | [Dämonen][damonen] | [Halblinge][halblinge] | [Menschen][menschen] | [Goblins][goblins-de-id] | [Insekten][insekten] | [Trolle][trolle] | [Meerm.][meermenschen] |
 |---------------------|------------------|--------------|----------------|------------------|--------------------|------------------------|----------------------|--------------------------|----------------------|------------------|------------------------|
 | Rekrutierungskosten | 110              | 70           | 130            | 90               | 150                | 80                     | 75                   | 40                       | 80                   | 90               | 80                     |
@@ -46,6 +48,8 @@ Rassenmodifikatoren
 | Waffenbau           | +2               | +2           | 0              | 0                | +1                 | 0                      | 0                    | 0                        | 0                    | 0                | 0                      |
 | Wagenbau            | 0                | -1           | 0              | 0                | -2                 | +2                     | 0                    | -1                       | 0                    | 0                | 0                      |
 | Wahrnehmung         | 0                | 0            | +1             | +2               | +1                 | +1                     | 0                    | 0                        | +1                   | -1               | 0                      |
+
+</div>
 
 Weiterlesen: [Talente][talente].
 

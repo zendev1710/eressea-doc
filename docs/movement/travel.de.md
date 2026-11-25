@@ -33,6 +33,8 @@ TODO: Katapulte
 
 Gewichte und Kapazitäten
 
+<div class="sortable" markdown="1">
+
 |                                | Gewicht | Kapazität |
 |--------------------------------|--------:|----------:|
 | Trolle                         |      20 |      10,8 |
@@ -46,6 +48,8 @@ Gewichte und Kapazitäten
 | [Karavelle][karavelle]         |      -- |      3000 |
 | [Trireme][trireme-de-id]       |      -- |      2000 |
 | [Galeone][galeone]             |      -- |     20000 |
+
+</div>
 
 ## Straßen
 

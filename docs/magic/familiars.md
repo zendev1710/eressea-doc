@@ -231,6 +231,8 @@ Features of a Rat.
 |:--:|:---------------------:|:-------:|:-------:|:----------------:|
 | 10 |           0           |    1    |    1    |        -         |
 
+<div class="sortable" markdown="1">
+
 | Propriété           | Valeur |
 |---------------------|-------:|
 | Magie               |     +0 |
@@ -239,6 +241,8 @@ Features of a Rat.
 | Perception          |     +2 |
 | Endurance           |     +0 |
 | Combat à mains nues |     +0 |
+
+</div>
 
 3 attacks: **1** magical attack, **2** unarmed attack **1d4**.
 
@@ -377,6 +381,8 @@ Others are sea creatures and good swimmers, while others can fly and cross ocean
 The following table is intended to provide a better overview of the individual familiar races.  
 If a field is empty, then the race cannot learn that skill or does not have that ability.  
 
+<div class="sortable" markdown="1">
+
 | Property               | Eagle | Demon | Delphin | Unicorn | owl | fairy | Ghost | Goblin | Hellcat | Octopus | Lynx | nymph | Rat | Giant Tortoise | Singing Dragon | Little devil | Tiger | Dreamcat | Tunnel worm | Wolf |
 |------------------------|------:|------:|--------:|--------:|----:|------:|------:|-------:|--------:|--------:|-----:|------:|----:|---------------:|---------------:|-------------:|------:|---------:|------------:|-----:|
 | Hit Points             |    15 |    50 |      24 |      40 |   9 |     6 |    30 |     16 |      40 |     300 |   20 |    15 |  10 |            900 |             40 |           10 |    30 |       10 |         300 |   25 |
@@ -388,6 +394,10 @@ If a field is empty, then the race cannot learn that skill or does not have that
 | Can move over land     |   yes |   yes |         |     yes | yes |   yes |   yes |    yes |     yes |         |  yes |   yes | yes |            yes |            yes |          yes |   yes |      yes |         yes |  yes |
 | Can enter ocean fields |   yes |       |     yes |         | yes |   yes |   yes |        |         |     yes |      |       |     |            yes |            yes |          yes |       |      yes |             |      |
 | Can use armour         |       |   yes |         |         |     |   yes |   yes |    yes |         |         |      |   yes |     |                |                |          yes |       |          |             |      |
+
+</div>
+
+<div class="sortable" markdown="1">
 
 | Skill              | Eagle | Demon | Delphin | Unicorn | Owl | Fairy | Ghost | Goblin | Hellcat | Octopus | Lynx | Nymph | Rat | Giant Tortoise | Singing Dragon | Little devil | Tiger | Dreamcat | Tunnel worm | Wolf |
 |--------------------|:-----:|:-----:|:-------:|:-------:|:---:|:-----:|:-----:|:------:|:-------:|:-------:|:----:|:-----:|:---:|:--------------:|:--------------:|:------------:|:-----:|:--------:|:-----------:|:----:|
@@ -421,6 +431,8 @@ If a field is empty, then the race cannot learn that skill or does not have that
 | Cartmaking         |       |  -2   |         |         |     |       |       |   -1   |         |         |      |  -2   |     |                |                |              |       |          |             |      |
 | Perception         |  +2   |  +1   |   +1    |   +5    | +5  |  +2   |  +0   |   +0   |   +1    |   +1    |  +4  |  +2   | +2  |       +1       |       +0       |      +1      |  +1   |    +1    |             |  +2  |
 
+</div>
+
 ## Assignment of Familiars
 
 Familiars of different races can join a mage at random -although not completely at random.  
@@ -438,6 +450,8 @@ The information on percentages **should be viewed with caution** and should be d
 
 An Elf mage with Tybied has the highest chance of getting an Owl (Magic School) or a Lynx (primary Familiar), but also a lower chance of getting a random race from the table.  
 
+<div class="sortable" markdown="1">
+
 | Race      | Primary Familiar | Illaun         | Tybied         | Cerddor        | Gwyrrd      | Draig        |
 |-----------|------------------|----------------|----------------|----------------|-------------|--------------|
 | Aquarians | Giant tortoise   | Delphin        | Giant tortoise | Delphin        | Delphin     | Krake        |
@@ -451,6 +465,8 @@ An Elf mage with Tybied has the highest chance of getting an Owl (Magic School) 
 | Insects   | Ghost            | Rat            | Owl            | Rat            | Tunnel worm | Little devil |
 | Orcs      | Goblin           | Ghost          | Little devil   | Rat            | Wolf        | Demon        |
 | Trolls    | Tunnel worm      | Rat            | Rat            | Eagle          | Tunnel worm | Wolf         |
+
+</div>
 
 Player Experiences:
 

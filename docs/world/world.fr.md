@@ -70,6 +70,8 @@ La seule différence entre une plaine et une forêt est le nombre d'arbres et de
 À partir d'un total de 600 arbres et/ou pousses, une plaine est considérée comme une forêt.  
 Ainsi, il est possible de transformer une forêt en plaine en coupant du bois ou, inversement, de transformer une plaine en forêt en la reboisant.  
 
+<div class="sortable" markdown="1">
+
 | Terrain                                        | max. travailleurs | min. travailleurs [^1] | Pierres pour routes | Plantes                                                                                               |
 |------------------------------------------------|------------------:|-----------------------:|--------------------:|-------------------------------------------------------------------------------------------------------|
 | [Désert][desert-fr-id]{title="Desert"}         |               500 |                     50 |                 100 | tamaris, peyote, pourriture de sable                                                                  |
@@ -80,6 +82,8 @@ Ainsi, il est possible de transformer une forêt en plaine en coupant du bois ou
 | [Montagne][montagne]{title="Mountain"}         |             1 000 |                    100 |                 250 | cire fissurée, herbe de roche, lichen des cavernes                                                    |
 | [Plaine][plaine]{title="Plain"}                |            10 000 |                    200 |                  50 | amour d'Elfes, champignon cobalt, œil de chouette, lierre d'araignée, racine plate, témérité piquante |
 | [Volcan][volcan]{title="Volcano"}              |               500 |                     50 |                 250 | --                                                                                                    |
+
+</div>
 
 Si le nombre d'emplois disponibles est dépassé, il devient très difficile pour les paysans de gagner le salaire hebdomadaire nécessaire.  
 Les paysans ont également besoin [d'argent][argent] (10 **silver** chaque semaine) pour survivre, qu'ils gagnent grâce au [travail][travail].  

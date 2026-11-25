@@ -29,6 +29,8 @@ alias: terrain-types
 
 <!-- TODO do not duplicate information -->
 
+<div class="sortable" markdown="1">
+
 | Terrain    | max. workers | min. workers[^1] | max. Trees | Stones for each road |
 |------------|-------------:|-----------------:|-----------:|---------------------:|
 | Desert     |          500 |               50 |         63 |                  100 |
@@ -39,6 +41,8 @@ alias: terrain-types
 | Plain[^2]  |        10000 |              200 |       1250 |                   50 |
 | Swamp      |         2000 |              200 |        250 |                   75 |
 | Volcano    |          500 |               50 |         63 |                  250 |
+
+</div>
 
 There are different numbers of jobs available in different regions.  
 Each peasant takes up one job, each sapling four jobs and each tree eight jobs.  

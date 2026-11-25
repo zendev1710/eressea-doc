@@ -69,6 +69,8 @@ The only difference between a plain and a forest is the number of trees and sapl
 From a total number of 600 trees and/or saplings, a plain is considered a forest.  
 This means that you can turn a forest into a plain by felling trees or, conversely, turn a plain into a forest by reforesting it.  
 
+<div class="sortable" markdown="1">
+
 | Terrain                | max. workers | min. workers [^1] | Stones for road | Herbs                                                                     |
 |------------------------|-------------:|------------------:|----------------:|---------------------------------------------------------------------------|
 | [Glacier][glacier-id]  |          100 |                10 |             250 | ice begonia, white hemlock, snowcrystal petal                             |
@@ -79,6 +81,8 @@ This means that you can turn a forest into a plain by felling trees or, converse
 | [Highlands][highlands] |         4000 |               200 |             100 | windbag, fjord fungus, mandrake                                           |
 | [Forest][forest]       |        10000 |               200 |              50 | flatroot , tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
 | [Plain][plain]         |        10000 |               200 |              50 | flatroot , tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
+
+</div>
 
 If the number of available jobs is exceeded, it becomes very difficult for peasants to earn the required weekly wage - peasants also need 10 silver every round to survive, which they earn through [work][cmd-work-id].  
 Larger [castles][castles] give a small bonus to the silver earned through work in the region, so that the working peasants may be able to provide for some other peasants in the region, but the risk of peasants dying, for example due to a plague, increases enormously if the number of available jobs is small.  

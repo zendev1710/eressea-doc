@@ -17,6 +17,8 @@ A Tactician who is [fighting] in the first row receives a +1 bonus to his Tactic
 
 There are also some racial bonuses to the Tactics skill that depend on the terrain:
 
+<div class="sortable" markdown="1">
+
 | Race   | Terrain           | Bonus/Malus |
 |--------|-------------------|:-----------:|
 | Elf    | Forest            | +2          |
@@ -24,16 +26,24 @@ There are also some racial bonuses to the Tactics skill that depend on the terra
 | Insect | Swamps, Desert    | +1          |
 |        | Mountain, Glacier | -1          |
 
+</div>
+
 Insects also receive an additional bonus to the Tactics skill when they appear en masse. An insect tactician receives a bonus of log10(number of fighters in his army)-1 to Tactics. This can also result in a penalty if there are very few fighters! Important: Only the fighters in your army really count. Different groups should therefore be avoided and the troops of alliance partners do not count either.
+
+<div class="sortable" markdown="1">
 
 |                    |     |       |         |            |               |                 |     |
 |--------------------|-----|-------|---------|------------|---------------|-----------------|-----|
 | Number of fighters | 1-9 | 10-99 | 100-999 | 1000-9.999 | 10.000-99.999 | 100.000-999.999 | ... |
 | bonus              | -1  | 0     | +1      | +2         | +3            | +4              | ... |
 
+</div>
+>
 ## Inspiration
 
 To allow for a little "inspiration" and luck, each tactician receives a random bonus that starts at 0 and can become very large, with the probability of this becoming smaller and smaller the larger the bonus is. If a tactician unit consists of several people, the dice are rolled once for each person.
+
+<div class="sortable" markdown="1">
 
 | Probability | Bonus | Other      |
 |------------:|:-----:|------------|
@@ -43,12 +53,18 @@ To allow for a little "inspiration" and luck, each tactician receives a random b
 |          7% |  +3   |            |
 |          3% |  +3   | roll again |
 
+</div>
+
 Depending on the number of tacticians, this results in the following average inspiration bonuses:
+
+<div class="sortable" markdown="1">
 
 |                     |      |      |      |      |      |      |      |
 |---------------------|------|------|------|------|------|------|------|
 | Number of tactician | 1    | 3    | 12   | 44   | 129  | 410  | 1480 |
 | Average Bonus       | 1.03 | 1.96 | 3.05 | 4.03 | 5.03 | 6.03 | 7.03 |
+
+</div>
 
 This means that 12 Tacticians level X reach the same level on average as one Tactician level X+2.
 You can therefore (also) replace a lack of class in Tacticians with mass, but it becomes very expensive relatively quickly.

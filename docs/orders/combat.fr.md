@@ -17,6 +17,8 @@ Cet ordre détermine la réaction d'une unité en cas de bataille (voir aussi la
 
 Ensemble des statuts de combat, de la plus forte exposition au combat à la plus faible.  
 
+<div class="sortable" markdown="1">
+
 | Statut                            | Ligne | Tentative de fuite | Adapté pour                        |
 |:----------------------------------|:------|:-------------------|:-----------------------------------|
 | [`AGGRESSIVE`][combat-aggressive] | 1ère  | Jamais             | Les combattants les moins précieux |
@@ -25,6 +27,8 @@ Ensemble des statuts de combat, de la plus forte exposition au combat à la plus
 | [`DEFENSIVE`][combat-defensive]   | 2ème  | Dégâts >= 10 %     | Les mages                          |
 | [`NOT`][combat-not]               | ---   | Dégâts >= 10 %     | Les occupants d'un bâtiment        |
 | [`FLEE`][combat-flee]             | ---   | Toujours           | Les civils                         |
+
+</div>
 
 !!! note
     une unité **en première ligne** est dite aussi au front (ou dans la mêlée).

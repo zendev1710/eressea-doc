@@ -6,6 +6,8 @@ alias: tables-potions-and-herbs
 
 ## List of alchemical potions and herbs
 
+<div class="sortable" markdown="1">
+
 | Level | Name             | Description                                                                                |
 |:-----:|------------------|--------------------------------------------------------------------------------------------|
 |   1   | Seven League Tea | 10 people fast as horses                                                                   |
@@ -24,6 +26,8 @@ alias: tables-potions-and-herbs
 |   4   | Elixir of Power  | Gives 10 people five times hit points                                                      |
 |   4   | Healing Potion   | Gives a person 200 hit points upon death                                                   |
 
+</div>
+
 In order to create a potion, you need an alchemy skill equal to twice the potion level.
 Potions that affect a unit's items expire if they cannot be used because the unit no longer has these items.
 
@@ -31,6 +35,8 @@ See [Alchemy][alchemy-id].
 
 <!-- TODO: remove duplicate information with the one in herbs.md -->
 *List of herbs and their distribution.*
+
+<div class="sortable" markdown="1">
 
 | Region                 | Herbs                                                                    |
 |------------------------|--------------------------------------------------------------------------|
@@ -42,6 +48,8 @@ See [Alchemy][alchemy-id].
 | [Plain][plain]         | flatroot, tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
 | [Swamp][swamp]         | bugleweed, knotroot, bubblemorel                                         |
 | [Volcano][volcano]     | --                                                                       |
+
+</div>
 
 See [Alchemy][alchemy-id].
 

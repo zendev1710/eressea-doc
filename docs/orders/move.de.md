@@ -11,6 +11,8 @@ alias: bef-nach
 
 Mit dem Befehl `NACH` bewegt sich die Einheit durch die Welt von Eressea. Die Himmelsrichtungen sind in Eressea Nordosten, Nordwesten, Osten, Westen, Südosten und Südwesten. Die Koordinaten werden nicht verwendet.
 
+<div class="sortable" markdown="1">
+
 | Richtung     | Abkürzungen   |
 |--------------|---------------|
 | `Nordosten`  | `NO`, `NordO` |
@@ -19,6 +21,8 @@ Mit dem Befehl `NACH` bewegt sich die Einheit durch die Welt von Eressea. Die Hi
 | `Nordwesten` | `NW`, `NordW` |
 | `Westen`     | `W`           |
 | `Südwesten`  | `SW`, `Südw`  |
+
+</div>
 
 Der Befehl hat ein besonderes Verhalten, was [Defaultbefehle][bef-default] betrifft, also Befehle, die die Einheit in der Folgewoche in der [Zugvorlage][befehl] bekommt: Der NACH-Befehl wird nicht in die Vorlage übernommen.  
 Stattdessen werden die langen Befehle übernommen, die die Einheit in der letzten Woche in der Vorlage hatte.

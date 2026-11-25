@@ -13,6 +13,8 @@ Toutefois, aucun autre ordre long ne peut être exécuté.
 
 Plus d'information : [ordres][ordres].
 
+<div class="sortable" markdown="1">
+
 | Ordre                                                               | Description                                          | C/L    |
 |---------------------------------------------------------------------|------------------------------------------------------|--------|
 | [//]                                                                | Commentaire durable                                  | C      |
@@ -151,6 +153,8 @@ Plus d'information : [ordres][ordres].
 | [`UNIT <unit-id>`][cmd-unit-fr]                                     | Commence les ordres d'une unité                      | C      |
 | [`USE  [<quantité>] "<potion>"`][cmd-use-fr]                        | Utilise une potion alchimique                        | C      |
 | [`WORK`][cmd-work-fr]                                               | Gagne 10 silver ou plus                              | L      |
+
+</div>
 
 [^1]: l'ordre n'est pas toujours long, voir [Fin de la bataille][fin-du-combat]
 [^2]: si l'unité suivie ne bouge pas, un autre ordre long peut être exécuté à la place

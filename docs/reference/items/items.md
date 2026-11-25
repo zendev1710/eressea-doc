@@ -20,6 +20,8 @@ A miner with a 4 mine in a region with "20 iron/4" can extract 4 iron per turn (
 
 Weight, skill and raw material requirements.  
 
+<div class="sortable" markdown="1">
+
 | Item                                 | Weight | Skill                            | min. |         raw material |
 |--------------------------------------|-------:|----------------------------------|-----:|---------------------:|
 | [silver][money]                      |   0,01 | --                               |   -- |                   -- |
@@ -65,6 +67,8 @@ Weight, skill and raw material requirements.
 | [laen chainmail][laen-chainmail]     |      1 | [armoursmithing][armoursmithing] |    9 |               3 laen |
 | [adamantium plate][adamantium-plate] |      1 | [armoursmithing][armoursmithing] |   10 |         3 adamantium |
 | [potions][potions-id]                |      0 | [alchemy][skill-alchemy-id]      |    2 |                herbs |
+
+</div>
 
 [^1]: laen and adamantium require a mine for extraction.
 [^2]: Elven bows can only be crafted by elves.

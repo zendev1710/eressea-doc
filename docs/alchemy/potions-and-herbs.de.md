@@ -9,6 +9,8 @@ alias: tabellen-traenke-und-kraeuter
 
 Liste der alchemistischen Tränke
 
+<div class="sortable" markdown="1">
+
 | Stufe | Name               | Beschreibung                                                                                   |
 |-------|--------------------|------------------------------------------------------------------------------------------------|
 | 1     | Siebenmeilentee    | 10 Leute schnell wie Pferde                                                                    |
@@ -26,6 +28,8 @@ Liste der alchemistischen Tränke
 | 4     | Bauernlieb         | gibt bis zu 1000 Bauern in der Region die zehnfache Chance, sich zu vermehren                  |
 | 4     | Elixier der Macht  | Gibt 10 Personen fünffache Trefferpunkte                                                       |
 | 4     | Heiltrank          | Gibt einer Person im Todesfall 200 Trefferpunkte                                               |
+
+</div>
 
 Um einen Trank herstellen zu können, braucht man das Alchemie-Talent in Höhe der doppelten Trank-Stufe. Tränke, die auf die Gegenstände einer Einheit wirken, verfallen, wenn sie nicht benutzt werden können, weil die Einheit diese Gegenstände nicht (mehr) hat.
 

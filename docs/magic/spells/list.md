@@ -9,6 +9,8 @@ alias: list-of-spells
 
 **Legend:** **C** [Cerddor][cerddor-spells], **D** [Draig][draig-spells], **G** [Gwyrrd][gwyrrd-spells], **I** [Illaun][illaun-spells], **T** [Tybied][tybied-spells]  
 
+<div class="sortable" markdown="1">
+
 |  C |  D |  G |  I |  T | Name                                                                  | Type    | Rank | Components                                                                       | Modifiers      |
 |---:|---:|---:|---:|---:|-----------------------------------------------------------------------|:--------|:----:|----------------------------------------------------------------------------------|----------------|
 |    |    |    |    |  9 | [Acceleration][acceleration-id]                                       | Pre-c.  |  5   | 5 x T aura                                                                       |                |
@@ -159,6 +161,8 @@ alias: list-of-spells
 |    |    |  9 |    |    | [Path of Trees][path-of-trees-id]                                     | --      |  7   | 3 x T aura                                                                       |                |
 |    |    |  5 |    |    | [Whirlwind][whirlwind-id]                                             | Pre-c.  |  5   | 15 aura                                                                          |                |
 |    |  6 |    |    |    | [Winds of Rust][winds-of-rust-id]                                     | Combat  |  5   | 2 x T aura                                                                       |                |
+
+</div>
 
 Continue reading: [Potions][potions-id].
 

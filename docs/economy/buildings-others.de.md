@@ -18,6 +18,8 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 
 \* außerdem 2 Mallorn und 2 Laen pro Größenpunkt
 
+<div class="sortable" markdown="1">
+
 | Gebäude                       | Baukosten |      |       |        | Talent | Unterhalt |            | Max.  | Kapazität   |
 |-------------------------------|-----------|------|-------|--------|--------|-----------|------------|-------|-------------|
 |                               | Stein     | Holz | Eisen | Silber |        | Silber    | Ressourcen |       |             |
@@ -37,7 +39,11 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 | [Monument][monument-de-id]    | 1         | 1    | 1     | 400    | 4      | --        | --         | keins | Größe       |
 | [Steinkreis]                  | 5         | 5    | --    | --     | 2      | --        | --         | 100   | 3 Personen  |
 
+</div>
+
 ## Leuchtturm
+
+<!-- TODO: add headers -->
 
 |                            |                                       |
 |----------------------------|---------------------------------------|
@@ -47,6 +53,8 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 | Größenbegrenzung:          | Keine                                 |
 | Kapazität:                 | 4 Einheiten                           |
 
+<div class="sortable" markdown="1">
+
 | Größe | Wahrnehmung | Sichtweite |
 |-------|-------------|------------|
 | 10    | 3           | 1          |
@@ -55,12 +63,16 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 | 1000  | 12          | 4          |
 | etc   |             |            |
 
+</div>
+
 - Ab einer Größe von 10 verhindert ein Leuchtturm im Umkreis von log10 (Leuchtturmgröße) + 1 Feldern das Abtreiben von Schiffen durch Stürme.
 - Ab einer Größe von 10 gibt ein Leuchtturm den Insassen (nur bis zu 4 Einheiten) Infos über Schiffsichtungen in allen Ozeanfeldern im Umkreis von 1 + log10 (Leuchtturmgröße) Feldern.  
   Die Einheit muss dafür mindestens eine Wahrnehmung von Entfernung \* 3 haben.  
   Einen Report einer drei Felder entfernten Ozeanregion bekommt man also nur, wenn der Leuchtturm mindestens Größe 100 und die Einheit mindestens Wahrnehmung 9 hat.
 
 ## Bergwerk
+
+<div class="sortable" markdown="1">
 
 |                            |                                        |
 |----------------------------|----------------------------------------|
@@ -69,6 +81,8 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 | Unterhalt pro Runde:       | 500 Silber                             |
 | Größenbegrenzung:          | keine                                  |
 | Kapazität:                 | Personen entsprechend Größe            |
+
+</div>
 
 - Von Einheiten innerhalb des Bergwerks abgebautes Eisen wird nur zur Hälfte vom Regionsvorrat abgezogen. Dieser Effekt wirkt kumulativ zusammen mit eventuell vorhandenen entsprechenden Rassenvorteilen.
 - Die Fördermenge von Erzen erhöht sich, als hätten die Insassen einen Bergbaubonus von +1. Dies gilt jedoch nicht für die Abbautiefe der Erz-Schicht.
@@ -80,6 +94,8 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 - 10 Zwerge bauen in einer Region 60 Eisen ab. Es werden durch den Zwergenbonus nur 36 Eisen vom Regionsvorrat abgezogen. Befinden sich diese Zwerge auch noch in einem Bergwerk, so werden nur 18 Eisen abgezogen. Sind nur noch 9 Eisen überhaupt in der Region vorhanden, können die Zwerge natürlich nur 15 bzw. 30 Eisen abbauen.
 
 ## Steinbruch
+
+<!-- TODO: add headers -->
 
 |                            |                                      |
 |----------------------------|--------------------------------------|
@@ -96,6 +112,8 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 
 ## Sägewerk
 
+<!-- TODO: add headers -->
+
 |                            |                                       |
 |----------------------------|---------------------------------------|
 | Baukosten pro Größenpunkt: | 5 Steine, 5 Holz, 3 Eisen, 200 Silber |
@@ -111,6 +129,8 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 
 ## Schmiede
 
+<!-- TODO: add headers -->
+
 |                            |                                       |
 |----------------------------|---------------------------------------|
 | Baukosten pro Größenpunkt: | 5 Steine, 5 Holz, 2 Eisen, 200 Silber |
@@ -123,6 +143,8 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 - In Schmieden produzierende Einheiten haben einen Bonus von +1 auf Waffenbau und Rüstungsbau.
 
 ## Pferdezucht
+
+<!-- TODO: add headers -->
 
 |                            |                                       |
 |----------------------------|---------------------------------------|
@@ -137,6 +159,8 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 - Für jeden Zuchtversuch benötigt der Züchter ein Pferd. Sind nicht genug Pferde vorhanden, verfallen die Versuche.
 
 ## Hafen
+
+<!-- TODO: add headers -->
 
 |                            |                                           |
 |----------------------------|-------------------------------------------|
@@ -157,6 +181,8 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 
 ## Akademie
 
+<!-- TODO: add headers -->
+
 |                            |                                              |
 |----------------------------|----------------------------------------------|
 | Baukosten pro Größenpunkt: | 5 Steine, 5 Holz, 1 Eisen, 500 Silber        |
@@ -174,6 +200,8 @@ Die Kapazität bezieht sich nur auf die Personen, die von dem Gebäude profitier
 [](){ #magierturm-id }
 
 ## Magierturm
+
+<!-- TODO: add headers -->
 
 |                            |                                                                      |
 |----------------------------|----------------------------------------------------------------------|

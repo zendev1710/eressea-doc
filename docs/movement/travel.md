@@ -17,6 +17,8 @@ For alle modes the orders [`MOVE`][cmd-move] or [`ROUTE`][cmd-route] are used.
 
 *Person's transport capacity according to race.*
 
+<div class="sortable" markdown="1">
+
 | Race                  | Transport capacity |
 |-----------------------|-------------------:|
 | [Goblin][goblins-id]  |            **4.4** |
@@ -31,6 +33,8 @@ For alle modes the orders [`MOVE`][cmd-move] or [`ROUTE`][cmd-route] are used.
 | [Orc][orcs-id]        |                5.4 |
 | [Troll][trolls-id]    |           **10.8** |
 
+</div>
+
 Trolls have a greater carrying capacity. Goblins have a lesser one.  
 
 A unit can increase its transport capacity through [horses and carts].  
@@ -43,6 +47,8 @@ A unit can increase its transport capacity through [horses and carts].
 !!! tip "Tip"
     Use [Goliath Water] at the opportune moment! This potion allows you to increase the carrying capacity of a unit for a limited time.
 
+<div class="sortable" markdown="1">
+
 | Ship                     | Transport capacity |
 |--------------------------|-------------------:|
 | [Boat][boat]             |                 50 |
@@ -52,9 +58,13 @@ A unit can increase its transport capacity through [horses and carts].
 | [Trireme][trireme-id]    |               2000 |
 | [Galleon][galleon]       |              20000 |
 
+</div>
+
 ## Weight
 
 *Person's weight according to race.*
+
+<div class="sortable" markdown="1">
 
 | Race                  | Weight |
 |-----------------------|-------:|
@@ -69,6 +79,8 @@ A unit can increase its transport capacity through [horses and carts].
 | [Insect][insects]     |     10 |
 | [Orc][orcs-id]        |     10 |
 | [Troll][trolls-id]    |     20 |
+
+</div>
 
 The weight of the most common items is listed in the [summary table of items].  
 

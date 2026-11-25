@@ -211,7 +211,6 @@ Compétences de production.
 | Alchimie | Trade | Herboristerie | Apprivoisement | Fabrication d'armes | Cartmaking |
 |:--------:|:-----:|:-------------:|:--------------:|:-------------------:|:----------:|
 |    +0    |  -2   |      +4       |       +5       |         -2          |     -2     |
-|    +0    |  -2   |      +4       |       +5       |         -2          |     -2     |
 
 Compétences de combat.
 
@@ -370,6 +369,8 @@ D'autres sont des créatures marines et de bons nageurs, d'autres encore peuvent
 Le tableau suivant devrait donner une meilleure vue d'ensemble des différents peuples de familiers.  
 Si une case est vide, cela signifie que le peuple ne peut pas apprendre cette compétence ou qu'elle ne dispose pas de cette capacité.  
 
+<div class="sortable" markdown="1">
+
 | Eigenschaft                | Aigle | Démon | Dauphin | Licorne | Hibou | Fée | Fantôme | Gobelin | Chat de l'Enfer | Pieuvre | Lynx | Nymphe | Rat | Tortue géante | Dragon chanteur | Diablotin | Tigre | Dreamcat | Ver des tunnels | Loup |
 |----------------------------|------:|------:|--------:|--------:|------:|----:|--------:|--------:|----------------:|--------:|-----:|-------:|----:|--------------:|----------------:|----------:|------:|---------:|----------------:|-----:|
 | Points de Vie              |    15 |    50 |      24 |      40 |     9 |   6 |      30 |      16 |              40 |     300 |   20 |     15 |  10 |           900 |              40 |        10 |    30 |       10 |             300 |   25 |
@@ -381,6 +382,10 @@ Si une case est vide, cela signifie que le peuple ne peut pas apprendre cette co
 | Peut aller dans les terres |   oui |   oui |         |     oui |   oui | oui |     oui |     oui |             oui |         |  oui |    oui | oui |           oui |             oui |       oui |   oui |      oui |             oui |  oui |
 | Peut nager                 |   oui |       |     oui |         |   oui | oui |     oui |         |                 |     oui |      |        |     |           oui |             oui |       oui |       |      oui |                 |      |
 | Peut utiliser une armure   |       |   oui |         |         |       | oui |     oui |     oui |                 |         |      |    oui |     |               |                 |       oui |       |          |                 |      |
+
+</div>
+
+<div class="sortable" markdown="1">
 
 | Compétence               | Aigle | Démon | Dauphin | Licorne | Hibou | Fée | Fantôme | Gobelin | Chat de l'Enfer | Pieuvre | Lynx | Nymphe | Rat | Tortue géante | Dragon chanteur | Diablotin | Tigre | Dreamcat | Ver des tunnels | Loup |
 |--------------------------|:-----:|:-----:|:-------:|:-------:|:-----:|:---:|:-------:|:-------:|:---------------:|:-------:|:----:|:------:|:---:|:-------------:|:---------------:|:---------:|:-----:|:--------:|:---------------:|:----:|
@@ -414,6 +419,8 @@ Si une case est vide, cela signifie que le peuple ne peut pas apprendre cette co
 | Construction de chariots |       |  -2   |         |         |       |     |         |   -1    |                 |         |      |   -2   |     |               |                 |           |       |          |                 |      |
 | Perception               |  +2   |  +1   |   +1    |   +5    |  +5   | +2  |   +0    |   +0    |       +1        |   +1    |  +4  |   +2   | +2  |      +1       |       +0        |    +1     |  +1   |    +1    |                 |  +2  |
 
+</div>
+
 ## Affectation des familiers
 
 Les familiers de différents peuples peuvent rejoindre un mage au hasard... mais pas complètement au hasard.  
@@ -431,6 +438,8 @@ Les informations sur les pourcentages **doivent être considérées avec prudenc
 
 Un mage Elfe avec Tybied a la plus grande chance d'obtenir un Hibou (École de Magie) ou un Lynx (familier principal), mais a aussi une chance (plus faible) d'obtenir un peuple aléatoire du tableau.  
 
+<div class="sortable" markdown="1">
+
 | Peuple    | Familier principal | Illaun          | Tybied        | Cerddor         | Gwyrrd          | Draig       |
 |-----------|--------------------|-----------------|---------------|-----------------|-----------------|-------------|
 | Aquariens | Tortue géante      | Dauphin         | Tortue géante | Dauphin         | Dauphin         | Pieuvre     |
@@ -444,6 +453,8 @@ Un mage Elfe avec Tybied a la plus grande chance d'obtenir un Hibou (École de M
 | Nains     | Ver des tunnels    | Aigle           | Hibou         | Lynx            | Loup            | Rat         |
 | Orcs      | Gobelin            | Fantôme         | Diablotin     | Rat             | Loup            | Démon       |
 | Trolls    | Ver des tunnels    | Rat             | Rat           | Aigle           | Ver des tunnels | Loup        |
+
+</div>
 
 Expériences de jeu :
 

@@ -75,6 +75,8 @@ They will not be able to enlarge the tower, though, due to the new required mini
 
 Building castles: building material, required Masonry skill level, wage bonus (in silvers), trade share and defence bonus.  
 
+<div class="sortable" markdown="1">
+
 | Type          | Lvl | Wage bonus | Trade share | Def. bonus |
 |---------------|:---:|:----------:|------------:|:----------:|
 | Foundation    | T1  |     -      |           - |     -      |
@@ -84,6 +86,8 @@ Building castles: building material, required Masonry skill level, wage bonus (i
 | Stronghold    | T4  | +3 silvers |         24% |     +3     |
 | Fortress      | T5  | +4 silvers |         30% |     +4     |
 | Citadel       | T6  | +5 silvers |         36% |     +5     |
+
+</div>
 
 ## See also
 

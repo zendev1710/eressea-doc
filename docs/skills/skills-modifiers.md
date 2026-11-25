@@ -9,6 +9,7 @@ The different [[races]] have, in addition to their special abilities, different 
 These are summarised in this table.
 In the report, these modifiers are already taken into account, which means that the effective level is always displayed.
 
+<div class="sortable" markdown="1">
 | Skill          | [dwarves][dwarves] | [orcs][orcs-id] | [elves][elves] | [cats][cats] | [demons][demons-id] | [halflings][halflings] | [humans][humans] | [goblins][goblins] | [insects][insects] | [trolls][trolls-id] | [aqua.][aquarians] |
 |----------------|-------------------:|----------------:|---------------:|-------------:|--------------------:|-----------------------:|-----------------:|-------------------:|-------------------:|--------------------:|-------------------:|
 | recruitment    |                110 |              70 |            130 |           90 |                 150 |                     80 |               75 |                 40 |                 80 |                  90 |                 80 |
@@ -44,6 +45,8 @@ In the report, these modifiers are already taken into account, which means that 
 | weaponsmithing |                 +2 |              +2 |              0 |            0 |                  +1 |                      0 |                0 |                  0 |                  0 |                   0 |                  0 |
 | cartmaking     |                  0 |              -1 |              0 |            0 |                  -2 |                     +2 |                0 |                 -1 |                  0 |                   0 |                  0 |
 | perception     |                  0 |               0 |             +1 |           +2 |                  +1 |                     +1 |                0 |                  0 |                 +1 |                  -1 |                  0 |
+
+</div>
 
 Continue reading: [[skills]].
 

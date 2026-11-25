@@ -64,6 +64,8 @@ Newly built ships are not located on any coast and can therefore sail to any nei
 
 Ships - type, range, capacity, needed sailing skill for captain/crew, needed building skill, needed wood.
 
+<div class="sortable" markdown="1">
+
 | Type                     | Range | Capacity | Captain/Crew | Building skill |  Wood |
 |--------------------------|:-----:|---------:|-------------:|---------------:|------:|
 | [Boat][boat]             |   2   |       50 |          1/2 |              1 |     5 |
@@ -72,6 +74,8 @@ Ships - type, range, capacity, needed sailing skill for captain/crew, needed bui
 | [Caravel][caravel]       |   5   |    3 000 |         3/30 |              3 |   250 |
 | [Trireme][trireme-id]    |   7   |    2 000 |        4/120 |              4 |   200 |
 | [Galleon][galleon]       |   5   |   20 000 |    5/250[^2] |              5 | 2 000 |
+
+</div>
 
 [^1]: Dragonship speed depends on captain sailing skill.
 [^2]: Only units from level 2 in sails are taken into account for the overall skill of the galleon.

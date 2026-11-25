@@ -78,6 +78,8 @@ sehr viele = Ab 90
 
 Liste der Kräuter und ihrer Verbreitung inkl. engl. Bezeichnung
 
+<div class="sortable" markdown="1">
+
 | Verbreitung            | Kräuter                                                                                                                                                                                      |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Berge][berge]         | [Steinbeißer][steinbeier], [Spaltwachs][spaltwachs], [Höhlenglimm][hohlenglimm]                                                                                                              |
@@ -88,6 +90,8 @@ Liste der Kräuter und ihrer Verbreitung inkl. engl. Bezeichnung
 | [Vulkan][vulkan]       | --                                                                                                                                                                                           |
 | [Wald][wald]           | [Flachwurz][flachwurz], [Würziger Wagemut][wurziger-wagemut], [Eulenauge][eulenauge], [Grüner Spinnerich][gruner-spinnerich], [Blauer Baumringel][blauer-baumringel], [Elfenlieb][elfenlieb] |
 | [Wüste][wuste]         | [Wasserfinder][wasserfinder], [Kakteenschwitz][kakteenschwitz], [Sandfäule][sandfaule]                                                                                                       |
+
+</div>
 
 Weiterlesen: [Befehle][befehl].
 

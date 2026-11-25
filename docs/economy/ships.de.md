@@ -57,6 +57,8 @@ Neu gebaute Schiffe liegen an keiner Küste und können deshalb in jede benachba
 
 Schiffe - Reichweite, Kapazität, Talente
 
+<div class="sortable" markdown="1">
+
 | Typ                            | Reichweite | Kapazität | Kapitän/Besatzung | Bautalent | Bauholz |
 |--------------------------------|:----------:|----------:|------------------:|----------:|--------:|
 | [Boot][boot]                   |     2      |        50 |               1/2 |         1 |       5 |
@@ -65,6 +67,8 @@ Schiffe - Reichweite, Kapazität, Talente
 | [Karavelle][karavelle]         |     5      |      3000 |              3/30 |         3 |     250 |
 | [Trireme][trireme-de-id]       |     7      |      2000 |             4/120 |         4 |     200 |
 | [Galeone][galeone]             |     5      |     20000 |         5/250[^2] |         5 |    2000 |
+
+</div>
 
 [^1]: Drachenschiffgeschwindigkeit abhängig vom Kapitänstalent.
 [^2]: Für das Gesamttalent der Galeone werden nur Einheiten ab T2 in Segeln herangezogen.

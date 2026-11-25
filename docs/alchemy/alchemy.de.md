@@ -271,6 +271,8 @@ Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 
 ## Tränke – Übersichtstabelle
 
+<div class="sortable" markdown="1">
+
 | Name                                   | Stufe | Wirkung              |
 |----------------------------------------|:-----:|----------------------|
 | [Trank der Wahrheit]                   |   1   | Region               |
@@ -289,7 +291,11 @@ Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 | [Elixier der Macht][elixier-der-macht] |   4   | Einheit              |
 | [Heiltrank][heiltrank]                 |   4   | Einheit              |
 
+</div>
+
 ## Kräutermatrix
+
+<div class="sortable" markdown="1">
 
 | Kraut                                  | [SM][siebenmeilentee]{title="Siebenmeilentee"} | [GW][goliathwasser]{title="Goliathwasser"} | [WL][wasser-des-lebens]{title="Wasser des Lebens"} | [BA][bauernblut]{title="Bauernblut"} | [ST][schaffenstrunk]{title="Schaffenstrunk"} | [WS][wundsalbe]{title="Wundsalbe"} | [BE][berserkerblut]{title="Berserkerblut"} | [DB][dumpfbackenbrot]{title="Dumpfbackenbrot"} | [GS][gehirnschmalz]{title="Gehirnschmalz"} | [PG][pferdegluck]{title="Pferdeglück"} | [NW][nestwarme]{title="Nestwärme"} | [BL][bauernlieb]{title="Bauernlieb"} | [EM][elixier-der-macht]{title="Elixier der Macht"} | [HT][heiltrank]{title="Heiltrank"} |
 |----------------------------------------|------------------------------------------------|--------------------------------------------|----------------------------------------------------|--------------------------------------|----------------------------------------------|------------------------------------|--------------------------------------------|------------------------------------------------|--------------------------------------------|----------------------------------------|------------------------------------|--------------------------------------|----------------------------------------------------|------------------------------------|
@@ -314,6 +320,8 @@ Zur Zubereitung dieses Tranks benötigen Sie folgende Kräuter:
 | [Windbeutel][windbeutel]               | :material-check:                               |                                            |                                                    |                                      |                                              |                                    |                                            |                                                | :material-check:                           |                                        |                                    |                                      | :material-check:                                   | :material-check:                   |
 | [Würziger Wagemut][wurziger-wagemut]   |                                                |                                            |                                                    |                                      | :material-check:                             | :material-check:                   |                                            |                                                |                                            |                                        |                                    |                                      |                                                    |                                    |
 | [Steinbeißer][steinbeier]              |                                                |                                            |                                                    |                                      |                                              |                                    |                                            |                                                | :material-check:                           |                                        |                                    | :material-check:                     |                                                    |                                    |
+
+</div>
 
 Weiterlesen: [Kräuter][krauter-id].
 

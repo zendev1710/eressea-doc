@@ -13,6 +13,8 @@ Avec l'ordre `MOVE` l'unité se déplace dans le monde d'Eressea.
 
 Les directions cardinales dans Eressea sont : le nord-est, le nord-ouest, l'est, l'ouest, le sud-est et le sud-ouest.  
 
+<div class="sortable" markdown="1">
+
 | Direction   | Abréviations   |
 |-------------|----------------|
 | `East`      | `E`            |
@@ -21,6 +23,8 @@ Les directions cardinales dans Eressea sont : le nord-est, le nord-ouest, l'est,
 | `Southeast` | `SE`, `SouthE` |
 | `Southwest` | `SW`, `SouthW` |
 | `West`      | `W`            |
+
+</div>
 
 !!! note
     Les coordonnées (abscisse X et ordonnée Y) ne sont pas utilisées pour cet ordre.

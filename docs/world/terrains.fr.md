@@ -85,6 +85,8 @@ Ces mêmes plantes poussent dans les forêts.
 
 ## Terrains - Synthèse
 
+<div class="sortable" markdown="1">
+
 | Terrain                                        | max. travailleurs | min. travailleurs [^1] | max. arbres | Pierres pour routes |
 |------------------------------------------------|------------------:|-----------------------:|------------:|--------------------:|
 | [Glacier][glacier-fr-id]{title="Glacier"}      |               100 |                     10 |          13 |                 250 |
@@ -95,6 +97,8 @@ Ces mêmes plantes poussent dans les forêts.
 | [Haut-plateau][haut-plateau]{title="Highland"} |             4 000 |                    200 |         500 |                 100 |
 | [Forêt][foret]{title="Forest"}[^2]             |            10 000 |                    200 |       1 250 |                  50 |
 | [Plaine][plaine]{title="Plain"}[^2]            |            10 000 |                    200 |       1 250 |                  50 |
+
+</div>
 
 Le nombre d'emplois disponibles varie d'une région à l'autre.  
 Chaque paysan prend un emploi, chaque pousse d'arbre en prend 4, et chaque arbre en prend 8.  

@@ -38,6 +38,8 @@ Ships piloted by a unit of aquarians from an aquarian faction (migrant aquarians
 - A dragonship with a level 2 unit of 25 persons moves 5 regions.  
   However, with 3 level 20 persons, it can move 7 regions.
 
+<div class="sortable" markdown="1">
+
 | Type                     | Range | Capacity | Captain / Crew | Shipcraft lvl | Qty of wood |
 |--------------------------|:-----:|---------:|---------------:|:-------------:|------------:|
 | [Boat][boat]             |   2   |       50 |        1 /   2 |       1       |           5 |
@@ -46,6 +48,8 @@ Ships piloted by a unit of aquarians from an aquarian faction (migrant aquarians
 | [Caravel][caravel]       |   5   |     3000 |        3 /  30 |       3       |         250 |
 | [Trireme][trireme-id]    |   7   |     2000 |        4 / 120 |       4       |         200 |
 | [Galleon][galleon]       |   5   |    20000 |    5 / 250[^2] |       5       |        2000 |
+
+</div>
 
 [^1]: Dragonship range depends on captain skill.
 [^2]: When calculating the Galleons crews total skill, only min. T2 crews are counting.

@@ -38,6 +38,8 @@ Les bateaux pilotés par une unité d'aquariens d'une faction d'aquariens (les a
 
 Bateau - Portée, Capacité, Compétence
 
+<div class="sortable" markdown="1">
+
 | Type      | Portée | Capacité | Capitaine/Équipage | Niveau en Shipcraft | Qté de bois |
 |-----------|:------:|---------:|-------------------:|:-------------------:|------------:|
 | Barque    |   2    |       50 |            1 /   2 |          1          |           5 |
@@ -46,6 +48,8 @@ Bateau - Portée, Capacité, Compétence
 | Caravelle |   5    |    3 000 |            3 /  30 |          3          |         250 |
 | Trirème   |   7    |    2 000 |            4 / 120 |          4          |         200 |
 | Galion    |   5    |   20 000 |        5 / 250[^2] |          5          |       2 000 |
+
+</div>
 
 [^1]: la portée d'un Drakkar dépend du niveau du capitaine.
 [^2]: lorsque l'on calcule le niveau total de l'équipage d'un Galioon, seuls les marins min. T2 comptent.

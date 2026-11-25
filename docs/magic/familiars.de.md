@@ -164,6 +164,8 @@ Andere sind Meereswesen und gute Schwimmer, wieder andere können fliegen und so
 Die folgende Tabelle soll eine bessere Übersicht über die einzelnen Vertrautenrassen geben.  
 Wenn ein Feld leer ist, dann kann die Rasse dieses Talent nicht lernen, bzw. hat diese Fähigkeit nicht.  
 
+<div class="sortable" markdown="1">
+
 | Eigenschaft                 | Adler | Dämon | Delphin | Einhorn | Eule | Fee | Geist | Goblin | Höllenkatze | Krake | Luchs | Nymphe | Ratte | Riesenschildkröte | Singdrache | Teufelchen | Tiger | Traumkatze | Tunnelwurm | Wolf |
 |-----------------------------|-------|-------|---------|---------|------|-----|-------|--------|-------------|-------|-------|--------|-------|-------------------|------------|------------|-------|------------|------------|------|
 | Trefferpunkte               | 15    | 50    | 24      | 40      | 9    | 6   | 30    | 16     | 40          | 300   | 20    | 15     | 10    | 900               | 40         | 10         | 30    | 10         | 300        | 25   |
@@ -206,6 +208,8 @@ Wenn ein Feld leer ist, dann kann die Rasse dieses Talent nicht lernen, bzw. hat
 | Wagenbau                    |       | -2    |         |         |      |     |       | -1     |             |       |       | -2     |       |                   |            |            |       |            |            |      |
 | Wahrnehmung                 | +2    | +1    | +1      | +5      | +5   | +2  | 0     | 0      | +1          | +1    | +4    | +2     | +2    | +1                | 0          | +1         | +1    | +1         |            | +2   |
 
+</div>
+
 ## Zuteilung von Vertrauten
 
 Vertraute unterschiedlicher Rassen können sich dem einem Magier willkürlich anschließen - allerdings nicht völlig zufällig.
@@ -220,6 +224,8 @@ Spielererfahrung: Die Angaben zu den Prozentzahlen sind mit Vorsicht zu genieße
 
 Ein Elfenmagier mit Tybied hat also die größten Chancen auf eine Eule (Magiegebiet) oder einen Luchs (Primärvertrauter), aber eben auch eine geringere Chance eine zufällige Rasse aus der Tabelle zu bekommen.
 
+<div class="sortable" markdown="1">
+
 | Rasse      | Primärvertrauter  | Illaun     | Tybied            | Cerddor    | Gwyrrd     | Draig       |
 |------------|-------------------|------------|-------------------|------------|------------|-------------|
 | Mensch     | Wolf              | Traumkatze | Eule              | Eule       | Adler      | Teufelchen  |
@@ -233,6 +239,8 @@ Ein Elfenmagier mit Tybied hat also die größten Chancen auf eine Eule (Magiege
 | Elf        | Luchs             | Fee        | Eule              | Nymphe     | Einhorn    | Teufelchen  |
 | Zwerg      | Tunnelwurm        | Adler      | Eule              | Luchs      | Wolf       | Ratte       |
 | Ork        | Goblin            | Geist      | Teufelchen        | Ratte      | Wolf       | Dämon       |
+
+</div>
 
 Spielererfahrung: Das Terrain in dem der Vertraute gerufen wird scheint keinen Einfluss auf die Vertrautenrasse zu haben.
 

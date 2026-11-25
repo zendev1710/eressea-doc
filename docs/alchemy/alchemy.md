@@ -308,6 +308,8 @@ To prepare this potion, you will need the following herbs:
 
 ## Potions - Summary table
 
+<div class="sortable" markdown="1">
+
 | Name                                           | Abbr | Level | Target           |
 |------------------------------------------------|:----:|:-----:|------------------|
 | [Goliath water][goliath-water]                 |  GW  |   1   | Unit             |
@@ -326,7 +328,11 @@ To prepare this potion, you will need the following herbs:
 | [Healing potion][healing-potion]               |  HL  |   4   | Unit             |
 | [Peasant love potion][peasant-love-potion]     |  PL  |   4   | Region           |
 
+</div>
+
 ## Herbs table
+
+<div class="sortable" markdown="1">
 
 <!-- TODO: not possible to display this table without horizontal scroll bar !? min column width is too high -->
 | Herb                                   | [SM][seven-mile-tea]{title="Seven mile tea"} | [GW][goliath-water]{title="Goliath water"} | [WL][water-of-life]{title="Water of life"} | [PB][peasant-blood]{title="Peasant blood"} | [BZ][busybeer]{title="Busybeer"} | [OM][ointment]{title="Ointment"} | [BK][berserkers-blood]{title="Berserkers blood"} | [DB][duncebun]{title="Duncebun"} | [BW][brain-wax]{title="Brain wax"} | [HP][horsepower-potion]{title="Horsepower potion"} | [NW][potion-of-nest-warmth]{title="Potion of nest warmth"} | [PL][peasant-love-potion]{title="Peasant love potion"} | [EP][elixir-of-power]{title="Elixir of power"} | [HL][healing-potion]{title="Healing potion"} |
@@ -352,6 +358,8 @@ To prepare this potion, you will need the following herbs:
 | [waterfinder][waterfinder]             |                                              |                                            |                                            |                                            |                                  |                                  |                                                  |                                  |          :material-check:          |                                                    |                                                            |                                                        |                :material-check:                |                                              |
 | [white hemlocks][white-hemlocks]       |                                              |                                            |                                            |                                            |                                  |         :material-check:         |                 :material-check:                 |                                  |                                    |                                                    |                                                            |                                                        |                                                |                                              |
 | [windbag][windbag]                     |               :material-check:               |                                            |                                            |                                            |                                  |                                  |                                                  |                                  |          :material-check:          |                                                    |                                                            |                                                        |                :material-check:                |               :material-check:               |
+
+</div>
 
 Continue reading: [herbs][herbs-id].
 

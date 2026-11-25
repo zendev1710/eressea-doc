@@ -30,6 +30,8 @@ De même, un bateau en mer ne pourra se déplacer que si son chargement ne dépa
 <!-- TODO: check catapult capacity -->
 *Capacité de transport d'une personne selon le peuple.*
 
+<div class="sortable" markdown="1">
+
 | Peuple                                    | Capacité de transport |
 |-------------------------------------------|----------------------:|
 | [Gobelin][gobelins]{title="Goblins"}      |               **4,4** |
@@ -44,6 +46,8 @@ De même, un bateau en mer ne pourra se déplacer que si son chargement ne dépa
 | [Orc][orcs-fr-id]{title="Orcs"}           |                   5,4 |
 | [Troll][trolls-fr-id]{title="Trolls"}     |              **10,8** |
 
+</div>
+
 Les trolls ont une capacité de transport supérieure aux autres peuples.
 Les Gobelins ont une capacité de transport moindre.  
 
@@ -57,6 +61,8 @@ Une unité peut augmenter sa capacité de transport grâce aux [chevaux et chari
 !!! tip "Astuce"
     Utilisez de l'[Eau de Goliath][eau-de-goliath]{title="Goliath water"} au moment opportun ! Cette potion permet d'augmenter la capacité de transport d'une unité sur une durée limitée.
 
+<div class="sortable" markdown="1">
+
 | Bateau                                    | Capacité de transport |
 |-------------------------------------------|----------------------:|
 | [Barque][barque]{title="Boat"}            |                    50 |
@@ -66,9 +72,13 @@ Une unité peut augmenter sa capacité de transport grâce aux [chevaux et chari
 | [Caravelle][caravelle]{title="Caravelle"} |                 3 000 |
 | [Galion][galion]{title="Galleon"}         |                20 000 |
 
+</div>
+
 ## Poids
 
 *Poids d'une personne selon le peuple.*
+
+<div class="sortable" markdown="1">
 
 | Peuple                                   | Poids |
 |------------------------------------------|------:|
@@ -83,6 +93,8 @@ Une unité peut augmenter sa capacité de transport grâce aux [chevaux et chari
 | [Nain][nains]{title="Dwarves"}           |    10 |
 | [Orc][orcs-fr-id]{title="Orcs"}          |    10 |
 | [Troll][trolls-fr-id]{title="Trolls"}    |    20 |
+
+</div>
 
 <!-->
 | [Chariot][chariot]{title="ar"}  |    40 |

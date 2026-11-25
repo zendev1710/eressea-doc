@@ -77,6 +77,8 @@ The year begins with a summer month.
 
 Les chances de croiser une tempête en mer fluctuent au fil des mois et des saisons.
 
+<div class="sortable" markdown="1">
+
 | Month                                | Season | Storm frequency |
 |--------------------------------------|--------|----------------:|
 | [Harvest Moon][harvest-moon]         | Summer |            0.5% |
@@ -88,3 +90,5 @@ Les chances de croiser une tempête en mer fluctuent au fil des mois et des sais
 | [Flowerrain][flowerrain]             | Spring |              3% |
 | [Mild Winds][mild-winds]             | Spring |            0.5% |
 | [Sunfire][sunfire]                   | Summer |              3% |
+
+</div>

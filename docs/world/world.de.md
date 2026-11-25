@@ -69,6 +69,8 @@ Der einzige Unterschied zwischen einer Ebene und einem Wald ist die Anzahl Bäum
 Ab einer Gesamtzahl von 600 Bäumen und/oder Schösslingen gilt eine Ebene als Wald.  
 So kann man durch Holzfällen einen Wald zu einer Ebene machen oder umgekehrt durch Aufforsten eine Ebene in einen Wald verwandeln.
 
+<div class="sortable" markdown="1">
+
 | Gelände     | max. Anzahl Arbeitsplätze | Mindestanzahl Arbeitsplätze (trotz vieler Bäume) | Steine für Straße (je Richtung) | mögliche Kräuter                                                                        |
 |-------------|---------------------------|--------------------------------------------------|---------------------------------|-----------------------------------------------------------------------------------------|
 | [Berge]     | 1000                      | 100                                              | 250                             | Steinbeißer, Spaltwachs, Höhlenglimm                                                    |
@@ -78,6 +80,8 @@ So kann man durch Holzfällen einen Wald zu einer Ebene machen oder umgekehrt du
 | [Hochland]  | 4000                      | 200                                              | 100                             | Windbeutel, Fjordwuchs, Alraune                                                         |
 | [Sumpf]     | 2000                      | 200                                              | 75                              | Gurgelkraut, Knotiger Saugwurz, Blasenmorchel                                           |
 | [Vulkan]    | 500                       | 50                                               | 250                             | --                                                                                      |
+
+</div>
 
 Wird die Zahl vorhandener Arbeitsplätze überschritten, wird es für die Bauern sehr schwierig den benötigen Wochenlohn zu erwirtschaften - auch Bauern brauchen jede Runde 10 Silber um zu überleben, die sie durch [Arbeit] verdienen.  
 Größere [[burgen]] geben zwar einen kleinen Bonus auf den Silberverdienst durch Arbeit in der Region, so dass eventuell die arbeitenden Bauern einige andere Bauern der Region mitversorgen können, aber das Risiko, dass Bauern sterben, zum Beispiel durch eine Pest, steigt enorm, wenn die Anzahl der verfügbaren Arbeitsplätze klein ist.  

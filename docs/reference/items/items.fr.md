@@ -26,6 +26,8 @@ La compétence de [fabrication d'armes][fabrication-darmes]{title="Weaponsmithin
 
 *Niveau requis dans la compétence, ressources nécessaires à la production, poids.*  
 
+<div class="sortable" markdown="1">
+
 | Arme                                                                 | Niv. |           Ressources | Poids |
 |----------------------------------------------------------------------|:----:|---------------------:|:-----:|
 | [Arbalète en mallorn][arbalete-en-mallorn]{title="Mallorn crossbow"} |  T5  |            1 mallorn | 1 lbs |
@@ -44,6 +46,8 @@ La compétence de [fabrication d'armes][fabrication-darmes]{title="Weaponsmithin
 | [Lance en mallorn][lance-en-mallorn]{title="Mallorn lance"}          |  T5  |            2 mallorn | 1 lbs |
 | [Lance][lance-fr-id]{title="Lance"}                                  |  T2  |               2 bois | 2 lbs |
 
+</div>
+
 [](){ #production-d-armures-id }
 
 ## Production d'armures
@@ -51,6 +55,8 @@ La compétence de [fabrication d'armes][fabrication-darmes]{title="Weaponsmithin
 La compétence de [fabrication d'armures][fabrication-darmures]{title="Armoursmithing"} permet de produire les **armures** suivantes.
 
 *Niveau requis dans la compétence, ressources nécessaires à la production, Poids.*  
+
+<div class="sortable" markdown="1">
 
 | Armure                                                                       | Niv. |   ressources | Poids |
 |------------------------------------------------------------------------------|-----:|-------------:|:-----:|
@@ -61,6 +67,8 @@ La compétence de [fabrication d'armures][fabrication-darmures]{title="Armoursmi
 | [Cotte de mailles en laen][cotte-de-mailles-en-laen]{title="Laen chainmail"} |   T9 |       3 laen | 1 lbs |
 | [Armure en adamantium][armure-en-adamantium]{title="Adamantium plate"}       |  T10 | 3 adamantium | 1 lbs |
 
+</div>
+
 [](){ #commerce-des-biens-de-luxe-id }
 
 ## Commerce des biens de luxe
@@ -69,6 +77,8 @@ La compétence de [commerce][commerce]{title="Trade"} permet d'acheter ou de ven
 Aucune ressource n'est nécessaire pour cela.
 
 *Niveau requis dans la compétence, Poids.*  
+
+<div class="sortable" markdown="1">
 
 | Bien de luxe                      | Niv. | Poids |
 |-----------------------------------|:----:|:-----:|
@@ -80,11 +90,15 @@ Aucune ressource n'est nécessaire pour cela.
 | [Myrrhe][myrrhe]{title="Myrrh"}   |  T1  | 2 lbs |
 | [Soie][soie]{title="Silk"}        |  T1  | 3 lbs |
 
+</div>
+
 [](){ #production-des-matieres-premieres-id }
 
 ## Production des matières premières
 
 *Compétence, niveau requis dans la compétence, ressources nécessaires à la production, poids.*  
+
+<div class="sortable" markdown="1">
 
 | Objet                                                         | compétence requise                                                | Niv. | ressources | Poids |
 |---------------------------------------------------------------|-------------------------------------------------------------------|-----:|-----------:|------:|
@@ -99,6 +113,8 @@ Aucune ressource n'est nécessaire pour cela.
 | [Graine][graines]{title="Seeds"}                              | [herboristerie][herboristerie]{title="Herbalism"}                 |   T3 |          - |   0,1 |
 | [Graine de mallorn][graines-de-mallorn]{title="Mallornseeds"} | [herboristerie][herboristerie]{title="Herbalism"}                 |   T4 |          - |   0,1 |
 
+</div>
+
 ## Production des autres objets
 
 | Objet                                                         | compétence requise                                | Niv. | ressources | Poids |
@@ -111,6 +127,8 @@ Aucune ressource n'est nécessaire pour cela.
 ## Production des objets - Synthèse
 
 *Compétence, niveau requis dans la compétence, ressources nécessaires à la production, poids.*  
+
+<div class="sortable" markdown="1">
 
 | Objet                                                                        | compétence                                                             | min. |           ressources | Poids |
 |------------------------------------------------------------------------------|------------------------------------------------------------------------|-----:|---------------------:|------:|
@@ -157,6 +175,8 @@ Aucune ressource n'est nécessaire pour cela.
 | [Cotte de mailles en laen][cotte-de-mailles-en-laen]{title="Laen chainmail"} | [Fabrication d'armures][fabrication-darmures]{title="Armoursmithing"}  |   T9 |               3 laen |     1 |
 | [Armure en adamantium][armure-en-adamantium]{title="Adamantium plate"}       | [Fabrication d'armures][fabrication-darmures]{title="Armoursmithing"}  |  T10 |         3 adamantium |     1 |
 | Potions                                                                      | [Alchimie][alchimie]{title="Alchemy"}                                  |   T2 |              Plantes |     0 |
+
+</div>
 
 [^1]: l'extraction du laen et de l'adamantium nécessitent une [mine][mine-fr-id]{title="Mine"}.
 [^2]: les Elven bows peuvent uniquement être fabriqués par des [elfes][elfes]{title="Elves"}.

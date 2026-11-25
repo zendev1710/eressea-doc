@@ -15,6 +15,8 @@ Die folgende Tabelle gibt an, wie viele Steine pro Richtung benötigt werden. Au
 
 Straßenbau
 
+<div class="sortable" markdown="1">
+
 | Gelände   | Steine | Gebäude                      |
 |-----------|--------|------------------------------|
 | Ebene     | 50     | --                           |
@@ -25,6 +27,8 @@ Straßenbau
 | Sumpf     | 75     | [Damm][damm]                 |
 | Wüste     | 100    | [Karawanserei][karawanserei] |
 | Gletscher | 250    | [Tunnel][tunnel-de-id]       |
+
+</div>
 
 **Beispiel:** Um von der Ebene bei (0,0) über den Sumpf bei (1,0) bis zum Berg in (1,1) eine Straße zu bauen, brauchst du
 

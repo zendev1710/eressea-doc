@@ -62,6 +62,8 @@ Eine größere Burg verbessert die Versorgung der Bevölkerung: Alle Arbeiter un
 
 Burgenbau - Baumaterial, Mindesttalent, Bonus und Erlösanteil
 
+<div class="sortable" markdown="1">
+
 | Typ           | ab Größe | Burgenbau | Silberbonus | Erlösanteil | Verteidigungsbonus |
 |---------------|---------:|----------:|------------:|------------:|-------------------:|
 | Grundmauern   |        1 |         1 |    0 Silber |          èè |                  0 |
@@ -71,6 +73,8 @@ Burgenbau - Baumaterial, Mindesttalent, Bonus und Erlösanteil
 | Burg          |      250 |         4 |    3 Silber |         24% |                 +3 |
 | Festung       |     1250 |         5 |    4 Silber |         30% |                 +4 |
 | Zitadelle     |     6250 |         6 |    5 Silber |         36% |                 +5 |
+
+</div>
 
 ## Siehe auch
 

@@ -85,6 +85,8 @@ Herbs will rot with time.
 <!-- TODO: remove duplicate information with the one in potions-and-herbs.md -->
 *List of herbs and their distribution.*
 
+<div class="sortable" markdown="1">
+
 | Region                 | Herbs                                                                    |
 |------------------------|--------------------------------------------------------------------------|
 | [Desert][desert-id]    | waterfinder, peyote, sand reeker                                         |
@@ -95,6 +97,8 @@ Herbs will rot with time.
 | [Plain][plain]         | flatroot, tangy temerity, owlsgaze, spider ivy, cobalt fungus, elvendear |
 | [Swamp][swamp]         | bugleweed, knotroot, bubblemorel                                         |
 | [Volcano][volcano]     | --                                                                       |
+
+</div>
 
 Continue reading: [[orders]].
 

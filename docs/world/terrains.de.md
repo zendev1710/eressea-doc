@@ -23,6 +23,8 @@ alias: gelaendearten
 
 ## Wüste
 
+<div class="sortable" markdown="1">
+
 | Gelände     | max. arbeitende Bauern | min. arbeitende Bauern | max. Bäume | Steine f. Straße (in eine Richtung) |
 |-------------|-----------------------:|-----------------------:|-----------:|------------------------------------:|
 | [Gletscher] |                    100 |                     10 |         13 |                                 250 |
@@ -33,6 +35,8 @@ alias: gelaendearten
 | [Hochland]  |                   4000 |                    200 |        500 |                                 100 |
 | [Ebene][^1] |                  10000 |                    200 |       1250 |                                  50 |
 | [Wald][^1]  |                  10000 |                    200 |       1250 |                                  50 |
+
+</div>
 
 In verschiedenen Regionen stehen unterschiedlich viele Arbeitsplätze zur Verfügung.  
 Jeder Bauer nimmt einen, jeder Schössling vier und jeder Baum acht Arbeitsplätze weg. Unter "max. Bäume" ist angegeben, wie viele Bäume/Schösslinge den gesamten Platz für "Feldarbeiter" einnehmen würden.  

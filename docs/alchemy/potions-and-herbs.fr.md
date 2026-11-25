@@ -7,6 +7,8 @@ alias: tableaux-potions-et-plantes
 
 ## Liste des potions alchimiques et plantes
 
+<div class="sortable" markdown="1">
+
 | Level | Name                                                                      | Description                                                                          |
 |:-----:|---------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
 |   1   | [Eau de Goliath][eau-de-goliath]{title="Goliath water"}                   | 10 hommes peuvent porter autant que 10 chevaux.                                      |
@@ -25,12 +27,16 @@ alias: tableaux-potions-et-plantes
 |   4   | [Élixir de pouvoir][elixir-de-pouvoir]{title="Elixir of power"}           | 10 personnes ont leurs **points de vie multipliés par 5**                            |
 |   4   | [Potion de guérison][potion-de-guerison]{title="Healing potion"}          | une personne survit à des dommages mortels (une seule fois par personne et par tour) |
 
+</div>
+
 Pour créer une potion, vous avez besoin d'une compétence en alchimie égale à 2 fois le niveau de la potion.  
 Les potions qui affectent les objets d'une unité expirent si elles ne peuvent pas être utilisées parce que l'unité ne possède plus ces objets.  
 
 <!-- TODO: remove one of the duplicate information with herbs.md -->
 
 *Plantes et leur localisation.*  
+
+<div class="sortable" markdown="1">
 
 | Région                                         | Plantes                                                                                                                                                                                                                                                                                                                                         |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -42,6 +48,8 @@ Les potions qui affectent les objets d'une unité expirent si elles ne peuvent p
 | [Montagne][montagne]{title="Mountain"}         | [cire fissurée][cire-fissuree]{title="Gapgrowth"}, [herbe de roche][herbe-de-roche]{title="Rock weed"}, [lichen des cavernes][lichen-des-cavernes]{title="Cave lichen"}                                                                                                                                                                         |
 | [Plaine][plaine]{title="Plain"}                | [amour d'Elfes][amour-delfes]{title="Elvendear"}, [champignon cobalt][champignon-cobalt]{title="Cobalt fungus"}, [œil de chouette][il-de-chouette]{title="Owlsgaze"}, [lierre d'araignée][lierre-daraignee]{title="Spider ivy"}, [racine plate][racine-plate]{title="Flatroot"}, [témérité piquante][temerite-piquante]{title="Tangy temerity"} |
 | [Volcan][volcan]{title="Volcano"}              | --                                                                                                                                                                                                                                                                                                                                              |
+
+</div>
 
 Voir [[alchimie]].
 

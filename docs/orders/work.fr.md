@@ -27,6 +27,9 @@ Si le nombre d'emplois disponibles est dépassé, les unités des joueurs ne peu
 Le nombre d’arbres pouvant se trouver dans une région n'a pas de limite.  
 
 <!-- TODO do not duplicate information -->
+
+<div class="sortable" markdown="1">
+
 | Terrain                                        | max. jobs de paysans | max. arbres | min. jobs de paysans |
 |------------------------------------------------|---------------------:|------------:|---------------------:|
 | [Désert][desert-fr-id]{title="Desert"}         |                  500 |          63 |                   50 |
@@ -37,6 +40,8 @@ Le nombre d’arbres pouvant se trouver dans une région n'a pas de limite.
 | [Montagne][montagne]{title="Mountain"}         |                1 000 |         125 |                  100 |
 | [Plaine][plaine]{title="Plain"}                |               10 000 |       1 250 |                  200 |
 | [Volcan][volcan]{title="Volcano"}              |                  500 |          63 |                   50 |
+
+</div>
 
 Les unités à bord des bateaux dans les régions gardées par des unités étrangères ne peuvent pas travailler ou s'entretenir elles-mêmes (voir [`GUARD`][cmd-guard-fr], [`HELP`][cmd-help-fr] et [`ENTERTAIN`][cmd-entertain-fr]).  
 

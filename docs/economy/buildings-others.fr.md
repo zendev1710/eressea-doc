@@ -225,6 +225,8 @@ Le coût **total** d'un Cercle de Pierres (de taille 100) est de : 500 pierres, 
 |--------------------------------------|:-------------:|:--------------------:|:-----------:|--------------|
 | 2 pierres, 1 bois, 1 fer, 100 silver |       3       |      100 silver      |     --      | 4 **unités** |
 
+<div class="sortable" markdown="1">
+
 | Taille | Perception | Visibilité |
 |-------:|-----------:|:----------:|
 |     10 |          3 |     1      |
@@ -232,6 +234,8 @@ Le coût **total** d'un Cercle de Pierres (de taille 100) est de : 500 pierres, 
 |    100 |          9 |     3      |
 |   1000 |         12 |     4      |
 |    ... |            |            |
+
+</div>
 
 Les avantages d'un phare :
 
@@ -332,6 +336,8 @@ Le tableau récapitulatif ci-dessous définit pour chaque type de bâtiment :
 - Sa taille maximale
 - Sa capacité : elle se rapporte uniquement aux personnes pouvant bénéficier du bâtiment
 
+<div class="sortable" markdown="1">
+
 | Bâtiment                                                    | Niv. | Pierres | Bois | Fers | Silver | Taille max. | Nb pers. max. |
 |-------------------------------------------------------------|-----:|--------:|-----:|:----:|-------:|------------:|:-------------:|
 | [Académie][academie]{title="Academy"}                       |   T3 |       5 |    5 |  1   |    500 |          25 |       -       |
@@ -350,9 +356,13 @@ Le tableau récapitulatif ci-dessous définit pour chaque type de bâtiment :
 | [Tour de mage][tour-de-mage]{title="Mage Tower"}[^1]        |   T5 |       5 |    3 |  3   |    500 |          50 |       2       |
 | [Tunnel][tunnel-fr-id]{title="Tunnel"}                      |   T6 |      10 |    5 |  1   |    300 |         100 |       -       |
 
+</div>
+
 ## Coûts de maintenance
 
 Le tableau récapitulatif ci-dessous définit les **coûts de maintenance par tour** pour chaque type de bâtiment.
+
+<div class="sortable" markdown="1">
 
 | Bâtiment                                                    |    Silvers | Bois | Pierres | Chevaux |
 |-------------------------------------------------------------|-----------:|:----:|:-------:|:-------:|
@@ -371,6 +381,8 @@ Le tableau récapitulatif ci-dessous définit les **coûts de maintenance par to
 | [Scierie][scierie]{title="Sawmill"}                         |        250 |  -   |    -    |    -    |
 | [Tour de mage][tour-de-mage]{title="Mage Tower"}[^1]        |      1 000 |  -   |    -    |    -    |
 | [Tunnel][tunnel-fr-id]{title="Tunnel"}                      |        100 |  -   |    2    |    -    |
+
+</div>
 
 ## Voir aussi
 

@@ -212,6 +212,8 @@ Cette plante pousse uniquement sur les [glaciers][glacier-fr-id]{title="Glacier"
 
 *Plantes et leur localisation.*  
 
+<div class="sortable" markdown="1">
+
 | Région                                         | Plantes                                                                                                                                                                                                                                                                                                                                         |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Désert][desert-fr-id]{title="Desert"}         | [tamaris][tamaris]{title="Waterfinder"}, [peyote][peyote-fr-id]{title="Peyote"}, [pourriture de sable][pourriture-de-sable]{title="Sand reeker"}                                                                                                                                                                                                |
@@ -222,6 +224,8 @@ Cette plante pousse uniquement sur les [glaciers][glacier-fr-id]{title="Glacier"
 | [Montagne][montagne]{title="Mountain"}         | [cire fissurée][cire-fissuree]{title="Gapgrowth"}, [herbe de roche][herbe-de-roche]{title="Rock weed"}, [lichen des cavernes][lichen-des-cavernes]{title="Cave lichen"}                                                                                                                                                                         |
 | [Plaine][plaine]{title="Plain"}                | [amour d'Elfes][amour-delfes]{title="Elvendear"}, [champignon cobalt][champignon-cobalt]{title="Cobalt fungus"}, [œil de chouette][il-de-chouette]{title="Owlsgaze"}, [lierre d'araignée][lierre-daraignee]{title="Spider ivy"}, [racine plate][racine-plate]{title="Flatroot"}, [témérité piquante][temerite-piquante]{title="Tangy temerity"} |
 | [Volcan][volcan]{title="Volcano"}              | --                                                                                                                                                                                                                                                                                                                                              |
+
+</div>
 
 Poursuivre la lecture : [ordres][ordres].
 

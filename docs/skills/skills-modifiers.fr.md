@@ -10,6 +10,8 @@ alias: modificateurs-de-competences
 Les différents [peuples] ont, en plus de leurs capacités spéciales, des coûts de recrutement (silver) et des modificateurs différents sur les [compétences][competences]  
 Les caractéristiques et modificateurs de compétences sont répertoriés dans le tableau ci-dessous.  
 
+<div class="sortable" markdown="1">
+
 | Compétence                                                             | [Nains][nains]{title="Dwarves"} | [Orcs][orcs-fr-id]{title="Orcs"} | [Elfes][elfes]{title="Elves"} | [Chats][chats]{title="Cats"} | [Démons][demons-fr-id]{title="Demons"} | [Halfelins][halfelins]{title="Halflings"} | [Humains][humains]{title="Humans"} | [Gobelins][gobelins]{title="Goblins"} | [Insectes][insectes]{title="Insects"} | [Trolls][trolls-fr-id]{title="Trolls"} | [Aquariens][aquariens]{title="Aquarians"} |
 |------------------------------------------------------------------------|--------------------------------:|---------------------------------:|------------------------------:|-----------------------------:|---------------------------------------:|------------------------------------------:|-----------------------------------:|--------------------------------------:|--------------------------------------:|---------------------------------------:|------------------------------------------:|
 | [Discrétion][skill-discretion-id]{title="Stealth"}                     |                              -1 |                                0 |                            +1 |                           +1 |                                     +1 |                                        +1 |                                  0 |                                    +1 |                                    -1 |                                     -3 |                                         0 |
@@ -45,6 +47,8 @@ Les caractéristiques et modificateurs de compétences sont répertoriés dans l
 | **Points de vie**                                                      |                              24 |                               24 |                            18 |                           20 |                                     50 |                                        18 |                                 20 |                                    16 |                                    24 |                                     30 |                                        20 |
 | **Résistance à la magie**                                              |                               5 |                               -5 |                            10 |                            0 |                                     15 |                                         5 |                                  0 |                                    -5 |                                     5 |                                     10 |                                         0 |
 | **Régénération**                                                       |                             5 % |                              5 % |                           5 % |                          5 % |                                  7,5 % |                                       5 % |                                5 % |                                  10 % |                                   5 % |                                  7,5 % |                                       5 % |
+
+</div>
 
 !!! note
     Dans le rapport, ces modificateurs sont déjà pris en compte, ce qui signifie que le niveau effectif est toujours affiché.

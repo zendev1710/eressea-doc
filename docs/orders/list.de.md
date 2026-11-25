@@ -17,6 +17,8 @@ Kurzliste der Befehle.
 <!-- A link containing brackets (e.g. [BEWACHE \[NICHT\]) cannot be used as a reference link -->
 <!-- instead, replace by HTML escape codes (e.g. [BEWACHE &#91;NICHT&#93;) or use inline link [...](<link>) -->
 
+<div class="sortable" markdown="1">
+
 | Befehl                                                                   | Beschreibung                                           | K/L    |
 |--------------------------------------------------------------------------|--------------------------------------------------------|--------|
 | [//]                                                                     | bleibender Kommentar                                   | K      |
@@ -155,6 +157,8 @@ Kurzliste der Befehle.
 | [ZERSTÖRE \[stufen\]][bef-zerstore-id]                                   | Gebäude oder Schiff verkleinern                        | L      |
 | [ZERSTÖRE \[stufen\] STRASSE richtung][bef-zerstore-id]                  | Straße einreißen                                       | L      |
 | [ZÜCHTE PFERDE][bef-zuchte-id]                                           | Pferde züchten - nur in Pferdezucht                    | L      |
+
+</div>
 
 [^1]: der Befehl ist nicht immer lang, siehe [Kampfende][das-ende]  
 [^2]: bewegt sich die verfolgte Einheit nicht, kann stattdessen ein anderer langer Befehl ausgeführt werden  

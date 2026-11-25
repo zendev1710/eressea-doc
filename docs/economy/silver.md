@@ -129,12 +129,16 @@ Each person can earn up to 20 silver per round and talent level in entertainment
 
 *Income and upkeep.*
 
+<div class="sortable" markdown="1">
+
 | Region | Trees | Peasants | Max. workers | Wage | Income | Upkeep | Surplus | Entertain |
 |--------|------:|---------:|-------------:|-----:|-------:|-------:|--------:|----------:|
 | Plain  |   200 |     3742 |         8400 |   11 |  41162 |  37420 |    3742 |       187 |
 | Plain  |   200 |     3742 |         8400 |   14 |  52388 |  37420 |   14968 |       748 |
 | Forest |   818 |     3742 |         3456 |   11 |  38016 |  37420 |     596 |        29 |
 | Forest |   818 |     3742 |         3456 |   12 |  41472 |  37420 |    4052 |       202 |
+
+</div>
 
 For each tree, the maximum number of peasants that may work is decreased by 8, for each sapling the number is decreased by 4.
 
@@ -185,6 +189,8 @@ Every type of trade good has a certain base price (see table below). The number 
 
 *Base prices of luxury goods.*
 
+<div class="sortable" markdown="1">
+
 | Luxury good | Base price | Weight UW/lbs |
 |-------------|------------|---------------|
 | balm        | 4          | 2             |
@@ -194,6 +200,8 @@ Every type of trade good has a certain base price (see table below). The number 
 | gem         | 7          | 1             |
 | incense     | 4          | 2             |
 | myrrh       | 5          | 2             |
+
+</div>
 
 The selling price of a luxury item in a region is a multiple of the basic price, and is declared in the report of the region. Each time more than 1% of the peasants has bought a certain good, the selling price drops by the basic price and rises again slowly in the following turns. Each turn, there is a 10% chance for each luxury good that its selling price is increased by its basic price. In regions with a [harbour][harbour], this chance is 20%. If the selling price is already 25 times the base price, it will not increase any further.
 

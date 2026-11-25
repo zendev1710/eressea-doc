@@ -22,12 +22,16 @@ S'il se trouve en 3e ou 4e ligne, sa compétence est réduite de 1.
 
 La compétence en [Tactique][tactique] bénéficie également de quelques bonus raciaux qui dépendent du terrain :
 
+<div class="sortable" markdown="1">
+
 | Peuple  | Terrain           | Bonus/Malus |
 |---------|-------------------|:-----------:|
 | Elfe    | Forêt             |     +2      |
 | Nain    | Montagne, Glacier |     +1      |
 | Insecte | Marais, Désert    |     +1      |
 |         | Montagne, Glacier |     -1      |
+
+</div>
 
 Les insectes reçoivent également un bonus supplémentaire à la Tactique lorsqu'ils apparaissent en masse.  
 Un tacticien insecte reçoit un bonus de log10(nombre de combattants dans son armée)-1 pour la Tactique.  
@@ -37,15 +41,21 @@ Important : seuls les combattants de l'armée comptent réellement.
 Il faut donc éviter de faire des groupes différents.  
 Les troupes des alliés ne comptent pas.  
 
+<div class="sortable" markdown="1">
+
 | Nombre de combattants | 1-9 | 10-99 | 100-999 | 1000-9999 | 10000-99999 | 100000-999999 |
 |-----------------------|:---:|:-----:|:-------:|:---------:|:-----------:|:-------------:|
 | Bonus                 | -1  |   0   |   +1    |    +2     |     +3      |      +4       |
 | Bonus                 | -1  |   0   |   +1    |    +2     |     +3      |      +4       |
 
+</div>
+
 ## Inspiration
 
 Afin d'introduire un peu "d'inspiration" et de chance, chaque tacticien reçoit un bonus aléatoire qui commence à 0 et peut devenir très important, avec une probabilité de plus en plus faible au fur et à mesure que le bonus augmente.  
 Si une unité de tacticiens est composée de plusieurs personnes, le dé est lancé une fois pour chaque personne.
+
+<div class="sortable" markdown="1">
 
 | Probabilité | Bonus | Autre                |
 |------------:|:-----:|----------------------|
@@ -54,6 +64,8 @@ Si une unité de tacticiens est composée de plusieurs personnes, le dé est lan
 |        20 % |  +2   |                      |
 |         7 % |  +3   |                      |
 |         3 % |  +3   | nouveau lancé de dés |
+
+</div>
 
 Il en résulte, selon le nombre de tacticiens, les bonus d'inspiration moyens suivants :
 

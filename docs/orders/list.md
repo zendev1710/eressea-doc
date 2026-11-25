@@ -16,6 +16,8 @@ More information: [orders][orders].
 <!-- A link containing brackets (e.g. [BEWACHE  &#91;NICHT&#93;) cannot be used as a reference link -->
 <!-- instead, replace by HTML escape codes (e.g. [BEWACHE &#91;[NICHT&#93;) or use inline link [...](<link>) -->
 
+<div class="sortable" markdown="1">
+
 | Order                                                                      | Description                                | S/L    |
 |----------------------------------------------------------------------------|--------------------------------------------|--------|
 | [//]                                                                       | Lasting comment                            | S      |
@@ -154,6 +156,8 @@ More information: [orders][orders].
 | [UNIT &lt;unit id&gt;]                                                     | Begins orders for a unit                   | S      |
 | [USE  &#91;&lt;number&gt;&#93; potion]                                     | Uses alchemical potion                     | S      |
 | [WORK][cmd-work]                                                           | Earns 10 silver or more                    | L      |
+
+</div>
 
 [^1]: the order is not always long, see [The end of the battle][the-end]
 [^2]: if the tracked unit does not move, another long order can be executed instead

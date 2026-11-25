@@ -17,6 +17,8 @@ The following table states how many stones per direction are needed. Furthermore
 
 Building Roads
 
+<div class="sortable" markdown="1">
+
 | Terrain  | Stones | Building                     |
 |----------|-------:|------------------------------|
 | Plain    |     50 | --                           |
@@ -27,6 +29,8 @@ Building Roads
 | Swamp    |     75 | [Dam][dam]                   |
 | Desert   |    100 | [Caravanserai][caravanserai] |
 | Glacier  |    250 | [Tunnel][tunnel-id]          |
+
+</div>
 
 **Example:** For building a road from the plain at (0,0) through the swamp at (1,0) to the mountain at (1,1) you need
 

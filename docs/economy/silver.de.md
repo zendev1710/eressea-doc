@@ -113,12 +113,16 @@ Jede Person kann pro Runde und Talentstufe Unterhaltung mit dem Befehl [`UNTERHA
 
 Verdienst und Lebenskosten
 
+<div class="sortable" markdown="1">
+
 | Region | Bäume | Bauern | Arbeitsplätze | Lohn | Einnahmen | Lebenskosten | Überschuss | Unterhaltung |
 |--------|-------|--------|---------------|------|-----------|--------------|------------|--------------|
 | Ebene  | 200   | 3742   | 8400          | 11   | 41162     | 37420        | 3742       | 187          |
 | Ebene  | 200   | 3742   | 8400          | 14   | 52388     | 37420        | 14968      | 748          |
 | Wald   | 818   | 3742   | 3456          | 11   | 38016     | 37420        | 596        | 29           |
 | Wald   | 818   | 3742   | 3456          | 12   | 41472     | 37420        | 4052       | 202          |
+
+</div>
 
 Pro Baum können 8 Bauern, pro Schössling 4 Bauern in der Region nicht arbeiten.
 
@@ -166,6 +170,8 @@ Der Einkaufspreis sinkt in der nächsten Runde wieder auf den einfachen Grundpre
 
 Grundpreise von Luxusgütern
 
+<div class="sortable" markdown="1">
+
 | Luxusgut  | Grundpreis |
 |-----------|------------|
 | Balsam    | 4          |
@@ -175,6 +181,8 @@ Grundpreise von Luxusgütern
 | Juwelen   | 7          |
 | Weihrauch | 4          |
 | Myrrhe    | 5          |
+
+</div>
 
 Der Verkaufspreis eines Luxusgutes ist ein Vielfaches des Grundpreises und ist im Regionsreport angegeben.  
 Sobald in einer Runde jeweils 1% der Bauern ein Produkt gekauft hat, sinkt der Verkaufspreis um den Grundpreis und steigt in den nächsten Wochen erst langsam wieder an.  

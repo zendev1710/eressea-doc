@@ -13,12 +13,16 @@ Ein Taktiker, der in der ersten Reihe [kämpft][bef-kampfe-id], bekommt einen Bo
 
 Auf das Talent Taktik gibt es auch einige Rassenboni die vom Terrain abhängig sind:
 
+<div class="sortable" markdown="1">
+
 | Rasse  | Terrain         | Bonus/Malus |
 |--------|-----------------|-------------|
 | Elf    | Wald            | +2          |
 | Zwerg  | Berg, Gletscher | +1          |
 | Insekt | Sumpf, Wüste    | +1          |
 |        | Berg, Gletscher | -1          |
+
+</div>
 
 Insekten bekommen zudem einen zusätzlichen Bonus auf das Talent Taktik, wenn sie in Massen auftreten. Ein Insektentaktiker bekommt einen Bonus von log10(Anzahl der Kämpfer in seinem Heer)-1 auf Taktik. Das kann bei sehr wenigen Kämpfern auch einen Malus ergeben! Wichtig: Es zählen wirklich nur die Kämpfer in seinem Heer. Unterschiedliche Gruppen sollte man also vermeiden und die Truppen der Bündnispartner zählen auch nicht.
 
@@ -31,6 +35,8 @@ Insekten bekommen zudem einen zusätzlichen Bonus auf das Talent Taktik, wenn si
 Um ein wenig "Tagesform" und Glück einfließen zu lassen, erhält jeder Taktiker einen zufälligen Bonus, der bei 0 startet und sehr groß werden kann, wobei die Wahrscheinlichkeit dafür immer geringer wird, je größer der Bonus ist.  
 Besteht eine Taktiker-Einheit aus mehreren Personen, so wird für jede Person einmal gewürfelt.  
 
+<div class="sortable" markdown="1">
+
 | Wahrscheinlichkeit | Bonus | Sonstiges       |
 |--------------------|-------|-----------------|
 | 40%                | +0    |                 |
@@ -38,6 +44,8 @@ Besteht eine Taktiker-Einheit aus mehreren Personen, so wird für jede Person ei
 | 20%                | +2    |                 |
 | 7%                 | +3    |                 |
 | 3%                 | +3    | nochmal würfeln |
+
+</div>
 
 Daraus ergeben sich je nach Taktikeranzahl folgende mittleren Tagesform-Boni:
 

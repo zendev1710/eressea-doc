@@ -84,6 +84,39 @@ tasks:
     cmds:
       - cspell lint "docs/**/*.md" -c cspell.yml -e "docs/**/*.fr.md" -e "docs/**/*.de.md"
 
+  lint:md-fr:
+    desc: Lint the french markdown files with markdownlint
+    cmds:
+      - markdownlint-cli2 "docs/**/*.fr.md"
+
+  lint:md-de:
+    desc: Lint the german markdown files with markdownlint
+    cmds:
+      - markdownlint-cli2 "docs/**/*.de.md"
+
+  lint:md-en:
+    desc: Lint the english markdown files with markdownlint
+    cmds:
+      - markdownlint-cli2 "docs/**/*.md" "!docs/**/*.fr.md" "!docs/**/*.de.md"
+
+  # into a git bash or WSL shell
+  lint:link-fr:
+    desc: Lint the french markdown links with markdown-link-check
+    cmds:
+      - find "docs/" -name "*.fr.md" -print0 | xargs -0 -n1 markdown-link-check --quiet -c .markdown-link-check.json
+
+  # into a git bash or WSL shell
+  lint:link-de:
+    desc: Lint the german markdown links with markdown-link-check
+    cmds:
+      - find "docs/" -name "*.de.md" -print0 | xargs -0 -n1 markdown-link-check --quiet -c .markdown-link-check.json
+
+  # into a git bash or WSL shell
+  lint:link-en:
+    desc: Lint the english markdown links with markdown-link-check
+    cmds:
+      - find "docs/" -name "*.md" ! -name "*.fr.md" ! -name "*.de.md" -print0 | xargs -0 -n1 markdown-link-check --quiet -c .markdown-link-check.json
+
   # into a git bash or WSL shell
   lint:md-on-changes:
     desc: Lint the modified markdown files with markdownlint (exit status code 2 if no modified files, 1 for an error, 0 otherwise)

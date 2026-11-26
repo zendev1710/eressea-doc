@@ -83,6 +83,7 @@ The `lint:*-fr`, `lint:*-de` and `lint:*-en` variants restrict a linter to one l
 2. **`lint:md`** then **`lint:spell`** — deterministic, local linters only.
 3. **`properdocs gh-deploy`** — pushes the built site to the `gh-pages` branch.
 4. **GitHub release** — creates a release whose tag (`0.9.24`) is what [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) displays as the repository version in the header, then drops the previous rolling release. A tag that exists locally (`0.9`, …) is a real release and is never deleted.
+   Its notes are a build stamp (`Documentation build <version> (<sha>)`) **prepended** to the list of commits GitHub generates since the previous release (`--generate-notes`), so the release page always shows what changed without anyone writing it. The title is passed explicitly, otherwise GitHub would invent one.
 
 > Material reads the version **client side** from `releases/latest` and caches it in `sessionStorage`: after a deploy, open a **new tab** (or clear the session storage) to see the new number.
 
@@ -126,7 +127,7 @@ task deploy
 - `lint:md` and `lint:spell` must pass
 - site content is updated on the **`gh-pages`** branch
 - the updated branch is deployed on <https://zendev1710.github.io/eressea-doc/>
-- a GitHub release is created, which updates the version displayed in the site header
+- a GitHub release is created, which updates the version displayed in the site header and carries auto-generated release notes
 
 If the git check fails, nothing is published: commit and push first.
 

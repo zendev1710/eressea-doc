@@ -108,7 +108,11 @@ tasks:
           echo "Release ${VERSION} already published"
           exit 0
         fi
+        # --generate-notes asks GitHub for the commit list since the previous
+        # release; --notes is prepended to it, so the build stamp ends up above
+        # the auto-generated "What's Changed" section.
         gh release create "${VERSION}" --target "$(git rev-parse HEAD)" --title "${VERSION}" \
+          --generate-notes \
           --notes "Documentation build ${VERSION} (${SHA})"
         # Keep a single rolling release: drop the previous one created by this
         # task. A tag that exists locally is a real release (0.9, 1.0.0, ...)

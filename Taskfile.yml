@@ -95,7 +95,10 @@ tasks:
       - task: lint:spell
       - |
         set -e
+        # git describe yields 0.9-24-g9fae305d: tag, commits since the tag,
+        # commit id. Keep tag and count only, to display a clean 0.9.24.
         VERSION="$(git describe --tags --always || echo dev)"
+        VERSION="$(printf '%s' "${VERSION}" | sed -E 's/-([0-9]+)-g[0-9a-f]+$/.\1/')"
         SHA="$(git rev-parse --short HEAD)"
         properdocs gh-deploy -m "Deployed ${SHA} - version ${VERSION}"
         # Material shows `tag_name` of releases/latest in the header (repository facts),
@@ -107,10 +110,11 @@ tasks:
         fi
         gh release create "${VERSION}" --target "$(git rev-parse HEAD)" --title "${VERSION}" \
           --notes "Documentation build ${VERSION} (${SHA})"
-        # Keep a single rolling release: drop the previous one created by this task.
-        if printf '%s' "${PREV}" | grep -Eq -- '-g[0-9a-f]{7}'; then
+        # Keep a single rolling release: drop the previous one created by this
+        # task. A tag that exists locally is a real release (0.9, 1.0.0, ...)
+        # and is never touched; ours only exist on GitHub.
+        if [ -n "${PREV}" ] && ! git rev-parse --verify --quiet "refs/tags/${PREV}" > /dev/null; then
           gh release delete "${PREV}" --yes --cleanup-tag || true
-          git tag -d "${PREV}" 2>/dev/null || true
         fi
 
   lint:

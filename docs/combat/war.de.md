@@ -445,7 +445,7 @@ Weiterlesen: [allianz][allianz].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Krieg&oldid=16610] -->
 
-[`KÄMPFE`]: [bef-kampfe-id]
+[`KÄMPFE`]: [[bef-kaempfe]]
 [bef-gruppe]: [[bef-gruppe]]
 [MACHE Katapultmunition]: [[bef-mache]]
 [`PIRATERIE <parteinummer> ...`]: [[bef-piraterie]]

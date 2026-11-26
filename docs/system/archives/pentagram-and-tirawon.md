@@ -93,6 +93,6 @@ The ones with (*) marked factions appear twice each.
 
 <!-- From [https://wiki.eressea.de/index.php?title=Pentagramm\_und\_Tirawon&oldid=3551] -->
 
-[Detailed report from Tirawon's perspective]: http://members.chello.at/r.lang/eressea/pentagramm/index.html
+[Detailed report from Tirawon's perspective]: https://web.archive.org/web/20041103110058/http://members.chello.at/r.lang/eressea/pentagramm/index.html
 
 [cmd-hide]: [[cmd-hide]]

@@ -65,4 +65,4 @@ Weiterlesen: [Danksagung][danksagung].
 
 [express@eressea.de]: mailto:express@eressea.de
 [Archiv]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express"
-[Ankündigung des neuen XE]: http://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4025
+[Ankündigung des neuen XE]: https://web.archive.org/web/20200926183847/http://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4025

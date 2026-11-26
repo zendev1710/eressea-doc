@@ -68,8 +68,8 @@ C’est exactement ce qu’il faut pour que les (futurs) informaticiens puissent
 [E-Client]: http://groups.google.com/group/eressea-client
 [vorlage-ext]: https://gulrak.de/pbemtools/
 [crtools]: http://sourceforge.net/project/showfiles.php?group_id=91825&package_id=128120
-[Plugin ExtendedCommands]: http://magellan.log-out.net/extcmds/
+[Plugin ExtendedCommands]: https://web.archive.org/web/20080407210540/http://magellan.log-out.net/extcmds/
 [FFTools 2]: http://fftools2.fietefietz.de/
-[collection de scripts]: http://www.gulrak.net/wiki/view/Gulrak/VorlageSkripte
+[collection de scripts]: https://web.archive.org/web/20081019033601/http://www.gulrak.net/wiki/view/Gulrak/VorlageSkripte
 [problème du sac à dos]: https://fr.wikipedia.org/wiki/Probl%C3%A8me_du_sac_%C3%A0_dos
 [algorithme de recherche A*]: https://fr.wikipedia.org/wiki/Algorithme_A*#:~:text=L'algorithme%20A*%20est%20un,ordre%20de%20cette%20%C3%A9valuation%20heuristique.

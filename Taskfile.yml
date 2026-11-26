@@ -62,7 +62,7 @@ tasks:
   lint:link:
     desc: Lint all the markdown links with markdown-link-check
     cmds:
-      - markdown-link-check --quiet docs
+      - markdown-link-check --quiet -c .markdown-link-check.json docs
 
   lint:spell:
     desc: Spell check all the markdown files with cspell

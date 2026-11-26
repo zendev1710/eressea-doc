@@ -68,8 +68,8 @@ Für (angehende) Informatiker genau das richtige sich in der Praxis mit Alorithm
 [CSMapFx]: https://github.com/ennorehling/csmapfx
 [vorlage-ext]: https://gulrak.de/pbemtools/
 [crtools]: http://sourceforge.net/project/showfiles.php?group_id=91825&package_id=128120
-[ExtendedCommands Plugin]: http://magellan.log-out.net/extcmds/
+[ExtendedCommands Plugin]: https://web.archive.org/web/20080407210540/http://magellan.log-out.net/extcmds/
 [FFTools 2]: http://fftools2.fietefietz.de/
-[Skriptsammlung]: http://www.gulrak.net/wiki/view/Gulrak/VorlageSkripte
+[Skriptsammlung]: https://web.archive.org/web/20081019033601/http://www.gulrak.net/wiki/view/Gulrak/VorlageSkripte
 [Rucksackproblem]: https://de.wikipedia.org/wiki/Rucksackproblem
 [A*-Algorithmus]: https://de.wikipedia.org/wiki/A*-Algorithmus

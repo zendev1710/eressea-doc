@@ -1,6 +1,18 @@
 {
   "ignorePatterns": [
     {
+      "pattern": "(\\[\\[|%5B%5B)"
+    },
+    {
+      "pattern": "karten\\.adi\\.tz-o\\.de/Inselnamen\\.jpg"
+    },
+    {
+      "pattern": "title=Enno"
+    },
+    {
+      "pattern": "files/echeck\\.zip"
+    },
+    {
       "pattern": "127.0.0.1:8000"
     },
     {

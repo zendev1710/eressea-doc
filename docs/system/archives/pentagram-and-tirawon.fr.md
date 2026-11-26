@@ -96,6 +96,6 @@ Et :
 
 <!-- From [https://wiki.eressea.de/index.php?title=Pentagramm\_und\_Tirawon&oldid=3551] -->
 
-[Rapport détaillé du point de vue de Tirawon]: http://members.chello.at/r.lang/eressea/pentagramm/index.html
+[Rapport détaillé du point de vue de Tirawon]: https://web.archive.org/web/20041103110058/http://members.chello.at/r.lang/eressea/pentagramm/index.html
 
 [cmd-hide-fr]: [[cmd-hide-fr]]

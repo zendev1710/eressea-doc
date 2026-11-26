@@ -355,4 +355,4 @@ int metaGetUnitSkillLevel(Unit unit, String skillName) {//eigentlich aus Helper 
 
 <!-- From [https://wiki.eressea.de/index.php?title=ExtendedCommands&oldid=5882] -->
 
-[offiziellen Seite]: http://magellan.narabi.de/plugins_extcmds_en.php
+[offiziellen Seite]: https://web.archive.org/web/20231207172445/http://magellan.narabi.de/plugins_extcmds_en.php

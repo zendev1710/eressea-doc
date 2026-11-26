@@ -137,7 +137,7 @@ Weiterlesen: [Xontormia-Express][xontormia-express-de-id].
 <!-- From [https://wiki.eressea.de/index.php?title=Anfängertipps&oldid=17013] -->
 
 [1]: https://discord.gg/JyAeYJw%7CDiscord
-[PbEm-Spiele-Forum]: http://www.pbem-spiele.de/
+[PbEm-Spiele-Forum]: https://web.archive.org/web/20260722020118/http://www.pbem-spiele.de/
 
 [Passwort]: [[bef-passwort]]
 [Unterhaltung]: [[bef-unterhalte]]

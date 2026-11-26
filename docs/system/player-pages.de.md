@@ -31,7 +31,7 @@ Seit eh und je machen Spieler ihre eigenen Eressea-Seiten. Wenn Du eine eigene h
 
 [Flickr Pool]: http://www.flickr.com/groups/eressea/
 [Berlin 2009]: http://www.mogulat.de/treffen/2009
-[Interdimensionale Tee- und Handelsgesellschaft GmbH]: http://www.informatik.uni-oldenburg.de/~ingo/eressea/ithg.html
+[Interdimensionale Tee- und Handelsgesellschaft GmbH]: https://web.archive.org/web/20100617044708/http://www.informatik.uni-oldenburg.de/~ingo/eressea/ithg.html
 [Zwerge von Brogars Clan]: http://www.cedrik.net/eressea/index.html
 [Imperium Romanum]: http://roma.ste-net.de/nuntius.php4
 [KBC]: http://www.vorlon.ruhr.de/kbc.html

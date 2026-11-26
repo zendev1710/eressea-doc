@@ -38,17 +38,17 @@ alias: atlantis-de
 
 <!-- From [https://wiki.eressea.de/index.php?title=Atlantis&oldid=8200] -->
 
-[Atlantis]: http://www.atlantis-pbem.com/
-[Atlantis 4 und 5]: http://www.atlantis-pbem.org/
+[Atlantis]: https://web.archive.org/web/20261011233517/http://www.atlantis-pbem.com/
+[Atlantis 4 und 5]: https://web.archive.org/web/20140516211231/http://www.atlantis-pbem.org/
 [Atlantis 1 bis 3]: http://www.prankster.com/project/
 [Arnos Atlantis]: http://arno-saxena.de/atlantis/atl_home.php
 [Fantasya]: http://www.fantasya-pbem.de/
-[Ennos Atlantis, Codename Atlas]: http://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=3743
+[Ennos Atlantis, Codename Atlas]: https://web.archive.org/web/20210119210553/http://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=3743
 [Vinyambar (KDM)]: https://web.archive.org/web/20070209192651/http://vinyambar.de/rules.shtml#kdm
 [German Atlantis (GA)]: https://web.archive.org/web/20181117203743/http://www.german-atlantis.de/page.php
 [Rorqual]: https://web.archive.org/web/20080117202437/http://www.rorqual.de:80/
 [Empiria]: https://web.archive.org/web/20070515194011/http://www.ciao.de/Empiria_PBeM__412684
-[Sitanleta]: https://www.sitanleta.de/
+[Sitanleta]: https://web.archive.org/web/20250622134541/https://www.sitanleta.de/
 [Allanon]: https://web.archive.org/web/20101227183824/http://www.allanon-pbem.de:80/
 [Menouthis]: https://web.archive.org/web/20090512163943/http://www.menouthis.net:80/
 [Wikipedia]: http://en.wikipedia.org/wiki/Atlantis_PbeM

@@ -75,4 +75,4 @@ Poursuivre la lecture : [le monde d'Eressea][le-monde-d-eressea-id].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Einleitung/fr&oldid=16807] -->
 
-[Xontormia Express]: https://wiki.eressea.de/xontormia_express
+[Xontormia Express]: https://wiki.eressea.de/index.php?title=Xontormia_Express

@@ -18,4 +18,4 @@ A comparison of the quality of the solutions found is still pending.
 <!-- From [https://wiki.eressea.de/index.php?title=Automatisierung\_Lernketten&oldid=2577] -->
 
 [genetic algorithm]: http://de.wikipedia.org/wiki/Genetischer_Algorithmus
-[Teacher Plugin]: http://magellan.log-out.net/plugins_teacher_de.php
+[Teacher Plugin]: https://web.archive.org/web/20120912020951/http://magellan.log-out.net/plugins_teacher_de.php

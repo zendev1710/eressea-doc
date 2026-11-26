@@ -143,7 +143,7 @@ Poursuivre la lecture : [Xontormia Express][xontormia-express-fr-id].
 <!-- From [https://wiki.eressea.de/index.php?title=Anfängertipps&oldid=17013] -->
 
 [serveur Discord d'Eressea]: https://discord.gg/JyAeYJw%7CDiscord
-[forum des Jeux PbEm]: http://www.pbem-spiele.de/
+[forum des Jeux PbEm]: https://web.archive.org/web/20260722020118/http://www.pbem-spiele.de/
 
 [cmd-contact-fr]: [[cmd-contact-fr]]
 [cmd-entertain-fr]: [[cmd-entertain-fr]]

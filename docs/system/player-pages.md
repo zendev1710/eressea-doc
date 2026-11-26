@@ -32,7 +32,7 @@ If you have your own or know one that is still missing here, please just add it.
 
 [Flickr Pool]: http://www.flickr.com/groups/eressea/
 [Berlin 2009]: http://www.mogulat.de/treffen/2009
-[Inter-dimensional Tea and Trading Company GmbH]: http://www.informatik.uni-oldenburg.de/~ingo/eressea/ithg.html
+[Inter-dimensional Tea and Trading Company GmbH]: https://web.archive.org/web/20100617044708/http://www.informatik.uni-oldenburg.de/~ingo/eressea/ithg.html
 [Dwarves of Brogar's Clan]: http://www.cedrik.net/eressea/index.html
 [Imperium Romanum]: http://roma.ste-net.de/nuntius.php4
 [KBC]: http://www.vorlon.ruhr.de/kbc.html

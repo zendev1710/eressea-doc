@@ -76,6 +76,6 @@ Poursuivre la lecture : [[remerciements]].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Xontormia\_Express&oldid=16988] -->
 
-[Annonce du nouveau XE]: http://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4025
+[Annonce du nouveau XE]: https://web.archive.org/web/20200926183847/http://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4025
 [archives]: https://wiki.eressea.de/Kategorie:Xontormia_Express
 [express@eressea.de]: mailto:express@eressea.de

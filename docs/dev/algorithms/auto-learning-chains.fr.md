@@ -17,4 +17,4 @@ Une comparaison de la qualité des solutions obtenues reste à faire.
 <!-- From [https://wiki.eressea.de/index.php?title=Automatisierung\_Lernketten&oldid=2577] -->
 
 [algorithme génétique]: http://de.wikipedia.org/wiki/Genetischer_Algorithmus
-[plugin d'enseignement]: http://magellan.log-out.net/plugins_teacher_de.php "Unavailable site !"
+[plugin d'enseignement]: https://web.archive.org/web/20120912020951/http://magellan.log-out.net/plugins_teacher_de.php "Unavailable site !"

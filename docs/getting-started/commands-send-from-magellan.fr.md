@@ -53,7 +53,7 @@ Dans l'interface GMX, il sera nécessaire d’accorder une autorisation externe 
 La configuration correspondante devrait ressembler à ceci :
 
 <!-- TODO: frame surrrounding the image -->
-![GMX - Autorisation](../img-gmx-enable-third-party-apps.png "Exemple de configuration d'autorisation dans GMX")
+![GMX - Autorisation](../img-gmx-enable-third-party-apps.fr.png "Exemple de configuration d'autorisation dans GMX")
 
 Pour pouvoir renseigner la bonne configuration dans Magellan, vous pouvez consulter les pages d'aide GMX suivantes :
 
@@ -63,7 +63,7 @@ Pour pouvoir renseigner la bonne configuration dans Magellan, vous pouvez consul
 *Exemple de configuration GMX dans Magellan.*
 
 <!-- TODO: frame surrrounding the image -->
-![GMX - Configuration email](../img-gmx-email-settings.png "Exemple de configuration email GMX dans Magellan")
+![GMX - Configuration email](../img-gmx-email-settings.fr.png "Exemple de configuration email GMX dans Magellan")
 
 <!-- cspell:disable -->
 **Sender's address:** votre adresse e-mail GMX (suffixée par @gmx.com)  

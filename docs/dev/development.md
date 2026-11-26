@@ -68,8 +68,8 @@ This is exactly the right thing for (prospective) computer scientists to deal wi
 [CSMapFx]: https://github.com/ennorehling/csmapfx
 [vorlage-ext]: https://gulrak.de/pbemtools/
 [crtools]: http://sourceforge.net/project/showfiles.php?group_id=91825&package_id=128120
-[ExtendedCommands Plugin]: http://magellan.log-out.net/extcmds/
+[ExtendedCommands Plugin]: https://web.archive.org/web/20080407210540/http://magellan.log-out.net/extcmds/
 [FFTools 2]: http://fftools2.fietefietz.de/
-[Script collection]: http://www.gulrak.net/wiki/view/Gulrak/VorlageSkripte
+[Script collection]: https://web.archive.org/web/20081019033601/http://www.gulrak.net/wiki/view/Gulrak/VorlageSkripte
 [backpack problem]: https://en.wikipedia.org/wiki/Knapsack_problem
 [A* search algorithm]: https://en.wikipedia.org/wiki/A*_search_algorithm

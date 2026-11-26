@@ -95,6 +95,6 @@ Und:
 
 <!-- From [https://wiki.eressea.de/index.php?title=Pentagramm\_und\_Tirawon&oldid=3551] -->
 
-[Ausführlicher Bericht aus der Sicht Tirawons]: http://members.chello.at/r.lang/eressea/pentagramm/index.html
+[Ausführlicher Bericht aus der Sicht Tirawons]: https://web.archive.org/web/20041103110058/http://members.chello.at/r.lang/eressea/pentagramm/index.html
 
 [falschem Banner]: [[bef-tarne]]

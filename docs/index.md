@@ -87,21 +87,21 @@ Continue reading: [rules][rules].
 
 [Discord]: https://discord.gg/KT5Fffh
 [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
-[Xontormia Express]: https://wiki.eressea.de/xontormia_express "Xontormia Express"
+[Xontormia Express]: https://wiki.eressea.de/index.php?title=Xontormia_Express "Xontormia Express"
 [archived issues]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express (wiki)"
 [announcements]: https://wiki.eressea.de/Ankündigungen "Ankündigungen (wiki)"
 [An overview about race changes (in German)]: https://wiki.eressea.de/Rassen_im_dritten_Zeitalter "Rassen im dritten Zeitalter (wiki)"
 [Announcements from the e3-announce mailing list]: https://wiki.eressea.de/Ankündigungen_(E3) "Ankündigungen E3 (wiki)"
 [Patreons]: https://www.patreon.com/enno
-[Forum thread (in German)]: https://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4170
+[Forum thread (in German)]: https://web.archive.org/web/20210121232151/https://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4170
 [Rules (in German)]: https://paper.dropbox.com/doc/Drachensgrab-Testspiel-xD9tI7HrmF91J3Dp7t5cc
 [Eressea home page]: https://www.eressea.de
 [**Registration for E2 is open!**]: https://www.eressea.de/?page_id=189&lang=en
-[Forum]: https://www.pbem-spiele.de/forum/viewforum.php?f=16
+[Forum]: https://web.archive.org/web/20260613192543/https://www.pbem-spiele.de/forum/viewforum.php?f=16
 [Mantis]: https://bugs.eressea.de/
 [magellan-ext]: https://magellan2.github.io
 [CSMapFx]: https://www.eressea.kn-bremen.de/downloads/
-[Ralf Duckstein's Eressea wiki]: http://wiki.duckstein.net/Eressea/Eressea
+[Ralf Duckstein's Eressea wiki]: https://web.archive.org/web/20221001113150/http://wiki.duckstein.net/Eressea/Eressea
 [Eressea on Wikipedia]: https://en.wikipedia.org/wiki/Eressea_(video_game)
 [map of the known world]: https://karten.adi.tz-o.de/Inselnamen.jpg
 [Who is Who of Eressea (in the Internet Archive, in German)]: https://web.archive.org/web/20100201233418/http://whoiswho.draig.de/

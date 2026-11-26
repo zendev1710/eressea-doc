@@ -47,4 +47,4 @@ Weiterlesen: [Welt][welt].
 
 <!-- From [https://wiki.eressea.de/index.php?title=Einleitung/de&oldid=16805] -->
 
-[Xontormia Express]: https://wiki.eressea.de/xontormia_express "Xontormia Express"
+[Xontormia Express]: https://wiki.eressea.de/index.php?title=Xontormia_Express "Xontormia Express"

@@ -50,4 +50,4 @@ Continue reading: [World][world].
 
 <!-- from [https://wiki.eressea.de/index.php?title=Einleitung/en&oldid=16806] -->
 
-[Xontormia Express]: https://wiki.eressea.de/xontormia_express
+[Xontormia Express]: https://wiki.eressea.de/index.php?title=Xontormia_Express

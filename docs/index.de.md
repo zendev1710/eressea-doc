@@ -86,22 +86,22 @@ Weiterlesen: [[regeln]].
 
 [diesem wiki]: https://wiki.eressea.de/Hauptseite/de
 [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
-[Xontormia Express]: https://wiki.eressea.de/xontormia_express "Xontormia Express"
+[Xontormia Express]: https://wiki.eressea.de/index.php?title=Xontormia_Express "Xontormia Express"
 [Archiv alter Ausgaben]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express (wiki)"
 [Ankündigungen]: https://wiki.eressea.de/Ankündigungen "Ankündigungen (wiki)"
 [Eine Übersicht der Gedanken, die wir uns bei den Rassen gemacht haben]: https://wiki.eressea.de/Rassen_im_dritten_Zeitalter "Rassen im dritten Zeitalter (wiki)"
 [Ankündigungen aus der e3-announce Mailingliste]: https://wiki.eressea.de/Ankündigungen_(E3) "Ankündigungen E3 (wiki)"
 [Patreon-Förderer]: https://www.patreon.com/enno
-[Thread im Forum]: https://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4170
+[Thread im Forum]: https://web.archive.org/web/20210121232151/https://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4170
 [Drachensgrab-Spielregeln]: https://paper.dropbox.com/doc/Drachensgrab-Testspiel-xD9tI7HrmF91J3Dp7t5cc
 [Eressea Homepage]: https://www.eressea.de
 [**Anmeldunge zum Spiel**]: https://www.eressea.de/?page_id=186
 [Discord]: https://discord.gg/KT5Fffh
-[Forum]: https://www.pbem-spiele.de/forum/viewforum.php?f=16
+[Forum]: https://web.archive.org/web/20260613192543/https://www.pbem-spiele.de/forum/viewforum.php?f=16
 [Mantis]: https://bugs.eressea.de/
 [magellan-ext]: https://magellan2.github.io
 [CSMapFx]: https://www.eressea.kn-bremen.de/downloads/
-[Ralf Ducksteins Eressea Wiki]: http://wiki.duckstein.net/Eressea/Eressea
+[Ralf Ducksteins Eressea Wiki]: https://web.archive.org/web/20221001113150/http://wiki.duckstein.net/Eressea/Eressea
 [Eressea in Wikipedia]: https://de.wikipedia.org/wiki/Eressea_PbeM
 [Karte der bekannten Welt]: https://karten.adi.tz-o.de/Inselnamen.png
 [Who is Who von Eressea (im Internet Archive)]: https://web.archive.org/web/20100201233418/http://whoiswho.draig.de/

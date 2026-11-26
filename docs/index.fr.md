@@ -91,19 +91,19 @@ Poursuivre la lecture : [les règles][regles].
 [Discord]: https://discord.gg/KT5Fffh
 [L'inscription au jeu]: https://www.eressea.de/?page_id=186
 [E-Announce]: https://lists.kn-bremen.de/mailman3/postorius/lists/eressea-announce.kn-bremen.de/
-[Xontormia Express]: https://wiki.eressea.de/xontormia_express "Xontormia Express"
+[Xontormia Express]: https://wiki.eressea.de/index.php?title=Xontormia_Express "Xontormia Express"
 [numéros archivés]: https://wiki.eressea.de/Kategorie:Xontormia_Express "Kategorie:Xontormia Express (wiki)"
 [annonces]: https://wiki.eressea.de/Ankündigungen "Ankündigungen (wiki)"
 [Aperçu de nos réflexions concernant les peuples]: https://wiki.eressea.de/Rassen_im_dritten_Zeitalter "Les peuples au Troisième Âge (wiki)"
 [Annonces E3]: https://wiki.eressea.de/Ankündigungen_(E3) "Annonces E3 (wiki)"
 [Patreon-Förderer]: https://www.patreon.com/enno
-[Discussion sur le forum]: https://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4170
+[Discussion sur le forum]: https://web.archive.org/web/20210121232151/https://www.pbem-spiele.de/forum/viewtopic.php?f=16&t=4170
 [Règles]: https://paper.dropbox.com/doc/Drachensgrab-Testspiel-xD9tI7HrmF91J3Dp7t5cc
 [Page d'accueil d'Eressea]: https://www.eressea.de
 [Inscription à Eressea]: https://www.eressea.de/?page_id=189&lang=en
-[Forum]: https://www.pbem-spiele.de/forum/viewforum.php?f=16
+[Forum]: https://web.archive.org/web/20260613192543/https://www.pbem-spiele.de/forum/viewforum.php?f=16
 [Mantis]: https://bugs.eressea.de/
-[Le wiki Eressea de Ralf Duckstein]: http://wiki.duckstein.net/Eressea/Eressea
+[Le wiki Eressea de Ralf Duckstein]: https://web.archive.org/web/20221001113150/http://wiki.duckstein.net/Eressea/Eressea
 [Eressea sur Wikipedia]: https://en.wikipedia.org/wiki/Eressea_(video_game)
 [carte du monde connu]: https://karten.adi.tz-o.de/Inselnamen.jpg
 [Le *Who's Who* d'Eressea (Internet Archive, en allemand)]: https://web.archive.org/web/20100201233418/http://whoiswho.draig.de/

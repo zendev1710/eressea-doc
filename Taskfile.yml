@@ -32,19 +32,66 @@ tasks:
       # Dictionaries imported by cspell.yml are resolved from ./node_modules
       - npm install
 
+  deps:outdated:
+    desc: List the pinned dependencies that have a newer version available
+    cmds:
+      - python scripts/update_requirements.py
+
+  deps:update:
+    desc: Bump requirements.txt to the latest non-breaking versions and install them
+    cmds:
+      - python scripts/update_requirements.py --write --stable
+      - task: install:mkdocs
+
+  deps:update:all:
+    desc: Bump requirements.txt to every latest version, breaking changes included
+    cmds:
+      - python scripts/update_requirements.py --write
+      - task: install:mkdocs
+
   run:
     desc: Serve documentation
     env:
       ENABLE_GIT_PLUGINS: false
     cmds:
-      - mkdocs serve
+      - properdocs serve
 
   build:
     desc: Build documentation
     env:
       ENABLE_PDF_PLUGIN: 1
     cmds:
-      - mkdocs build
+      - properdocs build
+
+  # into a git bash or WSL shell
+  deploy:
+    desc: Lint, publish the documentation on GitHub Pages and refresh the version shown in the header
+    env:
+      ENABLE_PDF_PLUGIN: 1
+    cmds:
+      # Gate on the deterministic linters only. lint:link queries external
+      # websites, so an unavailable site would block a perfectly valid deploy.
+      - task: lint:md
+      - task: lint:spell
+      - |
+        set -e
+        VERSION="$(git describe --tags --always || echo dev)"
+        SHA="$(git rev-parse --short HEAD)"
+        properdocs gh-deploy -m "Deployed ${SHA} - version ${VERSION}"
+        # Material shows `tag_name` of releases/latest in the header (repository facts),
+        # so a release must exist for the version to be displayed.
+        PREV="$(gh api 'repos/{owner}/{repo}/releases/latest' --jq '.tag_name' 2>/dev/null || true)"
+        if [ "${PREV}" = "${VERSION}" ]; then
+          echo "Release ${VERSION} already published"
+          exit 0
+        fi
+        gh release create "${VERSION}" --target "$(git rev-parse HEAD)" --title "${VERSION}" \
+          --notes "Documentation build ${VERSION} (${SHA})"
+        # Keep a single rolling release: drop the previous one created by this task.
+        if printf '%s' "${PREV}" | grep -Eq -- '-g[0-9a-f]{7}'; then
+          gh release delete "${PREV}" --yes --cleanup-tag || true
+          git tag -d "${PREV}" 2>/dev/null || true
+        fi
 
   lint:
     desc: Lint documentation

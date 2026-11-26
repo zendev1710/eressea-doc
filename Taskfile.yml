@@ -69,6 +69,26 @@ tasks:
     env:
       ENABLE_PDF_PLUGIN: 1
     cmds:
+      # gh-deploy publishes the working tree, and the release tag needs the
+      # commit to exist on GitHub: without this check the site would be updated
+      # first and the version would then fail, leaving a half-done deploy.
+      - |
+        set -e
+        DIRTY="$(git status --porcelain)"
+        if [ -n "${DIRTY}" ]; then
+          echo "working tree is not clean, commit or stash first:"
+          echo "${DIRTY}"
+          exit 1
+        fi
+        if ! git rev-parse --verify --quiet '@{u}' > /dev/null; then
+          echo "no upstream configured for $(git rev-parse --abbrev-ref HEAD), cannot check the branch is pushed"
+          exit 1
+        fi
+        UNSYNCED="$(git rev-list --count '@{u}...HEAD')"
+        if [ "${UNSYNCED}" -gt 0 ]; then
+          echo "${UNSYNCED} commit(s) differ from the upstream, push or pull first"
+          exit 1
+        fi
       # Gate on the deterministic linters only. lint:link queries external
       # websites, so an unavailable site would block a perfectly valid deploy.
       - task: lint:md

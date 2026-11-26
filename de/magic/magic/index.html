@@ -31,7 +31,7 @@
       
       
       <link rel="icon" href="../../../assets/images/favicon.ico">
-      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.7.1">
+      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.8.2">
     
     
       
@@ -39,10 +39,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -8306,7 +8306,7 @@ Komponenten:
     - 1 permanente Aura
 Modifikationen: Schiffszauber
 Syntax:
-    ZAUBERE &#39;Erschaffe einen Ring der Unsichtbarkeit&#39;
+    ZAUBERE 'Erschaffe einen Ring der Unsichtbarkeit'
 </code></pre></div>
 <h3 id="art">Art<a class="headerlink" href="#art" title="Permanent link">&para;</a></h3>
 <p>Es gibt Normale Zauber, Präkampfzauber, Kampfzauber und Postkampfzauber.</p>
@@ -8333,7 +8333,7 @@ Komponenten:
     - 1 Aura  * Stufe
 Modifikationen:
 Syntax:
-    KAMPFZAUBER [STUFE n] &#39;Gesang der Furcht&#39;
+    KAMPFZAUBER [STUFE n] 'Gesang der Furcht'
 </code></pre></div>
 <p>Hat eine Magiereinheit Kampfzauber gesetzt, zaubert sie automatisch, sobald sie an einem Kampf teilnimmt.
 Entweder indem sie selber ATTACKIERE befiehlt oder indem sie durch einen Angriff auf ihre Seite in den Kampf gezogen wurde (siehe <a class="autorefs autorefs-internal" href="../../combat/war/#die-seiten-in-einer-schlacht">Die Seiten in einer Schlacht</a>).
@@ -8380,18 +8380,18 @@ Dieser Bonus wird zur angegebenen Stufe addiert.</p>
 <p>Wird die Stufe weggelassen, wird der Zauber auf der maximal möglichen Stufe, also dem Talentwert der Einheit gezaubert (Modifikationen wie Rassenboni oder Sonderboni wie der für Insekten in Wüsten eingerechnet).<br />
 Dies ist unter anderem deshalb nicht immer wünschenswert, weil die Stufe auch die <a class="autorefs autorefs-internal" href="#patzer">Wahrscheinlichkeit für Patzer</a> beeinflusst.</p>
 <p>Diese Modifikation funktioniert auch bei Kampfzaubern:</p>
-<div class="highlight"><pre><span></span><code>KAMPFZAUBER STUFE 2 &quot;Gesang der Furcht&quot;
+<div class="highlight"><pre><span></span><code>KAMPFZAUBER STUFE 2 "Gesang der Furcht"
 </code></pre></div>
 <p>Das ist zum Beispiel sinnvoll, wenn man sich etwas Aura aufsparen will, um für einen Postkampfzauber noch etwas Aura übrig zu haben.</p>
 <p><strong>Beispiel:</strong></p>
-<div class="highlight"><pre><span></span><code>ZAUBERE STUFE 4 &quot;Wunderdoktor&quot;
+<div class="highlight"><pre><span></span><code>ZAUBERE STUFE 4 "Wunderdoktor"
 </code></pre></div>
 <p>Dieser Zauber wird 4 Aura kosten und 200 Silber verdienen. Mit einem Ring der Macht kostet er immer noch 4 Aura, verdient aber 250 Silber.</p>
 <h3 id="komponenten">Komponenten<a class="headerlink" href="#komponenten" title="Permanent link">&para;</a></h3>
 <p>Steht dort einfach nur Anzahl Aura, so heißt das, dass die Kosten fix sind: <em>Ring der Unsichtbarkeit</em> kostet immer 50 Aura. Steht dort eine Angabe wie etwa <code>3 Aura * Stufe</code>, dann heißt das, dass für einmal Zaubern 3 Aura multipliziert mit der Stufe, auf welcher der Zauber gesprochen wird, an Aurakosten anfallen. <em>Wunderdoktor</em> kostet 1 Aura, wenn er auf Stufe 1 gezaubert wird und 30 Aura, wenn er auf Stufe 30 gezaubert wird. Erfordert der Spruch permanente Aura, so verringert sich die maximale Aura der Einheit für immer um diesen Wert. Weitere Komponenten können Kräuter, Rohstoffe, Silber, Tränke oder auch seltene Gegenstände und sogar Bauern sein.</p>
 <h3 id="fernzauber">Fernzauber<a class="headerlink" href="#fernzauber" title="Permanent link">&para;</a></h3>
 <p>Fernzauber werden zwar in der Region der Magiereinheit gesprochen, wirken aber in einer anderen. Bei diesen Zaubern kann man dann die folgende Syntax benutzen:</p>
-<div class="highlight"><pre><span></span><code>ZAUBERE REGION &lt;x&gt; &lt;y&gt; &quot;&lt;Zauber&gt;&quot;
+<div class="highlight"><pre><span></span><code>ZAUBERE REGION &lt;x&gt; &lt;y&gt; "&lt;Zauber&gt;"
 </code></pre></div>
 <p>Der Zauber wird dann in der angegebenen Region gewirkt. Die X- und Y-Koordinaten beziehen sich dabei auf den <a href="../../orders/origin/"><code>URSPRUNG</code></a>. Diese Modifikation erhöht die Kosten aller Komponenten des Zaubers allerdings exponentiell: Die Kosten für Materialkomponenten und Aura werden pro Region Entfernung zwischen dem Ort der Einheit und dem Ziel verdoppelt (Formel: 2<sup>a</sup>, wobei a die Entfernung der Zielregion zur Region der Einheit ist). Folgende Tabellen zur Illustration:</p>
 <table>
@@ -8465,7 +8465,7 @@ Dies ist unter anderem deshalb nicht immer wünschenswert, weil die Stufe auch d
 </tbody>
 </table>
 <p>Die beiden Modifikatoren können auch verknüpft werden:</p>
-<div class="highlight"><pre><span></span><code>ZAUBERE REGION &lt;x&gt; &lt;y&gt; STUFE &lt;nr&gt; &quot;&lt;Zauber&gt;&quot;
+<div class="highlight"><pre><span></span><code>ZAUBERE REGION &lt;x&gt; &lt;y&gt; STUFE &lt;nr&gt; "&lt;Zauber&gt;"
 </code></pre></div>
 <p>Dabei ist wichtig, dass man erst die Region und dann die Stufe angibt.</p>
 <p><strong>Beispiel:</strong></p>
@@ -8492,9 +8492,9 @@ Zauber gleichen Rangs werden in der im Zug angegebenen Reihenfolge gezaubert.</p
 <code>Beee</code> hat Rang 2 und kostet 20 Aura.<br />
 <code>Ceee</code> hat Rang 5 und kostet 5 Aura.  </p>
 <p>Angenommen die Einheit hat die Befehle</p>
-<div class="highlight"><pre><span></span><code>ZAUBERE &quot;Ceee&quot;
-ZAUBERE &quot;Beee&quot;
-ZAUBERE &quot;Aaaa&quot;
+<div class="highlight"><pre><span></span><code>ZAUBERE "Ceee"
+ZAUBERE "Beee"
+ZAUBERE "Aaaa"
 </code></pre></div>
 <p>in dieser Reihenfolge. Zuerst wird <code>Beee</code> gezaubert, denn der Zauber hat Rang 2. Es ist der erste Zauber der Einheit in dieser Woche, daher kostet er 20 Aura.<br />
 Dann wird <code>Ceee</code> gezaubert, denn <code>Aaaa</code> und <code>Ceee</code> haben den selben Rang und <code>Ceee</code> steht vor <code>Aaaa</code>.<br />
@@ -8714,10 +8714,10 @@ Deshalb gibt es nun eine <a class="autorefs autorefs-internal" href="../spells/l
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../../javascripts/katex-init.js"></script>
       

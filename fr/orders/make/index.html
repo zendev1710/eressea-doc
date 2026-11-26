@@ -31,7 +31,7 @@
       
       
       <link rel="icon" href="../../../assets/images/favicon.ico">
-      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.7.1">
+      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.8.2">
     
     
       
@@ -39,10 +39,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -8046,11 +8046,11 @@ Ainsi, avec un peu de coordination, les unités <code>TEMP</code> d'autres facti
 Vous pouvez également attribuer un nom à la nouvelle unité.  </p>
 <p>Les ordres :</p>
 <div class="highlight"><pre><span></span><code>MAKE TEMP 1
-    NAME UNIT &quot;Clowns&quot;
+    NAME UNIT "Clowns"
     NUMBER UNIT funy
 </code></pre></div>
 <p>peut être raccourci à :</p>
-<div class="highlight"><pre><span></span><code>MAKE TEMP funy &quot;Clowns&quot;
+<div class="highlight"><pre><span></span><code>MAKE TEMP funy "Clowns"
 </code></pre></div>
 <p>Un maximum de 2 500 unités est autorisé par faction.
 Si le groupe compte 2 500 unités ou plus, aucune nouvelle unité ne peut plus être créée avec l'ordre <code>MAKE TEMP</code>;<br />
@@ -8064,7 +8064,7 @@ Si elle ne reçoit pas cette information, l'unité ne pourra recruter personne e
 Si l'unité reçoit de l'argent mais ne recrute aucun membre, elle est également dissoute et l'argent revient aux <a class="autorefs autorefs-internal" href="../../getting-started/factions/#dissolution-des-unites">autres unités de leur propre faction</a>.  </p>
 <div class="highlight"><pre><span></span><code>UNIT 17;   Combattants [15,700$]
     MAKE TEMP 1
-        NAME UNIT &quot;dragon riders&quot;
+        NAME UNIT "dragon riders"
         LEARN melee
     END
     GIVE TEMP 1 5 MEN
@@ -8072,8 +8072,8 @@ Si l'unité reçoit de l'argent mais ne recrute aucun membre, elle est égalemen
     GIVE TEMP 2 100 silver
     MAKE TEMP 2
         RECRUIT 1
-        NAME UNIT &quot;scouts&quot;
-        DEFAULT &quot;LEARN perception&quot;
+        NAME UNIT "scouts"
+        DEFAULT "LEARN perception"
         MOVE west
     END
 </code></pre></div>
@@ -8123,7 +8123,7 @@ MAKE CASTLE xyz ; continue de construire xyz (quel que soit le type de bâtimen
 MAKE 5 Trireme ; commence à construire une nouvelle trirème
 MAKE SHIP abc ; continue de construire le bateau abc (la trirème)
 MAKE ROAD SE ; continue ou commence à construire une route en direction du sud-est
-MAKE Trireme abc ; incorrect : démarre une nouvelle trirème (ce qui n&#39;était pas voulu)
+MAKE Trireme abc ; incorrect : démarre une nouvelle trirème (ce qui n'était pas voulu)
 MAKE building xyz ; incorrect : only CASTLE or building type is allowed
 </code></pre></div>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
@@ -8252,10 +8252,10 @@ MAKE building xyz ; incorrect : only CASTLE or building type is allowed
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../../javascripts/katex-init.js"></script>
       

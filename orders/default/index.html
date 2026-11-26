@@ -31,7 +31,7 @@
       
       
       <link rel="icon" href="../../assets/images/favicon.ico">
-      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.7.1">
+      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.8.2">
     
     
       
@@ -39,10 +39,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -7944,22 +7944,22 @@ However, this test has limitations, it is better not to rely on it.</p>
     @GIVE xyz ALL Balm ; Transporter
     GIVE abc 100 Silver
     RECRUIT 1
-    DEFAULT &quot;GIVE 123 50 Silver; don&#39;t forget&quot;
-    DEFAULT &quot;LEARN Trade&quot; ; Deletes BUY and SELL
-    DEFAULT &quot;XXX&quot; ; no order, will not be accepted
+    DEFAULT "GIVE 123 50 Silver; don't forget"
+    DEFAULT "LEARN Trade" ; Deletes BUY and SELL
+    DEFAULT "XXX" ; no order, will not be accepted
 </code></pre></div>
 <p>Default orders for next week:</p>
 <div class="highlight"><pre><span></span><code>UNIT abc
-    GIVE 123 50 Silver; don&#39;t forget
+    GIVE 123 50 Silver; don't forget
     LEARN Trade
     // learn next week
     @GIVE xyz ALL Balm ; Transporter
 </code></pre></div>
 <p>If your default orders need to contain quotes, there are currently a few ways to achieve this:</p>
-<div class="highlight"><pre><span></span><code>DEFAULT &quot;CAST &#39;Create a Ring of Invisibility&#39;&quot;
-DEFAULT &#39;CAST &quot;Create a Ring of Invisibility&quot;&#39;
-DEFAULT &quot;NAME UNIT \&quot;Bob&#39;s Builders\&quot;&quot;
-DEFAULT &quot;MAKE 1 &#39;Water of life&#39;&quot;
+<div class="highlight"><pre><span></span><code>DEFAULT "CAST 'Create a Ring of Invisibility'"
+DEFAULT 'CAST "Create a Ring of Invisibility"'
+DEFAULT "NAME UNIT \"Bob's Builders\""
+DEFAULT "MAKE 1 'Water of life'"
 </code></pre></div>
 <h2 id="the-move-order">The MOVE order<a class="headerlink" href="#the-move-order" title="Permanent link">&para;</a></h2>
 <p>The <code>MOVE</code> order plays a special role: it is not included in the template.<br />
@@ -7981,7 +7981,7 @@ Instead, the long orders that the unit had in the template last week are adopted
 // now to the west
 </code></pre></div>
 <p>Orders sent in:</p>
-<div class="highlight"><pre><span></span><code>DEFAULT &quot;LEARN Endurance&quot;
+<div class="highlight"><pre><span></span><code>DEFAULT "LEARN Endurance"
 // now learn
 MOVE w
 </code></pre></div>
@@ -7996,7 +7996,7 @@ MOVE w
 @GIVE 0 1 Silver
 </code></pre></div>
 <p>Orders sent in:</p>
-<div class="highlight"><pre><span></span><code>DEFAULT &quot;MOVE o&quot;
+<div class="highlight"><pre><span></span><code>DEFAULT "MOVE o"
 WORK
 @GIVE 0 2 Silver
 </code></pre></div>
@@ -8145,10 +8145,10 @@ Scripting languages ​​such as <a class="autorefs autorefs-internal" href="..
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../javascripts/katex-init.js"></script>
       

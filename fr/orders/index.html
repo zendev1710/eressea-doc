@@ -31,7 +31,7 @@
       
       
       <link rel="icon" href="../../assets/images/favicon.ico">
-      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.7.1">
+      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.8.2">
     
     
       
@@ -39,10 +39,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -7840,25 +7840,25 @@ Ici, vous devrez donc utiliser au moins 4 lettres.  </p>
 <p>De plus, les abréviations trop énigmatiques ne sont pas particulièrement lisibles lorsque vous parcourez vos ordres plus tard...<br />
 Il est toujours plus sûr de ne pas abréger vos ordres, d'autant plus qu'il peut y avoir des ordres, des objets ou des compétences qui ne figurent pas intentionnellement dans les instructions, mais qui commencent comme d'autres ordres, objets et compétences bien connus.  </p>
 <p>Les textes contenant des espaces doivent être mis entre guillemets (""), ou les espaces doivent être remplacés par le caractère <code>~</code> (tilde):</p>
-<div class="highlight"><pre><span></span><code>NAME Ship &quot;Big Blue Bird&quot;
+<div class="highlight"><pre><span></span><code>NAME Ship "Big Blue Bird"
 GIVE unit 5 Water~of~life
 COMBAT REAR
 </code></pre></div>
 <p>Il est possible d'utiliser et de combiner des guillemets simples (<code>'</code>).<br />
 Il est préférable d'essayer ce qui ressort exactement, car le comportement exact peut toujours évoluer.  </p>
-<div class="highlight"><pre><span></span><code>MESSAGE REGION &#39;Say &quot;Friend&quot; and enter&#39;
-NAME CASTLE xyz &quot;Helm&#39;s Deep&quot;
-DEFAULT &#39;MAKE 1 &quot;Water of Life&quot;&#39;
+<div class="highlight"><pre><span></span><code>MESSAGE REGION 'Say "Friend" and enter'
+NAME CASTLE xyz "Helm's Deep"
+DEFAULT 'MAKE 1 "Water of Life"'
 </code></pre></div>
 <p>L'échappement au moyen du caractère <code>\</code> est aussi possible, mais pas forcément recommandé :</p>
-<div class="highlight"><pre><span></span><code>MESSAGE REGION &quot;Say \&quot;Friend\&quot; and enter&quot;
-NAME CASTLE xyz &#39;Helm\&#39;s Deep&#39;
-DEFAULT &#39;MAKE 1 Water\~of\~Life&#39;
+<div class="highlight"><pre><span></span><code>MESSAGE REGION "Say \"Friend\" and enter"
+NAME CASTLE xyz 'Helm\'s Deep'
+DEFAULT 'MAKE 1 Water\~of\~Life'
 </code></pre></div>
 <p>D'ailleurs, il n'est pas nécessaire de se limiter à l'alphabet latin.<br />
 Le jeu de caractères Unicode complet est utilisable dans les noms et les descriptions :</p>
-<div class="highlight"><pre><span></span><code>NAME UNIT &quot;Σωκράτης&quot;
-MESSAGE REGION &quot;🨀 شاه مات&quot;
+<div class="highlight"><pre><span></span><code>NAME UNIT "Σωκράτης"
+MESSAGE REGION "🨀 شاه مات"
 </code></pre></div>
 <p>Bien entendu, vous devez vous assurer que vous êtes compris des autres.  </p>
 <h2 id="modele-dordres">Modèle d'ordres<a class="headerlink" href="#modele-dordres" title="Permanent link">&para;</a></h2>
@@ -7929,10 +7929,10 @@ En le préfixant d'un point d'exclamation (<code>!</code>), vous pouvez forcer l
 <p><strong>Un exemple</strong> :</p>
 <div class="highlight"><pre><span></span><code>UNIT berg;         Miners
     MAKE iron
-    !@GIVE tran ALL iron;  le transporteur n&#39;est pas là; on veut éviter tout message d&#39;erreur à ce sujet
+    !@GIVE tran ALL iron;  le transporteur n'est pas là; on veut éviter tout message d'erreur à ce sujet
 UNIT tran;   Transporteur
     ROUTE w PAUSE e PAUSE; nous faisons la navette entre deux régions
-    !@GIVE schm ALL iron;  à l&#39;ouest on remet le fer aux forgerons
+    !@GIVE schm ALL iron;  à l'ouest on remet le fer aux forgerons
 </code></pre></div>
 <p>Bien entendu, cela comporte le risque que vous manquiez des erreurs auxquelles vous ne vous attendiez pas.  </p>
 <h2 id="voir-aussi">Voir aussi<a class="headerlink" href="#voir-aussi" title="Permanent link">&para;</a></h2>
@@ -8063,10 +8063,10 @@ UNIT tran;   Transporteur
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../javascripts/katex-init.js"></script>
       

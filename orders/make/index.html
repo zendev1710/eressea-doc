@@ -31,7 +31,7 @@
       
       
       <link rel="icon" href="../../assets/images/favicon.ico">
-      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.7.1">
+      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.8.2">
     
     
       
@@ -39,10 +39,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -8047,11 +8047,11 @@ So with a little coordination, <code>TEMP</code> units from other factions can a
 You can also assign a name to the new unit.</p>
 <p>The orders</p>
 <div class="highlight"><pre><span></span><code>MAKE TEMP 1
-    NAME UNIT &quot;Clowns&quot;
+    NAME UNIT "Clowns"
     NUMBER UNIT funy
 </code></pre></div>
 <p>can be shortened to :</p>
-<div class="highlight"><pre><span></span><code>MAKE TEMP funy &quot;Clowns&quot;
+<div class="highlight"><pre><span></span><code>MAKE TEMP funy "Clowns"
 </code></pre></div>
 <p>A maximum of 2500 units are allowed per faction.<br />
 If the faction has 2500 or more units, no new units can be created with <code>MAKE TEMP</code>;<br />
@@ -8065,7 +8065,7 @@ If it does not receive this, the unit will not be able to recruit anyone and wil
 If the unit receives money but does not recruit any members, it is also disbanded and the money falls to <a class="autorefs autorefs-internal" href="../../getting-started/factions/#dissolving-units">other units of their own faction</a>.  </p>
 <div class="highlight"><pre><span></span><code>UNIT 17;    Fighters [15,700$]
     MAKE TEMP 1
-        NAME UNIT &quot;dragon riders&quot;
+        NAME UNIT "dragon riders"
         LEARN melee
     END
     GIVE TEMP 1 5 MEN
@@ -8073,8 +8073,8 @@ If the unit receives money but does not recruit any members, it is also disbande
     GIVE TEMP 2 100 silver
     MAKE TEMP 2
         RECRUIT 1
-        NAME UNIT &quot;scouts&quot;
-        DEFAULT &quot;LEARN perception&quot;
+        NAME UNIT "scouts"
+        DEFAULT "LEARN perception"
         MOVE west
     END
 </code></pre></div>
@@ -8253,10 +8253,10 @@ MAKE building xyz ; wrong: only CASTLE or building type is allowed
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../javascripts/katex-init.js"></script>
       

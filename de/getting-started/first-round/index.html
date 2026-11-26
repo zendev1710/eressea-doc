@@ -31,7 +31,7 @@
       
       
       <link rel="icon" href="../../../assets/images/favicon.ico">
-      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.7.1">
+      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.8.2">
     
     
       
@@ -39,10 +39,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -7898,7 +7898,7 @@
       Heimat (wvg3), Größe 10, Befestigung.
 
         * Entdecker (vdko), 1 Goblin, aggressiv, hat: 10 Holz, 5000 Silber, 10
-          Steine, &quot;ARBEITEN&quot;.
+          Steine, "ARBEITEN".
 
     ------------------------------------------------------------------------------
                                  Liste aller Adressen
@@ -7909,28 +7909,28 @@
 </code></pre></div>
 <h2 id="beispiel-fur-eine-befehlsdatei">Beispiel für eine Befehlsdatei<a class="headerlink" href="#beispiel-fur-eine-befehlsdatei" title="Permanent link">&para;</a></h2>
 <p>Diese Befehlsdatei wurde in einer leicht veränderten Version tatsächlich als erster Zug in einem Spiel (für E3!) verwendet. Ob es ein besonders schlauer Anfang war, weiß ich selber auch nicht. Man beachte, dass Befehle über mehr als eine Zeile (hier die BESCHREIBE-Befehle mit einem \ (Backslash) "verlängert" wurden. Falls du <a class="autorefs autorefs-internal" href="../../tools/desktop/magellan/#magellan">Magellan</a> für deine Befehle benutzt, musst du dir darüber allerdings keine Gedanken machen.</p>
-<div class="highlight"><pre><span></span><code>ERESSEA 37wj &quot;pwpw42&quot;
+<div class="highlight"><pre><span></span><code>ERESSEA 37wj "pwpw42"
 ; du muss natürlich oben dein eigenes Passwort einsetzen
 REGION 0,0 ; Cabyn
 EINHEIT vdko;       Entdecker [1,5000$]
-    BENENNE EINHEIT &quot;Dracheneinreiter&quot;
+    BENENNE EINHEIT "Dracheneinreiter"
     ;
     ; Das ist im Moment unsere erste und einzige Einheit,
     ; erstmal ein paar grundsätzliche Einstellungen
-    BENENNE PARTEI &quot;Der Drachenclan&quot;
+    BENENNE PARTEI "Der Drachenclan"
     NUMMER PARTEI drac ; hoffentlich noch frei
     OPTION PUNKTE ; Wird erst ab Runde 13 angezeigt
     OPTION TALENTVERSCHIEBUNG
     PRÄFIX Nebel
-    BANNER &quot;Immer schön eines zu haben&quot;
-    PASSWORT &quot;Setze das Passwort nie in öffentliche Dokumente&quot;
+    BANNER "Immer schön eines zu haben"
+    PASSWORT "Setze das Passwort nie in öffentliche Dokumente"
     ; wir haben schon eine Burg!
-    BENENNE BURG &quot;Drachenhort&quot;
-    BESCHREIBE BURG &quot;Am Fuße eines Kliffs, das auf das Meer hinausblickt, ist \
+    BENENNE BURG "Drachenhort"
+    BESCHREIBE BURG "Am Fuße eines Kliffs, das auf das Meer hinausblickt, ist \
     eine Höhle in den Fels gehauen. Eine kleine Mauer mit einem niedrigen Wacht\
     urm schützt das Innere. Der schmale Eingang ist von zwei aufgespießten Schä\
-    deln flankiert. Sie sagen: Hier haust der Drachenclan!&quot;
-    BENENNE REGION &quot;Drachental&quot;
+    deln flankiert. Sie sagen: Hier haust der Drachenclan!"
+    BENENNE REGION "Drachental"
     ;
     ; das kann nicht schaden...
     LERNE Pferdedressur
@@ -7943,9 +7943,9 @@ EINHEIT vdko;       Entdecker [1,5000$]
     ; Lernkosten und Einheitenunterhalt holt sie sich notfalls aus dem Pool
     GIB TEMP dr01 460 Silber
     MACHE TEMP dr01
-        BENENNE EINHEIT &quot;prismatischer Drache&quot;
+        BENENNE EINHEIT "prismatischer Drache"
         REKRUTIERE 1 Dämon
-        LERNE Magie &quot;Illaun&quot;
+        LERNE Magie "Illaun"
         KÄMPFE FLIEHE
         // Bei Gelegenheit KÄMPFE HINTEN
     ENDE
@@ -7957,23 +7957,23 @@ EINHEIT vdko;       Entdecker [1,5000$]
     GIB TEMP dr02 460 Silber
     GIB TEMP dr03 460 Silber
     MACHE TEMP dr02
-        BENENNE EINHEIT &quot;prismatischer Drache&quot;
+        BENENNE EINHEIT "prismatischer Drache"
         REKRUTIERE 1 Dämon
-        LERNE Magie &quot;Illaun&quot;
+        LERNE Magie "Illaun"
         KÄMPFE FLIEHE
     ENDE
     ;
     MACHE TEMP dr03
-        BENENNE EINHEIT &quot;prismatischer Drache&quot;
+        BENENNE EINHEIT "prismatischer Drache"
         REKRUTIERE 1 Dämon
-        LERNE Magie &quot;Illaun&quot;
+        LERNE Magie "Illaun"
         KÄMPFE FLIEHE
     ENDE
     ;
     ; wird es sich lohnen, sich so früh schon Elitekämpfer (Helden!) zu leisten?
     GIB TEMP dr05 720 Silber
     MACHE TEMP dr05
-        BENENNE EINHEIT &quot;Schattendrache&quot;
+        BENENNE EINHEIT "Schattendrache"
         REKRUTIERE 2 Dämon
         LERNE Stangenwaffen
         // Held?
@@ -7985,7 +7985,7 @@ EINHEIT vdko;       Entdecker [1,5000$]
     ; Holz oder Eisen
     GIB TEMP dr06 66 Silber
     MACHE TEMP dr06
-        BENENNE EINHEIT &quot;grauer Drache&quot;
+        BENENNE EINHEIT "grauer Drache"
         REKRUTIERE 1
         LERNE Waffenbau
         KÄMPFE FLIEHE
@@ -7994,7 +7994,7 @@ EINHEIT vdko;       Entdecker [1,5000$]
     ; Burgen kontrollieren in E3 Regionen, deshalb sind sie schon früh wichtig!
     GIB TEMP dr07 66 Silber
     MACHE TEMP dr07
-        BENENNE EINHEIT &quot;grauer Drache&quot;
+        BENENNE EINHEIT "grauer Drache"
         REKRUTIERE 1
         LERNE Burgenbau
         KÄMPFE FLIEHE
@@ -8006,7 +8006,7 @@ EINHEIT vdko;       Entdecker [1,5000$]
     ; später für Gebäude, Schiffe
     GIB TEMP dr08 180 Silber
     MACHE TEMP dr08
-        BENENNE EINHEIT &quot;grüner Drache&quot;
+        BENENNE EINHEIT "grüner Drache"
         REKRUTIERE 3
         LERNE Holzfällen
         KÄMPFE FLIEHE
@@ -8016,7 +8016,7 @@ EINHEIT vdko;       Entdecker [1,5000$]
     ; spezialisieren? Evtl. ist es gefährlich, das zu früh zu tun.
     GIB TEMP dr10 660 Silber
     MACHE TEMP dr10
-        BENENNE EINHEIT &quot;Drachenflügel&quot;
+        BENENNE EINHEIT "Drachenflügel"
         REKRUTIERE 10
         LERNE Armbrustschießen
         KÄMPFE FLIEHE
@@ -8025,7 +8025,7 @@ EINHEIT vdko;       Entdecker [1,5000$]
     ; Eisen zu finden ist auch wichtig
     GIB TEMP dr11 180 Silber
     MACHE TEMP dr11
-        BENENNE EINHEIT &quot;Höhlendrache&quot;
+        BENENNE EINHEIT "Höhlendrache"
         REKRUTIERE 3
         LERNE Bergbau
         // als Späher in Nachbarregionen
@@ -8035,7 +8035,7 @@ EINHEIT vdko;       Entdecker [1,5000$]
     ; ...ebenso wie Steine für Burgen
     GIB TEMP dr12 180 Silber
     MACHE TEMP dr12
-        BENENNE EINHEIT &quot;Höhlendrache&quot;
+        BENENNE EINHEIT "Höhlendrache"
         REKRUTIERE 3
         LERNE Steinbau
         KÄMPFE FLIEHE
@@ -8045,7 +8045,7 @@ EINHEIT vdko;       Entdecker [1,5000$]
     ; Wichtig: Unterhaltssilber nicht vergessen!
     GIB TEMP drr1 260 Silber
     MACHE TEMP drr1
-        BENENNE EINHEIT &quot;kleiner Drachenreiter&quot;
+        BENENNE EINHEIT "kleiner Drachenreiter"
         REKRUTIERE 1
         NACH sw
         // Stein- und Bergbauer machen
@@ -8054,7 +8054,7 @@ EINHEIT vdko;       Entdecker [1,5000$]
     ;
     GIB TEMP drr2 260 Silber
     MACHE TEMP drr2
-        BENENNE EINHEIT &quot;kleiner Drachenreiter&quot;
+        BENENNE EINHEIT "kleiner Drachenreiter"
         REKRUTIERE 1
         NACH so
         // Stein- und Bergbauer machen
@@ -8196,10 +8196,10 @@ NÄCHSTER
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../../javascripts/katex-init.js"></script>
       

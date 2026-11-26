@@ -31,7 +31,7 @@
       
       
       <link rel="icon" href="../../assets/images/favicon.ico">
-      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.7.1">
+      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.8.2">
     
     
       
@@ -39,10 +39,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -7852,8 +7852,8 @@
 <h2 id="the-first-report">The first report<a class="headerlink" href="#the-first-report" title="Permanent link">&para;</a></h2>
 <p>Here is an example of what the first report (named here <code>1-37wj.nr</code>) that you get from the server after subscribing might look like:</p>
 <div class="highlight"><pre><span></span><code>            Report for Eressea, Wednesday, 01. July 2026, 19:56
-it&#39;s the first week of the month of harvest moon in the 1. year of the second
-                        age. It&#39;s summer.
+it's the first week of the month of harvest moon in the 1. year of the second
+                        age. It's summer.
 
     Faction 37wj (37wj), goblins/no magic school (drac@example.de)
 Remember to send your orders to eressea-server@kn-bremen.de with the subject
@@ -7869,7 +7869,7 @@ Your faction will be protected against attacks for the next 6 weeks.
 
                                 Events
 
-The password of this faction is &#39;pwpw42&#39;.
+The password of this faction is 'pwpw42'.
 
                             Economy and Trade
 
@@ -7900,7 +7900,7 @@ Statistics für Cabyn (0,0):
   Heimat (wvg3), size 10, Fortification.
 
     * Unit vdko (vdko), 1 Goblin, aggressiv, has: 10 wood, 5000 silver,
-      10 stones, &quot;WORK&quot;.
+      10 stones, "WORK".
 ------------------------------------------------------------------------------
 
                              Political Status
@@ -7917,7 +7917,7 @@ I don't know exactly when it started.</p>
 <p>Note that orders spanning more than one line.<br />
 here the <code>DESCRIBE</code> order with backslash (//) were used.<br />
 However, if you're using <a class="autorefs autorefs-internal" href="../../tools/desktop/magellan/#magellan">Magellan</a> for your orders, you don't need to worry about this.</p>
-<div class="highlight"><pre><span></span><code>ERESSEA 37wj &quot;pwpw42&quot;
+<div class="highlight"><pre><span></span><code>ERESSEA 37wj "pwpw42"
 ; Of course you have to enter your own password above
 REGION 0,0 ; Cabyn
 UNIT vdko;       Explorer [$1,5000]
@@ -7925,24 +7925,24 @@ UNIT vdko;       Explorer [$1,5000]
     ;
     ; This is our first and only unit at the moment,
     ; First a few basic settings
-    NAME FACTION &quot;The Dragon Clan&quot;
+    NAME FACTION "The Dragon Clan"
     NUMBER FACTION drac ; hopefully still free
     OPTION SCORE; Only shown from round 13 onwards
     OPTION TALENTVERSCHIEBUNG
     PREFIX Fog
-    BANNER &quot;Always nice to have one&quot;
-    PASSWORD &quot;Never put the password in public documents&quot;
+    BANNER "Always nice to have one"
+    PASSWORD "Never put the password in public documents"
     ; we already have a castle!
-    NAME CASTLE &quot;Dragon&#39;s Lair&quot;
-    DESCRIBE CASTLE &quot;At the foot of a cliff overlooking the sea is\
+    NAME CASTLE "Dragon's Lair"
+    DESCRIBE CASTLE "At the foot of a cliff overlooking the sea is\
     a cave carved into the rock. A small wall with a low guard\
     urm protects the inside. The narrow entrance is surrounded by two impaled heads.
-    flanked by dolphins. They say: The Dragon Clan lives here!&quot;
-    NAME REGION &quot;Dragon Valley&quot;
+    flanked by dolphins. They say: The Dragon Clan lives here!"
+    NAME REGION "Dragon Valley"
     ;
-    ; that can&#39;t hurt...
+    ; that can't hurt...
     LEARN Taming
-    ; I like to set castle owners to COMBAT NOT so that they can&#39;t take the castle
+    ; I like to set castle owners to COMBAT NOT so that they can't take the castle
     ; accidentally abandoned while escaping...
     COMBAT NOT
     ;
@@ -7951,9 +7951,9 @@ UNIT vdko;       Explorer [$1,5000]
     ; If necessary, takes learning costs and unit maintenance out of the pool
     GIVE TEMP dr01 460 Silver
     MAKE TEMP dr01
-        NAME UNIT &quot;Prismatic Dragon&quot;
+        NAME UNIT "Prismatic Dragon"
         RECRUIT 1 Demon
-        LEARN Magic &quot;Illaun&quot;
+        LEARN Magic "Illaun"
         COMBAT FLEE
         // On occasion COMBAT REAR
     END
@@ -7965,23 +7965,23 @@ UNIT vdko;       Explorer [$1,5000]
     GIVE TEMP dr02 460 Silver
     GIVE TEMP dr03 460 Silver
     MAKE TEMP dr02
-        NAME UNIT &quot;Prismatic Dragon&quot;
+        NAME UNIT "Prismatic Dragon"
         RECRUIT 1 Demon
-        LEARN Magic &quot;Illaun&quot;
+        LEARN Magic "Illaun"
         COMBAT FLEE
     END
     ;
     MAKE TEMP dr03
-        NAME UNIT &quot;Prismatic Dragon&quot;
+        NAME UNIT "Prismatic Dragon"
         RECRUIT 1 Demon
-        LEARN Magic &quot;Illaun&quot;
+        LEARN Magic "Illaun"
         COMBAT FLEE
     END
     ;
     ; Will it be worth it to buy elite fighters (heroes!) so early?
     GIVE TEMP dr05 720 Silver
     MAKE TEMP dr05
-        NAME UNIT &quot;Shadow Dragon&quot;
+        NAME UNIT "Shadow Dragon"
         RECRUIT 2 Demon
         LEARN Polearm
         // Hero?
@@ -7993,16 +7993,16 @@ UNIT vdko;       Explorer [$1,5000]
     ; wood or iron
     GIVE TEMP dr06 66 Silver
     MAKE TEMP dr06
-        NAME UNIT &quot;Gray Dragon&quot;
+        NAME UNIT "Gray Dragon"
         RECRUIT 1
         LEARN Weaponsmithing
         COMBAT FLEE
     END
     ;
-    ; Castles control regions in E3, so they&#39;re important early on!
+    ; Castles control regions in E3, so they're important early on!
     GIVE TEMP dr07 66 Silver
     MAKE TEMP dr07
-        NAME UNIT &quot;Gray Dragon&quot;
+        NAME UNIT "Gray Dragon"
         RECRUIT 1
         LEARN Masonry
         COMBAT FLEE
@@ -8014,7 +8014,7 @@ UNIT vdko;       Explorer [$1,5000]
     ; later for buildings, ships
     GIVE TEMP dr08 180 Silver
     MAKE TEMP dr08
-        NAME UNIT &quot;Green Dragon&quot;
+        NAME UNIT "Green Dragon"
         RECRUIT 3
         LEARN Forestry
         COMBAT FLEE
@@ -8024,7 +8024,7 @@ UNIT vdko;       Explorer [$1,5000]
     ; specialize? It may be dangerous to do this too early.
     GIVE TEMP dr10 660 Silver
     MAKE TEMP dr10
-        NAME UNIT &quot;Dragon Wings&quot;
+        NAME UNIT "Dragon Wings"
         RECRUIT 10
         LEARN Crossbow
         COMBAT FLEE
@@ -8033,7 +8033,7 @@ UNIT vdko;       Explorer [$1,5000]
     ; Finding iron is also important
     GIVE TEMP dr11 180 Silver
     MAKE TEMP dr11
-        NAME UNIT &quot;Cave Dragon&quot;
+        NAME UNIT "Cave Dragon"
         RECRUIT 3
         LEARN Mining
         // as a scout in neighbouring regions
@@ -8043,7 +8043,7 @@ UNIT vdko;       Explorer [$1,5000]
     ; ...eas well as stones for castles
     GIVE TEMP dr12 180 Silver
     MAKE TEMP dr12
-        NAME UNIT &quot;Cave Dragon&quot;
+        NAME UNIT "Cave Dragon"
         RECRUIT 3
         LEARN Quarrying
         COMBAT FLEE
@@ -8053,7 +8053,7 @@ UNIT vdko;       Explorer [$1,5000]
     ; Important: Don’t forget your maintenance silver!
     GIVE TEMP drr1 260 Silver
     MAKE TEMP drr1
-        NAME UNIT &quot;Little Dragon rider&quot;
+        NAME UNIT "Little Dragon rider"
         RECRUIT 1
         MOVE sw
         // Quarrying and mining
@@ -8062,7 +8062,7 @@ UNIT vdko;       Explorer [$1,5000]
     ;
     GIVE TEMP drr2 260 Silver
     MAKE TEMP drr2
-        NAME UNIT &quot;Little Dragon rider&quot;
+        NAME UNIT "Little Dragon rider"
         RECRUIT 1
         MOVE so
         // Quarrying and mining
@@ -8074,7 +8074,7 @@ UNIT vdko;       Explorer [$1,5000]
     ; ...
     ; Maybe we should also add riders (transporting stone!), cartmakers,
     ; Armourers or training more soldiers? On the other hand, you should
-    ; Don&#39;t overdo it at the beginning and be very careful not to
+    ; Don't overdo it at the beginning and be very careful not to
     ; suddenly broke!
 NEXT
 </code></pre></div>
@@ -8204,10 +8204,10 @@ NEXT
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../javascripts/katex-init.js"></script>
       

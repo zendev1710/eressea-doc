@@ -31,7 +31,7 @@
       
       
       <link rel="icon" href="../../../assets/images/favicon.ico">
-      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.7.1">
+      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.8.2">
     
     
       
@@ -39,10 +39,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -7851,8 +7851,8 @@
 <h2 id="premier-rapport">Premier rapport<a class="headerlink" href="#premier-rapport" title="Permanent link">&para;</a></h2>
 <p>Voici ce à quoi pourrait ressembler un exemple de premier rapport (<code>1-37wj.nr</code>) envoyé par le serveur après inscription :</p>
 <div class="highlight"><pre><span></span><code>            Report for Eressea, Wednesday, 01. July 2026, 19:56
-it&#39;s the first week of the month of harvest moon in the 1. year of the second
-                        age. It&#39;s summer.
+it's the first week of the month of harvest moon in the 1. year of the second
+                        age. It's summer.
 
     Faction 37wj (37wj), goblins/no magic school (drac@example.de)
 Remember to send your orders to eressea-server@kn-bremen.de with the subject
@@ -7868,7 +7868,7 @@ Your faction will be protected against attacks for the next 6 weeks.
 
                                 Events
 
-The password of this faction is &#39;pwpw42&#39;.
+The password of this faction is 'pwpw42'.
 
                             Economy and Trade
 
@@ -7899,7 +7899,7 @@ Statistics für Cabyn (0,0):
   Heimat (wvg3), size 10, Fortification.
 
     * Unit vdko (vdko), 1 Goblin, aggressiv, has: 10 wood, 5000 silver,
-      10 stones, &quot;WORK&quot;.
+      10 stones, "WORK".
 ------------------------------------------------------------------------------
 
                              Political Status
@@ -7916,92 +7916,92 @@ Nous ne savons pas exactement quand elle a débuté.  </p>
 <p>Notez que certains ordres s'étendent sur plusieurs lignes.<br />
 Ici, l'ordre <code>DESCRIBE</code> avec le délimiteur de retour à la ligne <code>\</code> a été utilisé.  </p>
 <p>Cependant, si vous utilisez <a class="autorefs autorefs-internal" href="../../tools/desktop/magellan/#magellan">Magellan</a> pour vos ordres, vous n'avez pas à vous en soucier.  </p>
-<div class="highlight"><pre><span></span><code>ERESSEA 37wj &quot;pwpw42&quot;
+<div class="highlight"><pre><span></span><code>ERESSEA 37wj "pwpw42"
 ; Vous devez bien sûr renseigner votre propre mot de passe ci-dessus.
 REGION 0,0 ; Cabyn
 UNIT vdko;       Explorateur [1,5000$]
-    NAME UNIT &quot;Le Chevaucheur du Dragon&quot;
+    NAME UNIT "Le Chevaucheur du Dragon"
     ;
-    ; Il s&#39;agit actuellement de notre premier et unique unité,
-    ; Tout d&#39;abord, quelques réglages de base.
-    NAME FACTION &quot;Le clan des Dragons&quot;
-    NUMBER FACTION drac ; j&#39;espère que l&#39;id sera disponible
+    ; Il s'agit actuellement de notre premier et unique unité,
+    ; Tout d'abord, quelques réglages de base.
+    NAME FACTION "Le clan des Dragons"
+    NUMBER FACTION drac ; j'espère que l'id sera disponible
     OPTION SCORE; Affiché uniquement à partir du tour 13
     OPTION TALENTVERSCHIEBUNG
     PREFIX Fog
-    BANNER &quot;C&#39;est toujours agréable d&#39;en avoir un.&quot;
-    PASSWORD &quot;Ne jamais consigner le mot de passe dans des documents publics&quot;
+    BANNER "C'est toujours agréable d'en avoir un."
+    PASSWORD "Ne jamais consigner le mot de passe dans des documents publics"
     ; Nous avons déjà un château !
-    NAME CASTLE &quot;Repaire du Dragon&quot;
-    DESCRIBE CASTLE &quot;Au pied d&#39;une falaise surplombant la mer, une \
+    NAME CASTLE "Repaire du Dragon"
+    DESCRIBE CASTLE "Au pied d'une falaise surplombant la mer, une \
     grotte creusée dans la roche. Un petit muret avec une tour de guet basse\
-    protège l&#39;intérieur. L&#39;étroite entrée est flanquée de deux crânes empalés.\
-    Il est écrit à l&#39;entrée : Ici réside le Clan du Dragon !&quot;
-    NAME REGION &quot;Vallée du Dragon&quot;
+    protège l'intérieur. L'étroite entrée est flanquée de deux crânes empalés.\
+    Il est écrit à l'entrée : Ici réside le Clan du Dragon !"
+    NAME REGION "Vallée du Dragon"
     ;
     ; Ça ne peut pas faire de mal...
     LEARN Taming
-    ; j&#39;aime paramétrer les propriétaires de châteaux sur « COMBAT NOT »
-    ; pour qu&#39;ils ne quittent pas accidentellement leur château en fuyant...
+    ; j'aime paramétrer les propriétaires de châteaux sur « COMBAT NOT »
+    ; pour qu'ils ne quittent pas accidentellement leur château en fuyant...
     COMBAT NOT
     ;
     ; Il est temps de créer notre première nouvelle unité
-    ; L&#39;argent du recrutement doit être remis
-    ; Si nécessaire, l&#39;unité prendra en charge les frais de formation
-    ; et d&#39;entretien du matériel grâce aux fonds communs.
+    ; L'argent du recrutement doit être remis
+    ; Si nécessaire, l'unité prendra en charge les frais de formation
+    ; et d'entretien du matériel grâce aux fonds communs.
     GIVE TEMP dr01 460 Silver
     MAKE TEMP dr01
-        NAME UNIT &quot;Dragon prismatique&quot;
+        NAME UNIT "Dragon prismatique"
         RECRUIT 1 Demon
-        LEARN Magic &quot;Illaun&quot;
+        LEARN Magic "Illaun"
         COMBAT FLEE
-        // À l&#39;occasion COMBAT REAR
+        // À l'occasion COMBAT REAR
     END
     ;
-    ; Il vous faut bien réfléchir avant d&#39;engager trois mages, afin de vous assurer d&#39;en avoir assez dès le premier tour.
+    ; Il vous faut bien réfléchir avant d'engager trois mages, afin de vous assurer d'en avoir assez dès le premier tour.
     ; Les mages sont généralement toujours un bon investissement, surtout les démons.
-    ; Au besoin, ils disposent d&#39;un sort pour gagner de l&#39;argent, et ils apprennent même quelque chose au passage !
+    ; Au besoin, ils disposent d'un sort pour gagner de l'argent, et ils apprennent même quelque chose au passage !
     GIVE TEMP dr02 460 Silver
     GIVE TEMP dr03 460 Silver
     MAKE TEMP dr02
-        NAME UNIT &quot;Dragon prismatique&quot;
+        NAME UNIT "Dragon prismatique"
         RECRUIT 1 Demon
-        LEARN Magic &quot;Illaun&quot;
+        LEARN Magic "Illaun"
         COMBAT FLEE
     END
     ;
     MAKE TEMP dr03
-        NAME UNIT &quot;Dragon prismatique&quot;
+        NAME UNIT "Dragon prismatique"
         RECRUIT 1 Dämon
-        LEARN Magic &quot;Illaun&quot;
+        LEARN Magic "Illaun"
         COMBAT FLEE
     END
     ;
-    ; Investir dans des combattants d&#39;élite (des héros !) aussi tôt sera-t-il judicieux ?
+    ; Investir dans des combattants d'élite (des héros !) aussi tôt sera-t-il judicieux ?
     GIVE TEMP dr05 720 Silver
     MAKE TEMP dr05
-        NAME UNIT &quot;Dragon de l&#39;Ombre&quot;
+        NAME UNIT "Dragon de l'Ombre"
         RECRUIT 2 Demon
         LEARN Polearm
         // Héros ?
-        ; Nous sommes toujours désarmés, mais avant d&#39;oublier
+        ; Nous sommes toujours désarmés, mais avant d'oublier
         COMBAT AGGRESSIVE
     END
     ;
-    ; Une fois qu&#39;il aura atteint le niveau de compétence minimum, espérons que la production aura commencé.
+    ; Une fois qu'il aura atteint le niveau de compétence minimum, espérons que la production aura commencé.
     ; bois ou fer
     GIVE TEMP dr06 66 Silver
     MAKE TEMP dr06
-        NAME UNIT &quot;Dragon gris&quot;
+        NAME UNIT "Dragon gris"
         RECRUIT 1
         LEARN Weaponsmithing
         COMBAT FLEE
     END
     ;
-    ; Les châteaux contrôlent des régions dans E3, c&#39;est pourquoi ils sont importants dès le début !
+    ; Les châteaux contrôlent des régions dans E3, c'est pourquoi ils sont importants dès le début !
     GIVE TEMP dr07 66 Silver
     MAKE TEMP dr07
-        NAME UNIT &quot;Dragon gris&quot;
+        NAME UNIT "Dragon gris"
         RECRUIT 1
         LEARN Masonry
         COMBAT FLEE
@@ -8013,7 +8013,7 @@ UNIT vdko;       Explorateur [1,5000$]
     ; puis pour les bâtiments et les navires.
     GIVE TEMP dr08 180 Silver
     MAKE TEMP dr08
-        NAME UNIT &quot;Dragon vert&quot;
+        NAME UNIT "Dragon vert"
         RECRUIT 3
         LEARN Forestry
         COMBAT FLEE
@@ -8023,7 +8023,7 @@ UNIT vdko;       Explorateur [1,5000$]
     ; les arcs ou les arbalètes ? Il pourrait être dangereux de le faire trop tôt.
     GIVE TEMP dr10 660 Silver
     MAKE TEMP dr10
-        NAME UNIT &quot;Ailes de dragon&quot;
+        NAME UNIT "Ailes de dragon"
         RECRUIT 10
         LEARN Crossbow
         COMBAT FLEE
@@ -8032,7 +8032,7 @@ UNIT vdko;       Explorateur [1,5000$]
     ; Trouver du fer est également important
     GIVE TEMP dr11 180 Silver
     MAKE TEMP dr11
-        NAME UNIT &quot;Dragon des cavernes&quot;
+        NAME UNIT "Dragon des cavernes"
         RECRUIT 3
         LEARN Mining
         // comme éclaireurs dans les régions voisines
@@ -8042,17 +8042,17 @@ UNIT vdko;       Explorateur [1,5000$]
     ; ...ainsi que des pierres pour les châteaux
     GIVE TEMP dr12 180 Silver
     MAKE TEMP dr12
-        NAME UNIT &quot;Dragon des cavernes&quot;
+        NAME UNIT "Dragon des cavernes"
         RECRUIT 3
         LEARN Quarrying
         COMBAT FLEE
     END
     ;
     ; Il nous faut des éclaireurs, probablement au moins un pour chaque point cardinal.
-    ; Important : n&#39;oubliez pas l&#39;argent pour l&#39;entretien !
+    ; Important : n'oubliez pas l'argent pour l'entretien !
     GIVE TEMP drr1 260 Silver
     MAKE TEMP drr1
-        NAME UNIT &quot;petit chevaucheur de dragon&quot;
+        NAME UNIT "petit chevaucheur de dragon"
         RECRUIT 1
         MOVE sw
         // Extraire des pierres et du fer
@@ -8061,7 +8061,7 @@ UNIT vdko;       Explorateur [1,5000$]
     ;
     GIVE TEMP drr2 260 Silver
     MAKE TEMP drr2
-        NAME UNIT &quot;petit chevaucheur de dragon&quot;
+        NAME UNIT "petit chevaucheur de dragon"
         RECRUIT 1
         MOVE so
         //  Extraire des pierres et du fer
@@ -8202,10 +8202,10 @@ NEXT
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../../javascripts/katex-init.js"></script>
       

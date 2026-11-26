@@ -31,7 +31,7 @@
       
       
       <link rel="icon" href="../../../assets/images/favicon.ico">
-      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.7.1">
+      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.8.2">
     
     
       
@@ -39,10 +39,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
@@ -8293,7 +8293,7 @@ Si vous avez oublié la description, vous pouvez la faire afficher à nouveau à
     - 1 permanente Aura
     Modifikationen: Schiffszauber
     Syntax:
-      CAST &#39;Erschaffe einen Ring der Unsichtbarkeit&#39;
+      CAST 'Erschaffe einen Ring der Unsichtbarkeit'
 </code></pre></div>
 <h3 id="types-de-sort">Types de sort<a class="headerlink" href="#types-de-sort" title="Permanent link">&para;</a></h3>
 <p>Il existe des sorts normaux, des sorts de pré-combat, des sorts de combat et des sorts d'après-combat.</p>
@@ -8320,7 +8320,7 @@ Components:
     -   1 Aura  * Level
 Modifiers:
 Syntax:
-    COMBATSPELL [LEVEL n] &#39;Song of Fear&#39;
+    COMBATSPELL [LEVEL n] 'Song of Fear'
 </code></pre></div>
 <!-- TODO check if below is what german text meant -->
 <p>Si un mage active des sorts de combat, ceux-ci sont automatiquement lancés dès qu'il participe au combat : soit en donnant l'ordre <code>ATTACK</code> lui-même, soit en étant entraîné dans la bataille par une attaque ciblant son camp (voir <a class="autorefs autorefs-internal" href="../../combat/war/#les-camps-dans-une-bataille">Les camps dans une bataille</a>).<br />
@@ -8368,14 +8368,14 @@ Ce bonus est ajouté au niveau spécifié.</p>
 <p>Si le niveau n'est pas précisé, le sort est lancé au niveau maximum possible, c'est à dire le niveau de compétence de l'unité (les modifications comme les bonus raciaux ou les bonus spéciaux comme ceux des Insectes dans les déserts sont pris en compte).<br />
 Une raison pour laquelle cela n'est pas toujours souhaitable est que le niveau auquel le sort est lancé affecte également la <a class="autorefs autorefs-internal" href="#gaffe">probabilité d'erreurs</a>.</p>
 <p>Spécifier un niveau fonctionne également pour les sorts de combat :</p>
-<div class="highlight"><pre><span></span><code>COMBATSPELL LEVEL 2 &quot;Song of Fear&quot;
+<div class="highlight"><pre><span></span><code>COMBATSPELL LEVEL 2 "Song of Fear"
 </code></pre></div>
 <p>Ceci peut être utile, par exemple, lorsque vous souhaitez conserver de l'aura pour un sort d'après-combat.</p>
 <p><strong>Exemple :</strong></p>
-<div class="highlight"><pre><span></span><code>CAST LEVEL 4 &quot;Miracle doctor&quot;
+<div class="highlight"><pre><span></span><code>CAST LEVEL 4 "Miracle doctor"
 </code></pre></div>
 <p>Ce sort <a class="autorefs autorefs-internal" href="../schools/#tybied">Tybied</a> coûtera 4 aura et rapportera 200 silver.<br />
-Avec un <a class="autorefs autorefs-internal" href="../../reference/items/ring-of-power/#anneau-de-pouvoir" power_="Power'" of="of" title=""Ring">anneau de Pouvoir</a>, cela coûtera toujours 4 auras, mais rapportera 250 silver.</p>
+Avec un <a class="autorefs autorefs-internal" href="../../reference/items/ring-of-power/#anneau-de-pouvoir" power_ of title=""Ring">anneau de Pouvoir</a>, cela coûtera toujours 4 auras, mais rapportera 250 silver.</p>
 <h3 id="composants">Composants<a class="headerlink" href="#composants" title="Permanent link">&para;</a></h3>
 <p>S'il est simplement indiqué le nombre d'aura, cela signifie que les coûts sont fixes : <strong>Créer un Anneau d'invisibilité</strong> coûte toujours 50 aura.<br />
 Si les composants d'in sort indiquent par exemple <code>3 Aura * Level</code>, cela signifie que pour lancer un sort une fois, le coût de l'aura est de 3 aura multiplié par le niveau auquel le sort est lancé.<br />
@@ -8385,7 +8385,7 @@ D'autres composants peuvent inclure des plantes, des matières premières, de l'
 <h3 id="magie-a-distance">Magie à distance<a class="headerlink" href="#magie-a-distance" title="Permanent link">&para;</a></h3>
 <p>Les sorts à distance sont lancés dans la région de l'unité de mage, mais s'appliquent dans une région différente.<br />
 Vous pouvez alors utiliser la syntaxe suivante pour ces sorts :</p>
-<div class="highlight"><pre><span></span><code>CAST REGION &lt;x&gt; &lt;y&gt; &quot;&lt;Sort&gt;&quot;
+<div class="highlight"><pre><span></span><code>CAST REGION &lt;x&gt; &lt;y&gt; "&lt;Sort&gt;"
 </code></pre></div>
 <p>Le sort est ensuite lancé dans la région spécifiée.<br />
 Les coordonnées X et Y font référence au <a href="../../orders/origin/"><code>ORIGIN</code></a>.<br />
@@ -8475,7 +8475,7 @@ La formule déterminant le coût de l'aura en fonction du nombre de sorts lancé
 </tbody>
 </table>
 <p>Les deux modificateurs peuvent également être liés :</p>
-<div class="highlight"><pre><span></span><code>CAST REGION &lt;x&gt; &lt;y&gt; LEVEL &lt;niveau&gt; &quot;&lt;Sort&gt;&quot;
+<div class="highlight"><pre><span></span><code>CAST REGION &lt;x&gt; &lt;y&gt; LEVEL &lt;niveau&gt; "&lt;Sort&gt;"
 </code></pre></div>
 <p>Il est important de préciser d’abord la région, puis le niveau.</p>
 <p><strong>Exemple :</strong></p>
@@ -8505,9 +8505,9 @@ Les sorts de même rang sont lancés dans l'ordre spécifié lors du tour.</p>
 <li><code>Ceee</code> est de rang 5 et coûte 5 aura</li>
 </ul>
 <p>En supposant que l'unité passe les ordres avec cette séquence :</p>
-<div class="highlight"><pre><span></span><code>CAST &quot;Ceee&quot;
-CAST &quot;Beee&quot;
-CAST &quot;Aaaa&quot;
+<div class="highlight"><pre><span></span><code>CAST "Ceee"
+CAST "Beee"
+CAST "Aaaa"
 </code></pre></div>
 <p><code>Beee</code> est lancé en premier, car le sort est de rang 2.<br />
 C'est le premier sort de l'unité cette semaine, il coûte donc 20 aura.<br />
@@ -8735,10 +8735,10 @@ C'est pourquoi il existe désormais une <a class="autorefs autorefs-internal" hr
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.path", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "tables", "toc.follow"], "search": "../../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
         <script src="../../../javascripts/katex-init.js"></script>
       

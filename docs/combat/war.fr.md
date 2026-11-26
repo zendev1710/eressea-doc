@@ -98,7 +98,7 @@ Une bataille dure cinq tours de combat, plus un éventuel tour de tactique.
 À chaque tour de combat, les combattants frappent dans un ordre aléatoire.  
 
 Notez que les personnes participant à un combat ( les personnes listées dans le rapport de combat c'est-à-dire attaquées ou attaquantes) ne peuvent en principe pas exécuter d'autres ordres longs.  
-Les exceptions sont [combat en mer][combats-a-bord-et-depuis-les-bateaux] et les combats dans des régions qui, *au début du combat*, sont gardées par au moins une unité de sa propre faction ou qui a mis [`HELP GUARD`][`HELP COMBAT`] avec celle du combattant.  
+Les exceptions sont [combat en mer][combats-a-bord-et-depuis-les-bateaux] et les combats dans des régions qui, *au début du combat*, sont gardées par au moins une unité de sa propre faction ou par une unité qui a mis [`HELP GUARD`][cmd-help-fr] vers la faction du combattant.  
 Dans ce cas, d'autres ordres longs sont possibles.
 
 ### Lignes de combat
@@ -525,8 +525,12 @@ Cela fonctionne aussi si vous avez attaqué vous-même (si vous avez donné l'or
 
 Si aucune unité amie ou alliée ne gardait la région au début du combat, les unités participantes ne pourront plus exécuter d'ordres longs après le combat.
 
-La seule exception concerne les unités avec le statut de combat [`COMBAT FLEE`][cmd-combat-fr] et les unités en mer.  
-Les unités avec le statut `COMBAT FLEE` peuvent se déplacer après une bataille s'ils ont défini l'un des ordres suivants : [[cmd-move-fr]], [`ROUTE`][cmd-route-fr] ou [`FOLLOW SHIP`][cmd-follow-fr].  
+L'ordre `GUARD` n'est [traité qu'après][sequence-des-ordres]{title="séquence des ordres"} `ATTACK`, une région gardée pour la première fois pendant le même tour ne compte donc pas : la garde devait déjà être active au début du combat.
+La garde prend également fin dès que l'unité de garde se déplace.
+
+Les seules exceptions concernent les unités avec le statut de combat [`COMBAT FLEE`][cmd-combat-fr], les unités dont au moins une personne a fui pendant le combat et les unités en mer.  
+Les unités avec le statut `COMBAT FLEE` peuvent se déplacer après une bataille si elles ont défini l'un des ordres suivants : [[cmd-move-fr]], [`ROUTE`][cmd-route-fr] ou [`FOLLOW`][cmd-follow-fr].  
+Les autres unités ne peuvent se déplacer de la même manière que si au moins une de leurs personnes a réussi à fuir pendant le combat.  
 Après une bataille en mer, vous pouvez toujours exécuter des ordres longs.
 
 ## Voir aussi

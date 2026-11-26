@@ -25,7 +25,7 @@ Les ordres qui sont dans une même séquence sont exécutés en même temps ou l
 13. [`ENTER`][cmd-enter-fr]; 3ème essai
 14. [`GIVE CONTROL`][cmd-give-fr]
 15. [`FORGET`][cmd-forget-fr]
-16. [`GIVE CONTROL`][cmd-give-fr]
+16. [`GIVE`][cmd-give-fr]
 17. [`RECRUIT`][cmd-recruit-fr][^1]
 18. [`DESTROY`][cmd-destroy-fr]
 19. [`FOLLOW`][cmd-follow-fr] est défini
@@ -47,7 +47,7 @@ Les ordres qui sont dans une même séquence sont exécutés en même temps ou l
 35. Les bateaux dont l'équipage est insuffisant subissent des dommages
 36. [`ENTER`][cmd-enter-fr]; 4ème essai
 37. [`MOVE`][cmd-move-fr] et [`ROUTE`][cmd-route-fr], incluant [`RIDE`][cmd-ride-fr] et [`CARRY`][cmd-carry-fr] sont exécutés et les unités ayant reçu l'ordre `FOLLOW` d'autres unités le font.
-38. [`GUARD NOT`][cmd-guard-fr] cela n'est possible que si l'unité n'a pas bougé.
+38. [`GUARD`][cmd-guard-fr] cela n'est possible que si l'unité n'a pas bougé.
 39. Les bateaux dérivent en haute mer
 40. [`DEFAULT`][cmd-default-fr]
 41. Les unités vides sont supprimées
@@ -76,7 +76,7 @@ Les ordres de rang égal émanant de différentes unités sont normalement trait
 Ainsi, par exemple, d'abord tous les ordres `GIVE` de la première unité, puis tous les ordres `GIVE` de la deuxième unité, ensuite tous les ordres `RECRUIT` de la première unité, puis de la seconde et ainsi de suite.  
 La [réserve d'objets][reserve-d-objets-id] fonctionne également généralement dans cet ordre : les unités placées en premier dans l'ordre au NR sont d'abord « interrogées » pour savoir si elles peuvent donner un objet.  
 Cependant, la prévalence peut être modifiée par certains ordres.  
-Ceux-ci incluent `ENTER, EXIT, TEMP, GIVE COMMAND` et `GIVE SHIP`.  
+Ceux-ci incluent `ENTER, LEAVE, MAKE TEMP, GIVE CONTROL` et `GIVE SHIP`.  
 Le comportement exact n'est pas garanti ! Par conséquent, en cas de doute, vous devez donner des ordres de telle manière que l'ordre des unités ne joue aucun rôle.
 
 Pour les ordres dont le résultat a une limite supérieure, par exemple la quantité maximale d'arbres dans la région pour `MAKE wood`, le nombre maximal de recrues pour `recruter` ou l'argent de la région pour `ENTERTAIN` et `TAX`, il peut arriver que plusieurs unités soient en concurrence.  

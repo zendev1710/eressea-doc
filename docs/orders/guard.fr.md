@@ -37,7 +37,7 @@ L'unité de garde devient immédiatement visible par toutes les autres unités d
 Si plusieurs factions donnent l'ordre `GUARD` en même temps ou les uns après les autres, ils gardent tous la région.
 Pour les factions où **tout le monde** garde, les factions sont alliées, et les restrictions ci-dessus ne s'appliquent pas.  
 
-Les factions avec **au moins un garde allié** peuvent continuer à exécuter les ordres (éventuellement avec les exceptions ci-dessus) pendant une longue période malgré les combats (voir [Fin de bataille][fin-du-combat]).
+Les factions avec **au moins un garde allié** peuvent encore exécuter des ordres longs malgré les combats, éventuellement avec les exceptions ci-dessus (voir [Fin de bataille][fin-du-combat]).
 
 ## Dissolution de la garde
 

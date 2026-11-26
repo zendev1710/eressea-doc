@@ -44,7 +44,7 @@ Normalement, les factions de garde empêchent les autres factions de [lever des 
 Il arrive aussi que certaines unités soient empêchées de [traverser][cmd-guard-fr] votre région.  
 Si ce statut d'aide est activé, les unités des autres factions sont autorisées à faire tout cela ; elles peuvent donc voyager, exploiter des ressources ou recruter librement.  
 
-De plus, la faction alliée peut recevoir des ordres de longue durée [après les combats][fin-du-combat] si vous défendez la région.  
+De plus, la faction alliée peut exécuter des ordres longs [après les combats][fin-du-combat] si vous gardez la région.  
 
 Enfin, les unités de la faction alliée peuvent [entrer][cmd-enter-fr] dans vos bâtiments et sur vos bateaux.  
 

@@ -28,7 +28,7 @@ This is not possible if the entertainer unit is on board a ship.
 If several factions give the `GUARD` order at the same time or one after the other, they all guard the region.  
 For factions with **everyone** guarding, factions are allied, and the above restrictions do not apply.  
 
-Factions with **at least one** allied guard can continue to carry out orders (possibly with the exceptions above) for a long time despite fighting (see [the-end]).
+Factions with **at least one** allied guard can still execute long orders despite fighting, possibly with the exceptions above (see [the-end]).
 
 In the round in which the `GUARD` order has been given, all of these restrictions do not apply yet, because the guarding unit first has to find out where foreign units could collect silver, etc.  
 The guarding unit immediately becomes visible to all other units in the region, regardless of how high its stealth skill is.

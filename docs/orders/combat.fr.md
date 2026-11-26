@@ -22,8 +22,8 @@ Ensemble des statuts de combat, de la plus forte exposition au combat à la plus
 | Statut                            | Ligne | Tentative de fuite | Adapté pour                        |
 |:----------------------------------|:------|:-------------------|:-----------------------------------|
 | [`AGGRESSIVE`][combat-aggressive] | 1ère  | Jamais             | Les combattants les moins précieux |
-| [`FRONT`][combat-front]           | 1ère  | Dégâts >= 20 %     | Les bons épéistes                  |
-| [`REAR`][combat-rear]             | 2ème  | Dégâts >= 20 %     | Les tireurs                        |
+| [`FRONT`][combat-front]           | 1ère  | Dégâts >= 80 %     | Les bons épéistes                  |
+| [`REAR`][combat-rear]             | 2ème  | Dégâts >= 80 %     | Les tireurs                        |
 | [`DEFENSIVE`][combat-defensive]   | 2ème  | Dégâts >= 10 %     | Les mages                          |
 | [`NOT`][combat-not]               | ---   | Dégâts >= 10 %     | Les occupants d'un bâtiment        |
 | [`FLEE`][combat-flee]             | ---   | Toujours           | Les civils                         |
@@ -38,7 +38,7 @@ Ensemble des statuts de combat, de la plus forte exposition au combat à la plus
 Peut également s'écrire `COMBAT`.  
 
 Avec cet ordre, lors d'un combat, l'unité est au front (en première ligne).  
-L'unité tentera de fuir dès qu'elle aura perdu au moins 20 % de ses points de vie.  
+L'unité tentera de fuir dès qu'elle aura perdu au moins 80 % de ses points de vie.  
 
 Ceci est utilisé avec avantage pour les bons épéistes.  
 
@@ -53,7 +53,7 @@ Ceci est utilisé à son avantage lorsque la dernière puissance offensive compt
 
 Avec cet ordre, l'unité combat en deuxième ligne.  
 Si le front est anéanti, ces unités seront toujours entraînées dans la mêlée (en première ligne) !  
-L'unité fuira **dès qu'elle aura perdu 10 %** de ses points de vie (à la différence de `COMBAT REAR`, où l'unité fuit à 20 % de dégâts).  
+L'unité fuira **dès qu'elle aura perdu 10 %** de ses points de vie (à la différence de `COMBAT REAR`, où l'unité fuit à 80 % de dégâts).  
 
 Ceci est utilisé avec avantage pour les **mages**.  
 
@@ -98,7 +98,7 @@ Ceci est utilisé avantageusement pour les unités qui restent hors du combat ma
 Avec cet ordre, l'unité combat en deuxième ligne.  
 Si le front est anéanti, ces unités seront toujours entraînées dans la mêlée (en première ligne) !  
 
-L'unité tentera de fuir dès qu'elle aura perdu 20 % de ses points de vie.  
+L'unité tentera de fuir dès qu'elle aura perdu 80 % de ses points de vie.  
 
 Ceci est utilisé avec avantage pour les tireurs.  
 

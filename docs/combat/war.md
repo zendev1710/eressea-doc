@@ -492,14 +492,18 @@ Injured units will recover over time.
 Units normally regenerate 5% (some [races][skills-modifiers] more) of their maximum hit points per round, but at least one point per person in the unit.  
 Undead units do not regenerate.
 
-If the region being fought in was [guarded][alliances-id] **at the beginning of the battle** by a friendly unit or by a unit that has set a [`HELP GUARD`][cmd-help] to its own faction ‘'at the start of the battle’', all units participating in the battle (i.e. appearing in the battle report) can still execute a long order.  
+If the region being fought in was [guarded][alliances-id] **at the beginning of the battle** by a friendly unit or by a unit that has set a [`HELP GUARD`][cmd-help] to its own faction, all units participating in the battle (i.e. appearing in the battle report) can still execute a long order.  
 This works even if enemy troops are also guarding the region.  
 It also works if you have attacked yourself (i.e. you have set the `ATTACK` order yourself).
 
 If you have no own or allied units guarding the region at the beginning of the battle, the units participating in the battle can no longer execute long orders after the battle.
 
-The only exception are units with the combat status [`COMBAT FLEE`][cmd-combat] and units at sea.  
-Units with the status `COMBAT FLEE` can move after a battle if the have set one of the following orders: [[cmd-move]], [`ROUTE`][cmd-route] or [`FOLLOW SHIP`][cmd-follow].  
+The [`GUARD`][cmd-guard] order is [treated after][orders-sequence]{title="order sequence"} [`ATTACK`][cmd-attack], so a region that is guarded for the first time during the same turn does not count: the guard must already be active when the battle begins.
+Guarding also ends as soon as the guarding unit moves.
+
+The only exceptions are units with the combat status [`COMBAT FLEE`][cmd-combat], units from which at least one person has fled during the battle, and units at sea.  
+Units with the status `COMBAT FLEE` can move after a battle if they have set one of the following orders: [[cmd-move]], [`ROUTE`][cmd-route] or [`FOLLOW`][cmd-follow].  
+Other units can move in the same way only if at least one of their members has successfully fled during the battle.  
 After sea battles on oceans you can always execute long orders.
 
 ## See also

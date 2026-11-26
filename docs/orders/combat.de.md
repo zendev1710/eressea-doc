@@ -52,7 +52,9 @@ Wird eine fluchtbereite Einheit in einen Kampf verwickelt, versucht sie vor jede
 Für weitere Informationen über das "Fluchtverhalten", siehe den Abschnitt [Flucht][die-flucht] im Kapitel Kampf.
 Diesen Kampfstatus setzt man mit Vorteil für fast alle "Zivilisten" ein.
 Flieht aus einer Einheit auch nur eine Person erfolgreich aus einem Kampf, verlässt diese automatisch Gebäude oder an Land liegende Schiffe, in denen sie sich befindet.
-Es gilt daher abzuwägen, ob dieser Status für Gebäudeinsassen sinnvoll ist.Einheiten mit diesem Kampfstatus können auch nicht [`ATTACKIERE`][bef-attackiere] oder [`BEWACHE`][bef-bewache].
+Es gilt daher abzuwägen, ob dieser Status für Gebäudeinsassen sinnvoll ist.
+
+Einheiten mit diesem Kampfstatus können auch nicht [`ATTACKIERE`][bef-attackiere] oder [`BEWACHE`][bef-bewache].
 Setzt eine bewachende Einheit KÄMPFE FLIEHE, wird das Bewachen sofort aufgehoben, mit entsprechenden Konsequenzen.
 Einheiten mit dem Kampfstatus können sich nach dem Kampf noch bewegen (mit [`NACH`][bef-nach], [`ROUTE`][bef-route], [`FOLGE`][bef-folge]).
 

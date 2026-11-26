@@ -429,11 +429,15 @@ Untote Einheiten regenerieren nicht.
 
 Wenn die Region, in der gekämpft wurde, *bei Kampfbeginn* von einer eigenen Einheit oder von einer Einheit, die zur eigenen Partei ein [`HELFE BEWACHE`][bef-helfe] gesetzt hat, [bewacht][allianz] wurde, können alle Einheiten, die am Kampf teilnehmen (die also im Kampfreport auftauchen), noch einen langen Befehl ausführen.
 Das funktioniert selbst, wenn feindliche Truppen die Region ebenfalls bewachen.
-Es funktioniert auch, wenn man selbst angegriffen hat (also die `ATTACKE`-Befehle selbst gesetzt wurden).
+Es funktioniert auch, wenn man selbst angegriffen hat (also die `ATTACKIERE`-Befehle selbst gesetzt wurden).
 Hat man zu Beginn des Kampfes keine eigenen oder verbündeten Einheiten, die die Region `BEWACHEN`, können die am Kampf teilnehmenden Einheiten nach dem Kampf keine langen Befehle mehr ausführen.
 
-Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`KÄMPFE`] und Einheiten auf See.
-Einheiten mit dem Status `KÄMPFE FLIEHE` können sich nach dem Kampf noch bewegen, wenn sie einen der folgenden Befehle gesetzt haben: [[bef-nach]]`,`[[bef-route]]` oder `[`FOLGE SCHIFF`][bef-folge].
+Der `BEWACHE`-Befehl wird [erst nach][befehlsreihenfolge]{title="Befehlsreihenfolge"} `ATTACKIERE` abgearbeitet, deshalb zählt eine Region, die in derselben Runde erstmals bewacht wird, nicht: Die Bewachung muss bereits zu Beginn des Kampfes aktiv gewesen sein.
+Die Bewachung endet außerdem, sobald die bewachende Einheit sich bewegt.
+
+Die einzigen Ausnahmen bilden Einheiten mit dem Kampfstatus [`KÄMPFE FLIEHE`][`KÄMPFE`], Einheiten, aus denen während des Kampfes mindestens eine Person geflohen ist, und Einheiten auf See.  
+Einheiten mit dem Status `KÄMPFE FLIEHE` können sich nach dem Kampf noch bewegen, wenn sie einen der folgenden Befehle gesetzt haben: [[bef-nach]], [[bef-route]] oder [`FOLGE`][bef-folge].  
+Andere Einheiten können sich nach dem Kampf nur dann ebenso bewegen, wenn während des Kampfes mindestens eine ihrer Personen erfolgreich geflohen ist.  
 Nach Kämpfen auf See kann man stets noch lange Befehle ausführen.
 
 ## Siehe auch

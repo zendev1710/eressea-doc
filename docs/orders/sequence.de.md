@@ -44,7 +44,7 @@ Die Befehle von Eressea werden in einer festen Reihenfolge ausgewertet. Befehle,
 35. Schiffe mit mangelnder Besatzung nehmen Schäden
 36. `BETRETE`[bef-betrete]; 4. Versuch
 37. [`NACH`][bef-nach] und [`ROUTE`][bef-route], dabei wird auch [`FAHRE`][bef-fahre] und [`TRANSPORTIERE`][bef-transportiere] ausgeführt und Verfolger folgen
-38. [`BEWACHE NICHT`][bef-bewache] an; das geht nur, wenn die Einheit sich nicht bewegt hat
+38. [`BEWACHE`][bef-bewache] an; das geht nur, wenn die Einheit sich nicht bewegt hat
 39. Schiffe treiben auf hoher See
 40. [`DEFAULT`][bef-default]
 41. leere Einheiten werden beseitigt

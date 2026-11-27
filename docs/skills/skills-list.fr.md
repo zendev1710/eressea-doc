@@ -362,7 +362,7 @@ L'apprentissage de la tactique coûte 200 silver par tour et par personne.
 
 Cette compétence permet de collecter les impôts auprès des paysans.  
 
-Une unité peut collecter 20 silver auprès des paysans, par niveau de compétence et par personne **[armée et prête au combat][arme-et-pret-au-combat]**.  
+Une unité peut collecter 20 silver auprès des paysans, par niveau de compétence et par personne **[armée][arme-et-pret-au-combat]**.  
 
 Cette compétence n'augmente pas en l'utilisant, pas plus que la compétence d'arme correspondante.  
 

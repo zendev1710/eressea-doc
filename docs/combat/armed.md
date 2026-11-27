@@ -5,10 +5,10 @@ alias: armed
 
 # Armed
 
-A unit is considered armed and ready for fight if it possesses a [combat skill][combat-skills] and at least one weapon of the corresponding type.
+A unit is considered armed if it possesses a [combat skill][combat-skills] and at least one weapon of the corresponding type.
 
 !!! note "Important"
-    A unit **must be armed and ready for fight** to be able to:
+    A unit **must be armed** to be able to:
     - [guard][cmd-guard] a region
     - [collect taxes][skill-taxation-id]
 

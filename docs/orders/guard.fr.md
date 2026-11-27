@@ -8,7 +8,7 @@ alias: cmd-guard-fr
 **`GUARD`**`[NOT]`
 
 Les unités peuvent garder leur région.
-Pour cela, elles doivent être [armées et prêtes au combat][arme-et-pret-au-combat], c'est à dire équipées d'au moins une [arme][tableau-armes-fr-id] et posséder la compétence de maniement de l'arme appropriée.  
+Pour cela, elles doivent être [armées][arme-et-pret-au-combat], c'est à dire équipées d'au moins une [arme][tableau-armes-fr-id] et posséder la compétence de maniement de l'arme appropriée.  
 
 !!! note
 
